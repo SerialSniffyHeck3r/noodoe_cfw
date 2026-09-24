@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**Companion 6.11.3 — Phone notification font fit**
+**Companion 6.11.4 — Compact two-line notifications**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.3-phone-font-fit/NoodoeCompanion-6.11.3.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.3-phone-font-fit/NoodoeInstaller-CFW-6.11.3.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.4-phone-compact-two-lines/NoodoeCompanion-6.11.4.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.4-phone-compact-two-lines/NoodoeInstaller-CFW-6.11.4.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `companion-v6.11.3-phone-font-fit`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `companion-v6.11.4-phone-compact-two-lines`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
