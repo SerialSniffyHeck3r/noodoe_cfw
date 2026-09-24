@@ -84,6 +84,10 @@ Firmware와 Language는 본체 버전/고정 UI 언어를 표시하는 읽기 �
 
 Power sequence에는 **Screen hold, Screen duration, BT only, BT-only duration, All off (STOP), Wake condition**이 있습니다. 두 유지 시간은 각각 0~1440분입니다. 각 단계와 마지막 단계 유지 조건은 [절전 설명](07-Power-Warnings.md)을 참고하세요.
 
+6.11.0의 `Restart Noodoe`는 확인 후 설정과 주행 기록의 저장이 완료되면 본체를 재부팅합니다. 업데이트 시험 부팅 중이거나 저장에 실패하면 재부팅하지 않고 상태를 표시합니다. 순정 복구나 데이터 삭제가 아닙니다.
+
+System 메뉴 안에서 UP을 짧게 20번 눌렀다 놓으면 `See dev message`가 나타납니다. 선택하면 `this is easter egg!`가 표시되고 O로 돌아갑니다. 길게 누른 반복은 횟수에 포함하지 않습니다. 잠금 해제는 재부팅하면 사라집니다.
+
 ## Debug
 
 읽기 전용 상태로 Bluetooth/HCI·연결, 조도 센서, 보정/송신 밝기, 입력 스위치, UART 및 관련 런타임 상태를 확인합니다. 값이 보인다는 이유만으로 실제 무선 연결·배선·광학 밝기가 정상인 것은 아닙니다. 심층 진단은 별도 Diagnostic 펌웨어 경로입니다.
