@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**Companion / CFW 6.10.4 — Companion Reconnect Fix**
+**Companion / CFW 6.11.0 — Phone Pages, GPS and System Settings**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.10.4-companion-reconnect/NoodoeCompanion-6.10.4.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.10.4-companion-reconnect/NoodoeInstaller-CFW-6.10.4.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.0-phone-pages/NoodoeCompanion-6.11.0.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/companion-v6.11.0-phone-pages/NoodoeInstaller-CFW-6.11.0.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `companion-v6.10.4-companion-reconnect`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `companion-v6.11.0-phone-pages`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
