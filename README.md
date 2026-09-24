@@ -14,3 +14,7 @@ Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서�
 
 # noodoe_cfw
 Noodoe CFW companion APK downloads
+
+## 사용 설명서
+
+[전체 기능·설치·업데이트·복구 설명서](docs/manual/README.md) — 페이지별 본체 캡처와 앱 단계별 화면.
