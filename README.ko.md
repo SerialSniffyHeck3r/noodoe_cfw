@@ -14,7 +14,15 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 
 아이폰용 앱은 없다. 이건 애플 잘못이지 내 잘못이 아니라는 점을 알아둬라ㅋ 
 
-## 문서
+
+본 프로젝트를 설치하거나 사용하고 싶으시다면, 다음 문서를 참고하십시오:
+
+[사용 설명서](Projects/documentations/manual/README.md)
+
+
+## 분석 관련 문서
+
+아래의 문서들은 본인의 연구 노트 중 일부를 적은 것이다. 전부 적은 것은 아니며 업데이트될 수 있다. 
 
 | 주제 | 문서 |
 |---|---|
@@ -25,6 +33,5 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 메모리와 자산 | [메모리 지도](Projects/documentations/memory-map.ko.md) |
 | 설치·롤백·복구 | [설치·복구 구조](Projects/documentations/installer.ko.md) |
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
-| 사용 설명서 | [페이지별 설명서](Projects/documentations/manual/README.md) |
 
 [English](README.md) · [최신 릴리스](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
