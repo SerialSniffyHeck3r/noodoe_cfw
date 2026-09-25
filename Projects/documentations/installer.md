@@ -1,39 +1,39 @@
-# Installation, updates and recovery
+# Installing, updating, and getting back to stock
 
-[한국어](installer.ko.md)
+The rule behind this installer is simple: **even if Product or Bluetooth dies, the rider needs a way back**. [한국어](installer.ko.md)
 
-The installer is designed around one rule: **the rider must still have a way back if Product or Bluetooth fails.** It is not a generic STM32 flasher. It depends on a compatible, identified Noodoe board, its original updater and an exact stock recovery image. Check the release's target profile and validation notes rather than assuming every AK 550 year is identical.
+I'm serious about this. Around 25 September 2026, Samsung had a spectacular refrigerator-update fiasco in Korea: firmware went wrong and people's food spoiled, right around Chuseok. The joke writes itself, but the failure really isn't funny. An AK550 has no friendly user-facing hardware programming port. Firmware work normally happens over Bluetooth, and Bluetooth needs both a functioning chip and a functioning stack. What if my next build kills either one? I was not going to make “remove the front fairing, battery and cluster, then find SWD” the standard recovery procedure.
 
-## First installation
+I thought about it while falling asleep, doing delivery shifts and eating dinner alone. Eventually this architecture emerged. Allow me one small moment of self-congratulation: genius. Okay, back to work.
 
-```text
-Stock application → stock updater → FuckNudo Bootstrap
-    → device/BL/FAT audit → CFW-owned files + exact recovery image
-    → Gate + Product installation → Product trial → confirmed CFW
-```
+## First install: stock to CFW
 
-The Android wizard first identifies the selected device and package. The stock updater loads the Bootstrap through the stock-supported path; CFW does not ask the app to program the stock bootloader or arbitrary MCU addresses. Bootstrap uses the same HCI/SPP/NDCP low-level family as Product, but has its own UI and storage permissions. It checks the observed hardware/bootloader profile, FAT ownership, free clusters and current journal before enabling a bounded write scope. The phone records critical intent and recovery evidence locally before a mutating command.
+1. The Android wizard identifies the selected Noodoe and package, then sends a small Bootstrap through the **stock APP's update path**. The phone does not write arbitrary MCU addresses or replace the resident bootloader.
+2. Bootstrap checks the board/BL identity and FAT allocation: free clusters, both FAT copies, stock update reserve and ownership of existing files. Before a modifying command, the app journals the session, package, device and recovery evidence locally.
+3. Within verified ranges it prepares CFW-owned files and the exact stock APP recovery copy. Product is received once; where possible, duplicate copies are made on the device. “Wrote it” and “physically reread NOR and verified it” are different answers.
+4. On device approval, the existing stock install path places Gate and Product in internal flash. A 100% transfer bar is not this step's finish line.
+5. Product's first boot is a **trial**. Required tasks must progress normally for 30 seconds, services must come up, and the app must confirm the same device UID and candidate version before the new build becomes permanent. Any previous working CFW stays protected until then.
 
-On the device, stock recovery and the initial CFW files are prepared and physically read back. Product is transmitted once, with local copies used where possible, rather than sending the same 384 KiB image multiple times. A prepared file is not an installed application: after verified staging and local confirmation, the existing stock installation mechanism places Gate/Product in internal flash. The first launch is a **trial**. Product must show healthy progress for the current 30-second interval, initialize the needed services and be matched to the phone's candidate/UID confirmation before its journal is committed as working. The device's evidence is authoritative; a phone progress bar is only an interpretation of it.
+The stock bootloader's own first-install behavior cannot be retroactively made atomic by a Gate that hasn't been installed yet. So “Bluetooth connected,” “file received,” “new screen visible” and “permanently confirmed” appear as separate events on phone and device. This distinction may look fussy, but a lying green checkmark is worse.
 
-The stock bootloader's own flash/metadata operation is a separate failure window. Gate cannot make a previously unchanged stock bootloader atomic. Do not interpret “transfer complete” or “Bluetooth connected” as proof that the trial has been confirmed.
+For step-by-step screens, use the [installation manual](../Manuals/Installation/08-First-Install.md).
 
-## Routine Product update
+## Updating an existing CFW
 
-For a compatible installed Gate and unchanged resources, the ordinary update path sends the **384 KiB Product body** to the inactive NOR A/B file. It verifies the header, vectors, resource requirement, UID and complete image hash with NOR readback, then commits the candidate. Gate copies it into `0x08020000–0x0807FFFF` and verifies internal flash before boot. The previous confirmed Product remains available on NOR until the new version is accepted. If the new runtime fails or its confirmation does not arrive within the bounded trial window, Gate can restore that previous confirmed image. A trial failure and an actual stock return are distinct results.
+With unchanged Gate and assets, the routine update sends just the **384 KiB Product APP** into the inactive external NOR A/B file. No need to rebuild FAT, retransmit stock recovery or send the same image three times. Before registering a candidate in the journal, the receiver checks target and UID, header/vector, required assets, length/hash and physical NOR reread. Gate copies the verified candidate to internal **0x08020000–0x0807FFFF** and checks that flash too.
 
-Disconnects are reported as uncertain until the device is queried again. A file's verified sector/offset and package identity determine whether the transfer may resume; `COMMIT` or `RESET` is never blindly replayed simply because an app request timed out. Changing the Bootstrap/Gate or resource format may require a separate first-install-style migration; a Product-only ZIP cannot silently change those components.
+After a link interruption, the app asks the device which sectors and offsets were verified, compares the package hash, then resumes. If a COMMIT or RESET response vanishes, it reads status before doing anything again. A failed health or phone confirmation can return to the previous working Product if one exists. **CFW rollback** and **stock restore** are separate outcomes. Changes to Gate, Bootstrap or asset-file format use a separate migration path. On the first ever CFW install there is, of course, no older working CFW to roll back to; pretending otherwise would be a lousy trick.
 
-## Button-only recovery and stock return
+## Stock recovery with buttons
 
-RecoveryGate is an independent executable in its own 64 KiB internal-flash sector. It starts its watchdog early, runs without Product, Bluetooth, SDRAM, LVGL or downloaded fonts, and can draw a basic EVE ROM-text recovery screen. On the studied wiring, the deliberate entry gesture is: key OFF, press and hold the center/ENTER button, key ON while holding, then continue holding through the recovery threshold. The current [Gate policy](../STM32/RecoveryGate/README.md) records its debounce and timing. Entry into recovery **does not itself authorize** erasing Product or restoring stock; a fresh local confirmation is required.
+I guarded that 64 KiB Gate sector throughout Product development. Product could use the space, sure, but I would rather keep my fairing attached. Gate has no dependency on Product, Bluetooth, SDRAM, LVGL or external fonts. Its EVE ROM text and primitives draw a recovery screen, and it runs a watchdog. The intentional entry gesture is **key OFF → hold center O → turn key ON while holding → keep holding for the specified time**. Entering Gate doesn't itself erase Product or approve stock installation; the rider confirms that on Gate's screen.
 
-Gate validates the preserved `CFWREC.DAT` against the pinned stock version, board identity and original boot-code fingerprint, stages the image in the OEM update area, checks physical readback and then asks the original installer to restore the stock APP. A normal Gate stock return leaves the CFW-owned NOR files allocated. That is intentional: they make later reinstallation or forensic review possible and do not overwrite the original photos. An explicit uninstall/data-erasure route has its own temporary firmware and FAT ownership checks; it is not what the emergency button performs.
+Gate compares `CFWREC.DAT` with the stock version, board identity and preserved boot-code details. It stages the verified stock APP in the original updater area, physically rereads it and hands off to the stock installer. This **keeps CFW data** in NOR. Original stock photos and files stay put; CFW's added files stay too. Actually erasing their contents and returning FAT space belongs to a separate uninstall operation.
 
-If both CFW and radio are dead but Gate, the button input, NOR, MCU and original installer still work, this local route is the intended no-ST-LINK recovery. It cannot recover a physically damaged NOR, a broken power/clock source, lost stock image or corrupted resident bootloader. On a vehicle without an accessible SWD header, these limits matter more than a successful bench flash.
+If CFW and radio both take a spectacular dive, the Gate/buttons/MCU/NOR/stock installer and recovery image can still bring stock back without ST-LINK. And yes, SWD remains the ultimate tool if the board itself is damaged. I'd still rather not remove the bike's bodywork. The resident stock bootloader is deliberately left alone; both install and recovery rely on it.
 
-## Data and identity boundaries
+## What remains intact
 
-The project never treats factory MAC/PIN/vehicle identity as user settings. The original internal boot/factory area remains in place across Product updates and normal stock restoration. CFW's settings, trips, three custom picture slots, logs, resource banks and A/B images live in separate validated FAT files. A restored stock application sees its own photos and OEM file layout; additional CFW files remain unless explicitly removed. A changed phone bond may still require Android re-pairing, which is separate from restoring factory data.
+Factory MAC, PIN and vehicle identity are not user preferences. Product updates and ordinary stock restore leave the lower boot/factory region alone. Settings, trips, three CFW photo slots, logs, assets and A/B images live in separately owned FAT files. After restoring the stock APP, seeing the original photos is expected. It does **not** mean every external NOR byte has returned to factory-shipping condition. Pairing keys may have changed while CFW ran, so the phone may need pairing again.
 
-The [user manual](manual/08-First-Install.md) walks through visible screens. The exact wire/storage contracts are in [NDCP protocol](technical-notes/ndcp-protocol.md), [install session](technical-notes/install-session-v2.md), [Gate source contract](../STM32/RecoveryGate/README.md) and [memory map](memory-map.md). These documents describe mechanisms; each release separately states which hardware and interruption tests were actually completed.
+The [installation screens](../Manuals/Installation/README.md), [NDCP notes](technical-notes/ndcp-protocol.md) and [install-session contract](technical-notes/install-session-v2.md) have the operational details.

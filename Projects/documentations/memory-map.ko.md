@@ -12,7 +12,7 @@
 | 0x20000000–0x2002FFFF | 192KiB | 일반 SRAM. DMA 버퍼, 48KiB FreeRTOS 힙, 스택·큐·진단 등에 사용한다. 끝 256바이트는 Gate/Product 공유 mailbox용이다. |
 | 0x10000000–0x1000FFFF | 64KiB | CCM. 보호 경계가 있는 LVGL 48KiB 풀을 둔다.  |
 
-Gate와 Product를 합친 CFW의 내부 APP 영역은 448KiB다. 
+Gate와 Product를 합친 CFW의 내부 APP 영역은 448KiB다.
 
 ## 외장 NOR: 순정 FAT 안의 소유 공간
 
