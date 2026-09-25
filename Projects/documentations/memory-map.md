@@ -1,7 +1,5 @@
 # Memory map and resources
 
-These are the **examined STM32F429IE-family configuration and current linker contracts**, not a promise that an unknown Noodoe revision has the same flash size or NOR layout. Addresses below are MCU addresses unless marked as NOR offsets. The current definitions are in [`Linker`](../STM32/Linker), [Gate ABI](../STM32/RecoveryGate/include/gate_abi.h) and [memory contract](../STM32/MEMORY.md).
-
 ## Internal flash and RAM
 
 | Address | Size | Purpose |
