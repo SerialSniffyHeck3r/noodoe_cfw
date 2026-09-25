@@ -4,7 +4,7 @@ The rule behind this installer is simple: **even if Product or Bluetooth dies, t
 
 I'm serious about this. Around 25 September 2026, Samsung had a spectacular refrigerator-update fiasco in Korea: firmware went wrong and people's food spoiled, right around Chuseok. The joke writes itself, but the failure really isn't funny. An AK550 has no friendly user-facing hardware programming port. Firmware work normally happens over Bluetooth, and Bluetooth needs both a functioning chip and a functioning stack. What if my next build kills either one? I was not going to make “remove the front fairing, battery and cluster, then find SWD” the standard recovery procedure.
 
-I thought about it while falling asleep, doing delivery shifts and eating dinner alone. Eventually this architecture emerged. Allow me one small moment of self-congratulation: genius. Okay, back to work.
+I thought about it while falling asleep, doing delivery shifts, eating dinner alone and, most importantly, even when gooning.... Eventually this architecture emerged. Allow me one small moment of self-congratulation: A FUCKING GENIUS. Okay, back to work.
 
 ## First install: stock to CFW
 
