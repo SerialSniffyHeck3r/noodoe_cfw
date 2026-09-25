@@ -1,0 +1,320 @@
+{
+  "date": "2026-09-21",
+  "hardware_access": false,
+  "installed": false,
+  "wireless_verified": false,
+  "target": {
+    "status": 0,
+    "major": 5,
+    "minor": 16,
+    "hardware": 0,
+    "boot_major": 0,
+    "boot_minor": 15,
+    "model": "SAA1AA(KR)",
+    "pcba": "SR0701"
+  },
+  "deployment": "bootstrap-diagnostics",
+  "artifacts": {
+    "NoodoeInstaller-BL015-debug.apk": {
+      "bytes": 419929,
+      "sha256": "3dfe155ec1835a04e5011e0aa1d9c2fedca43b7d9e36342e5ededc1084224bd9"
+    },
+    "vehicle015/installer.zip": {
+      "bytes": 977669,
+      "sha256": "168372fe0accccf12e16e7284d8f5b4abf350dbc467b2c88300649d3500c1d50"
+    },
+    "bootstrap/bootstrap.bin": {
+      "bytes": 440420,
+      "sha256": "d959140c35c97fe0ea213603e3d6f1bacab7efd0c9d7bc0df8c4674105577b86"
+    },
+    "bootstrap/bootstrap.elf": {
+      "bytes": 3507152,
+      "sha256": "c4049d5f44ca4ff1aed5a92b54c850b35dd99703b39f3b43bda270663e5825c0"
+    },
+    "gate/recovery_gate.bin": {
+      "bytes": 19736,
+      "sha256": "4a1b0704970758477c6aa438adb16530453129114aea3db561657a27fcd530e5"
+    },
+    "gate/recovery_gate.elf": {
+      "bytes": 955616,
+      "sha256": "be6966ec5f7098f0be7451f3138c72d4bf1cae6a3c62621561b60176b8a215fa"
+    },
+    "product-release/FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 2545684,
+      "sha256": "7dd2492a5e3823dc84f84be9f6293200162da77d97d3cf88ee6b2fd7241883ea"
+    },
+    "product-release/app.bin": {
+      "bytes": 326708,
+      "sha256": "a0146579b33ff89a3c25713ba5867447d17ffe7ede8bd3c982f5a46ae69a6c82"
+    },
+    "product-release/app.manifest.json": {
+      "bytes": 5506,
+      "sha256": "5bd8e54929dcbdf4c881627b78054bbba9ecfe686e60245e0eb246ac8699f99f"
+    },
+    "product-release/memory-report.json": {
+      "bytes": 4536,
+      "sha256": "f81b433abfdbbda77ca57d044b23760247d2490e2a3ad0fc799bf5d137e3ca50"
+    },
+    "product-debug/FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 8086772,
+      "sha256": "cfbfdf209adad8533671d5d3dbc650aba0cae08f3aa5942faf7690f71a9ee4f7"
+    },
+    "product-debug/app.bin": {
+      "bytes": 360260,
+      "sha256": "fe37a4b0f4c18d9ee567567a69d9c08eaedf566572c3d20ca4944aa6c51255ed"
+    },
+    "product-debug/app.manifest.json": {
+      "bytes": 6869,
+      "sha256": "fa33d2798fa5ad85ba68f602baaae467f5ee26aad6a5dc17b8ef9a176034c257"
+    },
+    "product-debug/memory-report.json": {
+      "bytes": 4424,
+      "sha256": "ac78fcb43072eebf0c7adaf307c0b8c6773fa7ec3c75957ec13c68a441ed4348"
+    }
+  },
+  "memory": [
+    {
+      "profile": "Product",
+      "configuration": "Release",
+      "flash": {
+        "capacity": 393216,
+        "used": 326708,
+        "free": 66508
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 136152,
+        "free": 60200,
+        "sections": {
+          ".data": 1628,
+          ".bss": 132720,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    },
+    {
+      "profile": "Product",
+      "configuration": "Debug",
+      "flash": {
+        "capacity": 393216,
+        "used": 360260,
+        "free": 32956
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 137608,
+        "free": 58744,
+        "sections": {
+          ".data": 2816,
+          ".bss": 132988,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    }
+  ],
+  "tests": {
+    "target-profile": {
+      "path": "test-results/target-profile.json",
+      "sha256": "66ac810d2cc9d682f8be927091de2f76b546643265e0391b986ccd732f3f9a7e",
+      "passed": true
+    },
+    "metadata": {
+      "path": "test-results/metadata.json",
+      "sha256": "862604663d267d0e383c27809d605ae8fda8a8fb356bd4cd8d500fb7cf9783e0",
+      "passed": true
+    },
+    "protocol-services": {
+      "path": "test-results/protocol-services.json",
+      "sha256": "9d2492877c32de55c129c63d8bd68ea43cbc897b1fc4e4142b00aec872fb9379",
+      "passed": true
+    },
+    "runtime-update": {
+      "path": "test-results/runtime-update.json",
+      "sha256": "6495e6fbf769d59cf2edacc561040d9edfc83f1f8e5da887fb89773a4bbd58bf",
+      "passed": true
+    },
+    "storage-swd": {
+      "path": "test-results/storage-swd.json",
+      "sha256": "bf587ebfdee04f845a9512de875a1a80e38258900b6ba5387f1781ea9f9d7427",
+      "passed": true
+    },
+    "control-wire": {
+      "path": "test-results/control-wire.json",
+      "sha256": "db6326e6c371a1d76750bf27ca34c525a39e852b0e895c016ffb70c8837f27ef",
+      "passed": true
+    },
+    "recovery-core": {
+      "path": "test-results/recovery-core.json",
+      "sha256": "cd8c6e48279f14209da9d04352d917c7b3457670e62bbe88fee9eda00136f166",
+      "passed": true
+    },
+    "gate-display": {
+      "path": "test-results/gate-display.json",
+      "sha256": "64d96234df1980771949db570339ddbd4f102633dfbdbb0e9c541d4664c0fb8b",
+      "passed": true
+    },
+    "cfw-store": {
+      "path": "test-results/cfw-store.json",
+      "sha256": "674a2eba9a72f1dedf702653f34232443b78a0e2918703e3e819791ea578dd18",
+      "passed": true
+    },
+    "resources": {
+      "path": "test-results/resources.json",
+      "sha256": "acb77423f647eeff31202b80c427d54592aae0b995f813a40ff903639a1e234c",
+      "passed": true
+    },
+    "bootstrap-storage": {
+      "path": "test-results/bootstrap-storage.json",
+      "sha256": "5026b52a00b6d8f79406e799a8ebc7b7e208fba1c5c4fbbed19c022e8c8ce818",
+      "passed": true
+    },
+    "gate-policy": {
+      "path": "test-results/gate-policy.json",
+      "sha256": "086e5ecff1a359396b93783fcf7948bf959e44bd7ba8a5d235d293956b9258b4",
+      "passed": true
+    },
+    "android": {
+      "tests": 86,
+      "suites": [
+        {
+          "name": "io.opennoodoe.app.companion.CompanionTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.GallerySlotStoreTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+          "tests": "5",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.InstallerTest",
+          "tests": "20",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.MaintenanceTest",
+          "tests": "9",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.ProductBootTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.protocol.ProductCommandPolicyTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.protocol.ProtocolCodecTest",
+          "tests": "22",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.VehicleModelCatalogTest",
+          "tests": "3",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.VehicleTelemetryTest",
+          "tests": "8",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.WelcomeLightPolicyTest",
+          "tests": "3",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        }
+      ],
+      "passed": true
+    },
+    "final-package-import": {
+      "passed": true,
+      "path": "package-import-test.log"
+    }
+  },
+  "gate": {
+    "base": "0x8010000",
+    "bytes": 19736,
+    "sector_bytes": 65536,
+    "free_bytes": 45800,
+    "sha256": "4a1b0704970758477c6aa438adb16530453129114aea3db561657a27fcd530e5",
+    "sources": 16,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "bootstrap": {
+    "bytes": 440420,
+    "free_bytes": 18332,
+    "sha256": "d959140c35c97fe0ea213603e3d6f1bacab7efd0c9d7bc0df8c4674105577b86",
+    "sources": 133,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "limits": [
+    "Actual BL0.15 binary is not available; synthetic profile tests are not execution of BL0.15.",
+    "No healthy-radio or real power-loss test was performed in this turn.",
+    "First captured lower64KiB is after Bootstrap installation; metadata may already differ from stock.",
+    "This changes BL compatibility and installation qualification, not completion of every companion feature."
+  ]
+}

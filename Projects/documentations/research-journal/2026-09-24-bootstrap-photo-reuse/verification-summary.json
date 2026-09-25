@@ -1,0 +1,612 @@
+{
+  "apk_version": "6.9.2",
+  "version_code": 16,
+  "apk_sha256": "a01dcfa562488021c9755d0ed9e733a14701a206d92c63321005d14d68db793a",
+  "apk_bytes": 28638132,
+  "bundle_sha256": "04eaedf5215e0dea99c0085a04e7df754cb4319ba7fdf4d5c560ee975b8f66d6",
+  "bundle_bytes": 1393042,
+  "android": {
+    "tests": 230,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 84
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "current": {
+      "accepted": true,
+      "sha256": "04eaedf5215e0dea99c0085a04e7df754cb4319ba7fdf4d5c560ee975b8f66d6"
+    },
+    "6.9.0": {
+      "accepted": true,
+      "sha256": "372c5282ff28cc6acd814c019effe3e29c763ef5d2a0b490680a7134032a97c6"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "bundle_changed_members": [
+    "bootstrap.bin",
+    "manifest.properties"
+  ],
+  "bundle_member_sha256": {
+    "manifest.properties": "f77fb38c5eee7339739a79ba01e9bff029e18f99ce30cf5d9fd66c01369a27b0",
+    "bootstrap.bin": "d8a5a5dcae675dcbc4b2535d72ffb285d1fc31fba4a413e59867e828ef50bd4e",
+    "cfw.bin": "015621b7370ef8532932fdc4b0ed86107bf7053f66cd8119889c47e4e14f2c94",
+    "stock.bin": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf",
+    "resources.bin": "7ad6266412e3246d97b49c6681e4cba3225ddd7566eccc5e896f386b58fe72ff",
+    "uninstall.bin": "4de5a5f2ffcfc6cfa2f251f01adf503f3129476461379135ca389fc245e533b0",
+    "diagnostic.bin": "47ffd1b0a44e152e8a0aed71eb04ee11e56443aa06f43d5c81b6a866b9e1365b"
+  },
+  "product_gate_assets_unchanged": true,
+  "bootstrap": {
+    "bytes": 453292,
+    "free_bytes": 5460,
+    "sha256": "d8a5a5dcae675dcbc4b2535d72ffb285d1fc31fba4a413e59867e828ef50bd4e",
+    "sources": 138,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "arm_photo_cases": {
+    "legacy-photo-final": {
+      "passed": true,
+      "legacy": true,
+      "cases": [
+        {
+          "case": "fresh empty",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "used valid JPEG",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 1",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 2",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 3",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 4",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 5",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 6",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "empty header with arbitrary stale body",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "actual Product reset result (fixture UID adapted)",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong photo UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "unsupported photo schema",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "zero JPEG length",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "oversized JPEG",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong JPEG magic",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "body CRC failure",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "uncommitted only header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "partially erased header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong container UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "valid A with torn B",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        }
+      ],
+      "bootstrap_sha256": "7cd81464a047a37d09aeeb9572a1860111648c35c4eeba148bf7a50ca0ace51a",
+      "limits": "Actual ARM with memory NOR and accelerated SHA/memcpy. Product fixture UID adapted; photo banks exact. Not RF or power-loss timing."
+    },
+    "fixed-photo-final": {
+      "passed": true,
+      "legacy": false,
+      "cases": [
+        {
+          "case": "fresh empty",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "used valid JPEG",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 1",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 2",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 3",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 4",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 5",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 6",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "empty header with arbitrary stale body",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "actual Product reset result (fixture UID adapted)",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong photo UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "unsupported photo schema",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "zero JPEG length",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "oversized JPEG",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong JPEG magic",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "body CRC failure",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "uncommitted only header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "partially erased header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong container UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "valid A with torn B",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        }
+      ],
+      "bootstrap_sha256": "58d923bacd6b2b08975b44a4d3467d9eed5f74762000e36285154046d665128a",
+      "limits": "Actual ARM with memory NOR and accelerated SHA/memcpy. Product fixture UID adapted; photo banks exact. Not RF or power-loss timing."
+    },
+    "fixed-photo-O0-final": {
+      "passed": true,
+      "legacy": false,
+      "cases": [
+        {
+          "case": "fresh empty",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "used valid JPEG",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 1",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 2",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 3",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 4",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 5",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "reset after header 6",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "empty header with arbitrary stale body",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "actual Product reset result (fixture UID adapted)",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong photo UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "unsupported photo schema",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "zero JPEG length",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "oversized JPEG",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong JPEG magic",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "body CRC failure",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "uncommitted only header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "partially erased header",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "wrong container UID",
+          "state": 9,
+          "error": 6,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        },
+        {
+          "case": "valid A with torn B",
+          "state": 8,
+          "error": 0,
+          "bytes": 1048576,
+          "mutations": 0,
+          "whole_nor_unchanged": true
+        }
+      ],
+      "bootstrap_sha256": "58d923bacd6b2b08975b44a4d3467d9eed5f74762000e36285154046d665128a",
+      "limits": "Actual ARM with memory NOR and accelerated SHA/memcpy. Product fixture UID adapted; photo banks exact. Not RF or power-loss timing."
+    }
+  },
+  "product_photo_reset": {
+    "optimization": "Os",
+    "test": "TestPhotoReset",
+    "returned": true,
+    "result": 0,
+    "assertions": 25,
+    "failure_line": 0,
+    "mock_error": 0,
+    "hardware_access": false
+  },
+  "scoped_v2": {
+    "passed": true,
+    "all_nine_files_equal_independent_plan": true,
+    "product_sent_once": true,
+    "stock_wire_bytes": 0,
+    "empty_containers_generated": true,
+    "no_full_nor_hash": true,
+    "device_read_bytes": 15085568,
+    "request_payload_bytes": 171100,
+    "disconnected_write_phases": [
+      0,
+      1,
+      2,
+      4,
+      5
+    ],
+    "reseed_preserves_fat_stock_recovery": true,
+    "reseed_power_loss": [
+      [
+        5,
+        1
+      ],
+      [
+        7,
+        7
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "limits": "ARM emulation; accelerated SHA/memory, not real RF timing"
+  },
+  "scoped_v2_elf_sha256": "a41988f01a2c71279b7254820af4d0a37882a8565bd28182287fe4680ade1990",
+  "actual_rf_test": false,
+  "bench_accessed": false,
+  "limits": "ARM emulator with memory NOR, accelerated SHA/memcpy. Product fixture outer UID+CRC adapted to Bootstrap fixture; photo bank bytes exact. Actual vehicle NOR was not read. No RF or physical power-loss test."
+}

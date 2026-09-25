@@ -1,0 +1,310 @@
+{
+  "apk_version": "6.11.1",
+  "apk_code": 29,
+  "cfw_version": "6.11.1",
+  "apk_sha256": "f312ec5ba37f401c55c25c8eb06d43654663dd3807c16061b632017c80d9aa60",
+  "bundle_sha256": "78f4e07df0e91a0d6ecc524496098a4d7a562d6006d09d6c676fc97a8940e5d1",
+  "production_importer": true,
+  "same_apk_signer": true,
+  "signer_sha256": "5d268d352019cc1d394296e0ea0a13495daecee038f58def0ae7036fc7c64bae",
+  "targeted_tests": 152,
+  "tests": [
+    {
+      "name": "io.opennoodoe.app.companion.CompanionDiagnosticsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.CompanionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.DeviceSettingsSessionTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.MediaBurstTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationDeliveryTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationHistoryTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationTestPathTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneCallsTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneGpsEncoderTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneLocationFeedTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhonePanelRendererTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.VisualTransferTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BondSessionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootHandoffSessionTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootReconnectPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootstrapCommitDiagnosticsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.InstallerTest",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.MaintenanceTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.ProductBootTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.VisualInstallConfirmationTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.AppLanguageSelectionTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.BootConfirmationUiTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionLanguagesTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionReconnectPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionServiceHandoffTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "arm_scenarios": 14,
+  "lint_errors": 0,
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 326972,
+        "free": 66244
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143896,
+        "free": 52456,
+        "sections": {
+          ".data": 2924,
+          ".bss": 139164,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359064,
+        "free": 34152
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142928,
+        "free": 53424,
+        "sections": {
+          ".data": 2940,
+          ".bss": 138184,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "unchanged_components": [
+    "Bootstrap",
+    "Gate",
+    "stock",
+    "resources",
+    "Uninstall",
+    "Diagnostic"
+  ],
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "updater_arm_scenarios": 98,
+  "changes_verified": "Live-only bounded notifications, idempotent tray reconciliation, receiver-ready publication, burst/coalescing tests and independent status strip; peak follows actual LVGL draw-time arc with recorded color, average12px radial bar. Hardware/OEM/RF not verified.",
+  "renderer": {
+    "hardware": false,
+    "scope": "Full LVGL shell + GPS/other page transitions, two480px background cross-fade, dark/light; mocked physical I/O",
+    "max_bytes": 7808,
+    "frames": 2021,
+    "background_draws": 2021,
+    "blend_frames": 1728,
+    "worst": [
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 330,
+        "time": 69060,
+        "bytes": 7808
+      }
+    ],
+    "odo_modal_bytes": 3332
+  },
+  "draw_time_peak_regression": true,
+  "notification_burst_arrivals": 2000
+}

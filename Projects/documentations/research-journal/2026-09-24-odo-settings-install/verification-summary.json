@@ -1,0 +1,184 @@
+{
+  "release": "6.10.0",
+  "apk_version": "6.10.0",
+  "version_code": 23,
+  "apk_sha256": "c3b8e66d6dabe06b53f73dd9fc99bf372455d11f383dc501f8349e1ed0d6d05a",
+  "apk_bytes": 29226938,
+  "bundle_sha256": "0e52b5804ab9de20824ff3c6471b41f84116c146f5e67205ddd0f2bf1af3822e",
+  "bundle_bytes": 1397448,
+  "android": {
+    "tests": 291,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 95
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "6.10.0": {
+      "accepted": true,
+      "sha256": "0e52b5804ab9de20824ff3c6471b41f84116c146f5e67205ddd0f2bf1af3822e"
+    },
+    "6.9.9": {
+      "accepted": true,
+      "sha256": "7f62bee05fc1a7f5fbc949a5d5e085093212bd6ecf18c787ae08ca3175a376ac"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "unchanged_components": {
+    "bootstrap": true,
+    "gate": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "diagnostic": true
+  },
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327608,
+        "free": 65608
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143848,
+        "free": 52504,
+        "sections": {
+          ".data": 2924,
+          ".bss": 139116,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359424,
+        "free": 33792
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142872,
+        "free": 53480,
+        "sections": {
+          ".data": 2940,
+          ".bss": 138128,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "gps_frames": {
+    "hardware": false,
+    "scope": "Full LVGL shell + GPS/other page transitions, two480px background cross-fade, dark/light; mocked physical I/O",
+    "max_bytes": 7808,
+    "frames": 2016,
+    "background_draws": 2016,
+    "blend_frames": 1728,
+    "worst": [
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63060,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63180,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63200,
+        "bytes": 7808
+      },
+      {
+        "kind": 6,
+        "heading": 330,
+        "time": 69060,
+        "bytes": 7808
+      }
+    ],
+    "odo_modal_bytes": 3332
+  },
+  "font_arrays_identical": true,
+  "languages": [
+    "en",
+    "ko",
+    "zh-CN",
+    "zh-TW",
+    "ja",
+    "es"
+  ],
+  "bench_accessed": false,
+  "actual_rf_test": false,
+  "actual_fps_measured": false,
+  "optical_brightness_measured": false
+}

@@ -1,0 +1,1255 @@
+{
+  "hardware_access": false,
+  "installed": false,
+  "wireless_verified": false,
+  "android_device_ui_verified": false,
+  "tests": {
+    "android": {
+      "tests": 100,
+      "suites": [
+        {
+          "name": "io.opennoodoe.app.companion.CompanionTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.GallerySlotStoreTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+          "tests": "5",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.InstallerPresentationTest",
+          "tests": "11",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.InstallerTest",
+          "tests": "20",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.MaintenanceTest",
+          "tests": "9",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.ProductBootTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.installer.ScopedBackupTest",
+          "tests": "3",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.protocol.ProductCommandPolicyTest",
+          "tests": "4",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.protocol.ProtocolCodecTest",
+          "tests": "22",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.VehicleModelCatalogTest",
+          "tests": "3",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.VehicleTelemetryTest",
+          "tests": "8",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        },
+        {
+          "name": "io.opennoodoe.app.WelcomeLightPolicyTest",
+          "tests": "3",
+          "failures": "0",
+          "errors": "0",
+          "skipped": "0"
+        }
+      ]
+    },
+    "arm_ui": [
+      {
+        "optimization": "O0",
+        "test": "TestUI",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestCancel",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestGesture",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestProgress",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 1,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 2,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 3,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 4,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 5,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 6,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 7,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestTarget",
+        "argument": 8,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 1,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 2,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 3,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 4,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 5,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 6,
+        "passed": true
+      },
+      {
+        "optimization": "O0",
+        "test": "TestScreen",
+        "argument": 7,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestUI",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestCancel",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestGesture",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestProgress",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 1,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 2,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 3,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 4,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 5,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 6,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 7,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestTarget",
+        "argument": 8,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 0,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 1,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 2,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 3,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 4,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 5,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 6,
+        "passed": true
+      },
+      {
+        "optimization": "Os",
+        "test": "TestScreen",
+        "argument": 7,
+        "passed": true
+      }
+    ],
+    "arm_storage": {
+      "passed": true,
+      "packets": 692,
+      "request_payload_bytes": 543668,
+      "files": 9,
+      "blank_photo_slots": 3,
+      "existing_stock_and_reserved_tail_preserved": true,
+      "resume_verified": true,
+      "corruption_rejected": true,
+      "write_timeouts_revoked_without_extra_mutations": 9,
+      "limits": "Memory NOR and accelerated SHA/memcpy; not real wireless, power-cut or timing verification"
+    },
+    "package_import": true
+  },
+  "memory": {
+    "Release": {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 326016,
+        "free": 67200
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 136160,
+        "free": 60192,
+        "sections": {
+          ".data": 1628,
+          ".bss": 132728,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x20014340",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x200074a4",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x200094a4",
+          "bytes": 4360,
+          "kind": "B",
+          "name": "sessions.lto_priv.0"
+        },
+        {
+          "address": "0x2000fe00",
+          "bytes": 4176,
+          "kind": "b",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x20006474",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x20010e50",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20001454",
+          "bytes": 3260,
+          "kind": "B",
+          "name": "phone_cache.lto_priv.0"
+        },
+        {
+          "address": "0x2000cbf0",
+          "bytes": 3256,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x2000370c",
+          "bytes": 3104,
+          "kind": "B",
+          "name": "links.lto_priv.0"
+        },
+        {
+          "address": "0x8066e26",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x2000b828",
+          "bytes": 2788,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x200026ec",
+          "bytes": 2180,
+          "kind": "B",
+          "name": "music.lto_priv.0"
+        },
+        {
+          "address": "0x2002034c",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20004c80",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x20004480",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x2000e820",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x20012614",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x8067e5c",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x20011efc",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000f3a0",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x20002110",
+          "bytes": 1052,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x200139ff",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x2000de3c",
+          "bytes": 1024,
+          "kind": "B",
+          "name": "container_clusters.lto_priv.0"
+        },
+        {
+          "address": "0x20000748",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x20013080",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x2000c7e0",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x2000f820",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20013e20",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x806efc4",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    },
+    "Debug": {
+      "profile": "Product",
+      "configuration": "Debug",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 359632,
+        "free": 33584
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 137608,
+        "free": 58744,
+        "sections": {
+          ".data": 2816,
+          ".bss": 132988,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "b",
+          "name": "pool"
+        },
+        {
+          "address": "0x20003038",
+          "bytes": 49152,
+          "kind": "B",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20018a50",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20001d78",
+          "bytes": 4360,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x20015bc0",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001ce38",
+          "bytes": 4144,
+          "kind": "b",
+          "name": "filesystem"
+        },
+        {
+          "address": "0x2001446c",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20010b14",
+          "bytes": 3260,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x2000fe5c",
+          "bytes": 3256,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x2001ab84",
+          "bytes": 3104,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x8071e78",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x200178a4",
+          "bytes": 2788,
+          "kind": "b",
+          "name": "view"
+        },
+        {
+          "address": "0x20000b1c",
+          "bytes": 2180,
+          "kind": "b",
+          "name": "music"
+        },
+        {
+          "address": "0x20012020",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x2001c634",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001be34",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x200137cc",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "rx_ring"
+        },
+        {
+          "address": "0x2001f444",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x8072c08",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2001ef74",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x200209ac",
+          "bytes": 1120,
+          "kind": "b",
+          "name": "pxReadyTasksLists"
+        },
+        {
+          "address": "0x200013a0",
+          "bytes": 1052,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x2001f955",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x20014054",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "container_clusters"
+        },
+        {
+          "address": "0x20001978",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2001e134",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x20020214",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20017064",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x2001fe08",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x8076e70",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    }
+  },
+  "bootstrap": {
+    "bytes": 443164,
+    "free_bytes": 15588,
+    "sha256": "7a06f1c4240215f9c2dba1585dfec16a0180b7b2e399674dadb973352fbdc59a",
+    "sources": 133,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "artifacts": {
+    "Reversing\\analysis\\2026-09-21-installer-status\\NoodoeInstaller-status.apk": {
+      "bytes": 420219,
+      "sha256": "e7d87ca0494abb6557f3616b26a88f9d87fa19cc71d1f0190e024e8f6eac0036"
+    },
+    "Reversing\\analysis\\2026-09-21-installer-status\\vehicle015\\installer.zip": {
+      "bytes": 979309,
+      "sha256": "1e6c6d5c8c1655ce014332639a5d41486eda2f28293b8b26f91a5e6c4d1348fb"
+    },
+    "Reversing\\analysis\\2026-09-21-installer-status\\bootstrap\\bootstrap.bin": {
+      "bytes": 443164,
+      "sha256": "7a06f1c4240215f9c2dba1585dfec16a0180b7b2e399674dadb973352fbdc59a"
+    },
+    "Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\Release\\FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 2544636,
+      "sha256": "0422fdc0ae3d73a6c89a0c15fcb997368311f6f8886c6d2e04e51ba8dfd16744"
+    },
+    "Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\Debug\\FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 8086808,
+      "sha256": "97709e801d8f76e92ef7278d665890f38bfaf3e76f92721b3486a0f2393a75ce"
+    }
+  },
+  "source_sha256": {
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/inc/Bootstrap_Confirm.h": "30e54c625bffc4357861babe2b4dc60037caf35371f7944114aa52ef482136f2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/inc/Bootstrap_Image.h": "eec435aa736235852351cb019d9091b566f55cf6c5bde5cbee20e8fcf8c3104e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/inc/Bootstrap_Target.h": "305314ce290beac21d94e7afd877efea193a2d367afaff69cd224e32c33dd346",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/inc/Bootstrap_UI.h": "19a195bda2bd65add3c5f00864030dcd01c5ff29adcb565d6be9369848c3c92e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/inc/miniz_export.h": "3d4f996ce17f84ccf7d66c25e68aff214b95df18a34b1518904ae035dd48856a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_confirm.c": "1ca138d63c98bb986201a6e3b6828131e01ade701f585fe0d74ac84b8838457a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_early.c": "69168618c68ef69e3940709f24cd5cec8bd87806c2229d908da8e6ca4ad5de89",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_image.c": "d9d94f9600ed640b5daed014e819b4676fb90921c12dcc32fc45b45bd21e9df5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_runtime.c": "69ab17e57b81971a3367b41a2d7091ce938c4405814ecea6a5182c0c521057d8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_target.c": "8f4d2d15180c02cd7030d8252b49221698b055a0bd7436ca5686c91388e97d61",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Bootstrap/src/bootstrap_ui.c": "fe68f944cb30ba17443d4039df16ac390978417c646a685720122e02f1e52e15",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Config/inc/App_DataConfig.h": "d1dacc550fcffb3805562c3921b360ff39181542e28b1a65fb53b3d7bf715d52",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/inc/CompanionControl.h": "7672ae7df4a1cf55c46485e5fcb960b509887a68cf2eff1c9372d3210b3e051c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/inc/MediaControl.h": "1c60a01691756e16c05e631a0c7c99fc9f8db7b56933578989e22c1f63d7e582",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/inc/NoodoeControl.h": "afaa9ea235f196002aabbdd6ee538863338190c48328603ed2fe06640382836b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/src/CompanionControl.c": "f6de98535ebe22862bd6aaf127270274fdad063aeecf4c5d6f9d9c69b69fc4fe",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/src/MediaControl.c": "bd8c40eb0c2548a5afe0c0afbe0cd4a7729155bc67fc21ec507140390e654dc7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Control/src/NoodoeControl.c": "e8fd374e1169dab17acc08e934f0bdd26329e0c3638800c37aa8b3dd756a9460",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/inc/App_Recovery.h": "1203ded1a287fff64fa49c6488a38a707f04146047d14a31ddca0d2fd2040391",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/inc/Recovery_Buttons.h": "f944f0706e2914ee7e6f723cd8a3bc733bd9d159317a20fc9c0d47cf83f01d2c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/src/App_Recovery.c": "6097db6d5bb65b594280369a63ee51e59b812a2e9851fba874813b0d02e41c94",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/src/App_Recovery_Product.c": "50ee2d4c3fff1d116d82e1fabee59aaeb6949342a6ccde09c13289a9b44b7da1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/src/gate_policy_shared.c": "641675397e4be729a6df8cd05da549766b94f0e86b1f209ec98572a393c45984",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Recovery/src/Recovery_Buttons.c": "8fe7fc90afb572272ce132e43a4c07c33b7ab7d14fc4192f8682ee45b3631ad1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/inc/NoodoeRuntime.h": "7cb0a64a86bfd8a98820bf69562d7b4e1d08617888f851403617aeb447dd720e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/inc/RoutineUpdate.h": "a576ce7f5abfbbea5c53e2ea4a49057874c6fd5a58b2b80be7fd209226f51bf8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/inc/RuntimeUpdate.h": "06b17470c9434b9e153bb73154646dcc9d54e90db46d3071232d1986a9b58a9e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/src/NoodoeRuntime.c": "0a9032606a2c981d95c6fb0f1856ba572d6d44ca21da2e5ec760dbb605f61acb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/src/RoutineUpdate.c": "26667e7d66568e2a575f9aeaf887c001c105a198179d5cc813c7cb5404094d2e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/src/RuntimeUpdate.c": "1ffeb6c14b3ecf32d6f2aef6431b12078161556f225cc27af443a9870d883159",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Runtime/src/RuntimeUpdate_Product.c": "9105d4836748c11ca42c92310ab5ad4a7140701b50b0fa8504063af3cd8bf116",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/App_Persistence.h": "b626c5530de912b862bdb7f88913abc281d03deab72e02d2d1f09a2b56fabf06",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/App_Settings.h": "e3b798e40508437210952091432eea8a04a8d82b9bc6e186cf265aee01df9970",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/Rider_Name.h": "fd3e3517fe1c936797016645495425279e877f20019d2620cdd05bc58bddc182",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/SettingsService.h": "2442cfa4937fb29561eda5af67ce7d62778480ffec955be5db6aa307c2f90801",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/Settings_Motion.h": "79e9e8bcc70abb0e2754699e77808060c66f7093b06c01541da88f6ccc1e372d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/Settings_QuickPresenter.h": "bd97cfdabaae63fe69fa922ec44a01f05e99b58ce243906fbe166b94835bfc51",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/settings_record.h": "f66c36f4ed588db82912b584169afa7b36a5b47ce5502199408832e71e3766c6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/Settings_TestPort.h": "2c1f533a1fca24bb7655c09bacc1987a08d0de7e86c1fae1b2d2c87815bdcb52",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/inc/Settings_UI.h": "faedbff40ecd8798cffc1e67bd8f4d0d8e1d3e6ca5343a4926ba4f82f1f4a9d2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/app_persistence.c": "79a9f7767b022160b373235f3a43de454739c93fc7fe16b81180864846f7a3c0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/app_settings.c": "72dfe1ff52808a2f95bdbc797d8362c279f3834258f799c7b08fe40af4606218",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/rider_name.c": "f13bc9737ce1426a850bb0b6bd6189e6aa950b8d7d7984ba99eb95873be58351",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/SettingsService.c": "cc49a0131794a1f62b7d6282f37fd4d959c175c4a38ad8fd0ade677a740e6282",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_catalog.c": "7322650ce9f44c0c87476cae70c38e8b5af45df9b3c0e62f717e618820968a0a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_connections.c": "58bae1d0ff81e4bc7962029d26efda1785ffcba2f55b13d5e162239d3a45aefc",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_device.c": "da43ae9b373a3970a98f6a3fe7381c3f83a7c448f7c4e1b1223ded679b1c18d8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_display.c": "3bd02768489c432ab4fc20153f0b2cb91ea87e53587cef0d2ac8382a1e761ea8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_maintenance.c": "15c1eab27dc6d74de1f03be411b042562b816aacacc94044549af269a505e265",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_motion.c": "412e760140a02fb5b19162f394847a3352754ea893c9e3810bbc1c0a7ab555eb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_power.c": "1e8337ee4d8148e01c5b0a58a1cbb68ec56b3d77d85c2c44fd2b045615e460b5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_product.c": "52a9f63d41babee363e4242c7df5f33d59a0a1effc046154f3f7b695080e4851",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_quick_presenter.c": "819494f9f6c51e3d208cf3c54dffe1d8f8ad5487511e56ddc0147c8034af140f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_record.c": "9f64cac0c34a7dd00d555db9d6e71455a258da90e09ac7ce6e488eb93d159258",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_system.c": "d1fac1d3788aebfdbe687b643c9eb6344ec67bfcd68366766adf748fccc23cfe",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_test_port.c": "3604f3fd9d6c07a99a6a8f34f3806e7d7dd3134acdfae5f61b588813a72ce79f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_time.c": "c6666cbec7bc3604d11468dc3e8e567dc4bab2324cf4d30a9a03405606740ea1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_ui.c": "01668261cf0e8cfc6c9f06ee162d86bb34e724537d52241e5c648fee8c1560d3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Settings/src/settings_vehicle.c": "f19c8fa9b2e3ae65f1f65e6ce5d3a32fc47b339dcd1016eb5f27c228648e532a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Dashboard_Pages.h": "bfa7b4942ac0a2b7b878474345416a890b8bd44eb4a0537f4d8003705eb4b5b4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Development_Data.h": "6b36114ea67ad0e8476c2a671a986c388d464f5295d088e4634cde39d8ef8eed",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ignition_Session.h": "086ac2eadbf99d503183a343aa07ae54e9387d11b23a9e4f9c8aa783ef598e14",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Page_Preview.h": "857c9dae8f02b80e0346740481fd70a8c67b0dd6e56d7e0b6e5f574ad3140ff4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Phone_Content.h": "46ea61d05e5f1656cfc7eb304701ba4d18181c1e26118c35bab4231adb1cf721",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Phone_Trail.h": "cd79fd9a62e04c76c7927a734c2735e9b14d484164a538428815c3d4d13d75d1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Popup_Notifications.h": "b5ce45202fe6b1a47d7487158185eedb8ffc1af5a860181812809edde2c2d4bb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Power_UI.h": "ec0af643efc71bb63b90eae741b34b9809662af658b7731c04129ec428a3e528",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/ProductUI.h": "14e07b1f2d952d3048d217bd7e50b0e5cf2bcb77f8f421ca3340f8c7ab2e995d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Product_Boot.h": "7ec1ab6013086d4a10007313ab86e49ef4772fa515f03d890de26db849543d5e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Product_Input.h": "897203a11ce118bd570762c49233412abc9ccf155984a478ac2e4ee3e6f5a901",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Product_Preview.h": "497c68d15262f98f02b92534fb1a815959a4a8401c9942ebd5f1f8c27ffe46a3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/SpeedHome_Model.h": "d7df0bceac0b659c30126456ab7a34b8765b5255b559867b7cc02363a2f68679",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/SpeedHome_Startup.h": "cf29789187aab0a486b8400e4a2b8882d0692aa83f240e32daaf5a18dc1ed442",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Trip_Computer.h": "ffabdcf6c5b3d506d2d4f8591e96141b3652feb137d776d399d26eca3cd03de5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_Dashboard.h": "7d5976a879f7849a6346d69894ae2e879719bec72fd1bef95c6aa9e0ec682e60",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_DashboardPresentation.h": "30f0a9786a50746139e342dbed4c457e96f9210d6b1591c08cff0f90e91688fc",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_Home.h": "368c5dded2c499d954ad2cfbe1171a5d83ee6cec73b2cbc5571dda3fdc57e89d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_Number.h": "87b3bd081c9fb37adbf2045b8d54f67e3e959278da94f998343934726e3a2d46",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_OffStages.h": "ef72af2db3c5bc2314a52ac92f1b42f332b8b33dcafe3fa54656a226d70c1885",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Ui_State.h": "09cff169052adc8bed5a110698db7f1e76d2ac19da8af158f479edff925ca632",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Wallpaper.h": "5a8853326062429a81a3d83d400135fbb2a68d5abaab46a1eb88fa14a54b3908",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/inc/Wallpaper_Runtime.h": "58cf3d3a6c43c7cc9272e14695633ce0ef9a42cd3137fad07884a907ba14b908",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/dashboard_pages.c": "8207b803d7c6fa0e9c88b967384b8787857a4bcf8519c77b0a290ae6006e9a5c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/development_data.c": "6da4ca59959014416f2f0cf61cb81e21a12f34b9c9374eb7e745f5acf3d1574d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/home_page.c": "62ad66cdd742b1610aee653898e526f481d8ac50231e52dcb9ce2419ca867ae6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ignition_session.c": "c4f8640151e0840f57ae8eb897ae40a8f3a09e0c52cdb0b9179b679ae482c2d3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/page_preview.c": "1582a6d5463d576cd1afd5bb7fd199bd3cdc8d003032a36ecbc78f2233932794",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/phone_content.c": "24743520479cdaab4a07f6897767c11a84367900a52fc3de2f222fadd5564e46",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/phone_trail.c": "b194fb425bef35cf7e79b2241977cfc16ce2988bdc8c88f18922e282b04fc594",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/popup_notifications.c": "91d2388f3a86c93556b3c4575370be6140220c651441e47848a2fed2b45f50db",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/power_ui.c": "00627f557b93bfdb2c94b606bd7f4456c4d370574faf5a958e9ab4ff583c490e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/product_boot.c": "ea9440d7e526fdb17ee16f0915229350cf4abbc9ab233ff8131b684670d48bb5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/product_input.c": "86338bd7dd5da28b40f0cb836fda00ba89f80727a9ac97e4afc6d6f6016745bc",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/product_preview.c": "59c7ab7ba6e568f1a9dbb4500cefb80f8701cba069f1d20745c5db128b7ee463",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/product_ui.c": "0438cd0f59ffa7ee2aa8ec739a716f9abec3ac0e86afc55f22813bae3ee9321a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/speed_home_model.c": "6e11342731b43938f855ca174e96e79040d2c27b1e715cb5ca6d6845d2790356",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/speed_home_startup.c": "6d59957eca6a018e3246a395201df922e7de2a3dc844bde4bcae36686ff13914",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/trip_computer.c": "0e64bd58896a7949ac3644695eafd894140a8f8f1bd9eee25999d2c17b1e985d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_dashboard.c": "53b2ada48c33f941e912e7dbb8e8529708aa3e73c1f964ef8b62151079acbcf2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_dashboard_presenter.c": "9a413d9b44c464b1ea2ef9b0ac995e1f4a21b37e31a18121f1b9ea250dac1544",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_input.c": "7851a4d83aa5634edc016c520457efd8cedb1b55a27cc0d72f43bf4c92e9956b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_maintenance.c": "b204e635cabff5d25b8f958db35e9c97a19f582e1884c8025bafcf8a3dcf5a04",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_navigation.c": "64a66478fa7374e270c40e1d1e89eb83e9365e4ac3e638715d98d9cfedb5ba44",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_power.c": "254378adf3e94d77936c0fec7320e3f3b785f057b3b036bed2658a148339ea78",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_state.c": "0ff4d7d2299a79bd2a8653890b93b6661daacfbb0e7f9d0793ae5898487160b6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_state_internal.h": "9b68db31ea2e3751b62db92bfcad6182da2bf5765d8978b561cb509966d97cec",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/ui_warning.c": "b20f136e0deb52e9a0eaaaa95c62843f5c8411554ceaae3807de44050c17f639",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/wallpaper.c": "01de819e99d83b723bba360450e878181c3e1bb5213d1162bd201445a890fee9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/UI/src/wallpaper_runtime.c": "ff84886dcae9784aa8b7b890b0d5ea70158b22934897cb7471ced0a67a465e5a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Vehicle/inc/OilUsageService.h": "6bee487ac6e55db62dd86640a63a602bf09d6b5fa6284f107da50a49d473dff1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Vehicle/inc/UsageCounter.h": "fd891df79e636a025850f99989e1730d47187020cdf318b3b9ad265723c5a4f3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Vehicle/src/OilUsageService.c": "86443dcb4c61af5454f2249846ea98d92a0232e265bfd235896299bd4ea4a808",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Vehicle/src/oil_usage_product.c": "07672445eee5efa6a82e70d46801ffe52274b910ce5be94912997ebe726d2c1c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/App_Logic/Vehicle/src/UsageCounter.c": "21b1f597a443659cf7fd45338b3f560c78f79e24df95e7c20f4a56381817b133",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Ambient/inc/AmbientService.h": "18c190fd0449681978bf754a05c9223e84d42d650d97a9cb4daac109806fb8c5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Ambient/src/AmbientService.c": "8e859dd8a14498f4140f06e209db08d9f09b0244ee26c60dc62f76153d56be33",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/inc/bluetooth_keys.h": "2764b9b5293c88d7dad8c16a6099b85c26945abc8f2cb062b5e6f3904796c550",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/inc/bluetooth_port.h": "5ea866ec72f90548a5ba98ee3220b1a9b7ef8ce24e3311d47be94cef2d8216d3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/inc/btstack_config.h": "3ec584510ae5076382b36ee6b197e11e3d4c657445ba06c9ae59e105654c33af",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/inc/NoodoeBluetooth.h": "09eb9301d2d31619ea66e2dd0b73bda7dc92239170df9e8b9de33014d0a55995",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/patches/cc256xb.inc": "08826e52aa89aed996605e7090fc0a0417e15ed5ebc00597f9d553cdaa8191fa",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/patches/cc256xc.inc": "8306e2a8c84df9aa58cd9244b1b2ffaac1a690b40c1e3dd6aacc7451bf218929",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/src/bluetooth_keys.c": "dcccafc994197cfb31b8f15b1a438a183efab25e996626c94b13c40e059b61f9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/src/bluetooth_patch.c": "bb23a52931970ca1716da771c3626c11476f11060a85d41f2047ef95945cb2c0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/src/bluetooth_port.c": "cb2e872c57d5a3ec41d3ebea40698a6e2a91aa4fae6193b5dcc20a091a0fad97",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/src/bluetooth_service.c": "47fdecd0fd9cc204ec51d007551fcd031fa29c3219850b6be78292f2413304ea",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/tools/audit_boot_gpio.py": "533d52cb2a16c709f86fd9628265bd388dd8fd35ebaf1686bdea59dc6edcea51",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/patches/b/CC256XB_BT_SP/v1.8/Bluetopia/CC256XB.h": "d8a6ea40dcf2ff0730708eb2aa14983b740037a6b3262c58ef8c25fd3708c800",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/patches/c/CC256XC_v1.5/v1.5/Bluetopia/CC256XC.h": "2ff3b02ff544b469612a679ccecd3a97867ea69178ed72b49a95b603bb4cc1e7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/v1.5/Bluetopia/._CC256XC.h": "dff9d03f72e3e246cb989ac0ccddeae1fd7542573d512de21d4219bf652ccadf",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Clock/inc/ClockService.h": "46aa13faf04501cf8c5d33e4d15e795adb076a95137a4189e5f3c05b8987f284",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Clock/src/ClockService.c": "061be1fd2d7a60fd4c86869b2c09be2bd0d4277ffcfce24fe0226c99e9dae982",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/GNSS/inc/GNSS_Service.h": "2d831da0741b3d4aadaf2b835415c02ce2ba782b6e38503d274216d7ce0cc95d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/GNSS/src/GNSS_Service.c": "3f206949367bf8ec0656723d92442e34e3403784e659762902088acb5380c617",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Health/inc/Health_Service.h": "9aa24a0d3451d55590b3eb70f46b098e64b56c6e8b4b72f6db3851f05a586319",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Health/src/Health_Service.c": "5eefc0260860c7388de5b72e2a71e61609eb7554523d8cfa8c11c990f8c7a020",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Input/inc/ButtonEvents.h": "d154b7dd67f4545b5a77f5a2c20be6ebc7491a33d2f9c06116337ea81f926837",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Input/inc/ButtonFeedback.h": "259bc5116659f7c8e5753936ec9441326a80ad0f15004b26ae9a81d73abf7723",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Input/src/ButtonEvents.c": "aedc170af79bf9eda8f353cbd47dbb9914172701e0663bfb145d253fbfaeb035",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Input/src/ButtonFeedback.c": "378d205f7af0ecace1f2b3b93e96cb1b61a6867e895bf61cb190b9c272086571",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/OBD/inc/OBD_Service.h": "e6bbb9a43f1969d61569c83d4a4da3e83fd2c1fb7b8c72b0b0aa56f996eff157",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/OBD/src/OBD_Service.c": "0fcc2518ebc864271b4604cae15fdff5654fd6f18e20be1b6d85ee691430eaf0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/inc/PhotoService.h": "7e9212be21b9e31c6f7f953f43e09f42c843cf0c1958a43857c30404c7a87bf4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/inc/Photo_Jpeg.h": "19611773c15e5a9ce5b49cb5b0eac08b268f209b4e5f1710dc0c1937f5e123c2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/inc/Photo_Store.h": "e9abea5d41b5afbab963759c0ad7334387cdcb826b04a59ed4e75a22857f7338",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/src/PhotoService.c": "31149ea7a0890237911b98034e1ab0e453dc3b0a51bb8c83df271da00c35f80c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/src/photo_jpeg.c": "46c2f256b61c5848781880f6e7b29be6a3c2b19e390c86143ea2676c1372a35f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Photos/src/photo_store.c": "a981deaefa69f95447d4f7f33da29b1fc02d4853de3a3096be6bdee0a2d37257",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Power/inc/PowerService.h": "457981655065d2b5e8992b06f7e51136d6e0caeacf31867062b531466b42f423",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Power/src/PowerService.c": "d5dcd9a08679826d2d59304792319c4edb005b7389cfa400ffee5e3910b8c0fe",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/inc/ResourceRepair.h": "518846ab872ffe9755d2dfff597e46096ae3e34f310909e2acbd9a784d8ff2f7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/inc/Resources.h": "612f21a4c9ea300acecf5b4ca60b17d060f22e8ff581ac9f4fd8007c4ab50dc2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/inc/ResourceStore.h": "a11f2624d145aafb0be75bbd3aa18eb0e7610b962d40865e1e1291547ef8fb06",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/inc/Resources_Expected.h": "a1bf9328d6dbd8f48b12729a5ad76b30c28eef2ad6eaa6ca497ccd7d8f9bc42a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/inc/SystemError.h": "be5f62f770aa3efb3e64579a5c1f94af807cb3a13c5c057774a1fdfd842878ba",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/src/ResourceRepair.c": "3e31872e4a690249f48c29be284958235db999adbe455329e5dc7baa75e47c70",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/src/Resources.c": "da2c1248666c96aaa39c78b8731ce1d554abf1fbc548d91fd88982133f95c9f4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/src/ResourceStore.c": "36041fb6ea9372362b2c42042a45f160244fb39a201ae7807aa730c61b019dfb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/src/Resources_Format.c": "fb1b9becfe98d2591db3dc3b145628b31e014e3d7595032d07ad5487a3289217",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Resources/src/SystemError.c": "c6a3da2de180c7ab5775c83a4bbbcadaf07de381b5158276be400f096f5655e3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/BootStore.h": "8a2d42b9174753f0bbda2127a3cea903a7c7826f4bb19ce599e42dd48443aa31",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Bootstrap_Resources.h": "6325e97110833f42ed2e77e6657f1d78471143a67a6e5ab25404aed9060574c4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Bootstrap_Storage.h": "64e56b9f4321399fb9993ce3e0929e74c20db658f099fa311f775024a3be1367",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Cfw_Files.h": "9cb230414f6657a61de3daf3ed822e56865d88d8e4a751e4235bae3f9a383310",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Cfw_Install.h": "c02f45695fa51e167ff41f3f74a106a82eaf7a70f296baf499c11a04c278b6bd",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Cfw_Store.h": "c1b10333fd20c3488c5945f42ce2350ab9c4ef20b02814a68c3fb2c3eac6e4bf",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Config_Store.h": "b96a213b63eb849684fe263de282729da2f895f491058da9645fcc94f80a9469",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/DeviceLog.h": "fa5dc72f0c130aa52be752756cd99029a61796a16596eb25cb16276a3c4db217",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/ffconf.h": "d2d1580d145fa845ca422d353e20904faa070e2713cbcd3019bdde872a1a3053",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/Recovery_Store.h": "836b7698ac994b9d88355191f2c8fac860bad3c1eb58a8452d15b74d2d5b83cb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/StorageBackup.h": "9f03059d3af09bf7ab37d220ae237134b4e06f1e67bca018f0070a05c19426f4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/StorageDisk.h": "6db8a2a27cf433c44f618a49c173027e3871a77f701fc059161927902132a6d5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/inc/StorageService.h": "5954a642bc9e4c18c3d63b05f400718e0c666bfb81f034909eb51069491de757",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/bootstrap_fast.inc": "5ad105db93a68472f373923df649aa5c9bc0fe8e84c52b625858b57be0a57d8a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/bootstrap_resources.c": "cfd779d405983f90799f4a56e0d997b1cf99e8f2027fb3fefef48a1a1f33915b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/bootstrap_storage.c": "fa19e5a6518eb29153e9151adef21a5826592c39aded1114dc1f60a6d1ddd89c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/boot_store.c": "8ab0ab613b439c2422e6bda545d003eef4b2409307c29a7a1537cd85a53302ab",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/cfw_files.c": "595d6f80a6af3f9c7a72aac2dd6a42bb9d1bd6c0efc4377af4473dd2c31aa2d6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/cfw_install.c": "1327852ade87f31957a148d412ec4410b0e58f9254b1c84382561ab21af4cad8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/cfw_store.c": "107d4e5c1f21ed060426020e4054ceba54175567174fc8122c837d7fe1c07e8f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/config_store.c": "76b7b0e478b337ef9ab874ecbc31c8a3b5974b698cc8f675fb403b292677dfa0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/device_log.c": "f0832ad5b6ef18e446fef7b6ee2241c3be90f18b843c6af9a65caaead55402c8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/event_log_shared.c": "73765a5deca00b02588883b4f06f9d9e1aee422bb8de36c75499f74716778ae2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/gate_format_shared.c": "f5ecb96d94f3acc4ba56f6573341aaac144ec3478eede84572068f9a175a6163",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/recovery_store.c": "50249db08d8db0213f010305b1fc839c8d1f563c3602a60380ca32ef2992cb1b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/StorageService.c": "a3306921353791819bf9f6929de714370057257c57601a7d0f641aff7e75feb2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/StorageTransport.c": "832ae3f86dd51cc6364a466acdcf009a6bbfc3ebd2356661a42ed59e350a6817",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Storage/src/storage_disk.c": "c39184b22e76494c74b7dbe102b31f6cd2d9f5192210ef7db68cdc3e2d00275e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/StorageSWD/inc/StorageSWD.h": "a4d53dbc2a6cc7ab45723f97a4756a0587d3ed93ec29e69e9fbbf0b63d95dc83",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/StorageSWD/src/StorageSWD.c": "9114300c2eaf924ec2715c32816ca47b330b0669c09350e731aa1da67f280420",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/inc/NDCP.h": "079f6d13df263c45cb92f6222723971b39d154d761ee2a97cd45eac1fa4d3446",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/inc/Recovery_Core.h": "375355da90bfb73ba4722d7b896d10241c1e32471d3837bb2e1ae0e857e3ffb4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/inc/Recovery_Target.h": "232032c3dda78a24b701d9a16ef3785cfb4a716d54e7eff241596ea470c82d03",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/inc/Update_Metadata.h": "62fcd33347983c0b5a8e0fc93dcf9f93f66c9e0cb7b8251b738f3d689bc44459",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/inc/Update_Service.h": "4d9813df7a3b44ce14c85f9710820b619dd525ccbb3ca34bd39cb8377d64045c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/src/NDCP.c": "640506de7a1bf7dde1395efed552c6c3aac1ccdc8fce12ec980d26b5a465b54c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/src/Recovery_Core.c": "43153af3dc79e44857cd5b6339d02d470cf035f5cd268eb7e7336246710e67e6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/src/Update_Metadata.c": "92ffb58f57160c3e2aba0f390e5b96f62f348355ef97b3f87bc55ee85be1192e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/src/Update_Service.c": "27ae683f2126590a8fc9c10df3f8b78277f5d05bbee793fd28705b79fce3575c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Update/src/Update_SHA256.c": "4cf1e64c93951ee4fb9559e25a19efa36f00d7c011fa26da2d35d5bae8136c0c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/inc/DashService.h": "ede794cd00427a7d8a9798f47819c2d4c20d3e8318656b246b4efe3b0911a026",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/inc/Dash_Protocol.h": "8bfe4cd630ce57ad5c1250780874191f7bb22f1a6db4abac08d23f9da66565df",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/inc/Vehicle_Service.h": "ae3fdaf26df1dcb1a43f882f479c200345d0d9ef980a1fc9e6de38576de41edf",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/src/DashService.c": "c2cbcdab22afc4c4b58493d924b929dca484834ab7a15dc1d8172e5fcc9d6888",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/src/Dash_Protocol.c": "5b98f3756f2d8844fd3c42d060ddf929dcf360c157a9a9c09f0f36b6593debc6",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Middlewares/Noodoe/Vehicle/src/Vehicle_Service.c": "442da738f378efcf2a39087ff533a28c229edc486f04df26977df8a9d8f7b1d1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Background_View.h": "9b6bd526f26fea8b0c3a61dfeb8dd3562b0b580e09cdb686f02eb51b8b270e7c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Bootstrap_Screen.h": "598c4770913ca0fc3cd0a398c607e02b66e6c67daad6828683e5b46efa151766",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Button_Hints.h": "e3d4be89a0f7f8aae569c895cc29a67e323622358659dcb53bcc212b77fcd023",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Dashboard_PagesView.h": "b20aa42e37f120be7f5b47528944240a6a9b2e69bee15fd7ff26dba028e7222b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Graphics_ArcSweep.h": "66fcef4f6ba427e604d83766ea8f9dd323d34c71771aa91a3fb0d05ce15502ef",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Graphics_BringupHUD.h": "dbd80d9b5bb7d1494b51ea64600988ad2a0d91fcdb6a965f5cf5b588383f981c",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Graphics_Test.h": "498cf62e15fd38af26c8c6cfca83d44d4eaeb18620ba99d3370f235c4cf62916",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Music_Graphic.h": "c73122b476e4d7c2c4e3a003e7871cf9a6070b199c07587526c075c090959e29",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Page_Transition.h": "00ad9c2e62025f12c78a6b02b4e86d228fb0a30843e6ff0a07e2e72b631e82f4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Power_Scene.h": "2e6790dcbf419d462e128dea90b2dc96afbaa17b54a69eb3cd88026b7c247bb4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Power_View.h": "4d0ad6785bca5efdfc67ba2ad38f8bbebc659019ad0679f778148e43eac59601",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_AuxAssets.h": "dd507b5d3a750b4a0b45dddd2524a7a108a3c3865ca927299f19d6adecfcb061",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_Fonts.h": "56280f3ba804b049c49cca2e0cfbe332900ae613daaecf0a0b99ced240fae8a8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_Icons.h": "2f77c898ec21d996c3bc7fa4aefad98a98df990fa946452305f26defb15f4979",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_MaintenanceBar.h": "aa6bd4f945000eac9d333fa2e011c7a40468f5e8bdb9233b29f0aa0ac942b918",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_ModeIcons.h": "70deca7849695db038892f08905fb17f1c1cb97f82aabeffdb2ce915f93235c7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_ModeStrip.h": "83368b0838c2dbcb81d3386f56559bd22b2d567430df99042f6fe873e49d5dc3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_MusicIcons.h": "22ab75aeb29da141063d6eb7f3f882a72b260819b16385561e64c85e7e68af0a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_NumberFonts.h": "81467aaef4a8da72166306336b2ef4371cfe912a6ee7c76cd0f0190c4cfa94a4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_TextFonts.h": "248091b715d1ccdcc4455fb77de3e4586c54ff82da2dacbf4c1bc6c0e50ddaa1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Product_TripIcons.h": "b82f3e19b730e844fc101ee6a7f17351adf550781f651feba129e91bee2a7601",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Rollback_View.h": "bf387990259b67baea68a9fda540e29254286c2def9499e6d79015efbab62cb0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Scalar_Transition.h": "626679fee5540c13b92a56c60209960cc83d466620726a7f4c9be358af9c82de",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Scene_Transition.h": "5e7f2764d1ffb8688fdedc7c17399f5688c1b04ac1c9a9721ae3852721f985f2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Settings_Icons.h": "8edce0885e4496e585d6fbf9f14f0ddd3ce364bcf674dd0917a312bee1f66960",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Settings_View.h": "0c205826c96bb6c689e3975e02f3c59849590d656b09b72456180d4bc6fa0fc3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/SpeedHome_Layout.h": "701c88d36f907ac94bbb1c34443553f8c81c32465e6ee133843d23d834c282e2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/SpeedHome_View.h": "05a33f474aef1e3091e7283bc166725096bdb2bd92ef3012dce73d251645b810",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/SystemError_View.h": "04861d6456557310026872874081c56515ad4240193f77651cd6eae56c0c88e2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Toast_View.h": "8255026f71a7db6ee3ebf51eb81fc5d9be4c869f1f0eed89fe66bfc489b99bbc",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Trip_Graphic.h": "ccef86fe7a730555b870ebce03d4f6f09f0b770bfb00a725b7acde1b7b550de2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/inc/Trip_Layout.h": "c435fb061b092e9b29adbee0c4e1794ad7c605643c0a750ed2be5e3c3a69d596",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/bootstrap_screen.c": "3b9c76a0724dbd42e02290e6e062f6c6f5e0026c70408210178e79a7e961566b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/button_hints.c": "ca4060afff6400632d2915d51934bd2a408b540cd59c9767a40f27846a6ada13",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/dashboard_pages_view.c": "383431396f4dd44cf6d84e3eb358777cd62d1a7a68bc9a4291853bc693cd820a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/Graphics_ArcSweep.c": "9af0a5355983179abd54dafb8c404b31aeed45f14384b60695ede79e4fdd1ff4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/Graphics_BringupHUD.c": "3652ada9b5f95eee29543b52a0bd083a90dcf40c822cd5bbad233d933bfc61b5",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/Graphics_Test.c": "b25aa4075760acea33f719b75f3a6dc039ba786ca57c0c04bf02b4a66e90a886",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/Graphics_Test_Assets.c": "87bd4640eb15c77e68630dad448eac254c2490bd06da62c496bb929c3cd4ae97",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/Graphics_Test_Internal.h": "5a47c27f98a83a2c904464c3e220fc99ff36ca819af445c728a92d343d42c7bc",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_00_dashboard.c": "dc4390ac6932201c4d069a4338a0c3bdac2889274c0aa89944f6e6b9c90ac29b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_01_controls.c": "b22fcd866fd56961deeea395ce8006d67c98445cd8b299b215fe362faff8b8f9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_02_meters.c": "86db2f3886c947a5767c57b18e6c7c2a6de5b4bb23de145345e214b1cf407895",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_03_chart.c": "7094b97acec987bdd8f74b6fc6d434513db670eee88fb328a402ac7dc7797de3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_04_table.c": "5398d1b8a7eec746f414e89423b2e272d15d84b3af64973c761a3f502b4dc625",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_05_scale.c": "c10994e0a9e31cb959b351aa4fc9c240754230de3399743b9f9c77dbe99cd9b1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_06_spinbox.c": "747c346816d8525a02f415c29f48b54be627b0c74643d686b8b48d081ee75794",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_07_dropdown.c": "5515660036e3efc83a5a8b183a641102fdcaaa7efcc7c3346a016f72e87c6e6f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_08_roller.c": "a910505c2c5207ff2cc18f33dbd8e5ac16f2ab94b112b367ab22e237c174b2dd",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_09_keyboard.c": "22c5fd49ab60e7482658c4eef61e653abe77b5180b9a3b7d650738eef3240b80",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_10_buttonmatrix.c": "a23af9377aa660b21d7f781d4dfea098a6013d51f2061b3f473973c0e76ba8b0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_11_tabview.c": "41856b3f7fd46d522823d3cd948acebe6e55212855eecb95f5cb5f31123bff37",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_12_tileview.c": "2149f377b8edf33cd1043d17769b66a0f1c5b07dd7140d52734c1988bca0ecf9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_13_window.c": "67a126ae8ed64e1882bf4b07fde009066e9eb056c4f05bc19f410a20dd669774",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_14_menu.c": "7c7bcb4636896612773a9429ae8341a759678ce0b78dc9c1d5dd08f59a6fa3ae",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_15_msgbox.c": "4bbef67509182aa8f7be2c5181cbb9a06808c3038d82fe35f3d2737eebd39353",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_16_spinner.c": "7e6f9d6c4b1f6daded5c240b177a15a653ea08d58a52b91d8f352a4567037377",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_17_span.c": "5a01f1b056c004ff24fc36bdce894ab90aa98f70199cd09c1bf538391237c551",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_18_image.c": "81f6c21eb430225b0bdee12c50bf26db6db15eec8b92b4d79203da27710eb7f2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_19_animimage.c": "aaf2c25014d8c61bb7dfa8f25e735bcec35ffb8b4a91fdd9bb3ea11750944dd7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_20_imagebutton.c": "28770821549f1dc1e1746d67303038613d46413b723cf2971eb4dca5f2c3aef7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_21_line_led.c": "b3d886a7149c7b53fe02970d3305cec275b1db62ad5ff8f5cf047506893ef396",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_22_calendar.c": "bb31217eb44295f112be058b309db9bdda4cd8ceb79ba49c57c22d33210c66c2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_23_list.c": "154c234f198b64fd34159f782b10aacaddcccacef10357f78d152b22e3846f81",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_24_flex.c": "3aa55d1df8d683592f156ba88598c7be7434e201b8c1dc0a2105579a8837e935",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_25_grid.c": "cc53bdf072da15f7afd0e8cdcd5cb679163f6da46197f045fa46468cd3a71f71",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_26_scroll.c": "0413964ad394f06036420ebd2b0a3fe4c5c3209308b83dc4ac74612de89d5fd0",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_27_events.c": "02221ac1fd8953edc486612d27d06dc198de2cc0fef6e28505301f4a50876efe",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_28_animation.c": "62fbacae7e51b80d2efdfedfeb9e520e2a210672f2d97338305791d5b3a306ef",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_29_labels.c": "bad5b8e9793db2220ad0e9a4cfbb97c3a9c4aa5f3b78a69de3d149c0e0e81450",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_30_skip_canvas.c": "f8baab1e2fe1a2e4b8433421e491bd5d441edccacebe42ce455f1b6a784d8071",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_31_skip_layer.c": "46a42e1e07568af89f37a72e9388c9207944f57c3a0b4afccff255a0deb4fb22",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_32_skip_shadow.c": "a295cec423f3a7b656a58f61482484c16fcd2a4419be4f5948367b6d71dee4f3",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_33_skip_gradient.c": "50d0cd5d215ca1076be025fa23d1dc9cfc884dac24b9946c51051f445e7815e4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_34_skip_mask.c": "80a1a64a3654afdc3b656e3964640e27568039af017f5ff83b22a93670e849ab",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_35_skip_svg.c": "28896aa36648243f0c44e2d73dbf6407bae871afcea73ff1ed3da07934d4de42",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_36_skip_lottie.c": "b886f8e0b35dddde02ac7916a5f0bc5515eb10037cc86fea46cf91f9f24db6fb",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_37_skip_file_image.c": "f315cfaff00747f89d7a8ffb69f2320cfd9acfb780887745e5aeec618bd8ee8d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_38_skip_arclabel.c": "95c9a3022c5d3c1474a97384edb7f8c4f0b5558ddd8078b889206903878b34e4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_39_skip_texture3d.c": "aef56304be3d57feef7697d24dd1a82f9bdd7d616430b8d24048c58fad13f073",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/GT_40_skip_ime.c": "1235a6a587649f9dc2d6f447865cedf971957aa94fb72a0d60f996c94a8e2a83",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/power_scene.c": "89d265da7ff9d88169c9cddf2c9eb1a8c32f0a782fab8d24e4c99edf40bf45e2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/power_view.c": "de2014c3c5e109c6b6d0664f4a66903322b0842fb97e7724ab9079906b9ec241",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_aux_assets.c": "9138e2e487d8193e2c70b57c69a73d371967136b79d48ee8b31379240376ab85",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_background_view.c": "9272ee5d3f3c265fa6a61bcda8468554caeaa6f5bdaf93e84a15f2a820f7e2f1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_icon_fonts.c": "521c117b4307400a0ed5e9e89862919381d1ae3c36fd8c4aeaec901b02d7a055",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_maintenance_bar.c": "3d60e7bee0173b23dd6d08b5e2ee54e77c8bcdd7c75a07f05e77c509f6c8cbf9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_mode_icon_data.c": "d12e90e58b81fe8f2d62c9f39e42ca307e336d14e4bdb0aeeaf818eea3a94f0a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_mode_strip.c": "9c2305acbaf52c6dbdc98879a7243e1480d272fddabdd5de7e25a25b956c12ae",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_montserrat_font.c": "471b6507d43a4b15e0bf6f9ad8f493680a7f838cdc15c733738fe2f166c0ffba",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_music_graphic.c": "95bd18cc4382ab662b4f9df8877ad3f801c14604e9597dd4b6ffa4c6dac316e7",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_music_icon_data.c": "3ff1d26811cf662d80374c1281b7aa950cd9547faf352d337061ffd0ebf4ede8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_number_fonts.c": "128541f61d38618f29e57321a78c04a78605e39d20af6794bcf79f9f6b6e7870",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_rollback_view.c": "2ec7b06b1d6b734e98002b66f41ffa2ec66f9421d8ccb37fb11e47f437de59d1",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_system_error_view.c": "2178b5fc6953583fba1a0184c207d6e1ac68defcd2842f47d0841439d84972d2",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_text_fonts.c": "64ad26437bd68764b2bbd2a5ae053c36622ccb715ebbdbec8dc430e2677f5d2b",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_toast_view.c": "9a5f83583160d8ed02a71bc89bacc6bb700ebdef33dea62ba83d42659b02df3e",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_trip_graphic.c": "3e93d73b513410c73982a6e99df55bb9fee6a796dda556a36754769b2ea83b69",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/product_trip_icon_data.c": "01fde733ee0e6d8a6f1d0eaa5d1305c3c0ee016b4976b0ae8eb2672d197d2076",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/scalar_transition.c": "854d75e009ed32a926f7e9fa5ac5b38722f0658a168f54ab4f1276583e39bf38",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/scene_transition.c": "f3c1008e6033248c6a29912543795a1b94a1942b7871c6bd1b46ccf9645c0062",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/settings_icon_data.c": "45d94c71ac5aedf9c31e8e05b738ad750ce9752cc3a476e8342e84ec87be0cf8",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/settings_position.c": "150ac288fb2105471aaeb962c2173d0c4a4e64254eb63d13e6460f707db1ba7a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/settings_view.c": "bd2d245e11e3c4dabe55ce2158c17e07c69aa07f32ade481ba3445d4050c67ec",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/speed_home_layout.c": "a3caf0713e872cf72adbc64eb4ee3abc2922fdf91b433049afda83ac670f2051",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/Graphics/UI/src/speed_home_view.c": "af99f2ac4e3595c9264b2dfd14314898843b8dda5cc4031b9720c692f9caaa0d",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_ui/run.py": "a6e1893ab1aaacb6c9c1ab73e125b2b8c66752550176c0fb685a310e726c9e29",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_ui/screen_test.c": "e4ef9a1db3aafefcdd5c65c23368530d58a3fda2ffdb55037a27179c9a59f76a",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_ui/test.c": "d6ad4a1769e35f5d5150eaede2bd78061f7a660c8b4eb9752bd3b0fe1a1ac631",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/fast_run.py": "7266e9ac7ce87a8b81764e0b964aa49ab365e9b4a8e4ebdd2a731c59314dec02",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/real_nor_run.py": "51472a300018b329742c03a17e565d1e825ab62321dea599b8f6c9568f39bb63",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/real_nor_test.c": "cde71f752fd84d5214fada812abd2a30aadb38a9dbc5fe2489652564ac60cad4",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/run.py": "6c49c0e862758bcb61bcbcdbadce3529b9d7e0a10f0707985be97a9eddd13d7f",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/run_resource.py": "be3edce7a58b0598b3032ac0739a9153c1ac304822a0092bef37739b1ccbdaa9",
+    "Reversing/STM32CubeProjects/FuckNudo_Noodoe_CFW_Project/tools/tests/bootstrap_storage/test.c": "8a7c50b92e7a934f303b2149ffafda4f41b86cb9ce200de63849efe6dc85f3c3",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/AppLanguageSettings.java": "8e48f725115b404847169637137815299c17c23f9403b1e64be468f78419db1b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/ContentGenerator.java": "44313652f44517595f809340a5e3413a4a6789d1cfc86ac36bb225a6b45df7b1",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/GallerySlotStore.java": "96c9f2f0ac9b227c45d2b71ad76aead13d5e990513745e1eaf0d6105ef4b222b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/HomeScreen.java": "1dfc710814f35c67aa4ce0c07d7460d5a99124c9b37c0ba91e07abadfe195fd4",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/MainActivity.java": "8c2d2b7f99872578cb665fc6d8594d5773a37cda7df110788bd671497a46ff52",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/NoodoeNotificationListener.java": "73bb06514568771a7cf1e481305aebc9f0937607e629f660b104daf692bf4b2c",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/NoodoeService.java": "8d9f3963666d8a939b09d727876332d35593d99f90bd3842d56d98e90fbd3b4c",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/NotificationBridgeSettings.java": "6ca2020d9810c31c8d9501cebe1d779a09fcdeac2e6b38fcb38c3327793cde4a",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/OtaPackageInspector.java": "45757cc1046cf68be532aed6e072fd070c9b71bf9240246bbe3f63ad7377e722",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/PhotoCropDialog.java": "50120a5ed483660e4116c53d280f5bea93a2aefbbe2c877b314caa2796353000",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/PrivacyPolicyDialog.java": "7ad3c548f349d73d34a16030c028aa0ebe7a7ad7533602b3066e898255a21ed0",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/ThemeAuthoringOptions.java": "fb34f56c84ff3c1185bb7ee6fc0bbd8d83b0ead443d4d0192139ae5d4c94d052",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/ThemeRepository.java": "3e351981d39d1ea7e3fb52ffa8d01fe33291667d8242eadeca5af3a4928eaad4",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/UiThemeSettings.java": "db0aa0117c7f28478848ca309fa604051d14e5f25f4e55457e390dc0b9a2b09e",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/VehicleModelCatalog.java": "f4d360cd93a069a9e8859961ca24606da4984d57e23b64094371429338fddec1",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/VehicleTelemetry.java": "198dcd08f74d64e52fb43dfea4fe3213d94a5a9311c4d54ef0a2d18ea59d0e21",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/WelcomeLightPolicy.java": "a89480178d5a9af1420348b9e8b81bf1ec48be037b78cb98e238b09dc600d4aa",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/companion/CompanionNotifications.java": "6dc4e97bae712844164c013a385e78a46b0d97d83ca484c763216346c2a84a57",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/companion/CompanionRuntime.java": "7840191314c78cb4194d86f8f7312dcbccbf3ce29bd0dcfdccf37d83912bd454",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/companion/CompanionWire.java": "ca5f9bc7ea04935b7845340e2a91a55faf3f3324c3a9f5a521fdb40092322267",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/diagnostics/DurableFiles.java": "3f806f387bb344ba036404e6a3fd2a7ee1b9b7860a7bd87ac947d86347ba2d68",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/diagnostics/SessionLog.java": "ff2e166e168b18cb19a1c76971bf0d07411c2a9ddc6eeae2a274d86f53fbaacd",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/AndroidInstallerTransport.java": "1ef0e83756282877ae98410293cb7b3df0e2bd870057bf4c33a5f5751467a5b1",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/BootstrapFatPlan.java": "55d167ff49fc9289765196893aadf71fad96d4fe072d491cc473cfcb23e79e5a",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/BootstrapProgress.java": "97f5d83da8993e8b8e9f3e63f2f38b1d0763519565a4f2c2ca70c8a0d1e4c17c",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/BootstrapProvisioner.java": "a3d4f39266439073c2976e1d9a491c16019f80e0eb6b5051dcb899fb5f1f16c7",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/DeviceLogContainer.java": "bfd757bda4dc38bb28d41eb487c892d274251ec16f9ea6f74d45959eefe9b003",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/DeviceLogDownload.java": "3ef7acbce032f4450c8fcda46360490622d983c4600b84cf37b88224c18bf23c",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/GateContainers.java": "a2f45ac1343f33644b0c3b590db00e01624ccdc6df7b5fc4ea7f58678b5f90a7",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallerActivity.java": "e8cf8c1a82bf3c5e7145da78079822b04e876a15ffa78c450a3a11ace83ce196",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallerController.java": "7ae4b1cbbec8501b74c10c970c39efe7682ed1e827ef994a9d1b734ec8cad544",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallerFailure.java": "e063c715d445f77d8f40a5411e3f953763deae1e84b8cff721c917c45de8f28a",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallerPresentation.java": "8156cfdac67ab0babeceb1e37f843f333bf6032b4252977bccba5a61efd70d2b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallerTransport.java": "4c56cf295cc8d73adbb4ea522dd3d6eeaacbb290569b51a9f97d473418a8db69",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/InstallJournal.java": "d71b8e85c7a22503bb63d2057cd6c79f3341d6894d7fe9e049b8ca5a086cae66",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/LoggedInstallerProgress.java": "4b5807ca11b1791262be93e9631833603066eaec2f91cbd0ff95bd7522ca4b30",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/LoggedInstallerTransport.java": "ae7fd4981595a5b31adffba294901f347ad51b9775d2d5652ade8136a4a22323",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/NdcpSession.java": "66045e48e842ffb49b74f893d73a9469cc71cb8ab7b087c7424a5438bc18214b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/ProductBootSession.java": "159eda7bb9a07226e1b5f192e7e833418f9857a45e4c57c9537eb0c474484136",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/RecoveryBundle.java": "05c6cdd5a761252b2bf0301762c388e88b9946c847133a180830b5b43cf6c20b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/RoutineUpdateSession.java": "05ec99b16fac44343f7cd03332921e136226d9988e728c108960ed188be91a42",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/ScopedBackup.java": "f7d639be6c156efd83d135666c57c24667f2fd12a13587d9a452d591975b66a9",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/StockUpdateSession.java": "965c7e490caa401def9362422e57c7649531286ca6578f3061f57a2e1d25b29f",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/TargetBinding.java": "7b4bb28c1d5b4619e280884b67d1843a47e9f033b9829aa5a685d74a64336860",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/installer/TransportDeadline.java": "6eca2797cb3abd0f071023c81383aa16369c5f5eb10daa2a1d8aa50fbb5cacf7",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/maintenance/InstallerHomeActivity.java": "b94013beabf9d985a87e3d6b7001087ad571ca7153706f2c71cd89b726b7b68b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/maintenance/MaintenanceService.java": "a6a4a686bbde0e4372333a6cf843392c2f35cc69129c09cc4d52f8cce7cf314d",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ByteCodec.java": "5acd41114c3cf211e7f355eeda04fb00a9e91bc02536f9e302024ace2f458bb7",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/CandidatePayloads.java": "79f28bb70ff0fa5a7c9c86c4c4c10830851c1c8c7f5e78e692c217b2e1b8373b",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/CommandFrame.java": "726234d765f9c125d9d71a09479ab655a52ba7dc0ca13d4139ef35ee50f49981",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/DeviceInfo.java": "9b9252a142e0a50ce4ed56f0638ead63ec71f1d111f5a21e679e0ad4fac6cab7",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/FileTransferPayloads.java": "4e74390120bb1e97d4006c98fdfda3bf5a8d23ba0984e96e7455fc6ca6154159",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/OqcData.java": "749d1c2bd7f19cbe99dcee20be903144e8e6fad4a01d335d5f19623e55dca55f",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/OqcTestSample.java": "0e7ff2c2b97bef6ea37fe8348ddd15604b4ece6ed253e2a841b867d24e622d0d",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ProductCommandPolicy.java": "ec088fa07741b8ae42550d9793edf024545b32cbd90046cec751851281b6d4b5",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ReplyExpectation.java": "6cc2e096c312149774c5f30cd86d55287bc9b5255a05303530f495a1506a3334",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/RidingStatus.java": "65253e7decd567febdbd241991f81796748bc256456a6f8828c2675ae2789220",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/SequenceFrame.java": "dd3d877cd07f492045982579ad1690c7397dbca1786af27491dcfcca04b247bc",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/SequenceStreamDecoder.java": "68a673f54d6dc18868064cdb2ee0da4bcc665a6be5fb15acc2ef06244614a4dd",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/transport/SppTransport.java": "c3f711198da70e7492c206e38e96e3f063f02029aae0d85cbf3443ad15891128",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ndcp/CommandAudit.java": "5308a7c30d86d46a5dd9e40b43d049c3a2c154fe52c57f4746b7a80f2d08702c",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ndcp/MaintenanceStatus.java": "ef584a9038d0f862d0c894dc48a632fd698a31c520a03d03ff98e2e2fccf0139",
+    "NoodoeInstaller/Android/app/src/main/java/io/opennoodoe/app/protocol/ndcp/NdcpClient.java": "f1707278aabca60b26d54fa120cac5821134560fd570a389b85caa3790e15697",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/GallerySlotStoreTest.java": "8eb2441880bbcaceca55e94f5d2a6d36096a6d418b7f611602c425b91d089381",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/VehicleModelCatalogTest.java": "23bb5edf8dc58129c597d094d95d30dfb67cc8ecdace3c9a09dddc3b5da74dc7",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/VehicleTelemetryTest.java": "6c7387eddc1986fc2c3d17d76730bd3662908157c3adc7c429635cb8780361c7",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/WelcomeLightPolicyTest.java": "95c03fb9eb0a6f8537bd035a3ffd0decab43294d36e153c99a33739aa0d5563d",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/companion/CompanionTest.java": "b3ad88b5b7950083fad3a6930ae70ee2fbec186a1a74ef8dc00c3c32eb8bc9ce",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/DiagnosticsTest.java": "ef4b8883ad1606686c66dd781c70e6e4eb83b3be75ee315d7e0784b54a08954c",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/InstallerPresentationTest.java": "664da1ffbc51594449f9aef95885a64a3b6bfae4f28d8b84c548ceb8f5e73d1f",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/InstallerTest.java": "c4015967376bd00546c80a5e5c5ae2b4483f806550e56b558b41731c12539b82",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/MaintenanceTest.java": "641ea5e9b8a283f40b5ab35f4a90ab3361c92b603ba4d0dc8d05ba57f2f39c8f",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/ProductBootTest.java": "27defdf1eaa4ef255699134d66e84d3cb279edbfee849319aed857b7c04e44e7",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/installer/ScopedBackupTest.java": "75cb3a803004e1edfb663811ac3a84f217c6fe782bd6944a824ec1dc9a80bca9",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/protocol/ProductCommandPolicyTest.java": "42b309543474b7755dad40d87f6ac42f7e850d14400c8d0e01f83609cf608f83",
+    "NoodoeInstaller/Android/app/src/test/java/io/opennoodoe/app/protocol/ProtocolCodecTest.java": "2017fb88251a268212eccb9f9002f08322221e880bd73c53e4e69e6b8d01256c"
+  },
+  "limitations": [
+    "No healthy-radio, real Android UI, physical power-cut, or BL0.15 interruption test.",
+    "First FAT publication and original bootloader installation are not made atomic.",
+    "Display transport submission tests are not a physical screen/pixel check.",
+    "Storage test uses memory-backed NOR and host-accelerated SHA/memcpy; not timing evidence.",
+    "Early progress lives in RAM/phone logs; not every pre-provisioning event survives device power loss."
+  ]
+}

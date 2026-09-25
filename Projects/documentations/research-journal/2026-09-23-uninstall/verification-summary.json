@@ -1,0 +1,271 @@
+{
+  "apk_version": "6.7.0",
+  "version_code": 11,
+  "apk_sha256": "0490e53a1c861c699a297edd1004859ff2957ddcd71e4ecdc1e51bb9708852a9",
+  "apk_bytes": 28750178,
+  "bundle_sha256": "8fef8c9fdffcfe5a94843d567df3a870fdc7270bb22aadc73f380a27240a49ea",
+  "bundle_bytes": 1293852,
+  "uninstall_sha256": "71c670e2f9e1bcc6a332fff71351be6bbf2bc29e985ced49af5505607a835b35",
+  "android": {
+    "tests": 194,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 81
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "unchanged": {
+    "bootstrap": true,
+    "stock": true,
+    "resources": true,
+    "gate": true
+  },
+  "budgets": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 326552,
+        "free": 66664
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141200,
+        "free": 55152,
+        "sections": {
+          ".data": 2884,
+          ".bss": 136512,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 357832,
+        "free": 35384
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141472,
+        "free": 54880,
+        "sections": {
+          ".data": 2900,
+          ".bss": 136768,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    }
+  },
+  "cleanup_tests": {
+    "cut_and_rejection_cases": 499,
+    "final_core_selected_cases": 51,
+    "extra": {
+      "hardware": false,
+      "tests": [
+        {
+          "test": "uid-owned-text-removed",
+          "pass": true
+        },
+        {
+          "test": "foreign-text",
+          "pass": true
+        },
+        {
+          "test": "unknown-format",
+          "pass": true
+        },
+        {
+          "test": "long-name",
+          "pass": true
+        },
+        {
+          "test": "reported-failure-TestErase",
+          "pass": true
+        },
+        {
+          "test": "reported-failure-TestProgram",
+          "pass": true
+        },
+        {
+          "test": "reported-failure-TestJournalProgram",
+          "pass": true
+        }
+      ]
+    },
+    "dense": {
+      "hardware": false,
+      "erased_bytes": 4390912,
+      "mutations": 1309,
+      "cuts": [
+        {
+          "cut": 274,
+          "result": "pass"
+        },
+        {
+          "cut": 402,
+          "result": "pass"
+        },
+        {
+          "cut": 418,
+          "result": "pass"
+        },
+        {
+          "cut": 546,
+          "result": "pass"
+        },
+        {
+          "cut": 802,
+          "result": "pass"
+        },
+        {
+          "cut": 866,
+          "result": "pass"
+        },
+        {
+          "cut": 898,
+          "result": "pass"
+        },
+        {
+          "cut": 962,
+          "result": "pass"
+        },
+        {
+          "cut": 1218,
+          "result": "pass"
+        }
+      ]
+    }
+  },
+  "targeted_arm_scenarios": [
+    {
+      "optimization": "O0",
+      "scenario": "Test_Uninstall",
+      "argument": 0,
+      "failure_line": 0,
+      "assertions": 913,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 458240
+    },
+    {
+      "optimization": "O0",
+      "scenario": "Test_Uninstall",
+      "argument": 1,
+      "failure_line": 0,
+      "assertions": 9,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    },
+    {
+      "optimization": "O0",
+      "scenario": "Test_RetainedRestore",
+      "argument": 0,
+      "failure_line": 0,
+      "assertions": 7,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    },
+    {
+      "optimization": "O0",
+      "scenario": "Test_RetainedRestore",
+      "argument": 1,
+      "failure_line": 0,
+      "assertions": 6,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    },
+    {
+      "optimization": "Os",
+      "scenario": "Test_Uninstall",
+      "argument": 0,
+      "failure_line": 0,
+      "assertions": 913,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 458240
+    },
+    {
+      "optimization": "Os",
+      "scenario": "Test_Uninstall",
+      "argument": 1,
+      "failure_line": 0,
+      "assertions": 9,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    },
+    {
+      "optimization": "Os",
+      "scenario": "Test_RetainedRestore",
+      "argument": 0,
+      "failure_line": 0,
+      "assertions": 7,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    },
+    {
+      "optimization": "Os",
+      "scenario": "Test_RetainedRestore",
+      "argument": 1,
+      "failure_line": 0,
+      "assertions": 6,
+      "returned": true,
+      "result": 0,
+      "physical_device": false,
+      "last_result": 0,
+      "last_offset": 0
+    }
+  ],
+  "actual_rf_test": false,
+  "hardware_access": false,
+  "physical_power_cut_test": false,
+  "actual_install_time_seconds": null,
+  "remaining": [
+    "healthy-radio two routes without SWD",
+    "physical NOR/internal-flash power cuts",
+    "vendor BL interrupted install/restore",
+    "retained reinstall on vehicle"
+  ]
+}

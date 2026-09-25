@@ -1,0 +1,22 @@
+{
+  "unchanged": {
+    "cfw.bin": "93cdff34cc933ef304c470d597516bbea12c73f6db40798c91aeef774d4189ac",
+    "stock.bin": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf",
+    "resources.bin": "e72772e85b6d83ae2d41fcf999d3638d70bfe8070aa3fabd44c01eda8cef070c"
+  },
+  "bootstrap_sha256": "9de6d258d7175fda9835a6228ac3ed6f6965dccc7aad045051b1fa7b64129295",
+  "bundle_sha256": "e671d65cac66b56f9bc2580cc8f2962e6c01b6664e7fec7630b57d3c212254ad",
+  "apk_sha256": "d086db546d56ec28c1ddd30cea710628f7e7e8e5b24eb3550eaf3c4cc8634a54",
+  "android_tests": {
+    "tests": 158,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "resource_arm_cases": 11,
+  "scoped_v2_passed": true,
+  "ui_arm_cases": 50,
+  "resource_progress_optimizations": 2,
+  "hardware_access": false,
+  "user_incident_attributed": false
+}

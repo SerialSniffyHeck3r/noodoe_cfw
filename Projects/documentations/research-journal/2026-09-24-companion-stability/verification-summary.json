@@ -1,0 +1,109 @@
+{
+  "apk_version": "6.9.6",
+  "version_code": 20,
+  "apk_sha256": "70baf75f6163cd75b33fa5c7a9ff2f3adf210ba392e76b6d49b2979266e1dd7e",
+  "apk_bytes": 28695526,
+  "bundle_sha256": "6db84ac6b9399688571f04b40e3b28ecbc4defd110dcb547d31755fe12637374",
+  "bundle_bytes": 1395032,
+  "android": {
+    "tests": 270,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 84
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "6.9.6": {
+      "accepted": true,
+      "sha256": "6db84ac6b9399688571f04b40e3b28ecbc4defd110dcb547d31755fe12637374"
+    },
+    "6.9.4": {
+      "accepted": true,
+      "sha256": "55baddf76fe6157c6d7c9ed4508769972eac296780ea389b96709d78923e80b6"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "firmware_bundle_unchanged": false,
+  "unchanged_components": {
+    "bootstrap": true,
+    "gate": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "diagnostic": true
+  },
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327512,
+        "free": 65704
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143080,
+        "free": 53272,
+        "sections": {
+          ".data": 2924,
+          ".bss": 138352,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359304,
+        "free": 33912
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142160,
+        "free": 54192,
+        "sections": {
+          ".data": 2940,
+          ".bss": 137416,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "panel_example": {
+    "legacy_bytes": 18432,
+    "preview_bytes": 27648,
+    "decoded_bytes": 18432,
+    "wire_bytes": 7778
+  },
+  "actual_rf_test": false,
+  "bench_accessed": false,
+  "real_call_test": false
+}

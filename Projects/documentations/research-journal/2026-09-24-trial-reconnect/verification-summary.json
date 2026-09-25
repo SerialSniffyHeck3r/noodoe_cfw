@@ -1,0 +1,27 @@
+{
+  "apk_version": "6.10.2",
+  "apk_version_code": 25,
+  "apk_sha256": "76f935efe43d3b0fd922fe95fd772ab2c37054c8323bc732a3aa84e624f4b1d2",
+  "bundle_sha256": "aa7c9417718481ba53b0c378d6c6f834b2337b1aa24d9d46b6eeba75c8080640",
+  "cfw_version": "6.10.1",
+  "firmware_unchanged": true,
+  "production_importer": true,
+  "same_apk_signer": true,
+  "targeted_tests": 77,
+  "test_suites": [
+    "io.opennoodoe.app.installer.BondSessionTest",
+    "io.opennoodoe.app.installer.BootHandoffSessionTest",
+    "io.opennoodoe.app.installer.BootReconnectPolicyTest",
+    "io.opennoodoe.app.installer.BootstrapCommitDiagnosticsTest",
+    "io.opennoodoe.app.installer.DiagnosticsTest",
+    "io.opennoodoe.app.installer.InstallerTest",
+    "io.opennoodoe.app.installer.MaintenanceTest",
+    "io.opennoodoe.app.installer.ProductBootTest",
+    "io.opennoodoe.app.installer.VisualInstallConfirmationTest",
+    "io.opennoodoe.app.maintenance.AppLanguageSelectionTest",
+    "io.opennoodoe.app.maintenance.CompanionLanguagesTest"
+  ],
+  "lint_errors": 0,
+  "actual_rf_test": false,
+  "target_access": false
+}

@@ -1,0 +1,703 @@
+{
+  "apk_version": "6.9.4",
+  "version_code": 18,
+  "apk_sha256": "08d854f2ded25cef941739a44ab6f2d910f3bbf2673315af66424ab6f5a9532b",
+  "apk_bytes": 28640712,
+  "bundle_sha256": "55baddf76fe6157c6d7c9ed4508769972eac296780ea389b96709d78923e80b6",
+  "bundle_bytes": 1394761,
+  "android": {
+    "tests": 244,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 84
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "current": {
+      "accepted": true,
+      "sha256": "55baddf76fe6157c6d7c9ed4508769972eac296780ea389b96709d78923e80b6"
+    },
+    "6.9.3": {
+      "accepted": true,
+      "sha256": "04eaedf5215e0dea99c0085a04e7df754cb4319ba7fdf4d5c560ee975b8f66d6"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "unchanged_components": {
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "diagnostic": true,
+    "gate": true
+  },
+  "bootstrap": {
+    "bytes": 455580,
+    "free_bytes": 3172,
+    "sha256": "79da81cbeecdb30a7299d1edc3731ef68a317dfa6ec4465c6f68747808e9884f",
+    "sources": 139,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "memory": {
+    "Release": {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 327548,
+        "free": 65668
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141904,
+        "free": 54448,
+        "sections": {
+          ".data": 2924,
+          ".bss": 137176,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x20015978",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20007b40",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20009b40",
+          "bytes": 4360,
+          "kind": "B",
+          "name": "sessions.lto_priv.0"
+        },
+        {
+          "address": "0x20010c90",
+          "bytes": 4176,
+          "kind": "b",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x20006b10",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x20011ce0",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x2000144c",
+          "bytes": 4092,
+          "kind": "B",
+          "name": "phone_cache.lto_priv.0"
+        },
+        {
+          "address": "0x2000b760",
+          "bytes": 4088,
+          "kind": "B",
+          "name": "current_phone.lto_priv.0"
+        },
+        {
+          "address": "0x2000ca58",
+          "bytes": 3560,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x200045bc",
+          "bytes": 3104,
+          "kind": "B",
+          "name": "links.lto_priv.0"
+        },
+        {
+          "address": "0x200031ac",
+          "bytes": 2184,
+          "kind": "B",
+          "name": "music.lto_priv.0"
+        },
+        {
+          "address": "0x200219bc",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20005b30",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x20005330",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x2000f448",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x20000c58",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20013e7c",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x20013764",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000efc4",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x20014bb3",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x2000e738",
+          "bytes": 1024,
+          "kind": "B",
+          "name": "container_clusters.lto_priv.0"
+        },
+        {
+          "address": "0x20002448",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x200144d4",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x200107e8",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20012df8",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20015488",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x2000dc78",
+          "bytes": 936,
+          "kind": "B",
+          "name": "page.lto_priv.0"
+        },
+        {
+          "address": "0x2000ad08",
+          "bytes": 908,
+          "kind": "B",
+          "name": "state.lto_priv.3"
+        },
+        {
+          "address": "0x8068e4c",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_16_glyphs"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    },
+    "Debug": {
+      "profile": "Product",
+      "configuration": "Debug",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 359216,
+        "free": 34000
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142160,
+        "free": 54192,
+        "sections": {
+          ".data": 2940,
+          ".bss": 137416,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "b",
+          "name": "pool"
+        },
+        {
+          "address": "0x20003418",
+          "bytes": 49152,
+          "kind": "B",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20019b94",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20002158",
+          "bytes": 4360,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x200167f4",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001e000",
+          "bytes": 4144,
+          "kind": "b",
+          "name": "filesystem"
+        },
+        {
+          "address": "0x200150a0",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x2001152c",
+          "bytes": 4092,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x20010534",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x200184d8",
+          "bytes": 3560,
+          "kind": "b",
+          "name": "view"
+        },
+        {
+          "address": "0x2001bcc8",
+          "bytes": 3104,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x20000b9c",
+          "bytes": 2184,
+          "kind": "b",
+          "name": "music"
+        },
+        {
+          "address": "0x20013048",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x2001d7fc",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001cffc",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x200143fc",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "rx_ring"
+        },
+        {
+          "address": "0x20001424",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20020614",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x20020144",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x20021b7c",
+          "bytes": 1120,
+          "kind": "b",
+          "name": "pxReadyTasksLists"
+        },
+        {
+          "address": "0x20020b25",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x20014c88",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "container_clusters"
+        },
+        {
+          "address": "0x20001d58",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2001f2fc",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x200213e4",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20017c98",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20020fd8",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x20012648",
+          "bytes": 936,
+          "kind": "b",
+          "name": "page"
+        },
+        {
+          "address": "0x20012bb4",
+          "bytes": 908,
+          "kind": "b",
+          "name": "state"
+        },
+        {
+          "address": "0x80749a4",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_16_glyphs"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    }
+  },
+  "bond_tests": {
+    "Os": {
+      "optimization": "Os",
+      "cases": [
+        {
+          "power_cut_phase": 2,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 3,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 4,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 5,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 6,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 7,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 8,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 9,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 10,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 11,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 12,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 13,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 14,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 15,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 16,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 17,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 18,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 19,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 20,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 21,
+          "valid_records": 2
+        },
+        {
+          "rejected": "future schema"
+        },
+        {
+          "rejected": "wrong UID"
+        },
+        {
+          "rejected": "bad CRC"
+        }
+      ],
+      "round_trip": true,
+      "rekey_during_write": true,
+      "deduplicated": true,
+      "unknown_fields_preserved": true,
+      "fragmented_cfg": true,
+      "hardware": false
+    },
+    "O0": {
+      "optimization": "O0",
+      "cases": [
+        {
+          "power_cut_phase": 2,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 3,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 4,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 5,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 6,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 7,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 8,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 9,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 10,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 11,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 12,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 13,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 14,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 15,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 16,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 17,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 18,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 19,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 20,
+          "valid_records": 1
+        },
+        {
+          "power_cut_phase": 21,
+          "valid_records": 2
+        },
+        {
+          "rejected": "future schema"
+        },
+        {
+          "rejected": "wrong UID"
+        },
+        {
+          "rejected": "bad CRC"
+        }
+      ],
+      "round_trip": true,
+      "rekey_during_write": true,
+      "deduplicated": true,
+      "unknown_fields_preserved": true,
+      "fragmented_cfg": true,
+      "hardware": false
+    }
+  },
+  "bt_scenarios": 14,
+  "actual_rf_test": false,
+  "bench_accessed": false
+}

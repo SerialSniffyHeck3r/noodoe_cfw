@@ -1,0 +1,82 @@
+{
+  "cfw_version": "6.10.1",
+  "apk_version": "6.10.1",
+  "apk_unchanged": true,
+  "apk_sha256": "5ced9e0a93189eefefd5b94f2d1125b790705c6aa632e2bc1594f0c3f5007383",
+  "bundle_sha256": "aa7c9417718481ba53b0c378d6c6f834b2337b1aa24d9d46b6eeba75c8080640",
+  "production_importer": true,
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327592,
+        "free": 65624
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143848,
+        "free": 52504,
+        "sections": {
+          ".data": 2924,
+          ".bss": 139116,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359408,
+        "free": 33808
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142872,
+        "free": 53480,
+        "sections": {
+          ".data": 2940,
+          ".bss": 138128,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "average_opacity_before": 170,
+  "average_opacity_after": 255,
+  "pixel_diff_bounds": [
+    12,
+    163,
+    34,
+    177
+  ],
+  "unchanged_components": [
+    "bootstrap",
+    "gate",
+    "stock",
+    "resources",
+    "uninstall",
+    "diagnostic"
+  ],
+  "capture": "production renderer test model replayed on physical bench EVE through ST-LINK",
+  "actual_rf_test": false,
+  "flashed_product": false,
+  "target_restored": true
+}

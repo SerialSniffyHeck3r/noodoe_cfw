@@ -1,0 +1,50 @@
+{
+  "installed": {
+    "state": "candidate-installed",
+    "app_sha256": "651f29a854308537bb0ea421c1f6525c8f7bf75d2d1d3069531b2e4e3ed3bb44",
+    "bootloader_preserved": true,
+    "nor_written": false
+  },
+  "elf_sha256": "39afc42b2bcca240001ec3b90e3f4bbd04d6d3c3539ab4daa8098010fc3c4766",
+  "source_sha256": {
+    "App_Logic/UI/src/power_ui.c": "388dc38207d400830a7d538785222ae5e8b725687c0713f448aa70949e948551",
+    "App_Logic/UI/src/ui_power.c": "8c676f3e3f87481ddca4ea99532d21159be09480601c5cf59672b0a60c848a33",
+    "App_Logic/UI/src/product_boot.c": "e55974e1f385c485c131071b8858c49daa7e450595e0a81b4ba4814af9098462",
+    "App_Logic/Runtime/src/NoodoeRuntime.c": "bd7df79c78bc3a8316a635c2e0cb5025a9b77e747c9a480b81acd99d6cb919ad",
+    "Drivers/BSP/src/BSP_LowPower.c": "e0b9a0690663bc28c324193d441d4c10fcb96477aadc5b0b664b53d77ca769d4",
+    "Drivers/BSP/src/bsp_display_capture.c": "af15491cc0c55634c48496f32011a29933c84306d9a32807a3e545832443601d",
+    "Graphics/Port/src/graphics.c": "d0a5ef23d0517ad474a7808e8c9901ad9434de80ae5fa61ed337d6109a77be62",
+    "Middlewares/Noodoe/Power/src/PowerService.c": "a55ae22fad42c7c52fe731637e896c6df3059b7db7ec4e8cd2dca7805cb2fe97",
+    "Middlewares/Noodoe/Power/inc/PowerService.h": "08f4d9a332971c626356cf10bf4ce10d2833e696f6d77751df219b4f710729c2",
+    "Middlewares/Noodoe/Bluetooth/src/bluetooth_service.c": "02a7cec66eb6f0d9a51cd7ee4b676c4d8c1541633b9044c5859413e0cb72b129",
+    "App_Logic/Settings/src/app_settings.c": "cf05d2348c65c62d6b6d822edf29bd87aef002ea25925d4655cf1341392f8fbe",
+    "App_Logic/Settings/src/settings_system.c": "68c209020665bdf41bb67c9187a91d261c14b67993c1520f64048dbb5ed65286"
+  },
+  "performance": {
+    "magic": 1196443185,
+    "version": 1,
+    "valid": 1,
+    "fps_tenths": 299,
+    "cpu_tenths": 592,
+    "target_fps_milli": 30000,
+    "continuous": 1,
+    "window_ms": 1002,
+    "window_frames": 30,
+    "frame_slots_missed": 4,
+    "cpu_window_cycles": 168336799,
+    "idle_window_cycles": 68697019
+  },
+  "physical_ign_on": 1,
+  "physical_off_verified": false,
+  "wireless_retention_verified": false,
+  "builds": [
+    "Product Release",
+    "Product Debug"
+  ],
+  "memory_free_bytes": {
+    "release_flash": 86424,
+    "debug_flash": 70988,
+    "sram": 35744,
+    "ccm": 16320
+  }
+}

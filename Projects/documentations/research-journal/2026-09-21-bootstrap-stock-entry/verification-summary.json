@@ -1,0 +1,59 @@
+{
+  "current_device": "Original V5.16",
+  "physical_bootstrap_early_O_hold_confirmed": true,
+  "stock_screen_user_confirmed": true,
+  "normal_menu_physical_test": false,
+  "stock_app_exact_match": true,
+  "lower64_preserved": true,
+  "stock_full_sha256": "be1aa05f1aa95a669bdaf9aecf0e12399eab240d3f74cab58fc686678772e634",
+  "temporary_halt_seconds_approx": 6,
+  "bootstrap_installed_then_restored": true,
+  "bootstrap": {
+    "bytes": 436904,
+    "free_bytes": 21848,
+    "sha256": "8ff358d6c09941906b9601880f1d78ae271493c1b6526220db3f45282681630d",
+    "sources": 130,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "gate": {
+    "base": "0x8010000",
+    "bytes": 16840,
+    "sector_bytes": 65536,
+    "free_bytes": 48696,
+    "sha256": "20c8539859225aefca4d6e81ad99359d8c24af5e4c23418b062b78963d521507",
+    "sources": 14,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "ui_test_runs": 24,
+  "display_test_runs": 10,
+  "display_runtime": {
+    "address": 536987916,
+    "bytes": 32,
+    "words": [
+      1195657521,
+      9,
+      0,
+      1,
+      3154004,
+      156,
+      165,
+      0
+    ]
+  },
+  "wireless_tested": false,
+  "stock_boot_delay_root_cause": "ALS/BT timeout probable based on prior stock evidence; this boot not continuously timed; SWD halt contributed"
+}

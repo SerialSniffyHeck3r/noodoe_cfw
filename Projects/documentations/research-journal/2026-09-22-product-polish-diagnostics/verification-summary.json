@@ -1,0 +1,512 @@
+{
+  "apk_version": "6.5.3",
+  "apk_sha256": "eb76f65ae1a21a89fb9f1684887b51e7dc3a6591d95acf3b4b70d369ee0bfc3f",
+  "bundle_sha256": "8325d5e4ff9b68f1491a3ec00b2f26ff65cf1343b730359103139f2f247d6460",
+  "product_sha256": "3aaf6ca206db0b828a22d108ef2f17db98f3732ee79afe2296e83e5531a4c9f3",
+  "android": {
+    "tests": 168,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "full_android_suite_log": "android-verified.log",
+  "final_android_screen_rerun_log": "android-layout-final.log",
+  "settings": [
+    {
+      "optimization": "O0",
+      "returned": true,
+      "result": 0,
+      "assertions": 316,
+      "failure_line": 0,
+      "hardware_access": false,
+      "source_sha256": "02b8c9c10fcfe39ed0c610807cb6942e89387b08ee247caa6b116167198b72cd"
+    },
+    {
+      "optimization": "Os",
+      "returned": true,
+      "result": 0,
+      "assertions": 316,
+      "failure_line": 0,
+      "hardware_access": false,
+      "source_sha256": "02b8c9c10fcfe39ed0c610807cb6942e89387b08ee247caa6b116167198b72cd"
+    }
+  ],
+  "budgets": [
+    {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 327040,
+        "free": 66176
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 140000,
+        "free": 56352,
+        "sections": {
+          ".data": 1712,
+          ".bss": 136488,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x20015208",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20007540",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20009540",
+          "bytes": 4360,
+          "kind": "B",
+          "name": "sessions.lto_priv.0"
+        },
+        {
+          "address": "0x200104a8",
+          "bytes": 4176,
+          "kind": "b",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x20006510",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x200114f8",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20000f88",
+          "bytes": 4092,
+          "kind": "B",
+          "name": "phone_cache.lto_priv.0"
+        },
+        {
+          "address": "0x2000afb0",
+          "bytes": 4088,
+          "kind": "B",
+          "name": "current_phone.lto_priv.0"
+        },
+        {
+          "address": "0x20003efc",
+          "bytes": 3104,
+          "kind": "B",
+          "name": "links.lto_priv.0"
+        },
+        {
+          "address": "0x2000c298",
+          "bytes": 2936,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x20002c58",
+          "bytes": 2184,
+          "kind": "B",
+          "name": "music.lto_priv.0"
+        },
+        {
+          "address": "0x2002124c",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20005470",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x20004c70",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x2000ee34",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x20000798",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20013578",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x20012e60",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000e9b0",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x20014447",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x2000dc80",
+          "bytes": 1024,
+          "kind": "B",
+          "name": "container_clusters.lto_priv.0"
+        },
+        {
+          "address": "0x20001f84",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x20013d3c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x20010004",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20012620",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20014868",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x806f370",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        },
+        {
+          "address": "0x8068e0c",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_16_glyphs"
+        },
+        {
+          "address": "0x8068af8",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_20_glyphs"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    },
+    {
+      "profile": "Product",
+      "configuration": "Debug",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 359072,
+        "free": 34144
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141464,
+        "free": 54888,
+        "sections": {
+          ".data": 2900,
+          ".bss": 136756,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "b",
+          "name": "pool"
+        },
+        {
+          "address": "0x200033f0",
+          "bytes": 49152,
+          "kind": "B",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x200198f4",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x2000212c",
+          "bytes": 4360,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x200167e0",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001dd44",
+          "bytes": 4144,
+          "kind": "b",
+          "name": "filesystem"
+        },
+        {
+          "address": "0x2001508c",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x200112f4",
+          "bytes": 4092,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x200102fc",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x2001ba28",
+          "bytes": 3104,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x200184c0",
+          "bytes": 2936,
+          "kind": "b",
+          "name": "view"
+        },
+        {
+          "address": "0x20000b74",
+          "bytes": 2184,
+          "kind": "b",
+          "name": "music"
+        },
+        {
+          "address": "0x20012c3c",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x2001d540",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001cd40",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x200143ec",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "rx_ring"
+        },
+        {
+          "address": "0x200013fc",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20020358",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x2001fe88",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x200218c0",
+          "bytes": 1120,
+          "kind": "b",
+          "name": "pxReadyTasksLists"
+        },
+        {
+          "address": "0x20020869",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x20014c74",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "container_clusters"
+        },
+        {
+          "address": "0x20001d2c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2001f040",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x20021128",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20017c84",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20020d1c",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x8076bec",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        },
+        {
+          "address": "0x80745a0",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_16_glyphs"
+        },
+        {
+          "address": "0x80741a8",
+          "bytes": 768,
+          "kind": "r",
+          "name": "product_text_20_glyphs"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    }
+  ],
+  "preserved_release_images": {
+    "bootstrap.bin": "ae79eeac1c12853a97dd9f7fa7ade6da31e58eda62d45f783c3e48ac586984a9",
+    "stock.bin": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf",
+    "resources.bin": "e72772e85b6d83ae2d41fcf999d3638d70bfe8070aa3fabd44c01eda8cef070c"
+  },
+  "bench": {
+    "installed": true,
+    "internal_readback_twice": true,
+    "stock_64k_unchanged": true,
+    "fat_unchanged": true,
+    "nor_sectors_written": 83,
+    "product_sha256": "3aaf6ca206db0b828a22d108ef2f17db98f3732ee79afe2296e83e5531a4c9f3",
+    "rf_verified": false
+  },
+  "bench_gate_preserved": true,
+  "production_importer": true,
+  "same_apk_signer": true,
+  "live": {
+    "fps": 29.9,
+    "cpu_nonidle_percent": 59.8,
+    "rtos_min_free": 23720,
+    "ccm_guard_failures": 0,
+    "system_error": 0,
+    "fault": 0
+  },
+  "radio_verified": false,
+  "album_art_radio_timing_measured": false,
+  "limitations": [
+    "Bench Bluetooth and ambient sensor are known faulty. Cached display data is not an RF test.",
+    "Only brief stationary RAM freshness was supplied for the Debug menu capture; no actual UART measurement claimed.",
+    "Full-duration RF, vehicle road, sleep current and interruption testing were not repeated."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "hardware_access": false,
+  "installed": false,
+  "tests_passed": 50,
+  "preserved_payloads": {
+    "cfw.bin": true,
+    "stock.bin": true,
+    "resources.bin": true
+  },
+  "bootstrap": {
+    "bytes": 451500,
+    "free_bytes": 7252,
+    "sha256": "814398f586307d61828ba944b53389f865d639dfbfb745b33e9ac0073b2f8880",
+    "sources": 134,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "package": "C:\\shared\\KYMCO\\Downloads\\NoodoeInstaller-6.4-Welcome.zip",
+  "sha256": "c5223a4999102f510a502ee0f76a85d6dc1a484ed25869cf20d3218bc6a79acb",
+  "bytes": 982167,
+  "android_importer": "passed; existing 6.4 APK"
+}

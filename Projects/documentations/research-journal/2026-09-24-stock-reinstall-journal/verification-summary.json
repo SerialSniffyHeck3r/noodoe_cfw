@@ -1,0 +1,38 @@
+{
+  "apk_version": "6.9.1",
+  "version_code": 15,
+  "apk_sha256": "9d0fff01c76ab15465fa2cfcc833afb90b1cb5596ea1c7d71b789a0e33a9c097",
+  "apk_bytes": 28637973,
+  "bundle_sha256": "372c5282ff28cc6acd814c019effe3e29c763ef5d2a0b490680a7134032a97c6",
+  "bundle_bytes": 1393059,
+  "android": {
+    "tests": 229,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 84
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "current": {
+      "accepted": true,
+      "sha256": "372c5282ff28cc6acd814c019effe3e29c763ef5d2a0b490680a7134032a97c6"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "firmware_bundle_unchanged": true,
+  "regression_tests": 7,
+  "workflow_upgrade_regression": true,
+  "actual_rf_test": false,
+  "bench_accessed": false
+}

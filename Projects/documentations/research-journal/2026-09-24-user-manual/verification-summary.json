@@ -1,0 +1,33 @@
+{
+  "apk": "6.10.1",
+  "version_code": 24,
+  "firmware": "6.10.0",
+  "apk_sha256": "5ced9e0a93189eefefd5b94f2d1125b790705c6aa632e2bc1594f0c3f5007383",
+  "bundle_sha256": "0e52b5804ab9de20824ff3c6471b41f84116c146f5e67205ddd0f2bf1af3822e",
+  "fresh_captures": 55,
+  "app_captures": 19,
+  "manual_pages": 13,
+  "manual_links_valid": true,
+  "target_restored": true,
+  "same_apk_signer": true,
+  "full_build_tests_lint_log": "android-full.log",
+  "final_targeted_tests": [
+    {
+      "name": "io.opennoodoe.app.companion.ManualAssetsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0"
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.UserManualTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0"
+    }
+  ],
+  "real_rf_test": false,
+  "capture_method": "production-renderer model fixtures replayed on physical EVE through ST-LINK; Android Activity Robolectric fixtures",
+  "kuromi_slot1": "firmware_verified_commit",
+  "windows_temp_deleted": false,
+  "temp_block_reason": "Execution tool rejected deletion command: blocked by policy"
+}

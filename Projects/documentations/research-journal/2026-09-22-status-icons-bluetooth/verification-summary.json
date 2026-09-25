@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-22",
+  "installation": {
+    "installed": true,
+    "internal_readback_twice": true,
+    "stock_64k_unchanged": true,
+    "fat_unchanged": true,
+    "nor_sectors_written": 83,
+    "product_sha256": "815585dc939a09601df7c7d1466fec536cd92f71454177f94c90dd4904e25448",
+    "rf_verified": false
+  },
+  "full_internal_readback_sha256": "9022e6ba451d98b1578671873c774937e343d38a8df42df6f4d27ed32f1dc890",
+  "app_binary_sha256": "4ef816780e573e8e45832c3350675097a90409366e71929b87811607cdeeb268",
+  "installer_zip_sha256": "a6942f62d6af181225097bf27a69fcbde85c7fc98615c1ab335e74d6405459fe",
+  "memory": {
+    "release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 324552,
+        "free": 68664
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 140000,
+        "free": 56352,
+        "sections": {
+          ".data": 1712,
+          ".bss": 136484,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 356904,
+        "free": 36312
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141456,
+        "free": 54896,
+        "sections": {
+          ".data": 2900,
+          ".bss": 136752,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "bootstrap": {
+      "used": 457700,
+      "free": 1052
+    },
+    "rtos_heap_reserved": 49152
+  },
+  "latest_hardware_sample": {
+    "fps": 29.9,
+    "cpu_busy_percent": 59.2,
+    "rtos_heap_min_free": 23728,
+    "ccm_guard_errors": 0,
+    "fault_record_valid": false,
+    "system_error": 0,
+    "bluetooth_error": "0x101",
+    "ambient_error": 3
+  },
+  "hardware_actions": [
+    {
+      "action": "SK_BT_RESTART",
+      "seconds": 0.5,
+      "result": 4,
+      "bt_state": 3,
+      "bt_error": 257,
+      "samples": [
+        [
+          0.0,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "action": "SK_SENSOR_RETRY",
+      "seconds": 0.5,
+      "result": 4,
+      "bt_state": 3,
+      "bt_error": 257,
+      "samples": [
+        [
+          0.0,
+          3,
+          2
+        ]
+      ]
+    }
+  ],
+  "tests": {
+    "settings": {
+      "optimizations": [
+        "O0",
+        "Os"
+      ],
+      "assertions_each": 254
+    },
+    "bt_transport": {
+      "optimizations": [
+        "O0",
+        "Os"
+      ],
+      "scenarios_each": 7
+    },
+    "theme_fuel": {
+      "optimizations": [
+        "O0",
+        "Os"
+      ],
+      "assertions_each": 111
+    },
+    "aux_assets": {
+      "optimizations": [
+        "O0",
+        "Os",
+        "Oz"
+      ],
+      "assertions_each": 1050
+    },
+    "android_production_importer": "passed"
+  },
+  "not_verified": [
+    "successful RF pairing/re-pairing",
+    "healthy physical ambient sensor",
+    "physical IGN low-power stages/electrical current",
+    "long-duration load",
+    "Cube GUI regeneration"
+  ],
+  "unchanged": [
+    "stock lower64KiB",
+    "Gate",
+    "FAT metadata",
+    "external resource package",
+    "Android sources/APK",
+    "heap/stack/queue budget constraints"
+  ]
+}

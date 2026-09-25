@@ -1,0 +1,117 @@
+{
+  "android": {
+    "tests": 164,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "suites": 27
+  },
+  "bootstrap_adapter_passed": true,
+  "protocol_passed": true,
+  "product_update_cases": 78,
+  "ui_cases": 50,
+  "watchdog_passed": true,
+  "gate_handoff_passed": true,
+  "builds": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 324856,
+        "free": 68360
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 140008,
+        "free": 56344,
+        "sections": {
+          ".data": 1712,
+          ".bss": 136492,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true,
+      "binary_sha256": "3d5f24c07f4d8952ed8df80f38cc9f38e8a2ebd98a1bdfb32faf829dfc02525e"
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 357240,
+        "free": 35976
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141464,
+        "free": 54888,
+        "sections": {
+          ".data": 2900,
+          ".bss": 136756,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true,
+      "binary_sha256": "b10b25b476114506010a76e4b786d440424438ac3c1877012cf1801aafc4b241"
+    }
+  },
+  "bootstrap": {
+    "bytes": 458684,
+    "free_bytes": 68,
+    "sha256": "ae79eeac1c12853a97dd9f7fa7ade6da31e58eda62d45f783c3e48ac586984a9",
+    "sources": 137,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "gate": {
+    "base": "0x8010000",
+    "bytes": 22492,
+    "sector_bytes": 65536,
+    "free_bytes": 43044,
+    "sha256": "103026f47154e8b09a9549044d9218037dd15214ba9dbae25a9d3a6bc7f75cae",
+    "sources": 17,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "apk_sha256": "190e30a74a1de24d45787d60c7dfe89d2a1c443e4127f8bf5b8c7968f48672ce",
+  "bundle_sha256": "00975f1fd2072beee81a18b14954c497ebc902fb44f48dd81b0424b8914a462b",
+  "hardware_access": false,
+  "wireless_tested": false,
+  "stock_app_sha256": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf",
+  "exact_60_second_iwdg": false,
+  "iwdg_prescaler": 256,
+  "iwdg_reload": 4095,
+  "nominal_iwdg_seconds": 32.768,
+  "unverified": [
+    "physical RF/phone/vehicle",
+    "physical reset and power interruption",
+    "installation elapsed time"
+  ]
+}
