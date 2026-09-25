@@ -1,9 +1,9 @@
 # FuckNudo CFW
 
-![속도 링과 트립 컴퓨터](Projects/documentations/manual/images/trip-a.png)
-
-
 **킴코 모터사이클에 장착된 순정 옵션 "Noodoe" 에 새 생명을 불어넣는 커스텀 펌웨어 프로젝트입니다.**
+
+
+![속도 링과 트립 컴퓨터](Projects/documentations/manual/images/trip-a.png)
 
 
 2017년 출시되어 약 6-7년의 기간동안 장착되어 출시되던 이 Noodoe 시스템은 2027년 KYMCO 사에서 서비스 종료를 결정했다. 이에 따라 기본적인 차량 설정 및 Noodoe의 대부분의 기능이 작동하지 않게 된다나 뭐라나. 근데 아직도 차량은 멀쩡한데 Noodoe를 사용할 수 없게 된다는 것은 좀 문제가 있다고 생각했다. 이걸 다시 사용해보자! 이참에 원래 Noodoe에서 없엇지만 추가적으로 있었으면 좋겠는 다양한 기능을 더 넣어보자! 라는 마인드로 시작한 프로젝트이다.
