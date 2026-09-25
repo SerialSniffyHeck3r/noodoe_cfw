@@ -18,6 +18,7 @@ This has run on development hardware and an AK 550, but it remains an active har
 |---|---|
 | What is on the board? | [Hardware](Projects/documentations/hardware.md) |
 | How was the original behavior identified? | [Reverse engineering](Projects/documentations/reverse-engineering.md) |
+| How did disassembly reveal the chips and peripheral setup? | [Stock assembly analysis (Korean)](Projects/documentations/stock-assembly.ko.md) |
 | How is the CFW divided? | [Architecture](Projects/documentations/architecture.md) |
 | Where do code, assets and saved data live? | [Memory map](Projects/documentations/memory-map.md) |
 | How do installation and rollback work? | [Installer and recovery](Projects/documentations/installer.md) |
@@ -26,7 +27,7 @@ This has run on development hardware and an AK 550, but it remains an active har
 
 The source trees are [Android](Projects/Android) and [STM32CubeIDE](Projects/STM32). Historical observations and protocol notes are collected under [documentations](Projects/documentations/README.md). Compiled APKs and firmware packages are distributed through Releases, not committed to the source tree. The source tree does **not** include a raw stock firmware dump, a device backup or factory secrets; an installation release may contain an exact approved stock payload.
 
-[한국어 소개](README.ko.md) · [Releases](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[한국어 소개·기술 문서](README.ko.md) · [Releases](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 ## Latest downloads

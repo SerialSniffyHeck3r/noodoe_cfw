@@ -1,5 +1,7 @@
 # Memory map and resources
 
+[한국어](memory-map.ko.md)
+
 ## Internal flash and RAM
 
 | Address | Size | Purpose |

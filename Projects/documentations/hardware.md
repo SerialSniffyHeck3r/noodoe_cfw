@@ -1,5 +1,7 @@
 # Hardware: what is inside a Noodoe module?
 
+[한국어](hardware.ko.md)
+
 This describes the AK 550 / SR1.5-family hardware studied for this project. A peripheral seen in stock firmware is not automatically proven present, connected or working on every motorcycle. The development module also has a damaged Bluetooth/ambient-light path. Numbers below distinguish the [STM32CubeIDE target](../STM32/FuckNudo_Noodoe_CFW_Project.ioc), decoded stock behavior and actual board observations.
 
 ## Main signal path

@@ -1,5 +1,7 @@
 # Installation, updates and recovery
 
+[한국어](installer.ko.md)
+
 The installer is designed around one rule: **the rider must still have a way back if Product or Bluetooth fails.** It is not a generic STM32 flasher. It depends on a compatible, identified Noodoe board, its original updater and an exact stock recovery image. Check the release's target profile and validation notes rather than assuming every AK 550 year is identical.
 
 ## First installation
