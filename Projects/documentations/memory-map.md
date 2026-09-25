@@ -14,7 +14,7 @@ Gate and Product together consume the 448 KiB application allocation. The build 
 
 ## External memory
 
-The studied board has a **128 MiB NOR** and **64 MiB SDRAM**. NOR is nonvolatile storage; SDRAM is working memory and loses contents when power is removed. The OEM NOR includes a FAT volume and an update staging reservation. CFW creates named, fixed-size files only after checking both FAT copies, ownership of every cluster and conflicts with reserved regions. It does not turn a guessed raw address into a general write permit. The OEM update reservation at NOR offset `0x07F80000–0x07FFFFFF` is retained for the original installer.
+The studied board has a **128 MiB NOR** and **64 MiB SDRAM**. NOR is nonvolatile storage; SDRAM is working memory and loses contents when power is removed. The OEM NOR includes a FAT volume and an update staging reservation. CFW creates named, fixed-size files only after checking both FAT copies, ownership of every cluster and conflicts with reserved regions. The OEM update reservation at NOR offset `0x07F80000–0x07FFFFFF` is retained for the original installer.
 
 | CFW-owned FAT file | Size | Function |
 |---|---:|---|
