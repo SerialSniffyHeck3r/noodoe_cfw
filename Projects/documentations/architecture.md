@@ -1,5 +1,7 @@
 # CFW architecture
 
+[한국어](architecture.ko.md)
+
 The firmware is split by **responsibility and failure domain**. A good-looking UI must not own raw flash writes, and a broken Product UI must not be required to restore stock. The STM32CubeIDE tree is [Projects/STM32](../STM32); the phone is [Projects/Android](../Android). They communicate through the project's NDCP messages over Classic Bluetooth SPP.
 
 ## On-device executables

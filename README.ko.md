@@ -14,12 +14,13 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 
 | 주제 | 문서 |
 |---|---|
-| 실물 하드웨어 | [hardware.md](Projects/documentations/hardware.md) |
-| 순정 동작 분석 | [reverse-engineering.md](Projects/documentations/reverse-engineering.md) |
-| CFW 구조 | [architecture.md](Projects/documentations/architecture.md) |
-| 메모리와 자산 | [memory-map.md](Projects/documentations/memory-map.md) |
-| 설치·롤백·복구 | [installer.md](Projects/documentations/installer.md) |
-| 버튼·차량 데이터 | [vehicle-interface.md](Projects/documentations/vehicle-interface.md) |
+| 실물 하드웨어 | [하드웨어 구조](Projects/documentations/hardware.ko.md) |
+| 순정 동작 분석 | [역공학 과정](Projects/documentations/reverse-engineering.ko.md) |
+| 어셈블리에서 하드웨어를 알아낸 방법 | [순정 펌웨어 어셈블리 분석](Projects/documentations/stock-assembly.ko.md) |
+| CFW 구조 | [아키텍처](Projects/documentations/architecture.ko.md) |
+| 메모리와 자산 | [메모리 지도](Projects/documentations/memory-map.ko.md) |
+| 설치·롤백·복구 | [설치·복구 구조](Projects/documentations/installer.ko.md) |
+| 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 사용 설명서 | [페이지별 설명서](Projects/documentations/manual/README.md) |
 
 [Android 소스](Projects/Android)와 [STM32CubeIDE 소스](Projects/STM32)를 각각 보관한다. 연구 기록은 [문서 목록](Projects/documentations/README.md)에 모았다. 빌드 산출물은 소스 트리에 넣지 않고 [Releases](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)에서 배포한다. 소스 트리에는 순정 원본 덤프·개별 기기 백업·공장 비밀값을 넣지 않는다. 설치용 릴리스에는 검증된 순정 복구 payload가 포함될 수 있다.

@@ -1,5 +1,7 @@
 # Vehicle interface: buttons, ignition and cluster data
 
+[한국어](vehicle-interface.ko.md)
+
 Noodoe sits beside the main AK 550 instrument cluster. The cluster already has its own numeric speedometer; CFW uses the Noodoe display for a speed **ring** and secondary information. Vehicle speed and ODO come from the cluster's serial link. The phone supplies media, notifications, calls and optional GPS trail points; its GPS is not substituted for the cluster's UART speed.
 
 ## UART5 frame observed on the examined SR1.5/V5.16 system

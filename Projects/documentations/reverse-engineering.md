@@ -1,5 +1,7 @@
 # Reverse engineering the original system
 
+[한국어](reverse-engineering.ko.md) · [Hardware discovery from assembly (Korean)](stock-assembly.ko.md)
+
 The goal was to replace the application while retaining the useful vehicle interface and a path back to stock. This is a behavior-level reconstruction. The repository does not publish an OEM firmware dump, extracted factory data, a Bluetooth pairing secret or a disassembly of the complete stock image.
 
 ## Evidence chain
