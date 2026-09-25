@@ -1,0 +1,566 @@
+{
+  "installed": {
+    "installed": true,
+    "internal_readback_twice": true,
+    "stock_64k_unchanged": true,
+    "fat_unchanged": true,
+    "nor_sectors_written": 83,
+    "product_sha256": "529e13b097daff23ed5410ccdac3d3b748d56396cd44a11813950bad7331a2b9",
+    "rf_verified": false
+  },
+  "bench_uid": [
+    "0039001f",
+    "3436510f",
+    "35373339"
+  ],
+  "evidence_directory": "Reversing\\analysis\\2026-09-22-product-theme-fuel\\bench-write-evidence-1790061701386906100",
+  "builds": {
+    "release": {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 327216,
+        "free": 66000
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 139984,
+        "free": 56368,
+        "sections": {
+          ".data": 1736,
+          ".bss": 136444,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x20015188",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20007550",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20009550",
+          "bytes": 4360,
+          "kind": "B",
+          "name": "sessions.lto_priv.0"
+        },
+        {
+          "address": "0x20010420",
+          "bytes": 4176,
+          "kind": "b",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x20006520",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x20011470",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20000fa0",
+          "bytes": 4092,
+          "kind": "B",
+          "name": "phone_cache.lto_priv.0"
+        },
+        {
+          "address": "0x2000afa0",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x20003f10",
+          "bytes": 3104,
+          "kind": "B",
+          "name": "links.lto_priv.0"
+        },
+        {
+          "address": "0x80674e0",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x2000c288",
+          "bytes": 2936,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x20002c70",
+          "bytes": 2184,
+          "kind": "B",
+          "name": "music.lto_priv.0"
+        },
+        {
+          "address": "0x200211d0",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20005480",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x20004c80",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x2000edac",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x200007b0",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20012c74",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x8068518",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2001255c",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000e928",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x200143e7",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x2000dbf8",
+          "bytes": 1024,
+          "kind": "B",
+          "name": "container_clusters.lto_priv.0"
+        },
+        {
+          "address": "0x20001f9c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x20013cb8",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x2000ff7c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x200132fc",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20014808",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x806f408",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    },
+    "debug": {
+      "profile": "Product",
+      "configuration": "Debug",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 359524,
+        "free": 33692
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141448,
+        "free": 54904,
+        "sections": {
+          ".data": 2924,
+          ".bss": 136720,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "b",
+          "name": "pool"
+        },
+        {
+          "address": "0x20003408",
+          "bytes": 49152,
+          "kind": "B",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x200198ec",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20002144",
+          "bytes": 4360,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x200167d8",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001dd38",
+          "bytes": 4144,
+          "kind": "b",
+          "name": "filesystem"
+        },
+        {
+          "address": "0x20015084",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x200112ec",
+          "bytes": 4092,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x200102f4",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x2001ba20",
+          "bytes": 3104,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x8072104",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x200184b8",
+          "bytes": 2936,
+          "kind": "b",
+          "name": "view"
+        },
+        {
+          "address": "0x20000b8c",
+          "bytes": 2184,
+          "kind": "b",
+          "name": "music"
+        },
+        {
+          "address": "0x20012c34",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x2001d534",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001cd34",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x200143e4",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "rx_ring"
+        },
+        {
+          "address": "0x20001414",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x2002034c",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x8072e94",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2001fe7c",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x200218b4",
+          "bytes": 1120,
+          "kind": "b",
+          "name": "pxReadyTasksLists"
+        },
+        {
+          "address": "0x2002085d",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x20014c6c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "container_clusters"
+        },
+        {
+          "address": "0x20001d44",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2001f034",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x2002111c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20017c7c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20020d10",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x8076d98",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    }
+  },
+  "runtime": {
+    "sample_ms": 137119,
+    "fps": 29.9,
+    "cpu_nonidle_percent": 60.0,
+    "rtos_heap_min_free": 23752,
+    "ccm_guard_failures": 0,
+    "graphics_error": 0,
+    "spi_failures": 0,
+    "system_error_active": 0,
+    "fault_magic": 0,
+    "health_registered_mask": 15,
+    "failed_health_owner": null,
+    "core_hz": 168000000
+  },
+  "artifacts": {
+    "NoodoeCompanion-6.5.apk": {
+      "bytes": 27797783,
+      "sha256": "51e97c4b67b63d0b5ec47f98c55f7557d47302f10a8589e32929eb087ff968cc"
+    },
+    "vehicle015-complete\\installer.zip": {
+      "bytes": 993638,
+      "sha256": "330e0de40c4a2c5904f60f11f7c2f89b3e17cba2314d24f664969e1ebe9f2a5a"
+    },
+    "final-home-dark.png": {
+      "bytes": 43091,
+      "sha256": "2b4e467243e342f6e70c927dda5eb0be3992e94d768d4eb541efefa56ed1a065"
+    },
+    "final-home-light.png": {
+      "bytes": 65506,
+      "sha256": "5fdca6b81051a122e3e0469c0de97851c501f1a33d51ccd8d5ca3ee286a89c0d"
+    },
+    "fuel-warning.png": {
+      "bytes": 26778,
+      "sha256": "6c1f2b265b8263a8e49a5d888c79922b1b8272a859b42fba411693ec94442688"
+    }
+  },
+  "tests": {
+    "android": {
+      "tests": 158,
+      "failures": 0,
+      "errors": 0
+    },
+    "large_number": [
+      {
+        "optimization": "O0",
+        "speed_cases": 401,
+        "assertions": 2993,
+        "status": "PASS",
+        "hardware_access": false
+      },
+      {
+        "optimization": "Os",
+        "speed_cases": 401,
+        "assertions": 2993,
+        "status": "PASS",
+        "hardware_access": false
+      }
+    ],
+    "theme_fuel_O0_Os_assertions_each": 111,
+    "lowpower_O0_Os_assertions_each": 449,
+    "regression_final": [
+      {
+        "test": "theme_fuel",
+        "exit": 0
+      },
+      {
+        "test": "power_ui_host",
+        "exit": 0
+      },
+      {
+        "test": "product_ui",
+        "exit": 0
+      },
+      {
+        "test": "aux_assets",
+        "exit": 0
+      },
+      {
+        "test": "companion_control",
+        "exit": 0
+      },
+      {
+        "test": "ambient_host",
+        "exit": 0
+      }
+    ],
+    "package_production_importer": "passed"
+  },
+  "limitations": [
+    "Actual BT on this bench fails controller startup (0x302); no RF success claim",
+    "Actual ALS reports I2C error 3; sensor reaction unverified",
+    "No Arduino UART attached; 128 capture is draw-string-only injection, no telemetry/trip writes",
+    "Actual IGN OFF/ON stage transitions and current draw not measured this turn",
+    "No final eight-hour load or GUI Cube regeneration this turn",
+    "Latest captures show LCD output; no physical button visual approval claimed"
+  ],
+  "presentation_restored_after_capture": true,
+  "power_stage_requested_times_minutes": [
+    0,
+    1440
+  ],
+  "deep_exit": "IGN ON",
+  "stock_power_equivalence": "STOP primitive confirmed in stock; full shutdown wiring/current not proven"
+}

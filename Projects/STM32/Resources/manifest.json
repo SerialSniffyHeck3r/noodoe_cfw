@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "required_sha256": "b0896a0c9521e30e127e9e3ec43e6d9826071e1ffd3922cbfa0f083bf95a375f",
+  "container_bytes": 1048576,
+  "slot_bytes": 524288,
+  "entries": [
+    {
+      "id": 1,
+      "name": "product_text_16",
+      "offset": 0,
+      "bytes": 4494,
+      "crc32": 779459929,
+      "sha256": "68061a069ca11c28463ebc6e8898c7b3c65052c557c2ad1f60a9d87d6c26f312"
+    },
+    {
+      "id": 2,
+      "name": "product_text_20",
+      "offset": 4496,
+      "bytes": 6961,
+      "crc32": 3886424615,
+      "sha256": "16baab291ab2469409871571534fc08f6a2e1095469555ff91ec8a5b98802090"
+    },
+    {
+      "id": 3,
+      "name": "product_text_24",
+      "offset": 11460,
+      "bytes": 9910,
+      "crc32": 3899187258,
+      "sha256": "3cf25c709c34257a37fa95459da53c7dd7795ec077188259f83eaf7e7ec19c73"
+    },
+    {
+      "id": 4,
+      "name": "product_text_32",
+      "offset": 21372,
+      "bytes": 19008,
+      "crc32": 2454872290,
+      "sha256": "e68dd63fe3f41e2a8bedb39a4fd208c3948d4bf5c42c5930c0de3b98c12db0ce"
+    },
+    {
+      "id": 5,
+      "name": "product_number_20",
+      "offset": 40380,
+      "bytes": 955,
+      "crc32": 1889883780,
+      "sha256": "7cd1f304e0d21d457c65a1a3d548a5bf2370142d5e62014eb72a20f3b3fb65f1"
+    },
+    {
+      "id": 6,
+      "name": "product_number_32",
+      "offset": 41336,
+      "bytes": 2641,
+      "crc32": 3361701833,
+      "sha256": "1af594274d7521f8de9033dda2b6dad7252561d16166a40291298bea8d0bfd11"
+    },
+    {
+      "id": 7,
+      "name": "product_number_36",
+      "offset": 43980,
+      "bytes": 3014,
+      "crc32": 1183755061,
+      "sha256": "a6710d3156ba401dc00e90fcb557aa38098ee08e57d33ed01b8cb9edd28a0265"
+    },
+    {
+      "id": 8,
+      "name": "product_number_40",
+      "offset": 46996,
+      "bytes": 3696,
+      "crc32": 2379553503,
+      "sha256": "e1347ca458a19711fea601dc0d4c5706933dbd4f031ad6a3456959134cd2914a"
+    },
+    {
+      "id": 9,
+      "name": "product_number_48",
+      "offset": 50692,
+      "bytes": 5430,
+      "crc32": 3916072132,
+      "sha256": "0c20231ab51aa8e3e56685f0e2834bd39aea843362b0f519e1a04a4c3f78df4f"
+    },
+    {
+      "id": 10,
+      "name": "product_number_64",
+      "offset": 56124,
+      "bytes": 9475,
+      "crc32": 883452340,
+      "sha256": "f38e97de5cb0ee1106c0142bbf5a9a767f14856a5bbda0581df655ba7da94ac4"
+    },
+    {
+      "id": 11,
+      "name": "bt_cc256xb",
+      "offset": 65600,
+      "bytes": 9243,
+      "crc32": 893525715,
+      "sha256": "4c1d78833bfaa88ab015641760ae4881630b65393e1b54fc8b2c356bfd127915"
+    },
+    {
+      "id": 12,
+      "name": "bt_cc256xc",
+      "offset": 74844,
+      "bytes": 6760,
+      "crc32": 724000503,
+      "sha256": "42d81e70e1c877aaf54121377ac22f0837dea1d9649a22abffffc66c2c610b57"
+    },
+    {
+      "id": 13,
+      "name": "font_montserrat_14",
+      "offset": 81604,
+      "bytes": 8832,
+      "crc32": 179516731,
+      "sha256": "a44d3911b8ce8ac37033390b2fc4c1469cf10b87b15afc06ba65144ab358c4df"
+    },
+    {
+      "id": 14,
+      "name": "icon_mode",
+      "offset": 90436,
+      "bytes": 2304,
+      "crc32": 1442219605,
+      "sha256": "36468b57ba9f9a6543cf2d8569fff2b1e24af695b26d8a5810a5572136fde35a"
+    },
+    {
+      "id": 15,
+      "name": "icon_trip",
+      "offset": 92740,
+      "bytes": 1152,
+      "crc32": 2994956106,
+      "sha256": "5a6521502ad7b017fd5741c0f57c75ce1dbad03cc7465f0ca834f7585f34bb92"
+    },
+    {
+      "id": 16,
+      "name": "icon_music",
+      "offset": 93892,
+      "bytes": 1728,
+      "crc32": 3517353449,
+      "sha256": "fc9d7805ec39ed14875a08d361038114dcd2d9ea97268ad7eea28fa0b76c2be1"
+    },
+    {
+      "id": 17,
+      "name": "icon_settings",
+      "offset": 95620,
+      "bytes": 1728,
+      "crc32": 2280928573,
+      "sha256": "a44aa97644215f0fb5c407dce4a1728c2899718ad58b761e4b1288d590e11d56"
+    },
+    {
+      "id": 18,
+      "name": "icon_footer",
+      "offset": 97348,
+      "bytes": 404,
+      "crc32": 3742407748,
+      "sha256": "99560fbb11da7566226ba17f99557793517ef7b9d0a24a48ecf4192b80de41c0"
+    },
+    {
+      "id": 19,
+      "name": "icon_status",
+      "offset": 97752,
+      "bytes": 4448,
+      "crc32": 1080684178,
+      "sha256": "89012371f128ed291e9746fe67cb40dc181eb28b9a48dda80e0edc35ed3d43e3"
+    },
+    {
+      "id": 20,
+      "name": "product_number_160",
+      "offset": 102200,
+      "bytes": 42779,
+      "crc32": 2486939662,
+      "sha256": "52d61a8a38fa4ccd91ad21caef0dccf367ca95e7b433aba21d037cd16d79fdb8"
+    }
+  ]
+}

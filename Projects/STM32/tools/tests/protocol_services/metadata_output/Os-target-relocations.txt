@@ -1,0 +1,53 @@
+
+<workspace>\Reversing\STM32CubeProjects\FuckNudo_Noodoe_CFW_Project\tools\tests\protocol_services\metadata_output\Os-target.o:     file format elf32-littlearm
+
+RELOCATION RECORDS FOR [.RamFunc.update_metadata]:
+OFFSET   TYPE              VALUE
+00000028 R_ARM_ABS32       .bss.g_diag
+00000114 R_ARM_ABS32       .bss.g_diag
+00000168 R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+0000017c R_ARM_ABS32       .bss.g_sector
+000001cc R_ARM_ABS32       .bss.g_diag
+000001d4 R_ARM_ABS32       .bss.g_sector
+00000208 R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+00000218 R_ARM_ABS32       .bss.g_diag
+0000021e R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+000002b0 R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+00000428 R_ARM_ABS32       .bss.g_diag
+0000042c R_ARM_ABS32       .bss.g_sector
+00000430 R_ARM_ABS32       .bss.g_attempted
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_Read]:
+OFFSET   TYPE              VALUE
+00000006 R_ARM_THM_CALL    MetaEnter
+00000014 R_ARM_THM_CALL    MetaReadable
+00000022 R_ARM_THM_CALL    MetaReadWord
+00000030 R_ARM_THM_CALL    MetaLeave
+00000044 R_ARM_ABS32       .bss.g_busy
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_Commit]:
+OFFSET   TYPE              VALUE
+0000003e R_ARM_THM_CALL    MetaEnter
+00000058 R_ARM_THM_CALL    MetaLeave
+0000006e R_ARM_THM_CALL    MetaLeave
+0000007a R_ARM_THM_CALL    HAL_GetTick
+00000082 R_ARM_THM_CALL    BSP_Watchdog_BeginFlash
+000000ac R_ARM_THM_CALL    MetaTransaction
+000000b2 R_ARM_THM_CALL    BSP_Watchdog_EndFlash
+000000dc R_ARM_ABS32       .bss.g_busy
+000000e0 R_ARM_ABS32       .bss.g_attempted
+000000e4 R_ARM_ABS32       MetaTransaction
+000000e8 R_ARM_ABS32       SystemCoreClock
+000000ec R_ARM_ABS32       .bss.g_sector
+000000f0 R_ARM_ABS32       .bss.g_diag
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_GetDiagnostics]:
+OFFSET   TYPE              VALUE
+00000006 R_ARM_THM_CALL    MetaEnter
+00000028 R_ARM_ABS32       .bss.g_diag
+00000022 R_ARM_THM_JUMP24  MetaLeave
+
+

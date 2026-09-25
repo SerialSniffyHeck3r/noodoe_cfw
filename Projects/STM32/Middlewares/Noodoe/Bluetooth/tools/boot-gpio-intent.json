@@ -1,0 +1,717 @@
+{
+  "original_flash_sha256": "38207bed741a8fef9e6d2ed24b86c8cb8b376ba5e4c957163f5edd83fbeb8037",
+  "common_gpio_entry": "0x200002B0",
+  "board_revision": 6,
+  "emulated_strap_inputs": {
+    "PA3": 0,
+    "PH3": 1,
+    "PH2": 1,
+    "PB10": 0
+  },
+  "output_pins": {
+    "PI8": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x200006D6",
+      "level": 0,
+      "write_call": "0x200006E8"
+    },
+    "PI11": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x20000986",
+      "level": 1,
+      "write_call": "0x20000998"
+    },
+    "PG14": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x2000061C",
+      "level": 0,
+      "write_call": "0x200006B0"
+    },
+    "PI9": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x20000646",
+      "level": 1,
+      "write_call": "0x2000067A"
+    },
+    "PD13": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x2000069E",
+      "level": 1,
+      "write_call": "0x200006C2"
+    },
+    "PI1": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x200006FC",
+      "level": 0,
+      "write_call": "0x2000070E"
+    },
+    "PE3": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x20000722",
+      "level": 0,
+      "write_call": "0x20000734"
+    },
+    "PA8": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 1,
+      "alternate": 0,
+      "init_call": "0x2000088C",
+      "level": 1,
+      "write_call": "0x2000089E"
+    },
+    "PH13": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x200008BE",
+      "level": 1,
+      "write_call": "0x200008D0"
+    },
+    "PC1": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x200008F0",
+      "level": 1,
+      "write_call": "0x20000902"
+    },
+    "PF6": {
+      "mode": 1,
+      "pull": 1,
+      "speed": 2,
+      "alternate": 0,
+      "init_call": "0x20000922",
+      "level": 1,
+      "write_call": "0x20000934"
+    },
+    "PC8": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x20000954",
+      "level": 1,
+      "write_call": "0x20000966"
+    },
+    "PC13": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x200009AC",
+      "level": 0,
+      "write_call": "0x200009DC"
+    },
+    "PE4": {
+      "mode": 1,
+      "pull": 1,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x200009FC",
+      "level": 1,
+      "write_call": "0x20000A0E"
+    },
+    "PB1": {
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x20000A2E",
+      "level": 1,
+      "write_call": "0x20000A40"
+    },
+    "PA4": {
+      "mode": 1,
+      "pull": 1,
+      "speed": 0,
+      "alternate": 0,
+      "init_call": "0x20000A60",
+      "level": 1,
+      "write_call": "0x20000A72"
+    }
+  },
+  "trace": [
+    {
+      "operation": "init",
+      "call": "0x2000042C",
+      "pins": [
+        "PA0",
+        "PA1",
+        "PA2",
+        "PA5",
+        "PA7"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x2000047A",
+      "pins": [
+        "PB4",
+        "PB8",
+        "PB9",
+        "PB11",
+        "PB12",
+        "PB13"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200004AC",
+      "pins": [
+        "PC6",
+        "PC7"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200004BE",
+      "pins": [
+        "PD6"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200004D0",
+      "pins": [
+        "PF10"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000506",
+      "pins": [
+        "PG6",
+        "PG7",
+        "PG11",
+        "PG12"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000570",
+      "pins": [
+        "PH6",
+        "PH8",
+        "PH10",
+        "PH11",
+        "PH12",
+        "PH14",
+        "PH15"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000586",
+      "pins": [
+        "PI6",
+        "PI8",
+        "PI10",
+        "PI11",
+        "PI12",
+        "PI14",
+        "PI15"
+      ],
+      "mode": 3,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200005FC",
+      "pins": [
+        "PG13"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x2000061C",
+      "pins": [
+        "PG14"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000646",
+      "pins": [
+        "PI9"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000668",
+      "pins": [
+        "PG14"
+      ],
+      "value": false
+    },
+    {
+      "operation": "write",
+      "call": "0x2000067A",
+      "pins": [
+        "PI9"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x2000069E",
+      "pins": [
+        "PD13"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x200006B0",
+      "pins": [
+        "PG14"
+      ],
+      "value": false
+    },
+    {
+      "operation": "write",
+      "call": "0x200006C2",
+      "pins": [
+        "PD13"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x200006D6",
+      "pins": [
+        "PI8"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x200006E8",
+      "pins": [
+        "PI8"
+      ],
+      "value": false
+    },
+    {
+      "operation": "init",
+      "call": "0x200006FC",
+      "pins": [
+        "PI1"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x2000070E",
+      "pins": [
+        "PI1"
+      ],
+      "value": false
+    },
+    {
+      "operation": "init",
+      "call": "0x20000722",
+      "pins": [
+        "PE3"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000734",
+      "pins": [
+        "PE3"
+      ],
+      "value": false
+    },
+    {
+      "operation": "init",
+      "call": "0x20000798",
+      "pins": [
+        "PH9"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200007B8",
+      "pins": [
+        "PD7"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200007CC",
+      "pins": [
+        "PD5"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200007E0",
+      "pins": [
+        "PD4"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x200007F4",
+      "pins": [
+        "PD3"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000808",
+      "pins": [
+        "PG9"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x2000081C",
+      "pins": [
+        "PG10"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000830",
+      "pins": [
+        "PC11"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000844",
+      "pins": [
+        "PC10"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x20000858",
+      "pins": [
+        "PD11"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x2000086C",
+      "pins": [
+        "PG3"
+      ],
+      "mode": 0,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "init",
+      "call": "0x2000088C",
+      "pins": [
+        "PA8"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 1,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x2000089E",
+      "pins": [
+        "PA8"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x200008BE",
+      "pins": [
+        "PH13"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x200008D0",
+      "pins": [
+        "PH13"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x200008F0",
+      "pins": [
+        "PC1"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000902",
+      "pins": [
+        "PC1"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x20000922",
+      "pins": [
+        "PF6"
+      ],
+      "mode": 1,
+      "pull": 1,
+      "speed": 2,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000934",
+      "pins": [
+        "PF6"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x20000954",
+      "pins": [
+        "PC8"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000966",
+      "pins": [
+        "PC8"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x20000986",
+      "pins": [
+        "PI11"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000998",
+      "pins": [
+        "PI11"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x200009AC",
+      "pins": [
+        "PC13"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x200009DC",
+      "pins": [
+        "PC13"
+      ],
+      "value": false
+    },
+    {
+      "operation": "init",
+      "call": "0x200009FC",
+      "pins": [
+        "PE4"
+      ],
+      "mode": 1,
+      "pull": 1,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000A0E",
+      "pins": [
+        "PE4"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x20000A2E",
+      "pins": [
+        "PB1"
+      ],
+      "mode": 1,
+      "pull": 0,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000A40",
+      "pins": [
+        "PB1"
+      ],
+      "value": true
+    },
+    {
+      "operation": "init",
+      "call": "0x20000A60",
+      "pins": [
+        "PA4"
+      ],
+      "mode": 1,
+      "pull": 1,
+      "speed": 0,
+      "alternate": 0
+    },
+    {
+      "operation": "write",
+      "call": "0x20000A72",
+      "pins": [
+        "PA4"
+      ],
+      "value": true
+    }
+  ],
+  "limits": "Offline original instructions and inert MMIO. This establishes GPIO intent only; no controller supply, clock waveform, physical pin or full-stock startup result is measured."
+}

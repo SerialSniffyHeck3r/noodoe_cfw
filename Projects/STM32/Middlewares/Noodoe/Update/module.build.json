@@ -1,0 +1,5 @@
+{
+  "include_paths": ["Middlewares/Noodoe/Update/inc"],
+  "defines": [],
+  "vendor_roots": []
+}

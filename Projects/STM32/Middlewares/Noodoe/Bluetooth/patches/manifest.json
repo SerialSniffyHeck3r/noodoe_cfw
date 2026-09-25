@@ -1,0 +1,97 @@
+[
+  {
+    "path": "Services/Bluetooth/patches/cc256xb_bt_sp_v1.8.zip",
+    "bytes": 518693,
+    "sha256": "d6c2a1dd255d34d09315bc971317653a6eb779fd7d91f7fc6bc8c3f82081151a"
+  },
+  {
+    "path": "Services/Bluetooth/patches/cc256xb.inc",
+    "bytes": 61954,
+    "sha256": "08826e52aa89aed996605e7090fc0a0417e15ed5ebc00597f9d553cdaa8191fa"
+  },
+  {
+    "path": "Services/Bluetooth/patches/cc256xc_bt_sp_v1.5.zip",
+    "bytes": 448347,
+    "sha256": "bb4263528b16a3ebadfca500ac5d5cc4f3e6da3990192030c75c6fbbf95d0f4d"
+  },
+  {
+    "path": "Services/Bluetooth/patches/cc256xc.inc",
+    "bytes": 46398,
+    "sha256": "8306e2a8c84df9aa58cd9244b1b2ffaac1a690b40c1e3dd6aacc7451bf218929"
+  },
+  {
+    "path": "Services/Bluetooth/patches/b/CC256XB_BT_SP/TILAW-#279184-v1-WBU_TSPA_Software_License.txt",
+    "bytes": 3056,
+    "sha256": "b3e45ecf44fd4b833ae7108ae2e9fbbb99789cfff465afd2ea2909e43a8bb4ad"
+  },
+  {
+    "path": "Services/Bluetooth/patches/b/CC256XB_BT_SP/v1.8/initscripts-TIInit_6.7.16_avpr_add-on.bts",
+    "bytes": 38880,
+    "sha256": "bbf708ec65ef91052baaeb537f9579ed0aadda1682688938437116f2b1341e8d"
+  },
+  {
+    "path": "Services/Bluetooth/patches/b/CC256XB_BT_SP/v1.8/initscripts-TIInit_6.7.16_ble_add-on.bts",
+    "bytes": 1230,
+    "sha256": "385e2e09e41a1970624e7de57c0a4b70054c453d493da44d434aa7ce53dd86cf"
+  },
+  {
+    "path": "Services/Bluetooth/patches/b/CC256XB_BT_SP/v1.8/initscripts-TIInit_6.7.16_bt_spec_4.1.bts",
+    "bytes": 11700,
+    "sha256": "468e203f8e4554b3e589daaba1fbf94b0d78bc3533c62b68b02dc8cd038a2e27"
+  },
+  {
+    "path": "Services/Bluetooth/patches/b/CC256XB_BT_SP/v1.8/BluetopiaPM_Linux/TIInit_6.7.16.bts",
+    "bytes": 12918,
+    "sha256": "c316d91ec9bdfaebdd87268459e42064bd4f0159240c33cf7e5bab93aa169bc0"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/CC256XC_v1.5/TILAW-#279184-v1-WBU_TSPA_Software_License.txt",
+    "bytes": 3056,
+    "sha256": "b3e45ecf44fd4b833ae7108ae2e9fbbb99789cfff465afd2ea2909e43a8bb4ad"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/CC256XC_v1.5/v1.5/initscripts-TIInit_6.12.26_avpr_add-on.bts",
+    "bytes": 1328,
+    "sha256": "a2925b3d61c0540d53a654a37aa9332567dcff966e01566dca301b3ec5c21ab3"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/CC256XC_v1.5/v1.5/initscripts-TIInit_6.12.26_ble_add-on.bts",
+    "bytes": 94,
+    "sha256": "4ad774a25df8b899e69dc7591713b6e289aae035533fc3a03e14248a562b131e"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/CC256XC_v1.5/v1.5/initscripts-TIInit_6.12.26.bts",
+    "bytes": 9410,
+    "sha256": "8713288c647243c19637063408860ad540e1840eb4a0db5b0d2cff39613d5e49"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/CC256XC_v1.5/v1.5/BluetopiaPM_Linux/TIInit_6.12.26.bts",
+    "bytes": 10211,
+    "sha256": "646723c01de351eaf9c6b6b33f4f0dac9567b948a2e93daed9da7a896b6e1b0e"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/._TILAW-#279184-v1-WBU_TSPA_Software_License.txt",
+    "bytes": 212,
+    "sha256": "a9e440bdff76fcef249287f01417c528c701da0a9496a58214bba5aa7ff97abf"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/v1.5/._initscripts-TIInit_6.12.26_avpr_add-on.bts",
+    "bytes": 212,
+    "sha256": "a9e440bdff76fcef249287f01417c528c701da0a9496a58214bba5aa7ff97abf"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/v1.5/._initscripts-TIInit_6.12.26_ble_add-on.bts",
+    "bytes": 212,
+    "sha256": "a9e440bdff76fcef249287f01417c528c701da0a9496a58214bba5aa7ff97abf"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/v1.5/._initscripts-TIInit_6.12.26.bts",
+    "bytes": 212,
+    "sha256": "a9e440bdff76fcef249287f01417c528c701da0a9496a58214bba5aa7ff97abf"
+  },
+  {
+    "path": "Services/Bluetooth/patches/c/__MACOSX/CC256XC_v1.5/v1.5/BluetopiaPM_Linux/._TIInit_6.12.26.bts",
+    "bytes": 212,
+    "sha256": "a9e440bdff76fcef249287f01417c528c701da0a9496a58214bba5aa7ff97abf"
+  }
+]

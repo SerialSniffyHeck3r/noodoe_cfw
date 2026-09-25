@@ -1,0 +1,33 @@
+{
+  "family": "Google Material Icons Round",
+  "icons": [
+    {
+      "icon": "local_gas_station",
+      "codepoint": 58694,
+      "ink_size": [
+        18,
+        18
+      ],
+      "ink_offset_top": 6,
+      "bitmap_index": 0,
+      "bitmap_bytes": 162
+    },
+    {
+      "icon": "build",
+      "codepoint": 59497,
+      "ink_size": [
+        22,
+        22
+      ],
+      "ink_offset_top": 2,
+      "bitmap_index": 162,
+      "bitmap_bytes": 242
+    }
+  ],
+  "size": 24,
+  "line_height": 24,
+  "base_line": 0,
+  "bitmap_bytes": 404,
+  "source_sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e",
+  "generated_sha256": "521c117b4307400a0ed5e9e89862919381d1ae3c36fd8c4aeaec901b02d7a055"
+}

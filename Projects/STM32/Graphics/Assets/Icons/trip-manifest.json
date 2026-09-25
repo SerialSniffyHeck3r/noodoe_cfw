@@ -1,0 +1,55 @@
+{
+  "family": "Google Material Icons Round",
+  "source_commit": "40a7a292a79d9394157e1ea24f83d52d5e17c556",
+  "source_sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e",
+  "mask_size": 24,
+  "format": "LVGL A4 / EVE L4 alpha",
+  "bitmap_bytes": 1152,
+  "icons": [
+    {
+      "name": "arrow_upward",
+      "codepoint": 58840,
+      "ink_box": [
+        4,
+        4,
+        20,
+        20
+      ],
+      "sha256": "406992249ed531c3a93ba6532e61832576e7f381bfad7b529d24b2d6188e2839"
+    },
+    {
+      "name": "average_slash",
+      "codepoint": 0,
+      "ink_box": [
+        1,
+        0,
+        22,
+        24
+      ],
+      "sha256": "da668f9ed1c04b615a332cd11cc9a0739ba0041e50850acbaffc85ba9ef7f57f"
+    },
+    {
+      "name": "two_wheeler",
+      "codepoint": 59897,
+      "ink_box": [
+        0,
+        5,
+        24,
+        19
+      ],
+      "sha256": "c7b5369f37fa511287fa435b2668c88347edfebb5b2ddb8c427c4a3ad731f5c0"
+    },
+    {
+      "name": "signpost",
+      "codepoint": 60305,
+      "ink_box": [
+        3,
+        2,
+        21,
+        22
+      ],
+      "sha256": "949a73390ca2143244b8f6fd7f0c4d8796d4a09452fcad290cb351a6ff234669"
+    }
+  ],
+  "generated_sha256": "01fde733ee0e6d8a6f1d0eaa5d1305c3c0ee016b4976b0ae8eb2672d197d2076"
+}

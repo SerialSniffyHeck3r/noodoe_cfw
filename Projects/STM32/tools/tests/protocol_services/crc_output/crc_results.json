@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "assertions": 2865,
+      "status": "pass"
+    },
+    {
+      "optimization": "-Os",
+      "assertions": 2865,
+      "status": "pass",
+      "original_images": [
+        {
+          "file": "artifacts\\ota-archive\\2026-08-31-full\\blobs\\firmware\\1497259533376-s2-SR1_ota_V1.09.bin",
+          "bytes": 458748,
+          "sha256": "d42c63ba5ceba219fd14b6dcd74c456adaaa67bac0dca9cbaf83b2bc94fa090b",
+          "trailer": "0x93A080E2",
+          "actual_c_crc": "0x93A080E2",
+          "actual_c_residue": 0
+        },
+        {
+          "file": "artifacts\\ota-archive\\2026-08-31-full\\blobs\\firmware\\1498205072024-s3-NewAK_ota_V2.07.bin",
+          "bytes": 458748,
+          "sha256": "fc688e0022d4ced6765aa4d32764f23ad6eadaba218622a542cb5070508c5259",
+          "trailer": "0xD108D5F1",
+          "actual_c_crc": "0xD108D5F1",
+          "actual_c_residue": 0
+        },
+        {
+          "file": "artifacts\\ota-archive\\2026-08-31-full\\blobs\\firmware\\1657088080998-s1-SR1.5_ota_V516.bin",
+          "bytes": 458748,
+          "sha256": "3b64673054ca84b9cf504f4cc7ebcb2e6615b9fbf59df79a37a92dcf14f037ca",
+          "trailer": "0x70067874",
+          "actual_c_crc": "0x70067874",
+          "actual_c_residue": 0
+        },
+        {
+          "file": "artifacts\\ota-archive\\2026-08-31-full\\blobs\\firmware\\1657088113456-s2-EBike_ota_V516.bin",
+          "bytes": 458748,
+          "sha256": "a137231483498846b09f6a4036bf92608c8cadd6a54f3bf15f6f50c71e5fae8b",
+          "trailer": "0x74733DD4",
+          "actual_c_crc": "0x74733DD4",
+          "actual_c_residue": 0
+        }
+      ]
+    }
+  ],
+  "production_cmsis_compile": "pass",
+  "sources": {
+    "Drivers\\BSP\\src\\BSP_CRC.c": "370a31f714ab6b1849a93b87104be007f5f0f4e9e64da7fe7864e942bccd40f2",
+    "Drivers\\BSP\\inc\\BSP_CRC.h": "fae576ba1de620b70a6380f36bb023fa11ea8ae2513dc174255c7cfcdc2d58cb",
+    "tools\\tests\\protocol_services\\crc_test.c": "b579519080efab2f08836832548e705ee65dd42205c1a51821962fdbfed202ce",
+    "tools\\tests\\protocol_services\\crc_test_port.h": "02426b32e073ffc6b7ce24c1aad75e9026f07343dddb85dca8355ececcdb35e8",
+    "tools\\tests\\protocol_services\\crc_run.py": "dcac0287d7e9366cb9d96bdd9564e9aa77623b8ba18c6786ba2f591415707831"
+  },
+  "limits": "실제 ARM C를 실행하되 CRC/RCC/IRQ 경계는 모형이다. 실기 CRC, AHB 지연, 인터럽트 선점 타이밍, 처리 시간은 미검증이다."
+}

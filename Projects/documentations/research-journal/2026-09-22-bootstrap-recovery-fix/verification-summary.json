@@ -1,0 +1,78 @@
+{
+  "version": "6.3.2",
+  "version_code": 4,
+  "android_tests": 149,
+  "failures": 0,
+  "errors": 0,
+  "artifacts": {
+    "NoodoeCompanion-6.3.2.apk": {
+      "bytes": 27919556,
+      "sha256": "71ff720dc062d67f46f205421db3733c7b213d34c30f5f19f7b227a53b3399d1"
+    },
+    "NoodoeInstaller-6.3.2-BootstrapFix.zip": {
+      "bytes": 972063,
+      "sha256": "a9dc13aaae71e38b87914036942babb1ddd6eaeabbd76e02d9b71f434cf6ed82"
+    }
+  },
+  "bootstrap": {
+    "bytes": 444612,
+    "free_bytes": 14140,
+    "sha256": "bbe07ef4957f3047a81aa63a46d5a54e8b5aba06e7a20894a357fc1d71c2af07",
+    "sources": 134,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "package_policy": "Bootstrap repair only; Product6.3, Gate, resources and stock APP byte-identical to 3e0f8bb6a724... original bundle",
+  "current_source_builds_packaged": false,
+  "hardware_access": false,
+  "wireless_test": false,
+  "root_cause_limit": "No phone session log or actual reset cause supplied. Found and fixed reproducible code paths; exact field failure boundary unknown.",
+  "recovery_limit": "Pre-write rejection may cancel after current metadata proof. Destructive/uncertain commits stay latched and require reconciliation; no forced reset/rewrite.",
+  "reuse_limit": "Only complete compatible nine-file sets. Immutable bootstrap dependencies byte compared; mutable files validated on device. No auto-format/overwrite/partial publication repair.",
+  "tests": {
+    "ui_cases": 44,
+    "runtime": [
+      {
+        "optimization": "-O0",
+        "status": "pass",
+        "assertions": 45609,
+        "full_raw_pair_swap_match": true,
+        "full_stock_decode_match": true,
+        "raw_sha256": "6e47279eb5a2db96a1b30c6f8b9d2412ed4cd2c88e96433fd98021a8c7bba356"
+      },
+      {
+        "optimization": "-Os",
+        "status": "pass",
+        "assertions": 45609,
+        "full_raw_pair_swap_match": true,
+        "full_stock_decode_match": true,
+        "raw_sha256": "6e47279eb5a2db96a1b30c6f8b9d2412ed4cd2c88e96433fd98021a8c7bba356"
+      }
+    ],
+    "protocol": [
+      {
+        "optimization": "-O0",
+        "assertions": 23388,
+        "status": "pass"
+      },
+      {
+        "optimization": "-Os",
+        "assertions": 23388,
+        "status": "pass"
+      }
+    ],
+    "storage": {
+      "passed": true,
+      "packets": 708,
+      "request_payload_bytes": 543992,
+      "files": 9,
+      "blank_photo_slots": 3,
+      "existing_stock_and_reserved_tail_preserved": true,
+      "resume_verified": true,
+      "read_only_adoption_verified": true,
+      "corruption_rejected": true,
+      "write_timeouts_revoked_without_extra_mutations": 9,
+      "limits": "Memory NOR and accelerated SHA/memcpy; not real wireless, power-cut or timing verification"
+    }
+  }
+}

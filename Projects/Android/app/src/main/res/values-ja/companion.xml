@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="companion_0000" formatted="false">"走行接続後に機器の設定を読み取れます。"</string>
+    <string name="companion_0001" formatted="false">"確認"</string>
+    <string name="companion_0002" formatted="false">"ライダー名"</string>
+    <string name="companion_0003" formatted="false">"UTF-8で最大48バイト。保存後に機器に表示します。"</string>
+    <string name="companion_0004" formatted="false">"キャンセル"</string>
+    <string name="companion_0005" formatted="false">"適用"</string>
+    <string name="companion_0006" formatted="false">"名前の長さと接続を確認してください。"</string>
+    <string name="companion_0007" formatted="false">"保存ODOを確認"</string>
+    <string name="companion_0008" formatted="false">"機器の全設定"</string>
+    <string name="companion_0009" formatted="false">"閉じる"</string>
+    <string name="companion_0010" formatted="false">"更新"</string>
+    <string name="companion_0011" formatted="false">"停車を確認しました"</string>
+    <string name="companion_0012" formatted="false">"変更にはIGN ONで3 km/h以下を5秒間維持してください。"</string>
+    <string name="companion_0013" formatted="false">"明るさモード"</string>
+    <string name="companion_0014" formatted="false">"Noodoeの明るさ (%)"</string>
+    <string name="companion_0015" formatted="false">"Noodoe自動輝度補正"</string>
+    <string name="companion_0016" formatted="false">"背景を表示"</string>
+    <string name="companion_0017" formatted="false">"写真スロット"</string>
+    <string name="companion_0018" formatted="false">"背景中央の明るさ (%)"</string>
+    <string name="companion_0019" formatted="false">"キーOFF時の写真"</string>
+    <string name="companion_0020" formatted="false">"メーターUART輝度段階補正"</string>
+    <string name="companion_0021" formatted="false">"UTC時差（分）"</string>
+    <string name="companion_0022" formatted="false">"距離単位"</string>
+    <string name="companion_0023" formatted="false">"速度リング上限 (km/h)"</string>
+    <string name="companion_0024" formatted="false">"車種・読み取り専用"</string>
+    <string name="companion_0025" formatted="false">"停車判定速度 (km/h)"</string>
+    <string name="companion_0026" formatted="false">"機器の表示言語・読み取り専用"</string>
+    <string name="companion_0027" formatted="false">"画面保持時間（分）"</string>
+    <string name="companion_0028" formatted="false">"Bluetooth保持時間（分）"</string>
+    <string name="companion_0029" formatted="false">"画面保持段階"</string>
+    <string name="companion_0030" formatted="false">"Bluetooth保持段階"</string>
+    <string name="companion_0031" formatted="false">"完全省電力段階"</string>
+    <string name="companion_0032" formatted="false">"オイル交換距離 (km)"</string>
+    <string name="companion_0033" formatted="false">"オイル交換キーON時間 (h)"</string>
+    <string name="companion_0034" formatted="false">"オイル交換日数"</string>
+    <string name="companion_0035" formatted="false">"ベルト交換距離 (km)"</string>
+    <string name="companion_0036" formatted="false">"ベルト交換キーON時間 (h)"</string>
+    <string name="companion_0037" formatted="false">"ベルト交換日数"</string>
+    <string name="companion_0038" formatted="false">"整備間隔距離 (km)"</string>
+    <string name="companion_0039" formatted="false">"整備キーON時間 (h)"</string>
+    <string name="companion_0040" formatted="false">"整備日数"</string>
+    <string name="companion_0041" formatted="false">"機器のテーマ"</string>
+    <string name="companion_0042" formatted="false">"自動テーマの基準"</string>
+    <string name="companion_0043" formatted="false">"ライトモード開始"</string>
+    <string name="companion_0044" formatted="false">"ダークモード開始"</string>
+    <string name="companion_0045" formatted="false">"ダーク切替照度 (lux)"</string>
+    <string name="companion_0046" formatted="false">"ライト切替照度 (lux)"</string>
+    <string name="companion_0047" formatted="false">"日付"</string>
+    <string name="companion_0048" formatted="false">"時刻"</string>
+    <string name="companion_0049" formatted="false">"オイル交換完了"</string>
+    <string name="companion_0050" formatted="false">"ベルト交換完了"</string>
+    <string name="companion_0051" formatted="false">"整備完了"</string>
+    <string name="companion_0052" formatted="false">"表示設定を初期化"</string>
+    <string name="companion_0053" formatted="false">"Bluetoothペアリングを許可"</string>
+    <string name="companion_0054" formatted="false">"ペアリングを終了"</string>
+    <string name="companion_0055" formatted="false">"Bluetooth切断"</string>
+    <string name="companion_0056" formatted="false">"Bluetooth再ペアリング"</string>
+    <string name="companion_0057" formatted="false">"Bluetooth再起動"</string>
+    <string name="companion_0058" formatted="false">"照度センサー再試行"</string>
+    <string name="companion_0059" formatted="false">"接続中のスマートフォン"</string>
+    <string name="companion_0060" formatted="false">"Bluetooth状態"</string>
+    <string name="companion_0061" formatted="false">"ファームウェア版"</string>
+    <string name="companion_0062" formatted="false">"自動輝度の状態"</string>
+    <string name="companion_0063" formatted="false">"最終省電力待機"</string>
+    <string name="companion_0064" formatted="false">"BTコントローラー／パッチ"</string>
+    <string name="companion_0065" formatted="false">"SPP通信量"</string>
+    <string name="companion_0066" formatted="false">"SPPキュー／エラー"</string>
+    <string name="companion_0067" formatted="false">"周囲の照度"</string>
+    <string name="companion_0068" formatted="false">"照度RAW／経過時間"</string>
+    <string name="companion_0069" formatted="false">"照度チップ／設定"</string>
+    <string name="companion_0070" formatted="false">"照度I2C状態"</string>
+    <string name="companion_0071" formatted="false">"メーターUART"</string>
+    <string name="companion_0072" formatted="false">"UARTフレーム"</string>
+    <string name="companion_0073" formatted="false">"照度原値／補正／送信値"</string>
+    <string name="companion_0074" formatted="false">"UART速度／燃料RAW"</string>
+    <string name="companion_0075" formatted="false">"スマートフォンGPS"</string>
+    <string name="companion_0076" formatted="false">"イグニッション入力"</string>
+    <string name="companion_0077" formatted="false">"PH9入力モード"</string>
+    <string name="companion_0078" formatted="false">"手動"</string>
+    <string name="companion_0079" formatted="false">"自動"</string>
+    <string name="companion_0080" formatted="false">"オフ"</string>
+    <string name="companion_0081" formatted="false">"オン"</string>
+    <string name="companion_0082" formatted="false">"写真0"</string>
+    <string name="companion_0083" formatted="false">"写真1"</string>
+    <string name="companion_0084" formatted="false">"写真2"</string>
+    <string name="companion_0085" formatted="false">"走行時の背景と同じ"</string>
+    <string name="companion_0086" formatted="false">"ダーク"</string>
+    <string name="companion_0087" formatted="false">"ライト"</string>
+    <string name="companion_0088" formatted="false">"照度センサー"</string>
+    <string name="companion_0089" formatted="false">"時間設定"</string>
+    <string name="companion_0090" formatted="false">"照会"</string>
+    <string name="companion_0091" formatted="false">"実行"</string>
+    <string name="companion_0092" formatted="false">"要求キューがいっぱいです。"</string>
+    <string name="companion_0093" formatted="false">"実行しますか？Bluetooth操作で接続が切れる場合があります。再接続して結果を確認してください。"</string>
+    <string name="companion_0094" formatted="false">"\n正の値はUART段階値を上げます。Noodoe画面の明るさは変わりません。"</string>
+    <string name="companion_0095" formatted="false">"範囲内の整数を入力してください。"</string>
+    <string name="companion_0096" formatted="false">"保存表示値："</string>
+    <string name="companion_0097" formatted="false">"不明"</string>
+    <string name="companion_0098" formatted="false">"\nメーター受信値："</string>
+    <string name="companion_0099" formatted="false">"補正値を使用中です。\n"</string>
+    <string name="companion_0100" formatted="false">"保存状態："</string>
+    <string name="companion_0101" formatted="false">"保存ODO"</string>
+    <string name="companion_0102" formatted="false">"保存値を維持"</string>
+    <string name="companion_0103" formatted="false">"メーター値を使用"</string>
+    <string name="companion_0104" formatted="false">"新しいメーター値を基準にしますか？"</string>
+    <string name="companion_0105" formatted="false">"使用"</string>
+    <string name="companion_0106" formatted="false">"後で"</string>
+    <string name="companion_0107" formatted="false">"つながる。走る。自分らしく。"</string>
+    <string name="companion_0108" formatted="false">"機器接続・アプリテーマ"</string>
+    <string name="companion_0109" formatted="false">"アプリテーマ"</string>
+    <string name="companion_0110" formatted="false">"アプリ言語・Language"</string>
+    <string name="companion_0111" formatted="false">"新しい機器をペアリング"</string>
+    <string name="companion_0112" formatted="false">"機器一覧を更新"</string>
+    <string name="companion_0113" formatted="false">"コンパニオン登録・自動接続"</string>
+    <string name="companion_0114" formatted="false">"インストール準備"</string>
+    <string name="companion_0115" formatted="false">"全工程と現在位置を表示"</string>
+    <string name="companion_0116" formatted="false">"Noodoeの画面を確認してください"</string>
+    <string name="companion_0117" formatted="false">"NOODOE INSTALLERの表示中はインストール中です。\n\nCFW UPDATEとStarting Bluetooth、Waiting for your phone、Checking the new versionのいずれかが出たら下のボタンを押してください。その後Bluetoothと正常動作を確認します。\n\n180秒のロールバック期限は機器の起動から進み、この画面で待っても延長されません。"</string>
+    <string name="companion_0118" formatted="false">"新CFW画面を確認・接続チェック"</string>
+    <string name="companion_0119" formatted="false">"走行"</string>
+    <string name="companion_0120" formatted="false">"カスタマイズ"</string>
+    <string name="companion_0121" formatted="false">"インストール"</string>
+    <string name="companion_0122" formatted="false">"Noodoeに接続"</string>
+    <string name="companion_0123" formatted="false">"走行連携を停止・更新準備"</string>
+    <string name="companion_0124" formatted="false">"音楽・通知・GPS軌跡を同期します。位置情報はキーON中のみ送信します。"</string>
+    <string name="companion_0125" formatted="false">"走行記録"</string>
+    <string name="companion_0126" formatted="false">"スマートフォンへの記録は手動で開始します。記録しなくても音楽・通知・GPS・機器のトリップや整備累計は動作します。切断中の区間は未確認のままです。"</string>
+    <string name="companion_0127" formatted="false">"走行記録を開始"</string>
+    <string name="companion_0128" formatted="false">"保存した走行を表示"</string>
+    <string name="companion_0129" formatted="false">"クイック返信5件・署名・文字地域"</string>
+    <string name="companion_0130" formatted="false">"お気に入り10件・順序編集"</string>
+    <string name="companion_0131" formatted="false">"通知するアプリを選択"</string>
+    <string name="companion_0132" formatted="false">"テスト通知を送信"</string>
+    <string name="companion_0133" formatted="false">"現在の機器設定を表示・変更"</string>
+    <string name="companion_0134" formatted="false">"写真交換や更新の前に走行連携を停止してください。写真は中央を正方形に切り抜きます。"</string>
+    <string name="companion_0135" formatted="false">"背景写真"</string>
+    <string name="companion_0136" formatted="false">"・交換"</string>
+    <string name="companion_0137" formatted="false">"お困りですか？・復旧と診断"</string>
+    <string name="companion_0138" formatted="false">"接続・インストール状態を初期化"</string>
+    <string name="companion_0139" formatted="false">"純正に戻す"</string>
+    <string name="companion_0140" formatted="false">"診断資料を共有"</string>
+    <string name="companion_0141" formatted="false">"接続がなくてもBootstrapのBack to stockでOを離し、改めて2秒長押しすると復旧を確認できます。追加のIGN操作は不要です。"</string>
+    <string name="companion_0142" formatted="false">"診断・復旧の詳細ツールを表示"</string>
+    <string name="companion_0143" formatted="false">"詳細ツールを閉じる"</string>
+    <string name="companion_0144" formatted="false">"純正機器情報を確認"</string>
+    <string name="companion_0145" formatted="false">"パッケージと純正機器を照合"</string>
+    <string name="companion_0146" formatted="false">"Bluetooth 8 KiB往復セルフテスト"</string>
+    <string name="companion_0147" formatted="false">"Bootstrap接続のみ確認"</string>
+    <string name="companion_0148" formatted="false">"Noodoeの進捗を読み取る"</string>
+    <string name="companion_0149" formatted="false">"詳細診断：全NOR二重バックアップ"</string>
+    <string name="companion_0150" formatted="false">"通常のインストールには不要です。Bootstrapで128 MiBを2回読み取り保存・比較します。時間がかかり、スマートフォンに300 MiB以上の空きが必要です。常時電源を維持してください。"</string>
+    <string name="companion_0151" formatted="false">"純正復帰を確認"</string>
+    <string name="companion_0152" formatted="false">"専用診断ファームウェアを導入"</string>
+    <string name="companion_0153" formatted="false">"走行連携を停止してから実行してください。診断後はNoodoeのBack to stockでOを2秒長押しして純正復帰します。設定と写真は維持され、対応Gateが必要です。"</string>
+    <string name="companion_0154" formatted="false">"診断状態を表示"</string>
+    <string name="companion_0155" formatted="false">"診断ログを取得"</string>
+    <string name="companion_0156" formatted="false">"診断終了・純正復帰ガイド"</string>
+    <string name="companion_0157" formatted="false">"CFWの正常起動を確認"</string>
+    <string name="companion_0158" formatted="false">"応答が途切れた処理を確認"</string>
+    <string name="companion_0159" formatted="false">"機器診断記録を取得"</string>
+    <string name="companion_0160" formatted="false">"ロールバック結果を確認"</string>
+    <string name="companion_0161" formatted="false">"失敗した更新と旧版への復帰記録を確認しましたか？記録は残し、確認済みの印だけを保存します。"</string>
+    <string name="companion_0162" formatted="false">"作業記録を表示"</string>
+    <string name="companion_0163" formatted="false">"バックアップ・作業記録を保存"</string>
+    <string name="companion_0164" formatted="false">"初回ファイル作成の失敗は自動再試行しません。CFWから独立GateへはキーOFF→Oを約1秒保持→押したままキーON→さらに2秒保持です。"</string>
+    <string name="companion_0165" formatted="false">"権限・連携設定  ›"</string>
+    <string name="companion_0166" formatted="false">"ファームウェア未選択です。"</string>
+    <string name="companion_0167" formatted="false">"選択中のファームウェア："</string>
+    <string name="companion_0168" formatted="false">"先に通知へのアクセスを許可してください。現在通知があるアプリから選べます。"</string>
+    <string name="companion_0169" formatted="false">"通知を転送するアプリ"</string>
+    <string name="companion_0170" formatted="false">"保存"</string>
+    <string name="companion_0171" formatted="false">"CFWデータを維持（標準）"</string>
+    <string name="companion_0172" formatted="false">"CFWデータも完全削除"</string>
+    <string name="companion_0173" formatted="false">"次へ"</string>
+    <string name="companion_0174" formatted="false">"Gateは純正APPだけを復元します。CFW設定・写真・記録・FATは維持します。"</string>
+    <string name="companion_0175" formatted="false">"先に削除専用ファームウェアを送ります。NoodoeでUP/DOWNを使いErase CFW dataを選び、Oを離してから2秒長押しするとCFW内容を消去して領域を解放します。純正写真・工場情報・スマートフォンのログは維持します。この経路の実電源断試験は未完了です。"</string>
+    <string name="companion_0176" formatted="false">"CFW導入・保存データ"</string>
+    <string name="companion_0177" formatted="false">"新規開始（設定・CFW写真を初期化）"</string>
+    <string name="companion_0178" formatted="false">"保存データを復元（対応記録のみ）"</string>
+    <string name="companion_0179" formatted="false">"インストールを続行"</string>
+    <string name="companion_0180" formatted="false">"戻る"</string>
+    <string name="companion_0181" formatted="false">"続行"</string>
+    <string name="companion_0182" formatted="false">"接続を準備しています。少しお待ちください。"</string>
+    <string name="companion_0183" formatted="false">"処理を開始しました。進捗を確認中です。"</string>
+    <string name="companion_0184" formatted="false">"接続するNoodoeを選択"</string>
+    <string name="companion_0185" formatted="false">"選択したNoodoe・再ペアリング・"</string>
+    <string name="companion_0186" formatted="false">"付近の機器の権限を許可するとNoodoeを選べます。"</string>
+    <string name="companion_0187" formatted="false">"未許可の機能は無効です。権限・連携設定で変更できます。"</string>
+    <string name="companion_0188" formatted="false">"機器登録は完了しました。自動接続権限を確認してください。"</string>
+    <string name="companion_0189" formatted="false">"走行記録を終了"</string>
+    <string name="companion_0190" formatted="false">"確認待ち・残り最大"</string>
+    <string name="companion_0191" formatted="false">"秒"</string>
+    <string name="companion_0192" formatted="false">"インストール後の機器識別を待っています。"</string>
+    <string name="companion_0193" formatted="false">"純正にインストーラーを送りますか？先に機器とZIPの互換性を確認します。送信後はNoodoe画面のキー操作案内に従ってください。"</string>
+    <string name="companion_0194" formatted="false">"新しいCFWを送りますか？正常起動の確定後に設定とCFW写真を初期化します。失敗時のロールバックでは以前の状態を維持します。"</string>
+    <string name="companion_0195" formatted="false">"CFWデータを残して純正に戻しますか？復旧構成が古い場合は純正経由で最新ZIPのBootstrapへ移行できます。通常のCFW更新が使える機器には不要です。"</string>
+    <string name="companion_0196" formatted="false">"保存済みの走行記録はありません。接続後に走行記録を開始してください。"</string>
+    <string name="companion_0197" formatted="false">"走行記録・最新50区間"</string>
+    <string name="companion_0198" formatted="false">"全CSVを書き出す"</string>
+    <string name="companion_0199" formatted="false">"走行記録を開けません。スマートフォンの空き容量を確認してください。"</string>
+    <string name="companion_0200" formatted="false">"権限・連携設定。"</string>
+    <string name="companion_0201" formatted="false">"画面テーマ"</string>
+    <string name="companion_0202" formatted="false">"システムに従う"</string>
+    <string name="companion_0203" formatted="false">"한국어"</string>
+    <string name="companion_0204" formatted="false">"アプリの接続と作業選択を初期化します。機器のファームウェア・設定・既存ログ・復旧資料は削除しません。\n\n機器への中止命令は送りません。結果が不明な処理は再接続後に先に照会します。"</string>
+    <string name="companion_0205" formatted="false">"アプリ状態を初期化"</string>
+    <string name="companion_0206" formatted="false">"機器を選び直してください"</string>
+    <string name="companion_0207" formatted="false">"位置サービスの権限を確認してください。走行接続は維持します。"</string>
+    <string name="companion_0208" formatted="false">"前回の作業の最終表示です。自動再開していません。機器状態と記録を確認してください。\n\n"</string>
+    <string name="companion_0209" formatted="false">"スマートフォンの走行記録を開始しました。"</string>
+    <string name="companion_0210" formatted="false">"記録を終了しました。音楽・通知・GPS接続は維持します。"</string>
+    <string name="companion_0211" formatted="false">"連携停止の状態を保存できません。スマートフォンの空き容量を確認してください。"</string>
+    <string name="companion_0212" formatted="false">"走行連携を手動停止しました。更新できます。"</string>
+    <string name="companion_0213" formatted="false">"導入先のNoodoeを選択してください。先にAndroid設定でペアリングできます。"</string>
+    <string name="companion_0214" formatted="false">"走行記録CSVを保存しました。"</string>
+    <string name="companion_0215" formatted="false">"走行記録を書き出せません。保存先を確認してください。"</string>
+    <string name="companion_0216" formatted="false">"機器切替の記録を保存できません。空き容量を確認してください。"</string>
+    <string name="companion_0217" formatted="false">"機器を選択しました。使用するZIPを選んでください。"</string>
+    <string name="companion_0218" formatted="false">"この機器の以前の記録です。新しい接続で状態を再確認します。\n"</string>
+    <string name="companion_0219" formatted="false">"アプリの接続・選択を初期化しました。機器の処理は中止していません。Noodoeを選び、状態を先に確認してください。"</string>
+    <string name="companion_0220" formatted="false">"初期化記録を保存できません。既存の証拠を残して停止しました。"</string>
+    <string name="companion_0221" formatted="false">"Androidがバックグラウンドサービスを許可しませんでした。アプリを開いて権限を確認してください。"</string>
+    <string name="companion_0222" formatted="false">"Noodoe接続・進捗"</string>
+    <string name="companion_0223" formatted="false">"Noodoe走行連携"</string>
+    <string name="companion_0224" formatted="false">"Noodoeを準備中"</string>
+    <string name="companion_0225" formatted="false">"タップして進捗を確認してください。"</string>
+    <string name="companion_0226" formatted="false">"走行接続は維持します。GPS自動接続には位置情報を常に許可するか、アプリを開いてください。"</string>
+    <string name="companion_0227" formatted="false">"付近の機器の権限を許可してから再試行してください。"</string>
+    <string name="companion_0228" formatted="false">"更新結果を先に確認してください。確認前は自動走行連携を開始しません。"</string>
+    <string name="companion_0229" formatted="false">"接続状態を保存できません。"</string>
+    <string name="companion_0230" formatted="false">"先に走行連携を停止・更新準備を押してください。"</string>
+    <string name="companion_0231" formatted="false">"準備中です。少しお待ちください。"</string>
+    <string name="companion_0232" formatted="false">"バックグラウンド処理を開始できません。アプリを開いた状態でBluetooth権限を確認してください。"</string>
+    <string name="companion_0233" formatted="false">"先にNoodoeを選んでください。"</string>
+    <string name="companion_0234" formatted="false">"先に機器と写真を選んでください。"</string>
+    <string name="companion_0235" formatted="false">"写真スロット"</string>
+    <string name="companion_0236" formatted="false">"を保存しました。機器設定で背景写真を選んでください。"</string>
+    <string name="companion_0237" formatted="false">"パッケージを確認しました。次に機器との一致を確認してください。"</string>
+    <string name="companion_0238" formatted="false">"記録ファイルを開けません。"</string>
+    <string name="companion_0239" formatted="false">"診断記録を保存しました。写真・通知本文・全体バックアップは含めていません。"</string>
+    <string name="companion_0240" formatted="false">"バックアップと作業記録を保存しました。"</string>
+    <string name="companion_0241" formatted="false">"走行中"</string>
+    <string name="companion_0242" formatted="false">"キーON待ち"</string>
+    <string name="companion_0243" formatted="false">"・設定を保存中"</string>
+    <string name="companion_0244" formatted="false">"接続が切れました。再接続"</string>
+    <string name="companion_0245" formatted="false">"再接続上限に達しました。NoodoeとBluetoothを確認してください。"</string>
+    <string name="companion_0246" formatted="false">"走行連携を終了しました。位置情報の取得も停止しました。"</string>
+    <string name="companion_0247" formatted="false">"写真のサイズを確認してください。"</string>
+    <string name="companion_0248" formatted="false">"写真を最後まで読み取れません。"</string>
+    <string name="companion_0249" formatted="false">"機器接続"</string>
+    <string name="companion_0250" formatted="false">"・音楽／通知"</string>
+    <string name="companion_0251" formatted="false">"準備完了"</string>
+    <string name="companion_0252" formatted="false">"設定が必要"</string>
+    <string name="companion_0253" formatted="false">"項目を押してAndroidで許可してください。許可済みの機能から使えます。音楽情報は通知へのアクセスを使い、マイク権限は使いません。"</string>
+    <string name="companion_0254" formatted="false">"付近の機器・Bluetooth"</string>
+    <string name="companion_0255" formatted="false">"音楽情報・スマートフォン通知"</string>
+    <string name="companion_0256" formatted="false">"正確な位置情報・GPS軌跡"</string>
+    <string name="companion_0257" formatted="false">"連絡先・電話のお気に入り"</string>
+    <string name="companion_0258" formatted="false">"最近の通話履歴"</string>
+    <string name="companion_0259" formatted="false">"選択した連絡先に発信"</string>
+    <string name="companion_0260" formatted="false">"応答・終話・コンパニオン登録"</string>
+    <string name="companion_0261" formatted="false">"既存の電話アプリとヘッドセットを維持します。応答・終話にはコンパニオン登録とAndroid 12以降が必要です。通話履歴権限が制限されると一覧にPermission Denied!と表示されます。"</string>
+    <string name="companion_0262" formatted="false">"スマートフォンの位置サービス"</string>
+    <string name="companion_0263" formatted="false">"バックグラウンドGPS・位置情報を常に許可"</string>
+    <string name="companion_0264" formatted="false">"先に正確な位置情報を許可してください。"</string>
+    <string name="companion_0265" formatted="false">"画面OFF連携・バッテリー制限を確認"</string>
+    <string name="companion_0266" formatted="false">"省電力モードがGPSを制限する場合があります"</string>
+    <string name="companion_0267" formatted="false">"接続・進捗通知を表示"</string>
+    <string name="companion_0268" formatted="false">"アプリを開いて走行連携を開始すると、IGN ON中は画面OFFでも位置を送ります。キーOFF・切断時は取得を停止します。バックグラウンド再接続には位置情報を常に許可してください。Galaxyではアプリ情報→バッテリー→制限なしも確認してください。省電力モードで画面OFFのGPSが止まる場合は解除が必要です。インストールに位置権限は不要です。"</string>
+    <string name="companion_0269" formatted="false">"走行連携の準備"</string>
+    <string name="companion_0270" formatted="false">"完了"</string>
+    <string name="companion_0271" formatted="false">"アプリ設定"</string>
+    <string name="companion_0272" formatted="false">"Androidの要求を開けません。アプリ設定で権限を確認してください。"</string>
+    <string name="companion_0273" formatted="false">"Android設定でこのアプリの権限を開いてください。"</string>
+    <string name="companion_0274" formatted="false">"Bluetooth往復テスト"</string>
+    <string name="companion_0275" formatted="false">"Bluetooth 8 KiB送受信・CRC一致／"</string>
+    <string name="companion_0276" formatted="false">" ms。フラッシュは変更していません。"</string>
+    <string name="companion_0277" formatted="false">"処理中"</string>
+    <string name="companion_0278" formatted="false">"この工程が終わるまでお待ちください"</string>
+    <string name="companion_0279" formatted="false">"上の全体・現在の進捗には機器で確認した結果が表示されます。切断後もボタンの連打は不要です。"</string>
+    <string name="companion_0280" formatted="false">"診断モード"</string>
+    <string name="companion_0281" formatted="false">"試験後は純正に戻してください"</string>
+    <string name="companion_0282" formatted="false">"本体のUP/DOWNで選び、Oで実行します。診断ファームウェアは走行モードではなく、設定・写真を初期化しません。"</string>
+    <string name="companion_0283" formatted="false">"現在の診断結果を読む"</string>
+    <string name="companion_0284" formatted="false">"診断ログを保存"</string>
+    <string name="companion_0285" formatted="false">"本体で純正復帰を確認"</string>
+    <string name="companion_0286" formatted="false">"純正に戻ったか確認"</string>
+    <string name="companion_0287" formatted="false">"未接続でも本体のBack to stockで改めてOを2秒長押しすれば復帰できます。"</string>
+    <string name="companion_0288" formatted="false">"トラブル解決ウィザード"</string>
+    <string name="companion_0289" formatted="false">"まず完了した工程を確認します"</string>
+    <string name="companion_0290" formatted="false">"停止しても最初から送り直しません。機器確認→前回処理の確認→続行の順です。ログと復旧資料は維持します。"</string>
+    <string name="companion_0291" formatted="false">"1. 現在の機器を確認"</string>
+    <string name="companion_0292" formatted="false">"本体がBootstrap・自動接続"</string>
+    <string name="companion_0293" formatted="false">"本体を純正に戻しました・確認"</string>
+    <string name="companion_0294" formatted="false">"確認した画面・"</string>
+    <string name="companion_0295" formatted="false">"2. 使用したインストールZIPを選択"</string>
+    <string name="companion_0296" formatted="false">"2. 現在のCFW・導入結果を確認"</string>
+    <string name="companion_0297" formatted="false">"古いCFWに最新ZIPを選んでも大丈夫です。アプリをダウングレードせず、下から更新または転送再開できます。"</string>
+    <string name="companion_0298" formatted="false">"3. CFW更新・再開"</string>
+    <string name="companion_0299" formatted="false">"別の更新ZIPを選択"</string>
+    <string name="companion_0300" formatted="false">"復旧レイヤーが異なります。純正に戻してから更新"</string>
+    <string name="companion_0301" formatted="false">"2. 純正への復元を確認"</string>
+    <string name="companion_0302" formatted="false">"2. 前回の操作を確認"</string>
+    <string name="companion_0303" formatted="false">"3. 確認してインストールを再開"</string>
+    <string name="companion_0304" formatted="false">"診断情報を保存・共有"</string>
+    <string name="companion_0305" formatted="false">"接続と選択をリセット"</string>
+    <string name="companion_0306" formatted="false">"Noodoe 本体で復旧するには"</string>
+    <string name="companion_0307" formatted="false">"Bootstrap：Back to stock を選び、O を離してから2秒長押し。CFW 緊急復旧：キー OFF → O を1秒長押し → 押したままキー ON → 2秒保持。本体の案内に従ってください。"</string>
+    <string name="companion_0308" formatted="false">"インストールガイド · 1 / 4"</string>
+    <string name="companion_0309" formatted="false">"Noodoe を接続しましょう"</string>
+    <string name="companion_0310" formatted="false">"上でペアリング済みの Noodoe を選択。インストール状態はアプリが確認します。"</string>
+    <string name="companion_0311" formatted="false">"Noodoe をペアリング"</string>
+    <string name="companion_0312" formatted="false">"必要な権限を確認"</string>
+    <string name="companion_0313" formatted="false">"本体の状態を確認"</string>
+    <string name="companion_0314" formatted="false">"Bootstrap が表示されたら本体で Install CFW を選択。アプリがペアリングと接続を確認します。インストーラーは再送しません。"</string>
+    <string name="companion_0315" formatted="false">"純正・Bootstrap・CFW のどれが動作中か確認して次の手順を案内します。ファームウェアは変更しません。"</string>
+    <string name="companion_0316" formatted="false">"Bootstrap に自動接続"</string>
+    <string name="companion_0317" formatted="false">"本体を確認して続行"</string>
+    <string name="companion_0318" formatted="false">"インストールガイド · 2 / 4"</string>
+    <string name="companion_0319" formatted="false">"更新ファイルを選択"</string>
+    <string name="companion_0320" formatted="false">"インストールファイルを選択"</string>
+    <string name="companion_0321" formatted="false">"確認済み本体 · "</string>
+    <string name="companion_0322" formatted="false">"この Bootstrap の導入に使用した ZIP を選択。バージョンが違う場合は照合時に案内します。"</string>
+    <string name="companion_0323" formatted="false">"ダウンロードした installer.zip を選択。転送前に整合性と互換性を確認します。"</string>
+    <string name="companion_0324" formatted="false">"ZIP を選択"</string>
+    <string name="companion_0325" formatted="false">"本体を再確認"</string>
+    <string name="companion_0326" formatted="false">"CFW 更新 · 準備"</string>
+    <string name="companion_0327" formatted="false">"インストールガイド · 3 / 4"</string>
+    <string name="companion_0328" formatted="false">"新しいバージョンへ更新"</string>
+    <string name="companion_0329" formatted="false">"CFW のインストールを続行"</string>
+    <string name="companion_0330" formatted="false">"純正から再インストール"</string>
+    <string name="companion_0331" formatted="false">"インストーラーを準備"</string>
+    <string name="companion_0332" formatted="false">"本体 · "</string>
+    <string name="companion_0333" formatted="false">"\nファイル · "</string>
+    <string name="companion_0334" formatted="false">"APP 転送 → 再起動 → 正常動作確認。同じリソースは再送しません。"</string>
+    <string name="companion_0335" formatted="false">"本体で Install CFW を選択して開始。ファイルの準備・検証後、最終承認は本体で行います。"</string>
+    <string name="companion_0336" formatted="false">"まず小さなインストーラーを転送します。Bootstrap が表示されたら本体を再確認し、CFW の導入を続けます。"</string>
+    <string name="companion_0337" formatted="false">"常時電源を維持してください。確定後に CFW 設定と写真スロットを初期化します。純正写真と復旧資料は保持します。"</string>
+    <string name="companion_0338" formatted="false">"更新を確認"</string>
+    <string name="companion_0339" formatted="false">"インストーラーの転送を確認"</string>
+    <string name="companion_0340" formatted="false">"別の ZIP を選択"</string>
+    <string name="companion_0341" formatted="false">"純正 Noodoe"</string>
+    <string name="companion_0342" formatted="false">"この本体の前回の操作結果を再確認する必要があります。"</string>
+    <string name="companion_0343" formatted="false">"前回の操作："</string>
+    <string name="companion_0344" formatted="false">"前回の操作記録の確認が必要"</string>
+    <string name="companion_0345" formatted="false">"本体で純正への復元を承認してください。"</string>
+    <string name="companion_0346" formatted="false">"復元を要求しました。純正に戻ったか確認してください。"</string>
+    <string name="companion_0347" formatted="false">"SPP 接続が切断されました"</string>
+    <string name="companion_0348" formatted="false">"Bluetooth セキュア接続中 · "</string>
+    <string name="companion_0349" formatted="false">" / 3回。既存のペアリングは保持します。"</string>
+    <string name="companion_0350" formatted="false">"ペアリング待機を中断しました。"</string>
+    <string name="companion_0351" formatted="false">"Noodoe とペアリング中です。Android の要求が出たら承認し、Bootstrap で Install CFW を選択してください。"</string>
+    <string name="companion_0352" formatted="false">"Android がペアリングを開始できませんでした。本体で Install CFW を選び、自動接続を再試行してください。"</string>
+    <string name="companion_0353" formatted="false">"ペアリングが完了していません。Android の要求と本体の Install CFW 選択を確認し、再接続してください。"</string>
+    <string name="companion_0354" formatted="false">"承認を60秒待ちました。Android の要求を確認して自動接続を再試行してください。"</string>
+    <string name="companion_0355" formatted="false">"Noodoe がインストールを完了し再起動中です。アプリは自動で再接続します。"</string>
+    <string name="companion_0356" formatted="false">"Noodoe に再接続中 · "</string>
+    <string name="companion_0357" formatted="false">"接続した Noodoe の UID がインストール対象と異なります。"</string>
+    <string name="companion_0358" formatted="false">"更新が完了しました。使用できます。"</string>
+    <string name="companion_0359" formatted="false">"想定したインストーラーではありません。本体画面と操作記録を確認してください。"</string>
+    <string name="companion_0360" formatted="false">"本体のインストールが停止しました。エラー表示と操作記録を確認してください。"</string>
+    <string name="companion_0361" formatted="false">"ファイルの転送は完了。本体でインストール中です。新しい CFW が起動したら接続します。"</string>
+    <string name="companion_0362" formatted="false">"新しい CFW との接続を確認できませんでした。ペアリングを削除した場合は Android の要求を承認してください。純正に戻った場合は「本体が純正に戻りました・確認」を選んでください。"</string>
+    <string name="companion_0363" formatted="false">"インストールエラー詳細の形式が不正です。"</string>
+    <string name="companion_0364" formatted="false">"書き込み前"</string>
+    <string name="companion_0365" formatted="false">"権限・イメージ検査"</string>
+    <string name="companion_0366" formatted="false">"復旧イメージ・CFW 照合"</string>
+    <string name="companion_0367" formatted="false">"Bluetooth を一時停止"</string>
+    <string name="companion_0368" formatted="false">"接続状態を再確認"</string>
+    <string name="companion_0369" formatted="false">"タスク・ウォッチドッグ確認"</string>
+    <string name="companion_0370" formatted="false">"インストール要求を記録"</string>
+    <string name="companion_0371" formatted="false">"Bluetooth を再開"</string>
+    <string name="companion_0372" formatted="false">"書き込み確認完了"</string>
+    <string name="companion_0373" formatted="false">"で停止。段階="</string>
+    <string name="companion_0374" formatted="false">"、結果="</string>
+    <string name="companion_0375" formatted="false">"、詳細="</string>
+    <string name="companion_0376" formatted="false">"、記録="</string>
+    <string name="companion_0377" formatted="false">"、BT 再開="</string>
+    <string name="companion_0378" formatted="false">"インストール要求の記録は始まっていません。本体の O で純正復旧に進めます。"</string>
+    <string name="companion_0379" formatted="false">"インストール要求の記録結果を確認する必要があります。自動再送はしていません。"</string>
+    <string name="companion_0380" formatted="false">"Bootstrap の接続が未確認です。本体で Install CFW を選び「Bootstrap に自動接続」を押してください。再転送は不要です。"</string>
+    <string name="companion_0381" formatted="false">"常時電源を維持し、純正画面の案内に従って IGN のみ OFF にします。Bootstrap 表示後に ON にしてください。\n"</string>
+    <string name="companion_0382" formatted="false">"Bootstrap で Install CFW を選択。アプリが自動でペアリング・接続を続けます。Android の要求は承認してください。"</string>
+    <string name="companion_0383" formatted="false">"接続先は Bootstrap ではありません。「本体を確認」で実行中の状態を確認してください。"</string>
+    <string name="companion_0384" formatted="false">"Bootstrap に接続しました。本体で Install CFW を選び、アプリの「インストールを続行」を押してください。再転送はしません。"</string>
+    <string name="companion_0385" formatted="false">"本体のインストールファイルがこの本体・ZIP の記録と一致しません。上書きしていません。"</string>
+    <string name="companion_0386" formatted="false">"確定記録がイメージと一致しません。再起動要求は繰り返していません。"</string>
+    <string name="companion_0387" formatted="false">"受信済みファイルを再読込して検証中です。再転送はしません。"</string>
+    <string name="companion_0388" formatted="false">"残っているファイルの整合性検証に失敗しました。"</string>
+    <string name="companion_0389" formatted="false">"保存された操作は "</string>
+    <string name="companion_0390" formatted="false">" 状態です。新しいインストールで上書きしていません。中断した操作を確認するか診断情報を共有してください。"</string>
+    <string name="companion_0391" formatted="false">"Noodoe はインストールまたは復旧中です。完了を先に確認してください。新規導入は開始していません。"</string>
+    <string name="companion_0392" formatted="false">"既存ファイルを検査中です。完了後にインストールメニューが開きます。"</string>
+    <string name="companion_0393" formatted="false">"Bluetooth 接続を確認しました。本体の O でメニューに戻り、Install CFW を選んで O を押してください。"</string>
+    <string name="companion_0394" formatted="false">"前回の確認画面が残っています。Back で戻り、Install CFW を選び直してください。"</string>
+    <string name="companion_0395" formatted="false">"本体で Install CFW を選び O を押してください。接続とキー ON を維持すると次に自動で進みます。"</string>
+    <string name="companion_0396" formatted="false">"インストール準備の応答が不正です。"</string>
+    <string name="companion_0397" formatted="false">"インストール権限と接続を確認しました。復旧資料の保存とファイル準備を開始します。"</string>
+    <string name="companion_0398" formatted="false">"Install CFW の選択を3分待ちました。書き込みは開始していません。選択後にインストールを続行してください。"</string>
+    <string name="companion_0399" formatted="false">"インストール状態の形式が不正です。"</string>
+    <string name="companion_0400" formatted="false">"フォント・BT リソース"</string>
+    <string name="companion_0401" formatted="false">"ユーザー設定"</string>
+    <string name="companion_0402" formatted="false">"空の写真スロット"</string>
+    <string name="companion_0403" formatted="false">"純正復旧イメージ"</string>
+    <string name="companion_0404" formatted="false">"起動記録"</string>
+    <string name="companion_0405" formatted="false">"診断ログ"</string>
+    <string name="companion_0406" formatted="false">"ストレージ割り当て検査"</string>
+    <string name="companion_0407" formatted="false">"既存データ保全のハッシュ検査"</string>
+    <string name="companion_0408" formatted="false">"ファイル割り当て確認"</string>
+    <string name="companion_0409" formatted="false">"書き込み後の実データを読出し確認"</string>
+    <string name="companion_0410" formatted="false">"受信ファイル検証"</string>
+    <string name="companion_0411" formatted="false">"ファイル受信"</string>
+    <string name="companion_0412" formatted="false">"本体の状態確認"</string>
+    <string name="companion_0413" formatted="false">"\n本体応答正常 · 前回の進捗から "</string>
+    <string name="companion_0414" formatted="false">"秒"</string>
+    <string name="companion_0415" formatted="false">"\n本体でも進捗の停滞を検出しました。自動再送はしません。"</string>
+    <string name="companion_0416" formatted="false">"保存データの復元には scoped-v2 インストーラーが必要です。"</string>
+    <string name="companion_0417" formatted="false">"CFW ファイルの作成が一部しか完了していません。上書きはしていません。診断資料を保存してください。"</string>
+    <string name="companion_0418" formatted="false">"既存インストールファイルの再利用・内容・保全を検証済み"</string>
+    <string name="companion_0419" formatted="false">"新しい CFW 設定・空写真スロットを準備し、既存ファイルの保全を検証済み"</string>
+    <string name="companion_0420" formatted="false">"インストール確定が不明です。先に操作状態を確認してください。"</string>
+    <string name="companion_0421" formatted="false">"元のインストール計画ファイルを確認できません。"</string>
+    <string name="companion_0422" formatted="false">"NOR 全体の二重バックアップには 300 MiB 以上の空きが必要です。"</string>
+    <string name="companion_0423" formatted="false">"詳細診断：NOR 全体の独立バックアップ "</string>
+    <string name="companion_0424" formatted="false">"ファイル準備 · "</string>
+    <string name="companion_0425" formatted="false">"同じ UID の以前の接続に結果不明の操作があります。元の本体・ZIP 選択に戻り、先に結果を照会してください。記録は保持します。"</string>
+    <string name="companion_0426" formatted="false">"この本体に結果未確認の操作があります。以前の ZIP "</string>
+    <string name="companion_0427" formatted="false">" を選び、先に状態を照会してください。アプリのリセットで未確認の確定結果は消えません。"</string>
+    <string name="companion_0428" formatted="false">"本体の記録を読込中 "</string>
+    <string name="companion_0429" formatted="false">"本体の識別応答が不正です。"</string>
+    <string name="companion_0430" formatted="false">"未対応の本体ロール："</string>
+    <string name="companion_0431" formatted="false">"診断ファームウェアに接続しました。本体でテストし、完了後は Back to stock を選んでください。"</string>
+    <string name="companion_0432" formatted="false">"インストーラーに接続しました。使用した ZIP を選ぶと続行できます。"</string>
+    <string name="companion_0433" formatted="false">"CFW に接続しました。走行連携を開始できます。"</string>
+    <string name="companion_0434" formatted="false">"本体が起動中です。識別情報を待っています。"</string>
+    <string name="companion_0435" formatted="false">"純正の応答も確認中です。ファームウェアには書き込みません。"</string>
+    <string name="companion_0436" formatted="false">"純正の本体情報要求が拒否されました。"</string>
+    <string name="companion_0437" formatted="false">"純正 Noodoe に接続しました。インストールガイドを開始できます。"</string>
+    <string name="companion_0438" formatted="false">"診断ファームウェアまたは本体が転送記録と異なります。本体の復旧メニューを確認してください。"</string>
+    <string name="companion_0439" formatted="false">"診断ファームウェアに再接続中 · "</string>
+    <string name="companion_0440" formatted="false">"診断ファームウェアが起動しました。UP/DOWN で選択、O でテスト。終了時は Back to stock → O を2秒長押し。設定・写真は初期化していません。"</string>
+    <string name="companion_0441" formatted="false">"診断接続を確認できませんでした。本体でテストするか Back to stock を選べます。インストールは自動反復していません。"</string>
+    <string name="companion_0442" formatted="false">"本体の O を離してから2秒長押しし、純正復元を承認してください。切断後も Gate のボタン復旧は使えます。"</string>
+    <string name="companion_0443" formatted="false">"診断モード\nBT 状態 "</string>
+    <string name="companion_0444" formatted="false">" · エラー "</string>
+    <string name="companion_0445" formatted="false">"\n照度 RAW "</string>
+    <string name="companion_0446" formatted="false">"\nストレージエラー "</string>
+    <string name="companion_0447" formatted="false">" · ログエラー "</string>
+    <string name="companion_0448" formatted="false">"\nテスト後は本体の Back to stock で純正に戻ってください。"</string>
+    <string name="companion_0449" formatted="false">"診断ログをスマートフォンに保存中"</string>
+    <string name="companion_0450" formatted="false">"Gate と CFW を含むインストールファイルが必要です。"</string>
+    <string name="companion_0451" formatted="false">"復旧の開始アドレスが一致しません。"</string>
+    <string name="companion_0452" formatted="false">"CFW のアドレスまたはリソース情報が一致しません。"</string>
+    <string name="companion_0453" formatted="false">"自動復旧確認に対応した CFW が必要です。"</string>
+    <string name="companion_0454" formatted="false">"このアプリはインストールと純正復旧専用です。走行連携はまだ接続していません。"</string>
+    <string name="companion_0455" formatted="false">" · セッション "</string>
+    <string name="companion_0456" formatted="false">"\n読み取り証拠を保存しました。バンドル作成前に BL・ハードウェア・モデルの互換性を照合してください。"</string>
+    <string name="companion_0457" formatted="false">"純正復元を確認しました。選択中の ZIP で再転送できます。以前の記録と復旧資料は保持します。"</string>
+    <string name="companion_0458" formatted="false">"転送中の操作を先に確認してください。診断バックアップは待機中のみ開始できます。"</string>
+    <string name="companion_0459" formatted="false">"独立 NOR A/B と SHA 照合が完了。インストールには未使用です。O を離してから3秒長押しでメニューに戻ります。"</string>
+    <string name="companion_0460" formatted="false">"本体とファームウェアの確認完了。\n次は上の「3. インストーラー → CFW のインストールを続行」を押してください。\n本体で Install CFW を選ぶと準備から承認まで進みます。\n記録："</string>
+    <string name="companion_0461" formatted="false">"接続中のインストーラーと ZIP を照合しています。"</string>
+    <string name="companion_0462" formatted="false">"ファイル検証完了。Back ではなく Install CFW を選び O を押してください。承認待ちは最大15分です。"</string>
+    <string name="companion_0463" formatted="false">"本体でインストールがキャンセルされました。再試行はインストール再開を選んでください。"</string>
+    <string name="companion_0464" formatted="false">"承認待ちがタイムアウトしました。ファイルはインストールしていません。"</string>
+    <string name="companion_0465" formatted="false">"本体で承認されました。本体が検証・インストール・再起動を実行中です。Bluetooth が切れても続行します。"</string>
+    <string name="companion_0466" formatted="false">"O の承認を確認しました。インストール記録を確定中です。"</string>
+    <string name="companion_0467" formatted="false">"インストール記録を確定しました。再起動を要求中です。"</string>
+    <string name="companion_0468" formatted="false">"更新の正常動作を確定しました"</string>
+    <string name="companion_0469" formatted="false">"削除ツールで起動しました。UP/DOWN で Erase CFW data を選び、容量確認後 O を離して2秒長押し。Keep CFW data は削除せず復帰します。清掃は本体で実行し、Bluetooth 進捗は取得できません。"</string>
+    <string name="companion_0470" formatted="false">"本体で清掃中／復元確認が必要です。純正画面が出たら復元確認を実行してください。再ペアリングが必要な場合があります。"</string>
+    <string name="companion_0471" formatted="false">"このロールでは純正復旧を要求できません。"</string>
+    <string name="companion_0472" formatted="false">"純正復旧要求を処理中です。実際の純正起動を確認するまでは完了ではありません。"</string>
+    <string name="companion_0473" formatted="false">"純正復旧後に通信が切れました。実際の純正起動を確認してください。"</string>
+    <string name="companion_0474" formatted="false">"通信結果を確認できませんでした。純正復帰の起動確認を実行してください。\n"</string>
+    <string name="companion_0475" formatted="false">"Bootstrap：Back to stock → O を離す → 2秒長押し。追加の IGN 操作は不要です。"</string>
+    <string name="companion_0476" formatted="false">"CFW：キー OFF → O を約1秒長押しして押したままキー ON → さらに2秒保持で独立復旧へ。"</string>
+    <string name="companion_0477" formatted="false">"純正画面と更新案内を先に確認してください。転送結果が不明なら Bootstrap を繰り返し送らないでください。"</string>
+    <string name="companion_0478" formatted="false">"まず本体画面を確認。Bootstrap：Back to stock で O を押し直して2秒保持。CFW：キー OFF → O を押したまま ON → 2秒保持。純正なら更新結果を先に確認。"</string>
+    <string name="companion_0479" formatted="false">"\n\n今回の接続試行ではファームウェア転送・インストール命令を送っていません。既存の記録は保持します。"</string>
+    <string name="companion_0480" formatted="false">"純正復元を確認しました。要求した手順は開始していません。本体確認後、インストーラー転送から新規導入してください。以前の記録は保持します。"</string>
+    <string name="companion_0481" formatted="false">"アプリは CFW 起動待ちです。純正に戻ったら「本体が純正に戻りました・確認」を押してください。純正応答を確認して待機を終了し、記録は保持します。"</string>
+    <string name="companion_0482" formatted="false">"先に前回の操作を確認してください。要求した手順は開始していません。\n本体確認 → 前回の操作確認 → 再開。\n\n記録済み状態："</string>
+    <string name="companion_0483" formatted="false">"本体が命令を拒否しました。"</string>
+    <string name="companion_0484" formatted="false">"制限時間内に応答を確認できませんでした。"</string>
+    <string name="companion_0485" formatted="false">"ファイルまたは本体情報が検証と一致しません。"</string>
+    <string name="companion_0486" formatted="false">"ストレージまたは操作記録の確認が必要です。"</string>
+    <string name="companion_0487" formatted="false">"現在の操作を続行できません。"</string>
+    <string name="companion_0488" formatted="false">"\n成功・キャンセルはまだ確定していません。常時電源を維持して本体画面と操作記録を確認してください。\n"</string>
+    <string name="companion_0489" formatted="false">"中断した操作の確認・診断情報の共有が使えます。ファイル作成中に失敗した場合は準備を繰り返さないでください。\n\n"</string>
+    <string name="companion_0490" formatted="false">"\n\n詳細："</string>
+    <string name="companion_0491" formatted="false">"準備中"</string>
+    <string name="companion_0492" formatted="false">"接続と操作記録を準備しています。"</string>
+    <string name="companion_0493" formatted="false">"完了を確認できませんでした。本体画面と起動結果を先に照会してください。"</string>
+    <string name="companion_0494" formatted="false">"応答待ちです。操作結果は未確認です。自動再送はしません。"</string>
+    <string name="companion_0495" formatted="false">"応答はありますが30秒以上進捗が変わりません。現在の段階を確認してください。"</string>
+    <string name="companion_0496" formatted="false">"%.1f KiB/s · この段階の残り約 %d 秒"</string>
+    <string name="companion_0497" formatted="false">"現在の操作 · %,d / %,d %s · %d%%"</string>
+    <string name="companion_0498" formatted="false">"停止位置 · %,d / %,d %s — 結果の確認が必要"</string>
+    <string name="companion_0499" formatted="false">"現在の操作 · 進捗待ち"</string>
+    <string name="companion_0500" formatted="false">"経過 "</string>
+    <string name="companion_0501" formatted="false">" · 現在の段階 "</string>
+    <string name="companion_0502" formatted="false">"検証済みの応答をまだ受信していません。"</string>
+    <string name="companion_0503" formatted="false">"最後の応答 "</string>
+    <string name="companion_0504" formatted="false">"全体進捗 · 段階基準 "</string>
+    <string name="companion_0505" formatted="false">"1 接続 · 2 検査 · 3 準備/転送/記録 · 4 最終確認\n5 確定 · 6 再起動 · 7 動作確認 · 8 完了"</string>
+    <string name="companion_0506" formatted="false">"Bootstrap 自動ペアリング・接続"</string>
+    <string name="companion_0507" formatted="false">"変更前の復旧資料を保存"</string>
+    <string name="companion_0508" formatted="false">"操作結果未確認"</string>
+    <string name="companion_0509" formatted="false">"本体でインストールメニューを選択"</string>
+    <string name="companion_0510" formatted="false">"CFW ファイルの準備・書込・検証"</string>
+    <string name="companion_0511" formatted="false">"Bootstrap を送信"</string>
+    <string name="companion_0512" formatted="false">"キー操作後に Bootstrap を確認"</string>
+    <string name="companion_0513" formatted="false">"本体接続確認"</string>
+    <string name="companion_0514" formatted="false">"ストレージ配置検査"</string>
+    <string name="companion_0515" formatted="false">"変更前の元データのハッシュ計算"</string>
+    <string name="companion_0516" formatted="false">"インストール後の既存ファイル保全確認"</string>
+    <string name="companion_0517" formatted="false">"インストールイメージ転送"</string>
+    <string name="companion_0518" formatted="false">"本体での承認待ち"</string>
+    <string name="companion_0519" formatted="false">"インストール・再起動結果の確認"</string>
+    <string name="companion_0520" formatted="false">"正常動作・永続確定を確認"</string>
+    <string name="companion_0521" formatted="false">"インストール確認完了"</string>
+    <string name="companion_0522" formatted="false">"操作準備・状態確認"</string>
+    <string name="companion_0523" formatted="false">"接続・インストール選択"</string>
+    <string name="companion_0524" formatted="false">"割り当て・書込範囲の検査"</string>
+    <string name="companion_0525" formatted="false">"変更するメタデータを保存"</string>
+    <string name="companion_0526" formatted="false">"CFW ファイルの書込・検証"</string>
+    <string name="companion_0527" formatted="false">"最終 FAT・ファイル照合"</string>
+    <string name="companion_0528" formatted="false">"本体でインストールを確定"</string>
+    <string name="companion_0529" formatted="false">"インストール・再起動"</string>
+    <string name="companion_0530" formatted="false">"正常動作確認"</string>
+    <string name="companion_0531" formatted="false">"インストーラー転送"</string>
+    <string name="companion_0532" formatted="false">"キー操作・インストーラー起動確認"</string>
+    <string name="companion_0533" formatted="false">"更新前検査"</string>
+    <string name="companion_0534" formatted="false">"APP 転送・検証"</string>
+    <string name="companion_0535" formatted="false">"本体・削除対応の確認"</string>
+    <string name="companion_0536" formatted="false">"削除ツールの転送・検証"</string>
+    <string name="companion_0537" formatted="false">"本体承認・清掃中（Bluetooth なし）"</string>
+    <string name="companion_0538" formatted="false">"全体 · %d / %d 段階完了（%d%%）"</string>
+    <string name="companion_0539" formatted="false">"段階基準であり、所要時間の割合ではありません。\n"</string>
+    <string name="companion_0540" formatted="false">"基準検査：本体内で128 MiBを読み、保全領域の SHA-256 を計算します。写真の転送・上書きはしません。導入後も同じ検査を照合します。"</string>
+    <string name="companion_0541" formatted="false">"最終 FAT・ハッシュを独立した計画と照合します。新経路は既存ファイル・予約領域への書込権限を持ちません。全領域ハッシュは旧 Bootstrap のみです。"</string>
+    <string name="companion_0542" formatted="false">"変更対象 FAT・ディレクトリの原本と計画を保存します。新 Bootstrap は未使用領域や128 MiB全体をダウンロードしません。"</string>
+    <string name="companion_0543" formatted="false">"新領域に純正復旧・CFW リソース・設定・空写真・A/B・ログを準備し、実書込を検証します。純正写真は保持します。"</string>
+    <string name="companion_0544" formatted="false">"FAT とディレクトリから既存ファイル・予約領域と重ならない空き領域を確認します。"</string>
+    <string name="companion_0545" formatted="false">"検証済みイメージを転送します。転送100%だけではインストール完了ではありません。"</string>
+    <string name="companion_0546" formatted="false">"30秒の正常動作とスマートフォン再接続後に完了します。"</string>
+    <string name="companion_0547" formatted="false">"本体 · 段階 %d/%d · ファイル %d/%d\nセクター %d/%d（4 KiB）· 検証済み %,d B\n%s"</string>
+    <string name="companion_0548" formatted="false">"結果未確認 — 状態照会が必要"</string>
+    <string name="companion_0549" formatted="false">"現在の書込完了後にキャンセル"</string>
+    <string name="companion_0550" formatted="false">"安全にキャンセル済み"</string>
+    <string name="companion_0551" formatted="false">"最終確認状態 · 再接続待ち"</string>
+    <string name="companion_0552" formatted="false">"O を押し直して3秒長押し：本体操作を取消"</string>
+    <string name="companion_0553" formatted="false">"確定後 — 常時電源を維持してください"</string>
+    <string name="companion_0554" formatted="false">"動作中の Bootstrap と ZIP が異なります。導入時の ZIP で続行してください。"</string>
+    <string name="companion_0555" formatted="false">"選択した新 CFW はまだ動作していません。現バージョン確認後に CFW 更新を実行してください。"</string>
+    <string name="companion_0556" formatted="false">"インストールする Gate・CFW イメージを転送中です。"</string>
+    <string name="companion_0557" formatted="false">"選択した CFW の正常動作と永続確定を確認しました。"</string>
+    <string name="companion_0558" formatted="false">"既存 CFW は試験起動中です。導入に使った ZIP で結果を確認してから最新 ZIP を選択してください。"</string>
+    <string name="companion_0559" formatted="false">"以前の CFW が動作中です。新バージョンの導入完了にはしていません。CFW 更新で状態を照会し再開してください。"</string>
+    <string name="companion_0560" formatted="false">"この CFW に進行中の更新があります。CFW 更新から同じ ZIP で再開してください。"</string>
+    <string name="companion_0561" formatted="false">"既存 CFW は正常動作中です。選択した新 ZIP で更新できます。"</string>
+    <string name="companion_0562" formatted="false">"既存 CFW の接続・動作を確認しました。新ファームウェアはまだ未導入です。CFW 更新を押してください。APK を戻す必要はありません。"</string>
+    <string name="companion_0563" formatted="false">"新しいバージョンを30秒間確認します。"</string>
+    <string name="companion_0564" formatted="false">"もう少しです。新しいバージョンを確認中です。"</string>
+    <string name="companion_0565" formatted="false">"確認対象の復帰結果がないか、動作確認中です。"</string>
+    <string name="companion_0566" formatted="false">"確認中に起動状態が変わりました。"</string>
+    <string name="companion_0567" formatted="false">"確認結果がまだ保存されていません。状態を再照会してください。"</string>
+    <string name="companion_0568" formatted="false">"独立復旧を含むインストールファイルが必要です。"</string>
+    <string name="companion_0569" formatted="false">"ZIP の内容が manifest と一致しません。最新 APK と一緒に配布された ZIP を選択してください。追加="</string>
+    <string name="companion_0570" formatted="false">"、不足="</string>
+    <string name="companion_0571" formatted="false">"必要なリソースファイルが不足しています。"</string>
+    <string name="companion_0572" formatted="false">"このパッケージはインストール用に準備されていません。"</string>
+    <string name="companion_0573" formatted="false">"変更リソース転送（RAM 受信、未保存）"</string>
+    <string name="companion_0574" formatted="false">"非アクティブ資源スロットの書込・実データ検証"</string>
+    <string name="companion_0575" formatted="false">"この ZIP は別の RecoveryGate です。APK を戻す必要はありません。データ保持で純正復帰 → この ZIP の Bootstrap → 新 CFW の順で復旧層を更新してください。"</string>
+    <string name="companion_0576" formatted="false">"先に起動・復帰結果を確認してください。"</string>
+    <string name="companion_0577" formatted="false">"更新中は純正復元を開始できません。"</string>
+    <string name="companion_0578" formatted="false">"復旧イメージとストレージ構造を確認中です。"</string>
+    <string name="companion_0579" formatted="false">"現 CFW・本体・復旧 Gate と更新 ZIP を照合中です。"</string>
+    <string name="companion_0580" formatted="false">"診断イメージを含む最新 ZIP を選んでください。"</string>
+    <string name="companion_0581" formatted="false">"この Gate は一時診断に未対応です。純正復帰 → 新 Bootstrap → CFW で先に Gate を更新してください。"</string>
+    <string name="companion_0582" formatted="false">"現 CFW の正常動作確定が未完了です。先に正常起動確認を実行してください。"</string>
+    <string name="companion_0583" formatted="false">"更新状態の応答が不正です。"</string>
+    <string name="companion_0584" formatted="false">"本体に別の更新が残っています。対応 ZIP と操作記録で先に結果を確認してください。"</string>
+    <string name="companion_0585" formatted="false">"正常 CFW と純正復旧イメージを保持できるか検査中です。"</string>
+    <string name="companion_0586" formatted="false">"診断ファームウェア転送・検証中 · 設定と写真は保持します。"</string>
+    <string name="companion_0587" formatted="false">"新 CFW 転送・セクター検証中"</string>
+    <string name="companion_0588" formatted="false">"ファイル配置とディレクトリを読込中です。"</string>
+    <string name="companion_0589" formatted="false">"本体から "</string>
+    <string name="companion_0590" formatted="false">" 検査エラーが報告されました。"</string>
+    <string name="companion_0591" formatted="false">"本体内で既存ファイルを検査中です。全ストレージをスマートフォンへ転送しません。"</string>
+    <string name="companion_0592" formatted="false">"変更前のハッシュを計算します。本体内の検査で、写真の転送・上書きはしません。"</string>
+    <string name="companion_0593" formatted="false">"変更前の復旧資料保存 · "</string>
+    <string name="companion_0594" formatted="false">"CFW ファイルが一部しかありません。既存ファイルは未変更です。診断資料を保存してください。"</string>
+    <string name="companion_0595" formatted="false">"準備済みファイルを再利用します。現状を新たに検査し、既存ファイルは上書きしません。"</string>
+    <string name="companion_0596" formatted="false">"既存インストールファイル確認 · "</string>
+    <string name="companion_0597" formatted="false">"既存の "</string>
+    <string name="companion_0598" formatted="false">" の内容がこの ZIP と異なります。上書きはしていません。診断資料を保存してください。"</string>
+    <string name="companion_0599" formatted="false">"既存ファイルの保全と新規書込を確認中です。"</string>
+    <string name="companion_0600" formatted="false">"最終ファイル配置と独立インストール計画を比較中です。"</string>
+    <string name="companion_0601" formatted="false">"FAT 全割り当て・既存ファイル・新規書込範囲を照合中です。"</string>
+    <string name="companion_0602" formatted="false">"復元に必要な設定・走行・写真ファイルが揃っていません。新規開始を選べます。まだ書き込んでいません。"</string>
+    <string name="companion_0603" formatted="false">"本体に旧リソースが残っています。移行対応の新 Bootstrap が必要です。純正に戻してこの ZIP の Bootstrap を導入してください。"</string>
+    <string name="companion_0604" formatted="false">"既存リソースの保全資料を保存中です。"</string>
+    <string name="companion_0605" formatted="false">"既存ファイル検証 · "</string>
+    <string name="companion_0606" formatted="false">"SPP 接続を停止しました。"</string>
+    <string name="companion_0607" formatted="false">"SPP 接続に "</string>
+    <string name="companion_0608" formatted="false">"回失敗しました。ペアリングは削除していません。純正アプリの接続を確認し、診断資料を共有してください。"</string>
+    <string name="companion_0609" formatted="false">"SPP サービス検索中断"</string>
+    <string name="companion_0610" formatted="false">"純正 Bluetooth アドレスが以前の本体と異なります。待機記録は変更していません。"</string>
+    <string name="companion_0611" formatted="false">"純正復帰を確認しました。CFW 起動待ちを終了しました。"</string>
+    <string name="companion_0612" formatted="false">"\n純正復帰を確認し、CFW 起動待ちを終了しました。以前の記録と復旧資料は保持します。選択中の ZIP で新規導入できます。"</string>
+    <string name="companion_0613" formatted="false">"Bluetooth 接続済みです。純正プロトコルの応答を確認します。"</string>
+    <string name="companion_0614" formatted="false">"純正 Bluetooth アドレスが選択した Noodoe と異なります。転送していません。"</string>
+    <string name="companion_0615" formatted="false">"純正復帰と本体を確認しました。以前の記録を保持して新規導入を準備します。"</string>
+    <string name="companion_0616" formatted="false">"純正更新経路で Bootstrap を送信中です。"</string>
+    <string name="companion_0617" formatted="false">"転送検証応答を確認。常時電源を維持し、IGN OFF → Bootstrap 表示 → IGN ON。インストーラー接続の確認が必要です。"</string>
+    <string name="companion_0618" formatted="false">"この本体の原本バックアップがありません。先に Bootstrap で保存してください。"</string>
+    <string name="companion_0619" formatted="false">"原本の2回の読み取りが異なります。保存・インストールは開始していません。"</string>
+    <string name="companion_0620" formatted="false">"前回の原本バックアップ操作が残っています。先に記録を確認してください。"</string>
+    <string name="companion_0621" formatted="false">"本体の BL 識別値が以前の接続と異なります。原本記録を保持して確認してください。"</string>
+    <string name="companion_0622" formatted="false">"削除操作と本体状態を照合できません。再送していません。純正復帰または本体画面を確認してください。"</string>
+    <string name="companion_0623" formatted="false">"削除は確認待ちです。本体状態 "</string>
+    <string name="companion_0624" formatted="false">"。変更命令は送っていません。"</string>
+    <string name="companion_0625" formatted="false">"削除ツールと現 CFW の対応情報が異なります。先にこの ZIP の CFW へ更新してください。データ保持復元で代用しません。"</string>
+    <string name="companion_0626" formatted="false">"専用削除ファームウェアを含む最新 ZIP が必要です。"</string>
+    <string name="companion_0627" formatted="false">"現 CFW は完全削除に未対応です。先に更新してください。"</string>
+    <string name="companion_0628" formatted="false">"削除ツールの導入結果が未確認です。先に純正復帰を確認してください。再送していません。"</string>
+    <string name="companion_0629" formatted="false">"本体で処理中の操作があります。状態を確認してください。"</string>
+    <string name="companion_0630" formatted="false">"削除専用ファームウェア転送 · CFW データはまだ消していません。"</string>
+    <string name="companion_0631" formatted="false">"ストレージ検査が30分を超えました。記録を保持し、書込命令は再送していません。"</string>
+    <string name="companion_0632" formatted="false">"本体応答はありますが検査進捗が90秒増えていません。診断資料を共有してください。書込命令は再送していません。"</string>
+    <string name="companion_0633" formatted="false">"お気に入りの連絡先 · 最大10件"</string>
+    <string name="companion_0634" formatted="false">"上へ移動"</string>
+    <string name="companion_0635" formatted="false">"下へ移動"</string>
+    <string name="companion_0636" formatted="false">"お気に入りから削除"</string>
+    <string name="companion_0637" formatted="false">"連絡先の順序を保存できませんでした。"</string>
+    <string name="companion_0638" formatted="false">"連絡先を追加"</string>
+    <string name="companion_0639" formatted="false">"最大10件です。先に1件削除してください。"</string>
+    <string name="companion_0640" formatted="false">"連絡先アプリが見つかりません。"</string>
+    <string name="companion_0641" formatted="false">"連絡先を保存できませんでした。"</string>
+    <string name="companion_0642" formatted="false">"連絡先の権限を確認してください。"</string>
+    <string name="companion_0643" formatted="false">"先に本体を選択してください。コンパニオン登録には Android 8 以降が必要です。"</string>
+    <string name="companion_0644" formatted="false">"コンパニオン登録を開けませんでした。Bluetooth と選択本体を確認して再試行してください。"</string>
+    <string name="companion_0645" formatted="false">"コンパニオン登録を確認しました。"</string>
+    <string name="companion_0646" formatted="false">"アプリ設定で自動接続の権限を確認してください。"</string>
+    <string name="companion_0647" formatted="false">"コンパニオン登録に失敗しました。Bluetooth と選択本体を確認してください。"</string>
+    <string name="companion_0648" formatted="false">" · GPS：アプリを開き位置権限を確認"</string>
+    <string name="companion_0649" formatted="false">" · GPS：正確な位置情報の権限が必要"</string>
+    <string name="companion_0650" formatted="false">" · GPS：スマートフォンの省電力制限"</string>
+    <string name="companion_0651" formatted="false">" · GPS：スマートフォンの位置情報を有効に"</string>
+    <string name="companion_0652" formatted="false">" · GPS 受信待ち"</string>
+    <string name="companion_0653" formatted="false">"本体設定を読み込んでいます。"</string>
+    <string name="companion_0654" formatted="false">"保存結果未確認。再接続して現在値を確認してください。自動再実行はしません。"</string>
+    <string name="companion_0655" formatted="false">"設定の適用または保存に失敗 · "</string>
+    <string name="companion_0656" formatted="false">"本体に適用・保存しました。"</string>
+    <string name="companion_0657" formatted="false">"本体に適用しました。永続保存を待っています。"</string>
+    <string name="companion_0658" formatted="false">"保存結果未確認。現在値を再照会してください。自動再実行はしません。"</string>
+    <string name="companion_0659" formatted="false">"ODO 選択を要求しました。保存状態を確認中です。"</string>
+    <string name="companion_0660" formatted="false">"要求を受け付けました。適用・保存結果を待っています。"</string>
+    <string name="companion_0661" formatted="false">"本体設定を読み込みました。"</string>
+    <string name="companion_0662" formatted="false">"本体が要求を拒否 · "</string>
+    <string name="companion_0663" formatted="false">"。停車状態と最新値を確認してください。"</string>
+    <string name="companion_0664" formatted="false">"権限・連携設定で通知へのアクセスを許可してください。"</string>
+    <string name="companion_0665" formatted="false">"スマートフォン設定でこのアプリの通知表示を許可してください。"</string>
+    <string name="companion_0666" formatted="false">"Noodoe 通知テスト"</string>
+    <string name="companion_0667" formatted="false">"スマートフォン設定で「Noodoe 通知テスト」の通知を有効にしてください。"</string>
+    <string name="companion_0668" formatted="false">"通知テスト · Notification test"</string>
+    <string name="companion_0669" formatted="false">"Noodoe に届きましたか？臺灣 · 日本 · 한국"</string>
+    <string name="companion_0670" formatted="false">"テスト通知を作成しました。接続中の Noodoe の電話ページで上下ボタンを使って確認してください。"</string>
+    <string name="companion_0671" formatted="false">"画像を読み込めません。"</string>
+    <string name="companion_0672" formatted="false">"JPEG 変換に失敗しました。"</string>
+    <string name="companion_0673" formatted="false">"画像を縮小できません。"</string>
+    <string name="companion_0674" formatted="false">"写真サイズを読み取れませんでした。"</string>
+    <string name="companion_0675" formatted="false">"この写真は開けません。"</string>
+    <string name="companion_0676" formatted="false">"写真転送対応の新しい CFW が必要です。"</string>
+    <string name="companion_0677" formatted="false">"本体で写真を検証・保存中…"</string>
+    <string name="companion_0678" formatted="false">"写真転送 · "</string>
+    <string name="companion_0679" formatted="false">"空欄は除外されます。Noodoe で通知を開き、O 長押し → 返信選択 → O で送信。署名は全返信の末尾に付きます。"</string>
+    <string name="companion_0680" formatted="false">"クイック返信 "</string>
+    <string name="companion_0681" formatted="false">"署名（空欄で無効）"</string>
+    <string name="companion_0682" formatted="false">"メーターに表示するスマートフォン名"</string>
+    <string name="companion_0683" formatted="false">"自動（日本語／台湾繁体字）"</string>
+    <string name="companion_0684" formatted="false">"日本語の字形"</string>
+    <string name="companion_0685" formatted="false">"台湾繁体字の字形"</string>
+    <string name="companion_0686" formatted="false">"文字地域・スマートフォン名の変更は連携を再開すると反映されます。最新10件の通知は RAM のみ保持。返信対応アプリのみ利用できます。"</string>
+    <string name="companion_0687" formatted="false">"Noto フォントライセンス"</string>
+    <string name="companion_0688" formatted="false">"ライセンスを開けませんでした。"</string>
+    <string name="companion_0689" formatted="false">"Google Material アイコンライセンス"</string>
+    <string name="companion_0690" formatted="false">"クイック返信と文字表示"</string>
+    <string name="companion_0691" formatted="false">"保存できませんでした。長さと空き容量を確認してください。"</string>
+    <string name="companion_0692" formatted="false">" · 約 %.1f km\n走行 %d 分 · 停車 %d 分 · 最高 %d km/h"</string>
+    <string name="companion_0693" formatted="false">"接続中にセッション終了を確認"</string>
+    <string name="companion_0694" formatted="false">"収集中／未終了の走行記録"</string>
+    <string name="companion_0695" formatted="false">"切断 · 一部区間のみ保存"</string>
+    <string name="companion_0696" formatted="false">" · 未確認時間 "</string>
+    <string name="companion_0697" formatted="false">"スマートフォン走行記録 OFF"</string>
+    <string name="companion_0698" formatted="false">"走行記録 · IGN 待ち"</string>
+    <string name="companion_0699" formatted="false">"走行記録 · IGN 状態確認中"</string>
+    <string name="companion_0700" formatted="false">"走行記録を保存中"</string>
+    <string name="companion_0701" formatted="false">"走行記録 · UART 待ち（未確認区間）"</string>
+    <string name="companion_0702" formatted="false">"走行記録の保存失敗 · スマートフォンの空き容量を確認"</string>
+    <string name="companion_0703" formatted="false">"走行記録の終了処理失敗 · 未終了記録として保持"</string>
+    <string name="companion_0704" formatted="false">"画像検証がタイムアウトしました。完了は未確認です。"</string>
+    <string name="companion_0705" formatted="false">"画像受信位置が一致しません。"</string>
+    <string name="companion_0706" formatted="false">"画像処理が別の要求に変わりました。"</string>
+    <string name="companion_0707" formatted="false">"画像の検証・保存に失敗："</string>
+    <string name="companion_0708" formatted="false">"画像の完了状態または長さが一致しません。"</string>
+</resources>

@@ -1,0 +1,38 @@
+{
+  "app": {
+    "state": "candidate-installed",
+    "app_sha256": "23a9b30b99071693f94a1813a724c61f60555e9229b1d262c8aaf37bad4e0913",
+    "bootloader_preserved": true,
+    "nor_written": false
+  },
+  "elf_sha256": "44b68bef1cb26a38ee1078f216c585f0ca5efc1b54ad2e4e8af93bf122262900",
+  "source_artifact": "candidate.elf",
+  "boot": "verified",
+  "tests": {
+    "product_ui": "PASS",
+    "power_ui_host": "PASS",
+    "wallpaper": "PASS"
+  },
+  "sequence": "OFF ->1000ms exact frame/brightness hold ->commit once + background fade + ring exit + summary rise",
+  "physical_ign_retest": "not yet observed after this corrected build",
+  "builds": [
+    "Product Release",
+    "Product Debug"
+  ],
+  "memory_free": {
+    "release_flash": 89292,
+    "debug_flash": 74172,
+    "sram": 35912,
+    "ccm": 16320
+  },
+  "fps": [
+    29.8,
+    29.9,
+    30.7
+  ],
+  "cpu_percent": [
+    57.2,
+    57.3,
+    57.5
+  ]
+}

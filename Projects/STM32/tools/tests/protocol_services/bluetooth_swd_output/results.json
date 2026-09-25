@@ -1,0 +1,11 @@
+{
+  "hardware_access": false,
+  "subprocess_forbidden": true,
+  "tests_run": 27,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "source_sha256": "4641c4537785c8245b39970a254c6594effd728808e712428b5981c3025d794f",
+  "test_sha256": "36882727ad327a979aa46a2d3fae635ed6182144e12fd1f32ebd3574ec0ef2cf",
+  "elf_fixture": "Preserved731f ELF; only temporary non-ALLOC symbol/string metadata altered; canonical code unchanged"
+}

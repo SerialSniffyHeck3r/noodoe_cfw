@@ -1,0 +1,246 @@
+{
+  "schema": 1,
+  "recorded_utc": "2026-09-20T07:14:37.048923+00:00",
+  "state": "bench_recovery_paths_verified_final_product_running",
+  "target": {
+    "uid_words": [
+      3735583,
+      875974927,
+      892810041
+    ],
+    "stlink_serial": "[redacted ST-LINK serial]",
+    "resident_version": "0.14",
+    "pcba": "sr0601",
+    "approved_stock": "5.16",
+    "scope": "bench-only"
+  },
+  "execution": {
+    "bootstrap_to_stock": {
+      "passed": true,
+      "entry": "SWD confirmed APP recovery intent",
+      "source": "embedded compressed approved stock APP",
+      "installer": "original resident bootloader",
+      "evidence": "bootstrap-to-stock-confirmed.json",
+      "acquisition_anomaly_documented": true
+    },
+    "product_to_stock": {
+      "passed": true,
+      "entry": "SWD confirmed APP recovery intent",
+      "source": "independent CFWREC.DAT",
+      "installer": "original resident bootloader",
+      "evidence": "product-to-stock-reconciled/result.json",
+      "raw_full_reads_match": false,
+      "fresh_confirmed_pages": 8,
+      "new_full_capture": false
+    },
+    "final_product": {
+      "installed_via": "ST-LINK APP-only programming",
+      "app_address": "0x08010000",
+      "app_bytes": 390516,
+      "app_sha256": "21582250321ad746499b1824a889f3eaef2f251ced9e34d11ee026ea9ed65877",
+      "canonical_448k_sha256": "97059caeab949bff672af6d10859b0dffbfb59af1196c339205d93fb2b28506b",
+      "full_flash_sha256": "430bafdb1ef1f0999bce149f6f9adc58889aa6d5783fb866d25554d01a4f794c",
+      "exact_pre_post_reads_without_reconciliation": true,
+      "runtime_checks_passed": 22,
+      "minimum_free_rtos_heap_bytes": 24912,
+      "live_fault_and_system_error": false,
+      "historical_fault_absence_proven": false
+    },
+    "persistence": {
+      "passed": true,
+      "prior_whole_nor_two_physical_hashes": "nor-after-rec-hashes/result.json",
+      "current_scope": "Only listed physical regions freshly read. Other NOR bytes are not reverified by this run.",
+      "current_unique_physical_bytes": 2592768,
+      "current_whole_nor_read": false,
+      "write_lease_released": true,
+      "regions": [
+        {
+          "name": "FAT",
+          "offset": "0x0",
+          "bytes": 36864,
+          "sha256": "efa24c46dd2feff430b527140bc54c23a4cd4c6eb2c44c2f89f6781d2245590d",
+          "comparison": {
+            "exact": true
+          }
+        },
+        {
+          "name": "CFWCFG.DAT",
+          "offset": "0x69c9000",
+          "bytes": 131072,
+          "sha256": "7058223241f8ac0f45eb9749c782384f1758ecb82afe724bf3452e95520d3197",
+          "comparison": {
+            "exact": true
+          }
+        },
+        {
+          "name": "CFWRIDE.DAT",
+          "offset": "0x6c21000",
+          "bytes": 262144,
+          "sha256": "100a3e50e25b66f752d19f175e5111e3388106f7d79f8be112a0e39d7640b786",
+          "comparison": {
+            "exact": false,
+            "previous_latest_preserved": true,
+            "before_latest": [
+              43,
+              3115
+            ],
+            "after_latest": [
+              45,
+              3117
+            ],
+            "delta": {
+              "previous_sector": 43,
+              "previous_generation": 3115,
+              "new_sector": 45,
+              "new_generation": 3117,
+              "changed_sectors": [
+                44,
+                45
+              ]
+            }
+          }
+        },
+        {
+          "name": "CFWPIC.DAT",
+          "offset": "0x6c61000",
+          "bytes": 1048576,
+          "sha256": "99e4172f6ab5597a67ea20e0ef0a166bab7f0ed39c02d6e1a596b2be3a4d59b6",
+          "comparison": {
+            "exact": true
+          }
+        },
+        {
+          "name": "CFWREC.DAT",
+          "offset": "0x6d61000",
+          "bytes": 524288,
+          "sha256": "9c02756f65879c3049abfd7bf8d1eb80d30eb62d1127df7f1e8f77a593542322",
+          "comparison": {
+            "exact": true
+          }
+        },
+        {
+          "name": "RESERVED_BEFORE_APP_STAGE",
+          "offset": "0x7f70000",
+          "bytes": 131072,
+          "sha256": "5a6a18862d321995e03935133ef422f510dec81f62d7995c480d2e5e6da3eab3",
+          "comparison": {
+            "exact": true
+          }
+        },
+        {
+          "name": "STOCK_APP_STAGE",
+          "offset": "0x7f90000",
+          "bytes": 458752,
+          "sha256": "b227201a25f1d88b90686c8141c12c949703d362de5ca0e10d2c456109b0bb89",
+          "comparison": {
+            "exact_approved_stock": true,
+            "canonical_sha256": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf"
+          }
+        }
+      ]
+    },
+    "display": {
+      "passed": true,
+      "path": "final-capture/display.png",
+      "measurement": "Actual EVE raster; not a photograph of the panel",
+      "snapshot_ms": 1140,
+      "chunks": 113,
+      "crc_checked": true,
+      "raw_sha256": "89d612b077ae0c08f398f5eea82fdb56a422b5670599aa736229046cd4da51f4",
+      "png_sha256": "8cc8d464a5d8a6018470291bfc6d637bc3ef51991b5c9c934b653ef947539037",
+      "visual_panel_confirmation": false
+    }
+  },
+  "unsupported_or_not_tested": [
+    "Actual Bluetooth stock-to-Bootstrap transfer, Product update or recovery command transport",
+    "Physical recovery button gesture on this bench trial",
+    "Stock visible operation in this specific trial; previous user confirmation belongs to earlier testing",
+    "Healthy motorcycle BL0.15/SR0701 compatibility; current bench-only bundle is rejected by both wireless clients",
+    "Module USB connection and stock USB storage operations",
+    "New whole-NOR byte acquisition after all final Product runtime writes",
+    "Guaranteed rescue when APP vectors/early startup are damaged or internal flash install is interrupted"
+  ],
+  "acquisition_policy": "Original failed/inconsistent reads retained. Stock mismatch pages were freshly read twice and required exact reference equality; no missing bytes were filled from a firmware template. Final APP install raw reads needed no reconciliation.",
+  "evidence": {
+    "device-before/internal-A.bin": {
+      "bytes": 524288,
+      "sha256": "24c3e318604b54216cf3b0db2d3fe3b321b7ac7173e07df8a0325ec458019977"
+    },
+    "device-before/internal-B.bin": {
+      "bytes": 524288,
+      "sha256": "24c3e318604b54216cf3b0db2d3fe3b321b7ac7173e07df8a0325ec458019977"
+    },
+    "nor-before/manifest.json": {
+      "bytes": 80887,
+      "sha256": "16c1cb377bc3f7c6356847e23c477aa300cd78e32dc2a005d1b369450e72c288"
+    },
+    "ride-continuity-proof.json": {
+      "bytes": 4419,
+      "sha256": "cd32369ec16906561fc2bea26411a36a0efd6a84c953007463fc8afee327aea4"
+    },
+    "install-bootstrap-hash/result.json": {
+      "bytes": 568,
+      "sha256": "baa94e2a1a54df795a98eab6ea34ee043c7ea13b05f02aa4fac32e8203168800"
+    },
+    "install-rec-verified/result.json": {
+      "bytes": 14001,
+      "sha256": "6fc2ac3c496d0ee1839bf73ba133685e59efafaa2ae3a7b9456c729cbd26d0c9"
+    },
+    "nor-after-rec-hashes/result.json": {
+      "bytes": 3021,
+      "sha256": "1a5841765389cd80257ce052160e73f70f045232732d384857245298ebcb85d8"
+    },
+    "bootstrap-reboot-ready/result.json": {
+      "bytes": 242,
+      "sha256": "31b19ab546d83c0a0cc4ef110f4c751b208c323c2b8fe9368f3e2808197facdf"
+    },
+    "bootstrap-to-stock-confirmed.json": {
+      "bytes": 6938,
+      "sha256": "bd4c09c0ca86c60304ce32621be7a1f5da761bfbb0b1c0cd71265b5d1f66a722"
+    },
+    "product-to-stock-reconciled/result.json": {
+      "bytes": 835,
+      "sha256": "cc7b792d8c403cca631a3f679f67a40873363489deeb06fdbe2d3d16b5cb93b8"
+    },
+    "product-to-stock-reconciled/stock-verification.json": {
+      "bytes": 1526,
+      "sha256": "7372a01e22bb3cda858e42bda45afaf59528663869382b5e8f71a33dd833e029"
+    },
+    "install-product-final/result.json": {
+      "bytes": 803,
+      "sha256": "9850db13e23120d9e5170e7f0a1132b945a67d50b5117bf9d826f472875ab43d"
+    },
+    "product-final-status-A/result.json": {
+      "bytes": 5490,
+      "sha256": "b0119929eeaedb8ac2f7121bf67f22cec3bf18bf104c06c4c46fe562ea3de736"
+    },
+    "product-final-status-B/result.json": {
+      "bytes": 5534,
+      "sha256": "8413eac4b4703421557058bd34fcc1006c8bbc873f49bea998ca4df4bcb7a617"
+    },
+    "product-final-boot-check.json": {
+      "bytes": 2556,
+      "sha256": "378fd27c1c91aad501d53e939035457d0832ee97129b902b8fa888a2f9802661"
+    },
+    "final-persistence-proof/result.json": {
+      "bytes": 20782,
+      "sha256": "e465b9e6f1da67fc27e33275fedf5d9f1c0a0b65394a0e87d23b0cf4aeef0815"
+    },
+    "final-capture/capture.json": {
+      "bytes": 11670,
+      "sha256": "32ac315ec7ac990fdac36fc7630abd894ab3161420c092b30e0894bab2e76628"
+    },
+    "final-capture/display.png": {
+      "bytes": 64247,
+      "sha256": "8cc8d464a5d8a6018470291bfc6d637bc3ef51991b5c9c934b653ef947539037"
+    },
+    "builds/matrix.json": {
+      "bytes": 1901,
+      "sha256": "58a70d58890466444b747bef4f3adead6653f339a6b9ea92f920545d6bb3a643"
+    },
+    "bench-bundle-final/audit.json": {
+      "bytes": 4287,
+      "sha256": "0fd9bcb8d1b3d847590a2426b001f219040521c5a1ee4beac00f457fa02e2661"
+    }
+  }
+}

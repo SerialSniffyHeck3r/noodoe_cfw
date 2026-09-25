@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "assertions": 8386,
+      "status": "pass",
+      "target_compile": "pass",
+      "ram_relocations": [
+        ".bss.g_attempted",
+        ".bss.g_diag",
+        ".bss.g_sector",
+        "BSP_Watchdog_RamCheckpoint"
+      ]
+    },
+    {
+      "optimization": "-Os",
+      "assertions": 8386,
+      "status": "pass",
+      "target_compile": "pass",
+      "ram_relocations": [
+        ".bss.g_attempted",
+        ".bss.g_diag",
+        ".bss.g_sector",
+        "BSP_Watchdog_RamCheckpoint"
+      ]
+    }
+  ],
+  "sources": {
+    "Middlewares\\Noodoe\\Update\\src\\Update_Metadata.c": "92ffb58f57160c3e2aba0f390e5b96f62f348355ef97b3f87bc55ee85be1192e",
+    "Middlewares\\Noodoe\\Update\\inc\\Update_Metadata.h": "62fcd33347983c0b5a8e0fc93dcf9f93f66c9e0cb7b8251b738f3d689bc44459",
+    "tools\\tests\\protocol_services\\metadata_test.c": "8543d8c883efc78c186bb35aa5f5385411192cc625541c69ef9688a3eca1dd3f",
+    "tools\\tests\\protocol_services\\metadata_run.py": "3b304c3adc197bfbdeafd74e3f40a4f78033db2011ff6685030b3699c35704da"
+  },
+  "limits": "실제 ARM 엔진 + 가짜 flash 오류 모델. STM32 전압/BSY/IRQ/erase/캐시/전원 중단 및 실물 OTA는 검증하지 않음. 제품 backend compile/RAM relocation 확인은 실행 검증과 다름."
+}

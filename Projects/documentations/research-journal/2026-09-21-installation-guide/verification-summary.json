@@ -1,0 +1,9 @@
+{
+  "date": "2026-09-21",
+  "change": "Installation instructions only; firmware and bundle unchanged",
+  "apk": "fba99d29828a139d5b89503d515b36b1f5b273e7a91de04a8bc9e0d259612048",
+  "bundle": "168372fe0accccf12e16e7284d8f5b4abf350dbc467b2c88300649d3500c1d50",
+  "build": "assembleDebug PASS",
+  "hardware_access": false,
+  "installed": false
+}

@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/google/material-design-icons",
+  "commit": "40a7a292a79d9394157e1ea24f83d52d5e17c556",
+  "family": "Material Icons Round",
+  "license": "Apache-2.0",
+  "files": {
+    "MaterialIconsRound-Regular.otf": {
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/40a7a292a79d9394157e1ea24f83d52d5e17c556/font/MaterialIconsRound-Regular.otf",
+      "bytes": 400092,
+      "sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e"
+    },
+    "build_round_24.svg": {
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/40a7a292a79d9394157e1ea24f83d52d5e17c556/src/action/build/materialiconsround/24px.svg",
+      "bytes": 405,
+      "sha256": "c031a348dd1642c396e93f3edd3e6697cb98f2a458b8be3ecd25f4e11b5abb03"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/40a7a292a79d9394157e1ea24f83d52d5e17c556/LICENSE",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    "codepoints.txt": {
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/40a7a292a79d9394157e1ea24f83d52d5e17c556/font/MaterialIconsRound-Regular.codepoints",
+      "bytes": 38846,
+      "sha256": "534fc87caafe6c7529a390fbe5b669c158d560caa5e9358c8e49054b817603d8"
+    },
+    "local_gas_station_round_24.svg": {
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/40a7a292a79d9394157e1ea24f83d52d5e17c556/src/maps/local_gas_station/materialiconsround/24px.svg",
+      "bytes": 611,
+      "sha256": "cd002e6a5d37466b08d23b77d7f896210b921c9cb8e3eb2dbbe0106978012277"
+    }
+  },
+  "icons": {
+    "build": "0xE869",
+    "local_gas_station": "0xE546"
+  }
+}

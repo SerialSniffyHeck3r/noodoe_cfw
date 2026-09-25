@@ -1,0 +1,27 @@
+{
+  "apk_version": "6.6.0",
+  "version_code": 10,
+  "apk_sha256": "7d6bf0fd19b10d115f5377eb4efe6c8315a9162281bd1e399f0f8cc5de246980",
+  "apk_bytes": 28676101,
+  "bundle_sha256": "8325d5e4ff9b68f1491a3ec00b2f26ff65cf1343b730359103139f2f247d6460",
+  "android": {
+    "tests": 188,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 81
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "unchanged_firmware": true,
+  "actual_rf_test": false,
+  "hardware_access": false,
+  "exif_license_in_apk": [
+    "res/raw/androidx_exifinterface_license.txt"
+  ],
+  "test_log": "final-build.log",
+  "packaging_log": "package-final.log"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boot_screen_action">请点击按钮确认屏幕</string>
+    <string name="boot_screen_instructions">Bluetooth已连接。Noodoe显示CFW UPDATE及Checking the new version或Confirm on your phone时，请点击下方按钮。\n\n仍显示NOODOE INSTALLER时请等待。仅连接成功不会确认更新。</string>
+    <string name="boot_screen_yes">已看到CFW UPDATE · 继续</string>
+    <string name="boot_screen_not_yet">还不是这个画面</string>
+    <string name="boot_screen_deadline">剩余%1$d秒 · 未确认将返回旧版本或恢复画面。</string>
+    <string name="boot_screen_waiting">Bluetooth已连接。请点击屏幕顶部的确认按钮继续。</string>
+    <string name="boot_screen_accepted">屏幕已确认。正在检查运行状态和启动记录保存结果。</string>
+    <string name="boot_screen_open_app">请打开应用，确认CFW UPDATE画面。</string>
+    <string name="boot_screen_expired">未在规定时间内收到屏幕确认。仅Bluetooth连接不代表完成。请检查设备启动结果。未重新发送固件。</string>
+</resources>

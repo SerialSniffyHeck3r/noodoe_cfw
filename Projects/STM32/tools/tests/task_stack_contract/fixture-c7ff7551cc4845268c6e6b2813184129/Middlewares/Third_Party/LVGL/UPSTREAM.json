@@ -1,0 +1,39 @@
+{
+  "name": "LVGL",
+  "version": "9.5.0",
+  "tag": "v9.5.0",
+  "commit": "85aa60d18b3d5e5588d7b247abf90198f07c8a63",
+  "repository": "https://github.com/lvgl/lvgl.git",
+  "release": "https://github.com/lvgl/lvgl/releases/tag/v9.5.0",
+  "release_published_utc": "2026-02-18T16:10:58Z",
+  "retrieved_utc_date": "2026-09-12",
+  "selection": "Latest stable release at retrieval; this release contains the EVE GPU draw unit.",
+  "import_method": "Official Git clone at exact tag; git -c core.autocrlf=false archive of src plus listed root files; verified against original Git blobs.",
+  "root_files": [
+    "lvgl.h",
+    "lvgl_private.h",
+    "lv_version.h",
+    "lv_conf_template.h",
+    "LICENCE.txt",
+    "COPYRIGHTS.md",
+    "README.md"
+  ],
+  "source_tree": "src/ (complete tagged runtime tree)",
+  "excluded_from_distribution": [
+    ".git",
+    "demos",
+    "examples",
+    "tests",
+    "docs",
+    "scripts",
+    "build metadata"
+  ],
+  "upstream_file_count": 1137,
+  "upstream_bytes_modified": false,
+  "baseline_hash_file": "UPSTREAM_FILES.sha256",
+  "archive_sha256": "572bf2c7e5a210fdd1633c2f4e4842c3adc070796e308651b559adb0ffe2fa73",
+  "license": "MIT; see LICENCE.txt and COPYRIGHTS.md. Bundled third-party notices remain in src/; EVE driver has its own LICENSE.",
+  "project_configuration": "../../../Graphics/Port/inc/lv_conf.h",
+  "compile_policy": "Debug and Release use a dedicated src source root with explicit exclusions in tools/sync_project.ps1; no demos/examples/tests are imported or compiled.",
+  "hardware_selection": "EVE generation 2 (FT81x family); exact FT812/FT813 subtype is not established by this vendor import."
+}

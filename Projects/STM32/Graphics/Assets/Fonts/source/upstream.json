@@ -1,0 +1,44 @@
+[
+  {
+    "path": "lato/Lato-Regular.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Regular.ttf",
+    "bytes": 656568,
+    "sha256": "d636e4683231f931eda222d588e944d082bfd3bdba02f928bee461c0f185b251"
+  },
+  {
+    "path": "lato/OFL.txt",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/OFL.txt",
+    "bytes": 4407,
+    "sha256": "74ba064d03f1f1c4a952da936c3eb71866c34404916734de3cae73b34357e59e"
+  },
+  {
+    "path": "ddin/D-DIN.otf",
+    "url": "https://raw.githubusercontent.com/amcchord/datto-d-din/main/D-DIN.otf",
+    "bytes": 59860,
+    "sha256": "6d67834e2a76646c456c087ce42a6bd6b6b0c85c88dd9918618a8b4c563c2bdf"
+  },
+  {
+    "path": "ddin/OFL-1.1.txt",
+    "url": "https://raw.githubusercontent.com/amcchord/datto-d-din/main/OFL-1.1.txt",
+    "bytes": 4624,
+    "sha256": "59e505e11e6da3ac3020eb6b4163f4d0382524183db660bf52a08234c764b2e5"
+  },
+  {
+    "path": "ddin/FONTLOG.txt",
+    "url": "https://raw.githubusercontent.com/amcchord/datto-d-din/main/FONTLOG.txt",
+    "bytes": 1915,
+    "sha256": "e1e2e114db6aed0269e7f907bc0b2bd0da18c05b6339a8f712d3645d5d7e043f"
+  },
+  {
+    "path": "ddin/COPYING.txt",
+    "url": "https://raw.githubusercontent.com/amcchord/datto-d-din/main/COPYING.txt",
+    "bytes": 4624,
+    "sha256": "59e505e11e6da3ac3020eb6b4163f4d0382524183db660bf52a08234c764b2e5"
+  },
+  {
+    "path": "lato/Lato-Bold.ttf",
+    "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/lato/Lato-Bold.ttf",
+    "bytes": 656544,
+    "sha256": "8a0aace75d33794eece4b28187bfc1df0bbd2888b5d8a56e01788c8d65d16be1"
+  }
+]

@@ -1,0 +1,19 @@
+<workspace>\Reversing\STM32CubeProjects\FuckNudo_Noodoe_CFW_Project\tools\tests\protocol_services\metadata_output\Os-target.o  :
+section                               size   addr
+.text                                    0      0
+.data                                    0      0
+.bss                                     0      0
+.RamFunc.update_metadata              1088      0
+.text.MetaEnter                         48      0
+.text.UpdateMetadata_Read               80      0
+.text.UpdateMetadata_Commit            244      0
+.text.UpdateMetadata_GetDiagnostics     44      0
+.bss.g_diag                             44      0
+.bss.g_attempted                         4      0
+.bss.g_busy                              4      0
+.bss.g_sector                            4      0
+.comment                                68      0
+.ARM.attributes                         46      0
+Total                                 1674
+
+

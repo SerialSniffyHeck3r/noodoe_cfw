@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">手机日志无法保存；骑行连接保持</string>
+ <string name="companion_local_failed">手机处理出错。已停止无线重试，请分享诊断资料。</string>
+</resources>

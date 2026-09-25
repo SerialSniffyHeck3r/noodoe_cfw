@@ -1,0 +1,126 @@
+plugins {
+    id "com.android.application"
+}
+
+// Supply an ignored, local properties file. Never put passwords in Gradle arguments.
+def signingPath = providers.gradleProperty("reNudoSigningProperties")
+        .orElse(providers.gradleProperty("openNoodoeSigningProperties")).orNull
+def releaseSigning = new Properties()
+if (signingPath != null) {
+    def signingFile = rootProject.file(signingPath)
+    if (!signingFile.isFile()) {
+        throw new GradleException("Release signing properties file does not exist.")
+    }
+    signingFile.withInputStream { releaseSigning.load(it) }
+    ["storeFile", "storePassword", "keyAlias", "keyPassword"].each { key ->
+        if (!releaseSigning.getProperty(key)?.trim()) {
+            throw new GradleException("Missing release signing property: " + key)
+        }
+    }
+    def keyStore = new File(releaseSigning.getProperty("storeFile"))
+    if (!keyStore.isAbsolute()) {
+        keyStore = new File(signingFile.parentFile, keyStore.path)
+    }
+    if (!keyStore.isFile()) {
+        throw new GradleException("Release keystore does not exist.")
+    }
+    releaseSigning.setProperty("storeFile", keyStore.absolutePath)
+}
+
+android {
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.all { jvmArgs '--add-opens=java.base/java.lang=ALL-UNNAMED', '--add-opens=java.base/java.util=ALL-UNNAMED', '--add-opens=java.base/java.io=ALL-UNNAMED' }
+    }
+    namespace "io.opennoodoe.app"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "io.noodoe.installer"
+        minSdk 23
+        targetSdk 36
+        versionCode 32
+        versionName "6.11.4"
+
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+    signingConfigs {
+        if (!releaseSigning.isEmpty()) {
+            release {
+                storeFile file(releaseSigning.getProperty("storeFile"))
+                storePassword releaseSigning.getProperty("storePassword")
+                keyAlias releaseSigning.getProperty("keyAlias")
+                keyPassword releaseSigning.getProperty("keyPassword")
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            if (!releaseSigning.isEmpty()) {
+                signingConfig signingConfigs.release
+            }
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+// Imported themes live in app-private device storage, never in the sold APK.
+def verifyProductAssets = tasks.register("verifyProductAssets") {
+    doLast {
+        // Explicit unmodified OFL fonts are product dependencies, not extracted
+        // customer/theme images. Pin hashes instead of allowing arbitrary assets.
+        def approvedFonts = [
+            'NotoSansCJKjp-Regular.otf':'68a3fc98800b2a27b371f2fb79991daf3633bd89309d4ffaa6946fd587f375b5',
+            'NotoSansCJKtc-Regular.otf':'dce08bd4fd91aa8aa76ed8fea4b694c2dfb8550f67871e326843212ddbeb88b4',
+            'LICENSE.txt':'6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2'
+        ]
+        approvedFonts.each { name, expected ->
+            def f=file('src/main/assets/fonts/'+name)
+            if(!f.isFile() || java.security.MessageDigest.getInstance('SHA-256').digest(f.bytes).encodeHex().toString()!=expected)
+                throw new GradleException('Missing or changed licensed font: '+name)
+        }
+        def bundled = fileTree("src") {
+            include "**/assets/**"
+        }.files.findAll { it.isFile() && !(it.parentFile==file('src/main/assets/fonts') && approvedFonts.containsKey(it.name)) }
+        if (!bundled.isEmpty()) {
+            throw new GradleException("Product APK must not bundle extracted/theme assets. " +
+                    "Keep preservation files outside the application project: " + bundled)
+        }
+    }
+}
+tasks.named("preBuild").configure { dependsOn(verifyProductAssets) }
+
+
+def verifyReleaseSigning = tasks.register("verifyReleaseSigning") {
+    doLast {
+        if (releaseSigning.isEmpty()) {
+            throw new GradleException("Release builds require -PreNudoSigningProperties=<local file>.")
+        }
+    }
+}
+tasks.matching { it.name == "preReleaseBuild" }.configureEach { dependsOn(verifyReleaseSigning) }
+
+dependencies {
+    implementation "androidx.exifinterface:exifinterface:1.4.2"
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.robolectric:robolectric:4.17"
+}

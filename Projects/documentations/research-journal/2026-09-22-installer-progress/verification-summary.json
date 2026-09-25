@@ -1,0 +1,15 @@
+{
+  "version": "6.3.1",
+  "version_code": 3,
+  "tests": 142,
+  "failures": 0,
+  "errors": 0,
+  "apk_bytes": 27911938,
+  "sha256": "0f58b52564a53fbdf46ba83dd935421dda011b1b309c70c8f95a8586925990e7",
+  "firmware_changed": false,
+  "existing_zip_sha256": "3e0f8bb6a7248d5f6d1799088668fa58fc9695583f37842070315ee077b15976",
+  "device_test": false,
+  "adb_devices": [],
+  "wireless_repair_confirmed": false,
+  "signing_certificate_sha256": "5d268d352019cc1d394296e0ea0a13495daecee038f58def0ae7036fc7c64bae"
+}

@@ -1,0 +1,43 @@
+{
+  "include_paths": [
+    "Middlewares/Noodoe/Bluetooth/inc",
+    "Middlewares/Noodoe/Bluetooth/patches",
+    "Middlewares/Third_Party/BTstack/src",
+    "Middlewares/Third_Party/BTstack/platform/embedded",
+    "Middlewares/Third_Party/BTstack/platform/freertos",
+    "Middlewares/Third_Party/BTstack/chipset/cc256x",
+    "Middlewares/Third_Party/BTstack/3rd-party/rijndael"
+  ],
+  "defines": [],
+  "vendor_roots": [
+    {
+      "path": "Middlewares/Third_Party/BTstack",
+      "sources": [
+        "src/ad_parser.c",
+        "src/btstack_linked_list.c",
+        "src/btstack_memory.c",
+        "src/btstack_memory_pool.c",
+        "src/btstack_run_loop.c",
+        "src/btstack_run_loop_base.c",
+        "src/btstack_util.c",
+        "src/btstack_crypto.c",
+        "src/btstack_tlv.c",
+        "src/btstack_tlv_none.c",
+        "src/hci.c",
+        "src/hci_cmd.c",
+        "src/hci_dump.c",
+        "src/hci_event.c",
+        "src/hci_transport_h4.c",
+        "src/l2cap.c",
+        "src/l2cap_signaling.c",
+        "src/classic/rfcomm.c",
+        "src/classic/sdp_server.c",
+        "src/classic/sdp_util.c",
+        "src/classic/spp_server.c",
+        "platform/freertos/btstack_run_loop_freertos.c",
+        "chipset/cc256x/btstack_chipset_cc256x.c",
+        "3rd-party/rijndael/rijndael.c"
+      ]
+    }
+  ]
+}

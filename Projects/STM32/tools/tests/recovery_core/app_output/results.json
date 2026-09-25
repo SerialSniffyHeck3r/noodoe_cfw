@@ -1,0 +1,67 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "status": "pass",
+      "assertions": 17,
+      "actual_cmsis_reset_intercepts": 4,
+      "control_fault_reset_intercepts": 2,
+      "fault_reentry_stops_reset": true,
+      "identity_full_flash_match": true,
+      "runtime_button_cases": [
+        {
+          "raw_ign_off": false,
+          "started_after_ms": 86400000,
+          "software_reset_to_waiting_recovery": true,
+          "direct_install_requested": false,
+          "gpio_unchanged": true,
+          "power_cycle_performed": false,
+          "storage_drain_required": true,
+          "short_chord_rejected": true
+        },
+        {
+          "raw_ign_off": true,
+          "started_after_ms": 86400000,
+          "software_reset_to_waiting_recovery": true,
+          "direct_install_requested": false,
+          "gpio_unchanged": true,
+          "power_cycle_performed": false,
+          "storage_drain_required": true,
+          "short_chord_rejected": true
+        }
+      ]
+    },
+    {
+      "optimization": "-Os",
+      "status": "pass",
+      "assertions": 17,
+      "actual_cmsis_reset_intercepts": 4,
+      "control_fault_reset_intercepts": 2,
+      "fault_reentry_stops_reset": true,
+      "identity_full_flash_match": true,
+      "runtime_button_cases": [
+        {
+          "raw_ign_off": false,
+          "started_after_ms": 86400000,
+          "software_reset_to_waiting_recovery": true,
+          "direct_install_requested": false,
+          "gpio_unchanged": true,
+          "power_cycle_performed": false,
+          "storage_drain_required": true,
+          "short_chord_rejected": true
+        },
+        {
+          "raw_ign_off": true,
+          "started_after_ms": 86400000,
+          "software_reset_to_waiting_recovery": true,
+          "direct_install_requested": false,
+          "gpio_unchanged": true,
+          "power_cycle_performed": false,
+          "storage_drain_required": true,
+          "short_chord_rejected": true
+        }
+      ]
+    }
+  ],
+  "limits": "Actual ARM app policy/runtime chord/CMSIS AIRCR writes with simulated GPIO/SRAM/internal flash. No physical button/display/NOR/RTOS scheduling or IGN STOP-wake proof. Runtime chord is skipped by the real IoTask during POWER_DEEP; the vehicle procedure first sets IGN ON."
+}

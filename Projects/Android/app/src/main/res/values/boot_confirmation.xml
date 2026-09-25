@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boot_screen_action">Action needed: confirm the screen</string>
+    <string name="boot_screen_instructions">Bluetooth is connected. On the Noodoe, look for CFW UPDATE with Checking the new version or Confirm on your phone. Tap below to continue.\n\nIf NOODOE INSTALLER is still showing, wait. Connection alone does not confirm the update.</string>
+    <string name="boot_screen_yes">CFW UPDATE is showing · Continue</string>
+    <string name="boot_screen_not_yet">Not that screen yet</string>
+    <string name="boot_screen_deadline">%1$d seconds left. Without confirmation, the device will return to recovery or the previous version.</string>
+    <string name="boot_screen_waiting">Bluetooth connected. Tap the confirmation button at the top to continue.</string>
+    <string name="boot_screen_accepted">Screen confirmed. Checking device health and the saved boot result.</string>
+    <string name="boot_screen_open_app">Open the app and confirm the CFW UPDATE screen.</string>
+    <string name="boot_screen_expired">No screen confirmation was received in time. Bluetooth connection alone was not enough. Check the device boot result; firmware was not sent again.</string>
+</resources>

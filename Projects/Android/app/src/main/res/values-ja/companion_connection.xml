@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">携帯のログ保存不可・走行接続は維持</string>
+ <string name="companion_local_failed">携帯側の処理エラーです。無線の再試行を停止しました。診断情報を共有してください。</string>
+</resources>

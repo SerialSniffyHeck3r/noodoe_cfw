@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "status": "pass",
+      "assertions": 4143
+    },
+    {
+      "optimization": "-Os",
+      "status": "pass",
+      "full_buffer": {
+        "bytes": 8388608,
+        "crc32_iso": "0x97E064F9",
+        "sha256": "107f7bfbd8848ec7df72643d1be8b799438d731b7affb55e88dda5e185ad6fa6",
+        "process_polls": 2048
+      },
+      "assertions": 4149
+    }
+  ],
+  "production_cmsis_compile": "pass",
+  "sources": {
+    "Middlewares\\Noodoe\\StorageSWD\\src\\StorageSWD.c": "9114300c2eaf924ec2715c32816ca47b330b0669c09350e731aa1da67f280420",
+    "Middlewares\\Noodoe\\StorageSWD\\inc\\StorageSWD.h": "a4d53dbc2a6cc7ab45723f97a4756a0587d3ed93ec29e69e9fbbf0b63d95dc83",
+    "tools\\tests\\protocol_services\\storage_swd_test.c": "6cba8988329d5b54944641a17f11fa1d34f0d6c31eb577831fc5763e08b75d59",
+    "tools\\tests\\protocol_services\\storage_swd_test_port.h": "0b5bb0354daef7dd0f3519e3954080d150b15a23605dae32b5a89571a0170234",
+    "tools\\tests\\protocol_services\\storage_swd_run.py": "3fbf5e26bd786e0df813fdda584c3ada4cec01b76c3b2054e1cac79e88d26985"
+  },
+  "limits": "실제 ARM C를 실행한다. NOR/RAM/UID/메모리 barrier 경계는 모형이며 실제 SPI5/SDRAM/SWD/UID/RTOS 선점/백업 속도/장치 동작은 미검증이다."
+}

@@ -1,0 +1,15 @@
+{
+  "tests": 11,
+  "status": "pass",
+  "sources": {
+    "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\tools\\tests\\protocol_services\\storage_swd_pc_test.py": "5b5cd61d7e1a721cc25b96001bb2c144857a81f2fa3a11bee6f30a55368da4ad",
+    "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\tools\\storage_swd_backup.py": "9256b6e41e10cb73c7212f983fda4cede311688ecef32828c881559bf9f7dc56",
+    "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\tools\\validate_image.py": "916c98d5f2d590ecd64542b47b162096f029f69cf22fffbfbe931038f423cd41"
+  },
+  "fixtures": {
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-12-integrated-bringup\\integrated-final-image\\FuckNudo_Noodoe_CFW_Project.elf": "8d7f9aa9fe2784456d3fe5eac52abdcf6ffb023c480cd740642524a14dba21bc",
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-12-integrated-bringup\\integrated-final-image\\app.bin": "89b28979eef992a7d1dea8361755625e0ac41edc56e33f34673682c1981898f6",
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-12-integrated-bringup\\nor-full-backup\\00006-running-app-identity.bin": "89b28979eef992a7d1dea8361755625e0ac41edc56e33f34673682c1981898f6"
+  },
+  "limits": "Offline mailbox and command-boundary mocks; no SWD/NOR/SDRAM hardware."
+}

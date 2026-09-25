@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">Registro del teléfono no disponible; conexión mantenida</string>
+ <string name="companion_local_failed">Falló el procesamiento del teléfono. Reintentos detenidos; comparte el diagnóstico.</string>
+</resources>

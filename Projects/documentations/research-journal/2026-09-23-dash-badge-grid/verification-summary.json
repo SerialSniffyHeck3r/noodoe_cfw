@@ -1,0 +1,54 @@
+{
+  "apk_version": "6.9.0/code14 unchanged",
+  "apk_sha256": "5f3c541ece295c1f3bc761017b1ac9924731e1a8611aed53fc8be77b30c2b1ce",
+  "bundle_sha256": "372c5282ff28cc6acd814c019effe3e29c763ef5d2a0b490680a7134032a97c6",
+  "product_sha256": "7dff550f35c2415e395eb4ec87319c390c0eab0b97d1cd9a5aaf5c8f925318ca",
+  "production_importer": true,
+  "bench_installed": true,
+  "release_budget_passed": true,
+  "debug_budget_passed": true,
+  "protected_sources_unchanged": true,
+  "protected_source_count": 6493,
+  "release_flash": {
+    "capacity": 393216,
+    "used": 327388,
+    "free": 65828
+  },
+  "debug_flash": {
+    "capacity": 393216,
+    "used": 359072,
+    "free": 34144
+  },
+  "release_sram_free": 54448,
+  "ccm_free": 16320,
+  "metrics": {
+    "after-gps": {
+      "fps": 29.8,
+      "cpu_percent": 75.9,
+      "render_last_ms": 17,
+      "render_max_since_boot_ms": 18,
+      "gpu_dl_bytes": 7088,
+      "rtos_heap_min": 23792
+    },
+    "after-gps-light": {
+      "fps": 29.6,
+      "cpu_percent": 76.6,
+      "render_last_ms": 18,
+      "render_max_since_boot_ms": 18,
+      "gpu_dl_bytes": 7108,
+      "rtos_heap_min": 23792
+    }
+  },
+  "badge_cyan_pixels": 122,
+  "physical_ph9_after": 1,
+  "bench_evidence": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-dash-badge-grid\\bench-write-evidence-1790174056401403000",
+  "ph9_test": "CPU sampled input register injection; real GPIO unchanged; not physical switch validation",
+  "rf_verified": false,
+  "input_policy": "187 assertions each O0/Os/Oz; actual ARM C",
+  "captures": [
+    "after-gps.png",
+    "after-gps-light.png",
+    "after-gps-dash-badge.png",
+    "final-confirmed.png"
+  ]
+}

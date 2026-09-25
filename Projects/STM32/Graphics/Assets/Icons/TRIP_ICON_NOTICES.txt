@@ -1,0 +1,2 @@
+arrow_upward, two_wheeler, signpost: Google Material Icons Round, pinned commit 40a7a292a79d9394157e1ea24f83d52d5e17c556; subset/raster conversion. Apache-2.0; see MODE_ICON_LICENSE.txt.
+average_slash: project-owned geometric circle/slash; not a Google icon.

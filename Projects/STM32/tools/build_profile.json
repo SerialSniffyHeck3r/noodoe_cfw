@@ -1,0 +1,10 @@
+{
+  "profile": "Product",
+  "profiles": [
+    "Integrated",
+    "Graphics",
+    "Product"
+  ],
+  "release_min_free_bytes": 16384,
+  "reserve_policy_note": "release_min_free_bytes applies only to Integrated. Product gates are enforced by memory_report.py: Release64KiB, Debug32KiB, SRAM32KiB, CCM12KiB."
+}

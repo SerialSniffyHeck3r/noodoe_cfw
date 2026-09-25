@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "packets": 708,
+  "request_payload_bytes": 543992,
+  "files": 9,
+  "blank_photo_slots": 3,
+  "existing_stock_and_reserved_tail_preserved": true,
+  "resume_verified": true,
+  "read_only_adoption_verified": true,
+  "corruption_rejected": true,
+  "write_timeouts_revoked_without_extra_mutations": 9,
+  "limits": "Memory NOR and accelerated SHA/memcpy; not real wireless, power-cut or timing verification"
+}

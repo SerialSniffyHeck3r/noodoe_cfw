@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">폰 로그 저장 불가 · 주행 연결 유지</string>
+ <string name="companion_local_failed">폰 내부 처리 오류입니다. 무선 재시도는 중지했어요. 진단 자료를 공유해 주세요.</string>
+</resources>

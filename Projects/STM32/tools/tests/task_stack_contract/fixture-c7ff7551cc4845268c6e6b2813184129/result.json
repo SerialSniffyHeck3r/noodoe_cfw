@@ -1,0 +1,7 @@
+﻿{
+    "passed":  true,
+    "checks":  13,
+    "fixture":  "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\tools\\tests\\task_stack_contract\\fixture-c7ff7551cc4845268c6e6b2813184129",
+    "hardware_access":  false,
+    "gui_generation":  false
+}

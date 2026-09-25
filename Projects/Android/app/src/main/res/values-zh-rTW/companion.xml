@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="companion_0000" formatted="false">"連線至騎乘模式後可讀取裝置設定。"</string>
+    <string name="companion_0001" formatted="false">"確定"</string>
+    <string name="companion_0002" formatted="false">"騎士名稱"</string>
+    <string name="companion_0003" formatted="false">"最多48位元組UTF-8，儲存後顯示於裝置。"</string>
+    <string name="companion_0004" formatted="false">"取消"</string>
+    <string name="companion_0005" formatted="false">"套用"</string>
+    <string name="companion_0006" formatted="false">"請檢查名稱長度及連線。"</string>
+    <string name="companion_0007" formatted="false">"檢視保留的ODO"</string>
+    <string name="companion_0008" formatted="false">"所有裝置設定"</string>
+    <string name="companion_0009" formatted="false">"關閉"</string>
+    <string name="companion_0010" formatted="false">"重新整理"</string>
+    <string name="companion_0011" formatted="false">"已確認停車"</string>
+    <string name="companion_0012" formatted="false">"修改前請保持IGN ON，車速不超過3 km/h達5秒。"</string>
+    <string name="companion_0013" formatted="false">"亮度模式"</string>
+    <string name="companion_0014" formatted="false">"Noodoe亮度 (%)"</string>
+    <string name="companion_0015" formatted="false">"Noodoe自動亮度補償"</string>
+    <string name="companion_0016" formatted="false">"顯示桌布"</string>
+    <string name="companion_0017" formatted="false">"照片欄位"</string>
+    <string name="companion_0018" formatted="false">"桌布中央亮度 (%)"</string>
+    <string name="companion_0019" formatted="false">"電門OFF照片"</string>
+    <string name="companion_0020" formatted="false">"儀表UART亮度等級補償"</string>
+    <string name="companion_0021" formatted="false">"UTC時差（分鐘）"</string>
+    <string name="companion_0022" formatted="false">"距離單位"</string>
+    <string name="companion_0023" formatted="false">"速度環最大值 (km/h)"</string>
+    <string name="companion_0024" formatted="false">"車型 · 唯讀"</string>
+    <string name="companion_0025" formatted="false">"停車速度門檻 (km/h)"</string>
+    <string name="companion_0026" formatted="false">"裝置介面語言 · 唯讀"</string>
+    <string name="companion_0027" formatted="false">"畫面保留時間（分鐘）"</string>
+    <string name="companion_0028" formatted="false">"Bluetooth保持時間（分鐘）"</string>
+    <string name="companion_0029" formatted="false">"畫面保留階段"</string>
+    <string name="companion_0030" formatted="false">"Bluetooth保持階段"</string>
+    <string name="companion_0031" formatted="false">"深度休眠階段"</string>
+    <string name="companion_0032" formatted="false">"換油距離 (km)"</string>
+    <string name="companion_0033" formatted="false">"換油電門累計時間 (h)"</string>
+    <string name="companion_0034" formatted="false">"換油天數"</string>
+    <string name="companion_0035" formatted="false">"皮帶更換距離 (km)"</string>
+    <string name="companion_0036" formatted="false">"皮帶更換電門時間 (h)"</string>
+    <string name="companion_0037" formatted="false">"皮帶更換天數"</string>
+    <string name="companion_0038" formatted="false">"保養距離 (km)"</string>
+    <string name="companion_0039" formatted="false">"保養電門時間 (h)"</string>
+    <string name="companion_0040" formatted="false">"保養天數"</string>
+    <string name="companion_0041" formatted="false">"裝置主題"</string>
+    <string name="companion_0042" formatted="false">"自動主題依據"</string>
+    <string name="companion_0043" formatted="false">"淺色模式開始"</string>
+    <string name="companion_0044" formatted="false">"深色模式開始"</string>
+    <string name="companion_0045" formatted="false">"深色切換門檻 (lux)"</string>
+    <string name="companion_0046" formatted="false">"淺色切換門檻 (lux)"</string>
+    <string name="companion_0047" formatted="false">"日期"</string>
+    <string name="companion_0048" formatted="false">"時間"</string>
+    <string name="companion_0049" formatted="false">"標記已換油"</string>
+    <string name="companion_0050" formatted="false">"標記已換皮帶"</string>
+    <string name="companion_0051" formatted="false">"標記保養完成"</string>
+    <string name="companion_0052" formatted="false">"重設顯示設定"</string>
+    <string name="companion_0053" formatted="false">"允許Bluetooth配對"</string>
+    <string name="companion_0054" formatted="false">"關閉配對"</string>
+    <string name="companion_0055" formatted="false">"中斷Bluetooth"</string>
+    <string name="companion_0056" formatted="false">"重新配對Bluetooth"</string>
+    <string name="companion_0057" formatted="false">"重新啟動Bluetooth"</string>
+    <string name="companion_0058" formatted="false">"重試光感測器"</string>
+    <string name="companion_0059" formatted="false">"已連線手機"</string>
+    <string name="companion_0060" formatted="false">"Bluetooth狀態"</string>
+    <string name="companion_0061" formatted="false">"韌體版本"</string>
+    <string name="companion_0062" formatted="false">"自動亮度狀態"</string>
+    <string name="companion_0063" formatted="false">"最終休眠等待"</string>
+    <string name="companion_0064" formatted="false">"BT控制器／修補程式"</string>
+    <string name="companion_0065" formatted="false">"SPP傳輸量"</string>
+    <string name="companion_0066" formatted="false">"SPP佇列／錯誤"</string>
+    <string name="companion_0067" formatted="false">"環境光"</string>
+    <string name="companion_0068" formatted="false">"照度RAW／經過時間"</string>
+    <string name="companion_0069" formatted="false">"光感測器晶片／設定"</string>
+    <string name="companion_0070" formatted="false">"光感測器I2C狀態"</string>
+    <string name="companion_0071" formatted="false">"儀表UART"</string>
+    <string name="companion_0072" formatted="false">"UART訊框"</string>
+    <string name="companion_0073" formatted="false">"照度原始／補償／傳送值"</string>
+    <string name="companion_0074" formatted="false">"UART速度／燃油RAW"</string>
+    <string name="companion_0075" formatted="false">"手機GPS"</string>
+    <string name="companion_0076" formatted="false">"電門輸入"</string>
+    <string name="companion_0077" formatted="false">"PH9輸入模式"</string>
+    <string name="companion_0078" formatted="false">"手動"</string>
+    <string name="companion_0079" formatted="false">"自動"</string>
+    <string name="companion_0080" formatted="false">"關"</string>
+    <string name="companion_0081" formatted="false">"開"</string>
+    <string name="companion_0082" formatted="false">"照片0"</string>
+    <string name="companion_0083" formatted="false">"照片1"</string>
+    <string name="companion_0084" formatted="false">"照片2"</string>
+    <string name="companion_0085" formatted="false">"與騎乘桌布相同"</string>
+    <string name="companion_0086" formatted="false">"深色"</string>
+    <string name="companion_0087" formatted="false">"淺色"</string>
+    <string name="companion_0088" formatted="false">"環境光感測器"</string>
+    <string name="companion_0089" formatted="false">"時間表"</string>
+    <string name="companion_0090" formatted="false">"檢視"</string>
+    <string name="companion_0091" formatted="false">"執行"</string>
+    <string name="companion_0092" formatted="false">"請求佇列已滿。"</string>
+    <string name="companion_0093" formatted="false">"執行此操作？Bluetooth操作可能中斷手機連線，請重新連線確認結果。"</string>
+    <string name="companion_0094" formatted="false">"\n正值提高UART等級值，不改變Noodoe螢幕亮度。"</string>
+    <string name="companion_0095" formatted="false">"請輸入範圍內的整數。"</string>
+    <string name="companion_0096" formatted="false">"保留顯示值："</string>
+    <string name="companion_0097" formatted="false">"未知"</string>
+    <string name="companion_0098" formatted="false">"\n儀表接收值："</string>
+    <string name="companion_0099" formatted="false">"正在使用補償值。\n"</string>
+    <string name="companion_0100" formatted="false">"儲存狀態："</string>
+    <string name="companion_0101" formatted="false">"保留的ODO"</string>
+    <string name="companion_0102" formatted="false">"保留舊值"</string>
+    <string name="companion_0103" formatted="false">"使用儀表值"</string>
+    <string name="companion_0104" formatted="false">"以新的儀表值作為基準嗎？"</string>
+    <string name="companion_0105" formatted="false">"使用"</string>
+    <string name="companion_0106" formatted="false">"稍後"</string>
+    <string name="companion_0107" formatted="false">"連線、騎乘、隨心打造。"</string>
+    <string name="companion_0108" formatted="false">"裝置連線 · 應用程式主題"</string>
+    <string name="companion_0109" formatted="false">"應用程式主題"</string>
+    <string name="companion_0110" formatted="false">"應用程式語言 · Language"</string>
+    <string name="companion_0111" formatted="false">"配對新裝置"</string>
+    <string name="companion_0112" formatted="false">"重新整理裝置清單"</string>
+    <string name="companion_0113" formatted="false">"關聯配套裝置 · 自動連線"</string>
+    <string name="companion_0114" formatted="false">"準備安裝"</string>
+    <string name="companion_0115" formatted="false">"檢視所有步驟與目前位置"</string>
+    <string name="companion_0116" formatted="false">"請檢查Noodoe畫面"</string>
+    <string name="companion_0117" formatted="false">"顯示NOODOE INSTALLER時仍在安裝。\n\n看到CFW UPDATE及Starting Bluetooth、Waiting for your phone或Checking the new version後，再按下方按鈕，接著驗證Bluetooth與正常執行。\n\n180秒回復期限從裝置啟動起計算，在此等待不會延長期限。"</string>
+    <string name="companion_0118" formatted="false">"已看到新CFW畫面 · 檢查連線"</string>
+    <string name="companion_0119" formatted="false">"騎乘"</string>
+    <string name="companion_0120" formatted="false">"個人化"</string>
+    <string name="companion_0121" formatted="false">"安裝"</string>
+    <string name="companion_0122" formatted="false">"連線至Noodoe"</string>
+    <string name="companion_0123" formatted="false">"停止騎乘連線 · 準備更新"</string>
+    <string name="companion_0124" formatted="false">"同步音樂、通知及GPS軌跡。僅在電門ON時傳送位置。"</string>
+    <string name="companion_0125" formatted="false">"騎乘紀錄"</string>
+    <string name="companion_0126" formatted="false">"手機騎乘紀錄須手動開始。關閉紀錄不影響音樂、通知、GPS及裝置的行程與保養累計。斷線區間維持未知。"</string>
+    <string name="companion_0127" formatted="false">"開始騎乘紀錄"</string>
+    <string name="companion_0128" formatted="false">"檢視已儲存騎乘"</string>
+    <string name="companion_0129" formatted="false">"5則快速回覆 · 簽名 · 文字地區"</string>
+    <string name="companion_0130" formatted="false">"10位常用聯絡人 · 編輯順序"</string>
+    <string name="companion_0131" formatted="false">"選擇通知應用程式"</string>
+    <string name="companion_0132" formatted="false">"傳送測試通知"</string>
+    <string name="companion_0133" formatted="false">"檢視／修改裝置目前設定"</string>
+    <string name="companion_0134" formatted="false">"更換照片或更新韌體前請停止騎乘連線。照片會置中裁切為正方形。"</string>
+    <string name="companion_0135" formatted="false">"桌布照片"</string>
+    <string name="companion_0136" formatted="false">" · 更換"</string>
+    <string name="companion_0137" formatted="false">"遇到問題？· 復原與診斷"</string>
+    <string name="companion_0138" formatted="false">"重設連線／安裝狀態"</string>
+    <string name="companion_0139" formatted="false">"回復原廠"</string>
+    <string name="companion_0140" formatted="false">"分享診斷資料"</string>
+    <string name="companion_0141" formatted="false">"無手機連線時，在Bootstrap選擇Back to stock，放開O後重新按住2秒確認。不需額外操作IGN。"</string>
+    <string name="companion_0142" formatted="false">"展開詳細診斷／復原工具"</string>
+    <string name="companion_0143" formatted="false">"收合詳細工具"</string>
+    <string name="companion_0144" formatted="false">"讀取原廠裝置資訊"</string>
+    <string name="companion_0145" formatted="false">"比對安裝套件與原廠裝置"</string>
+    <string name="companion_0146" formatted="false">"Bluetooth 8 KiB往返自我測試"</string>
+    <string name="companion_0147" formatted="false">"僅檢查Bootstrap連線"</string>
+    <string name="companion_0148" formatted="false">"讀取Noodoe進度"</string>
+    <string name="companion_0149" formatted="false">"深度診斷：完整NOR雙重備份"</string>
+    <string name="companion_0150" formatted="false">"一般安裝不需要。Bootstrap會讀取兩次128 MiB並保留比對，耗時較長，手機須有300 MiB以上空間。請保持常供電。"</string>
+    <string name="companion_0151" formatted="false">"確認原廠回復"</string>
+    <string name="companion_0152" formatted="false">"安裝獨立診斷韌體"</string>
+    <string name="companion_0153" formatted="false">"請先停止騎乘連線。診斷後在Noodoe選擇Back to stock並按住O 2秒，設定及照片保留。需要支援的Gate。"</string>
+    <string name="companion_0154" formatted="false">"檢視診斷狀態"</string>
+    <string name="companion_0155" formatted="false">"取得診斷紀錄"</string>
+    <string name="companion_0156" formatted="false">"結束診斷 · 原廠回復指南"</string>
+    <string name="companion_0157" formatted="false">"確認CFW正常啟動"</string>
+    <string name="companion_0158" formatted="false">"檢查中斷的作業"</string>
+    <string name="companion_0159" formatted="false">"取得裝置診斷紀錄"</string>
+    <string name="companion_0160" formatted="false">"確認回復結果"</string>
+    <string name="companion_0161" formatted="false">"已查看更新失敗與回復紀錄嗎？紀錄保留，僅儲存確認標記。"</string>
+    <string name="companion_0162" formatted="false">"檢視作業紀錄"</string>
+    <string name="companion_0163" formatted="false">"儲存備份與作業紀錄"</string>
+    <string name="companion_0164" formatted="false">"首次建立檔案失敗後不會自動重試。執行中CFW進入獨立Gate：電門OFF→按住O約1秒→保持O按下並電門ON→再保持2秒。"</string>
+    <string name="companion_0165" formatted="false">"權限與連線準備  ›"</string>
+    <string name="companion_0166" formatted="false">"尚未選擇韌體。"</string>
+    <string name="companion_0167" formatted="false">"已選韌體："</string>
+    <string name="companion_0168" formatted="false">"請先允許通知存取，再從目前有通知的應用程式中選擇。"</string>
+    <string name="companion_0169" formatted="false">"轉送通知的應用程式"</string>
+    <string name="companion_0170" formatted="false">"儲存"</string>
+    <string name="companion_0171" formatted="false">"保留CFW資料（預設）"</string>
+    <string name="companion_0172" formatted="false">"同時完全刪除CFW資料"</string>
+    <string name="companion_0173" formatted="false">"下一步"</string>
+    <string name="companion_0174" formatted="false">"Gate僅回復原廠APP。CFW設定、照片、紀錄與FAT皆保留。"</string>
+    <string name="companion_0175" formatted="false">"先傳送專用刪除韌體。在Noodoe用UP/DOWN選擇Erase CFW data，放開O後重新按住2秒，抹除CFW檔案內容並釋放空間。保留原廠照片、工廠資訊及手機紀錄。此路徑的實際斷電測試尚未完成。"</string>
+    <string name="companion_0176" formatted="false">"安裝CFW · 保留資料"</string>
+    <string name="companion_0177" formatted="false">"全新安裝（重設設定／CFW照片）"</string>
+    <string name="companion_0178" formatted="false">"還原保留資料（僅相容紀錄）"</string>
+    <string name="companion_0179" formatted="false">"繼續安裝"</string>
+    <string name="companion_0180" formatted="false">"返回"</string>
+    <string name="companion_0181" formatted="false">"繼續"</string>
+    <string name="companion_0182" formatted="false">"請稍候，正在準備連線。"</string>
+    <string name="companion_0183" formatted="false">"作業已開始，正在檢查進度。"</string>
+    <string name="companion_0184" formatted="false">"選擇要連線的Noodoe"</string>
+    <string name="companion_0185" formatted="false">"已選Noodoe · 重新配對連線 · "</string>
+    <string name="companion_0186" formatted="false">"允許附近裝置權限後即可選擇Noodoe。"</string>
+    <string name="companion_0187" formatted="false">"未授權功能保持關閉，可在權限與連線準備中重新設定。"</string>
+    <string name="companion_0188" formatted="false">"裝置關聯已完成，請檢查自動連線權限。"</string>
+    <string name="companion_0189" formatted="false">"停止騎乘紀錄"</string>
+    <string name="companion_0190" formatted="false">"等待確認 · 最多"</string>
+    <string name="companion_0191" formatted="false">"秒"</string>
+    <string name="companion_0192" formatted="false">"等待安裝後識別裝置。"</string>
+    <string name="companion_0193" formatted="false">"要向原廠韌體傳送安裝工具嗎？先檢查裝置及ZIP相容性，傳輸後依Noodoe畫面提示操作按鍵。"</string>
+    <string name="companion_0194" formatted="false">"要傳送新CFW嗎？確認正常執行後重設設定及CFW照片，試用失敗回復時保留原狀態。"</string>
+    <string name="companion_0195" formatted="false">"保留CFW資料並回復原廠嗎？舊復原配置可先回原廠，再用最新ZIP的Bootstrap遷移。支援一般CFW更新的裝置不需此步驟。"</string>
+    <string name="companion_0196" formatted="false">"尚無騎乘紀錄，騎乘連線後按開始騎乘紀錄。"</string>
+    <string name="companion_0197" formatted="false">"騎乘紀錄 · 最近50個區間"</string>
+    <string name="companion_0198" formatted="false">"匯出全部CSV"</string>
+    <string name="companion_0199" formatted="false">"無法開啟騎乘紀錄，請檢查手機儲存空間。"</string>
+    <string name="companion_0200" formatted="false">"權限與連線準備。"</string>
+    <string name="companion_0201" formatted="false">"顯示主題"</string>
+    <string name="companion_0202" formatted="false">"跟隨系統"</string>
+    <string name="companion_0203" formatted="false">"한국어"</string>
+    <string name="companion_0204" formatted="false">"重設應用程式連線及目前作業選擇，不刪除裝置韌體、設定、既有紀錄及復原資料。\n\n不會向裝置傳送取消安裝命令。結果不明的作業將在重連後先查詢。"</string>
+    <string name="companion_0205" formatted="false">"重設應用程式狀態"</string>
+    <string name="companion_0206" formatted="false">"請重新選擇裝置"</string>
+    <string name="companion_0207" formatted="false">"請檢查定位服務權限，騎乘連線維持。"</string>
+    <string name="companion_0208" formatted="false">"這是上次作業的最後顯示，未自動續作。請檢查裝置狀態及紀錄。\n\n"</string>
+    <string name="companion_0209" formatted="false">"已開始手機騎乘紀錄。"</string>
+    <string name="companion_0210" formatted="false">"手機紀錄已停止，音樂、通知及GPS維持連線。"</string>
+    <string name="companion_0211" formatted="false">"無法儲存停止連線狀態，請檢查手機儲存空間。"</string>
+    <string name="companion_0212" formatted="false">"已手動停止騎乘連線，現在可以更新。"</string>
+    <string name="companion_0213" formatted="false">"請選擇要安裝的Noodoe，先在Android設定中配對。"</string>
+    <string name="companion_0214" formatted="false">"騎乘紀錄CSV已儲存。"</string>
+    <string name="companion_0215" formatted="false">"無法匯出騎乘紀錄，請檢查儲存位置。"</string>
+    <string name="companion_0216" formatted="false">"無法記錄裝置切換，請檢查儲存空間。"</string>
+    <string name="companion_0217" formatted="false">"已選擇裝置，請選擇對應安裝ZIP。"</string>
+    <string name="companion_0218" formatted="false">"這是此裝置的舊紀錄，將在新連線中重新檢查狀態。\n"</string>
+    <string name="companion_0219" formatted="false">"已重設應用程式連線及選擇，未取消裝置作業。請選擇Noodoe並先查詢狀態。"</string>
+    <string name="companion_0220" formatted="false">"無法儲存重設紀錄，已停止並保留原有證據。"</string>
+    <string name="companion_0221" formatted="false">"Android禁止背景服務，請開啟應用程式並檢查權限。"</string>
+    <string name="companion_0222" formatted="false">"Noodoe連線與進度"</string>
+    <string name="companion_0223" formatted="false">"Noodoe騎乘連線"</string>
+    <string name="companion_0224" formatted="false">"正在準備Noodoe"</string>
+    <string name="companion_0225" formatted="false">"點選以檢視進度。"</string>
+    <string name="companion_0226" formatted="false">"騎乘連線維持。GPS自動連線需位置一律允許，或開啟應用程式。"</string>
+    <string name="companion_0227" formatted="false">"請允許附近裝置權限後重試。"</string>
+    <string name="companion_0228" formatted="false">"請先檢查更新結果，確認前不會自動進入騎乘連線。"</string>
+    <string name="companion_0229" formatted="false">"無法儲存連線狀態。"</string>
+    <string name="companion_0230" formatted="false">"請先按停止騎乘連線 · 準備更新。"</string>
+    <string name="companion_0231" formatted="false">"請稍候，正在準備。"</string>
+    <string name="companion_0232" formatted="false">"無法啟動背景工作，請保持應用程式開啟並檢查Bluetooth權限。"</string>
+    <string name="companion_0233" formatted="false">"請先選擇Noodoe。"</string>
+    <string name="companion_0234" formatted="false">"請先選擇裝置及照片。"</string>
+    <string name="companion_0235" formatted="false">"照片欄位"</string>
+    <string name="companion_0236" formatted="false">"已儲存，請在裝置設定中選擇桌布照片。"</string>
+    <string name="companion_0237" formatted="false">"安裝套件已檢查，接著請確認與裝置相符。"</string>
+    <string name="companion_0238" formatted="false">"無法開啟紀錄檔。"</string>
+    <string name="companion_0239" formatted="false">"診斷紀錄已儲存，不包含照片、通知內容及完整備份。"</string>
+    <string name="companion_0240" formatted="false">"備份及作業紀錄已儲存。"</string>
+    <string name="companion_0241" formatted="false">"騎乘中"</string>
+    <string name="companion_0242" formatted="false">"電門待機"</string>
+    <string name="companion_0243" formatted="false">" · 正在儲存設定"</string>
+    <string name="companion_0244" formatted="false">"連線中斷，正在重連"</string>
+    <string name="companion_0245" formatted="false">"已達重連上限，請檢查Noodoe及Bluetooth。"</string>
+    <string name="companion_0246" formatted="false">"騎乘連線已結束，位置蒐集也已停止。"</string>
+    <string name="companion_0247" formatted="false">"請檢查照片尺寸。"</string>
+    <string name="companion_0248" formatted="false">"無法完整解碼照片。"</string>
+    <string name="companion_0249" formatted="false">"裝置連線"</string>
+    <string name="companion_0250" formatted="false">" · 音樂／通知"</string>
+    <string name="companion_0251" formatted="false">"已就緒"</string>
+    <string name="companion_0252" formatted="false">"需要設定"</string>
+    <string name="companion_0253" formatted="false">"點選項目在Android中授權，可先使用已授權功能。音樂透過通知存取讀取，不使用麥克風權限。"</string>
+    <string name="companion_0254" formatted="false">"附近裝置 · Bluetooth"</string>
+    <string name="companion_0255" formatted="false">"音樂資訊／手機通知"</string>
+    <string name="companion_0256" formatted="false">"精確位置 · GPS軌跡"</string>
+    <string name="companion_0257" formatted="false">"聯絡人 · 常用電話"</string>
+    <string name="companion_0258" formatted="false">"最近通話紀錄"</string>
+    <string name="companion_0259" formatted="false">"撥打所選聯絡人"</string>
+    <string name="companion_0260" formatted="false">"接聽／掛斷 · 配套裝置關聯"</string>
+    <string name="companion_0261" formatted="false">"保留現有電話應用程式及耳機。接聽／掛斷需要配套裝置關聯及Android 12以上。若Android限制通話紀錄權限，清單將顯示Permission Denied!。"</string>
+    <string name="companion_0262" formatted="false">"手機定位服務"</string>
+    <string name="companion_0263" formatted="false">"背景自動GPS · 一律允許位置"</string>
+    <string name="companion_0264" formatted="false">"請先允許精確位置。"</string>
+    <string name="companion_0265" formatted="false">"關閉螢幕連線 · 檢查電池限制"</string>
+    <string name="companion_0266" formatted="false">"省電模式可能限制GPS"</string>
+    <string name="companion_0267" formatted="false">"顯示連線／進度通知"</string>
+    <string name="companion_0268" formatted="false">"開啟應用程式開始騎乘連線後，IGN ON期間關閉螢幕也會傳送位置。電門OFF或斷線時停止蒐集。背景自動重連需一律允許位置。Galaxy還需檢查應用程式資訊→電池→不受限制。若省電模式阻止關閉螢幕的GPS，請關閉省電模式。安裝不需位置權限。"</string>
+    <string name="companion_0269" formatted="false">"準備騎乘整合"</string>
+    <string name="companion_0270" formatted="false">"完成"</string>
+    <string name="companion_0271" formatted="false">"應用程式設定"</string>
+    <string name="companion_0272" formatted="false">"無法開啟Android請求，請在應用程式設定中檢查權限。"</string>
+    <string name="companion_0273" formatted="false">"請在Android設定中開啟此應用程式權限。"</string>
+    <string name="companion_0274" formatted="false">"Bluetooth往返測試"</string>
+    <string name="companion_0275" formatted="false">"Bluetooth 8 KiB收發及CRC相符／"</string>
+    <string name="companion_0276" formatted="false">" ms。未修改快閃記憶體。"</string>
+    <string name="companion_0277" formatted="false">"進行中"</string>
+    <string name="companion_0278" formatted="false">"請等待目前步驟完成"</string>
+    <string name="companion_0279" formatted="false">"上方整體／目前進度顯示裝置確認的結果，斷線後不需重複點選。"</string>
+    <string name="companion_0280" formatted="false">"診斷模式"</string>
+    <string name="companion_0281" formatted="false">"測試後請回復原廠"</string>
+    <string name="companion_0282" formatted="false">"在裝置上用UP/DOWN選擇，O執行。診斷韌體不是騎乘模式，也不會重設設定及照片。"</string>
+    <string name="companion_0283" formatted="false">"讀取目前診斷結果"</string>
+    <string name="companion_0284" formatted="false">"儲存診斷紀錄"</string>
+    <string name="companion_0285" formatted="false">"在裝置上確認回復原廠"</string>
+    <string name="companion_0286" formatted="false">"檢查是否已回復原廠"</string>
+    <string name="companion_0287" formatted="false">"即使沒有連線，也可選擇Back to stock並重新按住O 2秒回復。"</string>
+    <string name="companion_0288" formatted="false">"疑難排解精靈"</string>
+    <string name="companion_0289" formatted="false">"先檢查已經完成到哪一步"</string>
+    <string name="companion_0290" formatted="false">"安裝停止不會從頭重傳。依裝置確認→上次作業確認→繼續的順序處理，保留紀錄及復原資料。"</string>
+    <string name="companion_0291" formatted="false">"1. 確認目前裝置"</string>
+    <string name="companion_0292" formatted="false">"裝置處於Bootstrap · 自動連線"</string>
+    <string name="companion_0293" formatted="false">"裝置已回復原廠 · 確認"</string>
+    <string name="companion_0294" formatted="false">"已確認畫面 · "</string>
+    <string name="companion_0295" formatted="false">"2. 選擇之前使用的安裝ZIP"</string>
+    <string name="companion_0296" formatted="false">"2. 確認目前CFW／安裝結果"</string>
+    <string name="companion_0297" formatted="false">"舊CFW也可選擇最新ZIP，不需降級手機應用程式，直接在下方更新或續傳。"</string>
+    <string name="companion_0298" formatted="false">"3. 更新／繼續CFW"</string>
+    <string name="companion_0299" formatted="false">"選擇其他更新ZIP"</string>
+    <string name="companion_0300" formatted="false">"復原層不同：先還原原廠再升級"</string>
+    <string name="companion_0301" formatted="false">"2. 確認原廠還原"</string>
+    <string name="companion_0302" formatted="false">"2. 查詢上次操作"</string>
+    <string name="companion_0303" formatted="false">"3. 檢查並繼續安裝"</string>
+    <string name="companion_0304" formatted="false">"儲存並分享診斷資料"</string>
+    <string name="companion_0305" formatted="false">"重設連線與選擇"</string>
+    <string name="companion_0306" formatted="false">"在 Noodoe 上復原"</string>
+    <string name="companion_0307" formatted="false">"Bootstrap：選擇 Back to stock，放開 O，再按住 2 秒。CFW 緊急復原：鑰匙 OFF → 按住 O 1 秒 → 繼續按住並轉為 ON → 保持 2 秒。依裝置畫面操作。"</string>
+    <string name="companion_0308" formatted="false">"安裝精靈 · 1 / 4"</string>
+    <string name="companion_0309" formatted="false">"連接你的 Noodoe"</string>
+    <string name="companion_0310" formatted="false">"選擇上方已配對的 Noodoe。App 會檢查安裝狀態。"</string>
+    <string name="companion_0311" formatted="false">"配對 Noodoe"</string>
+    <string name="companion_0312" formatted="false">"檢查必要權限"</string>
+    <string name="companion_0313" formatted="false">"正在檢查裝置"</string>
+    <string name="companion_0314" formatted="false">"出現 Bootstrap 後，在裝置上選擇 Install CFW。App 會開始配對並檢查連線，不會重傳安裝程式。"</string>
+    <string name="companion_0315" formatted="false">"App 會辨識原廠、Bootstrap 或 CFW，再引導下一步。此檢查不會修改韌體。"</string>
+    <string name="companion_0316" formatted="false">"自動連接 Bootstrap"</string>
+    <string name="companion_0317" formatted="false">"檢查裝置並繼續"</string>
+    <string name="companion_0318" formatted="false">"安裝精靈 · 2 / 4"</string>
+    <string name="companion_0319" formatted="false">"選擇更新檔"</string>
+    <string name="companion_0320" formatted="false">"選擇安裝檔"</string>
+    <string name="companion_0321" formatted="false">"已確認裝置 · "</string>
+    <string name="companion_0322" formatted="false">"請選擇安裝此 Bootstrap 時使用的 ZIP。版本不符會在檢查時提示。"</string>
+    <string name="companion_0323" formatted="false">"選擇已下載的 installer.zip。傳輸前會檢查完整性與相容性。"</string>
+    <string name="companion_0324" formatted="false">"選擇 ZIP"</string>
+    <string name="companion_0325" formatted="false">"重新檢查裝置"</string>
+    <string name="companion_0326" formatted="false">"CFW 更新 · 準備"</string>
+    <string name="companion_0327" formatted="false">"安裝精靈 · 3 / 4"</string>
+    <string name="companion_0328" formatted="false">"更新至新版本"</string>
+    <string name="companion_0329" formatted="false">"繼續安裝 CFW"</string>
+    <string name="companion_0330" formatted="false">"從原廠重新安裝"</string>
+    <string name="companion_0331" formatted="false">"準備安裝程式"</string>
+    <string name="companion_0332" formatted="false">"裝置 · "</string>
+    <string name="companion_0333" formatted="false">"\n檔案 · "</string>
+    <string name="companion_0334" formatted="false">"傳輸 APP → 重新啟動 → 確認正常執行。不重複傳輸相同資源。"</string>
+    <string name="companion_0335" formatted="false">"在 Noodoe 上選擇 Install CFW 後開始。檔案準備與驗證完成後，需在 Noodoe 上最終確認。"</string>
+    <string name="companion_0336" formatted="false">"先傳輸小型安裝程式。出現 Bootstrap 後，重新檢查裝置並繼續安裝 CFW。"</string>
+    <string name="companion_0337" formatted="false">"保持常電連接。安裝確認後會重設 CFW 設定與照片槽。原廠照片與復原資料將保留。"</string>
+    <string name="companion_0338" formatted="false">"確認更新"</string>
+    <string name="companion_0339" formatted="false">"確認傳輸安裝程式"</string>
+    <string name="companion_0340" formatted="false">"選擇其他 ZIP"</string>
+    <string name="companion_0341" formatted="false">"原廠 Noodoe"</string>
+    <string name="companion_0342" formatted="false">"需重新確認此裝置上次操作的結果。"</string>
+    <string name="companion_0343" formatted="false">"上次操作："</string>
+    <string name="companion_0344" formatted="false">"需要確認上次操作紀錄"</string>
+    <string name="companion_0345" formatted="false">"請在裝置上確認還原原廠。"</string>
+    <string name="companion_0346" formatted="false">"已請求還原。請確認是否已回到原廠韌體。"</string>
+    <string name="companion_0347" formatted="false">"SPP 連線中斷"</string>
+    <string name="companion_0348" formatted="false">"正在建立 Bluetooth 安全連線 · "</string>
+    <string name="companion_0349" formatted="false">" / 3 次。保留現有配對。"</string>
+    <string name="companion_0350" formatted="false">"配對等待已中斷。"</string>
+    <string name="companion_0351" formatted="false">"正在配對 Noodoe。如出現 Android 配對要求，請允許。在 Bootstrap 中選擇 Install CFW。"</string>
+    <string name="companion_0352" formatted="false">"Android 無法開始配對。請在裝置上選擇 Install CFW，再重試自動連線。"</string>
+    <string name="companion_0353" formatted="false">"配對未完成。請檢查 Android 要求與裝置的 Install CFW 選擇，再重新連線。"</string>
+    <string name="companion_0354" formatted="false">"等待配對允許已達 60 秒。請檢查 Android 要求，再重試自動連線。"</string>
+    <string name="companion_0355" formatted="false">"Noodoe 正在完成安裝並重新啟動。App 會自動重新連線。"</string>
+    <string name="companion_0356" formatted="false">"正在重新連接 Noodoe · "</string>
+    <string name="companion_0357" formatted="false">"已連接 Noodoe 的 UID 與安裝目標不符。"</string>
+    <string name="companion_0358" formatted="false">"更新完成。可以使用了。"</string>
+    <string name="companion_0359" formatted="false">"目前並非預期的安裝程式。請檢查裝置畫面與操作紀錄。"</string>
+    <string name="companion_0360" formatted="false">"裝置安裝已中斷。請檢查裝置錯誤與操作紀錄。"</string>
+    <string name="companion_0361" formatted="false">"檔案已送達。Noodoe 正在安裝。新 CFW 啟動後 App 會連線。"</string>
+    <string name="companion_0362" formatted="false">"未能確認新 CFW 連線。若已刪除配對，請允許 Android 配對要求。若裝置已還原原廠，請選擇「裝置已還原原廠 · 確認」。"</string>
+    <string name="companion_0363" formatted="false">"安裝錯誤詳細資料格式無效。"</string>
+    <string name="companion_0364" formatted="false">"寫入前"</string>
+    <string name="companion_0365" formatted="false">"檢查權限與映像"</string>
+    <string name="companion_0366" formatted="false">"檢查復原映像與 CFW 一致性"</string>
+    <string name="companion_0367" formatted="false">"暫停 Bluetooth"</string>
+    <string name="companion_0368" formatted="false">"重新檢查連線"</string>
+    <string name="companion_0369" formatted="false">"檢查工作與看門狗"</string>
+    <string name="companion_0370" formatted="false">"記錄安裝要求"</string>
+    <string name="companion_0371" formatted="false">"恢復 Bluetooth"</string>
+    <string name="companion_0372" formatted="false">"寫入驗證完成"</string>
+    <string name="companion_0373" formatted="false">" 時停止。階段="</string>
+    <string name="companion_0374" formatted="false">"，結果="</string>
+    <string name="companion_0375" formatted="false">"，詳細="</string>
+    <string name="companion_0376" formatted="false">"，紀錄="</string>
+    <string name="companion_0377" formatted="false">"，BT 恢復="</string>
+    <string name="companion_0378" formatted="false">"安裝要求尚未開始記錄。可在裝置上按 O 進入原廠復原。"</string>
+    <string name="companion_0379" formatted="false">"需確認安裝要求的寫入結果。未自動重傳。"</string>
+    <string name="companion_0380" formatted="false">"尚未確認 Bootstrap 連線。出現 Bootstrap 後選擇 Install CFW，再點選「自動連接 Bootstrap」。不必重傳安裝程式。"</string>
+    <string name="companion_0381" formatted="false">"保持常電連接。依原廠畫面指引，僅將 IGN 轉為 OFF，出現 Bootstrap 後再轉為 ON。\n"</string>
+    <string name="companion_0382" formatted="false">"在 Bootstrap 中選擇 Install CFW。App 會自動繼續配對與連線。請允許 Android 配對要求。"</string>
+    <string name="companion_0383" formatted="false">"已連接裝置並非 Bootstrap。請檢查目前裝置，確認正在執行的程式。"</string>
+    <string name="companion_0384" formatted="false">"已連接 Bootstrap。在裝置上選擇 Install CFW，再於 App 點選「繼續安裝」。不會重傳安裝程式。"</string>
+    <string name="companion_0385" formatted="false">"裝置中的安裝檔與此裝置／ZIP 紀錄不符。未覆寫任何內容。"</string>
+    <string name="companion_0386" formatted="false">"安裝確認紀錄與映像不符。未重複傳送重新啟動要求。"</string>
+    <string name="companion_0387" formatted="false">"正在讀取並驗證已接收檔案。不會重複傳輸。"</string>
+    <string name="companion_0388" formatted="false">"保留檔案的完整性驗證失敗。"</string>
+    <string name="companion_0389" formatted="false">"已儲存操作處於 "</string>
+    <string name="companion_0390" formatted="false">" 狀態。未以新安裝覆寫。請查詢中斷操作或分享診斷資料。"</string>
+    <string name="companion_0391" formatted="false">"Noodoe 正在安裝或復原。請先確認是否完成。未開始新安裝。"</string>
+    <string name="companion_0392" formatted="false">"Noodoe 正在檢查現有檔案。完成後會開啟安裝選單。"</string>
+    <string name="companion_0393" formatted="false">"Bluetooth 連線已確認。在 Noodoe 上按 O 返回選單，選擇 Install CFW，再按 O。"</string>
+    <string name="companion_0394" formatted="false">"裝置仍顯示上次確認畫面。請選擇 Back 返回，再重新選擇 Install CFW。"</string>
+    <string name="companion_0395" formatted="false">"在 Noodoe 上選擇 Install CFW 並按 O。保持連線與鑰匙 ON，下一步會自動開始。"</string>
+    <string name="companion_0396" formatted="false">"安裝準備回應無效。"</string>
+    <string name="companion_0397" formatted="false">"已確認安裝權限與連線。開始保存復原資料並準備檔案。"</string>
+    <string name="companion_0398" formatted="false">"等待 Install CFW 選擇已達 3 分鐘。尚未開始寫入。請選擇該選單後繼續安裝。"</string>
+    <string name="companion_0399" formatted="false">"安裝狀態格式無效。"</string>
+    <string name="companion_0400" formatted="false">"字型與 BT 資源"</string>
+    <string name="companion_0401" formatted="false">"使用者設定"</string>
+    <string name="companion_0402" formatted="false">"空照片槽"</string>
+    <string name="companion_0403" formatted="false">"原廠復原映像"</string>
+    <string name="companion_0404" formatted="false">"開機紀錄"</string>
+    <string name="companion_0405" formatted="false">"診斷紀錄"</string>
+    <string name="companion_0406" formatted="false">"儲存配置檢查"</string>
+    <string name="companion_0407" formatted="false">"檢查既有資料保留雜湊"</string>
+    <string name="companion_0408" formatted="false">"檢查檔案配置"</string>
+    <string name="companion_0409" formatted="false">"寫入後讀取實際儲存驗證"</string>
+    <string name="companion_0410" formatted="false">"驗證收到的檔案"</string>
+    <string name="companion_0411" formatted="false">"接收檔案"</string>
+    <string name="companion_0412" formatted="false">"檢查裝置狀態"</string>
+    <string name="companion_0413" formatted="false">"\n裝置回應正常 · 距上次進度變化 "</string>
+    <string name="companion_0414" formatted="false">"秒"</string>
+    <string name="companion_0415" formatted="false">"\n裝置也偵測到進度停滯。不會自動重傳。"</string>
+    <string name="companion_0416" formatted="false">"還原保留資料需要 scoped-v2 安裝程式。"</string>
+    <string name="companion_0417" formatted="false">"CFW 檔案僅部分建立完成。未覆寫任何內容。請保留診斷資料。"</string>
+    <string name="companion_0418" formatted="false">"舊安裝檔重用、內容與保留檢查完成"</string>
+    <string name="companion_0419" formatted="false">"新 CFW 設定與空照片槽已準備，既有檔案保留驗證完成"</string>
+    <string name="companion_0420" formatted="false">"安裝確認結果不明。請先查詢操作狀態。"</string>
+    <string name="companion_0421" formatted="false">"無法確認原始安裝計畫檔。"</string>
+    <string name="companion_0422" formatted="false">"完整 NOR 雙重備份至少需要 300 MiB 空間。"</string>
+    <string name="companion_0423" formatted="false">"深度診斷：完整 NOR 獨立備份 "</string>
+    <string name="companion_0424" formatted="false">"準備檔案 · "</string>
+    <string name="companion_0425" formatted="false">"此 UID 的舊連線有結果未確認的操作。請返回原裝置／ZIP 選擇，先查詢結果。紀錄會保留。"</string>
+    <string name="companion_0426" formatted="false">"此裝置有結果未確認的操作。請選擇原 ZIP "</string>
+    <string name="companion_0427" formatted="false">" 並先查詢狀態。重設 App 不會清除未確定的安裝結果。"</string>
+    <string name="companion_0428" formatted="false">"正在讀取裝置紀錄 "</string>
+    <string name="companion_0429" formatted="false">"裝置識別回應無效。"</string>
+    <string name="companion_0430" formatted="false">"不支援的裝置角色："</string>
+    <string name="companion_0431" formatted="false">"已連接診斷韌體。請在裝置上測試，完成後選擇 Back to stock。"</string>
+    <string name="companion_0432" formatted="false">"已連接安裝程式。選擇之前使用的安裝 ZIP 即可繼續。"</string>
+    <string name="companion_0433" formatted="false">"CFW 已連接。可以開始騎乘連動。"</string>
+    <string name="companion_0434" formatted="false">"裝置正在啟動。等待識別資訊。"</string>
+    <string name="companion_0435" formatted="false">"也正在檢查原廠回應。不會寫入韌體。"</string>
+    <string name="companion_0436" formatted="false">"原廠裝置資訊要求遭拒。"</string>
+    <string name="companion_0437" formatted="false">"原廠 Noodoe 已連接。可以開始安裝精靈。"</string>
+    <string name="companion_0438" formatted="false">"診斷韌體或裝置與傳輸紀錄不符。請查看裝置復原選單。"</string>
+    <string name="companion_0439" formatted="false">"正在重新連接診斷韌體 · "</string>
+    <string name="companion_0440" formatted="false">"診斷韌體已執行。用 UP/DOWN 選擇，按 O 測試。結束時選 Back to stock → 按住 O 2 秒。設定與照片未重設。"</string>
+    <string name="companion_0441" formatted="false">"未能確認診斷連線。可在裝置畫面上測試或選擇 Back to stock。未自動重複安裝。"</string>
+    <string name="companion_0442" formatted="false">"在 Noodoe 上放開 O，再按住 2 秒確認還原原廠。斷線後仍可使用 Gate 按鈕復原。"</string>
+    <string name="companion_0443" formatted="false">"診斷模式\nBT 狀態 "</string>
+    <string name="companion_0444" formatted="false">" · 錯誤 "</string>
+    <string name="companion_0445" formatted="false">"\n環境光 RAW "</string>
+    <string name="companion_0446" formatted="false">"\n儲存錯誤 "</string>
+    <string name="companion_0447" formatted="false">" · 紀錄錯誤 "</string>
+    <string name="companion_0448" formatted="false">"\n測試後請在裝置上選擇 Back to stock。"</string>
+    <string name="companion_0449" formatted="false">"正在將診斷紀錄儲存到手機"</string>
+    <string name="companion_0450" formatted="false">"需要包含 Gate 與 CFW 的安裝檔。"</string>
+    <string name="companion_0451" formatted="false">"復原起始位址不符。"</string>
+    <string name="companion_0452" formatted="false">"CFW 位址或資源資訊不符。"</string>
+    <string name="companion_0453" formatted="false">"需要支援自動復原確認的 CFW。"</string>
+    <string name="companion_0454" formatted="false">"此 App 僅支援安裝與原廠復原。尚未連接騎乘連動。"</string>
+    <string name="companion_0455" formatted="false">" · 工作階段 "</string>
+    <string name="companion_0456" formatted="false">"\n讀取證據已儲存。建立套件前必須核對 BL、硬體與車型相容性。"</string>
+    <string name="companion_0457" formatted="false">"已確認還原原廠。可使用所選 ZIP 重新傳送安裝程式。舊紀錄與復原資料會保留。"</string>
+    <string name="companion_0458" formatted="false">"請先確認正在傳輸的操作。診斷備份僅在閒置時開始。"</string>
+    <string name="companion_0459" formatted="false">"NOR 獨立 A/B 備份與 SHA 比對完成。未用於安裝。放開 O，再按住 3 秒返回選單。"</string>
+    <string name="companion_0460" formatted="false">"安裝程式裝置與韌體檢查完成。\n下一步：點選上方「3. 安裝程式 → 繼續安裝 CFW」。\n在 Noodoe 上選擇 Install CFW 後，將繼續檔案準備與安裝確認。\n紀錄："</string>
+    <string name="companion_0461" formatted="false">"正在比對已連接安裝程式與所選 ZIP。"</string>
+    <string name="companion_0462" formatted="false">"檔案驗證完成。請選擇 Install CFW 而非 Back，再按 O。確認等待上限為 15 分鐘。"</string>
+    <string name="companion_0463" formatted="false">"裝置已取消安裝。如需重試，請選擇繼續安裝。"</string>
+    <string name="companion_0464" formatted="false">"安裝確認已逾時。檔案未安裝。"</string>
+    <string name="companion_0465" formatted="false">"裝置已允許。Noodoe 正在自主驗證、安裝並重新啟動。Bluetooth 斷線後仍會繼續。"</string>
+    <string name="companion_0466" formatted="false">"已收到 O 確認。正在提交安裝紀錄。"</string>
+    <string name="companion_0467" formatted="false">"安裝紀錄已提交。正在要求重新啟動。"</string>
+    <string name="companion_0468" formatted="false">"更新正常確認完成"</string>
+    <string name="companion_0469" formatted="false">"已重新啟動至移除程式。用 UP/DOWN 選擇 Erase CFW data，確認容量後放開 O，再按住 2 秒。Keep CFW data 會保留資料返回。之後由裝置清理，不提供 Bluetooth 進度。"</string>
+    <string name="companion_0470" formatted="false">"裝置正在清理／需確認還原。出現原廠畫面後，請驗證原廠還原。可能需要重新配對。"</string>
+    <string name="companion_0471" formatted="false">"目前角色無法要求原廠復原。"</string>
+    <string name="companion_0472" formatted="false">"正在處理原廠復原要求。確認原廠開機前不算完成。"</string>
+    <string name="companion_0473" formatted="false">"原廠復原後通訊中斷。需確認實際原廠開機。"</string>
+    <string name="companion_0474" formatted="false">"無法確認通訊結果。請執行原廠開機驗證。\n"</string>
+    <string name="companion_0475" formatted="false">"Bootstrap：選擇 Back to stock → 放開 O → 按住 2 秒。不必額外操作 IGN。"</string>
+    <string name="companion_0476" formatted="false">"CFW：鑰匙 OFF → 按住 O 約 1 秒，保持按住轉為 ON → 再保持 2 秒進入獨立復原。"</string>
+    <string name="companion_0477" formatted="false">"請先檢查原廠畫面與更新提示。傳輸結果不明時不要重複傳送 Bootstrap。"</string>
+    <string name="companion_0478" formatted="false">"先檢查裝置畫面。Bootstrap：Back to stock 後重新按住 O 2 秒。CFW：鑰匙 OFF → 按住 O 轉為 ON → 保持 2 秒。原廠：先檢查原廠更新結果。"</string>
+    <string name="companion_0479" formatted="false">"\n\n本次連線嘗試未傳送韌體或安裝命令。保留既有操作紀錄。"</string>
+    <string name="companion_0480" formatted="false">"已確認還原原廠。要求的步驟未開始。檢查裝置後傳送安裝程式以重新安裝。舊紀錄與復原資料會保留。"</string>
+    <string name="companion_0481" formatted="false">"App 仍在等待 CFW 開機。若裝置已還原原廠，請點選「裝置已還原原廠 · 確認」。確認實際原廠回應後將結束等待，紀錄保留。"</string>
+    <string name="companion_0482" formatted="false">"請先檢查上次操作。要求的步驟未開始。\n檢查裝置 → 檢查上次操作 → 繼續。\n\n紀錄狀態："</string>
+    <string name="companion_0483" formatted="false">"裝置拒絕了命令。"</string>
+    <string name="companion_0484" formatted="false">"在時限內未確認回應。"</string>
+    <string name="companion_0485" formatted="false">"檔案或裝置資訊驗證不符。"</string>
+    <string name="companion_0486" formatted="false">"需檢查儲存空間或操作紀錄。"</string>
+    <string name="companion_0487" formatted="false">"目前操作無法繼續。"</string>
+    <string name="companion_0488" formatted="false">"\n安裝成功或取消尚未確認。保持常電連接，檢查裝置畫面與操作紀錄。\n"</string>
+    <string name="companion_0489" formatted="false">"可查詢中斷操作或分享診斷資料。若檔案建立中途失敗，請勿重複執行安裝準備。\n\n"</string>
+    <string name="companion_0490" formatted="false">"\n\n詳細資訊："</string>
+    <string name="companion_0491" formatted="false">"正在準備"</string>
+    <string name="companion_0492" formatted="false">"正在準備連線與操作紀錄。"</string>
+    <string name="companion_0493" formatted="false">"無法確認完成情況。請先檢查裝置畫面與開機結果。"</string>
+    <string name="companion_0494" formatted="false">"正在等待回應。操作結果尚未確認。不會自動重傳。"</string>
+    <string name="companion_0495" formatted="false">"裝置有回應，但進度已超過 30 秒未變。需檢查目前階段。"</string>
+    <string name="companion_0496" formatted="false">"%.1f KiB/s · 此階段約剩 %d 秒"</string>
+    <string name="companion_0497" formatted="false">"目前操作 · %,d / %,d %s · %d%%"</string>
+    <string name="companion_0498" formatted="false">"中斷位置 · %,d / %,d %s — 需確認結果"</string>
+    <string name="companion_0499" formatted="false">"目前操作 · 等待進度"</string>
+    <string name="companion_0500" formatted="false">"已用 "</string>
+    <string name="companion_0501" formatted="false">" · 目前階段 "</string>
+    <string name="companion_0502" formatted="false">"尚未收到經過驗證的回應。"</string>
+    <string name="companion_0503" formatted="false">"上次回應 "</string>
+    <string name="companion_0504" formatted="false">"整體進度 · 依階段 "</string>
+    <string name="companion_0505" formatted="false">"1 連線 · 2 檢查 · 3 準備／傳輸／寫入 · 4 最終檢查\n5 確認安裝 · 6 重新啟動 · 7 執行確認 · 8 完成"</string>
+    <string name="companion_0506" formatted="false">"Bootstrap 自動配對與連線"</string>
+    <string name="companion_0507" formatted="false">"修改前儲存復原資料"</string>
+    <string name="companion_0508" formatted="false">"操作結果未確認"</string>
+    <string name="companion_0509" formatted="false">"在 Noodoe 上選擇安裝選單"</string>
+    <string name="companion_0510" formatted="false">"準備、寫入與驗證 CFW 檔案"</string>
+    <string name="companion_0511" formatted="false">"傳送 Bootstrap"</string>
+    <string name="companion_0512" formatted="false">"操作鑰匙後確認 Bootstrap"</string>
+    <string name="companion_0513" formatted="false">"檢查裝置連線"</string>
+    <string name="companion_0514" formatted="false">"檢查儲存配置"</string>
+    <string name="companion_0515" formatted="false">"修改前計算原始雜湊"</string>
+    <string name="companion_0516" formatted="false">"安裝後確認既有檔案保留"</string>
+    <string name="companion_0517" formatted="false">"傳輸安裝映像"</string>
+    <string name="companion_0518" formatted="false">"等待裝置上的安裝確認"</string>
+    <string name="companion_0519" formatted="false">"檢查安裝與重新啟動結果"</string>
+    <string name="companion_0520" formatted="false">"檢查正常執行與永久確認"</string>
+    <string name="companion_0521" formatted="false">"安裝確認完成"</string>
+    <string name="companion_0522" formatted="false">"準備操作並檢查狀態"</string>
+    <string name="companion_0523" formatted="false">"連線與安裝選擇"</string>
+    <string name="companion_0524" formatted="false">"檢查配置與寫入範圍"</string>
+    <string name="companion_0525" formatted="false">"儲存待修改中繼資料"</string>
+    <string name="companion_0526" formatted="false">"寫入與驗證 CFW 檔案"</string>
+    <string name="companion_0527" formatted="false">"最終 FAT 與檔案比對"</string>
+    <string name="companion_0528" formatted="false">"在 Noodoe 上確認安裝"</string>
+    <string name="companion_0529" formatted="false">"安裝並重新啟動"</string>
+    <string name="companion_0530" formatted="false">"確認正常執行"</string>
+    <string name="companion_0531" formatted="false">"傳輸安裝程式"</string>
+    <string name="companion_0532" formatted="false">"操作鑰匙並確認安裝程式啟動"</string>
+    <string name="companion_0533" formatted="false">"更新前檢查"</string>
+    <string name="companion_0534" formatted="false">"傳輸與驗證 APP"</string>
+    <string name="companion_0535" formatted="false">"檢查裝置與移除支援"</string>
+    <string name="companion_0536" formatted="false">"傳輸與驗證移除程式"</string>
+    <string name="companion_0537" formatted="false">"裝置確認與清理中（無 Bluetooth）"</string>
+    <string name="companion_0538" formatted="false">"整體 · 已完成 %d / %d 階段（%d%%）"</string>
+    <string name="companion_0539" formatted="false">"依階段計算，並非所需時間比例。\n"</string>
+    <string name="companion_0540" formatted="false">"基準檢查：Noodoe 在內部讀取 128 MiB，計算需保留區域的 SHA-256。不會向手機傳照片或覆寫照片。安裝後會再次比對。"</string>
+    <string name="companion_0541" formatted="false">"最終 FAT 與檔案雜湊會與獨立計畫比對。新安裝路徑無權寫入既有檔案或保留區域。僅舊 Bootstrap 使用全區雜湊。"</string>
+    <string name="companion_0542" formatted="false">"儲存將修改的 FAT／目錄原文與計畫。新 Bootstrap 不下載未使用空間或全部 128 MiB。"</string>
+    <string name="companion_0543" formatted="false">"在新空間準備原廠復原、CFW 資源、設定、空照片槽、A/B 與紀錄，並驗證實際寫入。原廠照片保留。"</string>
+    <string name="companion_0544" formatted="false">"讀取 FAT 與目錄，確認不與既有檔案或保留區重疊的空閒空間。"</string>
+    <string name="companion_0545" formatted="false">"正在傳輸已驗證的安裝映像。傳輸 100% 不代表安裝完成。"</string>
+    <string name="companion_0546" formatted="false">"正常執行 30 秒並重新連接手機後完成。"</string>
+    <string name="companion_0547" formatted="false">"裝置 · 階段 %d/%d · 檔案 %d/%d\n磁區 %d/%d（4 KiB）· 已驗證 %,d B\n%s"</string>
+    <string name="companion_0548" formatted="false">"結果未確認 — 需查詢狀態"</string>
+    <string name="companion_0549" formatted="false">"目前寫入結束後取消"</string>
+    <string name="companion_0550" formatted="false">"安全取消完成"</string>
+    <string name="companion_0551" formatted="false">"最後確認狀態 · 等待重連"</string>
+    <string name="companion_0552" formatted="false">"重新按住 O 3 秒：取消裝置操作"</string>
+    <string name="companion_0553" formatted="false">"已確認 — 保持常電連接"</string>
+    <string name="companion_0554" formatted="false">"執行中的 Bootstrap 與所選 ZIP 不符。請使用安裝 Bootstrap 時的 ZIP 繼續。"</string>
+    <string name="companion_0555" formatted="false">"所選新 CFW 尚未執行。檢查目前版本後執行 CFW 更新。"</string>
+    <string name="companion_0556" formatted="false">"正在傳輸待安裝的 Gate 與 CFW 映像。"</string>
+    <string name="companion_0557" formatted="false">"已確認所選 CFW 正常執行並永久確認。"</string>
+    <string name="companion_0558" formatted="false">"舊 CFW 仍在試啟動。請先用其安裝 ZIP 確認結果，再選最新 ZIP。"</string>
+    <string name="companion_0559" formatted="false">"目前執行舊 CFW。未將新版本標記為安裝完成。請在 CFW 更新中查詢並繼續裝置操作。"</string>
+    <string name="companion_0560" formatted="false">"目前 CFW 有進行中的更新。請在 CFW 更新中用同一 ZIP 繼續。"</string>
+    <string name="companion_0561" formatted="false">"目前 CFW 正常執行。可使用所選新 ZIP 更新。"</string>
+    <string name="companion_0562" formatted="false">"目前 CFW 連線與執行已確認。新韌體尚未安裝。請點選 CFW 更新，不必降級 APK。"</string>
+    <string name="companion_0563" formatted="false">"正在檢查新版本，持續 30 秒。"</string>
+    <string name="companion_0564" formatted="false">"快完成了，正在確認新版本。"</string>
+    <string name="companion_0565" formatted="false">"沒有待確認的還原結果，或正在檢查執行狀態。"</string>
+    <string name="companion_0566" formatted="false">"驗證過程中開機狀態發生變化。"</string>
+    <string name="companion_0567" formatted="false">"確認結果尚未儲存。請重新查詢狀態。"</string>
+    <string name="companion_0568" formatted="false">"需要包含獨立復原的安裝檔。"</string>
+    <string name="companion_0569" formatted="false">"ZIP 檔案清單與 manifest 不符。請選擇與最新 APK 一同發布的 ZIP。多出="</string>
+    <string name="companion_0570" formatted="false">"，缺少="</string>
+    <string name="companion_0571" formatted="false">"缺少必要資源檔。"</string>
+    <string name="companion_0572" formatted="false">"此套件尚未準備為可安裝狀態。"</string>
+    <string name="companion_0573" formatted="false">"傳輸變更資源（RAM 接收，尚未儲存）"</string>
+    <string name="companion_0574" formatted="false">"寫入非使用中資源槽並驗證實體資料"</string>
+    <string name="companion_0575" formatted="false">"此 ZIP 的 RecoveryGate 不同。不必降級 APK。請保留資料還原原廠 → 安裝此 ZIP 的 Bootstrap → 安裝新 CFW，以更新復原層。"</string>
+    <string name="companion_0576" formatted="false">"請先檢查開機或還原結果。"</string>
+    <string name="companion_0577" formatted="false">"更新過程中不能開始原廠還原。"</string>
+    <string name="companion_0578" formatted="false">"正在檢查復原映像與儲存結構。"</string>
+    <string name="companion_0579" formatted="false">"正在比對目前 CFW、裝置、復原 Gate 與更新 ZIP。"</string>
+    <string name="companion_0580" formatted="false">"請選擇包含診斷映像的最新 ZIP。"</string>
+    <string name="companion_0581" formatted="false">"此 Gate 不支援暫時診斷。請先透過還原原廠 → 新 Bootstrap → CFW 更新 Gate。"</string>
+    <string name="companion_0582" formatted="false">"目前 CFW 尚未完成正常開機確認。請先確認 CFW 正常開機。"</string>
+    <string name="companion_0583" formatted="false">"更新狀態回應無效。"</string>
+    <string name="companion_0584" formatted="false">"裝置上保留著另一個更新操作。請先使用對應 ZIP 與紀錄檢查結果。"</string>
+    <string name="companion_0585" formatted="false">"正在檢查能否保留正常 CFW 與原廠復原映像。"</string>
+    <string name="companion_0586" formatted="false">"正在傳輸與驗證診斷韌體 · 保留設定與照片。"</string>
+    <string name="companion_0587" formatted="false">"傳輸新 CFW 並驗證磁區"</string>
+    <string name="companion_0588" formatted="false">"正在讀取檔案配置與目錄。"</string>
+    <string name="companion_0589" formatted="false">"裝置回報 "</string>
+    <string name="companion_0590" formatted="false">" 檢查錯誤。"</string>
+    <string name="companion_0591" formatted="false">"正在裝置內部檢查既有檔案。不會向手機傳輸全部儲存。"</string>
+    <string name="companion_0592" formatted="false">"修改前計算原始雜湊。這是內部檢查，不會傳輸或覆寫照片。"</string>
+    <string name="companion_0593" formatted="false">"修改前儲存復原資料 · "</string>
+    <string name="companion_0594" formatted="false">"僅有部分 CFW 檔案。未修改既有檔案。請儲存診斷資料。"</string>
+    <string name="companion_0595" formatted="false">"重新檢查目前狀態後重用已準備檔案。不覆寫既有檔案。"</string>
+    <string name="companion_0596" formatted="false">"檢查既有安裝檔 · "</string>
+    <string name="companion_0597" formatted="false">"既有 "</string>
+    <string name="companion_0598" formatted="false">" 內容與此 ZIP 不符。未覆寫。請儲存診斷資料。"</string>
+    <string name="companion_0599" formatted="false">"正在確認既有檔案保留與新檔案寫入。"</string>
+    <string name="companion_0600" formatted="false">"正在將最終檔案配置與獨立安裝計畫比對。"</string>
+    <string name="companion_0601" formatted="false">"正在核對全部 FAT 配置、既有檔案與新寫入範圍。"</string>
+    <string name="companion_0602" formatted="false">"缺少還原所需的部分設定、騎乘或照片檔案。可以選擇全新開始。尚未寫入。"</string>
+    <string name="companion_0603" formatted="false">"裝置保留舊資源。需要支援資源移轉的新 Bootstrap。請還原原廠後安裝此 ZIP 的 Bootstrap。"</string>
+    <string name="companion_0604" formatted="false">"正在儲存既有資源保留資料。"</string>
+    <string name="companion_0605" formatted="false">"驗證既有檔案 · "</string>
+    <string name="companion_0606" formatted="false">"SPP 連線已停止。"</string>
+    <string name="companion_0607" formatted="false">"SPP 連線失敗 "</string>
+    <string name="companion_0608" formatted="false">" 次。未刪除配對。請檢查原廠 App 是否連線，並分享診斷資料。"</string>
+    <string name="companion_0609" formatted="false">"SPP 服務查詢中斷"</string>
+    <string name="companion_0610" formatted="false">"原廠 Bluetooth 位址與之前裝置不同。未修改等待紀錄。"</string>
+    <string name="companion_0611" formatted="false">"已確認還原原廠。CFW 開機等待已結束。"</string>
+    <string name="companion_0612" formatted="false">"\n已確認還原原廠，CFW 開機等待已結束。舊紀錄與復原資料保留。可用所選 ZIP 開始新安裝。"</string>
+    <string name="companion_0613" formatted="false">"Bluetooth 已連接。正在檢查原廠協定回應。"</string>
+    <string name="companion_0614" formatted="false">"原廠 Bluetooth 位址與所選 Noodoe 不符。未傳輸。"</string>
+    <string name="companion_0615" formatted="false">"已確認原廠還原與目前裝置。保留舊紀錄並準備新安裝。"</string>
+    <string name="companion_0616" formatted="false">"正在透過原廠更新路徑傳送 Bootstrap。"</string>
+    <string name="companion_0617" formatted="false">"已收到傳輸驗證。保持常電連接：IGN OFF → 等待 Bootstrap → IGN ON。仍需確認安裝程式連線。"</string>
+    <string name="companion_0618" formatted="false">"此裝置沒有原始備份。請先在 Bootstrap 中儲存。"</string>
+    <string name="companion_0619" formatted="false">"兩次原始讀取結果不同。未開始儲存或安裝。"</string>
+    <string name="companion_0620" formatted="false">"仍有上次原始備份操作。請先檢查紀錄。"</string>
+    <string name="companion_0621" formatted="false">"裝置 BL 識別資訊與上次連線不同。請保留原始紀錄並檢查。"</string>
+    <string name="companion_0622" formatted="false">"無法核對移除操作與裝置狀態。未重傳。請驗證原廠還原或檢查裝置畫面。"</string>
+    <string name="companion_0623" formatted="false">"移除仍在等待確認。裝置狀態 "</string>
+    <string name="companion_0624" formatted="false">"。未傳送修改命令。"</string>
+    <string name="companion_0625" formatted="false">"移除程式與目前 CFW 支援資訊不同。請先更新至此 ZIP 的 CFW。不會改為保留資料還原。"</string>
+    <string name="companion_0626" formatted="false">"需要包含專用移除韌體的最新 ZIP。"</string>
+    <string name="companion_0627" formatted="false">"目前 CFW 不支援完整移除。請先更新 CFW。"</string>
+    <string name="companion_0628" formatted="false">"移除程式安裝結果尚不確定。請先驗證原廠還原。未重傳。"</string>
+    <string name="companion_0629" formatted="false">"裝置有進行中的操作。請檢查狀態。"</string>
+    <string name="companion_0630" formatted="false">"傳輸專用移除韌體 · 尚未刪除 CFW 資料。"</string>
+    <string name="companion_0631" formatted="false">"儲存檢查超過 30 分鐘。已保留紀錄，未重傳寫入命令。"</string>
+    <string name="companion_0632" formatted="false">"雖然裝置有回應，但儲存進度已 90 秒未推進。請分享診斷資料。未重傳寫入命令。"</string>
+    <string name="companion_0633" formatted="false">"常用聯絡人 · 最多 10 個"</string>
+    <string name="companion_0634" formatted="false">"上移"</string>
+    <string name="companion_0635" formatted="false">"下移"</string>
+    <string name="companion_0636" formatted="false">"從常用聯絡人移除"</string>
+    <string name="companion_0637" formatted="false">"無法儲存聯絡人順序。"</string>
+    <string name="companion_0638" formatted="false">"新增聯絡人"</string>
+    <string name="companion_0639" formatted="false">"最多 10 個聯絡人。請先刪除一個。"</string>
+    <string name="companion_0640" formatted="false">"找不到聯絡人 App。"</string>
+    <string name="companion_0641" formatted="false">"無法儲存聯絡人。"</string>
+    <string name="companion_0642" formatted="false">"請檢查聯絡人權限。"</string>
+    <string name="companion_0643" formatted="false">"請先選擇裝置。配件裝置註冊需要 Android 8 或更新版本。"</string>
+    <string name="companion_0644" formatted="false">"無法開啟配件裝置註冊。請開啟 Bluetooth，確認所選裝置後重試。"</string>
+    <string name="companion_0645" formatted="false">"配件裝置註冊已確認。"</string>
+    <string name="companion_0646" formatted="false">"請在 App 設定中檢查自動連線權限。"</string>
+    <string name="companion_0647" formatted="false">"無法註冊配件裝置。請檢查 Bluetooth 與所選裝置。"</string>
+    <string name="companion_0648" formatted="false">" · GPS：開啟 App 檢查位置權限"</string>
+    <string name="companion_0649" formatted="false">" · GPS：需要精確位置權限"</string>
+    <string name="companion_0650" formatted="false">" · GPS：受手機省電模式限制"</string>
+    <string name="companion_0651" formatted="false">" · GPS：開啟手機定位"</string>
+    <string name="companion_0652" formatted="false">" · 等待 GPS"</string>
+    <string name="companion_0653" formatted="false">"正在讀取裝置設定。"</string>
+    <string name="companion_0654" formatted="false">"儲存結果未確認。請重連檢查目前值。不會自動重試。"</string>
+    <string name="companion_0655" formatted="false">"設定套用或儲存失敗 · "</string>
+    <string name="companion_0656" formatted="false">"已在裝置上套用並儲存。"</string>
+    <string name="companion_0657" formatted="false">"已在裝置上套用。等待永久儲存。"</string>
+    <string name="companion_0658" formatted="false">"儲存結果未確認。請重新讀取目前值。不會自動重試。"</string>
+    <string name="companion_0659" formatted="false">"已要求 ODO 選擇。正在檢查儲存狀態。"</string>
+    <string name="companion_0660" formatted="false">"要求已接收。等待套用與儲存結果。"</string>
+    <string name="companion_0661" formatted="false">"裝置設定已讀取。"</string>
+    <string name="companion_0662" formatted="false">"裝置拒絕要求 · "</string>
+    <string name="companion_0663" formatted="false">"。請確認車輛已停止且數值為最新。"</string>
+    <string name="companion_0664" formatted="false">"請在權限與連動設定中允許通知存取。"</string>
+    <string name="companion_0665" formatted="false">"請在手機設定中允許此 App 顯示通知。"</string>
+    <string name="companion_0666" formatted="false">"Noodoe 通知測試"</string>
+    <string name="companion_0667" formatted="false">"請在手機設定中開啟「Noodoe 通知測試」通知。"</string>
+    <string name="companion_0668" formatted="false">"通知測試 · 通知テスト"</string>
+    <string name="companion_0669" formatted="false">"Noodoe 收到了嗎？臺灣 · 日本 · 한국"</string>
+    <string name="companion_0670" formatted="false">"測試通知已建立。在已連接 Noodoe 的手機頁面，用上下按鈕查看。"</string>
+    <string name="companion_0671" formatted="false">"無法讀取影像。"</string>
+    <string name="companion_0672" formatted="false">"JPEG 轉換失敗。"</string>
+    <string name="companion_0673" formatted="false">"無法縮小影像尺寸。"</string>
+    <string name="companion_0674" formatted="false">"無法讀取照片尺寸。"</string>
+    <string name="companion_0675" formatted="false">"無法開啟此照片。"</string>
+    <string name="companion_0676" formatted="false">"需要支援照片傳輸的新 CFW。"</string>
+    <string name="companion_0677" formatted="false">"正在裝置上驗證並儲存照片…"</string>
+    <string name="companion_0678" formatted="false">"照片傳輸 · "</string>
+    <string name="companion_0679" formatted="false">"空白項目會略過。在 Noodoe 開啟通知，長按 O → 選擇回覆 → 按 O 傳送。簽名會附在每則回覆末尾。"</string>
+    <string name="companion_0680" formatted="false">"快速回覆 "</string>
+    <string name="companion_0681" formatted="false">"簽名（留空則停用）"</string>
+    <string name="companion_0682" formatted="false">"儀表顯示的手機名稱"</string>
+    <string name="companion_0683" formatted="false">"自動（日語／台灣繁體）"</string>
+    <string name="companion_0684" formatted="false">"日語字形"</string>
+    <string name="companion_0685" formatted="false">"台灣繁體字形"</string>
+    <string name="companion_0686" formatted="false">"重新啟動騎乘連動以套用文字地區與手機名稱變更。最近 10 則通知僅保存在 RAM。僅支援可回覆的 App。"</string>
+    <string name="companion_0687" formatted="false">"Noto 字型授權"</string>
+    <string name="companion_0688" formatted="false">"無法開啟授權文件。"</string>
+    <string name="companion_0689" formatted="false">"Google Material 圖示授權"</string>
+    <string name="companion_0690" formatted="false">"快速回覆與文字顯示"</string>
+    <string name="companion_0691" formatted="false">"無法儲存。請檢查長度與儲存空間。"</string>
+    <string name="companion_0692" formatted="false">" · 約 %.1f km\n行駛 %d 分鐘 · 停車 %d 分鐘 · 最高 %d km/h"</string>
+    <string name="companion_0693" formatted="false">"連線時確認行程結束"</string>
+    <string name="companion_0694" formatted="false">"記錄中／未結束行程"</string>
+    <string name="companion_0695" formatted="false">"連線中斷 · 僅儲存部分行程"</string>
+    <string name="companion_0696" formatted="false">" · 未確認時間 "</string>
+    <string name="companion_0697" formatted="false">"手機行程記錄關閉"</string>
+    <string name="companion_0698" formatted="false">"行程記錄 · 等待點火"</string>
+    <string name="companion_0699" formatted="false">"行程記錄 · 檢查點火狀態"</string>
+    <string name="companion_0700" formatted="false">"正在儲存行程紀錄"</string>
+    <string name="companion_0701" formatted="false">"行程記錄 · 等待 UART（未確認區間）"</string>
+    <string name="companion_0702" formatted="false">"行程儲存失敗 · 請檢查手機儲存"</string>
+    <string name="companion_0703" formatted="false">"行程結束儲存失敗 · 已作為未完成紀錄保留"</string>
+    <string name="companion_0704" formatted="false">"影像驗證逾時。無法確認完成。"</string>
+    <string name="companion_0705" formatted="false">"影像接收位置不符。"</string>
+    <string name="companion_0706" formatted="false">"影像操作已切換至其他要求。"</string>
+    <string name="companion_0707" formatted="false">"影像驗證／儲存失敗："</string>
+    <string name="companion_0708" formatted="false">"影像完成狀態或長度不符。"</string>
+</resources>

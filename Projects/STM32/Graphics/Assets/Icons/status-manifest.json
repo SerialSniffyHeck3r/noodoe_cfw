@@ -1,0 +1,34 @@
+{
+  "family": "Google Material Icons Round",
+  "license": "Apache-2.0",
+  "source_commit": "40a7a292a79d9394157e1ea24f83d52d5e17c556",
+  "source_sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e",
+  "icons": [
+    {
+      "name": "local_gas_station",
+      "codepoint": 58694,
+      "size": 88,
+      "offset": 0,
+      "bytes": 3872,
+      "sha256": "f2b06ee7904dedc91ee007a3182f4cbb8cbabf942d3b36d395d082cef4a5756c"
+    },
+    {
+      "name": "bluetooth",
+      "codepoint": 57767,
+      "size": 24,
+      "offset": 3872,
+      "bytes": 288,
+      "sha256": "9b2d0677f94d040a6c2d5ada3443e92fd26515a215c59337b0f575feb3908ecd"
+    },
+    {
+      "name": "location_on",
+      "codepoint": 57544,
+      "size": 24,
+      "offset": 4160,
+      "bytes": 288,
+      "sha256": "723fc0b05dbe7fd2c475d2b8ec03cefddbc7a902cfd2880230372ca963597125"
+    }
+  ],
+  "bitmap_bytes": 4448,
+  "sha256": "89012371f128ed291e9746fe67cb40dc181eb28b9a48dda80e0edc35ed3d43e3"
+}

@@ -1,0 +1,208 @@
+{
+  "status": "partial-implementation-not-deployable",
+  "hardware_access": false,
+  "device_written": false,
+  "deployment_allowed": false,
+  "product": {
+    "debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 360424,
+        "free": 32792
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 137608,
+        "free": 58744,
+        "sections": {
+          ".data": 2812,
+          ".bss": 132988,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    },
+    "release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327340,
+        "free": 65876
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 136152,
+        "free": 60200,
+        "sections": {
+          ".data": 1628,
+          ".bss": 132720,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    }
+  },
+  "tests": {
+    "event_log": {
+      "cases": 58,
+      "passed": true,
+      "hardware": false
+    },
+    "trial_boot": {
+      "cases": 8,
+      "passed": true,
+      "hardware": false
+    },
+    "companion_control": {
+      "cases": 2,
+      "passed": true,
+      "hardware": false
+    },
+    "product_update": {
+      "cases": 78,
+      "passed": true,
+      "hardware": false
+    },
+    "gate_policy_engine": {
+      "cases": 106,
+      "passed": true,
+      "hardware": false
+    },
+    "log_provisioning": {
+      "runs": 2,
+      "cases": 4,
+      "assertions": 1152,
+      "passed": true,
+      "hardware": false
+    },
+    "android": {
+      "tests": 84,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "build_cache": {
+      "passed": true,
+      "cases": 1,
+      "coverage": [
+        "unchanged input",
+        "included C same-mtime change",
+        "nested header same-mtime change",
+        "incbin same-mtime change",
+        "missing incbin"
+      ]
+    },
+    "gate_handoff": {
+      "cases": 7,
+      "passed": true,
+      "hardware": false
+    }
+  },
+  "artifacts": {
+    "C:\\shared\\KYMCO\\NoodoeInstaller\\Android\\app\\build\\outputs\\apk\\debug\\app-debug.apk": {
+      "bytes": 419924,
+      "sha256": "b275e638b6c5752b50f59bc12bd4025c6751b234837b8c57dfb2b914d18cf1a8"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\gate-final\\recovery_gate.bin": {
+      "bytes": 19244,
+      "sha256": "546fd3fb775d7ba2798f7a694fbde3df4462d1e2ac0036aa628ea18fd687bb21"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\bootstrap-final\\bootstrap.bin": {
+      "bytes": 439304,
+      "sha256": "0758cc031322ebf26eea9d71b476caea7fc33cce7e52dccc5ec7f13ba84f7a95"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\product-debug\\app.bin": {
+      "bytes": 360424,
+      "sha256": "1dfcecb82f1c9258443d63f4f32b71d42fe92a14f7359fa234e5c1b9b1da0293"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\product-debug\\FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 8079048,
+      "sha256": "df6f32ef02f4e4a65c01937d5188cb0b10f19ec49cf955cf72af971ec44eb3f9"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\product-release\\app.bin": {
+      "bytes": 327340,
+      "sha256": "fded9415eb47123346eeec51ae5f119c1a87f8b82fa4c811544ccabc5e8d43ac"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\product-release\\FuckNudo_Noodoe_CFW_Project.elf": {
+      "bytes": 2544192,
+      "sha256": "f28ff51e142860ac6ba5cb8325fb096846268c30f50dfa9c6e3bd175e1ffcd9a"
+    },
+    "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-21-swdless-companion\\NoodoeCompanion-development.apk": {
+      "bytes": 419924,
+      "sha256": "b275e638b6c5752b50f59bc12bd4025c6751b234837b8c57dfb2b914d18cf1a8"
+    }
+  },
+  "gate-final": {
+    "base": "0x8010000",
+    "bytes": 19244,
+    "sector_bytes": 65536,
+    "free_bytes": 46292,
+    "sha256": "546fd3fb775d7ba2798f7a694fbde3df4462d1e2ac0036aa628ea18fd687bb21",
+    "sources": 15,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "bootstrap-final": {
+    "bytes": 439304,
+    "free_bytes": 19448,
+    "sha256": "0758cc031322ebf26eea9d71b476caea7fc33cce7e52dccc5ec7f13ba84f7a95",
+    "sources": 132,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "acceptance_unverified": [
+    "BL0.15/SR0701",
+    "healthy radio no-SWD lifecycle",
+    "physical power cuts",
+    "physical button-only stock return",
+    "8h load",
+    "29fps",
+    "2min routine update"
+  ],
+  "remaining_source_work": [
+    "photo SPP persistent replacement",
+    "L4 CJK and name cache",
+    "resource-changing routine update",
+    "CDM association/presence and background permission UX",
+    "health/memory log completion and export ACK",
+    "stacked fault PC/LR",
+    "bounded resume scanner",
+    "legacy bench migration"
+  ],
+  "profile_builds": {
+    "Integrated Debug": "passed",
+    "Graphics Release": "passed",
+    "Cube GUI regeneration": "not performed"
+  },
+  "project_profile_restored": "Product",
+  "source_implementation_complete": false
+}

@@ -1,0 +1,133 @@
+{
+  "hardware_access": false,
+  "subprocess_forbidden": true,
+  "actual_elf_plan_only": [
+    {
+      "schema": 1,
+      "hardware_access": false,
+      "mailbox": "0x2001bc60",
+      "mailbox_bytes": 124,
+      "elf": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-12-integrated-bringup\\bitbang-restore-image\\FuckNudo_Noodoe_CFW_Project.elf",
+      "elf_sha256": "898b2a8ea80e9ae045cf4faff5bbba0c0af0733456e6ec5e83c7cb263a67fe05",
+      "app_sha256": "b88e2964823c52df7ef8675eab307c811e8c514a92913b5cbf6900d2bc26873c",
+      "app_size": 390636,
+      "expected_uid_words": [
+        3735583,
+        875974927,
+        892810041
+      ],
+      "rates_hz": [],
+      "read_khz": 950,
+      "request_write_khz": 50,
+      "requests": [],
+      "allowed_request_offsets": [
+        8,
+        12,
+        16
+      ],
+      "direct_flash_power_gpio_reset_writes": false,
+      "id_bitbang": true,
+      "state": "plan-only",
+      "command": 3,
+      "argument": 0,
+      "max_publications": 1,
+      "bitbang_address": "0x200013a4",
+      "bitbang_bytes": 184,
+      "bitbang_version": 1,
+      "nominal_bitbang_hz": 20000
+    },
+    {
+      "schema": 1,
+      "hardware_access": false,
+      "mailbox": "0x2001bc78",
+      "mailbox_bytes": 124,
+      "elf": "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\Release\\FuckNudo_Noodoe_CFW_Project.elf",
+      "elf_sha256": "ee1354497eb3f0a57118187ca1de3eb5069e1cda3af66f96858fe67164b0e961",
+      "app_sha256": "57cb55ef28724a5a049173e70d7e8a910d67d270697d001e5d255b3d4d3f6865",
+      "app_size": 390780,
+      "expected_uid_words": [
+        3735583,
+        875974927,
+        892810041
+      ],
+      "rates_hz": [],
+      "read_khz": 950,
+      "request_write_khz": 50,
+      "requests": [],
+      "allowed_request_offsets": [
+        8,
+        12,
+        16
+      ],
+      "direct_flash_power_gpio_reset_writes": false,
+      "id_bitbang": true,
+      "state": "plan-only",
+      "command": 3,
+      "argument": 0,
+      "max_publications": 1,
+      "bitbang_address": "0x200013a4",
+      "bitbang_bytes": 208,
+      "bitbang_version": 2,
+      "nominal_bitbang_hz": 20000
+    }
+  ],
+  "archived_v1_raw": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-12-integrated-bringup\\ambient-bitbang-restore-01\\00018-id-bitbang-diagnostic-0-full.bin",
+  "archived_v1_raw_sha256": "897dc7cf2d10328a1744bb345f093a1b44dd3a6cdee35571102df68959e8cfdd",
+  "archived_v1_interpretation": {
+    "result": "SDA_CONFLICT",
+    "restore_result": 0,
+    "first_address_bit": {
+      "available": false,
+      "pre": {
+        "observed": false,
+        "elapsed_us": null,
+        "raw_lines": null,
+        "scl_high": null,
+        "sda_high": null
+      },
+      "early": {
+        "observed": false,
+        "elapsed_us": null,
+        "raw_lines": null,
+        "scl_high": null,
+        "sda_high": null
+      },
+      "late": {
+        "observed": false,
+        "elapsed_us": null,
+        "raw_lines": null,
+        "scl_high": null,
+        "sda_high": null
+      },
+      "early_conflict": false,
+      "late_high_after_conflict": false,
+      "sample_only": true
+    },
+    "saved_configuration_matches": true,
+    "restore_differences": {},
+    "manufacturer": "0x0",
+    "device": "0x0",
+    "ids_valid": false,
+    "ids_match": false,
+    "phase": "COMPLETE",
+    "failed_phase": "ADDRESS_WRITE",
+    "register": "0x7e",
+    "byte_index": 1,
+    "bit_index": 0,
+    "ack_count": 0,
+    "ack_mask": "0x0",
+    "initial_scl_high": true,
+    "initial_sda_high": true,
+    "last_scl_high": true,
+    "last_sda_high": false,
+    "nominal_bus_hz": 20000,
+    "source_clock_hz": 168000000,
+    "elapsed_us": 117,
+    "max_gap_us": 3,
+    "max_low_us": 28,
+    "timing_uncertain": false,
+    "sensor_scl_low_timeout_possible": false,
+    "successful": false
+  },
+  "source_sha256": "72336de4a9178c1d24fda84233a561dfb5f19de6b9565fe73df010e1fced1794"
+}

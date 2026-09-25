@@ -1,0 +1,195 @@
+{
+  "apk_version": "6.10.4",
+  "apk_code": 27,
+  "cfw_version": "6.10.4",
+  "apk_sha256": "7f9759cdbbccdf144da5efa765ab3b670897de6620808c6a6b28fdcb14db4f60",
+  "bundle_sha256": "dcb51e78c67018e0873080eb7fc48a9b7f0ac42311d9ed5a92bfcc567571a7d6",
+  "production_importer": true,
+  "same_apk_signer": true,
+  "signer_sha256": "5d268d352019cc1d394296e0ea0a13495daecee038f58def0ae7036fc7c64bae",
+  "targeted_tests": 116,
+  "tests": [
+    {
+      "name": "io.opennoodoe.app.companion.CompanionDiagnosticsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.CompanionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.DeviceSettingsSessionTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.MediaBurstTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.VisualTransferTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BondSessionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootHandoffSessionTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootReconnectPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootstrapCommitDiagnosticsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.InstallerTest",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.MaintenanceTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.ProductBootTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.VisualInstallConfirmationTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.AppLanguageSelectionTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.BootConfirmationUiTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionLanguagesTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionReconnectPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionServiceHandoffTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "arm_scenarios": 14,
+  "lint_errors": 0,
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327636,
+        "free": 65580
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143840,
+        "free": 52512,
+        "sections": {
+          ".data": 2924,
+          ".bss": 139108,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359488,
+        "free": 33728
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142872,
+        "free": 53480,
+        "sections": {
+          ".data": 2940,
+          ".bss": 138128,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "unchanged_components": [
+    "Bootstrap",
+    "Gate",
+    "stock",
+    "resources",
+    "Uninstall",
+    "Diagnostic"
+  ],
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "updater_arm_scenarios": 98,
+  "root_cause_verified": "Actual runtime diagnostics rejected by SessionLog allowlist; generic connection handler closed healthy socket. Original failure reproduced, modified test passes. Early rollback dismissal tested with real ARM BootStore."
+}

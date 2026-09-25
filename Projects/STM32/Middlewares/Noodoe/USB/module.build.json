@@ -1,0 +1,10 @@
+{
+  "include_paths": [],
+  "vendor_roots": [
+    {
+      "path": "Middlewares/Third_Party/USB_DEVICE",
+      "sources": []
+    }
+  ],
+  "defines": []
+}

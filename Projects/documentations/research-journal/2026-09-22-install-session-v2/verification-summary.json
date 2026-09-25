@@ -1,0 +1,806 @@
+{
+  "version": "6.4",
+  "hardware_access": false,
+  "adb_devices": [],
+  "android": {
+    "tests": 158,
+    "failures": 0,
+    "errors": 0,
+    "debug_and_release_built": true,
+    "delivered_apk": "debug-compatible-existing-install",
+    "same_certificate_as_6_3_2": true
+  },
+  "bootstrap": {
+    "bytes": 451252,
+    "free_bytes": 7500,
+    "sha256": "8ad6665f9679aae03fd970cdebed1a55b73798b779832927f382ef6875256ea6",
+    "sources": 134,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "gate": {
+    "base": "0x8010000",
+    "bytes": 22492,
+    "sector_bytes": 65536,
+    "free_bytes": 43044,
+    "sha256": "466c158e80f73f47363a59a07ea17648182823dccef2d99848a5625a1bd09e28",
+    "sources": 17,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "product_budgets": [
+    {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 317616,
+        "free": 75600
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 139376,
+        "free": 56976,
+        "sections": {
+          ".data": 1628,
+          ".bss": 135940,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x20014f90",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20006458",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x20008458",
+          "bytes": 4360,
+          "kind": "B",
+          "name": "sessions.lto_priv.0"
+        },
+        {
+          "address": "0x2000f860",
+          "bytes": 4176,
+          "kind": "b",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x20005428",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x200108b0",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20000f38",
+          "bytes": 4092,
+          "kind": "B",
+          "name": "phone_cache.lto_priv.0"
+        },
+        {
+          "address": "0x2000a0e4",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x20003f40",
+          "bytes": 3104,
+          "kind": "B",
+          "name": "links.lto_priv.0"
+        },
+        {
+          "address": "0x8065284",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x2000bac8",
+          "bytes": 2920,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x20002db0",
+          "bytes": 2184,
+          "kind": "B",
+          "name": "music.lto_priv.0"
+        },
+        {
+          "address": "0x20020fd8",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20013e34",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x20013634",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x2000e280",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x20000748",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x20012074",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x80662bc",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2001195c",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000ee00",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x2001464f",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x2000d898",
+          "bytes": 1024,
+          "kind": "B",
+          "name": "container_clusters.lto_priv.0"
+        },
+        {
+          "address": "0x20001f34",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x20012c68",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x2000cbb8",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x2000f280",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20014a70",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x806cef4",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    },
+    {
+      "profile": "Product",
+      "configuration": "Debug",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 349592,
+        "free": 43624
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 140840,
+        "free": 55512,
+        "sections": {
+          ".data": 2816,
+          ".bss": 136220,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "b",
+          "name": "pool"
+        },
+        {
+          "address": "0x20003398",
+          "bytes": 49152,
+          "kind": "B",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20019688",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x200020d4",
+          "bytes": 4360,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x20016628",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001dad4",
+          "bytes": 4144,
+          "kind": "b",
+          "name": "filesystem"
+        },
+        {
+          "address": "0x20014ed4",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x200111cc",
+          "bytes": 4092,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x200101d4",
+          "bytes": 4088,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x2001b7bc",
+          "bytes": 3104,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x806fb54",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x20018308",
+          "bytes": 2920,
+          "kind": "b",
+          "name": "view"
+        },
+        {
+          "address": "0x20000b1c",
+          "bytes": 2184,
+          "kind": "b",
+          "name": "music"
+        },
+        {
+          "address": "0x20012a84",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x2001d2d0",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001cad0",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x20014234",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "rx_ring"
+        },
+        {
+          "address": "0x200013a4",
+          "bytes": 1880,
+          "kind": "b",
+          "name": "phone"
+        },
+        {
+          "address": "0x200200e8",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x80708e4",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2001fc18",
+          "bytes": 1180,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x20021650",
+          "bytes": 1120,
+          "kind": "b",
+          "name": "pxReadyTasksLists"
+        },
+        {
+          "address": "0x200205f9",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x20014abc",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "container_clusters"
+        },
+        {
+          "address": "0x20001cd4",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2001edd0",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "queue"
+        },
+        {
+          "address": "0x20020eb8",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x20017acc",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20020aac",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        },
+        {
+          "address": "0x8074738",
+          "bytes": 792,
+          "kind": "r",
+          "name": "two_over_pi"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "retired_symbols": [],
+      "budget_passed": true,
+      "failures": []
+    }
+  ],
+  "tests": {
+    "scoped": {
+      "passed": true,
+      "all_nine_files_equal_independent_plan": true,
+      "product_sent_once": true,
+      "stock_wire_bytes": 0,
+      "empty_containers_generated": true,
+      "no_full_nor_hash": true,
+      "device_read_bytes": 15085568,
+      "request_payload_bytes": 124100,
+      "disconnected_write_phases": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "reseed_preserves_fat_stock_recovery": true,
+      "reseed_power_loss": [
+        [
+          5,
+          1
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          1
+        ]
+      ],
+      "limits": "ARM emulation; accelerated SHA/memory, not real RF timing"
+    },
+    "ui_cases": 50,
+    "gate_product_cases": 78,
+    "resources": [
+      {
+        "optimization": "Os",
+        "tests": [
+          "no-boot-journal-no-write",
+          "trial-no-write",
+          "reset-pending-no-write",
+          "create-exact-diff",
+          "all18-assets",
+          "1000-idempotent-ready-requests",
+          "inactive-update-commit-last",
+          "514-power-loss-boundaries-preserve-A",
+          "old12-entry-APP-resource-compatibility-with-new18-entry-loader",
+          "future-APP-matching-inactive-resource-ID",
+          "wire-IGN-off-preserves-A-cancel-0",
+          "wire-IGN-off-preserves-A-cancel-1",
+          "wire-IGN-off-preserves-A-cancel-2",
+          "missing",
+          "B-valid-A-header-damaged",
+          "payload-crc",
+          "header-crc",
+          "version",
+          "commit",
+          "truncated-file",
+          "bad-input-no-write",
+          "create-existing-no-write"
+        ],
+        "status": "PASS"
+      },
+      {
+        "optimization": "O0",
+        "tests": [
+          "no-boot-journal-no-write",
+          "trial-no-write",
+          "reset-pending-no-write",
+          "create-exact-diff",
+          "all18-assets",
+          "1000-idempotent-ready-requests",
+          "inactive-update-commit-last",
+          "514-power-loss-boundaries-preserve-A",
+          "old12-entry-APP-resource-compatibility-with-new18-entry-loader",
+          "future-APP-matching-inactive-resource-ID",
+          "wire-IGN-off-preserves-A-cancel-0",
+          "wire-IGN-off-preserves-A-cancel-1",
+          "wire-IGN-off-preserves-A-cancel-2",
+          "missing",
+          "B-valid-A-header-damaged",
+          "payload-crc",
+          "header-crc",
+          "version",
+          "commit",
+          "truncated-file",
+          "bad-input-no-write",
+          "create-existing-no-write"
+        ],
+        "status": "PASS"
+      }
+    ],
+    "gate_display": [
+      {
+        "optimization": "O0",
+        "scenario": "ready",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      },
+      {
+        "optimization": "O0",
+        "scenario": "panel4",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      },
+      {
+        "optimization": "O0",
+        "scenario": "delayed-reset",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 25
+      },
+      {
+        "optimization": "O0",
+        "scenario": "bad-id",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          3,
+          3,
+          0,
+          3153920,
+          0,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 0
+      },
+      {
+        "optimization": "O0",
+        "scenario": "stuck-reset",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          4,
+          4,
+          0,
+          3153952,
+          2,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 500
+      },
+      {
+        "optimization": "O0",
+        "scenario": "bad-panel",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          8,
+          8,
+          0,
+          3154004,
+          0,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      },
+      {
+        "optimization": "Os",
+        "scenario": "ready",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      },
+      {
+        "optimization": "Os",
+        "scenario": "panel4",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      },
+      {
+        "optimization": "Os",
+        "scenario": "delayed-reset",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          9,
+          0,
+          1,
+          3154004,
+          156,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 25
+      },
+      {
+        "optimization": "Os",
+        "scenario": "bad-id",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          3,
+          3,
+          0,
+          3153920,
+          0,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 0
+      },
+      {
+        "optimization": "Os",
+        "scenario": "stuck-reset",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          4,
+          4,
+          0,
+          3153952,
+          2,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 500
+      },
+      {
+        "optimization": "Os",
+        "scenario": "bad-panel",
+        "passed": true,
+        "diagnostics": [
+          1195657521,
+          8,
+          8,
+          0,
+          3154004,
+          0,
+          0,
+          0
+        ],
+        "cpu_reset_reads": 1
+      }
+    ]
+  },
+  "wire": {
+    "routine_product_payload_bytes": 393216,
+    "stock_body_from_phone": 0,
+    "full_nor_hash_normal_install": false,
+    "phone_expected_bin": false,
+    "first_product_body_transmissions": 1
+  },
+  "actual_time_seconds": {
+    "first_install": null,
+    "routine_update": null
+  },
+  "pending": [
+    "healthy-radio phone/no-SWD lifecycle",
+    "physical IGN and power interruption",
+    "actual LCD/30fps/long load",
+    "first/routine RF duration incl. 60sec health",
+    "physical theme switching during transfer"
+  ],
+  "artifacts": {
+    "NoodoeCompanion-6.4.apk": {
+      "bytes": 27907236,
+      "sha256": "5287a921fbfed9d3e3b96887ef3d4cb832f192321f6bcbf1b75699389553c152"
+    },
+    "NoodoeInstaller-6.4.zip": {
+      "bytes": 981989,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  }
+}

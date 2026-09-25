@@ -1,0 +1,548 @@
+{
+  "status": "IMPLEMENTED_OFFLINE_BUT_INSTALLATION_BLOCKED",
+  "installable": false,
+  "hardware_access": false,
+  "gui_access": false,
+  "reason": "Product memory reserve failure; thresholds and features were not relaxed",
+  "recovery_gate": {
+    "base": "0x8010000",
+    "bytes": 16444,
+    "sector_bytes": 65536,
+    "free_bytes": 49092,
+    "sha256": "7933f430486b9e1745504c0ba2bcd6e8732bdd18ab2cb80d7b123e012b8f6c68",
+    "sources": 14,
+    "hardware_tested": false,
+    "depends_on": [
+      "HSI",
+      "LSI/IWDG",
+      "internal SRAM",
+      "SPI5 NOR"
+    ],
+    "not_used": [
+      "RTOS",
+      "SDRAM",
+      "LVGL",
+      "Bluetooth",
+      "HSE"
+    ]
+  },
+  "product_release": {
+    "memory": {
+      "profile": "Product",
+      "configuration": "Release",
+      "layout_version": 2,
+      "flash": {
+        "capacity": 393216,
+        "used": 341272,
+        "free": 51944
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 161160,
+        "free": 35192,
+        "sections": {
+          ".data": 1856,
+          ".bss": 157500,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "recovery_mailbox_bytes": 256,
+      "largest_objects": [
+        {
+          "address": "0x10000000",
+          "bytes": 49216,
+          "kind": "B",
+          "name": "pool.lto_priv.0"
+        },
+        {
+          "address": "0x2001a0e0",
+          "bytes": 49152,
+          "kind": "b",
+          "name": "ucHeap"
+        },
+        {
+          "address": "0x20014680",
+          "bytes": 9324,
+          "kind": "b",
+          "name": "links"
+        },
+        {
+          "address": "0x20007e94",
+          "bytes": 8720,
+          "kind": "b",
+          "name": "sessions"
+        },
+        {
+          "address": "0x20005e94",
+          "bytes": 8192,
+          "kind": "b",
+          "name": "task_stack"
+        },
+        {
+          "address": "0x2000d7b4",
+          "bytes": 6516,
+          "kind": "b",
+          "name": "phone_cache"
+        },
+        {
+          "address": "0x200109ec",
+          "bytes": 4176,
+          "kind": "B",
+          "name": "g_bsp_capture"
+        },
+        {
+          "address": "0x2001871c",
+          "bytes": 4144,
+          "kind": "B",
+          "name": "filesystem.lto_priv.0"
+        },
+        {
+          "address": "0x20004e7c",
+          "bytes": 4120,
+          "kind": "B",
+          "name": "response.lto_priv.0"
+        },
+        {
+          "address": "0x20011a3c",
+          "bytes": 4096,
+          "kind": "b",
+          "name": "bounce"
+        },
+        {
+          "address": "0x20012b58",
+          "bytes": 3540,
+          "kind": "b",
+          "name": "hci_connection_storage"
+        },
+        {
+          "address": "0x2000c0ec",
+          "bytes": 3256,
+          "kind": "b",
+          "name": "current_phone"
+        },
+        {
+          "address": "0x806a37a",
+          "bytes": 2989,
+          "kind": "r",
+          "name": "kern_class_values"
+        },
+        {
+          "address": "0x2000ad30",
+          "bytes": 2788,
+          "kind": "B",
+          "name": "view.lto_priv.0"
+        },
+        {
+          "address": "0x200264f0",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "album_pixels"
+        },
+        {
+          "address": "0x20017f1c",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_cache"
+        },
+        {
+          "address": "0x2001771c",
+          "bytes": 2048,
+          "kind": "b",
+          "name": "nvm_work"
+        },
+        {
+          "address": "0x20002b6c",
+          "bytes": 2048,
+          "kind": "B",
+          "name": "rx_ring.lto_priv.0"
+        },
+        {
+          "address": "0x20013d70",
+          "bytes": 1280,
+          "kind": "b",
+          "name": "hci_stack_static"
+        },
+        {
+          "address": "0x806b3b0",
+          "bytes": 1264,
+          "kind": "r",
+          "name": "glyph_dsc"
+        },
+        {
+          "address": "0x2000371c",
+          "bytes": 1252,
+          "kind": "B",
+          "name": "hpcd_USB_OTG_HS"
+        },
+        {
+          "address": "0x20000b60",
+          "bytes": 1252,
+          "kind": "B",
+          "name": "obd.lto_priv.0"
+        },
+        {
+          "address": "0x2000ff8c",
+          "bytes": 1120,
+          "kind": "B",
+          "name": "pxReadyTasksLists.lto_priv.0"
+        },
+        {
+          "address": "0x20019757",
+          "bytes": 1034,
+          "kind": "b",
+          "name": "hci_packet_with_pre_buffer"
+        },
+        {
+          "address": "0x200260ec",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "class_memory"
+        },
+        {
+          "address": "0x20017078",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "crc_table"
+        },
+        {
+          "address": "0x20001830",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "payload"
+        },
+        {
+          "address": "0x2000bce0",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "Timer_Stack.0"
+        },
+        {
+          "address": "0x2001040c",
+          "bytes": 1024,
+          "kind": "b",
+          "name": "upload_buffer"
+        },
+        {
+          "address": "0x20019b80",
+          "bytes": 1017,
+          "kind": "b",
+          "name": "sdp_response_buffer"
+        }
+      ],
+      "rtos_heap_bytes": 49152,
+      "runtime_requirements": {
+        "rtos_min_free": 12288,
+        "fps_average_min": 29,
+        "ccm_guard_failures": 0,
+        "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+      },
+      "budget_passed": false,
+      "failures": [
+        "flash: free 51944 < 65536"
+      ]
+    },
+    "elf_sha256": "2da18fe825c6c6d14c223d207ece22560eec9fea1c5a56801e895a6ceeac45b7",
+    "binary_sha256": "bb47c70f47835adb40af74c80b0afc61b675f4bbfa84257e67fc47b64b3a6c82",
+    "flash_shortfall_bytes": 13592,
+    "address_validation_passed": true,
+    "final_build_summaries": [
+      "22:27:56 Build Finished. 0 errors, 0 warnings. (took 5s.471ms)",
+      "22:30:20 Build Finished. 0 errors, 1 warnings. (took 2m:8s.272ms)"
+    ],
+    "peer_target_warnings": 0
+  },
+  "product_debug": {
+    "linked": false,
+    "flash_overflow_bytes": 612,
+    "reserve_requirement_bytes": 32768,
+    "minimum_reduction_to_target_bytes": 33380,
+    "policy": "root O0/g3 plus existing named-file exceptions"
+  },
+  "rejected_build_exports_absent": true,
+  "old_exports_preserved_in": "Reversing/analysis/build-artifact-history",
+  "bootstrap": {
+    "bytes": 436636,
+    "free_bytes": 22116,
+    "sha256": "b6e64305325ba3bdc98a0d50cae437ee6279ac68463cc6681afb62b939c5aa78",
+    "sources": 129,
+    "profile": "Bootstrap",
+    "wireless_verified": false
+  },
+  "compatibility_profiles": {
+    "hardware_access": false,
+    "gui_access": false,
+    "live_project_mutated_by_this_build": false,
+    "profiles": [
+      {
+        "profile": "Integrated",
+        "configuration": "Release",
+        "project": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\work\\Project",
+        "research_directory": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated",
+        "headless_workspace": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\analysis\\2026-09-12-cube-generation-repair\\headless-workspace-release",
+        "source_manifest_sha256": "fb457b10858fc0b1ceabec39fa1cfbe742dbe5ef8febe599b32e22d00ce95ff6",
+        "copy_only_adaptations": {
+          "ioc_alias": {
+            "source": "FuckNudo_Noodoe_CFW_Project.ioc",
+            "alias": "Project.ioc",
+            "reason": "check_generated.py derives IOC filename from containing directory Project; original IOC retained unchanged",
+            "sha256": "bf198ce7b95bfd3a400a3cc8117e5616901bc0131eeec6463b1561c68999978b"
+          },
+          "live_project_modified": false
+        },
+        "build_finished_successfully": true,
+        "warnings": [
+          "C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: FuckNudo_Noodoe_CFW_Project.elf has a LOAD segment with RWX permissions"
+        ],
+        "summaries": [
+          "22:19:43 Build Finished. 0 errors, 1 warnings. (took 3m:21s.327ms)"
+        ],
+        "fresh_workspace_clean_diagnostic": true,
+        "image_valid": true,
+        "layout_version": 1,
+        "app_address": "0x08010000",
+        "app_binary_sha256": "387154767c6e046e41143118669bed423368573afebc9ead4de59fc3bdc4f471",
+        "elf_sha256": "ccc8393459fad2d97efd690114ca703298b9238e1b14415c40642366df6779f3",
+        "flash": {
+          "capacity": 458752,
+          "used": 417352,
+          "free": 41400
+        },
+        "sram": {
+          "capacity": 196608,
+          "used": 176440,
+          "free": 20168,
+          "sections": {
+            ".data": 2000,
+            ".bss": 172636,
+            ".noinit": 264,
+            "._user_heap_stack": 1536
+          }
+        },
+        "ccm": {
+          "capacity": 65536,
+          "used": 0,
+          "free": 65536,
+          "sections": {}
+        },
+        "budget_passed": true,
+        "budget_failures": [],
+        "artifacts": {
+          "FuckNudo_Noodoe_CFW_Project.elf": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\FuckNudo_Noodoe_CFW_Project.elf",
+            "bytes": 633828,
+            "sha256": "ccc8393459fad2d97efd690114ca703298b9238e1b14415c40642366df6779f3"
+          },
+          "FuckNudo_Noodoe_CFW_Project.map": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\FuckNudo_Noodoe_CFW_Project.map",
+            "bytes": 1241137,
+            "sha256": "48ba5442851ce736c3fca3db889d82641e83ad978e8010425a464eca8e8c497a"
+          },
+          "app.bin": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\app.bin",
+            "bytes": 417352,
+            "sha256": "387154767c6e046e41143118669bed423368573afebc9ead4de59fc3bdc4f471"
+          },
+          "app.manifest.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\app.manifest.json",
+            "bytes": 7083,
+            "sha256": "a14e180a18c31230c7c2874762c7a962a07e56aec14a255b1b7c93233f23ee28"
+          },
+          "memory-report.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\memory-report.json",
+            "bytes": 4397,
+            "sha256": "1daac117d92bfa426255df0c121d0216ee2cc28b6b72d0422603952cd8c60748"
+          },
+          "image-release.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\image-release.json",
+            "bytes": 14816,
+            "sha256": "024af0ecf794da8b4fafb047147f5f6f26b570bfae8614eb121cc700537bf093"
+          },
+          "build-release.log": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\build-release.log",
+            "bytes": 1639708,
+            "sha256": "56866b8dbfed7cdd08b0ae1b2135c797e90034813f9556881c680dec22a2756a"
+          },
+          ".cproject": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\.cproject",
+            "bytes": 185834,
+            "sha256": "650f5d7a000b92745554bc862d5b89bdd0ad68979163703c749226d837358cfa"
+          },
+          "build_profile.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Integrated\\artifacts\\build_profile.json",
+            "bytes": 216,
+            "sha256": "2d551bba47356f1596e9bdd393333d27d7396288dc6538e988f121b24740c7e4"
+          }
+        }
+      },
+      {
+        "profile": "Graphics",
+        "configuration": "Release",
+        "project": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\work\\Project",
+        "research_directory": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics",
+        "headless_workspace": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\analysis\\2026-09-12-cube-generation-repair\\headless-workspace-release",
+        "source_manifest_sha256": "a27ee196dcb70ae713b4419720a9c230887d80bbe4710d60820b248d8f6f5904",
+        "copy_only_adaptations": {
+          "ioc_alias": {
+            "source": "FuckNudo_Noodoe_CFW_Project.ioc",
+            "alias": "Project.ioc",
+            "reason": "check_generated.py derives IOC filename from containing directory Project; original IOC retained unchanged",
+            "sha256": "bf198ce7b95bfd3a400a3cc8117e5616901bc0131eeec6463b1561c68999978b"
+          },
+          "live_project_modified": false
+        },
+        "build_finished_successfully": true,
+        "warnings": [
+          "../Drivers/BSP/src/bsp_display_capture.c:20:85: warning: 'ign' defined but not used [-Wunused-variable]",
+          "C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: warning: FuckNudo_Noodoe_CFW_Project.elf has a LOAD segment with RWX permissions"
+        ],
+        "summaries": [
+          "22:22:53 Build Finished. 0 errors, 2 warnings. (took 2m:16s.24ms)"
+        ],
+        "fresh_workspace_clean_diagnostic": true,
+        "image_valid": true,
+        "layout_version": 1,
+        "app_address": "0x08010000",
+        "app_binary_sha256": "314504c7e59dcfb9872ec2da25a6554fbe22e86534ecdc75b003435d6e6dc5f3",
+        "elf_sha256": "603cdeeef471da242b36c69f571ea466130ed3128dce2ed1de41c7769685cc16",
+        "flash": {
+          "capacity": 458752,
+          "used": 433144,
+          "free": 25608
+        },
+        "sram": {
+          "capacity": 196608,
+          "used": 151264,
+          "free": 45344,
+          "sections": {
+            ".data": 468,
+            ".bss": 148996,
+            ".noinit": 264,
+            "._user_heap_stack": 1536
+          }
+        },
+        "ccm": {
+          "capacity": 65536,
+          "used": 0,
+          "free": 65536,
+          "sections": {}
+        },
+        "budget_passed": true,
+        "budget_failures": [],
+        "artifacts": {
+          "FuckNudo_Noodoe_CFW_Project.elf": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\FuckNudo_Noodoe_CFW_Project.elf",
+            "bytes": 603424,
+            "sha256": "603cdeeef471da242b36c69f571ea466130ed3128dce2ed1de41c7769685cc16"
+          },
+          "FuckNudo_Noodoe_CFW_Project.map": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\FuckNudo_Noodoe_CFW_Project.map",
+            "bytes": 1436892,
+            "sha256": "a44be9f77fa783e1f829b895532cf4a5255a12fa736a3fd67d9f545758239141"
+          },
+          "app.bin": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\app.bin",
+            "bytes": 433144,
+            "sha256": "314504c7e59dcfb9872ec2da25a6554fbe22e86534ecdc75b003435d6e6dc5f3"
+          },
+          "app.manifest.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\app.manifest.json",
+            "bytes": 5206,
+            "sha256": "b0f4a1abc868027fd194777b7c2b98dac3ada872954b3e8131c0bd6641e13eb5"
+          },
+          "memory-report.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\memory-report.json",
+            "bytes": 4406,
+            "sha256": "5d34f97c6132eb8d2c1825fc6228fdc00115c1718eb782d0bfddac1b1c06b9f7"
+          },
+          "image-release.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\image-release.json",
+            "bytes": 10878,
+            "sha256": "f6545b7c371ef9d1b964ca08a813e5a3950d943e552f077bf63593f45b112b10"
+          },
+          "build-release.log": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\build-release.log",
+            "bytes": 1827306,
+            "sha256": "992199a47e43ee39d1b2aafd80d2fb370ef9791eeb8b1cef98f29d38c37b158d"
+          },
+          ".cproject": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\.cproject",
+            "bytes": 157890,
+            "sha256": "859973b7eaf76200a04b1a7b4b935c8f2066841da9036c29f665edcf0a0b845d"
+          },
+          "build_profile.json": {
+            "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-20-independent-recovery\\profile-builds\\Graphics\\artifacts\\build_profile.json",
+            "bytes": 214,
+            "sha256": "f2fdfc56541fc650557bd0707cb13a0ed33f723d731082b5bad3da495b696b96"
+          }
+        }
+      }
+    ],
+    "distinct_workspaces": true,
+    "all_passed": true
+  },
+  "protected_source_changes": [],
+  "source_inventory": "source-change-summary.json",
+  "offline_gate_tests": {
+    "tests": {
+      "copy_all_cuts": {
+        "runs": 106,
+        "assertions": 3389,
+        "seconds": 524.86
+      },
+      "policy_latest": {
+        "runs": 2,
+        "assertions": 2310,
+        "seconds": 0.35
+      },
+      "journal": {
+        "runs": 40,
+        "assertions": 164080,
+        "seconds": 6.35
+      },
+      "independent_gate_store": {
+        "runs": 4,
+        "assertions": 25,
+        "optimization": "Os",
+        "source_report": "storage-fixture-source-report.json"
+      }
+    },
+    "source_sha256": {
+      "RecoveryGate\\src\\gate_board.c": "82eedacad9056f6597fa2f31adcb23de0ff052051421b75f08a96091883807df",
+      "RecoveryGate\\src\\gate_display.c": "6ebaf9208f8ad9e8e5644c5eead1b209f46b61a1a65fd4ced122fc7a6a4d9bc8",
+      "RecoveryGate\\src\\gate_engine.c": "ebe27d144b5e6f35dd0f25b62f7b17bdee5e6b6d05e2097404771970ee1aa4b2",
+      "RecoveryGate\\src\\gate_format.c": "6385e0ccdc97acd50a9acc07c0c6da7712ab5e0c68eb34fca905c632d6f6dea9",
+      "RecoveryGate\\src\\gate_main.c": "d4196b50c3fe2a768c5e340b52ce95af1eb3ba131ce9fa7feb58a6dcddc0b064",
+      "RecoveryGate\\src\\gate_policy.c": "c550c6207e1c72132d82fd091512fd4a17f197e450ce1d01d0601327c698a5d0",
+      "RecoveryGate\\src\\gate_store.c": "7ff6077b9fe4efdb923161c34951dece4c999b916fa2eb435a59a90923cfde63"
+    },
+    "hardware": false,
+    "limits": "Real ARM source with substituted physical NOR/internal FLASH calls; no voltage, SPI, panel, reset or original BL execution proof."
+  },
+  "other_test_evidence": "test-report-index.json",
+  "host_publication_guard": {
+    "tests": 8,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "hardware_access": false
+  },
+  "not_completed": [
+    "Product flash reserve targets",
+    "mobile target2 and first gate+Product delivery integration",
+    "physical watchdog/IGN/buttons/STOP and interrupted-flash validation",
+    "runtime FPS and heap minima",
+    "wireless installation on a healthy module",
+    "stock BL0.15/SR0701 compatibility"
+  ],
+  "bench_firmware_changed": false,
+  "option_bytes_changed": false
+}

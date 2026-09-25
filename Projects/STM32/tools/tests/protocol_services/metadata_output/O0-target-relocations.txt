@@ -1,0 +1,55 @@
+
+<workspace>\Reversing\STM32CubeProjects\FuckNudo_Noodoe_CFW_Project\tools\tests\protocol_services\metadata_output\O0-target.o:     file format elf32-littlearm
+
+RELOCATION RECORDS FOR [.RamFunc.update_metadata]:
+OFFSET   TYPE              VALUE
+0000005c R_ARM_ABS32       .bss.g_diag
+0000009a R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+000000c8 R_ARM_ABS32       .bss.g_diag
+000001ba R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+0000029c R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+00000318 R_ARM_ABS32       .bss.g_diag
+0000033c R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+000003d8 R_ARM_ABS32       .bss.g_sector
+00000460 R_ARM_ABS32       .bss.g_diag
+00000464 R_ARM_ABS32       .bss.g_sector
+000006b4 R_ARM_ABS32       .bss.g_diag
+000006b8 R_ARM_ABS32       .bss.g_sector
+000006bc R_ARM_ABS32       .bss.g_attempted
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_Read]:
+OFFSET   TYPE              VALUE
+00000012 R_ARM_THM_CALL    MetaEnter
+00000032 R_ARM_THM_CALL    MetaReadable
+0000005e R_ARM_THM_CALL    MetaReadWord
+00000072 R_ARM_THM_CALL    MetaLeave
+00000080 R_ARM_ABS32       .bss.g_busy
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_Commit]:
+OFFSET   TYPE              VALUE
+0000006c R_ARM_THM_CALL    MetaEnter
+0000009e R_ARM_THM_CALL    MetaLeave
+000000b6 R_ARM_THM_CALL    MetaLeave
+000000be R_ARM_THM_CALL    HAL_GetTick
+000000cc R_ARM_THM_CALL    BSP_Watchdog_BeginFlash
+000000d6 R_ARM_THM_CALL    MetaLeave
+00000110 R_ARM_THM_CALL    MetaTransaction
+00000118 R_ARM_THM_CALL    BSP_Watchdog_EndFlash
+00000138 R_ARM_THM_CALL    MetaLeave
+00000154 R_ARM_ABS32       .bss.g_busy
+00000158 R_ARM_ABS32       .bss.g_attempted
+0000015c R_ARM_ABS32       MetaTransaction
+00000164 R_ARM_ABS32       SystemCoreClock
+00000168 R_ARM_ABS32       .bss.g_sector
+0000016c R_ARM_ABS32       .bss.g_diag
+
+
+RELOCATION RECORDS FOR [.text.UpdateMetadata_GetDiagnostics]:
+OFFSET   TYPE              VALUE
+0000000e R_ARM_THM_CALL    MetaEnter
+0000003e R_ARM_THM_CALL    MetaLeave
+0000004c R_ARM_ABS32       .bss.g_diag
+
+

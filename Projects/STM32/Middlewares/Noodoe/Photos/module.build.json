@@ -1,0 +1,5 @@
+{
+  "include_paths": [
+    "Middlewares/Third_Party/LVGL/src/libs/tjpgd"
+  ]
+}

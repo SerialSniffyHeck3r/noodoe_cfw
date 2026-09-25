@@ -1,0 +1,71 @@
+
+<workspace>\Reversing\STM32CubeProjects\FuckNudo_Noodoe_CFW_Project\tools\tests\protocol_services\metadata_output\O0-watchdog.o:     file format elf32-littlearm
+
+RELOCATION RECORDS FOR [.RamFunc.watchdog]:
+OFFSET   TYPE              VALUE
+00000084 R_ARM_ABS32       g_bsp_watchdog
+00000090 R_ARM_THM_CALL    BSP_Watchdog_RamCheckpoint
+000000e4 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_StartEarly]:
+OFFSET   TYPE              VALUE
+000000ac R_ARM_ABS32       _sidata
+000000b0 R_ARM_ABS32       HardwareKey
+000000b4 R_ARM_ABS32       _sdata
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_Fail]:
+OFFSET   TYPE              VALUE
+00000044 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_Init]:
+OFFSET   TYPE              VALUE
+00000028 R_ARM_THM_CALL    ValidPhase
+0000005c R_ARM_THM_CALL    memset
+000000a2 R_ARM_THM_CALL    memcpy
+000000b0 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_SetPhase]:
+OFFSET   TYPE              VALUE
+00000034 R_ARM_THM_CALL    ValidPhase
+0000007c R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.Feed]:
+OFFSET   TYPE              VALUE
+00000036 R_ARM_THM_CALL    HardwareKey
+0000005c R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_Checkpoint]:
+OFFSET   TYPE              VALUE
+00000076 R_ARM_THM_CALL    BSP_Watchdog_Fail
+000000a0 R_ARM_THM_CALL    Feed
+000000b0 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_RunCheckpoint]:
+OFFSET   TYPE              VALUE
+00000012 R_ARM_THM_CALL    Feed
+00000024 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_BeginFlash]:
+OFFSET   TYPE              VALUE
+000000b6 R_ARM_THM_CALL    Feed
+000000c4 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_GrantSleep]:
+OFFSET   TYPE              VALUE
+00000038 R_ARM_ABS32       g_bsp_watchdog
+
+
+RELOCATION RECORDS FOR [.text.BSP_Watchdog_CanSleep]:
+OFFSET   TYPE              VALUE
+00000050 R_ARM_ABS32       g_bsp_watchdog
+
+

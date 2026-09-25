@@ -1,0 +1,86 @@
+{
+  "suites": [
+    {
+      "suite": "bt_transport_host",
+      "runs": 14,
+      "result_file": "verified-bt_transport_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "control_host",
+      "runs": 2,
+      "result_file": "verified-control_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "product_ui",
+      "runs": 3,
+      "result_file": "verified-product_ui.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "dashboard_pages",
+      "runs": 6,
+      "result_file": "verified-dashboard_pages.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "settings_ui",
+      "runs": 2,
+      "result_file": "verified-settings_ui.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "power_host",
+      "runs": 2,
+      "result_file": "verified-power_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "power_ui_host",
+      "runs": 2,
+      "result_file": "verified-power_ui_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "watchdog_host",
+      "runs": 2,
+      "result_file": "verified-watchdog_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "cfw_store",
+      "runs": 24,
+      "result_file": "verified-cfw_store.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "gate_product_update",
+      "runs": 72,
+      "result_file": "verified-gate_product_update.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "dash_service_host",
+      "runs": 2,
+      "result_file": "verified-dash_service_host.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "mode_strip",
+      "runs": 6,
+      "result_file": "verified-mode_strip.json",
+      "hardware_access": false
+    },
+    {
+      "suite": "project_layers",
+      "runs": 1,
+      "result_file": "verified-project_layers.json",
+      "hardware_access": false
+    }
+  ],
+  "final_firmware_build_passed": false,
+  "reason": "Cube USB regeneration pending; no valid final ELF",
+  "hardware_access": false,
+  "installed": false
+}

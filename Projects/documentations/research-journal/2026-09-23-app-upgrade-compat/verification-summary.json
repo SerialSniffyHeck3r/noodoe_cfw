@@ -1,0 +1,78 @@
+{
+  "apk_version": "6.8.1",
+  "version_code": 13,
+  "apk_sha256": "91ff2645d5ead62545cb5700f6cd4970eab9412418560160e0ed67776809e3da",
+  "apk_bytes": 28618638,
+  "bundle_sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff",
+  "bundle_bytes": 1291839,
+  "android": {
+    "tests": 209,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 82
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "6.4": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-22-install-session-v2\\vehicle015-v64\\installer.zip",
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8",
+      "accepted": true
+    },
+    "6.5.2": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-22-install-commit-hang\\vehicle015-final\\installer.zip",
+      "sha256": "00975f1fd2072beee81a18b14954c497ebc902fb44f48dd81b0424b8914a462b",
+      "accepted": true
+    },
+    "6.5.3": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-22-product-polish-diagnostics\\vehicle015-final\\installer.zip",
+      "sha256": "8325d5e4ff9b68f1491a3ec00b2f26ff65cf1343b730359103139f2f247d6460",
+      "accepted": true
+    },
+    "6.6": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-22-product-theme-fuel\\vehicle015-final\\installer.zip",
+      "sha256": "19b9ab64b7e43614cd675a718dd1781a46c2cce316a04762ff0fc02d6cbb2447",
+      "accepted": true
+    },
+    "6.7": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-uninstall\\package\\installer.zip",
+      "sha256": "8fef8c9fdffcfe5a94843d567df3a870fdc7270bb22aadc73f380a27240a49ea",
+      "accepted": true
+    },
+    "6.8": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-media-gps-trip\\package\\installer.zip",
+      "sha256": "31919d891b6637eab6278e7e45cf0176fa43506c5204910ee9eacdac3e3891cf",
+      "accepted": true
+    },
+    "6.8.1-package": {
+      "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-flash-math-format\\package-final\\installer.zip",
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff",
+      "accepted": true
+    }
+  },
+  "unchanged": {
+    "bootstrap": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "gate": true,
+    "product": true
+  },
+  "budgets_provenance": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-flash-math-format\\verification-summary.json",
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "firmware_rebuilt_this_turn": false,
+  "sources": {
+    "installer/NdcpSession.java": "8fd85dbaf92f59931416bded260da8fb51df3754f02e31072be8abd52e7d5118",
+    "installer/TargetBinding.java": "5747bb70c44c8ceaf5182d86f42972273822b8608ecafc7f0d9fe346034f7d7e",
+    "installer/RoutineUpdateSession.java": "ab4a7c8bd4031aec911d44658c07dc86c720cd0d61ca2f76c2312bf8fb0384a5",
+    "installer/ProductBootSession.java": "9fa1f346912594c394c3c7372b3d162b31bc414b4105b1469051ead0aa91a2ea",
+    "installer/InstallerController.java": "e0bf088f46c94dddc818f849667d062f5af9d072714a980b7e3de53a30fd71db",
+    "installer/RecoveryBundle.java": "a388db83b9ffcc38b00f74bada3cad403e77bf41d709fd03949aba803fa283ee",
+    "maintenance/SetupWorkflow.java": "cec742aa57a10ad87983fa03a687c366e1d3d5879b9205ed99821d97e598c370",
+    "maintenance/SetupWizardView.java": "9dc724eac4407106feffa9c2698774eedba79c6efbe02d605e90a4ee9c39841d"
+  }
+}

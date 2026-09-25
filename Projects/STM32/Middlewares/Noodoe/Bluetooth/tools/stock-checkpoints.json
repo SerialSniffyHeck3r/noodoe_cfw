@@ -1,0 +1,296 @@
+{
+  "kind": "static firmware analysis, no device execution",
+  "full_sha256": "38207bed741a8fef9e6d2ed24b86c8cb8b376ba5e4c957163f5edd83fbeb8037",
+  "ota_sha256": "3b64673054ca84b9cf504f4cc7ebcb2e6615b9fbf59df79a37a92dcf14f037ca",
+  "app_equal": true,
+  "app_complete_448KiB_sha256": "162faeecc64bf56d828570168785e66d1a7da0152ef912bf83f9a19094d91edf",
+  "full_app_last4": "ffffffff",
+  "anchors": [
+    {
+      "name": "board_setup_return",
+      "address": "0x0802FD26",
+      "bytes": "00 20 df f8 70 19 08 60",
+      "instruction_context": [
+        "0x0802FD26 00 20        movs       r0, #0",
+        "0x0802FD28 df f8 70 19  ldr.w      r1, [pc, #0x970] ; [0x0803069C]=0x2002319C",
+        "0x0802FD2C 08 60        str        r0, [r1]",
+        "0x0802FD2E 00 20        movs       r0, #0",
+        "0x0802FD30 00 21        movs       r1, #0"
+      ]
+    },
+    {
+      "name": "transport_open_after_reset_delay",
+      "address": "0x0803E95E",
+      "bytes": "06 e0",
+      "instruction_context": [
+        "0x0803E95E 06 e0        b          #0x803e96e",
+        "0x0803E960 00 20        movs       r0, #0",
+        "0x0803E962 df f8 dc 13  ldr.w      r1, [pc, #0x3dc] ; [0x0803ED40]=0x20023164",
+        "0x0803E966 08 60        str        r0, [r1]",
+        "0x0803E968 01 e0        b          #0x803e96e"
+      ]
+    },
+    {
+      "name": "reset_command_wait_return",
+      "address": "0x08055B88",
+      "bytes": "00 28",
+      "instruction_context": [
+        "0x08055B88 00 28        cmp        r0, #0",
+        "0x08055B8A 1b db        blt        #0x8055bc4",
+        "0x08055B8C 00 99        ldr        r1, [sp]",
+        "0x08055B8E 08 6c        ldr        r0, [r1, #0x40]",
+        "0x08055B90 80 69        ldr        r0, [r0, #0x18]",
+        "0x08055B92 42 79        ldrb       r2, [r0, #5]"
+      ]
+    },
+    {
+      "name": "reset_event_pointer_r0",
+      "address": "0x08055B92",
+      "bytes": "42 79",
+      "instruction_context": [
+        "0x08055B92 42 79        ldrb       r2, [r0, #5]",
+        "0x08055B94 22 70        strb       r2, [r4]",
+        "0x08055B96 40 79        ldrb       r0, [r0, #5]",
+        "0x08055B98 30 b9        cbnz       r0, #0x8055ba8",
+        "0x08055B9A 08 6c        ldr        r0, [r1, #0x40]",
+        "0x08055B9C 01 7c        ldrb       r1, [r0, #0x10]"
+      ]
+    },
+    {
+      "name": "reset_status_r2",
+      "address": "0x08055B94",
+      "bytes": "22 70",
+      "instruction_context": [
+        "0x08055B94 22 70        strb       r2, [r4]",
+        "0x08055B96 40 79        ldrb       r0, [r0, #5]",
+        "0x08055B98 30 b9        cbnz       r0, #0x8055ba8",
+        "0x08055B9A 08 6c        ldr        r0, [r1, #0x40]",
+        "0x08055B9C 01 7c        ldrb       r1, [r0, #0x10]",
+        "0x08055B9E c9 07        lsls       r1, r1, #0x1f"
+      ]
+    },
+    {
+      "name": "patch_return_r0",
+      "address": "0x080506AC",
+      "bytes": "05 00",
+      "instruction_context": [
+        "0x080506AC 05 00        movs       r5, r0",
+        "0x080506AE ed b2        uxtb       r5, r5",
+        "0x080506B0 00 2d        cmp        r5, #0",
+        "0x080506B2 19 d0        beq        #0x80506e8",
+        "0x080506B4 56 48        ldr        r0, [pc, #0x158] ; [0x08050810]=0x200232F4",
+        "0x080506B6 00 78        ldrb       r0, [r0]"
+      ]
+    },
+    {
+      "name": "patch_hook_flag_store",
+      "address": "0x080506EA",
+      "bytes": "05 70",
+      "instruction_context": [
+        "0x080506EA 05 70        strb       r5, [r0]",
+        "0x080506EC 00 e0        b          #0x80506f0",
+        "0x080506EE 00 25        movs       r5, #0",
+        "0x080506F0 28 00        movs       r0, r5",
+        "0x080506F2 c0 b2        uxtb       r0, r0",
+        "0x080506F4 07 b0        add        sp, #0x1c"
+      ]
+    },
+    {
+      "name": "version_wait_return",
+      "address": "0x08055C00",
+      "bytes": "07 00",
+      "instruction_context": [
+        "0x08055C00 07 00        movs       r7, r0",
+        "0x08055C02 17 d4        bmi        #0x8055c34",
+        "0x08055C04 00 99        ldr        r1, [sp]",
+        "0x08055C06 08 6c        ldr        r0, [r1, #0x40]",
+        "0x08055C08 80 69        ldr        r0, [r0, #0x18]",
+        "0x08055C0A 82 79        ldrb       r2, [r0, #6]"
+      ]
+    },
+    {
+      "name": "version_event_pointer_r0",
+      "address": "0x08055C0A",
+      "bytes": "82 79",
+      "instruction_context": [
+        "0x08055C0A 82 79        ldrb       r2, [r0, #6]",
+        "0x08055C0C 32 70        strb       r2, [r6]",
+        "0x08055C0E b0 f8 07 20  ldrh.w     r2, [r0, #7]",
+        "0x08055C12 2a 80        strh       r2, [r5]",
+        "0x08055C14 42 7a        ldrb       r2, [r0, #9]"
+      ]
+    },
+    {
+      "name": "version_wrapper_return",
+      "address": "0x08050ADA",
+      "bytes": "6f f0 11 07",
+      "instruction_context": [
+        "0x08050ADA 6f f0 11 07  mvn        r7, #0x11",
+        "0x08050ADE 08 b1        cbz        r0, #0x8050ae4",
+        "0x08050AE0 3d 46        mov        r5, r7",
+        "0x08050AE2 e7 e7        b          #0x8050ab4",
+        "0x08050AE4 9d f8        .byte      0x9d, 0xf8"
+      ]
+    },
+    {
+      "name": "als_wrapper_return",
+      "address": "0x0803255C",
+      "bytes": "04 21",
+      "instruction_context": [
+        "0x0803255C 04 21        movs       r1, #4",
+        "0x0803255E 00 22        movs       r2, #0",
+        "0x08032560 02 ac        add        r4, sp, #8",
+        "0x08032562 20 00        movs       r0, r4",
+        "0x08032564 ed f7 6e fb  bl         #0x801fc44"
+      ]
+    },
+    {
+      "name": "als_init_return",
+      "address": "0x0803F936",
+      "bytes": "c0 b2",
+      "instruction_context": [
+        "0x0803F936 c0 b2        uxtb       r0, r0",
+        "0x0803F938 00 28        cmp        r0, #0",
+        "0x0803F93A 01 d0        beq        #0x803f940",
+        "0x0803F93C c0 b2        uxtb       r0, r0",
+        "0x0803F93E 15 e0        b          #0x803f96c",
+        "0x0803F940 38 48        ldr        r0, [pc, #0xe0] ; [0x0803FA24]=0x20023090"
+      ]
+    },
+    {
+      "name": "als_id_return",
+      "address": "0x0803F948",
+      "bytes": "c0 b2",
+      "instruction_context": [
+        "0x0803F948 c0 b2        uxtb       r0, r0",
+        "0x0803F94A 00 28        cmp        r0, #0",
+        "0x0803F94C 01 d0        beq        #0x803f952",
+        "0x0803F94E c0 b2        uxtb       r0, r0",
+        "0x0803F950 0c e0        b          #0x803f96c",
+        "0x0803F952 08 21        movs       r1, #8"
+      ]
+    },
+    {
+      "name": "als_manufacturer_r0",
+      "address": "0x0804E30C",
+      "bytes": "45 f2 49 41",
+      "instruction_context": [
+        "0x0804E30C 45 f2 49 41  movw       r1, #0x5449",
+        "0x0804E310 88 42        cmp        r0, r1",
+        "0x0804E312 01 d0        beq        #0x804e318",
+        "0x0804E314 02 20        movs       r0, #2",
+        "0x0804E316 11 e0        b          #0x804e33c"
+      ]
+    },
+    {
+      "name": "als_device_r0",
+      "address": "0x0804E32E",
+      "bytes": "43 f2 01 01",
+      "instruction_context": [
+        "0x0804E32E 43 f2 01 01  movw       r1, #0x3001",
+        "0x0804E332 88 42        cmp        r0, r1",
+        "0x0804E334 01 d0        beq        #0x804e33a",
+        "0x0804E336 02 20        movs       r0, #2",
+        "0x0804E338 00 e0        b          #0x804e33c"
+      ]
+    },
+    {
+      "name": "als_hal_read_return",
+      "address": "0x080438CA",
+      "bytes": "c0 b2",
+      "instruction_context": [
+        "0x080438CA c0 b2        uxtb       r0, r0",
+        "0x080438CC 00 28        cmp        r0, #0",
+        "0x080438CE 02 d0        beq        #0x80438d6",
+        "0x080438D0 20 30        adds       r0, #0x20",
+        "0x080438D2 c0 b2        uxtb       r0, r0",
+        "0x080438D4 00 e0        b          #0x80438d8"
+      ]
+    },
+    {
+      "name": "als_active_store",
+      "address": "0x0803F968",
+      "bytes": "08 70",
+      "instruction_context": [
+        "0x0803F968 08 70        strb       r0, [r1]",
+        "0x0803F96A 00 20        movs       r0, #0",
+        "0x0803F96C 32 bd        pop        {r1, r4, r5, pc}",
+        "0x0803F96E 80 b5        push       {r7, lr}",
+        "0x0803F970 2c 48        ldr        r0, [pc, #0xb0] ; [0x0803FA24]=0x20023090",
+        "0x0803F972 00 68        ldr        r0, [r0]"
+      ]
+    }
+  ],
+  "ranges": [
+    {
+      "name": "stock main board setup",
+      "address": "0x802fd20",
+      "length": 48
+    },
+    {
+      "name": "bt open",
+      "address": "0x803e73a",
+      "length": 568
+    },
+    {
+      "name": "rx arm",
+      "address": "0x803e328",
+      "length": 160
+    },
+    {
+      "name": "reset and version",
+      "address": "0x8055b5c",
+      "length": 220
+    },
+    {
+      "name": "post-reset hook",
+      "address": "0x80505fe",
+      "length": 250
+    },
+    {
+      "name": "script sender",
+      "address": "0x8050574",
+      "length": 138
+    },
+    {
+      "name": "init caller",
+      "address": "0x8050a94",
+      "length": 86
+    },
+    {
+      "name": "command wait",
+      "address": "0x805510e",
+      "length": 118
+    },
+    {
+      "name": "als caller",
+      "address": "0x8032544",
+      "length": 30
+    },
+    {
+      "name": "als wrapper",
+      "address": "0x803f91c",
+      "length": 82
+    },
+    {
+      "name": "als sensor init",
+      "address": "0x804e1bc",
+      "length": 198
+    },
+    {
+      "name": "als IDs",
+      "address": "0x804e2e8",
+      "length": 86
+    },
+    {
+      "name": "als platform",
+      "address": "0x80437dc",
+      "length": 254
+    },
+    {
+      "name": "als register I/O",
+      "address": "0x804e4fe",
+      "length": 114
+    }
+  ]
+}

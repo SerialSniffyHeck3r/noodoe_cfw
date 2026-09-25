@@ -1,0 +1,35 @@
+{
+  "app": {
+    "state": "candidate-installed",
+    "app_sha256": "f2faaa13b9e3050f4083f14f6ef91fc78eaef23ba7a781e903aaf86fc7e9a003",
+    "bootloader_preserved": true,
+    "nor_written": false
+  },
+  "source_artifact": "candidate-correction-v2.elf",
+  "elf_sha256": "4ff00f60a2290b6da2dde49db28215fcf4b94d41c297370a2f2d32f0f302b19e",
+  "boot": "verified",
+  "photos": "previously installed/verified; not rewritten by correction",
+  "power_arm_regression": "PASS",
+  "wallpaper_app_renderer_arm_regression": "PASS",
+  "builds": [
+    "Product Release",
+    "Product Debug"
+  ],
+  "memory": {
+    "release_flash_free": 88876,
+    "debug_flash_free": 73756,
+    "sram_free": 35896,
+    "ccm_free": 16320
+  },
+  "physical_ign_retest": "pending after correction; prior user observation exposed the old100% policy",
+  "fps": [
+    29.9,
+    29.9,
+    29.8
+  ],
+  "cpu_percent": [
+    57.2,
+    57.2,
+    57.2
+  ]
+}

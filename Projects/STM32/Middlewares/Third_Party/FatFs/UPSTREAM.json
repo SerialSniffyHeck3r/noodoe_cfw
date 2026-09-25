@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/STMicroelectronics/STM32CubeF4",
+  "commit": "94cae6e83f00e276a11957e7833c01ac3d0bd7af",
+  "tag": "v1.28.3",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "sha256": "504402e7f729e3115f0f24a813d080c77a72bbb722967c2508c0cf7b6496ba85",
+      "git_blob_sha": "06902739f918d3b21f298c1326a71ee60ca949a1"
+    },
+    {
+      "path": "src/diskio.h",
+      "sha256": "d6c1d42c52a72796f7d2d4ebea1420026f55eb8bc4d31ff29f763ba4c9116f1a",
+      "git_blob_sha": "5b61e570ba9912980d0014d3cf4f68e3b26752af"
+    },
+    {
+      "path": "src/ff.c",
+      "sha256": "d63c152f2c6cb10388b7ec8721c6510c5632ef46ceb55e77af3acc737788cf3a",
+      "git_blob_sha": "b0bd4366298418fe5ff4ebc58735d354e01f1fd8"
+    },
+    {
+      "path": "src/ff.h",
+      "sha256": "e05e0fa39f796590e03bf8ca369ea61fe3e567e7d00a6fe258508972ac54e845",
+      "git_blob_sha": "b14c3ce18a10334f935b26b5d7898b1cd3ec4c75"
+    },
+    {
+      "path": "src/ffconf_template.h",
+      "sha256": "b97d42b8f9254b011c07e444c14317fa56efdf406cd45d13343ad58149de75aa",
+      "git_blob_sha": "c74e72ea4b92d0a3b7e30af7b0e7b91cfcb893cf"
+    },
+    {
+      "path": "src/integer.h",
+      "sha256": "ecfb04bdc94c49981ce4dfd195d7096769a662ae5bdf81badd651680cb48b281",
+      "git_blob_sha": "9ce7865bd2d6ce5bcc5e8e2b8cc5abde766e8a35"
+    }
+  ]
+}

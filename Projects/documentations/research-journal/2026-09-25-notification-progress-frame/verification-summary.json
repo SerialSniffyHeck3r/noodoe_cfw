@@ -1,0 +1,422 @@
+{
+  "apk_version": "6.11.2",
+  "apk_code": 30,
+  "cfw_version": "6.11.2",
+  "apk_sha256": "0c012cdb0226d8093e77780fbaf46d204445e95aadc8a88d1571a9bae186c092",
+  "bundle_sha256": "60ef3a5a0eb40e57f618d11045245d79d7bc31b86a5c610477c6441e47cc1b94",
+  "production_importer": true,
+  "same_apk_signer": true,
+  "signer_sha256": "5d268d352019cc1d394296e0ea0a13495daecee038f58def0ae7036fc7c64bae",
+  "targeted_tests": 157,
+  "tests": [
+    {
+      "name": "io.opennoodoe.app.companion.CompanionDiagnosticsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.CompanionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.DeviceSettingsSessionTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.LargePhonePanelTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.MediaBurstTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationAppPickerTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationDeliveryTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationHistoryTest",
+      "tests": 14,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationTestPathTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneCallsTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneGpsEncoderTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneLocationFeedTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhonePanelRendererTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.VisualTransferTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BondSessionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootHandoffSessionTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootReconnectPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootstrapCommitDiagnosticsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.InstallerTest",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.MaintenanceTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.ProductBootTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.VisualInstallConfirmationTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.AppLanguageSelectionTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.BootConfirmationUiTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionLanguagesTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionReconnectPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionServiceHandoffTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "arm_scenarios": 14,
+  "lint_errors": 0,
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 325748,
+        "free": 67468
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 144000,
+        "free": 52352,
+        "sections": {
+          ".data": 2912,
+          ".bss": 139288,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 357908,
+        "free": 35308
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143040,
+        "free": 53312,
+        "sections": {
+          ".data": 2928,
+          ".bss": 138308,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "unchanged_components": [
+    "Bootstrap",
+    "Gate",
+    "stock",
+    "resources",
+    "Uninstall",
+    "Diagnostic"
+  ],
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "updater_arm_scenarios": 98,
+  "changes_verified": "Freeform standard/wearable notification replies with displayed revision validation; explicit terminal progress before automatic ride handoff; large native CJK cards and received time; app icon picker; opt-in timed notification preview; white average marker; bounded batched GPS commands, pre-swap validation, physical texture-retirement fences. Hardware/OEM/RF not verified.",
+  "renderer": {
+    "hardware": false,
+    "scope": "Full LVGL shell + GPS/other page transitions, two480px background cross-fade, dark/light; mocked physical I/O",
+    "max_bytes": 6036,
+    "frames": 2021,
+    "background_draws": 2021,
+    "blend_frames": 1728,
+    "worst": [
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45060,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45180,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45200,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51060,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51180,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51200,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63060,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63180,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63200,
+        "bytes": 6036
+      },
+      {
+        "kind": 6,
+        "heading": 330,
+        "time": 69060,
+        "bytes": 6036
+      }
+    ],
+    "odo_modal_bytes": 3512
+  },
+  "draw_time_peak_regression": true,
+  "notification_burst_arrivals": 2000,
+  "render_guards": {
+    "hardware": false,
+    "atomic_panel_revision": true,
+    "texture_uploads": 3,
+    "fonts_with_two_panels_cache": 112530,
+    "oversize_not_swapped": true,
+    "pending_swap_timed_out_without_new_list": true
+  },
+  "libc_assert": {
+    "hardware": false,
+    "actual_product_elf": true,
+    "runs": [
+      {
+        "configuration": "Debug",
+        "evidence_preserved": true,
+        "fault_reason": "0xb000021f",
+        "unconnected_stderr_removed": true
+      },
+      {
+        "configuration": "Release",
+        "evidence_preserved": true,
+        "fault_reason": "0xb000021f",
+        "unconnected_stderr_removed": true
+      }
+    ]
+  },
+  "gps_offset_stress": {
+    "reproduced": false,
+    "max_bytes": 6048,
+    "frames": 1541,
+    "worst": [
+      {
+        "time": 10062,
+        "heading": 45,
+        "step": 22,
+        "bytes": 6048
+      },
+      {
+        "time": 33228,
+        "heading": 210,
+        "step": 20,
+        "bytes": 6048
+      },
+      {
+        "time": 33294,
+        "heading": 210,
+        "step": 22,
+        "bytes": 6048
+      },
+      {
+        "time": 33195,
+        "heading": 210,
+        "step": 19,
+        "bytes": 6044
+      },
+      {
+        "time": 7884,
+        "heading": 30,
+        "step": 20,
+        "bytes": 6036
+      }
+    ]
+  },
+  "gps_adversarial_stress": {
+    "reproduced": false,
+    "max_bytes": 5520,
+    "frames": 773,
+    "worst": [
+      {
+        "time": 15705,
+        "heading": 180,
+        "step": 1,
+        "bytes": 5520
+      },
+      {
+        "time": 17223,
+        "heading": 195,
+        "step": 15,
+        "bytes": 5516
+      },
+      {
+        "time": 17256,
+        "heading": 195,
+        "step": 16,
+        "bytes": 5516
+      },
+      {
+        "time": 17289,
+        "heading": 195,
+        "step": 17,
+        "bytes": 5516
+      },
+      {
+        "time": 17487,
+        "heading": 195,
+        "step": 23,
+        "bytes": 5516
+      }
+    ]
+  }
+}

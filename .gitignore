@@ -1,0 +1,54 @@
+# Android/Gradle and local toolchain state
+**/.gradle/
+**/.idea/
+**/build/
+**/.cxx/
+**/.externalNativeBuild/
+**/local.properties
+*.iml
+
+# CubeIDE, compilers and test runs
+**/Debug/
+**/Release/
+**/.settings/
+**/output/
+**/__pycache__/
+*.pyc
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.elf
+*.map
+*.hex
+
+# Packages, snapshots, dumps and signing material
+*.apk
+*.aab
+*.apks
+*.xapk
+*.bin
+!Projects/STM32/Graphics/Assets/Icons/status-masks.bin
+*.zip
+*.hprof
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+google-services.json
+.env
+.env.*
+**/captures/
+**/logs/
+*.log
+
+# Platform debris
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

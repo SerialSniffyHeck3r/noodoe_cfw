@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+  <string name="app_name">ReNudo</string>
+  <string name="notification_service_name">Puente de notificaciones ReNudo</string>
+  <string name="status_disconnected">DESCONECTADO</string>
+  <string name="status_key_on">CONTACTO ON</string>
+  <string name="status_key_off">CONTACTO OFF</string>
+  <string name="status_vehicle_waiting">Esperando al vehículo</string>
+  <string name="action_connect">Conectar</string>
+  <string name="action_disconnect">Desconectar</string>
+  <string name="status_available">Listo</string>
+  <string name="status_vehicle_disconnected">Vehículo desconectado</string>
+  <string name="speed_content_description">Velocidad</string>
+  <string name="section_vehicle_system">Información del vehículo y del sistema</string>
+  <string name="group_vehicle">VEHÍCULO</string>
+  <string name="field_model_code">Código de modelo</string>
+  <string name="field_vehicle_profile">Perfil del vehículo</string>
+  <string name="group_noodoe_unit">UNIDAD NOODOE</string>
+  <string name="field_device_identifier">Identificador del dispositivo</string>
+  <string name="field_production_info">Información del producto</string>
+  <string name="field_hardware">Hardware</string>
+  <string name="group_software">SOFTWARE</string>
+  <string name="field_version">Versión</string>
+  <string name="vehicle_profile_format">MÁX. %1$d km/h · TIPO %2$d · MOTOR %3$d</string>
+  <string name="section_time_welcome">Hora y luz de bienvenida</string>
+  <string name="action_sync_time">Sincronizar hora actual</string>
+  <string name="action_set_time">Establecer otra hora</string>
+  <string name="welcome_light">Luz de bienvenida automática</string>
+  <string name="welcome_light_description">Se enciende automáticamente al acercarse al vehículo</string>
+  <string name="welcome_standby">Espera Bluetooth tras quitar el contacto</string>
+  <string-array name="welcome_standby_options">
+    <item>10 min (sin luz automática)</item>
+    <item>1 día</item>
+    <item>2 días</item>
+    <item>3 días</item>
+  </string-array>
+  <string name="welcome_disabled">Luz automática apagada</string>
+  <string name="welcome_immediate_disabled">La luz automática no está disponible con una espera de 10 minutos</string>
+  <string name="welcome_active_format">Luz durante 2 min al acercarse · %1$d/3 en esta sesión</string>
+  <string name="action_save_welcome">Guardar ajustes de bienvenida</string>
+  <string name="welcome_sent">Ajustes de bienvenida enviados</string>
+  <string name="welcome_saved">Guardado · se aplicará en la próxima conexión</string>
+  <string name="section_notifications">Notificaciones del teléfono</string>
+  <string name="notification_display">Mostrar notificaciones en el cuadro</string>
+  <string name="notification_description">Llamadas, mensajes y notificaciones de aplicaciones</string>
+  <string name="notification_calls">Notificaciones de llamadas</string>
+  <string name="notification_messages">Notificaciones de mensajes</string>
+  <string name="notification_hide_content">Ocultar contenido de notificaciones</string>
+  <string name="privacy_mode_on">Modo privado ACTIVADO</string>
+  <string name="privacy_mode_off">Modo privado DESACTIVADO</string>
+  <string name="privacy_mode_enable">Activar modo privado</string>
+  <string name="privacy_mode_disable">Desactivar modo privado</string>
+  <string name="notification_apps_all">Aplicaciones normales: Todas</string>
+  <string name="notification_apps_selected">Aplicaciones normales: %1$d seleccionadas</string>
+  <string name="action_choose_apps">Elegir aplicaciones visibles</string>
+  <string name="action_notification_access">Acceso a notificaciones</string>
+  <string name="dashboard_date">Fecha del cuadro</string>
+  <string name="dashboard_time">Hora del cuadro</string>
+  <string name="section_photos">Fotos</string>
+  <string name="action_choose_image">Elegir imagen</string>
+  <string name="action_send_dashboard">Enviar al cuadro</string>
+  <string name="photo_slot_selected">Ranura %1$d seleccionada</string>
+  <string name="photo_slot_ready">Imagen lista para la ranura %1$d</string>
+  <string name="photo_select_required">Primero elige una foto para esta ranura</string>
+  <string name="photo_crop_title">Colocar foto</string>
+  <string name="photo_crop_reset">Restablecer</string>
+  <string name="photo_crop_use">Usar foto</string>
+  <string name="photo_crop_load_failed">No se pudo abrir la imagen seleccionada.</string>
+  <string name="photo_crop_save_failed">No se pudo guardar la foto recortada.</string>
+  <string name="section_dashboard_theme">Temas del cuadro</string>
+  <string name="action_clock_theme">Aplicar tema de reloj</string>
+  <string name="action_speed_theme">Aplicar tema de velocímetro</string>
+  <string name="theme_description">Importa tus temas compatibles o personaliza un tema guardado en este dispositivo.</string>
+  <string name="action_theme_library">Biblioteca de temas</string>
+  <string name="action_create_theme">Crear tema</string>
+  <string name="theme_library_title">Biblioteca de temas</string>
+  <string name="theme_reference_clock">Reloj digital conservado</string>
+  <string name="theme_reference_speed">Velocímetro digital conservado</string>
+  <string name="theme_custom_clock">Tema de reloj personalizado</string>
+  <string name="theme_custom_speed">Tema de velocímetro personalizado</string>
+  <string name="theme_source_preserved">Referencia conservada · %1$d archivos</string>
+  <string name="theme_source_custom">Creado en este dispositivo · %1$d archivos</string>
+  <string name="theme_apply_description">Reemplaza el tema activo en la ubicación seleccionada del cuadro.</string>
+  <string name="action_apply_theme">Aplicar</string>
+  <string name="theme_choose_type">Elegir tipo de tema</string>
+  <string-array name="theme_type_options">
+    <item>Reloj</item>
+    <item>Velocímetro</item>
+  </string-array>
+  <string name="theme_type_clock">reloj</string>
+  <string name="theme_type_speed">velocímetro</string>
+  <string name="theme_create_confirm_title">Crear tema</string>
+  <string name="theme_create_confirm_description">Crea un tema de %1$s con la foto recortada y las opciones CFG seleccionadas. Se conserva la estructura validada y se guarda el paquete completo antes de enviarlo.</string>
+  <string name="action_create_apply">Crear y aplicar</string>
+  <string name="action_import_theme">Importar paquete</string>
+  <string name="theme_import_choose_type">Destino del paquete importado</string>
+  <string name="theme_import_confirm_title">Importar paquete de transmisión</string>
+  <string name="theme_import_confirm_description">Valida, conserva y aplica este paquete compilado como tema de %1$s. Los ZIP appData editables no son paquetes de transmisión.</string>
+  <string name="action_import_apply">Importar y aplicar</string>
+  <string name="action_official_archive">Archivo oficial</string>
+  <string name="theme_source_official_archive">Archivo oficial descargado · %1$d archivos</string>
+  <string name="theme_official_archive_title">Temas oficiales conservados</string>
+  <string name="theme_official_archive_description">Introduce la URL HTTPS de un catálogo de temas ReNudo. Solo se guardan y envían paquetes compilados con SHA-256 y manifiesto MD5 interno válidos.</string>
+  <string name="theme_repository_url_hint">https://example.org/noodoe/catalog.json</string>
+  <string name="action_load_catalog">Cargar</string>
+  <string name="theme_repository_https_required">El repositorio debe usar una URL HTTPS.</string>
+  <string name="theme_catalog_loading">Cargando catálogo de temas conservados…</string>
+  <string name="theme_catalog_empty">Este catálogo no contiene temas compatibles.</string>
+  <string name="theme_catalog_failed">No se pudo cargar el catálogo: %1$s</string>
+  <string name="theme_catalog_item_detail">%1$s · %2$s</string>
+  <string name="theme_size_unknown">tamaño desconocido</string>
+  <string name="theme_official_apply_description">Descarga, valida, conserva y aplica este paquete de tema compilado. Procedencia: %1$s</string>
+  <string name="action_download_apply">Descargar y aplicar</string>
+  <string name="theme_cfg_settings_title">Configuración del tema</string>
+  <string name="theme_accent_color">Color de acento</string>
+  <string name="theme_accent_color_hint">#00A77A</string>
+  <string name="theme_show_period">Mostrar AM/PM</string>
+  <string name="theme_show_weekday">Mostrar día de la semana</string>
+  <string name="theme_speed_bar_style">Estilo de barra de velocidad</string>
+  <string-array name="theme_speed_bar_options">
+    <item>Estilo 1</item>
+    <item>Estilo 2</item>
+    <item>Estilo 3</item>
+    <item>Estilo 4</item>
+  </string-array>
+  <string name="action_choose_background">Elegir fondo</string>
+  <string name="theme_invalid_color">Introduce un color como #RRGGBB.</string>
+  <string name="section_vehicle_settings">Ajustes del vehículo</string>
+  <string name="hint_display_name">Nombre visible</string>
+  <string name="automatic_brightness">Brillo automático</string>
+  <string name="brightness_auto">Brillo automático</string>
+  <string name="brightness_percent">Brillo %1$d%%</string>
+  <string name="metric_celsius">Kilómetros y Celsius</string>
+  <string name="time_24_hour">Formato de 24 horas</string>
+  <string name="action_apply_settings">Aplicar ajustes</string>
+  <string name="section_device_management">Gestión del dispositivo</string>
+  <string name="app_theme">Tema de la aplicación</string>
+  <string-array name="theme_options">
+    <item>Automático</item>
+    <item>Claro</item>
+    <item>Oscuro</item>
+  </string-array>
+  <string name="app_language">Idioma</string>
+  <string-array name="language_options">
+    <item>Sistema</item>
+    <item>English</item>
+    <item>繁體中文</item>
+    <item>简体中文</item>
+    <item>한국어</item>
+    <item>日本語</item>
+  </string-array>
+  <string name="action_choose_device">Elegir dispositivo</string>
+  <string name="reset_noodoe">Restablecer Noodoe</string>
+  <string name="reset_description">Eliminar contenido y ajustes del usuario</string>
+  <string name="action_reset">Restablecer</string>
+  <string name="action_test_mode">Modo de prueba</string>
+  <string name="device_unnamed">Dispositivo sin nombre</string>
+  <string name="device_bluetooth">Dispositivo Bluetooth</string>
+  <string name="device_choose_title">Elegir dispositivo Noodoe</string>
+  <string name="action_cancel">Cancelar</string>
+  <string name="action_pair_new">Vincular nuevo dispositivo</string>
+  <string name="device_none_paired">No hay dispositivos Bluetooth vinculados</string>
+  <string name="service_preparing">Preparando servicio</string>
+  <string name="notification_apps_title">Aplicaciones visibles en el cuadro</string>
+  <string name="action_save">Guardar</string>
+  <string-array name="theme_authoring_type_options">
+    <item>Reloj</item>
+    <item>Velocímetro</item>
+  </string-array>
+  <string-array name="theme_import_type_options">
+    <item>Reloj</item>
+    <item>Tiempo</item>
+    <item>Velocímetro</item>
+    <item>Cerca de mí</item>
+  </string-array>
+  <string name="theme_type_weather">tiempo</string>
+  <string name="theme_type_around_me">Cerca de mí</string>
+  <string name="theme_custom_weather">Tema meteorológico importado</string>
+  <string name="theme_custom_around_me">Tema Cerca de mí importado</string>
+  <string name="theme_source_imported">Paquete de transmisión importado · %1$d archivos</string>
+  <string name="product_system_data">Información del sistema</string>
+  <string name="product_production_read">Leer información de fabricación</string>
+  <string name="product_template_needed">Importa un tema compatible de reloj o velocímetro que tengas permiso para usar y selecciónalo como plantilla. Esta aplicación no incluye temas de terceros.</string>
+  <string name="product_choose_template">Elegir un tema para editar</string>
+</resources>

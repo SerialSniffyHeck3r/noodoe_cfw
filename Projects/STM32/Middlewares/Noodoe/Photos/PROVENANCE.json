@@ -1,0 +1,15 @@
+{
+  "upstream": "85aa60d18b3d5e5588d7b247abf90198f07c8a63",
+  "vendor_sha256": {
+    "tjpgd.c": "869f12918ddd795c97ac36c281683fc3f18c81b9e0279c6219f8bbe70c03a26a",
+    "tjpgd.h": "7f768047e0b1947cd1eb55e29890137645042bfdb03fdcb56634ad7df8224d66"
+  },
+  "adapter": "inc/Photo_Jpeg.h",
+  "configuration": {
+    "JD_FORMAT": 1,
+    "JD_SZBUF": 512,
+    "JD_USE_SCALE": 0,
+    "JD_TBLCLIP": 0,
+    "JD_FASTDECODE": 0
+  }
+}

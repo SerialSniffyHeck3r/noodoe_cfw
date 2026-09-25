@@ -1,0 +1,5 @@
+{
+  "include_paths": ["App_Logic/Bootstrap/inc", "Middlewares/Third_Party/miniz"],
+  "defines": ["MINIZ_NO_ARCHIVE_APIS", "MINIZ_NO_DEFLATE_APIS", "MINIZ_NO_STDIO", "MINIZ_NO_TIME", "MINIZ_NO_MALLOC", "MINIZ_NO_ZLIB_APIS"],
+  "vendor_roots": [{"path": "Middlewares/Third_Party/miniz", "sources": ["miniz_tinfl.c"]}]
+}

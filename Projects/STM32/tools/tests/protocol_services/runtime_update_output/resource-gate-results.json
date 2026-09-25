@@ -1,0 +1,28 @@
+[
+  {
+    "optimization": "-O0",
+    "status": "PASS",
+    "cases": [
+      "pending-incompatible-lock",
+      "matching-ID-commit",
+      "invalid-record-magic",
+      "invalid-version",
+      "invalid-required",
+      "new-transaction-isolation",
+      "explicit-resource-free-APP"
+    ]
+  },
+  {
+    "optimization": "-Os",
+    "status": "PASS",
+    "cases": [
+      "pending-incompatible-lock",
+      "matching-ID-commit",
+      "invalid-record-magic",
+      "invalid-version",
+      "invalid-required",
+      "new-transaction-isolation",
+      "explicit-resource-free-APP"
+    ]
+  }
+]

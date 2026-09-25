@@ -1,0 +1,7 @@
+{
+  "include_paths": ["Middlewares/Noodoe/Storage/inc", "Middlewares/Third_Party/FatFs/src"],
+  "vendor_roots": [
+    {"path": "Middlewares/Third_Party/FatFs", "sources": ["src/ff.c"]}
+  ],
+  "defines": []
+}

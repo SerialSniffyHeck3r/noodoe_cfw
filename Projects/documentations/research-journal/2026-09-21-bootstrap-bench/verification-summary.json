@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "installed": "Bootstrap minimal UI",
+  "bench_only": true,
+  "stock_restore": {
+    "state": "resident_stock_install_verified",
+    "three_exact_full_reads": true,
+    "lower64_preserved": true,
+    "metadata": [
+      917504,
+      1048581,
+      32656,
+      458752,
+      0
+    ],
+    "sha256": "be1aa05f1aa95a669bdaf9aecf0e12399eab240d3f74cab58fc686678772e634",
+    "wireless_tested": false,
+    "physical_buttons_tested": false,
+    "debug_freeze_restored": true,
+    "stock_UI_unconfirmed": true
+  },
+  "watchdog": {
+    "actual_reset_observed": true,
+    "deliberate_failure_injection": true,
+    "reset_flags": "0x24000000",
+    "phase": 3,
+    "early_active": 1,
+    "automatic_stock_restore": false,
+    "bootstrap_image_preserved": true
+  },
+  "final_runtime": {
+    "app_match": true,
+    "watchdog_phase": 2,
+    "watchdog_failure": 0,
+    "watchdog_feeds": 9973,
+    "bootstrap_heartbeat": 9971,
+    "fault_magic": 0,
+    "ui_state": 8,
+    "bt_error": 770,
+    "storage_stage": 9,
+    "storage_error": 7
+  },
+  "tests": {
+    "ui_runs": 24,
+    "ui_all_pass": true,
+    "bt_runs": 14,
+    "bt_all_pass": true,
+    "watchdog_runs": [
+      {
+        "optimization": "O0",
+        "result": 0,
+        "failure_line": 0,
+        "assertions": 206,
+        "pre_c_without_initialized_ram": true,
+        "irq_no_feed": true,
+        "lsi_start_failure_latched": true,
+        "hardware_access": false
+      },
+      {
+        "optimization": "Os",
+        "result": 0,
+        "failure_line": 0,
+        "assertions": 206,
+        "pre_c_without_initialized_ram": true,
+        "irq_no_feed": true,
+        "lsi_start_failure_latched": true,
+        "hardware_access": false
+      }
+    ],
+    "android": {
+      "tests": 67,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "wireless_verified": false,
+  "physical_buttons_verified": false,
+  "physical_display_verified": false,
+  "gate_product_install_verified": false,
+  "vehicle_boot015_supported": false,
+  "artifacts": {
+    "build-fixed\\bootstrap.elf": {
+      "bytes": 3458984,
+      "sha256": "a8fd261e41b1a6fc650054475c544addfb8d8e7132f8991066507764db75ac16"
+    },
+    "build-fixed\\bootstrap.bin": {
+      "bytes": 436400,
+      "sha256": "abe8462e2e2be73a32529d23a90f469f84596cc35145a6a8c1a075cdd459621a"
+    },
+    "bootstrap-final.bin": {
+      "bytes": 458752,
+      "sha256": "fa315eedfb25d64cfd19fb8a8b0fa6ad1478387b0a0098a405c05c0cd2f8ef41"
+    },
+    "gate\\recovery_gate.elf": {
+      "bytes": 921036,
+      "sha256": "f21712b8993c5a8caa760803ea1c69672c2b2094bd0a38330a92ada814d09544"
+    },
+    "NoodoeInstaller-debug.apk": {
+      "bytes": 419142,
+      "sha256": "49b95986c8cc571b774d2a9498e3286baea2f14522c66f07455047df3e325c58"
+    },
+    "installer\\installer.zip": {
+      "bytes": 964976,
+      "sha256": "2d344956488233275df4ab52171c7b66454c5c213be7b7fce19876dfd56bb94d"
+    },
+    "stock-openocd-a.bin": {
+      "bytes": 524288,
+      "sha256": "be1aa05f1aa95a669bdaf9aecf0e12399eab240d3f74cab58fc686678772e634"
+    },
+    "stock-openocd-b.bin": {
+      "bytes": 524288,
+      "sha256": "be1aa05f1aa95a669bdaf9aecf0e12399eab240d3f74cab58fc686678772e634"
+    },
+    "return-bootstrap-a.bin": {
+      "bytes": 524288,
+      "sha256": "bcb905365ebf5f083012ceef76832dc2f46c2b4e49453985d2e184ff5c8ee48e"
+    },
+    "return-bootstrap-b.bin": {
+      "bytes": 524288,
+      "sha256": "bcb905365ebf5f083012ceef76832dc2f46c2b4e49453985d2e184ff5c8ee48e"
+    }
+  }
+}

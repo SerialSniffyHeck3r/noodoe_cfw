@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "status": "pass",
+      "assertions": 45529,
+      "full_raw_pair_swap_match": true,
+      "full_stock_decode_match": true,
+      "raw_sha256": "6e47279eb5a2db96a1b30c6f8b9d2412ed4cd2c88e96433fd98021a8c7bba356"
+    },
+    {
+      "optimization": "-Os",
+      "status": "pass",
+      "assertions": 45529,
+      "full_raw_pair_swap_match": true,
+      "full_stock_decode_match": true,
+      "raw_sha256": "6e47279eb5a2db96a1b30c6f8b9d2412ed4cd2c88e96433fd98021a8c7bba356"
+    }
+  ],
+  "production_cmsis_compile": "pass",
+  "image_fixture": {
+    "bytes": 458752,
+    "sha256": "a20f1f1d6634bb8bdf06ba2222724e2574492a28a7ba99cb5abd180decd29e11",
+    "crc32_iso": "0x07B68166"
+  },
+  "physical_fixture": {
+    "bytes": 458752,
+    "sha256": "6e47279eb5a2db96a1b30c6f8b9d2412ed4cd2c88e96433fd98021a8c7bba356",
+    "crc32_iso": "0xB798B2CA",
+    "layout": "physical byte p equals canonical APP byte p xor 1; BSP stub performs no codec"
+  },
+  "sources": {
+    "App_Logic\\Runtime\\src\\RuntimeUpdate.c": "1ffeb6c14b3ecf32d6f2aef6431b12078161556f225cc27af443a9870d883159",
+    "Middlewares\\Noodoe\\Update\\src\\Update_Service.c": "27ae683f2126590a8fc9c10df3f8b78277f5d05bbee793fd28705b79fce3575c",
+    "Middlewares\\Noodoe\\Update\\src\\NDCP.c": "640506de7a1bf7dde1395efed552c6c3aac1ccdc8fce12ec980d26b5a465b54c",
+    "Middlewares\\Noodoe\\Update\\src\\Update_SHA256.c": "4cf1e64c93951ee4fb9559e25a19efa36f00d7c011fa26da2d35d5bae8136c0c",
+    "Middlewares\\Noodoe\\Update\\src\\Recovery_Core.c": "43153af3dc79e44857cd5b6339d02d470cf035f5cd268eb7e7336246710e67e6",
+    "App_Logic\\Runtime\\inc\\RuntimeUpdate.h": "06b17470c9434b9e153bb73154646dcc9d54e90db46d3071232d1986a9b58a9e",
+    "Middlewares\\Noodoe\\Update\\inc\\Update_Service.h": "4d9813df7a3b44ce14c85f9710820b619dd525ccbb3ca34bd39cb8377d64045c",
+    "Middlewares\\Noodoe\\Update\\inc\\NDCP.h": "079f6d13df263c45cb92f6222723971b39d154d761ee2a97cd45eac1fa4d3446",
+    "Middlewares\\Noodoe\\Update\\inc\\Update_Metadata.h": "62fcd33347983c0b5a8e0fc93dcf9f93f66c9e0cb7b8251b738f3d689bc44459",
+    "Middlewares\\Noodoe\\Bluetooth\\inc\\NoodoeBluetooth.h": "09eb9301d2d31619ea66e2dd0b73bda7dc92239170df9e8b9de33014d0a55995",
+    "tools\\tests\\protocol_services\\runtime_update_test.c": "e140ba1c0b210a46da09f8f1132c9985523da09d5f758133b7131aa015921c62",
+    "tools\\tests\\protocol_services\\runtime_update_test_port.h": "022a590a7a42382042d1fa0473e31164b6ca0891665985f16a9c158f611bfdb4",
+    "tools\\tests\\protocol_services\\runtime_update_run.py": "785001980d3e26a0a08866e1577bd598c1396e5be228192f38f12aef70ec0bc7"
+  },
+  "limits": "실제 ARM adapter/UpdateService/NDCP/SHA 코드의 경계 시험이다. NOR/RAM/metadata/BT pause/reset/context는 대역이며 실제 장치와 RTOS 선점,UART pause,FLASH,전원차단 및 설치 결과를 검증하지 않는다."
+}

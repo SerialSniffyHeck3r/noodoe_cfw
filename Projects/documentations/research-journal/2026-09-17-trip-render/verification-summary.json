@@ -1,0 +1,414 @@
+{
+  "status": "installed; code-level defects verified; physical transient tearing confirmation pending",
+  "app_sha256": "533453a2d49e51f6553c4310df345268fe5c62f092fc1a03dd7823f004e9b68f",
+  "elf_sha256": "afc8234f21ee1fe59a376be1666be9c7172627b3e5016da1c63d8c16a8789d96",
+  "install": {
+    "state": "candidate-installed",
+    "app_sha256": "533453a2d49e51f6553c4310df345268fe5c62f092fc1a03dd7823f004e9b68f",
+    "bootloader_preserved": true,
+    "nor_written": false
+  },
+  "stop_threshold": {
+    "default_kph": 5,
+    "range_kph": [
+      0,
+      10
+    ],
+    "predicate": "speed < threshold; threshold 0 means speed == 0",
+    "lifetime": "RAM session"
+  },
+  "uart_speed_tests": {
+    "threshold_tests": [
+      {
+        "speed": 0,
+        "delta": {
+          "distance_mm": 0,
+          "moving_ms": 0,
+          "stopped_ms": 5556,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 4,
+        "delta": {
+          "distance_mm": 6176,
+          "moving_ms": 0,
+          "stopped_ms": 5558,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 5,
+        "delta": {
+          "distance_mm": 7691,
+          "moving_ms": 5537,
+          "stopped_ms": 0,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 10,
+        "delta": {
+          "distance_mm": 15528,
+          "moving_ms": 5590,
+          "stopped_ms": 0,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 50,
+        "delta": {
+          "distance_mm": 78000,
+          "moving_ms": 5616,
+          "stopped_ms": 0,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 160,
+        "delta": {
+          "distance_mm": 246089,
+          "moving_ms": 5537,
+          "stopped_ms": 0,
+          "unknown_ms": 0
+        },
+        "passed": true
+      },
+      {
+        "speed": 200,
+        "delta": {
+          "distance_mm": 307889,
+          "moving_ms": 5542,
+          "stopped_ms": 0,
+          "unknown_ms": 0
+        },
+        "passed": true
+      }
+    ],
+    "keys_attempted": 715907725,
+    "flash_written": false
+  },
+  "button_test_correction": {
+    "source": "exercise-v2/results.json",
+    "keys_attempted_is_request_sequence_not_count": true,
+    "up_down_requests": 32,
+    "enter_requests": 1,
+    "observed_transitions": 31,
+    "boot_held_mask": 1,
+    "explanation": "first UP suppressed by existing boot-held release guard"
+  },
+  "clip_test": {
+    "cases_per_build": 15,
+    "assertions_per_build": 279,
+    "optimizations": [
+      "O0",
+      "Os"
+    ]
+  },
+  "fifo_test": {
+    "assertions_per_build": 20,
+    "optimizations": [
+      "O0",
+      "Os"
+    ],
+    "hardware_exhaustion_observed": false
+  },
+  "post_capture_graphics": {
+    "magic": 1196572977,
+    "version": 1,
+    "sample_seq": 397654,
+    "stage": 4,
+    "last_error": 0,
+    "initialized": 1,
+    "process_count": 99168,
+    "last_process_ms": 959232,
+    "last_process_duration_ms": 0,
+    "max_process_duration_ms": 33,
+    "render_count": 28605,
+    "render_busy": 0,
+    "render_started_ms": 959206,
+    "last_render_ms": 959220,
+    "last_render_duration_ms": 14,
+    "max_render_duration_ms": 23,
+    "heap_total": 46092,
+    "heap_free": 29624,
+    "heap_largest": 26352,
+    "heap_used": 16468,
+    "heap_peak": 18000,
+    "heap_fragmentation": 12,
+    "eve_frames": 68947,
+    "eve_cmd_read": 868,
+    "eve_cmd_write": 868,
+    "eve_cmd_dl": 3268,
+    "eve_cpu_reset": 0,
+    "eve_pclk": 3,
+    "hardware_sample_ms": 958983,
+    "ramg_used": 15234,
+    "ramg_entries": 93,
+    "cache_resets": 0,
+    "input_pressed_mask": 1,
+    "input_boot_held_mask": 1,
+    "input_events": 69,
+    "input_dropped": 0,
+    "spi_tx_bytes": 79158231,
+    "spi_rx_bytes": 1211332,
+    "spi_failures": 0,
+    "log_warnings": 0
+  },
+  "post_capture_performance": {
+    "magic": 1196443185,
+    "version": 1,
+    "valid": 1,
+    "fps_tenths": 299,
+    "cpu_tenths": 708,
+    "target_fps_milli": 30000,
+    "continuous": 1,
+    "window_ms": 1000,
+    "window_frames": 30,
+    "frame_slots_missed": 117,
+    "cpu_window_cycles": 168006833,
+    "idle_window_cycles": 49198857
+  },
+  "transition_performance": {
+    "magic": 1196443185,
+    "version": 1,
+    "valid": 1,
+    "fps_tenths": 297,
+    "cpu_tenths": 837,
+    "target_fps_milli": 30000,
+    "continuous": 1,
+    "window_ms": 1009,
+    "window_frames": 30,
+    "frame_slots_missed": 42,
+    "cpu_window_cycles": 169656046,
+    "idle_window_cycles": 27815107
+  },
+  "rapid_replay_performance": {
+    "magic": 1196443185,
+    "version": 1,
+    "valid": 1,
+    "fps_tenths": 256,
+    "cpu_tenths": 872,
+    "target_fps_milli": 30000,
+    "continuous": 1,
+    "window_ms": 1012,
+    "window_frames": 26,
+    "frame_slots_missed": 39,
+    "cpu_window_cycles": 170099984,
+    "idle_window_cycles": 21895522
+  },
+  "capture": {
+    "image": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-17-trip-render\\final-capture\\display.png",
+    "snapshot": {
+      "magic": 1128353841,
+      "version": 1,
+      "request_seq": 352469855,
+      "command": 1,
+      "offset": 0,
+      "length": 0,
+      "expected_generation": 0,
+      "response_seq": 352469855,
+      "status": 0,
+      "generation": 4,
+      "width": 480,
+      "height": 480,
+      "format": 7,
+      "total_bytes": 460800,
+      "payload_length": 0,
+      "payload_crc32": 0,
+      "duration_ms": 1162,
+      "eve_frames": 54562,
+      "requests": 3,
+      "failures": 0
+    },
+    "chunks": 113,
+    "raw_sha256": "e2d24bed078061c8f5dfe87217f6fd6469ecbf3901799420b40fdd83003ded58",
+    "png_sha256": "dfc64c0ce28740fcb8236c16662d6ca7eed7c7844099ccb090abfa6a1bb86e2b"
+  },
+  "memory_free_bytes": {
+    "release_flash": 88540,
+    "debug_flash": 73412,
+    "sram": 35832,
+    "ccm": 16320
+  },
+  "final_uart": {
+    "magic": 1146308657,
+    "version": 1,
+    "initialized": 1,
+    "enabled": 1,
+    "phase": 2,
+    "link_up": 1,
+    "error": 0,
+    "rx_bytes": 115412,
+    "rx_frames": 8638,
+    "link_frames": 8638,
+    "tx_bytes": 14037,
+    "tx_frames": 2376,
+    "tx_requests": 219,
+    "tx_light": 2157,
+    "tx_stops": 0,
+    "uart_errors": 264,
+    "checksum_errors": 7,
+    "overflows": 0,
+    "pending_replies": 0,
+    "reply_overflows": 0,
+    "light_index": 0,
+    "light_source": 0,
+    "light_sample_ms": 0,
+    "calibration_valid": 1,
+    "pending_id": 0,
+    "completed_id": 0,
+    "completed_result": 0,
+    "process_count": 613635
+  },
+  "final_ui": {
+    "magic": 1347766577,
+    "version": 1,
+    "seq": 248808,
+    "ready": 1,
+    "error": 0,
+    "process_count": 124404,
+    "now_ms": 1227270,
+    "power": 2,
+    "home": 0,
+    "card": 1,
+    "footer": 0,
+    "menu": 0,
+    "modal": 0,
+    "warning": 0,
+    "remote": 0,
+    "epoch": 1,
+    "speed_valid": 1,
+    "odo_valid": 1,
+    "clock_valid": 0,
+    "speed_kph": 0,
+    "odo_km": 36478,
+    "arc_value": 0,
+    "arc_color": 3713279,
+    "max_kph": 200,
+    "units": 0,
+    "hour": 0,
+    "minute": 0,
+    "state_revision": 746495,
+    "effects_observed": 3,
+    "effects_unsupported": 0,
+    "effect_overflows": 0,
+    "scope_speed_only": 1,
+    "input_count": 69,
+    "ign_valid": 1,
+    "ign_on": 1,
+    "links": 0
+  },
+  "drive_status": {
+    "port": "COM11",
+    "baud": 115200,
+    "format": "8N1",
+    "cycle_seconds": 150,
+    "interval_seconds": 0.1,
+    "initial_odo_km": 36475,
+    "fuel_observed_bars": 1,
+    "segments": [
+      [
+        "stopped",
+        10,
+        0,
+        0
+      ],
+      [
+        "city_acceleration",
+        12,
+        0,
+        50
+      ],
+      [
+        "city_cruise",
+        15,
+        50,
+        50
+      ],
+      [
+        "road_acceleration",
+        10,
+        50,
+        90
+      ],
+      [
+        "road_cruise",
+        15,
+        90,
+        90
+      ],
+      [
+        "high_speed_acceleration",
+        14,
+        90,
+        160
+      ],
+      [
+        "overspeed_acceleration",
+        10,
+        160,
+        200
+      ],
+      [
+        "overspeed_cruise",
+        8,
+        200,
+        200
+      ],
+      [
+        "high_speed_deceleration",
+        20,
+        200,
+        60
+      ],
+      [
+        "approach",
+        10,
+        60,
+        60
+      ],
+      [
+        "braking_to_stop",
+        12,
+        60,
+        0
+      ],
+      [
+        "traffic_light_stop",
+        14,
+        0,
+        0
+      ]
+    ],
+    "seconds": 0.0,
+    "stop_file": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-17-trip-render\\drive-final\\stop",
+    "pid": 15124,
+    "running": true,
+    "error": null,
+    "tx_count": 2271,
+    "rx_bytes": 3342,
+    "phase": "overspeed_acceleration",
+    "speed_kph": 164,
+    "odo_km": 36479,
+    "distance_km": 4.674412499998252,
+    "completed_cycles": 1,
+    "timing_gaps": 0,
+    "source": "synthetic PC driving scenario; real physical UART",
+    "receive_verification": "not inferred from PC transmission",
+    "elapsed_seconds": 227.03100000007544,
+    "updated_unix": 1789650604.0882359,
+    "log_write_failures": 0
+  },
+  "limitations": [
+    "No physical scanout trace or user confirmation of symptom removal.",
+    "Rapid replay sample dipped to 25.6 FPS; not a guarantee of 30 FPS in every transition.",
+    "UART error counters increased; valid frames continue. No claim of error-free wiring.",
+    "Cube regeneration tested as configuration-restoration fixture, not GUI regeneration."
+  ]
+}

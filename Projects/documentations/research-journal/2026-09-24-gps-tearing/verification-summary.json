@@ -1,0 +1,111 @@
+{
+  "release": "6.9.7-gps-hotfix",
+  "apk_version": "6.9.6",
+  "apk_unchanged": true,
+  "apk_sha256": "70baf75f6163cd75b33fa5c7a9ff2f3adf210ba392e76b6d49b2979266e1dd7e",
+  "apk_bytes": 28695526,
+  "bundle_sha256": "1607be80915e8cb454d585d222d95b6d515982e83d1c252dc63c2b992b06be53",
+  "bundle_bytes": 1395180,
+  "production_importer": true,
+  "same_apk_signer": true,
+  "unchanged_components": {
+    "bootstrap": true,
+    "gate": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "diagnostic": true
+  },
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327672,
+        "free": 65544
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143080,
+        "free": 53272,
+        "sections": {
+          ".data": 2924,
+          ".bss": 138352,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 359464,
+        "free": 33752
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142160,
+        "free": 54192,
+        "sections": {
+          ".data": 2940,
+          ".bss": 137416,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "gps": [
+    {
+      "failure": 0,
+      "old_max": 7732,
+      "new_max": 4212,
+      "grid_max": 53,
+      "cases": 648,
+      "bad_vertices": 0,
+      "ring_mask_bytes": 516,
+      "opt": "O0",
+      "returned": true
+    },
+    {
+      "failure": 0,
+      "old_max": 7732,
+      "new_max": 4212,
+      "grid_max": 53,
+      "cases": 648,
+      "bad_vertices": 0,
+      "ring_mask_bytes": 516,
+      "opt": "Os",
+      "returned": true
+    },
+    {
+      "failure": 0,
+      "old_max": 7732,
+      "new_max": 4212,
+      "grid_max": 53,
+      "cases": 648,
+      "bad_vertices": 0,
+      "ring_mask_bytes": 516,
+      "opt": "Oz",
+      "returned": true
+    }
+  ],
+  "bench_accessed": false,
+  "actual_rf_test": false,
+  "actual_fps_measured": false
+}

@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">Phone log unavailable; riding stays connected</string>
+ <string name="companion_local_failed">Phone processing failed. Radio retries stopped; share diagnostics.</string>
+</resources>

@@ -1,0 +1,847 @@
+{
+  "apk_version": "6.8.0",
+  "version_code": 12,
+  "apk_sha256": "5312b158ea712586c50fc91cdfc298df18069962ff70f6163a829b432f20e0bd",
+  "apk_bytes": 28753903,
+  "bundle_sha256": "31919d891b6637eab6278e7e45cf0176fa43506c5204910ee9eacdac3e3891cf",
+  "bundle_bytes": 1294784,
+  "android": {
+    "tests": 202,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 82
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "unchanged": {
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "gate": true
+  },
+  "budgets": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 327564,
+        "free": 65652
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141568,
+        "free": 54784,
+        "sections": {
+          ".data": 2904,
+          ".bss": 136864,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 358360,
+        "free": 34856
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 141840,
+        "free": 54512,
+        "sections": {
+          ".data": 2920,
+          ".bss": 137120,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      },
+      "budget_passed": true
+    }
+  },
+  "arm_tests": {
+    "dashboard_pages": {
+      "runs": [
+        {
+          "data_debug": 0,
+          "optimization": "-O0",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2425,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 0,
+          "optimization": "-Os",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2425,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 0,
+          "optimization": "-Oz",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_easing_axes.part.0",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 3154,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-O0",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2455,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-Os",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2455,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-Oz",
+          "tests": [
+            "test_development_path",
+            "test_easing_axes",
+            "test_easing_axes.part.0",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 3184,
+          "status": "PASS"
+        }
+      ],
+      "sources": {
+        "ui_dashboard.c": "35e6766a95571ab5151e708d4a1a5d61b230bfd17fc1b3f5dc08b7f46d0cddf8",
+        "ui_dashboard_presenter.c": "3610f247c611b6b794efe4b90ecfef25a254389e259f84ba38ae3f7fc26b35dc",
+        "ui_input.c": "3a6cce80f3a79525060805c9ca43253317d006e7a4812f6b924f0ae4d862749f",
+        "ui_maintenance.c": "6521eab57136ebab7dae33f645a4a47dd308253e7a40866d59909bba689475a5",
+        "ui_navigation.c": "64a66478fa7374e270c40e1d1e89eb83e9365e4ac3e638715d98d9cfedb5ba44",
+        "ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "ui_phone.c": "fed7bdde68e00cd4f165cfe1999093114841839e2f56aa50c4cdfdf6ec06b495",
+        "ui_power.c": "c9cb67456e755fbcd5136e5c0d60a75059a16c35e79bafafc5ca3fc268b8a24a",
+        "ui_state.c": "f2cac1e854d79e366972893c86d81dd98079baac0bb40b686e29c3cdd86117cd",
+        "ui_theme.c": "4d1dbf7fb5311067d0a375d13fc9f8990ef45913dbc606da1f68cf38959c09bc",
+        "ui_warning.c": "237dbd82ce40546c55a0e18d1ce471eff650ef45aba34e1cdd7f06cde07c7091",
+        "trip_computer.c": "a9257a49b46c743a921ce830c7db082f99d42ef399316e7436dfe1edefb21f52",
+        "phone_content.c": "24743520479cdaab4a07f6897767c11a84367900a52fc3de2f222fadd5564e46",
+        "phone_trail.c": "80aee447f522b2e2c392c2e48488ba2556a642b15fb26af7f5b3077fe1a7f3bc",
+        "dashboard_pages.c": "6c5b0c4d6eafd788e7e31f8b6b3531ae527e3bcbb96c7f7092f2dd07f2282ebb",
+        "home_page.c": "62ad66cdd742b1610aee653898e526f481d8ac50231e52dcb9ce2419ca867ae6",
+        "page_preview.c": "1582a6d5463d576cd1afd5bb7fd199bd3cdc8d003032a36ecbc78f2233932794",
+        "development_data.c": "6da4ca59959014416f2f0cf61cb81e21a12f34b9c9374eb7e745f5acf3d1574d",
+        "page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+        "BSP_Calendar.c": "be2799e8dcbf4e6572fecbab4ef10ca8ac17d5e9248da03aede42eaa1682102d"
+      },
+      "scope": "Actual ARM C model only; no hardware or LVGL rendering claimed."
+    },
+    "phone_visual": {
+      "hardware": false,
+      "passed": true,
+      "cases": [
+        {
+          "opt": "O0",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        },
+        {
+          "opt": "Os",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        }
+      ]
+    },
+    "power_ui_host": {
+      "runs": [
+        {
+          "opt": "O0",
+          "result": 0,
+          "returned": true,
+          "assertions": 1155
+        },
+        {
+          "opt": "Os",
+          "result": 0,
+          "returned": true,
+          "assertions": 1155
+        }
+      ],
+      "hardware_access": false,
+      "sources": {
+        "App_Logic\\UI\\src\\ui_dashboard.c": "35e6766a95571ab5151e708d4a1a5d61b230bfd17fc1b3f5dc08b7f46d0cddf8",
+        "App_Logic\\UI\\src\\ui_dashboard_presenter.c": "3610f247c611b6b794efe4b90ecfef25a254389e259f84ba38ae3f7fc26b35dc",
+        "App_Logic\\UI\\src\\ui_input.c": "3a6cce80f3a79525060805c9ca43253317d006e7a4812f6b924f0ae4d862749f",
+        "App_Logic\\UI\\src\\ui_maintenance.c": "6521eab57136ebab7dae33f645a4a47dd308253e7a40866d59909bba689475a5",
+        "App_Logic\\UI\\src\\ui_navigation.c": "64a66478fa7374e270c40e1d1e89eb83e9365e4ac3e638715d98d9cfedb5ba44",
+        "App_Logic\\UI\\src\\ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "App_Logic\\UI\\src\\ui_phone.c": "fed7bdde68e00cd4f165cfe1999093114841839e2f56aa50c4cdfdf6ec06b495",
+        "App_Logic\\UI\\src\\ui_power.c": "c9cb67456e755fbcd5136e5c0d60a75059a16c35e79bafafc5ca3fc268b8a24a",
+        "App_Logic\\UI\\src\\ui_state.c": "f2cac1e854d79e366972893c86d81dd98079baac0bb40b686e29c3cdd86117cd",
+        "App_Logic\\UI\\src\\ui_theme.c": "4d1dbf7fb5311067d0a375d13fc9f8990ef45913dbc606da1f68cf38959c09bc",
+        "App_Logic\\UI\\src\\ui_warning.c": "237dbd82ce40546c55a0e18d1ce471eff650ef45aba34e1cdd7f06cde07c7091",
+        "App_Logic\\UI\\src\\power_ui.c": "97acf708c01c405159b90528f5886d12db7680ae1d208e219b42e787f0f87e4e",
+        "App_Logic\\UI\\src\\ignition_session.c": "2621d1348051abed12da77478ce1b31e7e99ada64757f4ad282c43478b1d4be2",
+        "Graphics\\UI\\src\\page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+        "Graphics\\UI\\src\\scene_transition.c": "f3c1008e6033248c6a29912543795a1b94a1942b7871c6bd1b46ccf9645c0062",
+        "Graphics\\UI\\src\\power_scene.c": "89d265da7ff9d88169c9cddf2c9eb1a8c32f0a782fab8d24e4c99edf40bf45e2"
+      }
+    },
+    "watchdog_host": {
+      "runs": [
+        {
+          "optimization": "O0",
+          "result": 0,
+          "failure_line": 0,
+          "assertions": 271,
+          "pre_c_without_initialized_ram": true,
+          "irq_no_feed": true,
+          "lsi_start_failure_latched": true,
+          "hardware_access": false
+        },
+        {
+          "optimization": "Os",
+          "result": 0,
+          "failure_line": 0,
+          "assertions": 271,
+          "pre_c_without_initialized_ram": true,
+          "irq_no_feed": true,
+          "lsi_start_failure_latched": true,
+          "hardware_access": false
+        }
+      ],
+      "sole_key_writer": [
+        "Drivers\\BSP\\src\\BSP_Watchdog.c"
+      ],
+      "sources": {
+        "Drivers\\BSP\\src\\BSP_Watchdog.c": "be94ef3dee81baa5daf469e2c04c76f60758dcbbbab236ce12d8e20444f273e5",
+        "Middlewares\\Noodoe\\Health\\src\\Health_Service.c": "b6e5a850daa204bd78a9a6e1521ea69e69ea09012f576f5c0e703d3ab91321a2",
+        "tools\\tests\\watchdog_host\\test_watchdog.c": "111534ad0247c0f1232f747a8553256f71b95a3cf7b8fcc6879165379c123b00"
+      }
+    },
+    "gate_product_update": {
+      "runs": [
+        {
+          "optimization": "O0",
+          "scenario": "Test_Transfer",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 523,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0,
+          "canonical_payload_sha256": "6900e0da780be01bc651ab19c2f97ef415df1ad0c0d8f5035cec40f9d479c28d",
+          "resident_metadata_commits": 0
+        },
+        {
+          "optimization": "O0",
+          "scenario": "Test_EarlyConfirmation",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "O0",
+          "scenario": "Test_WrongBootSequence",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "O0",
+          "scenario": "Test_RetainedRestore",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 7,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "O0",
+          "scenario": "Test_RetainedRestore",
+          "argument": 1,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "Os",
+          "scenario": "Test_Transfer",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 523,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0,
+          "canonical_payload_sha256": "6900e0da780be01bc651ab19c2f97ef415df1ad0c0d8f5035cec40f9d479c28d",
+          "resident_metadata_commits": 0
+        },
+        {
+          "optimization": "Os",
+          "scenario": "Test_EarlyConfirmation",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "Os",
+          "scenario": "Test_WrongBootSequence",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "Os",
+          "scenario": "Test_RetainedRestore",
+          "argument": 0,
+          "failure_line": 0,
+          "assertions": 7,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        },
+        {
+          "optimization": "Os",
+          "scenario": "Test_RetainedRestore",
+          "argument": 1,
+          "failure_line": 0,
+          "assertions": 6,
+          "returned": true,
+          "result": 0,
+          "physical_device": false,
+          "last_result": 0,
+          "last_offset": 0
+        }
+      ],
+      "sources": {
+        "App_Logic\\Runtime\\src\\RuntimeUpdate_Product.c": "db5e7b32073e634e1880f081687ded63cae7fd6c6d8452e145bcb84c61ad7fb3",
+        "Middlewares\\Noodoe\\Storage\\src\\boot_store.c": "80520472c64b480999b0a1f7d7cf6a56a4febc9b5be8a6164685f48ea60a6ea2",
+        "Middlewares\\Noodoe\\Update\\src\\Update_Service.c": "544c2691d3ff720c32d37fad05e6749cccf4eb66ce9830a5fc58a5241526df2e",
+        "Middlewares\\Noodoe\\Update\\src\\Update_SHA256.c": "4cf1e64c93951ee4fb9559e25a19efa36f00d7c011fa26da2d35d5bae8136c0c",
+        "Middlewares\\Noodoe\\Update\\src\\NDCP.c": "640506de7a1bf7dde1395efed552c6c3aac1ccdc8fce12ec980d26b5a465b54c",
+        "Middlewares\\Noodoe\\Update\\src\\Recovery_Core.c": "43153af3dc79e44857cd5b6339d02d470cf035f5cd268eb7e7336246710e67e6",
+        "RecoveryGate\\src\\gate_policy.c": "11389e9648757676e5af69eda5674e053fb9a35ad89d4ed592a52fa93fe0ac93",
+        "RecoveryGate\\src\\gate_format.c": "bd99311c375604e32f69627757737fa7ea3e712dab1a8d3c20fc3ffc6e983a67",
+        "tools\\tests\\gate_product_update\\test.c": "9b1542cffc3bd0780f5fc3b0a0ed71a39bce5b2944202d6c7427a2a876c49af4"
+      },
+      "fixture_sha256": "6900e0da780be01bc651ab19c2f97ef415df1ad0c0d8f5035cec40f9d479c28d",
+      "limits": "Actual ARM policy and adapter with fake file I/O. No FAT, real NOR, BT, IRQ races or physical reset exercised."
+    },
+    "subpixel_arc": [
+      {
+        "optimization": "O0",
+        "endpoint_samples": 10000,
+        "unique_endpoints": 9999,
+        "max_endpoint_error_px": 0.1391472931794144,
+        "status": "PASS"
+      },
+      {
+        "optimization": "Os",
+        "endpoint_samples": 10000,
+        "unique_endpoints": 9999,
+        "max_endpoint_error_px": 0.1391472931794144,
+        "status": "PASS"
+      }
+    ]
+  },
+  "bench_install": {
+    "installed": true,
+    "internal_readback_twice": true,
+    "stock_64k_unchanged": true,
+    "fat_unchanged": true,
+    "nor_sectors_written": 83,
+    "product_sha256": "c89ccf395edf968842ebd465dbe8afefbd4da340c501b4958210c68e5f013f6a",
+    "rf_verified": false
+  },
+  "actual_rf_test": false,
+  "hardware_access": true,
+  "physical_power_cut_test": false,
+  "actual_install_time_seconds": null,
+  "remaining": [
+    "Healthy-radio Android end-to-end reconnect and new name discovery",
+    "Road GPS and learned ODO calibration comparison"
+  ],
+  "steady_bench_performance": {
+    "samples": [
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1003,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1001,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1002,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.6,
+        "window_ms": 1001,
+        "frames": 30
+      },
+      {
+        "fps": 29.9,
+        "cpu_percent": 59.7,
+        "window_ms": 1002,
+        "frames": 30
+      }
+    ],
+    "mean_fps": 29.899999999999995,
+    "mean_cpu_percent": 59.60833333333334,
+    "scope": "12 steady home windows, no capture active; not worst-case radio load",
+    "g_graphics": [
+      1196572977,
+      1,
+      295641,
+      4,
+      0,
+      1,
+      70287,
+      574037,
+      0,
+      18,
+      16464,
+      0,
+      574019,
+      574024,
+      5,
+      15,
+      46180,
+      30240,
+      29976,
+      15940,
+      17724,
+      1,
+      41197,
+      3860,
+      3860,
+      1480,
+      0,
+      3,
+      573842,
+      32530,
+      91,
+      0,
+      1,
+      1,
+      3,
+      0,
+      30854955,
+      6681199,
+      0,
+      0
+    ],
+    "g_graphics_memory": [
+      1128484145,
+      1,
+      268435488,
+      49152,
+      79706,
+      0
+    ],
+    "g_health": [
+      1212961841,
+      1,
+      15,
+      4294967295,
+      5741,
+      1901,
+      1,
+      574062,
+      574063,
+      574061,
+      574059,
+      287032,
+      346988,
+      77578,
+      51828
+    ],
+    "g_bsp_fault": [
+      0,
+      0,
+      1921814015,
+      3554219975,
+      2799782622,
+      858524482,
+      3509879153,
+      2009663051,
+      459960899,
+      392536881
+    ],
+    "g_system_error": [
+      0,
+      0,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "g_noodoe_runtime": [
+      1314018353,
+      1,
+      1,
+      0,
+      287041,
+      347005,
+      77581,
+      574082,
+      574083,
+      574080,
+      0,
+      0,
+      3,
+      0,
+      0,
+      3152,
+      2184,
+      23792,
+      23792,
+      0
+    ],
+    "g_power_ui": [
+      1347766599,
+      3,
+      2,
+      0,
+      4311,
+      1,
+      0,
+      0,
+      0,
+      0,
+      572226,
+      0,
+      0,
+      0,
+      5,
+      5,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "gps_valid_fixture": {
+    "now_ms": 392375,
+    "session_open": 1,
+    "ign_on": 1,
+    "trail": {
+      "last_ms": 391780,
+      "live": 1,
+      "sample_ms": 391780,
+      "session": 1858
+    },
+    "gnss": {
+      "gnss_snapshot": [
+        25,
+        391780,
+        391780,
+        391780,
+        391780,
+        391780,
+        391780,
+        391780,
+        391780,
+        391780,
+        1,
+        370000000,
+        1270000000,
+        5000,
+        45000,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        534
+      ]
+    }
+  },
+  "captures": {
+    "after-belt.png": "a8482af2d0345913c3a48b9924906a02622e400f519e0a442c197114a6257b57",
+    "after-gps-heading-zoom.png": "d9722cf4fc0dbc8f9742c463ad89c6371386e053c11975d6ca327b8d09a0a7f8",
+    "after-gps-north.png": "d3404acad64bac7078d19bce467cb467642d6a4f676758572ca10ac542109cb5",
+    "after-light.png": "82f98583539e389c6f4b89b6e96ca9b57d2f05be4d83dd2425fbde5b78082f14",
+    "after-music.png": "8621890b8d8dce74bab3073bfa133f66afb4182aa6cfc61db232090744409528",
+    "after-oil.png": "d9ea2c93479631ca2f34fbe027a9a96c6b73f63975d63d46333ba751279328eb",
+    "after.png": "178e81e7d88ecb6739d5e6aec5a7bc5e6426ec00ed9dc4a185e9576fc95c6258"
+  }
+}

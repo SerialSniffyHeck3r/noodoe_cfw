@@ -1,0 +1,4 @@
+<resources>
+ <string name="companion_log_failed">手機日誌無法儲存；騎乘連線維持</string>
+ <string name="companion_local_failed">手機處理發生錯誤。已停止無線重試，請分享診斷資料。</string>
+</resources>

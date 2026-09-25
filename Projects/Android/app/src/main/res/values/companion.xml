@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="companion_0000" formatted="false">"Connect in riding mode to read the device settings."</string>
+    <string name="companion_0001" formatted="false">"OK"</string>
+    <string name="companion_0002" formatted="false">"Rider name"</string>
+    <string name="companion_0003" formatted="false">"Up to 48 UTF-8 bytes. Shown on the device after saving."</string>
+    <string name="companion_0004" formatted="false">"Cancel"</string>
+    <string name="companion_0005" formatted="false">"Apply"</string>
+    <string name="companion_0006" formatted="false">"Check the name length and connection."</string>
+    <string name="companion_0007" formatted="false">"Review saved ODO"</string>
+    <string name="companion_0008" formatted="false">"All device settings"</string>
+    <string name="companion_0009" formatted="false">"Close"</string>
+    <string name="companion_0010" formatted="false">"Refresh"</string>
+    <string name="companion_0011" formatted="false">"Stationary confirmed"</string>
+    <string name="companion_0012" formatted="false">"To edit, keep IGN ON and speed at or below 3 km/h for 5 seconds."</string>
+    <string name="companion_0013" formatted="false">"Brightness mode"</string>
+    <string name="companion_0014" formatted="false">"Noodoe brightness (%)"</string>
+    <string name="companion_0015" formatted="false">"Noodoe auto brightness offset"</string>
+    <string name="companion_0016" formatted="false">"Show wallpaper"</string>
+    <string name="companion_0017" formatted="false">"Photo slot"</string>
+    <string name="companion_0018" formatted="false">"Wallpaper center brightness (%)"</string>
+    <string name="companion_0019" formatted="false">"Key OFF photo"</string>
+    <string name="companion_0020" formatted="false">"Dashboard UART light-level offset"</string>
+    <string name="companion_0021" formatted="false">"UTC offset (minutes)"</string>
+    <string name="companion_0022" formatted="false">"Distance units"</string>
+    <string name="companion_0023" formatted="false">"Speed ring maximum (km/h)"</string>
+    <string name="companion_0024" formatted="false">"Vehicle model · read only"</string>
+    <string name="companion_0025" formatted="false">"Stopped-speed threshold (km/h)"</string>
+    <string name="companion_0026" formatted="false">"Device UI language · read only"</string>
+    <string name="companion_0027" formatted="false">"Display hold time (minutes)"</string>
+    <string name="companion_0028" formatted="false">"Bluetooth hold time (minutes)"</string>
+    <string name="companion_0029" formatted="false">"Display hold stage"</string>
+    <string name="companion_0030" formatted="false">"Bluetooth hold stage"</string>
+    <string name="companion_0031" formatted="false">"Deep sleep stage"</string>
+    <string name="companion_0032" formatted="false">"Oil change distance (km)"</string>
+    <string name="companion_0033" formatted="false">"Oil change ignition time (h)"</string>
+    <string name="companion_0034" formatted="false">"Oil change days"</string>
+    <string name="companion_0035" formatted="false">"Belt change distance (km)"</string>
+    <string name="companion_0036" formatted="false">"Belt change ignition time (h)"</string>
+    <string name="companion_0037" formatted="false">"Belt change days"</string>
+    <string name="companion_0038" formatted="false">"Service distance (km)"</string>
+    <string name="companion_0039" formatted="false">"Service ignition time (h)"</string>
+    <string name="companion_0040" formatted="false">"Service days"</string>
+    <string name="companion_0041" formatted="false">"Device theme"</string>
+    <string name="companion_0042" formatted="false">"Automatic theme source"</string>
+    <string name="companion_0043" formatted="false">"Light mode starts"</string>
+    <string name="companion_0044" formatted="false">"Dark mode starts"</string>
+    <string name="companion_0045" formatted="false">"Dark threshold (lux)"</string>
+    <string name="companion_0046" formatted="false">"Light threshold (lux)"</string>
+    <string name="companion_0047" formatted="false">"Date"</string>
+    <string name="companion_0048" formatted="false">"Time"</string>
+    <string name="companion_0049" formatted="false">"Mark oil changed"</string>
+    <string name="companion_0050" formatted="false">"Mark belt changed"</string>
+    <string name="companion_0051" formatted="false">"Mark service complete"</string>
+    <string name="companion_0052" formatted="false">"Reset display settings"</string>
+    <string name="companion_0053" formatted="false">"Allow Bluetooth pairing"</string>
+    <string name="companion_0054" formatted="false">"Close pairing"</string>
+    <string name="companion_0055" formatted="false">"Disconnect Bluetooth"</string>
+    <string name="companion_0056" formatted="false">"Pair Bluetooth again"</string>
+    <string name="companion_0057" formatted="false">"Restart Bluetooth"</string>
+    <string name="companion_0058" formatted="false">"Retry light sensor"</string>
+    <string name="companion_0059" formatted="false">"Connected phone"</string>
+    <string name="companion_0060" formatted="false">"Bluetooth status"</string>
+    <string name="companion_0061" formatted="false">"Firmware version"</string>
+    <string name="companion_0062" formatted="false">"Auto brightness status"</string>
+    <string name="companion_0063" formatted="false">"Final sleep wait"</string>
+    <string name="companion_0064" formatted="false">"BT controller / patch"</string>
+    <string name="companion_0065" formatted="false">"SPP traffic"</string>
+    <string name="companion_0066" formatted="false">"SPP queues / errors"</string>
+    <string name="companion_0067" formatted="false">"Ambient light"</string>
+    <string name="companion_0068" formatted="false">"Light RAW / age"</string>
+    <string name="companion_0069" formatted="false">"Light chip / config"</string>
+    <string name="companion_0070" formatted="false">"Light I2C status"</string>
+    <string name="companion_0071" formatted="false">"Dashboard UART"</string>
+    <string name="companion_0072" formatted="false">"UART frames"</string>
+    <string name="companion_0073" formatted="false">"Light raw / offset / transmitted"</string>
+    <string name="companion_0074" formatted="false">"UART speed / fuel RAW"</string>
+    <string name="companion_0075" formatted="false">"Phone GPS"</string>
+    <string name="companion_0076" formatted="false">"Ignition input"</string>
+    <string name="companion_0077" formatted="false">"PH9 input mode"</string>
+    <string name="companion_0078" formatted="false">"Manual"</string>
+    <string name="companion_0079" formatted="false">"Automatic"</string>
+    <string name="companion_0080" formatted="false">"Off"</string>
+    <string name="companion_0081" formatted="false">"On"</string>
+    <string name="companion_0082" formatted="false">"Photo 0"</string>
+    <string name="companion_0083" formatted="false">"Photo 1"</string>
+    <string name="companion_0084" formatted="false">"Photo 2"</string>
+    <string name="companion_0085" formatted="false">"Same as riding wallpaper"</string>
+    <string name="companion_0086" formatted="false">"Dark"</string>
+    <string name="companion_0087" formatted="false">"Light"</string>
+    <string name="companion_0088" formatted="false">"Ambient sensor"</string>
+    <string name="companion_0089" formatted="false">"Schedule"</string>
+    <string name="companion_0090" formatted="false">"Read"</string>
+    <string name="companion_0091" formatted="false">"Run"</string>
+    <string name="companion_0092" formatted="false">"The request queue is full."</string>
+    <string name="companion_0093" formatted="false">"Run this action? Bluetooth actions may disconnect the phone. Reconnect to check the actual result."</string>
+    <string name="companion_0094" formatted="false">"\nPositive values raise the UART level index. Noodoe display brightness stays unchanged."</string>
+    <string name="companion_0095" formatted="false">"Enter a whole number within the range."</string>
+    <string name="companion_0096" formatted="false">"Saved display: "</string>
+    <string name="companion_0097" formatted="false">"Unknown"</string>
+    <string name="companion_0098" formatted="false">"\nDashboard received: "</string>
+    <string name="companion_0099" formatted="false">"Using the adjusted value.\n"</string>
+    <string name="companion_0100" formatted="false">"Save status: "</string>
+    <string name="companion_0101" formatted="false">"Saved ODO"</string>
+    <string name="companion_0102" formatted="false">"Keep saved value"</string>
+    <string name="companion_0103" formatted="false">"Use dashboard value"</string>
+    <string name="companion_0104" formatted="false">"Use the new dashboard value as the baseline?"</string>
+    <string name="companion_0105" formatted="false">"Use"</string>
+    <string name="companion_0106" formatted="false">"Later"</string>
+    <string name="companion_0107" formatted="false">"Connect. Ride. Make it yours."</string>
+    <string name="companion_0108" formatted="false">"Device connection · app theme"</string>
+    <string name="companion_0109" formatted="false">"App theme"</string>
+    <string name="companion_0110" formatted="false">"App language · Language"</string>
+    <string name="companion_0111" formatted="false">"Pair a new device"</string>
+    <string name="companion_0112" formatted="false">"Refresh device list"</string>
+    <string name="companion_0113" formatted="false">"Associate companion · auto-connect"</string>
+    <string name="companion_0114" formatted="false">"Preparing installation"</string>
+    <string name="companion_0115" formatted="false">"View all steps and current position"</string>
+    <string name="companion_0116" formatted="false">"Check the Noodoe screen"</string>
+    <string name="companion_0117" formatted="false">"If NOODOE INSTALLER is visible, installation is still running.\n\nTap below once CFW UPDATE appears with Starting Bluetooth, Waiting for your phone, or Checking the new version. Bluetooth and healthy operation are checked next.\n\nThe 180-second rollback deadline starts at device boot and keeps running while you wait here."</string>
+    <string name="companion_0118" formatted="false">"New CFW screen is visible · check connection"</string>
+    <string name="companion_0119" formatted="false">"Ride"</string>
+    <string name="companion_0120" formatted="false">"Customize"</string>
+    <string name="companion_0121" formatted="false">"Install"</string>
+    <string name="companion_0122" formatted="false">"Connect to Noodoe"</string>
+    <string name="companion_0123" formatted="false">"Stop riding link · prepare update"</string>
+    <string name="companion_0124" formatted="false">"Sync music, notifications and GPS trails. Location is sent only while ignition is ON."</string>
+    <string name="companion_0125" formatted="false">"Ride history"</string>
+    <string name="companion_0126" formatted="false">"Start recording manually to save rides on the phone. Music, notifications, GPS and device trip/service totals work without recording. Disconnected intervals remain unknown."</string>
+    <string name="companion_0127" formatted="false">"Start ride recording"</string>
+    <string name="companion_0128" formatted="false">"View saved rides"</string>
+    <string name="companion_0129" formatted="false">"5 quick replies · signature · text region"</string>
+    <string name="companion_0130" formatted="false">"10 favorite contacts · edit order"</string>
+    <string name="companion_0131" formatted="false">"Choose notification apps"</string>
+    <string name="companion_0132" formatted="false">"Send test notification"</string>
+    <string name="companion_0133" formatted="false">"View / edit current device settings"</string>
+    <string name="companion_0134" formatted="false">"Stop the riding link before replacing photos or updating firmware. Photos are center-cropped to a square."</string>
+    <string name="companion_0135" formatted="false">"Wallpaper "</string>
+    <string name="companion_0136" formatted="false">" · replace"</string>
+    <string name="companion_0137" formatted="false">"Need help? · recovery and diagnostics"</string>
+    <string name="companion_0138" formatted="false">"Reset connection / installation state"</string>
+    <string name="companion_0139" formatted="false">"Back to stock"</string>
+    <string name="companion_0140" formatted="false">"Share diagnostics"</string>
+    <string name="companion_0141" formatted="false">"Without a phone connection, choose Back to stock in Bootstrap, release O, then hold O again for 2 seconds. No extra IGN operation is needed."</string>
+    <string name="companion_0142" formatted="false">"Show detailed diagnostic / recovery tools"</string>
+    <string name="companion_0143" formatted="false">"Hide detailed tools"</string>
+    <string name="companion_0144" formatted="false">"Read stock device information"</string>
+    <string name="companion_0145" formatted="false">"Compare package with stock device"</string>
+    <string name="companion_0146" formatted="false">"Bluetooth 8 KiB loopback self-test"</string>
+    <string name="companion_0147" formatted="false">"Check Bootstrap connection only"</string>
+    <string name="companion_0148" formatted="false">"Read Noodoe progress"</string>
+    <string name="companion_0149" formatted="false">"Deep diagnostics: full NOR double backup"</string>
+    <string name="companion_0150" formatted="false">"Not needed for normal installation. Bootstrap reads 128 MiB twice to preserve and compare it. This takes time and needs over 300 MiB free on the phone. Keep permanent power connected."</string>
+    <string name="companion_0151" formatted="false">"Verify stock return"</string>
+    <string name="companion_0152" formatted="false">"Install separate diagnostic firmware"</string>
+    <string name="companion_0153" formatted="false">"Stop the riding link first. After diagnostics, choose Back to stock on Noodoe and hold O for 2 seconds. Settings and photos stay. A supported Gate is required."</string>
+    <string name="companion_0154" formatted="false">"View diagnostic status"</string>
+    <string name="companion_0155" formatted="false">"Download diagnostic logs"</string>
+    <string name="companion_0156" formatted="false">"Finish diagnostics · stock return guide"</string>
+    <string name="companion_0157" formatted="false">"Verify healthy CFW boot"</string>
+    <string name="companion_0158" formatted="false">"Check an interrupted operation"</string>
+    <string name="companion_0159" formatted="false">"Download device diagnostic records"</string>
+    <string name="companion_0160" formatted="false">"Acknowledge rollback result"</string>
+    <string name="companion_0161" formatted="false">"Have you reviewed the failed update and rollback? The evidence stays; only your acknowledgement is saved."</string>
+    <string name="companion_0162" formatted="false">"View operation journal"</string>
+    <string name="companion_0163" formatted="false">"Save backup and journal"</string>
+    <string name="companion_0164" formatted="false">"Failed initial file creation is not retried automatically. From running CFW, enter independent Gate with key OFF → hold O about 1 second → key ON while holding O → hold 2 more seconds."</string>
+    <string name="companion_0165" formatted="false">"Permissions and setup  ›"</string>
+    <string name="companion_0166" formatted="false">"No firmware selected."</string>
+    <string name="companion_0167" formatted="false">"Selected firmware: "</string>
+    <string name="companion_0168" formatted="false">"Allow notification access first. Choose from apps with current notifications."</string>
+    <string name="companion_0169" formatted="false">"Apps to forward notifications from"</string>
+    <string name="companion_0170" formatted="false">"Save"</string>
+    <string name="companion_0171" formatted="false">"Keep CFW data (default)"</string>
+    <string name="companion_0172" formatted="false">"Erase CFW data too"</string>
+    <string name="companion_0173" formatted="false">"Next"</string>
+    <string name="companion_0174" formatted="false">"Gate restores only the stock APP. CFW settings, photos, records and FAT stay intact."</string>
+    <string name="companion_0175" formatted="false">"The erase-only firmware is sent first. On Noodoe, use UP/DOWN to select Erase CFW data, release O and hold it again for 2 seconds. It erases CFW file contents and frees their space. Stock photos, factory data and phone logs stay. Physical power-cut testing of this route is not yet complete."</string>
+    <string name="companion_0176" formatted="false">"Install CFW · retained data"</string>
+    <string name="companion_0177" formatted="false">"Start fresh (reset settings / CFW photos)"</string>
+    <string name="companion_0178" formatted="false">"Restore retained data (compatible records only)"</string>
+    <string name="companion_0179" formatted="false">"Continue installation"</string>
+    <string name="companion_0180" formatted="false">"Back"</string>
+    <string name="companion_0181" formatted="false">"Continue"</string>
+    <string name="companion_0182" formatted="false">"One moment. Preparing the connection."</string>
+    <string name="companion_0183" formatted="false">"Operation started. Checking progress."</string>
+    <string name="companion_0184" formatted="false">"Choose a Noodoe to connect"</string>
+    <string name="companion_0185" formatted="false">"Selected Noodoe · reconnect pairing · "</string>
+    <string name="companion_0186" formatted="false">"Allow Nearby devices to select Noodoe."</string>
+    <string name="companion_0187" formatted="false">"Features without permission stay off. You can enable them in Permissions and setup."</string>
+    <string name="companion_0188" formatted="false">"Device association is complete. Check the auto-connect permission."</string>
+    <string name="companion_0189" formatted="false">"Stop ride recording"</string>
+    <string name="companion_0190" formatted="false">"Awaiting confirmation · up to "</string>
+    <string name="companion_0191" formatted="false">" seconds"</string>
+    <string name="companion_0192" formatted="false">"Waiting to identify the device after installation."</string>
+    <string name="companion_0193" formatted="false">"Send the installer to stock firmware? Device/package compatibility is checked first. Then follow the key instructions on Noodoe."</string>
+    <string name="companion_0194" formatted="false">"Send the new CFW? Settings and CFW photos reset after healthy boot confirmation. A failed trial rolls back to the previous state."</string>
+    <string name="companion_0195" formatted="false">"Return to stock and keep CFW data? Older recovery layouts can migrate through stock and Bootstrap from the latest ZIP. Devices supporting normal CFW updates do not need this route."</string>
+    <string name="companion_0196" formatted="false">"No saved rides yet. Connect in riding mode and tap Start ride recording."</string>
+    <string name="companion_0197" formatted="false">"Ride history · latest 50 intervals"</string>
+    <string name="companion_0198" formatted="false">"Export full CSV"</string>
+    <string name="companion_0199" formatted="false">"Could not open ride history. Check phone storage."</string>
+    <string name="companion_0200" formatted="false">"Permissions and setup. "</string>
+    <string name="companion_0201" formatted="false">"Display theme"</string>
+    <string name="companion_0202" formatted="false">"Follow system"</string>
+    <string name="companion_0203" formatted="false">"한국어"</string>
+    <string name="companion_0204" formatted="false">"Reset the app connection and current operation selection. Device firmware, settings, existing logs and recovery evidence are not deleted.\n\nNo device ABORT command is sent. Operations with unknown results are queried first after reconnecting."</string>
+    <string name="companion_0205" formatted="false">"Reset app state"</string>
+    <string name="companion_0206" formatted="false">"Choose the device again"</string>
+    <string name="companion_0207" formatted="false">"Check location-service permission. The riding link stays connected."</string>
+    <string name="companion_0208" formatted="false">"This is the last display from a previous operation. Nothing resumed automatically. Check device status and the journal.\n\n"</string>
+    <string name="companion_0209" formatted="false">"Phone ride recording started."</string>
+    <string name="companion_0210" formatted="false">"Phone recording stopped. Music, notifications and GPS stay connected."</string>
+    <string name="companion_0211" formatted="false">"Could not save the stopped-link state. Check phone storage."</string>
+    <string name="companion_0212" formatted="false">"Riding link stopped manually. You can update now."</string>
+    <string name="companion_0213" formatted="false">"Choose a Noodoe to install. Pair it in Android settings first."</string>
+    <string name="companion_0214" formatted="false">"Ride history CSV saved."</string>
+    <string name="companion_0215" formatted="false">"Could not export ride history. Check the destination."</string>
+    <string name="companion_0216" formatted="false">"Could not log the device switch. Check storage space."</string>
+    <string name="companion_0217" formatted="false">"Device selected. Choose its installation ZIP."</string>
+    <string name="companion_0218" formatted="false">"Previous record for this device. Its state will be checked on a new connection.\n"</string>
+    <string name="companion_0219" formatted="false">"App connection and selection reset. Device work was not cancelled. Choose Noodoe and check its state first."</string>
+    <string name="companion_0220" formatted="false">"Could not save the reset record. Stopped with existing evidence preserved."</string>
+    <string name="companion_0221" formatted="false">"Android blocked the background service. Open the app and check permissions."</string>
+    <string name="companion_0222" formatted="false">"Noodoe connection and progress"</string>
+    <string name="companion_0223" formatted="false">"Noodoe riding link"</string>
+    <string name="companion_0224" formatted="false">"Preparing Noodoe"</string>
+    <string name="companion_0225" formatted="false">"Tap to view progress."</string>
+    <string name="companion_0226" formatted="false">"Riding link stays active. For automatic GPS, allow location all the time or open the app."</string>
+    <string name="companion_0227" formatted="false">"Allow Nearby devices, then try again."</string>
+    <string name="companion_0228" formatted="false">"Check the update result first. Automatic riding link stays off until then."</string>
+    <string name="companion_0229" formatted="false">"Could not save connection state."</string>
+    <string name="companion_0230" formatted="false">"Tap Stop riding link · prepare update first."</string>
+    <string name="companion_0231" formatted="false">"One moment. Getting ready."</string>
+    <string name="companion_0232" formatted="false">"Could not start background work. Keep the app open and check Bluetooth permission."</string>
+    <string name="companion_0233" formatted="false">"Choose Noodoe first."</string>
+    <string name="companion_0234" formatted="false">"Choose a device and photo first."</string>
+    <string name="companion_0235" formatted="false">"Photo slot "</string>
+    <string name="companion_0236" formatted="false">" saved. Select the wallpaper in device settings."</string>
+    <string name="companion_0237" formatted="false">"Package checked. Next, verify that it matches the device."</string>
+    <string name="companion_0238" formatted="false">"Could not open the log file."</string>
+    <string name="companion_0239" formatted="false">"Diagnostic logs saved. Photos, notification content and full backups are excluded."</string>
+    <string name="companion_0240" formatted="false">"Backup and journal saved."</string>
+    <string name="companion_0241" formatted="false">"Riding"</string>
+    <string name="companion_0242" formatted="false">"Ignition standby"</string>
+    <string name="companion_0243" formatted="false">" · saving settings"</string>
+    <string name="companion_0244" formatted="false">"Disconnected. Reconnecting "</string>
+    <string name="companion_0245" formatted="false">"Reconnect limit reached. Check Noodoe and Bluetooth."</string>
+    <string name="companion_0246" formatted="false">"Riding link ended. Location collection stopped too."</string>
+    <string name="companion_0247" formatted="false">"Check the photo dimensions."</string>
+    <string name="companion_0248" formatted="false">"Could not decode the whole photo."</string>
+    <string name="companion_0249" formatted="false">"Device connection "</string>
+    <string name="companion_0250" formatted="false">" · music / notifications "</string>
+    <string name="companion_0251" formatted="false">"Ready"</string>
+    <string name="companion_0252" formatted="false">"Setup needed"</string>
+    <string name="companion_0253" formatted="false">"Tap an item to grant access in Android. Allowed features work independently. Music uses notification access, not microphone permission."</string>
+    <string name="companion_0254" formatted="false">"Nearby devices · Bluetooth"</string>
+    <string name="companion_0255" formatted="false">"Music information / phone notifications"</string>
+    <string name="companion_0256" formatted="false">"Precise location · GPS trail"</string>
+    <string name="companion_0257" formatted="false">"Contacts · favorite callers"</string>
+    <string name="companion_0258" formatted="false">"Recent call history"</string>
+    <string name="companion_0259" formatted="false">"Call the selected contact"</string>
+    <string name="companion_0260" formatted="false">"Answer / end calls · companion association"</string>
+    <string name="companion_0261" formatted="false">"Your existing dialer and headset stay. Answer/end needs companion association and Android 12+. If Android restricts call-history access, the list shows Permission Denied!."</string>
+    <string name="companion_0262" formatted="false">"Phone location services"</string>
+    <string name="companion_0263" formatted="false">"Automatic background GPS · allow location all the time"</string>
+    <string name="companion_0264" formatted="false">"Allow precise location first."</string>
+    <string name="companion_0265" formatted="false">"Screen-off connection · check battery restrictions"</string>
+    <string name="companion_0266" formatted="false">"Power saving may restrict GPS"</string>
+    <string name="companion_0267" formatted="false">"Show connection / progress notifications"</string>
+    <string name="companion_0268" formatted="false">"Start the riding link with the app open; location continues with the screen off while IGN is ON. Key OFF or disconnection stops collection. For automatic background reconnect, allow location all the time. On Galaxy, also check App info → Battery → Unrestricted. Turn off power saving if it blocks screen-off GPS. Installation does not require location permission."</string>
+    <string name="companion_0269" formatted="false">"Prepare riding integration"</string>
+    <string name="companion_0270" formatted="false">"Done"</string>
+    <string name="companion_0271" formatted="false">"App settings"</string>
+    <string name="companion_0272" formatted="false">"Could not open the Android request. Check permissions in app settings."</string>
+    <string name="companion_0273" formatted="false">"Open this app\'s permissions in Android settings."</string>
+    <string name="companion_0274" formatted="false">"Bluetooth loopback test "</string>
+    <string name="companion_0275" formatted="false">"Bluetooth 8 KiB send/receive and CRC match / "</string>
+    <string name="companion_0276" formatted="false">" ms. Flash was not changed."</string>
+    <string name="companion_0277" formatted="false">"In progress"</string>
+    <string name="companion_0278" formatted="false">"Wait for this step to finish"</string>
+    <string name="companion_0279" formatted="false">"Overall/current progress above shows device-confirmed results. No need to tap repeatedly after a disconnect."</string>
+    <string name="companion_0280" formatted="false">"Diagnostic mode"</string>
+    <string name="companion_0281" formatted="false">"Return to stock after testing"</string>
+    <string name="companion_0282" formatted="false">"Select with UP/DOWN on the device and press O. Diagnostic firmware is not riding mode and does not reset settings/photos."</string>
+    <string name="companion_0283" formatted="false">"Read current diagnostic result"</string>
+    <string name="companion_0284" formatted="false">"Save diagnostic logs"</string>
+    <string name="companion_0285" formatted="false">"Confirm stock return on the device"</string>
+    <string name="companion_0286" formatted="false">"Check whether stock is running"</string>
+    <string name="companion_0287" formatted="false">"Even without a connection, select Back to stock and hold O freshly for 2 seconds."</string>
+    <string name="companion_0288" formatted="false">"Troubleshooting wizard"</string>
+    <string name="companion_0289" formatted="false">"First, check what has completed"</string>
+    <string name="companion_0290" formatted="false">"A stopped installation is not resent from scratch. Check device → last operation → resume. Logs and recovery evidence remain preserved."</string>
+    <string name="companion_0291" formatted="false">"1. Check current device"</string>
+    <string name="companion_0292" formatted="false">"Device is in Bootstrap · auto-connect"</string>
+    <string name="companion_0293" formatted="false">"Device returned to stock · verify"</string>
+    <string name="companion_0294" formatted="false">"Identified screen · "</string>
+    <string name="companion_0295" formatted="false">"2. Select the installation ZIP used"</string>
+    <string name="companion_0296" formatted="false">"2. Check current CFW / installation result"</string>
+    <string name="companion_0297" formatted="false">"You can select the latest ZIP for older CFW. Update or resume below without downgrading the phone app."</string>
+    <string name="companion_0298" formatted="false">"3. Update / resume CFW"</string>
+    <string name="companion_0299" formatted="false">"Select another update ZIP"</string>
+    <string name="companion_0300" formatted="false">"Different recovery layer: return to stock before upgrading"</string>
+    <string name="companion_0301" formatted="false">"2. Verify stock restoration"</string>
+    <string name="companion_0302" formatted="false">"2. Check the last operation"</string>
+    <string name="companion_0303" formatted="false">"3. Check and resume installation"</string>
+    <string name="companion_0304" formatted="false">"Save and share diagnostics"</string>
+    <string name="companion_0305" formatted="false">"Reset connection and selection"</string>
+    <string name="companion_0306" formatted="false">"Recovering on the Noodoe"</string>
+    <string name="companion_0307" formatted="false">"Bootstrap: select Back to stock, release O, then hold it for 2 seconds. CFW emergency recovery: key OFF → hold O for 1 second → keep holding and turn key ON → hold for 2 seconds. Follow the device screen."</string>
+    <string name="companion_0308" formatted="false">"Installation wizard · 1 / 4"</string>
+    <string name="companion_0309" formatted="false">"Connect your Noodoe"</string>
+    <string name="companion_0310" formatted="false">"Select the paired Noodoe above. The app will check what is installed."</string>
+    <string name="companion_0311" formatted="false">"Pair Noodoe"</string>
+    <string name="companion_0312" formatted="false">"Check required permissions"</string>
+    <string name="companion_0313" formatted="false">"Checking your device"</string>
+    <string name="companion_0314" formatted="false">"When Bootstrap appears, select Install CFW on the device. The app starts pairing and checks the connection without resending the installer."</string>
+    <string name="companion_0315" formatted="false">"The app identifies stock firmware, Bootstrap or CFW and guides the next step. This check does not change firmware."</string>
+    <string name="companion_0316" formatted="false">"Connect to Bootstrap automatically"</string>
+    <string name="companion_0317" formatted="false">"Check device and continue"</string>
+    <string name="companion_0318" formatted="false">"Installation wizard · 2 / 4"</string>
+    <string name="companion_0319" formatted="false">"Choose update file"</string>
+    <string name="companion_0320" formatted="false">"Choose installation file"</string>
+    <string name="companion_0321" formatted="false">"Verified device · "</string>
+    <string name="companion_0322" formatted="false">"Choose the ZIP used to install this Bootstrap. A version mismatch will be reported during verification."</string>
+    <string name="companion_0323" formatted="false">"Choose the downloaded installer.zip. Integrity and compatibility are checked before transfer."</string>
+    <string name="companion_0324" formatted="false">"Choose ZIP"</string>
+    <string name="companion_0325" formatted="false">"Check device again"</string>
+    <string name="companion_0326" formatted="false">"CFW update · Ready"</string>
+    <string name="companion_0327" formatted="false">"Installation wizard · 3 / 4"</string>
+    <string name="companion_0328" formatted="false">"Update to the new version"</string>
+    <string name="companion_0329" formatted="false">"Continue CFW installation"</string>
+    <string name="companion_0330" formatted="false">"Reinstall from stock"</string>
+    <string name="companion_0331" formatted="false">"Prepare the installer"</string>
+    <string name="companion_0332" formatted="false">"Device · "</string>
+    <string name="companion_0333" formatted="false">"\nFile · "</string>
+    <string name="companion_0334" formatted="false">"Transfer APP → restart → verify normal operation. Unchanged assets are not sent again."</string>
+    <string name="companion_0335" formatted="false">"Select Install CFW on the Noodoe, then start. Files are prepared and verified; final approval is on the Noodoe."</string>
+    <string name="companion_0336" formatted="false">"First, a small installer is transferred. When Bootstrap appears, check the device again and continue installing CFW."</string>
+    <string name="companion_0337" formatted="false">"Keep permanent power connected. Once confirmed, CFW settings and photo slots are reset. Stock photos and recovery data are preserved."</string>
+    <string name="companion_0338" formatted="false">"Confirm update"</string>
+    <string name="companion_0339" formatted="false">"Confirm installer transfer"</string>
+    <string name="companion_0340" formatted="false">"Choose another ZIP"</string>
+    <string name="companion_0341" formatted="false">"Stock Noodoe"</string>
+    <string name="companion_0342" formatted="false">"The previous operation on this device needs to be checked again."</string>
+    <string name="companion_0343" formatted="false">"Previous operation: "</string>
+    <string name="companion_0344" formatted="false">"Check the previous operation record"</string>
+    <string name="companion_0345" formatted="false">"Please approve stock restoration on the device."</string>
+    <string name="companion_0346" formatted="false">"Restoration requested. Please check whether stock firmware is running."</string>
+    <string name="companion_0347" formatted="false">"SPP connection interrupted"</string>
+    <string name="companion_0348" formatted="false">"Establishing secure Bluetooth connection · "</string>
+    <string name="companion_0349" formatted="false">" / 3 attempts. Existing pairing is preserved."</string>
+    <string name="companion_0350" formatted="false">"Pairing wait interrupted."</string>
+    <string name="companion_0351" formatted="false">"Pairing with Noodoe. Accept the Android pairing request if shown. Select Install CFW in Bootstrap."</string>
+    <string name="companion_0352" formatted="false">"Android could not start pairing. Select Install CFW on the device, then try automatic connection again."</string>
+    <string name="companion_0353" formatted="false">"Pairing did not finish. Check the Android request and select Install CFW on the device, then reconnect."</string>
+    <string name="companion_0354" formatted="false">"Pairing approval timed out after 60 seconds. Check the Android request and try automatic connection again."</string>
+    <string name="companion_0355" formatted="false">"Noodoe is finishing installation and restarting. The app will reconnect automatically."</string>
+    <string name="companion_0356" formatted="false">"Reconnecting to Noodoe · "</string>
+    <string name="companion_0357" formatted="false">"The connected Noodoe UID does not match the installation target."</string>
+    <string name="companion_0358" formatted="false">"Update complete. Ready to use."</string>
+    <string name="companion_0359" formatted="false">"This is not the expected installer. Check the device screen and operation log."</string>
+    <string name="companion_0360" formatted="false">"Installation stopped on the device. Check its error message and operation log."</string>
+    <string name="companion_0361" formatted="false">"Files delivered. Noodoe is installing. The app will connect when the new CFW starts."</string>
+    <string name="companion_0362" formatted="false">"Could not confirm the new CFW connection. If pairing was removed, accept Android\'s pairing request. If the device returned to stock, choose ‘The device is back to stock · Check’."</string>
+    <string name="companion_0363" formatted="false">"Invalid installation error detail format."</string>
+    <string name="companion_0364" formatted="false">"Before writing"</string>
+    <string name="companion_0365" formatted="false">"Checking permission and image"</string>
+    <string name="companion_0366" formatted="false">"Checking recovery and CFW match"</string>
+    <string name="companion_0367" formatted="false">"Pausing Bluetooth"</string>
+    <string name="companion_0368" formatted="false">"Rechecking connection"</string>
+    <string name="companion_0369" formatted="false">"Checking tasks and watchdog"</string>
+    <string name="companion_0370" formatted="false">"Recording install request"</string>
+    <string name="companion_0371" formatted="false">"Resuming Bluetooth"</string>
+    <string name="companion_0372" formatted="false">"Write verified"</string>
+    <string name="companion_0373" formatted="false">" stopped. Phase="</string>
+    <string name="companion_0374" formatted="false">", result="</string>
+    <string name="companion_0375" formatted="false">", detail="</string>
+    <string name="companion_0376" formatted="false">", record="</string>
+    <string name="companion_0377" formatted="false">", BT resume="</string>
+    <string name="companion_0378" formatted="false">"Install-request recording did not start. Press O on the device to enter stock recovery."</string>
+    <string name="companion_0379" formatted="false">"The install-request write result needs checking. It was not automatically resent."</string>
+    <string name="companion_0380" formatted="false">"Bootstrap connection is not yet confirmed. When Bootstrap appears, select Install CFW and tap ‘Connect to Bootstrap automatically’. No need to resend the installer."</string>
+    <string name="companion_0381" formatted="false">"Keep permanent power connected. Follow the stock screen: turn only IGN OFF, then ON after Bootstrap appears.\n"</string>
+    <string name="companion_0382" formatted="false">"Select Install CFW in Bootstrap. The app continues pairing and connecting automatically. Accept any Android pairing request."</string>
+    <string name="companion_0383" formatted="false">"The connected device is not running Bootstrap. Check the current device to identify what is running."</string>
+    <string name="companion_0384" formatted="false">"Connected to Bootstrap. Select Install CFW on the device, then ‘Continue installation’ in the app. The installer will not be resent."</string>
+    <string name="companion_0385" formatted="false">"Stored installation files do not match this device/ZIP record. Nothing was overwritten."</string>
+    <string name="companion_0386" formatted="false">"The commit record does not match the image. The restart request was not repeated."</string>
+    <string name="companion_0387" formatted="false">"Reading and verifying files already received. They will not be transferred again."</string>
+    <string name="companion_0388" formatted="false">"Integrity verification of the remaining files failed."</string>
+    <string name="companion_0389" formatted="false">"The saved operation is in "</string>
+    <string name="companion_0390" formatted="false">" state. It was not overwritten with a new installation. Check the interrupted operation or share diagnostics."</string>
+    <string name="companion_0391" formatted="false">"Noodoe is installing or recovering. Check completion first. A new installation was not started."</string>
+    <string name="companion_0392" formatted="false">"Noodoe is checking existing files. The installation menu opens when finished."</string>
+    <string name="companion_0393" formatted="false">"Bluetooth connection verified. Press O on Noodoe to return to the menu, select Install CFW and press O."</string>
+    <string name="companion_0394" formatted="false">"A previous confirmation screen is still open. Select Back, then select Install CFW again."</string>
+    <string name="companion_0395" formatted="false">"Select Install CFW on Noodoe and press O. Keep this connection and the key ON; the next step starts automatically."</string>
+    <string name="companion_0396" formatted="false">"Invalid installation-ready response."</string>
+    <string name="companion_0397" formatted="false">"Installation permission and connection verified. Preparing recovery records and files."</string>
+    <string name="companion_0398" formatted="false">"Waited 3 minutes for Install CFW selection. No writes started. Select the menu, then continue installation."</string>
+    <string name="companion_0399" formatted="false">"Invalid installation status format."</string>
+    <string name="companion_0400" formatted="false">"Font and BT assets"</string>
+    <string name="companion_0401" formatted="false">"User settings"</string>
+    <string name="companion_0402" formatted="false">"Empty photo slots"</string>
+    <string name="companion_0403" formatted="false">"Stock recovery image"</string>
+    <string name="companion_0404" formatted="false">"Boot records"</string>
+    <string name="companion_0405" formatted="false">"Diagnostic logs"</string>
+    <string name="companion_0406" formatted="false">"Storage allocation audit"</string>
+    <string name="companion_0407" formatted="false">"Checking hashes to preserve existing data"</string>
+    <string name="companion_0408" formatted="false">"Checking file allocation"</string>
+    <string name="companion_0409" formatted="false">"Reading back physical storage after writing"</string>
+    <string name="companion_0410" formatted="false">"Verifying received file"</string>
+    <string name="companion_0411" formatted="false">"Receiving file"</string>
+    <string name="companion_0412" formatted="false">"Checking device status"</string>
+    <string name="companion_0413" formatted="false">"\nDevice responding · Last progress change "</string>
+    <string name="companion_0414" formatted="false">"s ago"</string>
+    <string name="companion_0415" formatted="false">"\nThe device also detected stalled progress. No automatic resend."</string>
+    <string name="companion_0416" formatted="false">"Restoring preserved data requires a scoped-v2 installer."</string>
+    <string name="companion_0417" formatted="false">"CFW file creation is incomplete. Nothing was overwritten. Please keep the diagnostic evidence."</string>
+    <string name="companion_0418" formatted="false">"Previous installation files verified for reuse, integrity and preservation"</string>
+    <string name="companion_0419" formatted="false">"New CFW settings and empty photo slots prepared; existing files preserved and verified"</string>
+    <string name="companion_0420" formatted="false">"Installation commit is uncertain. Check the operation first."</string>
+    <string name="companion_0421" formatted="false">"The original installation plan file could not be verified."</string>
+    <string name="companion_0422" formatted="false">"A full dual NOR backup needs at least 300 MiB of free space."</string>
+    <string name="companion_0423" formatted="false">"Detailed diagnostics: independent full NOR backup "</string>
+    <string name="companion_0424" formatted="false">"Preparing file · "</string>
+    <string name="companion_0425" formatted="false">"An earlier connection to this UID has an unconfirmed operation. Return to that device/ZIP selection and query its result first. Records are preserved."</string>
+    <string name="companion_0426" formatted="false">"This device has an unconfirmed operation. Select the previous ZIP "</string>
+    <string name="companion_0427" formatted="false">" and query its status first. Resetting the app does not erase uncertain installation results."</string>
+    <string name="companion_0428" formatted="false">"Reading device records "</string>
+    <string name="companion_0429" formatted="false">"Invalid device identity response."</string>
+    <string name="companion_0430" formatted="false">"Unsupported device role: "</string>
+    <string name="companion_0431" formatted="false">"Diagnostic firmware connected. Run tests on the device, then select Back to stock when finished."</string>
+    <string name="companion_0432" formatted="false">"Installer connected. Select the installation ZIP previously used to continue."</string>
+    <string name="companion_0433" formatted="false">"CFW connected. Ride integration is available."</string>
+    <string name="companion_0434" formatted="false">"Device starting. Waiting for identification."</string>
+    <string name="companion_0435" formatted="false">"Also checking for a stock response. No firmware writes."</string>
+    <string name="companion_0436" formatted="false">"Stock device information request was rejected."</string>
+    <string name="companion_0437" formatted="false">"Stock Noodoe connected. Ready to start the installation wizard."</string>
+    <string name="companion_0438" formatted="false">"Diagnostic firmware or device does not match the transfer record. Check the recovery menu on the device."</string>
+    <string name="companion_0439" formatted="false">"Reconnecting to diagnostic firmware · "</string>
+    <string name="companion_0440" formatted="false">"Diagnostic firmware is running. Use UP/DOWN to select and O to test. Finish with Back to stock → hold O for 2 seconds. Settings and photos were not reset."</string>
+    <string name="companion_0441" formatted="false">"Diagnostic connection could not be confirmed. Use the device screen to test or select Back to stock. Installation was not automatically repeated."</string>
+    <string name="companion_0442" formatted="false">"Release O on Noodoe, then hold it for 2 seconds to approve stock restoration. Gate button recovery remains available without a connection."</string>
+    <string name="companion_0443" formatted="false">"Diagnostic mode\nBT state "</string>
+    <string name="companion_0444" formatted="false">" · Error "</string>
+    <string name="companion_0445" formatted="false">"\nAmbient light RAW "</string>
+    <string name="companion_0446" formatted="false">"\nStorage error "</string>
+    <string name="companion_0447" formatted="false">" · Log error "</string>
+    <string name="companion_0448" formatted="false">"\nAfter testing, use Back to stock on the device."</string>
+    <string name="companion_0449" formatted="false">"Saving diagnostic logs on the phone"</string>
+    <string name="companion_0450" formatted="false">"An installation file containing both Gate and CFW is required."</string>
+    <string name="companion_0451" formatted="false">"Recovery start address does not match."</string>
+    <string name="companion_0452" formatted="false">"CFW address or resource information does not match."</string>
+    <string name="companion_0453" formatted="false">"CFW with automatic recovery confirmation is required."</string>
+    <string name="companion_0454" formatted="false">"This app supports installation and stock recovery only. Ride integration is not connected yet."</string>
+    <string name="companion_0455" formatted="false">" · Session "</string>
+    <string name="companion_0456" formatted="false">"\nRead evidence saved. Check BL, hardware and model compatibility before creating a bundle."</string>
+    <string name="companion_0457" formatted="false">"Stock restoration verified. You can send the installer again using the selected ZIP. Previous records and recovery evidence are preserved."</string>
+    <string name="companion_0458" formatted="false">"Check the active transfer first. Diagnostic backup starts only when idle."</string>
+    <string name="companion_0459" formatted="false">"Independent NOR A/B backups and SHA comparison complete. Not used for installation. Release O, then hold for 3 seconds to return to the menu."</string>
+    <string name="companion_0460" formatted="false">"Installer device and firmware verified.\nNext: tap ‘3. Installer → Continue CFW installation’ above.\nSelect Install CFW on Noodoe to proceed through preparation and approval.\nRecord: "</string>
+    <string name="companion_0461" formatted="false">"Checking the connected installer against the selected ZIP."</string>
+    <string name="companion_0462" formatted="false">"Files verified. Select Install CFW instead of Back and press O. Approval timeout is 15 minutes."</string>
+    <string name="companion_0463" formatted="false">"Installation cancelled on the device. Choose resume installation to try again."</string>
+    <string name="companion_0464" formatted="false">"Installation approval timed out. Files were not installed."</string>
+    <string name="companion_0465" formatted="false">"Approved on the device. Noodoe is verifying, installing and restarting on its own. Work continues if Bluetooth disconnects."</string>
+    <string name="companion_0466" formatted="false">"O approval received. Committing installation records."</string>
+    <string name="companion_0467" formatted="false">"Installation records committed. Requesting restart."</string>
+    <string name="companion_0468" formatted="false">"Update confirmed healthy"</string>
+    <string name="companion_0469" formatted="false">"Restarted into the uninstaller. Select Erase CFW data with UP/DOWN, check the size, then release O and hold for 2 seconds. Keep CFW data returns without erasing. Cleanup then runs on the device; Bluetooth progress is unavailable."</string>
+    <string name="companion_0470" formatted="false">"Device cleaning up / restoration needs verification. When the stock screen appears, verify restoration. Re-pairing may be needed."</string>
+    <string name="companion_0471" formatted="false">"Stock recovery cannot be requested in this role."</string>
+    <string name="companion_0472" formatted="false">"Stock recovery request is processing. It is not complete until stock boot is verified."</string>
+    <string name="companion_0473" formatted="false">"Communication stopped after stock recovery. Actual stock boot must be checked."</string>
+    <string name="companion_0474" formatted="false">"Communication result could not be confirmed. Run stock boot verification.\n"</string>
+    <string name="companion_0475" formatted="false">"Bootstrap: select Back to stock → release O → hold for 2 seconds. No extra IGN operation is needed."</string>
+    <string name="companion_0476" formatted="false">"CFW: key OFF → hold O for about 1 second, then key ON while holding → hold 2 more seconds to enter independent recovery."</string>
+    <string name="companion_0477" formatted="false">"Check the stock screen and update instructions first. Do not repeatedly send Bootstrap if the transfer result is uncertain."</string>
+    <string name="companion_0478" formatted="false">"Check the device screen first. Bootstrap: Back to stock, then freshly hold O for 2 seconds. CFW: key OFF → hold O, turn key ON → hold 2 seconds. Stock: check the stock update result first."</string>
+    <string name="companion_0479" formatted="false">"\n\nNo firmware transfer or install command was sent in this connection attempt. Existing operation records are preserved."</string>
+    <string name="companion_0480" formatted="false">"Stock restoration is verified. The requested step was not started. Check the device, then send the installer for a fresh installation. Previous records and recovery evidence remain."</string>
+    <string name="companion_0481" formatted="false">"The app is still waiting for CFW boot. If the device returned to stock, tap ‘The device is back to stock · Check’. Waiting ends after a real stock response is verified; records are preserved."</string>
+    <string name="companion_0482" formatted="false">"Check the previous operation first. The requested step was not started.\nCheck device → check last operation → resume.\n\nRecorded state: "</string>
+    <string name="companion_0483" formatted="false">"The device rejected the command."</string>
+    <string name="companion_0484" formatted="false">"No response was confirmed within the time limit."</string>
+    <string name="companion_0485" formatted="false">"File or device verification did not match."</string>
+    <string name="companion_0486" formatted="false">"Storage or operation records need checking."</string>
+    <string name="companion_0487" formatted="false">"The current operation cannot continue."</string>
+    <string name="companion_0488" formatted="false">"\nInstallation success or cancellation is not yet confirmed. Keep permanent power connected and check the device screen and operation records.\n"</string>
+    <string name="companion_0489" formatted="false">"You can check the interrupted operation or share diagnostics. If file creation failed, do not repeat installation preparation.\n\n"</string>
+    <string name="companion_0490" formatted="false">"\n\nDetails: "</string>
+    <string name="companion_0491" formatted="false">"Preparing"</string>
+    <string name="companion_0492" formatted="false">"Preparing connection and operation records."</string>
+    <string name="companion_0493" formatted="false">"Completion could not be confirmed. Check the device screen and boot result first."</string>
+    <string name="companion_0494" formatted="false">"Waiting for a response. The result is still unconfirmed. No automatic resend."</string>
+    <string name="companion_0495" formatted="false">"The device responds, but progress has not changed for over 30 seconds. Check the current stage."</string>
+    <string name="companion_0496" formatted="false">"%.1f KiB/s · About %d s left in this step"</string>
+    <string name="companion_0497" formatted="false">"Current operation · %,d / %,d %s · %d%%"</string>
+    <string name="companion_0498" formatted="false">"Stopped at · %,d / %,d %s — result needs checking"</string>
+    <string name="companion_0499" formatted="false">"Current operation · Waiting for progress"</string>
+    <string name="companion_0500" formatted="false">"Elapsed "</string>
+    <string name="companion_0501" formatted="false">" · Current step "</string>
+    <string name="companion_0502" formatted="false">"No verified response received yet."</string>
+    <string name="companion_0503" formatted="false">"Last response "</string>
+    <string name="companion_0504" formatted="false">"Overall progress · By stage "</string>
+    <string name="companion_0505" formatted="false">"1 Connect · 2 Check · 3 Prepare/transfer/write · 4 Final check\n5 Commit · 6 Restart · 7 Verify operation · 8 Done"</string>
+    <string name="companion_0506" formatted="false">"Automatic Bootstrap pairing and connection"</string>
+    <string name="companion_0507" formatted="false">"Saving recovery evidence before changes"</string>
+    <string name="companion_0508" formatted="false">"Operation result unconfirmed"</string>
+    <string name="companion_0509" formatted="false">"Select installation menu on Noodoe"</string>
+    <string name="companion_0510" formatted="false">"Preparing, writing and verifying CFW files"</string>
+    <string name="companion_0511" formatted="false">"Sending Bootstrap"</string>
+    <string name="companion_0512" formatted="false">"Check Bootstrap after key operation"</string>
+    <string name="companion_0513" formatted="false">"Checking device connection"</string>
+    <string name="companion_0514" formatted="false">"Checking storage layout"</string>
+    <string name="companion_0515" formatted="false">"Calculating original hashes before changes"</string>
+    <string name="companion_0516" formatted="false">"Checking existing files after installation"</string>
+    <string name="companion_0517" formatted="false">"Transferring installation image"</string>
+    <string name="companion_0518" formatted="false">"Waiting for approval on the device"</string>
+    <string name="companion_0519" formatted="false">"Checking installation and restart result"</string>
+    <string name="companion_0520" formatted="false">"Checking healthy operation and permanent confirmation"</string>
+    <string name="companion_0521" formatted="false">"Installation verified"</string>
+    <string name="companion_0522" formatted="false">"Preparing operation and checking status"</string>
+    <string name="companion_0523" formatted="false">"Connection and installation selection"</string>
+    <string name="companion_0524" formatted="false">"Checking allocation and write boundaries"</string>
+    <string name="companion_0525" formatted="false">"Saving metadata to be changed"</string>
+    <string name="companion_0526" formatted="false">"Writing and verifying CFW files"</string>
+    <string name="companion_0527" formatted="false">"Final FAT and file comparison"</string>
+    <string name="companion_0528" formatted="false">"Approve installation on Noodoe"</string>
+    <string name="companion_0529" formatted="false">"Installing and restarting"</string>
+    <string name="companion_0530" formatted="false">"Verifying normal operation"</string>
+    <string name="companion_0531" formatted="false">"Transferring installer"</string>
+    <string name="companion_0532" formatted="false">"Key operation and installer boot check"</string>
+    <string name="companion_0533" formatted="false">"Update preflight check"</string>
+    <string name="companion_0534" formatted="false">"Transferring and verifying APP"</string>
+    <string name="companion_0535" formatted="false">"Checking device and uninstall support"</string>
+    <string name="companion_0536" formatted="false">"Transferring and verifying uninstaller"</string>
+    <string name="companion_0537" formatted="false">"Device approval and cleanup (no Bluetooth)"</string>
+    <string name="companion_0538" formatted="false">"Overall · %d / %d stages complete (%d%%)"</string>
+    <string name="companion_0539" formatted="false">"Stage-based, not a proportion of elapsed time.\n"</string>
+    <string name="companion_0540" formatted="false">"Baseline check: Noodoe reads 128 MiB internally and computes SHA-256 for areas to preserve. Photos are neither sent to the phone nor overwritten. The check is repeated after installation."</string>
+    <string name="companion_0541" formatted="false">"Final FAT and file hashes are compared with an independent plan. The new installation path cannot write existing files or reserved areas. Only older Bootstrap uses whole-storage hashes."</string>
+    <string name="companion_0542" formatted="false">"Saving originals and plans for changed FAT/directory entries. New Bootstrap does not download unused space or all 128 MiB."</string>
+    <string name="companion_0543" formatted="false">"Preparing stock recovery, CFW assets, settings, empty photos, A/B and logs in new space, then verifying physical writes. Stock photos remain intact."</string>
+    <string name="companion_0544" formatted="false">"Reading FAT and directories to find free space that does not overlap existing files or reserved areas."</string>
+    <string name="companion_0545" formatted="false">"Transferring the verified installation image. Transfer at 100% does not mean installation is complete."</string>
+    <string name="companion_0546" formatted="false">"Complete after 30 seconds of healthy operation and phone reconnection."</string>
+    <string name="companion_0547" formatted="false">"Device · Stage %d/%d · File %d/%d\nSector %d/%d (4 KiB) · Verified %,d B\n%s"</string>
+    <string name="companion_0548" formatted="false">"Unconfirmed result — query status"</string>
+    <string name="companion_0549" formatted="false">"Cancel after current write finishes"</string>
+    <string name="companion_0550" formatted="false">"Safely cancelled"</string>
+    <string name="companion_0551" formatted="false">"Last confirmed state · Waiting to reconnect"</string>
+    <string name="companion_0552" formatted="false">"Fresh O press, hold 3 seconds: cancel device operation"</string>
+    <string name="companion_0553" formatted="false">"Committed — keep permanent power connected"</string>
+    <string name="companion_0554" formatted="false">"Running Bootstrap does not match the selected ZIP. Continue with the ZIP used to install Bootstrap."</string>
+    <string name="companion_0555" formatted="false">"The selected new CFW is not running yet. Check the current version, then use CFW update."</string>
+    <string name="companion_0556" formatted="false">"Transferring the Gate and CFW images to install."</string>
+    <string name="companion_0557" formatted="false">"Selected CFW is running normally and permanently confirmed."</string>
+    <string name="companion_0558" formatted="false">"The previous CFW is still in trial boot. Check its result with its installation ZIP before selecting the latest ZIP."</string>
+    <string name="companion_0559" formatted="false">"The previous CFW is running. The new version was not marked installed. Use CFW update to check and resume the device operation."</string>
+    <string name="companion_0560" formatted="false">"This CFW has an update in progress. Resume with the same ZIP in CFW update."</string>
+    <string name="companion_0561" formatted="false">"Current CFW is healthy. You can update with the selected new ZIP."</string>
+    <string name="companion_0562" formatted="false">"Current CFW connection and operation verified. The new firmware is not installed yet. Tap CFW update. No APK downgrade is needed."</string>
+    <string name="companion_0563" formatted="false">"Checking the new version for 30 seconds."</string>
+    <string name="companion_0564" formatted="false">"Almost done. Checking the new version."</string>
+    <string name="companion_0565" formatted="false">"No restoration result to confirm, or operation check is in progress."</string>
+    <string name="companion_0566" formatted="false">"Boot state changed during verification."</string>
+    <string name="companion_0567" formatted="false">"Confirmation is not saved yet. Query the status again."</string>
+    <string name="companion_0568" formatted="false">"An installer containing independent recovery is required."</string>
+    <string name="companion_0569" formatted="false">"ZIP entries do not match the manifest. Select the ZIP released with the latest APK. Extra="</string>
+    <string name="companion_0570" formatted="false">", missing="</string>
+    <string name="companion_0571" formatted="false">"Required resource files are missing."</string>
+    <string name="companion_0572" formatted="false">"This package is not prepared for installation."</string>
+    <string name="companion_0573" formatted="false">"Transferring changed assets (receiving in RAM, not saved yet)"</string>
+    <string name="companion_0574" formatted="false">"Writing inactive asset slot and verifying physical data"</string>
+    <string name="companion_0575" formatted="false">"This ZIP uses a different RecoveryGate. No APK downgrade is needed. Return to stock keeping data → install Bootstrap from this ZIP → install the new CFW to upgrade the recovery layer."</string>
+    <string name="companion_0576" formatted="false">"Check the boot or restoration result first."</string>
+    <string name="companion_0577" formatted="false">"Stock restoration cannot start during an update."</string>
+    <string name="companion_0578" formatted="false">"Checking recovery image and storage layout."</string>
+    <string name="companion_0579" formatted="false">"Comparing current CFW, device and recovery Gate with the update ZIP."</string>
+    <string name="companion_0580" formatted="false">"Choose a recent ZIP containing a diagnostic image."</string>
+    <string name="companion_0581" formatted="false">"This Gate does not support temporary diagnostics. Upgrade Gate through stock restoration → new Bootstrap → CFW first."</string>
+    <string name="companion_0582" formatted="false">"Current CFW has not finished healthy-boot confirmation. Verify its normal boot first."</string>
+    <string name="companion_0583" formatted="false">"Invalid update status response."</string>
+    <string name="companion_0584" formatted="false">"Another update remains on the device. Check its result using the matching ZIP and operation records first."</string>
+    <string name="companion_0585" formatted="false">"Checking that the working CFW and stock recovery image can be preserved."</string>
+    <string name="companion_0586" formatted="false">"Transferring and verifying diagnostics · Settings and photos stay intact."</string>
+    <string name="companion_0587" formatted="false">"Transferring new CFW and verifying sectors"</string>
+    <string name="companion_0588" formatted="false">"Reading file layout and directories."</string>
+    <string name="companion_0589" formatted="false">"Device reported "</string>
+    <string name="companion_0590" formatted="false">" verification error."</string>
+    <string name="companion_0591" formatted="false">"Checking existing files on the device. Full storage is not transferred to the phone."</string>
+    <string name="companion_0592" formatted="false">"Calculating original hashes before changes. This is an internal check; photos are not transferred or overwritten."</string>
+    <string name="companion_0593" formatted="false">"Saving recovery evidence before changes · "</string>
+    <string name="companion_0594" formatted="false">"Only some CFW files exist. Existing files were not changed. Please save the diagnostics."</string>
+    <string name="companion_0595" formatted="false">"Reusing prepared files after a fresh state check. Existing files will not be overwritten."</string>
+    <string name="companion_0596" formatted="false">"Checking existing installation files · "</string>
+    <string name="companion_0597" formatted="false">"Existing "</string>
+    <string name="companion_0598" formatted="false">" content differs from this ZIP. Nothing was overwritten. Save the diagnostics."</string>
+    <string name="companion_0599" formatted="false">"Verifying existing file preservation and new writes."</string>
+    <string name="companion_0600" formatted="false">"Comparing final file layout with the independent installation plan."</string>
+    <string name="companion_0601" formatted="false">"Auditing all FAT allocations, existing files and new write boundaries."</string>
+    <string name="companion_0602" formatted="false">"Some settings, ride or photo files needed for restoration are missing. You can choose a fresh start. Nothing has been written yet."</string>
+    <string name="companion_0603" formatted="false">"Older assets remain on the device. A newer Bootstrap supporting asset migration is required. Return to stock, then install Bootstrap from this ZIP."</string>
+    <string name="companion_0604" formatted="false">"Saving evidence to preserve existing assets."</string>
+    <string name="companion_0605" formatted="false">"Verifying existing files · "</string>
+    <string name="companion_0606" formatted="false">"SPP connection stopped."</string>
+    <string name="companion_0607" formatted="false">"SPP connection failed "</string>
+    <string name="companion_0608" formatted="false">" times. Pairing was not removed. Check whether the stock app is connected and share diagnostics."</string>
+    <string name="companion_0609" formatted="false">"SPP service lookup interrupted"</string>
+    <string name="companion_0610" formatted="false">"Stock Bluetooth address differs from the previous device. Pending records were not changed."</string>
+    <string name="companion_0611" formatted="false">"Stock restoration verified. CFW boot wait ended."</string>
+    <string name="companion_0612" formatted="false">"\nStock restoration verified; CFW boot wait ended. Previous records and recovery evidence are preserved. You can start a fresh installation with the selected ZIP."</string>
+    <string name="companion_0613" formatted="false">"Bluetooth connected. Checking the stock protocol response."</string>
+    <string name="companion_0614" formatted="false">"Stock Bluetooth address does not match the selected Noodoe. Nothing was transferred."</string>
+    <string name="companion_0615" formatted="false">"Stock restoration and current device verified. Preserving previous records and preparing a new installation."</string>
+    <string name="companion_0616" formatted="false">"Sending Bootstrap through the stock update path."</string>
+    <string name="companion_0617" formatted="false">"Transfer verification received. Keep permanent power connected: IGN OFF → wait for Bootstrap → IGN ON. Installer connection still needs verification."</string>
+    <string name="companion_0618" formatted="false">"This device has no original backup. Save one from Bootstrap first."</string>
+    <string name="companion_0619" formatted="false">"The two original reads differ. Saving and installation did not start."</string>
+    <string name="companion_0620" formatted="false">"An earlier original-backup operation remains. Check its records first."</string>
+    <string name="companion_0621" formatted="false">"Device BL identity differs from the previous connection. Preserve the original records and investigate."</string>
+    <string name="companion_0622" formatted="false">"Cannot reconcile uninstall with the device state. Nothing was resent. Verify stock restoration or check the device screen."</string>
+    <string name="companion_0623" formatted="false">"Uninstall still awaits confirmation. Device state "</string>
+    <string name="companion_0624" formatted="false">". No change command was sent."</string>
+    <string name="companion_0625" formatted="false">"Uninstaller and current CFW capabilities differ. Update to the CFW in this ZIP first. Keep-data restoration is not substituted."</string>
+    <string name="companion_0626" formatted="false">"A recent ZIP containing the dedicated uninstaller is required."</string>
+    <string name="companion_0627" formatted="false">"Current CFW does not support complete removal. Update CFW first."</string>
+    <string name="companion_0628" formatted="false">"Uninstaller installation result is still uncertain. Verify stock restoration first. Nothing was resent."</string>
+    <string name="companion_0629" formatted="false">"The device has an operation in progress. Check its status."</string>
+    <string name="companion_0630" formatted="false">"Transferring uninstaller · CFW data is not erased yet."</string>
+    <string name="companion_0631" formatted="false">"Storage check exceeded 30 minutes. Records were preserved; write commands were not resent."</string>
+    <string name="companion_0632" formatted="false">"Storage progress has not advanced for 90 seconds despite device responses. Share diagnostics. Write commands were not resent."</string>
+    <string name="companion_0633" formatted="false">"Favorite contacts · Up to 10"</string>
+    <string name="companion_0634" formatted="false">"Move up"</string>
+    <string name="companion_0635" formatted="false">"Move down"</string>
+    <string name="companion_0636" formatted="false">"Remove from favorites"</string>
+    <string name="companion_0637" formatted="false">"Could not save contact order."</string>
+    <string name="companion_0638" formatted="false">"Add contact"</string>
+    <string name="companion_0639" formatted="false">"Maximum 10 contacts. Remove one first."</string>
+    <string name="companion_0640" formatted="false">"Contacts app not found."</string>
+    <string name="companion_0641" formatted="false">"Could not save contact."</string>
+    <string name="companion_0642" formatted="false">"Check contacts permission."</string>
+    <string name="companion_0643" formatted="false">"Select a device first. Companion association requires Android 8 or later."</string>
+    <string name="companion_0644" formatted="false">"Could not open companion association. Enable Bluetooth, check the selected device and try again."</string>
+    <string name="companion_0645" formatted="false">"Companion association verified."</string>
+    <string name="companion_0646" formatted="false">"Check automatic connection permission in app settings."</string>
+    <string name="companion_0647" formatted="false">"Could not associate the companion device. Check Bluetooth and the selected device."</string>
+    <string name="companion_0648" formatted="false">" · GPS: open the app and check location permission"</string>
+    <string name="companion_0649" formatted="false">" · GPS: precise location permission required"</string>
+    <string name="companion_0650" formatted="false">" · GPS: restricted by phone power saving"</string>
+    <string name="companion_0651" formatted="false">" · GPS: enable phone location"</string>
+    <string name="companion_0652" formatted="false">" · Waiting for GPS"</string>
+    <string name="companion_0653" formatted="false">"Reading device settings."</string>
+    <string name="companion_0654" formatted="false">"Save result unconfirmed. Reconnect and check current values. No automatic retry."</string>
+    <string name="companion_0655" formatted="false">"Could not apply or save settings · "</string>
+    <string name="companion_0656" formatted="false">"Applied and saved on the device."</string>
+    <string name="companion_0657" formatted="false">"Applied on the device. Waiting for permanent save."</string>
+    <string name="companion_0658" formatted="false">"Save result unconfirmed. Read the current values again. No automatic retry."</string>
+    <string name="companion_0659" formatted="false">"ODO choice requested. Checking save status."</string>
+    <string name="companion_0660" formatted="false">"Request accepted. Waiting for apply and save results."</string>
+    <string name="companion_0661" formatted="false">"Device settings loaded."</string>
+    <string name="companion_0662" formatted="false">"Device rejected the request · "</string>
+    <string name="companion_0663" formatted="false">". Check that the vehicle is stationary and values are current."</string>
+    <string name="companion_0664" formatted="false">"Allow notification access in Permissions and setup."</string>
+    <string name="companion_0665" formatted="false">"Allow this app to display notifications in phone settings."</string>
+    <string name="companion_0666" formatted="false">"Noodoe notification test"</string>
+    <string name="companion_0667" formatted="false">"Enable ‘Noodoe notification test’ notifications in phone settings."</string>
+    <string name="companion_0668" formatted="false">"Notification test · 通知テスト"</string>
+    <string name="companion_0669" formatted="false">"Did it reach Noodoe? 臺灣 · 日本 · 한국"</string>
+    <string name="companion_0670" formatted="false">"Test notification created. On the connected Noodoe\'s phone page, use UP/DOWN to check it."</string>
+    <string name="companion_0671" formatted="false">"Could not read image."</string>
+    <string name="companion_0672" formatted="false">"JPEG conversion failed."</string>
+    <string name="companion_0673" formatted="false">"Could not reduce image size."</string>
+    <string name="companion_0674" formatted="false">"Could not read photo dimensions."</string>
+    <string name="companion_0675" formatted="false">"This photo cannot be opened."</string>
+    <string name="companion_0676" formatted="false">"Newer CFW with photo transfer support is required."</string>
+    <string name="companion_0677" formatted="false">"Verifying and saving the photo on the device…"</string>
+    <string name="companion_0678" formatted="false">"Photo transfer · "</string>
+    <string name="companion_0679" formatted="false">"Blank entries are skipped. Open a notification on Noodoe, hold O → choose a reply → press O to send. The signature is appended to every reply."</string>
+    <string name="companion_0680" formatted="false">"Quick reply "</string>
+    <string name="companion_0681" formatted="false">"Signature (leave blank to disable)"</string>
+    <string name="companion_0682" formatted="false">"Phone name shown on dashboard"</string>
+    <string name="companion_0683" formatted="false">"Automatic (Japanese / Taiwan Traditional)"</string>
+    <string name="companion_0684" formatted="false">"Japanese glyph forms"</string>
+    <string name="companion_0685" formatted="false">"Taiwan Traditional glyph forms"</string>
+    <string name="companion_0686" formatted="false">"Restart ride integration to apply text region and phone-name changes. The latest 10 notifications stay in RAM only. Only apps supporting replies can be replied to."</string>
+    <string name="companion_0687" formatted="false">"Noto font license"</string>
+    <string name="companion_0688" formatted="false">"Could not open license."</string>
+    <string name="companion_0689" formatted="false">"Google Material icon license"</string>
+    <string name="companion_0690" formatted="false">"Quick replies and text display"</string>
+    <string name="companion_0691" formatted="false">"Could not save. Check length and available storage."</string>
+    <string name="companion_0692" formatted="false">" · About %.1f km\nMoving %d min · Stopped %d min · Max %d km/h"</string>
+    <string name="companion_0693" formatted="false">"Session end confirmed while connected"</string>
+    <string name="companion_0694" formatted="false">"Recording / unfinished ride"</string>
+    <string name="companion_0695" formatted="false">"Disconnected · Only part of the ride saved"</string>
+    <string name="companion_0696" formatted="false">" · Unconfirmed time "</string>
+    <string name="companion_0697" formatted="false">"Phone ride recording off"</string>
+    <string name="companion_0698" formatted="false">"Ride recording · Waiting for ignition"</string>
+    <string name="companion_0699" formatted="false">"Ride recording · Checking ignition state"</string>
+    <string name="companion_0700" formatted="false">"Saving ride record"</string>
+    <string name="companion_0701" formatted="false">"Ride recording · Waiting for UART (unconfirmed interval)"</string>
+    <string name="companion_0702" formatted="false">"Could not save ride · Check phone storage"</string>
+    <string name="companion_0703" formatted="false">"Could not finalize ride · Preserved as unfinished"</string>
+    <string name="companion_0704" formatted="false">"Image verification timed out. Completion is unconfirmed."</string>
+    <string name="companion_0705" formatted="false">"Image receive offset does not match."</string>
+    <string name="companion_0706" formatted="false">"Image operation changed to another request."</string>
+    <string name="companion_0707" formatted="false">"Image verification/save failed: "</string>
+    <string name="companion_0708" formatted="false">"Image completion state or length does not match."</string>
+</resources>

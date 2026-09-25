@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="boot_screen_action">지금 확인 버튼을 눌러 주세요</string>
+    <string name="boot_screen_instructions">Bluetooth는 연결됐어요. 누도에 CFW UPDATE와 Checking the new version 또는 Confirm on your phone이 보이면 아래 버튼을 누르세요.\n\nNOODOE INSTALLER가 보이면 아직 기다려 주세요. 연결만으로는 업데이트가 확정되지 않아요.</string>
+    <string name="boot_screen_yes">CFW UPDATE가 보여요 · 계속</string>
+    <string name="boot_screen_not_yet">아직 그 화면이 아니에요</string>
+    <string name="boot_screen_deadline">확인까지 %1$d초 남음 · 누르지 않으면 이전 버전 또는 복구 화면으로 돌아가요.</string>
+    <string name="boot_screen_waiting">Bluetooth 연결 완료. 화면 위의 확인 버튼을 눌러야 검사가 계속돼요.</string>
+    <string name="boot_screen_accepted">화면 확인을 받았어요. 기기의 정상 실행·저장 완료를 확인해요.</string>
+    <string name="boot_screen_open_app">앱을 열어 CFW UPDATE 화면 확인 버튼을 눌러 주세요.</string>
+    <string name="boot_screen_expired">제시간에 화면 확인을 받지 못했어요. Bluetooth 연결만으로는 완료되지 않아요. 기기의 부팅 결과를 확인해 주세요. 펌웨어를 다시 보내지는 않았어요.</string>
+</resources>

@@ -1,0 +1,777 @@
+{
+  "state": "installed-stock-app-roundtrip-verified",
+  "hardware_installed": true,
+  "hardware_writes": true,
+  "stock_roundtrip_verified": false,
+  "current_nor_backup_obtained": true,
+  "blocker": null,
+  "hardware_continuation": {
+    "mcu_connection_recovered": true,
+    "running_app_full_read_verified": true,
+    "nor_a_bytes_crc_validated": 134217728,
+    "nor_b_bytes_crc_validated": 134217728,
+    "nor_a_sha256": "a157b429706063ff4189ac3cef4240b4051b99fb9fd0282b9388ba763b92279c",
+    "nor_ab_verified": true,
+    "nor_backup_manifest": "nor-before-fast/manifest.json",
+    "resume_integrity_host_tests_passed": 11,
+    "module_usb_available": false,
+    "module_usb_compatibility_verified": false,
+    "report": "HARDWARE_PROGRESS.md",
+    "app_readback_and_lower64_preserved": true,
+    "created_files": [
+      {
+        "name": "CFWCFG.DAT",
+        "first_cluster": 3386,
+        "root_index": 39,
+        "offset": 110923776,
+        "length": 131072
+      },
+      {
+        "name": "CFWRIDE.DAT",
+        "first_cluster": 3461,
+        "root_index": 40,
+        "offset": 113381376,
+        "length": 262144
+      },
+      {
+        "name": "CFWPIC.DAT",
+        "first_cluster": 3469,
+        "root_index": 41,
+        "offset": 113643520,
+        "length": 1048576
+      }
+    ],
+    "current_free_bytes_before": 18087936,
+    "planned_full_nor_sha256": "bef5cd2267dcee525ec6390938e254b3534409f7b33a097dede4c481e0b8a6a8",
+    "initial_full_nor_readback_verified": true,
+    "config_save_reboot_restored": true,
+    "photo_replace_physical_verified": true,
+    "stock_app_photo_roundtrip_verified": true,
+    "stock_user_observation": "순정 정상, 3개의 이미지가 사이클 함",
+    "config_and_photo_bytes_preserved": true,
+    "original_ride_records_preserved": true,
+    "all_non_cfw_bytes_after_roundtrip_verified": true,
+    "original_files_after_roundtrip_verified": 1037,
+    "runtime_after_return": {
+      "fps": 29.8,
+      "cpu_percent": 60.2,
+      "heap_min_bytes": 24912,
+      "sdram_allocated_bytes": 12823840,
+      "restore_count": 1
+    },
+    "evidence": [
+      "brightness-save/result.json",
+      "reboot-restore/result.json",
+      "brightness-restore25/result.json",
+      "photo-replace-2/result.json",
+      "to-stock/result.json",
+      "back-to-cfw/result.json",
+      "after-stock-return/result.json",
+      "runtime-audit-after-stock/result.json",
+      "roundtrip-file-comparison.json",
+      "nor-after-stock-roundtrip/result.json"
+    ],
+    "display_capture_manifest": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\final-capture\\capture.json",
+    "display_capture_complete": true,
+    "post_audit_save_resumed": true,
+    "final_runtime_evidence": "final-runtime/result.json",
+    "final_runtime": {
+      "page": 1,
+      "fps": 29.8,
+      "cpu_percent": 69.7,
+      "heap_min_bytes": 24912
+    }
+  },
+  "known_installed_app_sha256": "0ffa5eede0963f9cb38351d2507b3c03ec9be9b5eb463a2cf08cb184ef823d92",
+  "builds": [
+    {
+      "profile": "Product",
+      "configuration": "Release",
+      "log": "build-final-Release.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 383856,
+        "free": 74896
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 160872,
+        "free": 35736,
+        "sections": {
+          ".data": 2176,
+          ".bss": 156892,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    {
+      "profile": "Product",
+      "configuration": "Debug",
+      "log": "build-final-Debug.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 398996,
+        "free": 59756
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 160872,
+        "free": 35736,
+        "sections": {
+          ".data": 2172,
+          ".bss": 156892,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    {
+      "profile": "Integrated",
+      "configuration": "Release",
+      "log": "build-Integrated-Release.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 414872,
+        "free": 43880
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 175728,
+        "free": 20880,
+        "sections": {
+          ".data": 1856,
+          ".bss": 172072,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 0,
+        "free": 65536,
+        "sections": {}
+      }
+    },
+    {
+      "profile": "Integrated",
+      "configuration": "Debug",
+      "log": "build-Integrated-Debug.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 455488,
+        "free": 3264
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 176384,
+        "free": 20224,
+        "sections": {
+          ".data": 2508,
+          ".bss": 172068,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 0,
+        "free": 65536,
+        "sections": {}
+      }
+    },
+    {
+      "profile": "Graphics",
+      "configuration": "Release",
+      "log": "build-Graphics-Release.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 432436,
+        "free": 26316
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 151032,
+        "free": 45576,
+        "sections": {
+          ".data": 316,
+          ".bss": 148912,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 0,
+        "free": 65536,
+        "sections": {}
+      }
+    },
+    {
+      "profile": "Graphics",
+      "configuration": "Debug",
+      "log": "build-Graphics-Debug.log",
+      "flash": {
+        "capacity": 458752,
+        "used": 453228,
+        "free": 5524
+      },
+      "sram": {
+        "capacity": 196608,
+        "used": 151032,
+        "free": 45576,
+        "sections": {
+          ".data": 316,
+          ".bss": 148912,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 0,
+        "free": 65536,
+        "sections": {}
+      }
+    }
+  ],
+  "artifacts": {
+    "Release": {
+      "elf": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Release.elf",
+        "bytes": 2054668,
+        "sha256": "3eda11ac74cddb0f864e14b58141a8630a0210cc3edbadddd7807173572c96c9"
+      },
+      "bin": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Release.bin",
+        "bytes": 383856,
+        "sha256": "0ffa5eede0963f9cb38351d2507b3c03ec9be9b5eb463a2cf08cb184ef823d92"
+      },
+      "map": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Release.map",
+        "bytes": 1457485,
+        "sha256": "3f3551943c903bc50594a2c0032906752b1f97ae78697eaa0e6e8eeb2e065df6"
+      }
+    },
+    "Debug": {
+      "elf": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Debug.elf",
+        "bytes": 8055964,
+        "sha256": "7c8165e05ccbdff8e66073280936c16dfec631948b5294841e4dbc9bdedefd3c"
+      },
+      "bin": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Debug.bin",
+        "bytes": 398996,
+        "sha256": "6cd7ff8e731493dafc3962cdeeb867ddc8a4706dfc3431d264b7ad79ebf5c68e"
+      },
+      "map": {
+        "path": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-persistent-store\\candidate-Debug.map",
+        "bytes": 4778752,
+        "sha256": "be3a35702cd736da9487c91e554c01eeee1d1f1ff49d039062e9ddf86444edce"
+      }
+    }
+  },
+  "arm_tests": [
+    {
+      "optimization": "O0",
+      "test": "TestJournal",
+      "returned": true,
+      "result": 0,
+      "assertions": 322,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestAudit",
+      "returned": true,
+      "result": 0,
+      "assertions": 8,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestConfig",
+      "returned": true,
+      "result": 0,
+      "assertions": 13,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestPhoto",
+      "returned": true,
+      "result": 0,
+      "assertions": 12,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-final-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestPhotoCuts",
+      "returned": true,
+      "result": 0,
+      "assertions": 604,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-final-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestRide",
+      "returned": true,
+      "result": 0,
+      "assertions": 20,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestInstall",
+      "returned": true,
+      "result": 0,
+      "assertions": 11,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestJournal",
+      "returned": true,
+      "result": 0,
+      "assertions": 322,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestAudit",
+      "returned": true,
+      "result": 0,
+      "assertions": 8,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestConfig",
+      "returned": true,
+      "result": 0,
+      "assertions": 13,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestPhoto",
+      "returned": true,
+      "result": 0,
+      "assertions": 12,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-final-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestPhotoCuts",
+      "returned": true,
+      "result": 0,
+      "assertions": 604,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-final-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestRide",
+      "returned": true,
+      "result": 0,
+      "assertions": 20,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestInstall",
+      "returned": true,
+      "result": 0,
+      "assertions": 11,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "cfw-tests-final.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestSettings",
+      "returned": true,
+      "result": 0,
+      "assertions": 21,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "settings-deadline-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestDeadline",
+      "returned": true,
+      "result": 0,
+      "assertions": 8,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "settings-deadline-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestSettings",
+      "returned": true,
+      "result": 0,
+      "assertions": 21,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "settings-deadline-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestDeadline",
+      "returned": true,
+      "result": 0,
+      "assertions": 8,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "settings-deadline-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestPhotoMailbox",
+      "returned": true,
+      "result": 0,
+      "assertions": 76,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-mailbox-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestPhotoMailbox",
+      "returned": true,
+      "result": 0,
+      "assertions": 76,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "photo-mailbox-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestRideJournal",
+      "returned": true,
+      "result": 0,
+      "assertions": 440,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "ride-app-tests.log"
+    },
+    {
+      "optimization": "O0",
+      "test": "TestAppSave",
+      "returned": true,
+      "result": 0,
+      "assertions": 10,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "ride-app-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestRideJournal",
+      "returned": true,
+      "result": 0,
+      "assertions": 440,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "ride-app-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestAppSave",
+      "returned": true,
+      "result": 0,
+      "assertions": 10,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "ride-app-tests.log"
+    },
+    {
+      "optimization": "Os",
+      "test": "TestHistorical",
+      "returned": true,
+      "result": 0,
+      "assertions": 2,
+      "failure_line": 0,
+      "mock_error": 0,
+      "hardware_access": false,
+      "log": "historical-audit.log"
+    }
+  ],
+  "arm_assertions": 3092,
+  "host_installer": {
+    "result": "pass",
+    "hardware_access": false,
+    "existing_files": 1103,
+    "preserved_nonempty": 1036,
+    "additional_bytes": 1441792,
+    "free_bytes": 18153472,
+    "planned_after_sha256": "be53305e25e7e71349ae3a08bfa0b69fefecb17ab0e0f6356c9666de9c8c83e9",
+    "cases": [
+      "all existing files byte identical",
+      "reserved tail byte identical",
+      "fixed containers only",
+      "same-name rejected",
+      "UID/layout/CRC legacy migration",
+      "unknown newer schema rejected"
+    ]
+  },
+  "modified_baseline_files": [
+    "App_Logic\\Runtime\\src\\NoodoeRuntime.c",
+    "App_Logic\\Settings\\inc\\App_Settings.h",
+    "App_Logic\\Settings\\inc\\SettingsService.h",
+    "App_Logic\\Settings\\src\\app_settings.c",
+    "App_Logic\\Settings\\src\\SettingsService.c",
+    "App_Logic\\Settings\\src\\settings_maintenance.c",
+    "App_Logic\\UI\\src\\product_ui.c",
+    "App_Logic\\UI\\src\\wallpaper_runtime.c",
+    "App_Logic\\Vehicle\\src\\OilUsageService.c",
+    "Middlewares\\Noodoe\\Photos\\inc\\PhotoService.h",
+    "Middlewares\\Noodoe\\Photos\\src\\PhotoService.c",
+    "Middlewares\\Noodoe\\Storage\\inc\\StorageDisk.h",
+    "Middlewares\\Noodoe\\Storage\\src\\storage_disk.c",
+    "Drivers\\BSP\\inc\\BSP_NOR.h",
+    "Drivers\\BSP\\inc\\BSP_RAM.h",
+    "Drivers\\BSP\\src\\BSP_NOR.c",
+    "tools\\services_build.py",
+    "tools\\storage_swd_backup.py",
+    "tools\\tests\\nor_gate_host\\test_gate.c",
+    "tools\\tests\\storage_journal_host\\run.py",
+    "tools\\tests\\storage_journal_host\\test_journal.c",
+    "tools\\tests\\wallpaper\\run.py",
+    "tools\\tests\\wallpaper\\test_stream.c",
+    "tools\\tests\\stock_photos\\stubs\\cmsis_os2.h",
+    "tools\\tests\\stock_photos\\stubs\\stm32f4xx_hal.h",
+    "tools\\tests\\storage_journal_host\\stubs\\BSP_NOR.h",
+    "AGENTS.md",
+    ".cproject"
+  ],
+  "new_source_files": [
+    "App_Logic\\Settings\\inc\\App_Persistence.h",
+    "App_Logic\\Settings\\src\\app_persistence.c",
+    "App_Logic\\Settings\\src\\settings_product.c",
+    "App_Logic\\Vehicle\\src\\oil_usage_product.c",
+    "Graphics\\CAPTURE.md",
+    "Graphics\\PERFORMANCE.md",
+    "Graphics\\README.md",
+    "Graphics\\VIEWPORT.md",
+    "Graphics\\UI\\BUTTON_HINTS.md",
+    "Graphics\\UI\\SCALAR_TRANSITION.md",
+    "Graphics\\UI\\TESTS.md",
+    "Graphics\\Assets\\Fonts\\README.md",
+    "Graphics\\Assets\\Icons\\README.md",
+    "Graphics\\Port\\inc\\Graphics.h",
+    "Graphics\\Port\\inc\\Graphics_Background.h",
+    "Graphics\\Port\\inc\\Graphics_BackgroundClip.h",
+    "Graphics\\Port\\inc\\Graphics_BackgroundDraw.h",
+    "Graphics\\Port\\inc\\Graphics_EveTransport.h",
+    "Graphics\\Port\\inc\\Graphics_Image.h",
+    "Graphics\\Port\\inc\\graphics_internal.h",
+    "Graphics\\Port\\inc\\Graphics_Memory.h",
+    "Graphics\\Port\\inc\\Graphics_SubpixelArc.h",
+    "Graphics\\Port\\inc\\Graphics_Viewport.h",
+    "Graphics\\Port\\inc\\lv_conf.h",
+    "Graphics\\Port\\inc\\noodoe_lvgl_profile.h",
+    "Graphics\\Port\\src\\graphics.c",
+    "Graphics\\Port\\src\\graphics_background.c",
+    "Graphics\\Port\\src\\graphics_background_clip.c",
+    "Graphics\\Port\\src\\graphics_background_math.c",
+    "Graphics\\Port\\src\\graphics_eve_clip.c",
+    "Graphics\\Port\\src\\graphics_eve_port.c",
+    "Graphics\\Port\\src\\graphics_eve_ramg_guard.c",
+    "Graphics\\Port\\src\\graphics_eve_transport.c",
+    "Graphics\\Port\\src\\graphics_eve_viewport.c",
+    "Graphics\\Port\\src\\graphics_geometry.c",
+    "Graphics\\Port\\src\\graphics_image.c",
+    "Graphics\\Port\\src\\graphics_input.c",
+    "Graphics\\Port\\src\\graphics_memory.c",
+    "Graphics\\Port\\src\\graphics_performance.c",
+    "Graphics\\Port\\src\\graphics_subpixel_arc.c",
+    "Graphics\\UI\\inc\\Background_View.h",
+    "Graphics\\UI\\inc\\Button_Hints.h",
+    "Graphics\\UI\\inc\\Dashboard_PagesView.h",
+    "Graphics\\UI\\inc\\Graphics_ArcSweep.h",
+    "Graphics\\UI\\inc\\Graphics_BringupHUD.h",
+    "Graphics\\UI\\inc\\Graphics_Test.h",
+    "Graphics\\UI\\inc\\Music_Graphic.h",
+    "Graphics\\UI\\inc\\Page_Transition.h",
+    "Graphics\\UI\\inc\\Power_Scene.h",
+    "Graphics\\UI\\inc\\Power_View.h",
+    "Graphics\\UI\\inc\\Product_Fonts.h",
+    "Graphics\\UI\\inc\\Product_Icons.h",
+    "Graphics\\UI\\inc\\Product_MaintenanceBar.h",
+    "Graphics\\UI\\inc\\Product_ModeIcons.h",
+    "Graphics\\UI\\inc\\Product_ModeStrip.h",
+    "Graphics\\UI\\inc\\Product_MusicIcons.h",
+    "Graphics\\UI\\inc\\Product_NumberFonts.h",
+    "Graphics\\UI\\inc\\Product_TextFonts.h",
+    "Graphics\\UI\\inc\\Product_TripIcons.h",
+    "Graphics\\UI\\inc\\Scalar_Transition.h",
+    "Graphics\\UI\\inc\\Scene_Transition.h",
+    "Graphics\\UI\\inc\\Settings_Icons.h",
+    "Graphics\\UI\\inc\\Settings_View.h",
+    "Graphics\\UI\\inc\\SpeedHome_Layout.h",
+    "Graphics\\UI\\inc\\SpeedHome_View.h",
+    "Graphics\\UI\\inc\\SystemError_View.h",
+    "Graphics\\UI\\inc\\Toast_View.h",
+    "Graphics\\UI\\inc\\Trip_Graphic.h",
+    "Graphics\\UI\\inc\\Trip_Layout.h",
+    "Graphics\\UI\\src\\button_hints.c",
+    "Graphics\\UI\\src\\dashboard_pages_view.c",
+    "Graphics\\UI\\src\\Graphics_ArcSweep.c",
+    "Graphics\\UI\\src\\Graphics_BringupHUD.c",
+    "Graphics\\UI\\src\\Graphics_Test.c",
+    "Graphics\\UI\\src\\Graphics_Test_Assets.c",
+    "Graphics\\UI\\src\\Graphics_Test_Internal.h",
+    "Graphics\\UI\\src\\GT_00_dashboard.c",
+    "Graphics\\UI\\src\\GT_01_controls.c",
+    "Graphics\\UI\\src\\GT_02_meters.c",
+    "Graphics\\UI\\src\\GT_03_chart.c",
+    "Graphics\\UI\\src\\GT_04_table.c",
+    "Graphics\\UI\\src\\GT_05_scale.c",
+    "Graphics\\UI\\src\\GT_06_spinbox.c",
+    "Graphics\\UI\\src\\GT_07_dropdown.c",
+    "Graphics\\UI\\src\\GT_08_roller.c",
+    "Graphics\\UI\\src\\GT_09_keyboard.c",
+    "Graphics\\UI\\src\\GT_10_buttonmatrix.c",
+    "Graphics\\UI\\src\\GT_11_tabview.c",
+    "Graphics\\UI\\src\\GT_12_tileview.c",
+    "Graphics\\UI\\src\\GT_13_window.c",
+    "Graphics\\UI\\src\\GT_14_menu.c",
+    "Graphics\\UI\\src\\GT_15_msgbox.c",
+    "Graphics\\UI\\src\\GT_16_spinner.c",
+    "Graphics\\UI\\src\\GT_17_span.c",
+    "Graphics\\UI\\src\\GT_18_image.c",
+    "Graphics\\UI\\src\\GT_19_animimage.c",
+    "Graphics\\UI\\src\\GT_20_imagebutton.c",
+    "Graphics\\UI\\src\\GT_21_line_led.c",
+    "Graphics\\UI\\src\\GT_22_calendar.c",
+    "Graphics\\UI\\src\\GT_23_list.c",
+    "Graphics\\UI\\src\\GT_24_flex.c",
+    "Graphics\\UI\\src\\GT_25_grid.c",
+    "Graphics\\UI\\src\\GT_26_scroll.c",
+    "Graphics\\UI\\src\\GT_27_events.c",
+    "Graphics\\UI\\src\\GT_28_animation.c",
+    "Graphics\\UI\\src\\GT_29_labels.c",
+    "Graphics\\UI\\src\\GT_30_skip_canvas.c",
+    "Graphics\\UI\\src\\GT_31_skip_layer.c",
+    "Graphics\\UI\\src\\GT_32_skip_shadow.c",
+    "Graphics\\UI\\src\\GT_33_skip_gradient.c",
+    "Graphics\\UI\\src\\GT_34_skip_mask.c",
+    "Graphics\\UI\\src\\GT_35_skip_svg.c",
+    "Graphics\\UI\\src\\GT_36_skip_lottie.c",
+    "Graphics\\UI\\src\\GT_37_skip_file_image.c",
+    "Graphics\\UI\\src\\GT_38_skip_arclabel.c",
+    "Graphics\\UI\\src\\GT_39_skip_texture3d.c",
+    "Graphics\\UI\\src\\GT_40_skip_ime.c",
+    "Graphics\\UI\\src\\page_transition.c",
+    "Graphics\\UI\\src\\power_scene.c",
+    "Graphics\\UI\\src\\power_view.c",
+    "Graphics\\UI\\src\\product_background_view.c",
+    "Graphics\\UI\\src\\product_icon_fonts.c",
+    "Graphics\\UI\\src\\product_maintenance_bar.c",
+    "Graphics\\UI\\src\\product_mode_icon_data.c",
+    "Graphics\\UI\\src\\product_mode_strip.c",
+    "Graphics\\UI\\src\\product_music_graphic.c",
+    "Graphics\\UI\\src\\product_music_icon_data.c",
+    "Graphics\\UI\\src\\product_number_fonts.c",
+    "Graphics\\UI\\src\\product_system_error_view.c",
+    "Graphics\\UI\\src\\product_text_fonts.c",
+    "Graphics\\UI\\src\\product_toast_view.c",
+    "Graphics\\UI\\src\\product_trip_graphic.c",
+    "Graphics\\UI\\src\\product_trip_icon_data.c",
+    "Graphics\\UI\\src\\scalar_transition.c",
+    "Graphics\\UI\\src\\scene_transition.c",
+    "Graphics\\UI\\src\\settings_icon_data.c",
+    "Graphics\\UI\\src\\settings_position.c",
+    "Graphics\\UI\\src\\settings_view.c",
+    "Graphics\\UI\\src\\speed_home_layout.c",
+    "Graphics\\UI\\src\\speed_home_view.c",
+    "Middlewares\\Noodoe\\Storage\\PERSISTENCE.md",
+    "Middlewares\\Noodoe\\Photos\\inc\\Photo_Store.h",
+    "Middlewares\\Noodoe\\Photos\\src\\photo_store.c",
+    "Middlewares\\Noodoe\\Storage\\inc\\Cfw_Files.h",
+    "Middlewares\\Noodoe\\Storage\\inc\\Cfw_Install.h",
+    "Middlewares\\Noodoe\\Storage\\inc\\Cfw_Store.h",
+    "Middlewares\\Noodoe\\Storage\\inc\\Config_Store.h",
+    "Middlewares\\Noodoe\\Storage\\src\\cfw_files.c",
+    "Middlewares\\Noodoe\\Storage\\src\\cfw_install.c",
+    "Middlewares\\Noodoe\\Storage\\src\\cfw_store.c",
+    "Middlewares\\Noodoe\\Storage\\src\\config_store.c"
+  ],
+  "gui_regeneration_executed": false,
+  "pending": [
+    "physical IGN/STOP and electrical power-cut tests (emulator tests already passed)",
+    "stock V5.16 storage mutation and separate module USB operation; module USB unavailable",
+    "extended physical UART driving/reset/date-change and sustained photo/checkpoint stress",
+    "actual Cube GUI regeneration (restoration fixtures and six profile/config builds passed)",
+    "real BT radio concurrency on a healthy board"
+  ],
+  "stock_app_photo_roundtrip_verified": true
+}

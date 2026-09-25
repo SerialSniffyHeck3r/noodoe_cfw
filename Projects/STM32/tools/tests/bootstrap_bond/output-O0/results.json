@@ -1,0 +1,100 @@
+{
+  "optimization": "O0",
+  "cases": [
+    {
+      "power_cut_phase": 2,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 3,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 4,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 5,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 6,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 7,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 8,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 9,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 10,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 11,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 12,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 13,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 14,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 15,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 16,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 17,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 18,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 19,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 20,
+      "valid_records": 1
+    },
+    {
+      "power_cut_phase": 21,
+      "valid_records": 2
+    },
+    {
+      "rejected": "future schema"
+    },
+    {
+      "rejected": "wrong UID"
+    },
+    {
+      "rejected": "bad CRC"
+    }
+  ],
+  "round_trip": true,
+  "rekey_during_write": true,
+  "deduplicated": true,
+  "unknown_fields_preserved": true,
+  "fragmented_cfg": true,
+  "hardware": false
+}

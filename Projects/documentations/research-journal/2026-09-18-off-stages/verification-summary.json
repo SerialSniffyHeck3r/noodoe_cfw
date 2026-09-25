@@ -1,0 +1,1219 @@
+{
+  "installed": {
+    "state": "candidate-installed",
+    "app_sha256": "c4a69c5376a9c58eca8b399d1a4de4ab64b4e2ad96f2cd09a5cf1593f41a0b60",
+    "bootloader_preserved": true,
+    "nor_written": false
+  },
+  "release": {
+    "profile": "Product",
+    "configuration": "Release",
+    "flash": {
+      "capacity": 458752,
+      "used": 372996,
+      "free": 85756
+    },
+    "sram": {
+      "capacity": 196608,
+      "used": 160872,
+      "free": 35736,
+      "sections": {
+        ".data": 2108,
+        ".bss": 156960,
+        ".noinit": 264,
+        "._user_heap_stack": 1536
+      }
+    },
+    "ccm": {
+      "capacity": 65536,
+      "used": 49216,
+      "free": 16320,
+      "sections": {
+        ".ccm_bss": 49216
+      }
+    },
+    "largest_objects": [
+      {
+        "address": "0x10000000",
+        "bytes": 49216,
+        "kind": "b",
+        "name": "pool"
+      },
+      {
+        "address": "0x2001aa44",
+        "bytes": 49152,
+        "kind": "b",
+        "name": "ucHeap"
+      },
+      {
+        "address": "0x20012c48",
+        "bytes": 9324,
+        "kind": "b",
+        "name": "links"
+      },
+      {
+        "address": "0x806756c",
+        "bytes": 8832,
+        "kind": "r",
+        "name": "glyph_bitmap"
+      },
+      {
+        "address": "0x200040b8",
+        "bytes": 8720,
+        "kind": "b",
+        "name": "sessions"
+      },
+      {
+        "address": "0x20010a04",
+        "bytes": 8192,
+        "kind": "b",
+        "name": "task_stack"
+      },
+      {
+        "address": "0x20008df0",
+        "bytes": 6516,
+        "kind": "b",
+        "name": "phone_cache"
+      },
+      {
+        "address": "0x2000e37c",
+        "bytes": 4176,
+        "kind": "B",
+        "name": "g_bsp_capture"
+      },
+      {
+        "address": "0x200028ac",
+        "bytes": 4144,
+        "kind": "b",
+        "name": "filesystem"
+      },
+      {
+        "address": "0x20015a34",
+        "bytes": 4120,
+        "kind": "b",
+        "name": "response"
+      },
+      {
+        "address": "0x2000cc7c",
+        "bytes": 4096,
+        "kind": "b",
+        "name": "bounce"
+      },
+      {
+        "address": "0x20018084",
+        "bytes": 3540,
+        "kind": "b",
+        "name": "hci_connection_storage"
+      },
+      {
+        "address": "0x20008138",
+        "bytes": 3256,
+        "kind": "b",
+        "name": "current_phone"
+      },
+      {
+        "address": "0x80662ec",
+        "bytes": 2989,
+        "kind": "r",
+        "name": "kern_class_values"
+      },
+      {
+        "address": "0x2000f948",
+        "bytes": 2788,
+        "kind": "b",
+        "name": "view"
+      },
+      {
+        "address": "0x80617c0",
+        "bytes": 2304,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x200010a4",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "album_pixels"
+      },
+      {
+        "address": "0x200018a4",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "nvm_cache"
+      },
+      {
+        "address": "0x200020aa",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "nvm_work"
+      },
+      {
+        "address": "0x2000c408",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "rx_ring"
+      },
+      {
+        "address": "0x8062168",
+        "bytes": 1728,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x8064464",
+        "bytes": 1728,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x20018e8c",
+        "bytes": 1280,
+        "kind": "b",
+        "name": "hci_stack_static"
+      },
+      {
+        "address": "0x806707c",
+        "bytes": 1264,
+        "kind": "r",
+        "name": "glyph_dsc"
+      },
+      {
+        "address": "0x2000b5b4",
+        "bytes": 1252,
+        "kind": "B",
+        "name": "hpcd_USB_OTG_HS"
+      },
+      {
+        "address": "0x20006728",
+        "bytes": 1252,
+        "kind": "b",
+        "name": "obd"
+      },
+      {
+        "address": "0x8063f3c",
+        "bytes": 1152,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x2001a48c",
+        "bytes": 1120,
+        "kind": "b",
+        "name": "pxReadyTasksLists"
+      },
+      {
+        "address": "0x2001939d",
+        "bytes": 1034,
+        "kind": "b",
+        "name": "hci_packet_with_pre_buffer"
+      },
+      {
+        "address": "0x20016b40",
+        "bytes": 1024,
+        "kind": "b",
+        "name": "class_memory"
+      }
+    ],
+    "rtos_heap_bytes": 49152,
+    "runtime_requirements": {
+      "rtos_min_free": 12288,
+      "fps_average_min": 29,
+      "ccm_guard_failures": 0,
+      "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+    },
+    "budget_passed": true,
+    "failures": []
+  },
+  "debug": {
+    "profile": "Product",
+    "configuration": "Debug",
+    "flash": {
+      "capacity": 458752,
+      "used": 388428,
+      "free": 70324
+    },
+    "sram": {
+      "capacity": 196608,
+      "used": 160880,
+      "free": 35728,
+      "sections": {
+        ".data": 2108,
+        ".bss": 156964,
+        ".noinit": 264,
+        "._user_heap_stack": 1536
+      }
+    },
+    "ccm": {
+      "capacity": 65536,
+      "used": 49216,
+      "free": 16320,
+      "sections": {
+        ".ccm_bss": 49216
+      }
+    },
+    "largest_objects": [
+      {
+        "address": "0x10000000",
+        "bytes": 49216,
+        "kind": "b",
+        "name": "pool"
+      },
+      {
+        "address": "0x2001aa28",
+        "bytes": 49152,
+        "kind": "b",
+        "name": "ucHeap"
+      },
+      {
+        "address": "0x20012c4c",
+        "bytes": 9324,
+        "kind": "b",
+        "name": "links"
+      },
+      {
+        "address": "0x806b1b4",
+        "bytes": 8832,
+        "kind": "r",
+        "name": "glyph_bitmap"
+      },
+      {
+        "address": "0x200040b8",
+        "bytes": 8720,
+        "kind": "b",
+        "name": "sessions"
+      },
+      {
+        "address": "0x20010a08",
+        "bytes": 8192,
+        "kind": "b",
+        "name": "task_stack"
+      },
+      {
+        "address": "0x20008df0",
+        "bytes": 6516,
+        "kind": "b",
+        "name": "phone_cache"
+      },
+      {
+        "address": "0x2000e380",
+        "bytes": 4176,
+        "kind": "B",
+        "name": "g_bsp_capture"
+      },
+      {
+        "address": "0x200028ac",
+        "bytes": 4144,
+        "kind": "b",
+        "name": "filesystem"
+      },
+      {
+        "address": "0x20015a38",
+        "bytes": 4120,
+        "kind": "b",
+        "name": "response"
+      },
+      {
+        "address": "0x2000cc80",
+        "bytes": 4096,
+        "kind": "b",
+        "name": "bounce"
+      },
+      {
+        "address": "0x20018088",
+        "bytes": 3540,
+        "kind": "b",
+        "name": "hci_connection_storage"
+      },
+      {
+        "address": "0x20008138",
+        "bytes": 3256,
+        "kind": "b",
+        "name": "current_phone"
+      },
+      {
+        "address": "0x8069f34",
+        "bytes": 2989,
+        "kind": "r",
+        "name": "kern_class_values"
+      },
+      {
+        "address": "0x2000f94c",
+        "bytes": 2788,
+        "kind": "b",
+        "name": "view"
+      },
+      {
+        "address": "0x8065408",
+        "bytes": 2304,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x200010a4",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "album_pixels"
+      },
+      {
+        "address": "0x200018a4",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "nvm_cache"
+      },
+      {
+        "address": "0x200020aa",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "nvm_work"
+      },
+      {
+        "address": "0x2000c40c",
+        "bytes": 2048,
+        "kind": "b",
+        "name": "rx_ring"
+      },
+      {
+        "address": "0x80680ac",
+        "bytes": 1728,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x8065db0",
+        "bytes": 1728,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x20018e90",
+        "bytes": 1280,
+        "kind": "b",
+        "name": "hci_stack_static"
+      },
+      {
+        "address": "0x806acc4",
+        "bytes": 1264,
+        "kind": "r",
+        "name": "glyph_dsc"
+      },
+      {
+        "address": "0x2000b5b8",
+        "bytes": 1252,
+        "kind": "B",
+        "name": "hpcd_USB_OTG_HS"
+      },
+      {
+        "address": "0x20006728",
+        "bytes": 1252,
+        "kind": "b",
+        "name": "obd"
+      },
+      {
+        "address": "0x8067b84",
+        "bytes": 1152,
+        "kind": "r",
+        "name": "masks"
+      },
+      {
+        "address": "0x2001a3f8",
+        "bytes": 1120,
+        "kind": "b",
+        "name": "pxReadyTasksLists"
+      },
+      {
+        "address": "0x200193a1",
+        "bytes": 1034,
+        "kind": "b",
+        "name": "hci_packet_with_pre_buffer"
+      },
+      {
+        "address": "0x20016b44",
+        "bytes": 1024,
+        "kind": "b",
+        "name": "class_memory"
+      }
+    ],
+    "rtos_heap_bytes": 49152,
+    "runtime_requirements": {
+      "rtos_min_free": 12288,
+      "fps_average_min": 29,
+      "ccm_guard_failures": 0,
+      "note": "ELF cannot prove dynamic watermarks or FPS; require hardware diagnostics."
+    },
+    "budget_passed": true,
+    "failures": []
+  },
+  "tests": {
+    "product_ui": {
+      "runs": [
+        {
+          "optimization": "-O0",
+          "tests": [
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_obd_card",
+            "test_off_stage_sequence",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_two_phone_ui",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 110946,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        },
+        {
+          "optimization": "-Os",
+          "tests": [
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_obd_card",
+            "test_off_stage_sequence",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_two_phone_ui",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 110946,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        },
+        {
+          "optimization": "-Oz",
+          "tests": [
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_obd_card",
+            "test_off_stage_sequence",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_two_phone_ui",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 110946,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        }
+      ],
+      "sources": {
+        "ui_dashboard.c": "76f8f796e0d4f33a0c7a0749d969cb753ea8269377e1071264d4b8a7a67d211c",
+        "ui_dashboard_presenter.c": "a49f10a241725fb26c0fc4f4e7e5f170c9c02a4c7973aec537adfbd31cabe722",
+        "ui_input.c": "7851a4d83aa5634edc016c520457efd8cedb1b55a27cc0d72f43bf4c92e9956b",
+        "ui_maintenance.c": "b204e635cabff5d25b8f958db35e9c97a19f582e1884c8025bafcf8a3dcf5a04",
+        "ui_menu_catalog.c": "20084393af82673129fdda00660ae231f34a21be3cbd1f3e063d0833d37b125e",
+        "ui_navigation.c": "ef309790631394b4b37a5335b7bd1b35e4d12abcd783539791ff6c934bb0c210",
+        "ui_obd.c": "4e78aa5c77c8bb19fe2cf48a2734acbaf9af2f5a28d39827a3d78d798d3a2599",
+        "ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "ui_power.c": "1d82c42039f2576e33ced1ff016f7548ba8c653fd28e0aa71e6d7432d0e931e3",
+        "ui_state.c": "3f2f62eefe017f250451a6b53c256ab203f802798a788ed060963d1998fa1a09",
+        "ui_warning.c": "b20f136e0deb52e9a0eaaaa95c62843f5c8411554ceaae3807de44050c17f639",
+        "ignition_session.c": "c4f8640151e0840f57ae8eb897ae40a8f3a09e0c52cdb0b9179b679ae482c2d3",
+        "speed_home_model.c": "6e11342731b43938f855ca174e96e79040d2c27b1e715cb5ca6d6845d2790356",
+        "speed_home_startup.c": "6d59957eca6a018e3246a395201df922e7de2a3dc844bde4bcae36686ff13914",
+        "product_preview.c": "5ff20372378edce63b0a42daccbbae87130d0f9496025ee90d991abd689b9e53",
+        "page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77"
+      },
+      "scope": "Actual ARM C model only; no hardware or LVGL rendering claimed."
+    },
+    "settings_ui": [
+      {
+        "optimization": "O0",
+        "returned": true,
+        "result": 0,
+        "assertions": 223,
+        "failure_line": 0,
+        "hardware_access": false,
+        "source_sha256": "01668261cf0e8cfc6c9f06ee162d86bb34e724537d52241e5c648fee8c1560d3"
+      },
+      {
+        "optimization": "Os",
+        "returned": true,
+        "result": 0,
+        "assertions": 223,
+        "failure_line": 0,
+        "hardware_access": false,
+        "source_sha256": "01668261cf0e8cfc6c9f06ee162d86bb34e724537d52241e5c648fee8c1560d3"
+      }
+    ],
+    "power_ui_host": {
+      "runs": [
+        {
+          "opt": "O0",
+          "result": 0,
+          "returned": true,
+          "assertions": 1151
+        },
+        {
+          "opt": "Os",
+          "result": 0,
+          "returned": true,
+          "assertions": 1151
+        }
+      ],
+      "hardware_access": false,
+      "sources": {
+        "App_Logic\\UI\\src\\ui_dashboard.c": "76f8f796e0d4f33a0c7a0749d969cb753ea8269377e1071264d4b8a7a67d211c",
+        "App_Logic\\UI\\src\\ui_dashboard_presenter.c": "a49f10a241725fb26c0fc4f4e7e5f170c9c02a4c7973aec537adfbd31cabe722",
+        "App_Logic\\UI\\src\\ui_input.c": "7851a4d83aa5634edc016c520457efd8cedb1b55a27cc0d72f43bf4c92e9956b",
+        "App_Logic\\UI\\src\\ui_maintenance.c": "b204e635cabff5d25b8f958db35e9c97a19f582e1884c8025bafcf8a3dcf5a04",
+        "App_Logic\\UI\\src\\ui_menu_catalog.c": "20084393af82673129fdda00660ae231f34a21be3cbd1f3e063d0833d37b125e",
+        "App_Logic\\UI\\src\\ui_navigation.c": "ef309790631394b4b37a5335b7bd1b35e4d12abcd783539791ff6c934bb0c210",
+        "App_Logic\\UI\\src\\ui_obd.c": "4e78aa5c77c8bb19fe2cf48a2734acbaf9af2f5a28d39827a3d78d798d3a2599",
+        "App_Logic\\UI\\src\\ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "App_Logic\\UI\\src\\ui_power.c": "1d82c42039f2576e33ced1ff016f7548ba8c653fd28e0aa71e6d7432d0e931e3",
+        "App_Logic\\UI\\src\\ui_state.c": "3f2f62eefe017f250451a6b53c256ab203f802798a788ed060963d1998fa1a09",
+        "App_Logic\\UI\\src\\ui_warning.c": "b20f136e0deb52e9a0eaaaa95c62843f5c8411554ceaae3807de44050c17f639",
+        "App_Logic\\UI\\src\\power_ui.c": "c9639c68e86197c95b5c7e81f86d050ed70ccab0f4fc08d473384c87eafe78f5",
+        "App_Logic\\UI\\src\\ignition_session.c": "c4f8640151e0840f57ae8eb897ae40a8f3a09e0c52cdb0b9179b679ae482c2d3",
+        "Graphics\\UI\\src\\page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+        "Graphics\\UI\\src\\scene_transition.c": "f3c1008e6033248c6a29912543795a1b94a1942b7871c6bd1b46ccf9645c0062",
+        "Graphics\\UI\\src\\power_scene.c": "89d265da7ff9d88169c9cddf2c9eb1a8c32f0a782fab8d24e4c99edf40bf45e2"
+      }
+    },
+    "power_host": {
+      "runs": [
+        {
+          "optimization": "O0",
+          "returned": true,
+          "result": 0,
+          "failure_line": 0,
+          "assertions": 445,
+          "rtc_shadow_locked_at_wfi": 0,
+          "hardware_access": false
+        },
+        {
+          "optimization": "Os",
+          "returned": true,
+          "result": 0,
+          "failure_line": 0,
+          "assertions": 445,
+          "rtc_shadow_locked_at_wfi": 0,
+          "hardware_access": false
+        }
+      ],
+      "expected_prior_bug": false,
+      "sources": {
+        "BSP_LowPower.c": "e0b9a0690663bc28c324193d441d4c10fcb96477aadc5b0b664b53d77ca769d4",
+        "BSP_DisplayPower.c": "c1e9ca2a3060b7d8ecab40c634d5f8b8ce75cd838b69128a94c164e489e2c9fd",
+        "PowerService.c": "a55ae22fad42c7c52fe731637e896c6df3059b7db7ec4e8cd2dca7805cb2fe97",
+        "ButtonFeedback.c": "378d205f7af0ecace1f2b3b93e96cb1b61a6867e895bf61cb190b9c272086571",
+        "test_power.c": "f5bb784e45c407d37c8f654d7c6a0d3bec5cb8f05a988aa8ef5a91992f216763"
+      }
+    },
+    "bt_transport_host": {
+      "results": [
+        {
+          "optimization": "-O0",
+          "scenario": "test_main",
+          "status": "pass",
+          "assertions": 326,
+          "usart_only_resets": 4,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 2
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_abort_timeout",
+          "status": "pass",
+          "assertions": 15,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_abort_enabled",
+          "status": "pass",
+          "assertions": 15,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_initial_active",
+          "status": "pass",
+          "assertions": 8,
+          "usart_only_resets": 0,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 0
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_raw",
+          "status": "pass",
+          "assertions": 189,
+          "usart_only_resets": 20,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 10
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_raw_abort",
+          "status": "pass",
+          "assertions": 10,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-O0",
+          "scenario": "test_retained",
+          "status": "pass",
+          "assertions": 408,
+          "usart_only_resets": 0,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 0
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_main",
+          "status": "pass",
+          "assertions": 326,
+          "usart_only_resets": 4,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 2
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_abort_timeout",
+          "status": "pass",
+          "assertions": 15,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_abort_enabled",
+          "status": "pass",
+          "assertions": 15,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_initial_active",
+          "status": "pass",
+          "assertions": 8,
+          "usart_only_resets": 0,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 0
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_raw",
+          "status": "pass",
+          "assertions": 189,
+          "usart_only_resets": 20,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 10
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_raw_abort",
+          "status": "pass",
+          "assertions": 10,
+          "usart_only_resets": 1,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 1
+        },
+        {
+          "optimization": "-Os",
+          "scenario": "test_retained",
+          "status": "pass",
+          "assertions": 408,
+          "usart_only_resets": 0,
+          "unexpected_dr_reads": 0,
+          "reset_held_stale_dr_clears": 0
+        }
+      ],
+      "runtime_uart_owned_by_bt": true,
+      "sources": {
+        "Middlewares\\Noodoe\\Bluetooth\\src\\bluetooth_patch.c": "bb23a52931970ca1716da771c3626c11476f11060a85d41f2047ef95945cb2c0",
+        "Middlewares\\Noodoe\\Bluetooth\\src\\bluetooth_keys.c": "dcccafc994197cfb31b8f15b1a438a183efab25e996626c94b13c40e059b61f9",
+        "Drivers\\BSP\\src\\bsp_bt_hci.c": "61000e335a5ce841854e6eaf4f24b343a39125c1ed90545ebc8032199bbe5a46",
+        "Drivers\\BSP\\src\\BSP_BT_ResetDiagnostic.c": "4a182d4364090968326f8ea79651dc0dfcf99f6ea40d86a1f03000248540639a",
+        "Middlewares\\Third_Party\\BTstack\\src\\btstack_util.c": "2cba44a8ec08762757540f039a704049cb7340fa75c07f09cafe436990342414",
+        "Middlewares\\Noodoe\\Bluetooth\\src\\bluetooth_service.c": "02a7cec66eb6f0d9a51cd7ee4b676c4d8c1541633b9044c5859413e0cb72b129",
+        "Middlewares\\Noodoe\\Bluetooth\\src\\bluetooth_port.c": "cb2e872c57d5a3ec41d3ebea40698a6e2a91aa4fae6193b5dcc20a091a0fad97",
+        "Drivers\\BSP\\inc\\BSP_BT_HCI.h": "8a2066f0936e0232e33092d43a70952ea98757509a02d26a676e4e96245cde44",
+        "Drivers\\BSP\\inc\\BSP_BT_ResetDiagnostic.h": "1a9cd2186767c685b2a3a238b2c486c8bad7c64cf8de3fdafc698838a7af7ccb",
+        "Middlewares\\Noodoe\\Bluetooth\\inc\\NoodoeBluetooth.h": "747aec9a8dd982169aff9c68b382c84cc420be03911706be002ab116ce1ab77b",
+        "Middlewares\\Noodoe\\Bluetooth\\inc\\bluetooth_port.h": "5ea866ec72f90548a5ba98ee3220b1a9b7ef8ce24e3311d47be94cef2d8216d3",
+        "App_Logic\\Runtime\\src\\NoodoeRuntime.c": "bd7df79c78bc3a8316a635c2e0cb5025a9b77e747c9a480b81acd99d6cb919ad"
+      }
+    }
+  },
+  "physical_ign_cycle_tested": false,
+  "wireless_bt_retention_tested": false,
+  "electrical_current_measured": false,
+  "gui_regeneration_executed": false,
+  "observations": {
+    "after_install": {
+      "g_bsp_power": {
+        "magic": 1347899953,
+        "ready": 1,
+        "raw_ign_off": 0,
+        "ign_valid": 1,
+        "ign_on": 1,
+        "changes": 1,
+        "last_change_ms": 13,
+        "shutdown_outputs": 0,
+        "board_revision": 0
+      },
+      "g_bsp_fault": {
+        "magic": 0,
+        "code": 0,
+        "ipsr": 0,
+        "cfsr": 0,
+        "hfsr": 0,
+        "dfsr": 0,
+        "mmfar": 0,
+        "bfar": 0,
+        "msp": 0,
+        "psp": 0
+      },
+      "g_power_ui": {
+        "magic": 1347766599,
+        "version": 3,
+        "state": 2,
+        "policy": 0,
+        "entered_ms": 4326,
+        "compose": 1,
+        "display_asleep": 0,
+        "error": 0,
+        "summary_oil_valid": 0,
+        "summary_oil_permille": 0,
+        "ride_ms": 42458,
+        "distance_mm": 0,
+        "ring_progress": 34,
+        "shell_progress": 34,
+        "welcome_active": 1,
+        "wake_pending": 0,
+        "off_phase": 0,
+        "session_open": 1,
+        "completed": 0,
+        "off_phase_ms": 0,
+        "finished_ride_ms": 0,
+        "finished_distance_mm": 0
+      },
+      "g_power_service": {
+        "magic": 1347900209,
+        "version": 1,
+        "requested": 0,
+        "acknowledged": 0,
+        "changes": 0,
+        "wakes": 0
+      },
+      "g_bsp_lowpower": {
+        "magic": 1280333617,
+        "version": 1,
+        "policy": 0,
+        "stop_allowed": 0,
+        "sleeps": 0,
+        "stops": 0,
+        "aborts": 0,
+        "rtc_wakes": 0,
+        "ign_edges": 0,
+        "elapsed_ms": 0,
+        "last_sleep_ms": 0,
+        "max_sleep_ms": 0,
+        "error": 0,
+        "phase": 0,
+        "wake_pending": 0
+      },
+      "g_bsp_clock": {
+        "magic": 1381253937,
+        "ready": 1,
+        "error": 0,
+        "reads": 44,
+        "sets": 0,
+        "alarms": 0,
+        "backup19": 0,
+        "year": 2000,
+        "month": 1,
+        "day": 1,
+        "weekday": 6,
+        "hour": 2,
+        "minute": 58,
+        "second": 44,
+        "valid": 0
+      },
+      "g_bsp_display": {
+        "magic": 1146310705,
+        "version": 1,
+        "stage": 5,
+        "last_result": 0,
+        "backend_result": 0,
+        "initialized": 1,
+        "width": 480,
+        "height": 480,
+        "frame_open": 0,
+        "frame_error": 0,
+        "word_count": 0,
+        "frames_presented": 0,
+        "requested_brightness": 25,
+        "actual_brightness": 25,
+        "last_frames": 0,
+        "failures": 0,
+        "failed_stage": 0
+      },
+      "g_speed_startup": {
+        "magic": 1398231089,
+        "version": 1,
+        "phase": 7,
+        "epoch": 1,
+        "value": 0,
+        "start_ms": 5289,
+        "frame_before": 125,
+        "cutoff_ms": 6122,
+        "accepted_telemetry_ms": 0,
+        "starts": 1,
+        "completed": 1,
+        "cancelled": 0,
+        "up_ms": 4443,
+        "down_ms": 5289
+      },
+      "registers": {
+        "rcc_sleep": [
+          2129631231,
+          241,
+          1,
+          0,
+          4143892991,
+          74940211
+        ],
+        "iwdg": [
+          0,
+          4095
+        ],
+        "backlight_ccr4": [
+          25
+        ],
+        "gpio_ign": [
+          34568
+        ]
+      }
+    },
+    "after_ui": {
+      "g_speed_startup": {
+        "magic": 1398231089,
+        "version": 1,
+        "phase": 7,
+        "epoch": 1,
+        "value": 0,
+        "start_ms": 5289,
+        "frame_before": 125,
+        "cutoff_ms": 6122,
+        "accepted_telemetry_ms": 0,
+        "starts": 1,
+        "completed": 1,
+        "cancelled": 0,
+        "up_ms": 4443,
+        "down_ms": 5289
+      },
+      "g_product_ui": {
+        "magic": 1347766577,
+        "version": 1,
+        "seq": 11407,
+        "ready": 1,
+        "error": 0,
+        "process_count": 5704,
+        "now_ms": 44981,
+        "power": 2,
+        "home": 0,
+        "card": 0,
+        "footer": 0,
+        "menu": 0,
+        "modal": 0,
+        "warning": 0,
+        "remote": 0,
+        "epoch": 1,
+        "speed_valid": 0,
+        "odo_valid": 0,
+        "clock_valid": 0,
+        "speed_kph": 0,
+        "odo_km": 0,
+        "arc_value": 0,
+        "arc_color": 3713279,
+        "max_kph": 200,
+        "units": 0,
+        "hour": 2,
+        "minute": 58,
+        "state_revision": 34235,
+        "effects_observed": 3,
+        "effects_unsupported": 0,
+        "effect_overflows": 0,
+        "scope_speed_only": 1,
+        "input_count": 3,
+        "ign_valid": 1,
+        "ign_on": 1,
+        "links": 0
+      },
+      "g_dash_service": {
+        "magic": 1146308657,
+        "version": 1,
+        "initialized": 1,
+        "enabled": 1,
+        "phase": 3,
+        "link_up": 0,
+        "error": 0,
+        "rx_bytes": 0,
+        "rx_frames": 0,
+        "link_frames": 0,
+        "tx_bytes": 175,
+        "tx_frames": 35,
+        "tx_requests": 35,
+        "tx_light": 0,
+        "tx_stops": 0,
+        "uart_errors": 0,
+        "checksum_errors": 0,
+        "overflows": 0,
+        "pending_replies": 0,
+        "reply_overflows": 0,
+        "light_index": 0,
+        "light_source": 0,
+        "light_sample_ms": 0,
+        "calibration_valid": 1,
+        "pending_id": 0,
+        "completed_id": 0,
+        "completed_result": 0,
+        "process_count": 22505
+      },
+      "g_graphics": {
+        "magic": 1196572977,
+        "version": 1,
+        "sample_seq": 22838,
+        "stage": 4,
+        "last_error": 0,
+        "initialized": 1,
+        "process_count": 5709,
+        "last_process_ms": 45018,
+        "last_process_duration_ms": 0,
+        "max_process_duration_ms": 33,
+        "render_count": 1293,
+        "render_busy": 0,
+        "render_started_ms": 45006,
+        "last_render_ms": 45013,
+        "last_render_duration_ms": 7,
+        "max_render_duration_ms": 9,
+        "heap_total": 46184,
+        "heap_free": 31296,
+        "heap_largest": 29996,
+        "heap_used": 14888,
+        "heap_peak": 16096,
+        "heap_fragmentation": 5,
+        "eve_frames": 3127,
+        "eve_cmd_read": 1092,
+        "eve_cmd_write": 1092,
+        "eve_cmd_dl": 1324,
+        "eve_cpu_reset": 0,
+        "eve_pclk": 3,
+        "hardware_sample_ms": 44869,
+        "ramg_used": 5107,
+        "ramg_entries": 27,
+        "cache_resets": 0,
+        "input_pressed_mask": 1,
+        "input_boot_held_mask": 1,
+        "input_events": 3,
+        "input_dropped": 0,
+        "spi_tx_bytes": 2218460,
+        "spi_rx_bytes": 12777,
+        "spi_failures": 0,
+        "log_warnings": 0
+      },
+      "g_graphics_performance": {
+        "magic": 1196443185,
+        "version": 1,
+        "valid": 1,
+        "fps_tenths": 299,
+        "cpu_tenths": 568,
+        "target_fps_milli": 30000,
+        "continuous": 1,
+        "window_ms": 1002,
+        "window_frames": 30,
+        "frame_slots_missed": 3,
+        "cpu_window_cycles": 168336763,
+        "idle_window_cycles": 72783011
+      }
+    }
+  },
+  "settings_hardware": {
+    "menu_entry": true,
+    "edit_60_to_59": true,
+    "cancel_preserves_60": true,
+    "capture_complete": true,
+    "capture_path": "settings-bench/capture/display.png",
+    "normal_back_exit_completed": false,
+    "interruption": "ST-LINK lost core ID during Back-row navigation; same failure on read-only reconnect",
+    "settings_changed": false,
+    "physical_button_press": false
+  },
+  "uart_drive": {
+    "port": "COM11",
+    "baud": 115200,
+    "format": "8N1",
+    "cycle_seconds": 150,
+    "interval_seconds": 0.1,
+    "initial_odo_km": 36851,
+    "fuel_observed_bars": 1,
+    "segments": [
+      [
+        "stopped",
+        10,
+        0,
+        0
+      ],
+      [
+        "city_acceleration",
+        12,
+        0,
+        50
+      ],
+      [
+        "city_cruise",
+        15,
+        50,
+        50
+      ],
+      [
+        "road_acceleration",
+        10,
+        50,
+        90
+      ],
+      [
+        "road_cruise",
+        15,
+        90,
+        90
+      ],
+      [
+        "high_speed_acceleration",
+        14,
+        90,
+        160
+      ],
+      [
+        "overspeed_acceleration",
+        10,
+        160,
+        200
+      ],
+      [
+        "overspeed_cruise",
+        8,
+        200,
+        200
+      ],
+      [
+        "high_speed_deceleration",
+        20,
+        200,
+        60
+      ],
+      [
+        "approach",
+        10,
+        60,
+        60
+      ],
+      [
+        "braking_to_stop",
+        12,
+        60,
+        0
+      ],
+      [
+        "traffic_light_stop",
+        14,
+        0,
+        0
+      ]
+    ],
+    "seconds": 0,
+    "stop_file": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-18-off-stages\\drive\\stop",
+    "pid": 36684,
+    "running": true,
+    "error": null,
+    "tx_count": 2241,
+    "rx_bytes": 3173,
+    "phase": "high_speed_acceleration",
+    "speed_kph": 150,
+    "odo_km": 36855,
+    "distance_km": 4.543257083332315,
+    "completed_cycles": 1,
+    "timing_gaps": 0,
+    "source": "synthetic PC driving scenario; real physical UART",
+    "receive_verification": "not inferred from PC transmission",
+    "elapsed_seconds": 224.09400000004098,
+    "updated_unix": 1789670429.8656855,
+    "log_write_failures": 0
+  },
+  "latest_ui_query_succeeded": false,
+  "uart_response_after_swd_failure": {
+    "rx_bytes": 3749,
+    "elapsed_seconds": 264.094000000041,
+    "last_rx": {
+      "s": 263.829000000027,
+      "direction": "RX",
+      "hex": "f5 a1 02 01 00 57"
+    }
+  }
+}

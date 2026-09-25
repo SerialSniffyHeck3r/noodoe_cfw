@@ -1,0 +1,99 @@
+{
+  "family": "Google Material Icons Round",
+  "source_commit": "40a7a292a79d9394157e1ea24f83d52d5e17c556",
+  "source_sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e",
+  "mask_size": 24,
+  "format": "LVGL A4 / EVE L4 alpha",
+  "bitmap_bytes": 2304,
+  "icons": [
+    {
+      "name": "home",
+      "codepoint": 59530,
+      "ink_box": [
+        2,
+        3,
+        22,
+        21
+      ],
+      "sha256": "e557a415c6c5bfa3d4cf56166784245af4d35a4cb2e6d086e5a24f4af94aac0e"
+    },
+    {
+      "name": "analytics",
+      "codepoint": 61246,
+      "ink_box": [
+        3,
+        3,
+        21,
+        21
+      ],
+      "sha256": "9a2644f7e77316fb709bb239a8ab7dccec19bf942f2be841bd217dd11f33d97f"
+    },
+    {
+      "name": "smartphone",
+      "codepoint": 58156,
+      "ink_box": [
+        5,
+        0,
+        19,
+        24
+      ],
+      "sha256": "9e4506dbe8d47282d5fc11ece4f958012e33ef822d0baac93714af7a138b2fdc"
+    },
+    {
+      "name": "music_note",
+      "codepoint": 58373,
+      "ink_box": [
+        6,
+        3,
+        18,
+        21
+      ],
+      "sha256": "194956c53a761636cf9af56da770990388125b2884d51161f8631a61b63860df"
+    },
+    {
+      "name": "car_repair",
+      "codepoint": 59990,
+      "ink_box": [
+        4,
+        2,
+        20,
+        21
+      ],
+      "sha256": "82c63a6742e2e3028458f61247ebfe41d0915a1287ac622f53ee58159d034b8a"
+    },
+    {
+      "name": "settings_remote",
+      "codepoint": 59591,
+      "ink_box": [
+        4,
+        0,
+        20,
+        24
+      ],
+      "sha256": "e1bb822159dd99dbc2549b8678379ad2298b018d47865d9bd372e978dbefb9c2"
+    },
+    {
+      "name": "route",
+      "codepoint": 60109,
+      "ink_box": [
+        3,
+        3,
+        21,
+        21
+      ],
+      "sha256": "5ed587cc737de5cf906891b8163a76708a00d487aabfa3899b7d9bb142960eac"
+    },
+    {
+      "name": "settings",
+      "codepoint": 59576,
+      "ink_box": [
+        2,
+        2,
+        22,
+        22
+      ],
+      "sha256": "5c2b7c1d76ecc98309a2c636e26d1082495c66a1c20dd6722dc087ef04f5459e"
+    }
+  ],
+  "generated_sha256": "d12e90e58b81fe8f2d62c9f39e42ca307e336d14e4bdb0aeeaf818eea3a94f0a"
+}

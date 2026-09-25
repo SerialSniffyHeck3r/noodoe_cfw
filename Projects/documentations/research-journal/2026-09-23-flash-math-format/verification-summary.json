@@ -1,0 +1,175 @@
+{
+  "apk_version": "6.8.0",
+  "apk_sha256": "5312b158ea712586c50fc91cdfc298df18069962ff70f6163a829b432f20e0bd",
+  "apk_bytes": 28753903,
+  "bundle_sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff",
+  "bundle_bytes": 1291839,
+  "android": {
+    "tests": 202,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "android_rebuilt_this_turn": false,
+  "android_test_provenance": "C:\\shared\\KYMCO\\Reversing\\analysis\\2026-09-23-media-gps-trip\\verification-summary.json",
+  "same_apk_signer": true,
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "bench_installed": false,
+  "diagnostic_firmware_implemented": false,
+  "budgets": {
+    "Release": {
+      "before": {
+        "capacity": 393216,
+        "used": 327564,
+        "free": 65652
+      },
+      "after": {
+        "capacity": 393216,
+        "used": 323920,
+        "free": 69296
+      },
+      "saved": 3644,
+      "sram": {
+        "capacity": 196352,
+        "used": 141568,
+        "free": 54784,
+        "sections": {
+          ".data": 2904,
+          ".bss": 136864,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "before": {
+        "capacity": 393216,
+        "used": 358360,
+        "free": 34856
+      },
+      "after": {
+        "capacity": 393216,
+        "used": 354720,
+        "free": 38496
+      },
+      "saved": 3640,
+      "sram": {
+        "capacity": 196352,
+        "used": 141840,
+        "free": 54512,
+        "sections": {
+          ".data": 2920,
+          ".bss": 137120,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "unchanged": {
+    "bootstrap": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "gate": true
+  },
+  "symbols": {
+    "Release": {
+      "removed": {
+        "lv_vsnprintf_inner": true,
+        "__aeabi_dmul": true,
+        "__aeabi_d2lz": true
+      },
+      "shared_clib_formatter": true
+    },
+    "Debug": {
+      "removed": {
+        "lv_vsnprintf_inner": true,
+        "__aeabi_dmul": true,
+        "__aeabi_d2lz": true
+      },
+      "shared_clib_formatter": true
+    }
+  },
+  "production_importer": true,
+  "tests": {
+    "flash_optimization": [
+      {
+        "optimization": "O0",
+        "arcs": 17160,
+        "formats": 1120,
+        "result": "PASS"
+      },
+      {
+        "optimization": "Os",
+        "arcs": 17160,
+        "formats": 1120,
+        "result": "PASS"
+      },
+      {
+        "optimization": "Oz",
+        "arcs": 17160,
+        "formats": 1120,
+        "result": "PASS"
+      }
+    ],
+    "subpixel_arc": [
+      {
+        "optimization": "O0",
+        "endpoint_samples": 10000,
+        "unique_endpoints": 9999,
+        "max_endpoint_error_px": 0.1391472931794144,
+        "status": "PASS"
+      },
+      {
+        "optimization": "Os",
+        "endpoint_samples": 10000,
+        "unique_endpoints": 9999,
+        "max_endpoint_error_px": 0.1391472931794144,
+        "status": "PASS"
+      }
+    ],
+    "project_layers": {
+      "status": "pass",
+      "fixture": "C:\\shared\\KYMCO\\Reversing\\STM32CubeProjects\\FuckNudo_Noodoe_CFW_Project\\tools\\tests\\project_layers\\output\\fixture-01b63b5bbfd84f62b0938c3ff8a2b5eb",
+      "cases": [
+        "restore App_Logic root/includes",
+        "restore middleware includes",
+        "restore APP linker",
+        "byte-idempotent repeat",
+        "Core/IOC unchanged",
+        "Product/Integrated/Graphics source policy"
+      ],
+      "gui_regeneration_executed": false,
+      "hardware_access": false
+    }
+  },
+  "source_hashes": {
+    "Graphics/Port/inc/lv_conf.h": "5354df82650c3c85eb1f6a055151c59c3db2d8b2a6e89118f1d05f5557e3d9f6",
+    "Graphics/Port/src/graphics_eve_arc.c": "5f9b62e85fdee49e3da831d7b80fa709df37f65e61d3aceb9d345062e301b373",
+    "tools/eve_arc_port.py": "29de9de002884a510669cedf409c1b77807334101f5ba232561a6bbb180a6256",
+    "tools/lvgl_build.json": "5d188ee79c7bcf524b11bf9ab863516430d048e23b362e81579e2d174091640d",
+    "tools/check_project.ps1": "ab49b8341fb7ea1cac2cfa67d2a2af09e3f7ee94ff10164aa6c5e77450068588",
+    "tools/tests/flash_optimization/run.py": "863c2f0d6959a8677ba114e8bd129dc930b98c5b2f8e94fa22b13a5594ea4e92",
+    "tools/tests/flash_optimization/test_port.c": "ea89b5618a16b34ef601fe6852eba40962d3bb2eda5b56ef147a5b4d898fb7dd",
+    "DiagnosticFirmware_DESIGN.md": "d54ce50085b902a743a681a82c328dea8485776ae7e8d23304488c6a2d589d9c"
+  },
+  "vendor_arc_unchanged": true
+}

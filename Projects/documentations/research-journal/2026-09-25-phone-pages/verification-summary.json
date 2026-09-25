@@ -1,0 +1,699 @@
+{
+  "apk_version": "6.11.0",
+  "apk_code": 28,
+  "cfw_version": "6.11.0",
+  "apk_sha256": "c3666446426694569c898182ee22196bfce2986d7e750be5bbd076b0eab6928e",
+  "bundle_sha256": "67ab14d579c5aaaaf3cc8340c43e6ff70848d8035903a151a728d2ad19dbf3e4",
+  "production_importer": true,
+  "same_apk_signer": true,
+  "signer_sha256": "5d268d352019cc1d394296e0ea0a13495daecee038f58def0ae7036fc7c64bae",
+  "targeted_tests": 138,
+  "tests": [
+    {
+      "name": "io.opennoodoe.app.companion.CompanionDiagnosticsTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.CompanionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.DeviceSettingsSessionTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.MediaBurstTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.NotificationHistoryTest",
+      "tests": 7,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneCallsTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneGpsEncoderTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhoneLocationFeedTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.PhonePanelRendererTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.companion.VisualTransferTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BondSessionTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootHandoffSessionTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootReconnectPolicyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.BootstrapCommitDiagnosticsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.DiagnosticsTest",
+      "tests": 5,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.InstallerTest",
+      "tests": 31,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.MaintenanceTest",
+      "tests": 9,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.ProductBootTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.installer.VisualInstallConfirmationTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.AppLanguageSelectionTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.BootConfirmationUiTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionLanguagesTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionReconnectPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "io.opennoodoe.app.maintenance.CompanionServiceHandoffTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0
+    }
+  ],
+  "arm_scenarios": 14,
+  "lint_errors": 0,
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 326860,
+        "free": 66356
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143880,
+        "free": 52472,
+        "sections": {
+          ".data": 2924,
+          ".bss": 139148,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 358856,
+        "free": 34360
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142920,
+        "free": 53432,
+        "sections": {
+          ".data": 2940,
+          ".bss": 138176,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "unchanged_components": [
+    "Bootstrap",
+    "Gate",
+    "stock",
+    "resources",
+    "Uninstall",
+    "Diagnostic"
+  ],
+  "hardware_access": false,
+  "actual_rf_test": false,
+  "updater_arm_scenarios": 98,
+  "changes_verified": "Optional fused provider failure no longer cancels GPS; screen-off and permission tests; call read/control permissions separated; one selected name-number-time card; notification auto-opening; System restart storage boundary; twenty fresh UP presses reveal Easter egg. Hardware/OEM behavior not verified.",
+  "firmware_regressions": {
+    "dashboard_pages": {
+      "runs": [
+        {
+          "data_debug": 0,
+          "optimization": "-O0",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2433,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 0,
+          "optimization": "-Os",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2433,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 0,
+          "optimization": "-Oz",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_easing_axes.part.0",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 3162,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-O0",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2463,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-Os",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 2463,
+          "status": "PASS"
+        },
+        {
+          "data_debug": 1,
+          "optimization": "-Oz",
+          "tests": [
+            "test_call_permission_scope",
+            "test_development_path",
+            "test_easing_axes",
+            "test_easing_axes.part.0",
+            "test_home_views",
+            "test_music_buttons",
+            "test_music_fixture_controls",
+            "test_odometer_calibration",
+            "test_pages_and_locks",
+            "test_phone",
+            "test_preview_isolation",
+            "test_refuel",
+            "test_trail",
+            "test_trail_controls_and_jitter",
+            "test_transition",
+            "test_trip"
+          ],
+          "assertions": 3192,
+          "status": "PASS"
+        }
+      ],
+      "sources": {
+        "ui_calls.c": "83448839d64905f18ce012e23c7cd7155dfa147dd17ae8292ad3f6463863694e",
+        "ui_dashboard.c": "5f033d828451a2e910dac741bf941fd084ee9bf882f5c0b5d0e035019cb1ed45",
+        "ui_dashboard_presenter.c": "3610f247c611b6b794efe4b90ecfef25a254389e259f84ba38ae3f7fc26b35dc",
+        "ui_input.c": "a6998f146864f68a90065a2da1ed809ab34158f1e1294142413db0b6b1eae3d2",
+        "ui_maintenance.c": "6521eab57136ebab7dae33f645a4a47dd308253e7a40866d59909bba689475a5",
+        "ui_navigation.c": "64a66478fa7374e270c40e1d1e89eb83e9365e4ac3e638715d98d9cfedb5ba44",
+        "ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "ui_phone.c": "6bb3545431af990827042c8fb825ca2305a84566ff5f51e811a5e84b63e7cd49",
+        "ui_power.c": "c9cb67456e755fbcd5136e5c0d60a75059a16c35e79bafafc5ca3fc268b8a24a",
+        "ui_state.c": "f2cac1e854d79e366972893c86d81dd98079baac0bb40b686e29c3cdd86117cd",
+        "ui_theme.c": "4d1dbf7fb5311067d0a375d13fc9f8990ef45913dbc606da1f68cf38959c09bc",
+        "ui_warning.c": "237dbd82ce40546c55a0e18d1ce471eff650ef45aba34e1cdd7f06cde07c7091",
+        "trip_computer.c": "a9257a49b46c743a921ce830c7db082f99d42ef399316e7436dfe1edefb21f52",
+        "phone_content.c": "24743520479cdaab4a07f6897767c11a84367900a52fc3de2f222fadd5564e46",
+        "phone_trail.c": "8e34cfeedfe25b6ca9f992547616899a10665d83f0a318101acc67b229f71bc4",
+        "dashboard_pages.c": "4668b28fcb49fffb0420179c17ed20ad582bac5445e4de37a851ca149d2219a0",
+        "home_page.c": "62ad66cdd742b1610aee653898e526f481d8ac50231e52dcb9ce2419ca867ae6",
+        "page_preview.c": "1582a6d5463d576cd1afd5bb7fd199bd3cdc8d003032a36ecbc78f2233932794",
+        "development_data.c": "6da4ca59959014416f2f0cf61cb81e21a12f34b9c9374eb7e745f5acf3d1574d",
+        "phone_calls.c": "aefe5fd9d4487ac718ba49743e90a52beba2f2e38a5f2b0e770afa4976ba5163",
+        "page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+        "BSP_Calendar.c": "be2799e8dcbf4e6572fecbab4ef10ca8ac17d5e9248da03aede42eaa1682102d"
+      },
+      "scope": "Actual ARM C model only; no hardware or LVGL rendering claimed."
+    },
+    "settings_ui": [
+      {
+        "optimization": "O0",
+        "returned": true,
+        "result": 0,
+        "assertions": 339,
+        "failure_line": 0,
+        "hardware_access": false,
+        "source_sha256": "a182eb373b4f2aee5a955fab49b5027c12d1561aee9000b51a1d36204a1161c6"
+      },
+      {
+        "optimization": "Os",
+        "returned": true,
+        "result": 0,
+        "assertions": 339,
+        "failure_line": 0,
+        "hardware_access": false,
+        "source_sha256": "a182eb373b4f2aee5a955fab49b5027c12d1561aee9000b51a1d36204a1161c6"
+      }
+    ],
+    "system_restart": {
+      "hardware": false,
+      "passed": true,
+      "cases": [
+        {
+          "opt": "O0",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        },
+        {
+          "opt": "Os",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        }
+      ]
+    },
+    "companion_control": {
+      "hardware": false,
+      "passed": true,
+      "cases": [
+        {
+          "opt": "O0",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        },
+        {
+          "opt": "Os",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        }
+      ]
+    },
+    "call_rows": {
+      "hardware": false,
+      "passed": true,
+      "cases": [
+        {
+          "opt": "O0",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        },
+        {
+          "opt": "Os",
+          "test": "Test",
+          "cut": 0,
+          "failure_line": 0,
+          "returned": true,
+          "passed": true
+        }
+      ],
+      "scope": "Production position and draw commands with mock LVGL API; no hardware/EVE frame validation",
+      "sources": {
+        "dashboard_pages_view.c": "b13ade59772e490fa009ab91262bf7738faf57d58a3d449eac7e37ac587a1bc3",
+        "product_music_graphic.c": "5cef8e580385f05ddbb5df987ba493437eeadc5714218d10d3d0a4fb647101a9"
+      }
+    },
+    "product_ui": {
+      "runs": [
+        {
+          "optimization": "-O0",
+          "tests": [
+            "test_calls",
+            "test_calls_wire",
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_off_stage_sequence",
+            "test_phone_reply_navigation",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_resume_riding_context",
+            "test_retired_card_preferences",
+            "test_single_phone_ui",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 112522,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        },
+        {
+          "optimization": "-Os",
+          "tests": [
+            "test_calls",
+            "test_calls_wire",
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_off_stage_sequence",
+            "test_phone_reply_navigation",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_resume_riding_context",
+            "test_retired_card_preferences",
+            "test_single_phone_ui",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 112522,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        },
+        {
+          "optimization": "-Oz",
+          "tests": [
+            "test_calls",
+            "test_calls_wire",
+            "test_dashboard_hierarchy",
+            "test_dashboard_presentation",
+            "test_display_ready",
+            "test_fault_timeout_cancel",
+            "test_home_button_cycle",
+            "test_ignition_session",
+            "test_input",
+            "test_maintenance_auxiliary",
+            "test_maintenance_fraction",
+            "test_masks_and_stress",
+            "test_navigation",
+            "test_off_stage_sequence",
+            "test_phone_reply_navigation",
+            "test_power",
+            "test_preview",
+            "test_provisional_ride",
+            "test_reserve_distance_color",
+            "test_resume_riding_context",
+            "test_retired_card_preferences",
+            "test_single_phone_ui",
+            "test_speed_model",
+            "test_speed_packet_interpolation",
+            "test_standby",
+            "test_startup_cancel",
+            "test_startup_sweep",
+            "test_startup_tick_wrap",
+            "test_unpadded_numbers",
+            "test_warnings"
+          ],
+          "assertions": 112522,
+          "speed_assertions": 5697,
+          "status": "PASS"
+        }
+      ],
+      "sources": {
+        "ui_calls.c": "83448839d64905f18ce012e23c7cd7155dfa147dd17ae8292ad3f6463863694e",
+        "ui_dashboard.c": "5f033d828451a2e910dac741bf941fd084ee9bf882f5c0b5d0e035019cb1ed45",
+        "ui_dashboard_presenter.c": "3610f247c611b6b794efe4b90ecfef25a254389e259f84ba38ae3f7fc26b35dc",
+        "ui_input.c": "a6998f146864f68a90065a2da1ed809ab34158f1e1294142413db0b6b1eae3d2",
+        "ui_maintenance.c": "6521eab57136ebab7dae33f645a4a47dd308253e7a40866d59909bba689475a5",
+        "ui_navigation.c": "64a66478fa7374e270c40e1d1e89eb83e9365e4ac3e638715d98d9cfedb5ba44",
+        "ui_off_stages.c": "66bf916b887588107d985e64dd091df1ad8dad5ac90b0d0c3c8e8d5e69e559cf",
+        "ui_phone.c": "6bb3545431af990827042c8fb825ca2305a84566ff5f51e811a5e84b63e7cd49",
+        "ui_power.c": "c9cb67456e755fbcd5136e5c0d60a75059a16c35e79bafafc5ca3fc268b8a24a",
+        "ui_state.c": "f2cac1e854d79e366972893c86d81dd98079baac0bb40b686e29c3cdd86117cd",
+        "ui_theme.c": "4d1dbf7fb5311067d0a375d13fc9f8990ef45913dbc606da1f68cf38959c09bc",
+        "ui_warning.c": "237dbd82ce40546c55a0e18d1ce471eff650ef45aba34e1cdd7f06cde07c7091",
+        "ignition_session.c": "077ea5585db9d89c76c8d0d2bd752757ce90da802dfa09a9a83a8138387342ca",
+        "speed_home_model.c": "82c6f13f3a0d52a1c410d019a335c033060a2bc2f3fca32d40f21820e56dc362",
+        "speed_home_startup.c": "6d59957eca6a018e3246a395201df922e7de2a3dc844bde4bcae36686ff13914",
+        "product_preview.c": "59c7ab7ba6e568f1a9dbb4500cefb80f8701cba069f1d20745c5db128b7ee463",
+        "page_transition.c": "c5b81e2bbe582828de884504fd3293f2408704d925b66d0f3f52677c3cd8db77",
+        "phone_calls.c": "aefe5fd9d4487ac718ba49743e90a52beba2f2e38a5f2b0e770afa4976ba5163",
+        "test_calls.c": "eedbecd066380c3db15fe37a8d3a6767aa390c8a70e9447f8c7375dc73155954"
+      },
+      "scope": "Actual ARM C model only; no hardware or LVGL rendering claimed."
+    },
+    "gps_frames": {
+      "hardware": false,
+      "scope": "Full LVGL shell + GPS/other page transitions, two480px background cross-fade, dark/light; mocked physical I/O",
+      "max_bytes": 7804,
+      "frames": 2016,
+      "background_draws": 2016,
+      "blend_frames": 1728,
+      "worst": [
+        {
+          "kind": 6,
+          "heading": 210,
+          "time": 45060,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 210,
+          "time": 45180,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 210,
+          "time": 45200,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 240,
+          "time": 51060,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 240,
+          "time": 51180,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 240,
+          "time": 51200,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 300,
+          "time": 63060,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 300,
+          "time": 63180,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 300,
+          "time": 63200,
+          "bytes": 7804
+        },
+        {
+          "kind": 6,
+          "heading": 330,
+          "time": 69060,
+          "bytes": 7804
+        }
+      ],
+      "odo_modal_bytes": 3328
+    }
+  },
+  "graphics_port_diff_note": "The before image of graphics_eve_port.c was reconstructed by reverting only the five __FILE_NAME__ assertion macros to __FILE__; all byte hashes refer to the actual final sources."
+}

@@ -1,0 +1,59 @@
+{
+  "results": [
+    {
+      "optimization": "-O0",
+      "cases": [
+        [
+          "install-8",
+          567
+        ],
+        [
+          "inspect-8",
+          9
+        ]
+      ],
+      "assertions": 576,
+      "sources_sha256": {
+        "Middlewares\\Noodoe\\Storage\\src\\recovery_store.c": "30c86509e443b2a38ec345e6585304e9006503ba3155a4541f00e0449d9d8b10",
+        "Middlewares\\Noodoe\\Storage\\src\\bootstrap_storage.c": "8cd4e84227b4f5c07b9069edd993164eb13c18331129941e8ed7acd782f5d622",
+        "Middlewares\\Noodoe\\Storage\\src\\bootstrap_resources.c": "cfd779d405983f90799f4a56e0d997b1cf99e8f2027fb3fefef48a1a1f33915b",
+        "Middlewares\\Noodoe\\Update\\src\\Update_SHA256.c": "4cf1e64c93951ee4fb9559e25a19efa36f00d7c011fa26da2d35d5bae8136c0c",
+        "Middlewares\\Noodoe\\Update\\src\\Recovery_Core.c": "431a0a107fb131142dab7ad107f004b75fe69639fbc09d930b3a0416e9c1fe66",
+        "Middlewares\\Noodoe\\Resources\\src\\Resources_Format.c": "0326bbbe39a980be7463e09ccd6d23755a318119b9700b75c5361c334db0c391",
+        "RecoveryGate\\src\\gate_store.c": "73d8034e46a482c91caef31504cb23fbfb8497e30fff29775bb9e6a8b4168595",
+        "RecoveryGate\\src\\gate_format.c": "e10e0657b542c1d4e791179a7e4ae5c7ec798a032614e7c68226f3c25b535ce5",
+        "RecoveryGate\\src\\gate_policy.c": "6045c3ed51ae0df15c6a4c3eaa87a76ce573b3fb66daffe26973a52dd4370dc0",
+        "RecoveryGate\\src\\event_log.c": "07d3f060fd55bea8ecb00faddc07faa08558de2c5dcdca0256bcc7d20e8c2c68",
+        "tools\\tests\\bootstrap_storage\\test.c": "73faa0d6c0219b41c23d21516ff8152337312bd291b918e5fa7bb69f96530f81"
+      }
+    },
+    {
+      "optimization": "-Os",
+      "cases": [
+        [
+          "install-8",
+          567
+        ],
+        [
+          "inspect-8",
+          9
+        ]
+      ],
+      "assertions": 576,
+      "sources_sha256": {
+        "Middlewares\\Noodoe\\Storage\\src\\recovery_store.c": "30c86509e443b2a38ec345e6585304e9006503ba3155a4541f00e0449d9d8b10",
+        "Middlewares\\Noodoe\\Storage\\src\\bootstrap_storage.c": "8cd4e84227b4f5c07b9069edd993164eb13c18331129941e8ed7acd782f5d622",
+        "Middlewares\\Noodoe\\Storage\\src\\bootstrap_resources.c": "cfd779d405983f90799f4a56e0d997b1cf99e8f2027fb3fefef48a1a1f33915b",
+        "Middlewares\\Noodoe\\Update\\src\\Update_SHA256.c": "4cf1e64c93951ee4fb9559e25a19efa36f00d7c011fa26da2d35d5bae8136c0c",
+        "Middlewares\\Noodoe\\Update\\src\\Recovery_Core.c": "431a0a107fb131142dab7ad107f004b75fe69639fbc09d930b3a0416e9c1fe66",
+        "Middlewares\\Noodoe\\Resources\\src\\Resources_Format.c": "0326bbbe39a980be7463e09ccd6d23755a318119b9700b75c5361c334db0c391",
+        "RecoveryGate\\src\\gate_store.c": "73d8034e46a482c91caef31504cb23fbfb8497e30fff29775bb9e6a8b4168595",
+        "RecoveryGate\\src\\gate_format.c": "e10e0657b542c1d4e791179a7e4ae5c7ec798a032614e7c68226f3c25b535ce5",
+        "RecoveryGate\\src\\gate_policy.c": "6045c3ed51ae0df15c6a4c3eaa87a76ce573b3fb66daffe26973a52dd4370dc0",
+        "RecoveryGate\\src\\event_log.c": "07d3f060fd55bea8ecb00faddc07faa08558de2c5dcdca0256bcc7d20e8c2c68",
+        "tools\\tests\\bootstrap_storage\\test.c": "73faa0d6c0219b41c23d21516ff8152337312bd291b918e5fa7bb69f96530f81"
+      }
+    }
+  ],
+  "limits": "Actual ARM code with memory NOR stubs. No actual RF, power loss, flash timings or full256MiB backup transfer simulated."
+}

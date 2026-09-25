@@ -1,0 +1,11 @@
+Google Material Icons Round
+Copyright 2019 Google LLC. All Rights Reserved.
+Source: https://github.com/google/material-design-icons
+Pinned commit: 40a7a292a79d9394157e1ea24f83d52d5e17c556
+
+Modified by this project: home, analytics, smartphone, music_note, car_repair,
+settings_remote, route and settings glyph subset; centered24px static A4 alpha
+masks. EVE L4 sampling applies runtime scale and tint. Original font artwork
+and retained footer icons are unchanged.
+
+Distributed under Apache License2.0. See MODE_ICON_LICENSE.txt.

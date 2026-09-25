@@ -1,0 +1,88 @@
+{
+  "repository": "https://github.com/STMicroelectronics/STM32CubeF4",
+  "tag": "v1.28.3",
+  "commit": "94cae6e83f00e276a11957e7833c01ac3d0bd7af",
+  "source_prefix": "Middlewares/ST/STM32_USB_Device_Library/",
+  "files": [
+    {
+      "path": "Core/Inc/usbd_conf_template.h",
+      "sha256": "e699363b680368bbd4d2e034a2b0b723ee839581a27b10a88c717302a02ce118",
+      "git_blob_sha": "1ff66bcac8b14f683db83a11678b99f1d537dfdf"
+    },
+    {
+      "path": "Core/Inc/usbd_core.h",
+      "sha256": "a6c2dfc99fabefe4db7c4c145b4ab87d6b992e3fbd15cc65ecc1c7f9d2086f78",
+      "git_blob_sha": "4672921be15ec653ef3b6a0b989fb22715a2d325"
+    },
+    {
+      "path": "Core/Inc/usbd_ctlreq.h",
+      "sha256": "f8897c9b47f97b6ca78c72b857d20fb2a2b0d85091a2362799165cdfa863e3cc",
+      "git_blob_sha": "6c45d6ce3df5011e0f213043d8cc3499a95e7d1e"
+    },
+    {
+      "path": "Core/Inc/usbd_def.h",
+      "sha256": "1588736a66291a09de7aa69a5945574566413fefb84c0a7896dc088d174086a9",
+      "git_blob_sha": "5b2394e7abb62cf891fc9bf3849c9108e590d7c6"
+    },
+    {
+      "path": "Core/Inc/usbd_desc_template.h",
+      "sha256": "4802cc5149b8a5ac414d10b83e5023a5d8501634d3a02e5e2dcedf0299e5602a",
+      "git_blob_sha": "7be13cebecbf87d861b77ba1737c1c88e547c633"
+    },
+    {
+      "path": "Core/Inc/usbd_ioreq.h",
+      "sha256": "8a2d44f0cc1c34c21eb75e01cec568b45b901678fba9ca2dc3b0c9a9f0364e7c",
+      "git_blob_sha": "15197b92cafdf1c2d4e9ae220e380dfe7ccf972c"
+    },
+    {
+      "path": "Core/Src/usbd_conf_template.c",
+      "sha256": "ba1530b4ddb11b3f4b3f03c0c9d270110f9eb40f21f32b1038bd85f8c0692e9d",
+      "git_blob_sha": "74ff430203188fa7876617c6b2422d57ef28a44a"
+    },
+    {
+      "path": "Core/Src/usbd_core.c",
+      "sha256": "21647e3c0537a8d56cd67cc67951206f7a84501acd74d0c8a827c13e192183c5",
+      "git_blob_sha": "bcf571e58c63ddedeb1dd85fb44b7f4cf316ce4d"
+    },
+    {
+      "path": "Core/Src/usbd_ctlreq.c",
+      "sha256": "5f1c211ed991e074589c82bc52571357a268f36776111d99a85539df53fd80f0",
+      "git_blob_sha": "814b810c5beeeac7d396584363f1119afc6d74d0"
+    },
+    {
+      "path": "Core/Src/usbd_desc_template.c",
+      "sha256": "5bc71ab2e28075699d4e808bd3c33cdaaaa5daa1ed9513b6c473b1a02f32cd42",
+      "git_blob_sha": "503eb13d7fa5988cad98834258fc3c3babf5c8e9"
+    },
+    {
+      "path": "Core/Src/usbd_ioreq.c",
+      "sha256": "7df0e6888230c6e0e4af31278853ae1accdf5728288ab2d1a1190a5692157038",
+      "git_blob_sha": "2171398b19f9b656b1bccaa91b4ae6e9c505c101"
+    },
+    {
+      "path": "Class/CDC/Inc/usbd_cdc.h",
+      "sha256": "3ea35b19e264217c3bd1d433c75f4e093930ea83cdf63aa88aee77748a9fc7dc",
+      "git_blob_sha": "42ff56c6bcffc0324a7bfd84f55379a7549669ec"
+    },
+    {
+      "path": "Class/CDC/Inc/usbd_cdc_if_template.h",
+      "sha256": "6ea2d95f93f3393c84a72a96a99e2534d176337295a69b6692b189dfdfeeb05f",
+      "git_blob_sha": "6a1c0abf3ddbf74d00ca8092c17b804f2cb93aa3"
+    },
+    {
+      "path": "Class/CDC/Src/usbd_cdc.c",
+      "sha256": "794a6d0df08fc2b777678b99013f61d0a9c93f5fbeacfaa3466c0feeaa9ada39",
+      "git_blob_sha": "ad8da254e084ba7494bbda795b163f46351686a9"
+    },
+    {
+      "path": "Class/CDC/Src/usbd_cdc_if_template.c",
+      "sha256": "fecdea035bf4662755b18fb53f528e4d6ff58ee138d3f823e447b3b8210909e9",
+      "git_blob_sha": "df16834bbba98c45658d64dbb8789f56c3fead69"
+    },
+    {
+      "path": "LICENSE.md",
+      "sha256": "6b6a3968253466c776a660e916c67c7207c42fcd5bf02895e50215f923dae29d",
+      "git_blob_sha": "1af52330787eef6a45a81e5e32ba936b4438be67"
+    }
+  ]
+}

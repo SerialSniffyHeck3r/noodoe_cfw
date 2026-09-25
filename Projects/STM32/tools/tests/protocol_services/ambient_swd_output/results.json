@@ -1,0 +1,11 @@
+{
+  "hardware_access": false,
+  "subprocess_forbidden": true,
+  "tests_run": 43,
+  "failures": 0,
+  "errors": 0,
+  "successful": true,
+  "source_sha256": "c05ea12df5df639b7d7358b398efaaad392cb8cd43fb38374b03ba8c092d94a2",
+  "test_sha256": "b2bf8670b24bdac3acafc441ebecc1451e40a5fb995b6481c269831e29956fe0",
+  "elf_fixture": "Preserved731f ELF; temporary non-ALLOC symbols/strings only changed for mailbox and bitbang ABI; code unchanged"
+}

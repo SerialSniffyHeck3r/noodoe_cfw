@@ -1,0 +1,77 @@
+{
+  "family": "Google Material Icons Round",
+  "source_commit": "40a7a292a79d9394157e1ea24f83d52d5e17c556",
+  "source_sha256": "bad85e5454b6288104ce03806c37323bcd8f145e3094e727860173ac8c91062e",
+  "mask_size": 24,
+  "format": "LVGL A4 / EVE L4 alpha",
+  "bitmap_bytes": 1728,
+  "icons": [
+    {
+      "name": "arrow_downward",
+      "codepoint": 58843,
+      "ink_box": [
+        4,
+        4,
+        20,
+        20
+      ],
+      "sha256": "d43be30d07f41f7e93e9c03290ad24a0279d264c5d80aeef161299f853e2ef79"
+    },
+    {
+      "name": "radio_button_unchecked",
+      "codepoint": 59446,
+      "ink_box": [
+        2,
+        2,
+        22,
+        22
+      ],
+      "sha256": "3937d24d831586252b8b9edf66a4ce3e5a2e7d8ca891f48b00c6b32a2f892f04"
+    },
+    {
+      "name": "play_arrow",
+      "codepoint": 57399,
+      "ink_box": [
+        6,
+        5,
+        17,
+        19
+      ],
+      "sha256": "b28ea993551d6e4567091100f31e5298394bccbeb973911a37f15a2c4549c255"
+    },
+    {
+      "name": "pause",
+      "codepoint": 57396,
+      "ink_box": [
+        6,
+        5,
+        18,
+        19
+      ],
+      "sha256": "a394118ce7d45225d31c504aebaae174cd7c9c2d3916c1a4997fd25f65c6d0cc"
+    },
+    {
+      "name": "skip_previous",
+      "codepoint": 57413,
+      "ink_box": [
+        6,
+        6,
+        18,
+        18
+      ],
+      "sha256": "c263bed1de53761096c5e01869e2637d1b8ab7fff40d38deda7c402c5518d74e"
+    },
+    {
+      "name": "skip_next",
+      "codepoint": 57412,
+      "ink_box": [
+        6,
+        6,
+        18,
+        18
+      ],
+      "sha256": "fbe4c90834305ee045d339d84e3d438307253d2f5964aaaf997ce41770c9b5f4"
+    }
+  ],
+  "generated_sha256": "3ff1d26811cf662d80374c1281b7aa950cd9547faf352d337061ffd0ebf4ede8"
+}

@@ -1,0 +1,7 @@
+#ifndef PRODUCT_MUSIC_ICONS_H
+#define PRODUCT_MUSIC_ICONS_H
+#include "lvgl.h"
+#define PRODUCT_MUSIC_ICON_COUNT 6U
+enum {MUSIC_ICON_DOWN,MUSIC_ICON_CIRCLE,MUSIC_ICON_PLAY,MUSIC_ICON_PAUSE,MUSIC_ICON_PREVIOUS,MUSIC_ICON_NEXT};
+const lv_image_dsc_t *Product_MusicIcon(uint32_t index);
+#endif

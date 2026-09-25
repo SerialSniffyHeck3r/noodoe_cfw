@@ -1,0 +1,186 @@
+{
+  "release": "6.9.8",
+  "apk_version": "6.9.8",
+  "version_code": 21,
+  "apk_sha256": "89f36cf646a9b442528ebdd5dc7001e9090a2fb9774f6f76a65c0a9501f88b58",
+  "apk_bytes": 28648231,
+  "bundle_sha256": "5553ced8c3dd1abbb53c7b7beaa7fe524f15722eddbe1453b4cbfd1e0b9dc90e",
+  "bundle_bytes": 1395648,
+  "android": {
+    "tests": 273,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "lint": {
+    "Warning": 84
+  },
+  "same_apk_signer": true,
+  "production_importer": true,
+  "bundle_import_matrix": {
+    "6.9.8": {
+      "accepted": true,
+      "sha256": "5553ced8c3dd1abbb53c7b7beaa7fe524f15722eddbe1453b4cbfd1e0b9dc90e"
+    },
+    "6.9.7": {
+      "accepted": true,
+      "sha256": "1607be80915e8cb454d585d222d95b6d515982e83d1c252dc63c2b992b06be53"
+    },
+    "6.8.1": {
+      "accepted": true,
+      "sha256": "58aac1a1b5ddc57f6f3c8a73ab15c232adda309c37fc66f91a4bd60d48b569ff"
+    },
+    "6.4": {
+      "accepted": true,
+      "sha256": "a2bf6e1dd0eb631e8334e39e5d65ea6221e42c892a72f8da6c263fdb8257f0f8"
+    }
+  },
+  "unchanged_components": {
+    "bootstrap": true,
+    "gate": true,
+    "stock": true,
+    "resources": true,
+    "uninstall": true,
+    "diagnostic": true
+  },
+  "memory": {
+    "Release": {
+      "flash": {
+        "capacity": 393216,
+        "used": 326348,
+        "free": 66868
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 143136,
+        "free": 53216,
+        "sections": {
+          ".data": 2924,
+          ".bss": 138408,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    },
+    "Debug": {
+      "flash": {
+        "capacity": 393216,
+        "used": 358116,
+        "free": 35100
+      },
+      "sram": {
+        "capacity": 196352,
+        "used": 142216,
+        "free": 54136,
+        "sections": {
+          ".data": 2940,
+          ".bss": 137472,
+          ".noinit": 264,
+          "._user_heap_stack": 1536
+        }
+      },
+      "ccm": {
+        "capacity": 65536,
+        "used": 49216,
+        "free": 16320,
+        "sections": {
+          ".ccm_bss": 49216
+        }
+      }
+    }
+  },
+  "gps_frames": {
+    "hardware": false,
+    "scope": "Full LVGL shell + GPS/other page transitions, two480px background cross-fade, dark/light; mocked physical I/O",
+    "max_bytes": 7804,
+    "frames": 2016,
+    "background_draws": 2016,
+    "blend_frames": 1728,
+    "worst": [
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45060,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45180,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 210,
+        "time": 45200,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51060,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51180,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 240,
+        "time": 51200,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63060,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63180,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 300,
+        "time": 63200,
+        "bytes": 7804
+      },
+      {
+        "kind": 6,
+        "heading": 330,
+        "time": 69060,
+        "bytes": 7804
+      }
+    ]
+  },
+  "gps_baseline": {
+    "reproduced": true,
+    "failure_line": 179,
+    "bytes": 8244,
+    "heading": 0,
+    "kind": 1,
+    "frames": 18
+  },
+  "music_example": {
+    "raw_bytes": 11184,
+    "packed_bytes": 3994
+  },
+  "bench_accessed": false,
+  "actual_rf_test": false,
+  "actual_fps_measured": false,
+  "optical_brightness_measured": false
+}
