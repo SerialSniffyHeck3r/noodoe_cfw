@@ -1,49 +1,43 @@
-# CFW architecture
+# CFW architecture: who runs what, and when?
 
-[한국어](architecture.ko.md)
+This follows the [installer story](installer.md). I spent more time thinking about these boundaries than about most of the pixels. Using your head helps, but it is exhausting. lol
 
-The firmware is split by **responsibility and failure domain**. A good-looking UI must not own raw flash writes, and a broken Product UI must not be required to restore stock. The STM32CubeIDE tree is [Projects/STM32](../STM32); the phone is [Projects/Android](../Android). They communicate through the project's NDCP messages over Classic Bluetooth SPP.
+I split the system by **what still has to work after another part dies**, not just by source-code directory. If the riding UI can erase arbitrary NOR addresses, or stock recovery needs the UI that just crashed, sooner or later I'll be in a parking garage with tools, peeling my motorcycle apart to reach SWD. No thanks.
 
-## On-device executables
+The [STM32CubeIDE project](../STM32) and [Android project](../Android) talk over Classic Bluetooth SPP using NDCP. [한국어](architecture.ko.md)
 
-| Component | Runs when | Owns |
+## Boot stages
+
+| Component | When it runs | Job |
 |---|---|---|
-| **Bootstrap** | First installation through the original updater | Target identification, Bluetooth/SPP session, FAT/storage preparation, transfer/readback and local installation confirmation. |
-| **RecoveryGate** | Normal boot before Product, or recovery waiting | Independent Product verification/copy, boot journal, watchdog, button-only stock restore. Its own EVE ROM-text UI needs no Product heap, SDRAM fonts, RTOS or Bluetooth. |
-| **Product CFW** | Normal riding and companion use | Vehicle state, UI, settings, SPP services, assets, storage requests and trial-health reporting. |
-| **UninstallBootstrap / Diagnostic** | Explicit temporary maintenance operation | Data-removal or deeper hardware tests. Neither is part of normal riding. |
+| Stock resident bootloader | MCU startup and stock APP installation | The original install path. This project leaves its code alone. |
+| Bootstrap | First installation, entered through the stock updater | Identify board and bootloader, run SPP, audit FAT, prepare CFW files, receive and physically reread data, ask for installation approval. |
+| RecoveryGate | Before Product, or on a failure | Validate/copy Product, manage boot journal and watchdog, restore stock APP using buttons alone. |
+| Product CFW | Normal riding | Vehicle state, display, settings, Bluetooth, assets, photos, persistence and trial-boot health reports. |
+| Uninstall/Diagnostic images | Explicit temporary operations | Remove CFW data or probe peripherals more deeply. Neither is the day-to-day riding firmware. |
 
-The stock bootloader remains the resident installer. During ordinary Product updates, Gate stays in its separate internal-flash sector. The byte-exact approved stock application is held in a CFW-owned NOR file for button recovery; this is not a copy of the bootloader.
+Gate occupies its own 64 KiB internal flash sector. With Product broken, it still uses EVE primitives and ROM fonts; it needs no Product FreeRTOS, LVGL, external font, SDRAM or Bluetooth. Its exact stock APP comes from a verified NOR file. Do I want those 64 KiB back for shiny features? Hell yes. Am I giving them up? Hell no. That sector is the difference between a failed update and taking the bike apart.
 
 ## Product layers
 
-```text
-Android connection service ── NDCP/SPP ── Control + domain state (App_Logic)
-                                              │
-                                device services / queues (Middlewares/Noodoe)
-                                  │                           │
-                         graphics model → EVE port       storage / UART / HCI
-                                  └────────── BSP ─────────────┘
-```
+**App_Logic** decides what data means and what a button does in the current state. Riding/settings/power are the broad state machines; the middle of the dashboard has smaller page machines. Trip, maintenance, notification and vehicle rules belong here. No application page should need to know a SPI byte order.
 
-- `App_Logic/UI` owns the global riding/settings/power state machines and the central page-specific substate. `App_Logic/Vehicle`, `Settings`, `Control` and `Recovery` own the meanings of values, button actions, settings and trial boot. No raw register operation belongs here.
-- `Middlewares/Noodoe` owns bounded asynchronous operations: vehicle frame parser, Bluetooth/NDCP transport, input event queue, ambient policy, NOR file validation, journals, pictures, update state and health monitoring. A request API distinguishes **accepted** from **completed**.
-- `Graphics/UI` turns a page model into the circular display, speed ring, text, bitmaps and animations. `Graphics/Port` converts those primitives into EVE display lists. EVE swap completion matters: a texture or display list still referenced by scan-out cannot be overwritten merely because the CPU started the next frame.
-- `Drivers/BSP` owns MCU pins, SPI/UART/I2C, EVE and panel bring-up, backlight PWM, external memory and watchdog. Cube-generated `Core` code is kept separate from project-owned layers.
-- `Middlewares/Third_Party` contains pinned upstream LVGL, FreeRTOS, BTstack and support libraries with their own notices. The Product's Bluetooth host stack is not the Gate's: Gate intentionally has **no Bluetooth**.
+**Middlewares/Noodoe** owns bounded queues and asynchronous state: UART parsing, button events, BT/NDCP, brightness policy, assets and photos, FAT ownership checks, settings and ride journals, updates and health. “Request accepted” and “written permanently to NOR” are two different answers.
 
-## Runtime flow
+**Graphics/UI and Graphics/Port** turn the circular screen model into EVE display lists: rings, text, images and animation. Texture ownership lasts until the relevant display-list swap has really completed. The occasional screen-tearing mess I saw from bad EVE address handling made that rule much less theoretical.
 
-Key ON starts the Product's welcome/riding transition. The speed ring, time and ODO form a persistent frame around a variable center page; short ENTER moves categories and UP/DOWN changes a page's item. Media, notifications, phone calls and GPS are data-driven views: the device displays received state but keeps vehicle speed sourced from UART. Key OFF first holds the last frame briefly, then presents the ride summary and progresses through configurable screen-held, screen-off/Bluetooth-held and full-power-off stages. The radio and panel power policy is separate from backlight power.
+**Drivers/BSP** owns MCU pins, UART/SPI/I2C, EVE/LCD, backlight PWM, NOR, SDRAM and watchdog hardware. Cube regenerates some Core files, so project-owned code is kept distinct. **Middlewares/Third_Party** contains pinned LVGL, FreeRTOS and BTstack sources under their own licenses.
 
-The Android app has a single socket/command owner. It distinguishes ordinary riding connection from update work; installation pauses content transfer. Music and notification text are rendered on the phone when CJK or layout makes it cheaper than embedding every glyph in MCU flash. The device receives bounded images with session generations and CRC. Capability bits prevent a new app from sending a layout that an older CFW cannot draw.
+## Data while riding
+
+The cluster sends speed, ODO and fuel over [vehicle UART](vehicle-uart.md). The ring, clock and ODO make the common frame around a selected center page: trip, music, calls, notifications or phone GPS. GPS draws a trail; it does not replace the vehicle's speed reading.
+
+One Android service owns the Bluetooth socket and outbound queue. Riding sync and installation are distinct modes; installation pauses music, notifications and photos so they cannot crowd out installation traffic. The phone renders some CJK and variable-width text into bounded images with generation and integrity data. Capability negotiation keeps new screen formats away from older CFW versions.
+
+On IGN OFF the last screen holds briefly, then the confirmed session end shows Ride Summary. Configured stages follow: screen hold/backlight off, panel off/Bluetooth alive, then all off. LCD drive, PWM, radio and MCU sleep are separate controls, not one magic power switch.
 
 ## Failure boundaries
 
-- Image transfer is not an APP commit. The receiver checks length, CRC/hash, expected target, UID, resource requirement and physical NOR readback before changing the boot journal.
-- Product trial health is **30 seconds of healthy owner progress** in the current code, followed by the matching phone/device confirmation; the boot journal retains the previous working Product until confirmation. The phone cannot turn a mere Bluetooth connection into proof of a healthy UI.
-- An interrupted NOR journal write leaves the prior completed record. A committed copy-in-progress is replayed from the verified source before Product is started. Repeated unconfirmed boots enter Gate waiting rather than blindly booting a partial APP.
-- The independent Gate can restore the pinned stock APP by physical gesture and local confirmation without Product or radio. It cannot repair a damaged resident bootloader, power rail or NOR chip.
-- The watchdog detects a CPU that stops making healthy progress; it is a recovery aid, not a proof that storage or a user-visible transition succeeded.
+A received file is not an installed APP. Length, target, UID, vector, assets, hash and physical NOR reread come before a boot-journal change. A trial Product needs **30 seconds of healthy owner-task progress** plus phone/device version confirmation; an SPP socket alone proves little. Completed journal entries survive interrupted writes, and Gate recopies from verified NOR rather than running a half-written APP. NOR A/B keeps the previous working Product until the new one sticks. Repeated failure stops in recovery instead of rebooting forever. The watchdog can restart a stalled CPU, but it cannot certify that a write completed or that a human saw “success.”
 
-Interfaces and code: [Product state machine](../STM32/App_Logic/STATE_MACHINE.md), [Gate contract](../STM32/RecoveryGate/README.md), [NDCP protocol](technical-notes/ndcp-protocol.md), [installation session](technical-notes/install-session-v2.md).
+See the [Product state machine](../STM32/App_Logic/STATE_MACHINE.md), [Gate contract](../STM32/RecoveryGate/README.md), [NDCP notes](technical-notes/ndcp-protocol.md) and [installation session](technical-notes/install-session-v2.md).

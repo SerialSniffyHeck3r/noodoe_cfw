@@ -1,45 +1,38 @@
-# Vehicle interface: buttons, ignition and cluster data
+# Vehicle interface: buttons, ignition and the cluster
 
-[한국어](vehicle-interface.ko.md)
+The AK 550 cluster already has a numeric speedometer. My outer **speed ring** and center pages sit alongside it. Speed, ODO and fuel arrive from the cluster over UART; music, notifications, calls and the GPS trail arrive from the phone. The vehicle reading, not phone GPS speed, drives this UI. [한국어](vehicle-interface.ko.md)
 
-Noodoe sits beside the main AK 550 instrument cluster. The cluster already has its own numeric speedometer; CFW uses the Noodoe display for a speed **ring** and secondary information. Vehicle speed and ODO come from the cluster's serial link. The phone supplies media, notifications, calls and optional GPS trail points; its GPS is not substituted for the cluster's UART speed.
+## The AK550 SR1.5 / V5.16 vehicle UART
 
-## UART5 frame observed on the examined SR1.5/V5.16 system
+Stock code and captures from both directions give **UART5 at 115200 baud, 8N1**. Each frame is `F5 | command | payload length | payload | XOR`. For the actual bytes and measurements, see the [vehicle UART notebook](vehicle-uart.md).
 
-```text
-0xF5 | command (1 byte) | length (1 byte) | payload[length] | XOR checksum
-115200 baud · 8 data bits · no parity · 1 stop bit
-```
-
-The XOR covers the prefix through the last payload byte. “Cluster → Noodoe” and “Noodoe → cluster” are logical directions confirmed by bidirectional captures; they are not a guess at physical connector cavity numbers.
-
-| Direction / command | What the original application handles | CFW implication |
+| Direction / command | What the bytes say | CFW behavior |
 |---|---|---|
-| Cluster → Noodoe `0x21` (9-byte payload), `0x22` (11-byte payload) | Core vehicle state. Payload byte 0 is speed; bytes 4–7 are little-endian ODO; byte 8 is transformed by subtracting 40 and remains a temperature-like candidate. `0x22` adds an unknown 16-bit field. | Validate frame and freshness before updating the displayed speed/ODO and trip model. Do not invent meaning for unknown bytes. |
-| Same frame, byte 3 | In real 0-bar and 1-bar captures, the low nibble changed from 0 to 1; the high nibble remained 5. | Low-fuel/Reserve logic may use the bar count with debounce. Full 2–5 bar mapping is not independently measured by the cited captures. |
-| Same frame, byte 2 | Stock firmware feeds a generic six-level widget. | Do not label it an exact fuel percentage on this motorcycle without further observation. |
-| Cluster → Noodoe `0x41` / `0x42` | 250-byte and 71-byte records are cached/forwarded through stock phone commands. | Contents and all vehicle warning signals are not decoded; the CFW does not claim RPM, TPMS or voltage from these records. |
-| Noodoe → cluster `0xA1` | Payload `{0x01, brightness step 0..9}` derived from the local light-sensor thresholds. | Preserve the step-oriented cluster link; local PWM brightness is a separate policy. |
-| Noodoe → cluster `0x01` | Observed re-request/re-initialization and termination values in stock flow. | Keep control traffic distinct from button events. |
+| Cluster → Noodoe 0x21 (9 bytes), 0x22 (11 bytes) | Payload 0 is integer speed; 4–7 form little-endian ODO; 8 looks temperature-related but lacks a confirmed unit. 0x22 adds an unresolved 16-bit value. | Validate frame and freshness, then update vehicle and trip models. |
+| Payload byte 3 in those frames | At measured zero and one fuel bar, its low nibble changed 0 → 1 while the high nibble stayed 5. The stock gauge has five bars. | Use the low nibble for low/critical fuel and Reserve behavior. |
+| Payload byte 2 | I don't have a useful interpretation yet. | Unused. |
+| Cluster → Noodoe 0x41 / 0x42 | Large 250-/71-byte records cached and relayed in stock code. | Seen by parser; no invented RPM/TPMS meaning. |
+| Noodoe → cluster 0xA1 | `{0x01, brightness step 0…9}` from local ambient-light policy. | Treat cluster brightness step separately from Noodoe's own LCD PWM. |
+| Noodoe → cluster 0x01 | A control/request flow with values seen during startup and shutdown. | No vehicle UI field assigned. |
 
-The 0.1 km discrepancy between cluster and a computed trip can arise from source sampling, integration and cluster rounding; the UART ODO remains the primary cumulative distance. The CFW stores the last plausible ODO to survive a transient `----`/reset-like sample, but an anomaly is surfaced rather than secretly changing the vehicle's real odometer. Ride and maintenance counters are CFW data, not a write to the cluster's ODO.
+CFW integrates sampled speed for its trips, so a tenth of a kilometer can differ from the cluster's distance calculation. It neither writes an invented ODO back to the cluster nor has a path to do so. When UART ODO suddenly becomes dashes or an implausible value—the sort of bug reported on older AK550s—the app keeps the last believable value and tells the rider.
 
-## Buttons and mode switch
+## Three buttons, one selector, one ignition signal
 
-| Function | MCU input | Electrical interpretation |
+| Function | MCU pin | Observed behavior |
 |---|---|---|
-| UP | `PD12` | Active LOW, edge interrupt plus timed debounce. |
-| DOWN | `PI6` | Active LOW, same event pipeline. |
-| Center / ENTER | `PA15` | Active LOW; short/long meaning belongs to the current page. |
-| Dash/Noodoe selector | `PH9` | Separate input. The stock-derived `HIGH + IGN ON` condition allows ordinary Noodoe controls; LOW blocks them while a persistent dashboard-mode indicator may be shown. |
-| Ignition state | `PG13` | LOW = key ON, HIGH = key OFF on the examined firmware. This is a state input, not guaranteed removal of the always-on supply. |
+| UP | PD12 | Active low; edge and timed debounce feed a button event. |
+| DOWN | PI6 | Active low, same event path. |
+| O / ENTER | PA15 | Active low; page decides short versus long action. |
+| Cluster/Noodoe selector | PH9 | With IGN ON, HIGH allows Noodoe control and LOW blocks it in the examined stock condition. |
+| Ignition | PG13 | LOW = IGN ON, HIGH = IGN OFF on this board. Not the same as removing the always-on supply. |
 
-The BSP reports presses, releases and duration. Middleware filters contact bounce and applies the PH9/IGN gate before app actions. An input already held when the selector changes is cancelled; it must be released before it can become a new UI action. Emergency recovery/installer confirmation is a separate input path so the selector cannot accidentally make a failed CFW impossible to recover. On key OFF, normal button prompts do not wake the backlight merely to report a blocked action.
+BSP reports press/release/duration; middleware debounces and applies PH9/IGN policy. If PH9 flips to blocked while a button is held, that press is canceled. Flip it back and the rider must release and press again. Ordinary UI blocking must never intercept the emergency key+O Gate gesture or install/recovery confirmations. Key OFF won't light the backlight just to explain a blocked button.
 
-## Light and power relationship
+## Light and sleep
 
-The local OPT3001 path measures ambient light. Stock code classifies it against ten calibration thresholds from factory data and transmits a 0–9 step to the main cluster. Those ten words are thresholds, **not ten PWM percentages**. The Noodoe LCD's TIM5 PWM/backlight curve, chosen theme's dark/light text and the outbound cluster step are separate controls. CFW manual brightness and automatic offset cannot prove that the cluster applied the same brightness unless the cluster-side result is observed.
+OPT3001 readings pass through ten stock factory thresholds into a 0–9 step, which Noodoe sends in A1. Its own backlight PWM, the cluster-bound step and the light/dark UI theme are three different controls. The receiving cluster appears to divide those steps into day and night modes; I haven't spent an afternoon finding the exact switching point. Laziness? Perhaps. A functioning dashboard seemed like the better use of the afternoon.
 
-IGN OFF is handled in stages: retain the old frame briefly, complete the ride summary, then enter the configured screen-held/backlight-off, panel-off/Bluetooth-held and full-off states. The MCU's clock/sleep and radio retention depend on which stage is active. A key cycle must not reset a ride session before the OFF transition is committed.
+IGN OFF holds the prior display briefly, confirms session end, shows Ride Summary and then enters configured sleep stages. A quick OFF→ON does not reset an unconfirmed ride; I have an unfortunate habit of flicking the key quickly, so this one got exercised. Screen hold, backlight OFF, panel OFF/Bluetooth alive and all-off each have different clock, sleep and radio conditions.
 
-Evidence and implementation: [UART payload map](research-notes/2026-09-09-ak550-uart-payload-map.md), [live UART direction/ODO comparison](research-notes/2026-09-10-upper-lower-uart-confirmed.md), [fuel 0/1-bar capture](research-notes/2026-09-10-fromdash-gas1.md), [button BSP](../STM32/Drivers/BSP/inc/BSP_Buttons.h), [power-state observations](research-notes/2026-09-10-noodoe-power-state-and-sleep.md).
+Sources: [UART payload map](research-notes/2026-09-09-ak550-uart-payload-map.md), [two-way captures](research-notes/2026-09-10-upper-lower-uart-confirmed.md), [fuel measurement](research-notes/2026-09-10-fromdash-gas1.md), [button BSP](../STM32/Drivers/BSP/inc/BSP_Buttons.h), [power-state notes](research-notes/2026-09-10-noodoe-power-state-and-sleep.md).

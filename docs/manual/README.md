@@ -1,3 +1,3 @@
 # Manual moved
 
-The user manual now lives at [Projects/documentations/manual](../../Projects/documentations/manual/README.md). This link remains for older companion APKs that open the previous URL.
+The guides now live at [User manual](../../Projects/Manuals/User/README.md) and [Installation and recovery manual](../../Projects/Manuals/Installation/README.md). This redirect remains for older companion APKs that open the previous URL.
