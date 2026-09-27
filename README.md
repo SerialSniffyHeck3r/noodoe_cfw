@@ -12,7 +12,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-6.11.4.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-6.11.4.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.3.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.3.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
@@ -30,3 +30,5 @@ These are selected notes, not the entire pile. I'll keep updating them as I go.
 | The dashboard UART, byte by byte | [Vehicle UART](Projects/documentations/vehicle-uart.md) |
 
 [한국어](README.ko.md)
+
+Source code is maintained in a separate private repository. This public repository contains research notes, manuals, screenshots and downloadable releases.
