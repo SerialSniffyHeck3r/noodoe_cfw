@@ -2,7 +2,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK 0.9.17.1 / Product 0.9.17 기준**
+[English guide](README.en.md) · **APK 0.9.18 / Product 0.9.18 기준**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
@@ -14,3 +14,5 @@ FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방�
 6. [퀵 세팅·전체 설정](06-Settings.md)
 7. [시동·절전·경고](07-Power-Warnings.md)
 8. [캡처·예시 값·출처](12-Capture-Notes.md)
+
+9. [외장 NOR 백업·파일 탐색기](13-NOR-Backup.md) — 파일별 백그라운드 복사, IGN OFF 전체 백업, 취소·이어받기·ZIP 내보내기
