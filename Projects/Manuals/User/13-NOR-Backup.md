@@ -40,3 +40,8 @@ IGN ON/OFF 모두 사용할 수 있고, 음악·GPS·알림 전송에 우선권�
 ![NOR backup — EVE software simulation](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NOR-Backup-EVE-simulation.png)
 
 ![Android browser — software simulation](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NOR-Browser-Android-simulation.png)
+
+
+## 0.9.18.1 수정 안내
+
+APK와 Product 펌웨어를 함께 업데이트하세요. 0.9.18에는 태스크 간 시각 차이를 통신 시간 초과로 오판해 전체 백업을 즉시 중단하고 `Device rejected opcode166 result=8`을 표시할 수 있는 결함이 있었습니다. 수정판은 실제 시간 제한을 유지하면서 오판을 제거하고, 기기의 중단 이유를 표시합니다. 재시작 후 다시 연결되면 탐색기를 사용할 수 있습니다. 위 캡처는 배치가 동일한0.9.18 화면입니다.
