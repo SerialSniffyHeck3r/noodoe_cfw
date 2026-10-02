@@ -37,3 +37,16 @@ Software tests cover128MiB transfer, interruption/resume/hashes, FAT damage, can
 ## 0.9.18.1 correction
 
 Update both the APK and Product firmware. Version0.9.18 could miscalculate the age of an I/O timestamp and stop full backup immediately with `Device rejected opcode166 result=8`. The correction preserves the actual timeout limits and now displays the device termination reason. After the device restarts, the browser becomes available on reconnection. The screenshots above are the unchanged0.9.18 layout.
+
+
+## 0.9.19: continuous backup and high-speed Bluetooth
+
+Update both the APK and CFW. Whole-NOR backup automatically negotiates the new stream. The controls are unchanged: with IGN OFF, select **Full NOR backup**. The dashboard finishes pending writes and enters its dedicated backup screen. The phone service continues receiving and saving after the dialog is closed.
+
+`received` is phone ingress, `written` is file progress, `saved` is the durable checkpoint, and `device hashed` is the physical NOR prefix hashed by the dashboard. Completion requires all 128MiB plus matching device and saved-file readback hashes. Interrupted evidence is retained.
+
+Hold O afresh for three seconds, or turn IGN ON, to cancel and restart the dashboard. After disconnection, query the device first; data from different boots is never blindly appended into one snapshot. FAT browsing and selected-font copying retain their existing read-only, lower-priority path.
+
+If high-speed initialization fails, the display says `High-speed Bluetooth didn't start. Trying standard speed.` and retries the existing rate once. Success shows `Bluetooth ready at standard speed.` Pairing keys are retained. This is automatic; there is no new speed setting.
+
+Under-one-hour backup and 50KiB/s remain hardware measurement targets. Host-test file-copy timing is not Bluetooth throughput. [0.9.19 release and validation report](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.19-bluetooth-throughput)
