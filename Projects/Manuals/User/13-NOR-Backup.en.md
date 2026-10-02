@@ -32,3 +32,8 @@ Software tests cover128MiB transfer, interruption/resume/hashes, FAT damage, can
 ![NOR backup — EVE software simulation](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NOR-Backup-EVE-simulation.png)
 
 ![Android browser — software simulation](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NOR-Browser-Android-simulation.png)
+
+
+## 0.9.18.1 correction
+
+Update both the APK and Product firmware. Version0.9.18 could miscalculate the age of an I/O timestamp and stop full backup immediately with `Device rejected opcode166 result=8`. The correction preserves the actual timeout limits and now displays the device termination reason. After the device restarts, the browser becomes available on reconnection. The screenshots above are the unchanged0.9.18 layout.
