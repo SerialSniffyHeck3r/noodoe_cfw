@@ -2,7 +2,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK 0.9.18 / Product 0.9.18 기준**
+[English guide](README.en.md) · **APK 0.9.18.1 / Product 0.9.18.1 기준**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
