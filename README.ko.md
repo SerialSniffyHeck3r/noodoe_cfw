@@ -22,6 +22,8 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 [사용 설명서](Projects/Manuals/User/README.md) · [설치·복구 설명서](Projects/Manuals/Installation/README.md)
 
 
+설명서도 [현재 버전 기준](Projects/Manuals/README.md)으로 갱신했습니다. 휴대전화 화면 OFF 연동, 오프라인 지도 가져오기, 업데이트 데이터 보존과 저장 오류 재시도 방법을 정리했습니다.
+
 ## 분석 관련 문서
 
 아래의 문서들은 본인의 연구 노트 중 일부를 적은 것이다. 전부 적은 것은 아니며 업데이트될 수 있다.
