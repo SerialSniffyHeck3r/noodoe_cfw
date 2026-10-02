@@ -1,8 +1,10 @@
 # Using FuckNudo
 
-[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18.1-nor-backup)
+[0.9.20: maps, fixed menus, notification popups and ten replies](14-Map-Popup.en.md)
 
-**Companion 0.9.18.1 / Product 0.9.18.1 — 3 October 2026.**
+[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.20-ui-map-popup)
+
+**Companion 0.9.20 / Product 0.9.20 — 3 October 2026.**
 
 ## Connect and ride
 
@@ -12,7 +14,7 @@ Select your registered Noodoe, then use the permissions/setup page to enable Blu
 
 ## Buttons and pages
 
-O cycles **HOME → Audio → Smartphone → Map/trail**. Most pages remember their selection; Smartphone opens at its central summary. General long presses take 0.8 seconds. Installation/recovery confirmations keep their separate timing.
+O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages remember their selection; Smartphone opens at its central summary. General long presses take 0.8 seconds. Installation/recovery confirmations keep their separate timing.
 
 - **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Hold O to advance information in automatic modes.
 - **Audio:** UP play/pause, hold UP previous track, DOWN next track. Track titles and artists are rendered on the phone in every language. Long text scrolls; HOME's dual rows scroll independently.
@@ -57,4 +59,4 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 
 ## Read-only NOR backup
 
-[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.18.1 for this feature.
+[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.20 for this feature.
