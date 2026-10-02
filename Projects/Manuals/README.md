@@ -1,6 +1,6 @@
 # FuckNudo Manuals
 
-**Companion APK 0.9.18 / Product firmware 0.9.18 · updated 2026-10-03**
+**Companion APK 0.9.18.1 / Product firmware 0.9.18.1 · updated 2026-10-03**
 
 - [한국어 사용 설명서](User/README.md) — 버튼, 주행 화면, 음악·알림·전화, 지도와 설정
 - [한국어 설치·복구 설명서](Installation/README.md) — 최초 설치, 업데이트, 순정 복귀와 문제 해결
@@ -9,11 +9,11 @@
 - [English update and recovery guide](Installation/README.en.md)
 - [NOR backup and file browser](User/13-NOR-Backup.en.md)
 
-[Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NoodoeCompanion-0.9.18.apk) · [matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18-nor-backup/NoodoeInstaller-CFW-0.9.18.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18-nor-backup)
+[Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18.1-nor-backup/NoodoeCompanion-0.9.18.1.apk) · [matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18.1-nor-backup/NoodoeInstaller-CFW-0.9.18.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18.1-nor-backup)
 
-백업 기능은 APK와 Product를 함께 0.9.18로 업데이트해야 사용할 수 있습니다. 기존 일반 CFW 업데이트 경로를 사용하며 설정·사진·트립·정비 기준점을 유지합니다. Gate 교체는 없습니다.
+백업 기능은 APK와 Product를 함께 0.9.18.1로 업데이트해야 사용할 수 있습니다. 기존 일반 CFW 업데이트 경로를 사용하며 설정·사진·트립·정비 기준점을 유지합니다. Gate 교체는 없습니다.
 
-Update both APK and Product to 0.9.18 for Bluetooth NOR backup. Use the normal CFW update path; settings, photos, trips and maintenance baselines are preserved. The Gate is unchanged.
+Update both APK and Product to 0.9.18.1 for Bluetooth NOR backup. Use the normal CFW update path; settings, photos, trips and maintenance baselines are preserved. The Gate is unchanged.
 
 화면 OFF 음악 개선에서 화면 OFF는 **휴대전화 화면**을 뜻합니다. 누도는 켜진 채 음악·GPS를 받습니다. 전체 NOR 백업은 이와 별개의 IGN OFF 전용 모드입니다.
 
