@@ -1,8 +1,8 @@
 # Using FuckNudo
 
-[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18-nor-backup)
+[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18.1-nor-backup)
 
-**Companion 0.9.18 / Product 0.9.18 — 3 October 2026.**
+**Companion 0.9.18.1 / Product 0.9.18.1 — 3 October 2026.**
 
 ## Connect and ride
 
@@ -57,4 +57,4 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 
 ## Read-only NOR backup
 
-[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.18 for this feature.
+[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.18.1 for this feature.
