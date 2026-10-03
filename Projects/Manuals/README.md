@@ -9,7 +9,7 @@
 - [English update and recovery guide](Installation/README.en.md)
 - [NOR backup and file browser](User/13-NOR-Backup.en.md)
 
-[Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18.1-nor-backup/NoodoeCompanion-0.9.18.1.apk) · [matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.18.1-nor-backup/NoodoeInstaller-CFW-0.9.18.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18.1-nor-backup)
+[Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.21.apk) · [matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.21.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.18.1-nor-backup)
 
 백업 기능은 APK와 Product를 함께 0.9.18.1로 업데이트해야 사용할 수 있습니다. 기존 일반 CFW 업데이트 경로를 사용하며 설정·사진·트립·정비 기준점을 유지합니다. Gate 교체는 없습니다.
 

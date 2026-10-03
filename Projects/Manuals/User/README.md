@@ -1,10 +1,12 @@
 # 사용 설명서
 
+[0.9.21: HOME / map / display fixes](15-Map-Stability.md)
+
 [0.9.20: 지도·메뉴 스트립·알림 팝업·빠른 답장 10개](14-Map-Popup.md)
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK 0.9.20 / Product 0.9.20 기준**
+[English guide](README.en.md) · **APK 0.9.21 / Product 0.9.21 기준**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
