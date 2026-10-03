@@ -1,14 +1,16 @@
 # Installation, updates and recovery
 
-[한국어 상세 절차](README.md) · [Using Noodoe](../User/README.en.md) · [Release](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.17.1-map-storage-media)
+[0.9.29 connection recovery: timers, pairing and Restarting](12-Connection-Recovery.en.md)
 
-**Current pair: APK 0.9.17.1 / Product firmware 0.9.17.** Already on Product 0.9.17? Update only the APK. The 0.9.17.1 ZIP contains the same Product image. Gate and Bootstrap do not need reinstalling for this release.
+[한국어 상세 절차](README.md) · [Using Noodoe](../User/README.en.md) · [Release](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.29-install-stability)
+
+**Current pair: APK / Product 0.9.29.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
 
 ## Update an existing CFW
 
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.21.apk) over the existing app, keeping its data and logs.
+1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.29.apk) over the existing app, keeping its data and logs.
 2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.21.zip), review its version and follow the wizard.
+3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.29.zip), review its version and follow the wizard.
 4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
 5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
 

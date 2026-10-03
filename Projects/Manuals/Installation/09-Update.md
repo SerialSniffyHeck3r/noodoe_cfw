@@ -1,5 +1,7 @@
 # 9. 이미 설치된 CFW 업데이트
 
+> 0.9.29 설치·대기·페어링 변경은 [연결 복구 안내](12-Connection-Recovery.md)를 우선 확인하세요.
+
 [목차](README.md) · [English](README.en.md)
 
 **현재 조합: APK 0.9.17.1 / Product 0.9.17.** 이미 Product 0.9.17이면 APK만 갱신하세요. 0.9.17.1 ZIP의 Product는 같습니다. 이 릴리스 때문에 Gate나 Bootstrap을 다시 설치할 필요는 없습니다.
