@@ -47,6 +47,16 @@ Noodoe receives compact, cached road and terrain vectors. The maximum scale is 3
 
 ## Saves, photos and errors
 
+### ODO confirmation
+
+Product 0.9.27 fixes the buttons in the **ODO changed** dialog. Short-press and release UP/DOWN to choose, then short-press and release O to confirm. If saved distance is `26863 km` but the correct dashboard value is `26869 km`, choose **Use dashboard value**. Applying a distance requires IGN ON and five seconds of confirmed stationary vehicle data. **Ask me later** closes the dialog without changing either distance, even while a stationary reading is unavailable. The same pending confirmation stays dismissed for this boot; a new confirmation or reboot can bring it back.
+
+On older firmware with an unresponsive dialog, use the phone's **Device settings → ODO saved value → Use dashboard value → Use** while stationary. The firmware fix requires the matching APK and Product update. The PH9 switch must allow ordinary Noodoe button operation.
+
+The feature only changes Noodoe's saved display baseline. It does not write the vehicle dashboard's odometer. Anomaly detection and the stored record format are unchanged.
+
+![ODO confirmation — Product 0.9.27 EVE software simulation](../images/odo-0.9.27-simulation.png)
+
 Ordinary firmware updates preserve settings, photos, trips and service baselines. Explicit reset, start-fresh and full uninstall are separate actions.
 
 Device settings shows **Settings / Ride records** storage status. `Pending save` is not durable yet. `ERROR — automatic writes paused` means repeated failure stopped automatic writes; use **Retry failed saves** once and check the outcome. The device applies a ten-second retry cooldown. An uncertain reply requires a status check, not repeated button presses. `last saved at uptime` is time since this boot, not a wall-clock timestamp.
