@@ -18,7 +18,7 @@
 |---|---|
 | Bootstrap 전송 후 자동 연결 지연 | Android 페어링 요청을 승인했는지, 같은 주소인지. 이미 도구가 올라갔다면 연결 확인만 먼저 실행 |
 | `NOODOE INSTALLER` | 설치 중. `CFW UPDATE`와 다름. 전송을 다시 시작하거나 완료 확인하지 않음 |
-| `Checking the new version` / `CFW UPDATE` | 폰 앱에서 실제 화면 확인 → 같은 후보 재연결 → 30초 건강 확인. 180초 기한 안에 진행 |
+| `Checking the new version` / `CFW UPDATE` | 폰 앱에서 실제 화면 확인 → 같은 후보 재연결 → 5초 건강 확인. 180초 기한 안에 진행 |
 | 순정인데 앱은 WAIT_CFW_BOOT | `본체에서 순정으로 돌아왔어요 · 확인`. 실제 순정 응답을 읽어 기존 작업을 해소 |
 | `STOCK_RETURN_CONFIRMED` | 순정 복귀 완료 기록. 새 APK의 재설치 마법사로 새 시도 생성; 기록 삭제로 우회하지 않음 |
 | `00050006` | 저장소 형식/내용 검사 실패 계열. 파일 번호·phase·offset과 함께 기록. 특히 file 3 / phase 9.2는 사진 컨테이너 검사 문맥. 코드만 보고 무조건 포맷하지 않음 |

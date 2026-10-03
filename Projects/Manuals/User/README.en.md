@@ -1,12 +1,14 @@
 # Using FuckNudo
 
+[0.9.28: map rendering, fuel warnings and Bluetooth diagnostics](17-Map-Rendering.en.md)
+
 [0.9.21: HOME / map / display fixes](15-Map-Stability.en.md)
 
 [0.9.20: maps, fixed menus, notification popups and ten replies](14-Map-Popup.en.md)
 
-[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.20-ui-map-popup)
+[한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion 0.9.21 / Product 0.9.21 — 3 October 2026.**
+**Companion 0.9.28 / Product 0.9.28 — 4 October 2026.**
 
 ## Connect and ride
 

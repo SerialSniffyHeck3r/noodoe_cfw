@@ -31,3 +31,5 @@ For the emergency gesture, turn IGN OFF, hold O for about one second, turn IGN O
 Keep the displayed code, last file/sector and operation stage. Reconcile actual device state before retrying an uncertain operation. App connection-state reset clears transient selections and sockets, not device data or an in-progress device operation. Export a diagnostic ZIP; the app keeps its internal originals.
 
 For a storage error during ordinary use, open device settings, inspect **Settings / Ride records**, then request **Retry failed saves** once if automatic writes are paused. Check the result; this is not a format command. Detailed help: [troubleshooting](11-Troubleshooting.md).
+
+As of0.9.28, the healthy-run threshold is5seconds. Candidate-screen approval, exact-version reconnection checks and rollback remain; the overall confirmation deadline is unchanged.
