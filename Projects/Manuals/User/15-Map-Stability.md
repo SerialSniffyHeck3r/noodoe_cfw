@@ -1,5 +1,7 @@
 # 0.9.21: 지도 표시와 화면 전환 수정
 
+> **0.9.22:** 최대 축척과 음영 정책은 [최신 변경](16-Display-Transitions.md)을 따릅니다. 아래는 해당 버전의 변경 기록입니다.
+
 [English](15-Map-Stability.en.md) · [사용 설명서](README.md) · [최신 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 APK와 Product ZIP을 함께 업데이트하세요. 기존 CFW에서 바로 업데이트할 수 있으며 Gate 교체나 순정 복귀가 필요하지 않습니다. 설정·사진·정비 기록은 유지됩니다.

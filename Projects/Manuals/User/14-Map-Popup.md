@@ -1,5 +1,7 @@
 # 0.9.20: 지도, 메뉴와 알림 팝업
 
+> **0.9.22:** 최대 축척과 음영 정책은 [최신 변경](16-Display-Transitions.md)을 따릅니다. 아래는 해당 버전의 변경 기록입니다.
+
 [English](14-Map-Popup.en.md) · [사용 설명서](README.md) · [최신 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 APK와 CFW를 함께 업데이트하세요. 기존 Gate를 교체하거나 순정으로 돌아갈 필요는 없습니다. 설정·사진·정비 기록은 유지됩니다.

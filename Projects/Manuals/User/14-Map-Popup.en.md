@@ -1,5 +1,7 @@
 # 0.9.20: maps, menus and notification popups
 
+> **0.9.22:** Map scale and shading now follow [the latest changes](16-Display-Transitions.en.md). The text below records the earlier release.
+
 [한국어](14-Map-Popup.md) · [User guide](README.en.md) · [Latest downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 Update the APK and CFW together. Keep the existing Gate: no return to stock is required. Settings, photos and maintenance records stay in place.

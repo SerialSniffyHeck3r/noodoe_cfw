@@ -20,3 +20,6 @@ FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방�
 8. [캡처·예시 값·출처](12-Capture-Notes.md)
 
 9. [외장 NOR 백업·파일 탐색기](13-NOR-Backup.md) — 파일별 백그라운드 복사, IGN OFF 전체 백업, 취소·이어받기·ZIP 내보내기
+
+
+[0.9.22 화면 전환·지도·음영](16-Display-Transitions.md)

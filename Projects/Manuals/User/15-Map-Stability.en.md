@@ -1,5 +1,7 @@
 # 0.9.21: map and display transitions
 
+> **0.9.22:** Map scale and shading now follow [the latest changes](16-Display-Transitions.en.md). The text below records the earlier release.
+
 [한국어](15-Map-Stability.md) · [User guide](README.en.md) · [Latest downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 Update the APK and Product ZIP together. An existing CFW installation can update directly, keeping its Gate, settings, photos and maintenance records.

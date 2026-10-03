@@ -21,7 +21,7 @@ O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages re
 - **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Hold O to advance information in automatic modes.
 - **Audio:** UP play/pause, hold UP previous track, DOWN next track. Track titles and artists are rendered on the phone in every language. Long text scrolls; HOME's dual rows scroll independently.
 - **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. During a call, hold O to answer and hold DOWN to reject/end. Phone audio stays on the phone/headset.
-- **Map:** UP zoom in, DOWN zoom out, up to 12km scale. Hold O to cycle north-up, heading-up and compass.
+- **Map:** UP zoom in, DOWN zoom out, up to 3km scale. Hold O to cycle north-up, heading-up and compass.
 - **Quick settings:** tap O+DOWN together. UP/DOWN adjust brightness, hold DOWN for SUPER NITE, hold O for the main menu. MAINTENANCE contains service intervals and completion actions; SETTINGS contains other preferences.
 - **Dark display:** with IGN ON, hold UP+O together for three seconds to restart the display only. The app also offers display recovery. It preserves riding and connection state.
 
@@ -40,13 +40,10 @@ Text cache is limited to 128KiB/six tiles; JPEG cache to 256KiB/six images. APK 
 
 The map stays on the phone. A PC download can be copied to the phone and imported; it is neither a firmware ZIP nor a photo-slot upload. Import creates an app-private copy of one region and leaves the original download alone.
 
-Noodoe receives compact road/terrain vectors. At 12km the compiler favours connected roads spread across the viewport, selecting major roads within the same 1,536-byte packet budget. Street labels and turn-by-turn navigation are not included. Select a destination on the phone map or enter coordinates for a straight-line distance and direction marker.
+Noodoe receives compact, cached road and terrain vectors. The maximum scale is 3km. Whole tiles keep their geometry during movement; the phone balances road coverage and vertex cost before sending them. Select a destination on the phone map or enter coordinates for a straight-line distance and direction marker.
 
-![12km map — EVE software simulation](../images/map-12km-0.9.17-simulation.png)
+![3km map — EVE software simulation](../images/map-3km-0.9.22-simulation.png)
 
-**EVE software simulation**, using an Android packet from the South Korea map through the firmware decoder/LVGL/EVE path. This is not an LCD photograph or radio-performance measurement. Map data © OpenStreetMap contributors · Mapsforge.
-
-**GPS test location** sends entered coordinates once per second over the normal GPS link. It does not simulate vehicle speed or ignition. Stop the test to return to real GPS; it also ends when the app process stops.
 
 ## Saves, photos and errors
 
@@ -62,3 +59,6 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 ## Read-only NOR backup
 
 [Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.20 for this feature.
+
+
+[0.9.22 display transitions, maps and shading](16-Display-Transitions.en.md)
