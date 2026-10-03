@@ -1,12 +1,12 @@
-# 0.9.24: background shading and Bluetooth validation
+# 0.9.25: background shading and Bluetooth validation
 
 [한국어](16-Display-Transitions.md) · [User guide](README.en.md) · [Latest downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 Update the APK and Product ZIP together. The existing Gate, settings, photographs and maintenance records stay in place.
 
-**0.9.24 makes the music background darker again:** it uses 7% instead of the 10% described below. Pending artwork, cross-fades and wallpaper fallback share this value. Other pages, text, icons and backlight retain their behavior.
+**0.9.25 restores the music background to 10%.** This reverts the 7% adjustment in 0.9.24 and matches the other non-HOME pages. Pending artwork, cross-fades and wallpaper fallback share this value.
 
-![Album art — 0.9.24 EVE software simulation](../images/album-0.9.24-simulation.png)
+![Album art — 0.9.25 EVE software simulation](../images/album-0.9.25-simulation.png)
 
 Non-HOME photographs and album art are now half as bright as in 0.9.22: 10% at the default photo setting, multiplied by a lower user photo-brightness setting where applicable. Backlight brightness is unchanged. LOW/CRITICAL warnings apply additional attenuation directly to the photo. Map roads and text are not multiplied by this photo gain.
 
