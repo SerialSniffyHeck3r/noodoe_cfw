@@ -1,4 +1,60 @@
-# Installation connection recovery — 0.9.33
+# Installation connection recovery — 0.9.34
+
+## 0.9.34: resume the same installation after a dropped connection
+
+**Use the matching 0.9.34 APK and installation ZIP.** A temporary transport loss
+triggers bounded reconnects, followed by identity, package and saved-position
+checks. Authentication failures do not silently erase keys. Check a committed
+installation's result before cancelling or retransmitting it.
+
+### Repeated Couldn't Pair
+
+1. Open **Connection recovery → Reset pairing → Open Bluetooth settings** in the app.
+2. Forget only this Noodoe in Android settings. Keep the app and its data.
+3. On Noodoe's installation, new-version wait or rollback screen, press **UP**.
+   Use UP/DOWN to choose your phone or **ALL**, release O, then hold O for a fresh
+   two seconds. ALL removes every phone key stored on Noodoe.
+4. In a normally running CFW, **Main menu → Settings → Connections → Re-pair phone**
+   also clears the device's stored phone keys.
+5. Wait for **Ready to pair**, return to the app, select **Reconnect and check**,
+   and approve Android pairing. Reconcile installation state before resending files.
+
+Reset **both ends**. Rolling back executable code does not roll Android and device
+keys back together. These steps preserve photos, settings, maintenance records
+and installation evidence. Returning from Android settings restores the help dialog.
+
+### The previous firmware has not restarted
+
+The app distinguishes an open Bluetooth link to the previous CFW from the new
+candidate booting. Check the result first, then resume only when the app permits
+it. Updating the APK cannot repair the old firmware that must perform the restart.
+If it remains stuck, use the existing keep-data return to stock, then install via
+the new package's Bootstrap. See the installation manual's stock-recovery section.
+On supported installer screens, release DOWN and hold it for a fresh three seconds
+to request keep-data stock recovery. Reconnecting does not renew the five-minute trial.
+
+### An unresponsive menu — new Product only
+
+**CFW 0.9.34 or later, IGN ON:** release all buttons, hold **UP+DOWN together for
+10 seconds**, then release every button. This forces an MCU restart independently
+of the menu. Unsaved state may be lost; keys are not erased. It requires the CPU
+and I/O task to be running. This is different from ↑+O for three seconds, which
+restarts the display only. Installing the APK alone cannot add it to old firmware.
+
+### NOODOE INSTALLER and Bluetooth speed
+
+The existing Gate uses `NOODOE INSTALLER` for startup and recovery checks, including
+ordinary reboots. The title alone does not mean files are being installed. This
+ordinary CFW update does not replace Gate. Bootstrap stays at standard speed;
+only Product attempts high speed. Connection diagnostics record actual UART baud
+and persisted-key generation. High-speed failure offers O for standard-speed retry
+or DOWN for three seconds for stock recovery. UART baud is not measured RF throughput.
+
+See the [change evidence and validation report](../Validation/update-lifecycle-0.9.34.md)
+(Korean). Hardware radio validation remains separate from simulation results.
+
+## Earlier version notes
+
 
 ## 0.9.33: result-check prompt after a confirmed installation
 
