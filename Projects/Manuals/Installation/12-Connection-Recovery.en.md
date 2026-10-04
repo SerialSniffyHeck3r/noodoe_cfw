@@ -1,4 +1,15 @@
-# Installation connection recovery — 0.9.31
+# Installation connection recovery — 0.9.32
+
+## 0.9.32: explicit rate recovery and authentication handling
+
+**Use the matching 0.9.32 APK and installer ZIP.** An APK cannot fix authentication inside an older running firmware. Connected CFW uses the normal update without replacing Gate. If an old trial boot cannot connect, release DOWN and hold it afresh for three seconds to return to stock with data retained, then install the new package.
+
+If high-speed validation fails, **release O and press it briefly to retry at 921,600**, or **hold DOWN afresh for three seconds to return to stock with data retained**. Bootstrap stays at standard speed. Selecting recovery or reconnecting does not renew Product's original five-minute trial deadline.
+
+Immediate 0x05 after accepting pairing is an authentication failure, handled separately from UART speed. The firmware fixes stale authentication state surviving a radio restart and preserves the first event/status as `Pairing failed 3605`. `3318` indicates local policy refusal, `3605` an SSP authentication failure, and `0605` an authentication-complete failure. Keep the complete code. Physical Galaxy pairing with this build has not yet been verified.
+
+For mismatched keys, use Connection recovery: UP on the device, release O and hold it afresh for two seconds to approve removing the selected phone key; remove only this Noodoe pairing in Android settings and reconnect in the app. Keep app data and installation evidence.
+
 
 ## 0.9.31: pairing accepted on the phone, then rejected
 
