@@ -1,4 +1,22 @@
-# Installation connection recovery — Companion 0.9.36 / CFW 0.9.35
+# Installation connection recovery — Companion 0.9.37 / CFW 0.9.35
+
+## Companion 0.9.37: recovery without reopening the connection
+
+Install the **0.9.37 APK over the current app**; keep app data and existing bonds.
+The matching ZIP is the **unchanged CFW 0.9.35 package**.
+
+Stop driving integration if active, then select **CFW update**. The app checks
+provable earlier boot outcomes in the same connection before the update guard.
+Use **Acknowledge rollback** if the device still has an unacknowledged result.
+Connection recovery also keeps the identified socket through result inspection.
+
+If STATUS remains BUSY or stops responding, inspection ends after bounded queries.
+Export diagnostic records; the BUSY snapshot and independent device state are
+retained. No ambiguous write, COMMIT or RESET is blindly repeated.
+
+This fixes app-side inspection/reconnect loops. The cause of persistent device-side
+BUSY and physical recovery success remain unconfirmed. Device identification alone
+does not establish update readiness. Settings, photos and evidence are retained.
 
 ## Update and stock recovery blocked after a rollback
 
