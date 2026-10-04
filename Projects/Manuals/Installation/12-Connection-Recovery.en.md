@@ -1,6 +1,27 @@
-# Installation connection recovery — 0.9.35
+# Installation connection recovery — Companion 0.9.36 / CFW 0.9.35
 
-**Use the matching 0.9.35 APK and ZIP.** Settings, photos and maintenance records
+## Update and stock recovery blocked after a rollback
+
+0.9.36 is an **APK-only hotfix**. The supplied **CFW 0.9.35 ZIP is byte-for-byte unchanged**.
+You do not need to install new firmware first to unlock the current attempt.
+
+1. Install the **0.9.36 APK over the existing app**. Keep app data and installation records.
+2. Keep the latest ZIP selected. Choose **Identify device → Current CFW / installation result**.
+3. If the previous CFW was restored, choose **Acknowledge rollback · unblock recovery** and
+   wait for the device to store the acknowledgement. A reboot-dismissed warning can still be queried.
+4. Choose **CFW update** or **Back to stock → Keep CFW data**. Follow the keep-data stock
+   route if the app explains that the recovery Gate needs migration.
+5. After the stock screen appears, choose **Stock restored on device · verify**. This also
+   reconciles prior ZIP boot waits against the fresh stock response.
+
+The previous ZIP is not needed for these result checks. Failure records, photos, settings and
+service data are retained. Active operations, mismatched devices/transactions and uncertain
+file writes remain protected. The app acknowledgement also works independently of the old
+firmware warning's O-button handler. If no phone connection is possible, use the existing
+independent gesture: **key OFF → hold O for about 1 second → key ON while holding O →
+hold 2 more seconds**, then follow the device recovery screen.
+
+**Use Companion 0.9.36 with the CFW 0.9.35 ZIP.** Settings, photos and maintenance records
 are retained. If the app requests recovery-layer migration, follow keep-data
 stock return → this ZIP’s Bootstrap → Gate and CFW → confirm normal startup.
 A device already using the new Gate takes the ordinary Product update path.
