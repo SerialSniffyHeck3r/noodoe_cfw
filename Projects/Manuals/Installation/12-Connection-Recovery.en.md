@@ -1,4 +1,13 @@
-# Installation connection recovery — 0.9.30
+# Installation connection recovery — 0.9.31
+
+## 0.9.31: pairing accepted on the phone, then rejected
+
+Product now retains the remaining pairing window across high-speed fallback and waits for readiness before advertising connections. It also adopts the OEM post-baud settling interval and stops patch transmission when the host baud change fails.
+
+**Use both the 0.9.31 APK and installer ZIP.** An APK alone cannot patch the old running Product. Use an ordinary update from a connected CFW; no Gate replacement is needed. If stuck in an old trial boot, release DOWN and hold it afresh for three seconds to return to stock with data retained, then install the new package.
+
+For mismatched keys, follow Connection recovery: UP on the device, release O and hold it afresh for two seconds to approve removal of the selected phone key; remove only this Noodoe pairing in Android settings and reconnect. Keep app data and installation evidence. Save the device's `Pairing failed (0xXX)` code if it fails again.
+
 
 ## 0.9.30: Bootstrap error 00050002
 
