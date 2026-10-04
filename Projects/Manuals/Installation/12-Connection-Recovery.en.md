@@ -1,4 +1,20 @@
-# Installation connection recovery — Companion 0.9.37 / CFW 0.9.35
+# Installation connection recovery — Companion 0.9.38 / CFW 0.9.35
+
+## Companion 0.9.38: force recovery and reinstall · keep data
+
+Install APK 0.9.38 over the existing app and retain its data. The CFW 0.9.35 ZIP is unchanged.
+
+Stop riding integration, select the installation ZIP, then choose **Force recovery and reinstall · keep data** above the recovery wizard, or in Help. The app uses the existing independent stock-recovery commands without sending UPDATE STATUS. It verifies the device, boot state, idle writers and physical stock recovery image first. A pending rollback notice is acknowledged separately with its evidence preserved.
+
+Once the device shows stock firmware, select **Stock return check**, then install Bootstrap and choose **Keep stored data**. Settings, photos, maintenance records and installer evidence remain. A disconnected link is not proof that stock boot succeeded; the fresh stock response is required.
+
+Active writes, trial boot, failed physical recovery checks or a changed device stop this route. It never forces new firmware through an unresponsive updater. If independent recovery cannot finish, use the on-device recovery gesture shown in the app. Keep diagnostics instead of repeating file transfers.
+
+Software and ARM policy tests are distinguished from actual wireless/device testing. The reported device has not been physically tested. No MCU, font or Bluetooth-speed change is included.
+
+## Earlier app changes
+
+The sections below describe earlier versions. For persistent STATUS rejection, use the0.9.38 recovery route above.
 
 ## Companion 0.9.37: recovery without reopening the connection
 
