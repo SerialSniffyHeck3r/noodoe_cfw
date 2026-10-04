@@ -1,4 +1,11 @@
-# Installation connection recovery — 0.9.32
+# Installation connection recovery — 0.9.33
+
+## 0.9.33: result-check prompt after a confirmed installation
+
+If the device is already installed and confirmed but the app still asks for the result, **run the existing result check once using the new APK.** Verification, resume and connection recovery now clear the pending-update state. Do not erase app data or retransmit the whole package for this prompt. Confirmation still checks the device identity, package and durable boot status; a Bluetooth connection alone is not confirmation.
+
+The user reported successful installation and connection with 0.9.32. Version 0.9.33 leaves that Bluetooth initialization and authentication path unchanged. It also updates frame readback and the fuel-warning veil. See the [build and simulation report](../Validation/render-performance-0.9.33.md) (Korean).
+
 
 ## 0.9.32: explicit rate recovery and authentication handling
 
