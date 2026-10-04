@@ -13,7 +13,7 @@ If an old Bootstrap is already stopped:
 An APK update or Continue alone cannot patch an already running old Bootstrap. Product remains byte-identical 0.9.29; a working Product does not need reinstalling. Storage protections and real write errors remain enforced. If rejection repeats, save the code and File / phase or command / state details: this code covers more than one possible refusal.
 
 
-Use the matching 0.9.29 APK and ZIP. Ordinary CFW updates keep settings, photo slots and maintenance records. Existing working PC13-display units do not need a Gate replacement for a Product update.
+Use the matching 0.9.30 APK and ZIP; Product remains 0.9.29. Ordinary CFW updates keep settings, photo slots and maintenance records. Existing working PC13-display units do not need a Gate replacement for a Product update.
 
 ## Reconnecting during installation
 
