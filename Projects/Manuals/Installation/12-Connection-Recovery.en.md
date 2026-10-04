@@ -1,4 +1,17 @@
-# Installation connection recovery — 0.9.29
+# Installation connection recovery — 0.9.30
+
+## 0.9.30: Bootstrap error 00050002
+
+`262144 / 262144` is the last file operation's progress, not final installation success. This update fixes transient read-only readiness rejection being latched as a permanent error, and UP on Back / Install being intercepted by pairing recovery.
+
+If an old Bootstrap is already stopped:
+
+1. Release DOWN and hold it afresh for three seconds to return to stock with data retained. Alternatively open Back to stock with O, release O and hold it afresh for two seconds.
+2. Confirm the stock return in the app to reconcile the previous operation. Keep app data and installation evidence.
+3. Use the 0.9.30 APK and ZIP to install the **new Bootstrap**, selecting retained-data restoration.
+
+An APK update or Continue alone cannot patch an already running old Bootstrap. Product remains byte-identical 0.9.29; a working Product does not need reinstalling. Storage protections and real write errors remain enforced. If rejection repeats, save the code and File / phase or command / state details: this code covers more than one possible refusal.
+
 
 Use the matching 0.9.29 APK and ZIP. Ordinary CFW updates keep settings, photo slots and maintenance records. Existing working PC13-display units do not need a Gate replacement for a Product update.
 
