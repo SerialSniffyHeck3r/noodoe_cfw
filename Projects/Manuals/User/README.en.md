@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
+
 [0.9.28: map rendering, fuel warnings and Bluetooth diagnostics](17-Map-Rendering.en.md)
 
 [0.9.21: HOME / map / display fixes](15-Map-Stability.en.md)
@@ -8,7 +10,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion 0.9.28 / Product 0.9.28 — 4 October 2026.**
+**Companion / Product 0.9.40 — 5 October 2026.**
 
 ## Connect and ride
 
@@ -25,7 +27,7 @@ O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages re
 - **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. During a call, hold O to answer and hold DOWN to reject/end. Phone audio stays on the phone/headset.
 - **Map:** UP zoom in, DOWN zoom out, up to 3km scale. Hold O to cycle north-up, heading-up and compass.
 - **Quick settings:** tap O+DOWN together. UP/DOWN adjust brightness, hold DOWN for SUPER NITE, hold O for the main menu. MAINTENANCE contains service intervals and completion actions; SETTINGS contains other preferences.
-- **Dark display:** with IGN ON, hold UP+O together for three seconds to restart the display only. The app also offers display recovery. It preserves riding and connection state.
+- **Restart:** hold UP+O together for3seconds for an immediate MCU reset. For display-only recovery, open quick settings with DOWN+O, then hold UP0.8seconds. Release all keys after reset.
 
 ## Music without the extra wait
 

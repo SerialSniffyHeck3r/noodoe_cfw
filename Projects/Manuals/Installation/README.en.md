@@ -1,16 +1,18 @@
 # Installation, updates and recovery
 
+[0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
+
 [0.9.32 connection recovery: authentication, timers and speed selection](12-Connection-Recovery.en.md)
 
 [한국어 상세 절차](README.md) · [Using Noodoe](../User/README.en.md) · [Release](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Current pair: APK / Product 0.9.32.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
+**Current pair: APK / Product 0.9.40.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
 
 ## Update an existing CFW
 
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.35.apk) over the existing app, keeping its data and logs.
+1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.40.apk) over the existing app, keeping its data and logs.
 2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.35.zip), review its version and follow the wizard.
+3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.40.zip), review its version and follow the wizard.
 4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
 5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
 
@@ -26,7 +28,7 @@ Follow the [step-by-step illustrated guide](08-First-Install.md). The stock-to-B
 
 The app offers **keep CFW data** (Gate restores stock APP) or **erase CFW data** (a dedicated uninstall firmware removes verified CFW data and returns its space). Emergency Gate recovery always keeps data. Stock files and factory identity are preserved; returning to stock may require Bluetooth re-pairing separately.
 
-For the emergency gesture, turn IGN OFF, hold O for about one second, turn IGN ON while holding O, then keep holding for about three seconds. In Gate, follow **Back to stock** and its fresh two-second O confirmation when requested. Gate has no Bluetooth. See the [illustrated recovery guide](10-Recovery.md).
+For the emergency gesture, turn IGN OFF, hold O, turn IGN ON while holding O, then keep holding for2seconds on0.9.40. In Gate, follow **Back to stock** and its fresh two-second O confirmation when requested. Gate has no Bluetooth. See the [illustrated recovery guide](10-Recovery.md).
 
 ## When something stops
 

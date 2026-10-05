@@ -8,7 +8,7 @@
 |---|---|---|
 | ![퀵 세팅](../images/quick-settings.png) | ![전체 설정](../images/settings-root.png) | ![이동 잠금](../images/settings-moving.png) |
 
-주행 화면에서 **O+DOWN을 함께 짧게 눌러 퀵 세팅 팝업**을 엽니다. UP/DOWN으로 밝기를 빠르게 조절합니다. 수동이면 밝기 %, 자동이면 −2~+2 보정값입니다. O 길게 누르면 **ENTER MAIN MENU → MAINTENANCE / SETTINGS**에 들어갑니다. IGN ON에서는 **유효한 UART 속도가 3km/h 이하로 5초 유지**되어야 합니다. 명시적 키 OFF 사용 중에는 UART 미수신을 주행 오류로 보지 않습니다.
+주행 화면에서 **O+DOWN을 함께 짧게 눌러 퀵 세팅 팝업**을 엽니다. UP/DOWN 짧게로 밝기를 조절합니다. 위0.8초는 LCD·EVE 재초기화, 아래0.8초는 Super Nite입니다. Super Nite 중 위/아래 짧게는 해제합니다. 수동이면 밝기 %, 자동이면 −2~+2 보정값입니다. O 길게 누르면 **ENTER MAIN MENU → MAINTENANCE / SETTINGS**에 들어갑니다. IGN ON에서는 **유효한 UART 속도가 3km/h 이하로 5초 유지**되어야 합니다. 명시적 키 OFF 사용 중에는 UART 미수신을 주행 오류로 보지 않습니다.
 
 전체 설정에서 UP/DOWN은 항목 이동, O는 선택입니다. 숫자/날짜/시간은 편집할 칸을 선택하고 값을 바꾼 뒤 `Apply`로 적용합니다. `Back`은 이전 단계입니다. 선택만 하거나 편집 중인 값을 적용하지 않고 나가면 확정하지 않습니다.
 
