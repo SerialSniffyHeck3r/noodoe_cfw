@@ -1,5 +1,7 @@
 # Installation, updates and recovery
 
+[0.9.41 installation state and work diagnostics](../Installation/19-State-Ownership.en.md)
+
 [0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
 
 [0.9.32 connection recovery: authentication, timers and speed selection](12-Connection-Recovery.en.md)
@@ -10,9 +12,9 @@
 
 ## Update an existing CFW
 
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.40.apk) over the existing app, keeping its data and logs.
+1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.41.apk) over the existing app, keeping its data and logs.
 2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.40.zip), review its version and follow the wizard.
+3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.41.zip), review its version and follow the wizard.
 4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
 5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
 

@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.41 installation state and work diagnostics](../Installation/19-State-Ownership.en.md)
+
 [0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
 
 [0.9.28: map rendering, fuel warnings and Bluetooth diagnostics](17-Map-Rendering.en.md)
