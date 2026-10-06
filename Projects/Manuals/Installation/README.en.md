@@ -1,5 +1,7 @@
 # Installation, updates and recovery
 
+[0.9.55 display, maps and restart update](23-Display-Map-Update.md)
+
 [0.9.44 — COMMIT B / 6](22-Commit-Resource-Wait.en.md)
 
 0.9.43 updates the matching font-metric resource slot as well as Product. Keep the APK and ZIP together; glyph appearance is unchanged. Gate remains unchanged. An old Product stuck before reboot still needs its existing recovery path; this APK does not bypass its write/commit guards.
@@ -16,9 +18,9 @@
 
 ## Update an existing CFW
 
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.44.apk) over the existing app, keeping its data and logs.
+1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.55.apk) over the existing app, keeping its data and logs.
 2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.44.zip), review its version and follow the wizard.
+3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.55.zip), review its version and follow the wizard.
 4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
 5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
 
