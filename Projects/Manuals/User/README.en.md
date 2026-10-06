@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.42 GPS testing, parked controls and rendering](20-Render-GPS.en.md)
+
 [0.9.41 installation state and work diagnostics](../Installation/19-State-Ownership.en.md)
 
 [0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
@@ -12,7 +14,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.40 — 5 October 2026.**
+**Companion / Product 0.9.42 — 6 October 2026.**
 
 ## Connect and ride
 
