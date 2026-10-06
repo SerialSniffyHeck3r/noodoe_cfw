@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)
+
 [0.9.42 GPS testing, parked controls and rendering](20-Render-GPS.en.md)
 
 [0.9.41 installation state and work diagnostics](../Installation/19-State-Ownership.en.md)
@@ -14,7 +16,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.42 — 6 October 2026.**
+**Companion / Product 0.9.43 — 6 October 2026.**
 
 ## Connect and ride
 
@@ -28,7 +30,7 @@ O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages re
 
 - **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Hold O to advance information in automatic modes.
 - **Audio:** UP play/pause, hold UP previous track, DOWN next track. Track titles and artists are rendered on the phone in every language. Long text scrolls; HOME's dual rows scroll independently.
-- **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. During a call, hold O to answer and hold DOWN to reject/end. Phone audio stays on the phone/headset.
+- **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. Incoming calls use a popup: short O dismisses, short DOWN answers, hold UP rejects/ends. Phone audio stays on the phone/headset.
 - **Map:** UP zoom in, DOWN zoom out, up to 3km scale. Hold O to cycle north-up, heading-up and compass.
 - **Quick settings:** tap O+DOWN together. UP/DOWN adjust brightness, hold DOWN for SUPER NITE, hold O for the main menu. MAINTENANCE contains service intervals and completion actions; SETTINGS contains other preferences.
 - **Restart:** hold UP+O together for3seconds for an immediate MCU reset. For display-only recovery, open quick settings with DOWN+O, then hold UP0.8seconds. Release all keys after reset.
