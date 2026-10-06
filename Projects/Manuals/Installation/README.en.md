@@ -1,5 +1,7 @@
 # Installation, updates and recovery
 
+[0.9.58 map cache and automatic range](25-Map-Cache-Auto-Range.md)
+
 [0.9.57 map loading and music return](24-Map-Media-Latency.md)
 
 [0.9.55 display, maps and restart update](23-Display-Map-Update.md)
@@ -16,13 +18,13 @@
 
 [한국어 상세 절차](README.md) · [Using Noodoe](../User/README.en.md) · [Release](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Current pair: APK / Product 0.9.43.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
+**Current pair: APK / Product 0.9.58.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
 
 ## Update an existing CFW
 
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.57.apk) over the existing app, keeping its data and logs.
+1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.58.apk) over the existing app, keeping its data and logs.
 2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.57.zip), review its version and follow the wizard.
+3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.58.zip), review its version and follow the wizard.
 4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
 5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
 

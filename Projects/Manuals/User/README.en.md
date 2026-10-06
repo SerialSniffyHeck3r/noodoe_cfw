@@ -31,7 +31,7 @@ O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages re
 - **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Hold O to advance information in automatic modes.
 - **Audio:** UP play/pause, hold UP previous track, DOWN next track. Track titles and artists are rendered on the phone in every language. Long text scrolls; HOME's dual rows scroll independently.
 - **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. Incoming calls use a popup: short O dismisses, short DOWN answers, hold UP rejects/ends. Phone audio stays on the phone/headset.
-- **Map:** UP zoom in, DOWN zoom out, up to 3km scale. Hold O to cycle north-up, heading-up and compass.
+- **Map:** hold UP to toggle automatic/manual range. In automatic mode, UP/DOWN adjust preference from−2 (closer) to+2 (wider); the preference survives mode changes. In manual mode, UP zooms in and DOWN zooms out, up to3km scale. A600ms transition starts when the target map is ready. Hold O to cycle north-up, heading-up and compass.
 - **Quick settings:** tap O+DOWN together. UP/DOWN adjust brightness, hold DOWN for SUPER NITE, hold O for the main menu. MAINTENANCE contains service intervals and completion actions; SETTINGS contains other preferences.
 - **Restart:** hold UP+O together for3seconds for an immediate MCU reset. For display-only recovery, open quick settings with DOWN+O, then hold UP0.8seconds. Release all keys after reset.
 
@@ -50,7 +50,7 @@ Text cache is limited to 128KiB/six tiles; JPEG cache to 256KiB/six images. APK 
 
 The map stays on the phone. A PC download can be copied to the phone and imported; it is neither a firmware ZIP nor a photo-slot upload. Import creates an app-private copy of one region and leaves the original download alone.
 
-Noodoe receives compact, cached road and terrain vectors. The maximum scale is 3km. Whole tiles keep their geometry during movement; the phone balances road coverage and vertex cost before sending them. Select a destination on the phone map or enter coordinates for a straight-line distance and direction marker.
+Noodoe receives compact, cached road and terrain vectors. The maximum scale is 3km. Whole width-selected roads retain their geometry during movement. The device caches eight complete tiles; the phone prepares visible tiles first, then predicts upcoming tiles from direction and speed. Map calculation and transfer stop when the map is hidden. Returning to the page reuses a valid GPU texture or complete RAM raster; missing or changed content still needs preparation. Select a destination on the phone map or enter coordinates for a straight-line distance and direction marker.
 
 ![3km map — EVE software simulation](../images/map-3km-0.9.22-simulation.png)
 
