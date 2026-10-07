@@ -1,53 +1,17 @@
-# Installation, updates and recovery
+# Installation, updates and recovery · 0.9.60
 
-[0.9.59 warning compositor and F4 compatibility](26-Display-Install-Compatibility.md)
+[Manual index](../README.en.md) · [한국어](README.md) · [latest APK/ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-[0.9.58 map cache and automatic range](25-Map-Cache-Auto-Range.md)
+1. [First installation from stock](08-First-Install.en.md)
+2. [Update an existing CFW](09-Update.en.md)
+3. [Stock return, Gate and display recovery](10-Recovery.en.md)
+4. [Paused, unknown results, pairing and diagnostics](11-Troubleshooting.en.md)
+5. [Detailed connection recovery](12-Connection-Recovery.en.md)
 
-[0.9.57 map loading and music return](24-Map-Media-Latency.md)
+**Use both APK and ZIP0.9.60.** First installation accepts F4/HW0, stock5.16 and bootloader0.10–0.19, without model or PCBA restrictions. Ordinary Product updates retain settings/photos/trips. Gate, Bootstrap, stock, resources, Uninstall and Diagnostic are unchanged from0.9.59.
 
-[0.9.55 display, maps and restart update](23-Display-Map-Update.md)
+Transfer100%, image verification, local approval, reset and candidate confirmation are separate stages. NOODOE INSTALLER is not completion. Current candidate confirmation allows up to5minutes and requires at least5seconds of healthy operation; follow the deadline reported by older firmware.
 
-[0.9.44 — COMMIT B / 6](22-Commit-Resource-Wait.en.md)
+The user confirmed stock-to-CFW installation without the former6/4 symptom and working warning dimming in0.9.59. This does not validate every migration or physical storage failure. Query the same device/package's last operation when its result is unknown.
 
-0.9.43 updates the matching font-metric resource slot as well as Product. Keep the APK and ZIP together; glyph appearance is unchanged. Gate remains unchanged. An old Product stuck before reboot still needs its existing recovery path; this APK does not bypass its write/commit guards.
-
-[0.9.41 installation state and work diagnostics](../Installation/19-State-Ownership.en.md)
-
-[0.9.40 controls, recovery and rollback updates](../User/18-Input-Recovery.en.md)
-
-[0.9.32 connection recovery: authentication, timers and speed selection](12-Connection-Recovery.en.md)
-
-[한국어 상세 절차](README.md) · [Using Noodoe](../User/README.en.md) · [Release](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
-
-**Current pair: APK / Product 0.9.59.** Routine Product updates preserve your data. New GPIO7 display profiles use the matching installer Gate.
-
-## Update an existing CFW
-
-1. Install the [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.59.apk) over the existing app, keeping its data and logs.
-2. Select and identify the correct Noodoe. Stop riding sync before starting an update.
-3. Select the [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.59.zip), review its version and follow the wizard.
-4. Allow transfer, verification, device approval and restart to finish. With unchanged Gate/assets, the normal payload is the 384KiB Product image.
-5. Follow the app's candidate-screen/reconnection checks and wait for confirmed completion. A 100% transfer is not a confirmed boot.
-
-**Ordinary updates preserve settings, rider name, photo slots, trips and maintenance baselines.** The old manual's reset-after-confirmation policy no longer describes ordinary updates. Start-fresh, explicit reset and complete removal remain separate choices.
-
-If connection drops, reopen the same device/ZIP and check the last operation before resuming. A complete uploaded image can be reused after integrity checks. Do not blindly repeat COMMIT or RESET. Trial boot checks and rollback remain in place.
-
-## First install
-
-Follow the [step-by-step illustrated guide](08-First-Install.md). The stock-to-Bootstrap handoff is separate from routine CFW updates. First setup allocates the CFW files in verified free space, preserves stock files and prepares recovery data. Select retained-data restoration or start-fresh deliberately when reinstalling. The stock `NOODOE INSTALLER` screen is not the new CFW's completed-boot screen.
-
-## Return to stock
-
-The app offers **keep CFW data** (Gate restores stock APP) or **erase CFW data** (a dedicated uninstall firmware removes verified CFW data and returns its space). Emergency Gate recovery always keeps data. Stock files and factory identity are preserved; returning to stock may require Bluetooth re-pairing separately.
-
-For the emergency gesture, turn IGN OFF, hold O, turn IGN ON while holding O, then keep holding for2seconds on0.9.40. In Gate, follow **Back to stock** and its fresh two-second O confirmation when requested. Gate has no Bluetooth. See the [illustrated recovery guide](10-Recovery.md).
-
-## When something stops
-
-Keep the displayed code, last file/sector and operation stage. Reconcile actual device state before retrying an uncertain operation. App connection-state reset clears transient selections and sockets, not device data or an in-progress device operation. Export a diagnostic ZIP; the app keeps its internal originals.
-
-For a storage error during ordinary use, open device settings, inspect **Settings / Ride records**, then request **Retry failed saves** once if automatic writes are paused. Check the result; this is not a format command. Detailed help: [troubleshooting](11-Troubleshooting.md).
-
-As of0.9.28, the healthy-run threshold is5seconds. Candidate-screen approval, exact-version reconnection checks and rollback remain; the overall confirmation deadline is unchanged.
+[0.9.60 changes and validation](27-Status-Icons-Manuals.md)

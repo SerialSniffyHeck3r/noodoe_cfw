@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+**Current 0.9.60 display guide:** [menu persistence, GPS pulses, phone battery and centered fuel warnings](22-Status-Display.en.md). Versioned links below are historical change notes.
+
 [0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)
 
 [0.9.42 GPS testing, parked controls and rendering](20-Render-GPS.en.md)
@@ -16,7 +18,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.43 — 6 October 2026.**
+**Companion / Product 0.9.60 — 7 October 2026.**
 
 ## Connect and ride
 
@@ -25,6 +27,8 @@ Select your registered Noodoe, then use the permissions/setup page to enable Blu
 **Screen off means the phone screen.** Lock the phone and keep Noodoe on as usual. Media callbacks, text rendering and artwork preparation belong to the service. Small track state goes first; image work runs outside the radio loop. An expiring CPU wake lock is renewed only during active riding or explicit parked use, without lighting the phone screen. Disconnecting or ending active use releases it. Force-stop and revoked permissions require attention in the app. Actual S24 Ultra screen-off latency and power consumption have not yet been measured.
 
 ## Buttons and pages
+
+The menu strip stays visible on non-HOME riding pages. Only HOME hides it after five seconds. The Bluetooth icon now reports phone battery/charging; GPS gives a short OFF pulse for each fresh position. [Exact thresholds and timing](22-Status-Display.en.md).
 
 O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages remember their selection; Smartphone opens at its central summary. General long presses take 0.8 seconds. Installation/recovery confirmations keep their separate timing.
 
@@ -39,7 +43,7 @@ O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages re
 
 Current-track text is prepared for Audio and both HOME layouts. Changing pages or pausing a track does not discard unchanged text. Artwork is one final 480×480 transfer, held in RAM rather than written into photo slots. After a track change the old artwork stays for at most ten seconds; confirmed absence returns to the wallpaper immediately. Late completion from an older track is discarded.
 
-Text cache is limited to 128KiB/six tiles; JPEG cache to 256KiB/six images. APK 0.9.17.1 also spaces retries of the same failed artwork encode by five seconds. Playback callbacks cannot provide information before the music player publishes it.
+Text cache is limited to 128KiB/six tiles; JPEG cache to 256KiB/six images. The app spaces retries of the same failed artwork encode by five seconds. Playback callbacks cannot provide information before the music player publishes it.
 
 ## Import an offline map
 
@@ -78,7 +82,7 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 
 ## Read-only NOR backup
 
-[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Install both APK and Product 0.9.20 for this feature.
+[Open the NOR backup and file browser guide](13-NOR-Backup.en.md). Copy selected files in the background, including their FAT/cluster evidence, or start a dedicated full 128MiB backup with IGN OFF. Use the current matching APK and Product; this feature is included.
 
 
 [0.9.22 display transitions, maps and shading](16-Display-Transitions.en.md)

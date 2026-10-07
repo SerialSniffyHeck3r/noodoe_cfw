@@ -1,30 +1,17 @@
-# 설치·복구 설명서
+# 설치·업데이트·복구 · 0.9.60
 
-[0.9.59 warning compositor and F4 compatibility](26-Display-Install-Compatibility.md)
-
-[0.9.58 map cache and automatic range](25-Map-Cache-Auto-Range.md)
-
-[0.9.57 map loading and music return](24-Map-Media-Latency.md)
-
-[0.9.55 display, maps and restart update](23-Display-Map-Update.md)
-
-[0.9.44 — COMMIT B / 6](22-Commit-Resource-Wait.md)
-
-0.9.43은 Product와 함께 대응 글꼴 치수표 자원 슬롯도 갱신합니다. 글꼴 모양은 그대로이며 APK와 ZIP을 함께 사용하세요. Gate는 변경되지 않았습니다. 재부팅 전에 멈춘 구 Product는 기존 복구 경로가 필요하며, 새 APK가 기록·확정 보호를 우회하지는 않습니다.
-
-[0.9.41 설치 상태·작업 진단](../Installation/19-State-Ownership.md)
-
-[0.9.40 버튼·복구·롤백 후 업데이트](../User/18-Input-Recovery.md)
-
-**현재 배포: APK / Product 0.9.59.** [연결 대기·페어링 복구·5/8 재시작 안내](12-Connection-Recovery.md)
-
-[설명서 첫 화면](../README.md) · [사용 설명서](../User/README.md) · [English](README.en.md)
-
-최신 릴리스에서 함께 나온 [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.59.apk)와 [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.59.zip)을 사용하세요. Android가 외부 APK 설치 허용을 요청하면 APK를 연 브라우저나 파일 앱에 해당 권한을 부여하세요. 기존 앱을 같은 서명의 APK로 업데이트하면 설치 기록과 로그가 남습니다. 전송 진행률 100%와 실제 설치 완료는 다른 단계입니다.
+[설명서 첫 화면](../README.md) · [English](README.en.md) · [최신 APK/ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 1. [순정에서 최초 설치](08-First-Install.md)
-2. [CFW 업데이트](09-Update.md)
-3. [순정 복귀·완전 삭제·진단](10-Recovery.md)
-4. [문제 해결과 로그](11-Troubleshooting.md)
+2. [기존 CFW 업데이트](09-Update.md)
+3. [순정 복귀·Gate·표시부 복구](10-Recovery.md)
+4. [Paused·결과 미확인·페어링·로그](11-Troubleshooting.md)
+5. [연결 복구 상세](12-Connection-Recovery.md)
 
-앱과 기기의 단계 표시가 다르면 다음 명령을 반복하기 전에 기기의 현재 상태를 확인하세요.
+**APK와 ZIP 모두 0.9.60을 사용하세요.** 최초 설치는 F4/HW0, 순정5.16, 부트로더0.10~0.19를 허용하며 모델명·PCBA로 제한하지 않습니다. 일반 Product 업데이트는 설정·사진·트립을 유지합니다. 0.9.59 대비 Gate·Bootstrap·순정·자원·제거·진단 이미지는 같습니다.
+
+전송 100%, 파일 검증, 본체 승인, 재시작, 새 후보 확인은 서로 다른 단계입니다. NOODOE INSTALLER에서는 완료로 판단하지 마세요. 현재 후보 확인 기한은 최대5분이며 정상 실행 최소5초가 필요합니다. 구버전은 기기가 알려주는 기한을 따릅니다.
+
+사용자는 0.9.59에서 순정→CFW가 6/4 없이 완료되고 경고 음영도 정상이라고 확인했습니다. 구버전에서 넘어오는 첫 재시작이나 실제 저장 실패까지 모든 경우가 검증된 것은 아닙니다. 결과가 미확인이라면 같은 기기·ZIP의 마지막 작업부터 조회하세요.
+
+[0.9.60 변경점 및 검증](27-Status-Icons-Manuals.md)
