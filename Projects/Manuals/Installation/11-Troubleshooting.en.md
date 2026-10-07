@@ -1,6 +1,6 @@
 # Troubleshooting and diagnostics
 
-**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.62 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](11-Troubleshooting.md)
 
@@ -12,7 +12,7 @@ Read the app's overall stage, current-operation bytes, last reply and file/secto
 |---|---|
 | Compatibility stopped before transfer | Check HW 0, BL 0.10–0.19, stock 5.16 and matching APK/ZIP against the [support scope](07-Compatibility.en.md). Model/PCBA are not restricted. Stopping at this check has not transferred Bootstrap |
 | `The current operation cannot continue` / `Installation success or cancellation not confirmed` | A previous change has no confirmed outcome. Inspect the last operation on the same device and ZIP first |
-| Stage 6/8 · Code 6 / Phase 4 · `Paused` / `See Phone Help` | The code alone proves neither success nor a brick. Preserve screen/logs and follow [paused-installation recovery](10-Recovery.en.md). The 0.9.61 error screen gives the UP+O 3-second instruction |
+| Stage 6/8 · Code 6 / Phase 4 · `Paused` / `See Phone Help` | The code alone proves neither success nor a brick. Preserve screen/logs and follow [paused-installation recovery](10-Recovery.en.md). The 0.9.62 error screen gives the UP+O 3-second instruction |
 | 100% transfer or `NOODOE INSTALLER` | File-transfer/stock-writing stage. Do not approve completion before the actual new CFW screen |
 | `CFW UPDATE` / `Checking the new version` | Confirm the actual screen, reconnect to the same candidate, complete at least 5 seconds of healthy execution and permanent confirmation. Current maximum 5 minutes; older firmware reports its own deadline |
 | `Update wasn't confirmed` | Candidate confirmation failed. Inspect rollback or Gate state |

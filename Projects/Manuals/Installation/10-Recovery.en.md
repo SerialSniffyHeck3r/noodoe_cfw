@@ -1,6 +1,6 @@
 # Paused installation, stock return and display recovery
 
-**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.62 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](10-Recovery.md)
 
@@ -17,7 +17,7 @@
 
 ## 1. Manual restart from the installation error screen
 
-The 0.9.61 Product condition that previously displayed `Paused. See phone help.` now shows the following. Stage and Code/phase remain visible.
+The 0.9.62 Product condition that previously displayed `Paused. See phone help.` now shows the following. Stage and Code/phase remain visible.
 
 ```text
 Please manually reset.

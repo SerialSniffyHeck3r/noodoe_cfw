@@ -1,12 +1,12 @@
 # 연결·페어링 복구
 
-**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.62 · Manual revision 2 · 2026-10-07**
 
 [설치 목차](README.md) · [English](12-Connection-Recovery.en.md)
 
 ## 먼저 역할 확인
 
-0.9.61 APK와 ZIP을 사용하고 앱 기록을 유지합니다. 주행 연동을 중지한 뒤 현재 역할을 확인합니다. 순정·Bootstrap·Product는 서로 다른 단계이며 **Gate에는 Bluetooth가 없습니다**. 이미 Bootstrap이면 순정 전송부터 반복하지 않습니다.
+0.9.62 APK와 ZIP을 사용하고 앱 기록을 유지합니다. 주행 연동을 중지한 뒤 현재 역할을 확인합니다. 순정·Bootstrap·Product는 서로 다른 단계이며 **Gate에는 Bluetooth가 없습니다**. 이미 Bootstrap이면 순정 전송부터 반복하지 않습니다.
 
 ## 응답이 끊기거나 이전 결과가 남았을 때
 

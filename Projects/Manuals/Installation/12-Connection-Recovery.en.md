@@ -1,12 +1,12 @@
 # Connection and pairing recovery
 
-**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.62 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](12-Connection-Recovery.md)
 
 ## Identify the running role first
 
-Use APK and ZIP 0.9.61 and retain app records. Stop riding integration and identify the current role. Stock, Bootstrap and Product are different stages; **Gate has no Bluetooth**. If Bootstrap already runs, do not repeat the stock transfer.
+Use APK and ZIP 0.9.62 and retain app records. Stop riding integration and identify the current role. Stock, Bootstrap and Product are different stages; **Gate has no Bluetooth**. If Bootstrap already runs, do not repeat the stock transfer.
 
 ## Lost responses or unresolved earlier results
 

@@ -1,8 +1,8 @@
-# 설치·복구·호환 모델 · 0.9.61
+# 설치·복구·호환 모델 · 0.9.62
 
 [설명서 첫 화면](../README.md) · [English](README.en.md)
 
-**0.9.61 APK와 ZIP을 한 쌍으로 사용하세요.** 이번 문서는 **2026-10-07 설명서 2판**이며 앱·펌웨어 바이너리는 바뀌지 않았습니다. 호환 조건을 먼저 확인한 뒤 실제 실행 중인 역할에 맞춰 최초 설치 또는 CFW 업데이트를 선택합니다.
+**0.9.62 APK와 ZIP을 한 쌍으로 사용하세요.** 이번 문서는 **2026-10-07**이며 앱·펌웨어 바이너리는 바뀌지 않았습니다. 호환 조건을 먼저 확인한 뒤 실제 실행 중인 역할에 맞춰 최초 설치 또는 CFW 업데이트를 선택합니다.
 
 설치 허용 범위는 **F4 / HW 0·부트로더 0.10~0.19·순정 5.16**입니다. SAA1AA 등 모델명·PCBA는 제한하지 않습니다. AK550와 벤치에서의 사용 결과를 모든 차종·PCB 리비전 검증으로 확대하지 않습니다. 호환 표에 확인 수준을 구분했습니다.
 
@@ -13,4 +13,6 @@
 5. [문제 해결과 진단 자료](11-Troubleshooting.md)
 6. [연결·페어링 복구](12-Connection-Recovery.md)
 
-과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.61 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.61-controls-recovery)
+과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.62 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.62-dashboard-alerts)
+
+[0.9.62 · Dashboard blink alerts](../User/24-Dashboard-Alerts.md)
