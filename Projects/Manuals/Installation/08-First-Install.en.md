@@ -1,10 +1,10 @@
-# First installation from stock · 0.9.60
+# First installation from stock · 0.9.61
 
 [Installation index](README.en.md) · [한국어 illustrated steps](08-First-Install.md)
 
 ## Prepare
 
-Use the matching 0.9.60 APK and installation ZIP. Install the APK over the existing app to retain logs and backups. Keep the ZIP intact; do not choose a BIN from a stock dump. Select the correct Noodoe and stop riding sync. Keep the phone and stationary vehicle adequately powered, leave the installer running and follow the requested ignition actions. Do not operate the starter or force-stop the installer during writing.
+Use the matching 0.9.61 APK and installation ZIP. Install the APK over the existing app to retain logs and backups. Keep the ZIP intact; do not choose a BIN from a stock dump. Select the correct Noodoe and stop riding sync. Keep the phone and stationary vehicle adequately powered, leave the installer running and follow the requested ignition actions. Do not operate the starter or force-stop the installer during writing.
 
 First-use admission accepts **F4/HW0, stock5.16 and bootloader0.10–0.19** without a model-name or PCBA whitelist. The app still binds the actual device UID/version/hash and stores a double-read bootloader capture. Allowed versions are not a claim that every hardware revision has been physically tested.
 

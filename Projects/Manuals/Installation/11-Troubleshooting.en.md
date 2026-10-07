@@ -1,5 +1,7 @@
 # Installation and everyday troubleshooting · 0.9.60
 
+[0.9.61 manual reset and ODO controls](../User/23-Controls-Recovery.en.md)
+
 [Installation index](README.en.md) · [한국어](11-Troubleshooting.md)
 
 Record the APK and installed CFW versions, actual device screen, stage, code/phase, last file/sector/offset, ignition state and buttons used. Export the app diagnostic ZIP before clearing anything. Total stage progress, bytes sent, device verification and boot confirmation describe different work.

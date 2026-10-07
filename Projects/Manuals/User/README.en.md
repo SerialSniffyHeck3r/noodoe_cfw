@@ -1,6 +1,6 @@
 # Using FuckNudo
 
-**Current 0.9.60 display guide:** [menu persistence, GPS pulses, phone battery and centered fuel warnings](22-Status-Display.en.md). Versioned links below are historical change notes.
+**Current 0.9.61 display guide:** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
 
 [0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)
 
@@ -18,7 +18,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.60 — 7 October 2026.**
+**Companion / Product 0.9.61 — 7 October 2026.**
 
 ## Connect and ride
 
@@ -28,7 +28,7 @@ Select your registered Noodoe, then use the permissions/setup page to enable Blu
 
 ## Buttons and pages
 
-The menu strip stays visible on non-HOME riding pages. Only HOME hides it after five seconds. The Bluetooth icon now reports phone battery/charging; GPS gives a short OFF pulse for each fresh position. [Exact thresholds and timing](22-Status-Display.en.md).
+The menu strip stays visible on non-HOME riding pages. Only HOME hides it after five seconds. The Bluetooth icon now reports phone battery/charging; GPS gives a short OFF pulse for each fresh position. [Exact thresholds and timing](23-Controls-Recovery.en.md).
 
 O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages remember their selection; Smartphone opens at its central summary. General long presses take 0.8 seconds. Installation/recovery confirmations keep their separate timing.
 
@@ -63,9 +63,7 @@ Noodoe receives compact, cached road and terrain vectors. The maximum scale is 3
 
 ### ODO confirmation
 
-Product 0.9.27 fixes the buttons in the **ODO changed** dialog. Short-press and release UP/DOWN to choose, then short-press and release O to confirm. If saved distance is `26863 km` but the correct dashboard value is `26869 km`, choose **Use dashboard value**. Applying a distance requires IGN ON and five seconds of confirmed stationary vehicle data. **Ask me later** closes the dialog without changing either distance, even while a stationary reading is unavailable. The same pending confirmation stays dismissed for this boot; a new confirmation or reboot can bring it back.
-
-On older firmware with an unresponsive dialog, use the phone's **Device settings → ODO saved value → Use dashboard value → Use** while stationary. The firmware fix requires the matching APK and Product update. The PH9 switch must allow ordinary Noodoe button operation.
+ODO checks no longer open automatically. Use **SETTINGS → Vehicle → ODO check** on Noodoe or the app Device settings ODO page. Short UP/DOWN chooses Keep saved distance, Use dashboard value or Back. Applying requires IGN ON and five seconds of valid stationary speed. Back or holding O always leaves without changing the value. Applied values remain visible for confirmation; short O returns. PH9 must allow Noodoe operation. [Current controls and error handling](23-Controls-Recovery.en.md).
 
 The feature only changes Noodoe's saved display baseline. It does not write the vehicle dashboard's odometer. Anomaly detection and the stored record format are unchanged.
 

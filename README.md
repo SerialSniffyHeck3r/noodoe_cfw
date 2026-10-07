@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**FuckNudo 0.9.60 — centered warnings, status icons and manuals**
+**FuckNudo 0.9.61 — gray status pulses and manual ODO checks**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.60-status-icons-manuals/NoodoeCompanion-0.9.60.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.60-status-icons-manuals/NoodoeInstaller-CFW-0.9.60.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.61-controls-recovery/NoodoeCompanion-0.9.61.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.61-controls-recovery/NoodoeInstaller-CFW-0.9.61.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `cfw-v0.9.60-status-icons-manuals`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `cfw-v0.9.61-controls-recovery`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.60.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.60.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.61.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.61.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

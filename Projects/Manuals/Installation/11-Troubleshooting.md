@@ -1,5 +1,7 @@
 # 11. 문제 해결과 로그
 
+[0.9.61 수동 재시작·ODO 확인 안내](../User/23-Controls-Recovery.md)
+
 > 0.9.29 설치·대기·페어링 변경은 [연결 복구 안내](12-Connection-Recovery.md)를 우선 확인하세요.
 
 [목차](README.md)

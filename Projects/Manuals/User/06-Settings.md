@@ -55,6 +55,7 @@ Light 지원 빌드에서만 Auto theme source와 테마 전환 시각·임계�
 | Ring maximum | 20~400km/h, 10 간격의 속도 링 기준 |
 | Stop threshold | 0~10km/h, 기본 5. 트립 이동/정차 분류 |
 | Vehicle | 계기판에서 받은 차량 정보, 읽기 전용 |
+| ODO check | 저장된 거리와 계기판 값 확인. 자동 팝업 없이 여기서 열며, IGN ON·유효한 정차 5초 후 적용. Back 또는 O 길게로 돌아가기 |
 
 ## Maintenance → Oil / Belt / Service
 

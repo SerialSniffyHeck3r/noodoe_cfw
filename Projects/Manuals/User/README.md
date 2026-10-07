@@ -1,6 +1,6 @@
 # 사용 설명서
 
-**0.9.60 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](22-Status-Display.md). 아래의 버전별 링크는 변경 이력입니다.
+**0.9.61 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](23-Controls-Recovery.md). 아래의 버전별 링크는 변경 이력입니다.
 
 [0.9.43 수신 전화 팝업과 자동 밝기](21-Calls-Backlight.md)
 
@@ -18,7 +18,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK / Product 0.9.60 기준 · 2026-10-07**
+[English guide](README.en.md) · **APK / Product 0.9.61 기준 · 2026-10-07**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 

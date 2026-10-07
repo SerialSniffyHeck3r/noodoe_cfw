@@ -4,7 +4,7 @@
 
 [목차](README.md) · [English](README.en.md)
 
-**현재 조합: APK / Product 0.9.60.** APK와 대응 ZIP을 함께 갱신하세요. 충전 상태 표시는 양쪽이 필요합니다. 0.9.59 대비 Gate·Bootstrap·순정·자원·삭제·진단 이미지는 동일하며 정상적인 기존 CFW에서는 일반 Product 업데이트를 사용합니다. [English procedure](09-Update.en.md).
+**현재 조합: APK / Product 0.9.61.** APK와 대응 ZIP을 함께 갱신하세요. 충전 상태 표시는 양쪽이 필요합니다. 0.9.59 대비 Gate·Bootstrap·순정·자원·삭제·진단 이미지는 동일하며 정상적인 기존 CFW에서는 일반 Product 업데이트를 사용합니다. [English procedure](09-Update.en.md).
 
 1. 최신 APK를 먼저 설치합니다. 기존 앱 데이터와 설치 로그를 유지합니다.
 2. 올바른 기기를 선택하고 연결합니다. 실행 중인 CFW가 새 ZIP과 버전이 다르다는 이유만으로 최신 업데이트 경로가 막혀서는 안 됩니다.

@@ -1,10 +1,10 @@
-# Update an existing CFW · 0.9.60
+# Update an existing CFW · 0.9.61
 
 [Installation index](README.en.md) · [한국어](09-Update.md)
 
 1. Install the current APK over the old app, retaining its data, logs and backups.
 2. Select the correct device and stop riding sync.
-3. Choose the matching0.9.60 ZIP and start the ordinary Product update.
+3. Choose the matching0.9.61 ZIP and start the ordinary Product update.
 4. Let transfer, full verification, approval and restart complete. The ordinary payload is384KiB when Gate/resources already match.
 5. Confirm only after seeing the actual new CFW screen. Wait for exact-candidate reconnection, at least5seconds of healthy operation and permanent confirmation. The current candidate deadline is up to5minutes; older firmware may report another deadline.
 
