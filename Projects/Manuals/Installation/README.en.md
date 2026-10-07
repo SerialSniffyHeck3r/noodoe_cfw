@@ -1,19 +1,16 @@
-# Installation, updates and recovery · 0.9.61
+# Installation, recovery and compatibility · 0.9.61
 
-[Manual index](../README.en.md) · [한국어](README.md) · [latest APK/ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[Manual index](../README.en.md) · [한국어](README.md)
 
-1. [First installation from stock](08-First-Install.en.md)
-2. [Update an existing CFW](09-Update.en.md)
-3. [Stock return, Gate and display recovery](10-Recovery.en.md)
-4. [Paused, unknown results, pairing and diagnostics](11-Troubleshooting.en.md)
-5. [Detailed connection recovery](12-Connection-Recovery.en.md)
+Use the matching **0.9.61 APK and ZIP**. This is **manual revision 2, 7 October 2026**; the app and firmware binaries have not changed. Start with compatibility, then choose first installation or CFW update according to the role actually running.
 
-**Use both APK and ZIP0.9.61.** First installation accepts F4/HW0, stock5.16 and bootloader0.10–0.19, without model or PCBA restrictions. Ordinary Product updates retain settings/photos/trips. Gate, Bootstrap, stock, resources, Uninstall and Diagnostic are unchanged from0.9.59.
+Admitted family: **F4 / HW 0, bootloader 0.10–0.19, stock 5.16**. Model strings (including SAA1AA) and PCBA strings are not whitelisted. AK550 and bench experience do not certify every vehicle or PCB revision. See the compatibility table for evidence and limits.
 
-Transfer100%, image verification, local approval, reset and candidate confirmation are separate stages. NOODOE INSTALLER is not completion. Current candidate confirmation allows up to5minutes and requires at least5seconds of healthy operation; follow the deadline reported by older firmware.
+1. [Compatible models, hardware and versions](07-Compatibility.en.md)
+2. [First installation from stock](08-First-Install.en.md)
+3. [Update an existing CFW](09-Update.en.md)
+4. [Paused installation, stock return and display recovery](10-Recovery.en.md)
+5. [Troubleshooting and diagnostics](11-Troubleshooting.en.md)
+6. [Connection and pairing recovery](12-Connection-Recovery.en.md)
 
-The user confirmed stock-to-CFW installation without the former6/4 symptom and working warning dimming in0.9.59. This does not validate every migration or physical storage failure. Query the same device/package's last operation when its result is unknown.
-
-[0.9.61 changes and validation](27-Status-Icons-Manuals.md)
-
-[0.9.61 controls and recovery](28-Controls-Recovery.md)
+The current guides above take precedence over versioned historical notes and older screenshots. [0.9.61 controls](../User/23-Controls-Recovery.en.md) · [Release and matching downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.61-controls-recovery)

@@ -48,3 +48,5 @@ These are selected notes, not the entire pile. I'll keep updating them as I go.
 Source code is maintained in a separate private repository. This public repository contains research notes, manuals, screenshots and downloadable releases.
 
 [Display wiring revisions from stock assembly](Projects/documentations/hardware-revisions-0.9.29.en.md)
+
+**Installation manual 0.9.61, revision 2:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). F4/HW 0, BL 0.10–0.19 and stock 5.16 are admitted without model/PCBA whitelists; vehicle validation is listed separately.

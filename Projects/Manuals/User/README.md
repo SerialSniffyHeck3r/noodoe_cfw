@@ -1,5 +1,7 @@
 # 사용 설명서
 
+[0.9.61 설명서 2판: 설치·복구](../Installation/README.md) · [호환 모델](../Installation/07-Compatibility.md)
+
 **0.9.61 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](23-Controls-Recovery.md). 아래의 버전별 링크는 변경 이력입니다.
 
 [0.9.43 수신 전화 팝업과 자동 밝기](21-Calls-Backlight.md)

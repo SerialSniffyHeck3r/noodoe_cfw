@@ -1,21 +1,33 @@
-# Update an existing CFW · 0.9.61
+# Update an existing CFW
+
+**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](09-Update.md)
 
-1. Install the current APK over the old app, retaining its data, logs and backups.
-2. Select the correct device and stop riding sync.
-3. Choose the matching0.9.61 ZIP and start the ordinary Product update.
-4. Let transfer, full verification, approval and restart complete. The ordinary payload is384KiB when Gate/resources already match.
-5. Confirm only after seeing the actual new CFW screen. Wait for exact-candidate reconnection, at least5seconds of healthy operation and permanent confirmation. The current candidate deadline is up to5minutes; older firmware may report another deadline.
+## Ordinary update
 
-Both APK and Product are needed for the new charging indication. Gate, Bootstrap, stock, resources, Uninstall and Diagnostic are unchanged from0.9.59; a working compatible Gate does not need reinstalling for this update.
+1. **Install APK 0.9.61 over the existing app**, retaining app data, logs and backups.
+2. Select the correct Noodoe and **stop riding integration**.
+3. Select the matching **0.9.61 ZIP** and start an ordinary CFW/Product update. The stock 5.16 requirement does not apply to the older CFW currently running.
+4. Follow transfer, verification, local approval and restart instructions. When Gate and resources already match, the ordinary payload is the 384KiB Product APP.
+5. Confirm the actual new `CFW UPDATE` screen in the app. Reconnect to the same device/candidate and wait for at least 5 seconds of healthy execution and permanent confirmation. The current candidate's maximum window is 5 minutes; follow the device-reported deadline for older firmware.
 
-Settings, rider name, photo slots, trips and maintenance baselines survive ordinary updates and rollback. Explicit reset/fresh start/full removal are separate actions. A transfer reaching100% is not proof of boot confirmation.
+| Connection | Transfer and verification | Approval |
+|---|---|---|
+| ![Connection](../images/update-1.png) | ![Transfer](../images/update-2.png) | ![Approval](../images/update-3.png) |
+| Restart | New screen confirmation | Complete |
+| ![Restart](../images/update-4.png) | ![Confirm](../images/update-5.png) | ![Complete](../images/update-6.png) |
 
-## If interrupted
+Update APK and ZIP as a pair. Gate, Bootstrap, stock recovery, resources, Uninstall and Diagnostic in 0.9.61 are unchanged from 0.9.60. A compatible Gate does not need reinstalling. If the app requires migration, follow **keep-data stock return → Bootstrap from the new ZIP → Gate+CFW → confirmed normal startup**.
 
-Reconnect to the same device with the same ZIP and query the last operation. The app may reuse a complete staged image after integrity checks. A lost COMMIT/RESET reply requires reconciliation, not repeated writes. Do not delete app data or select another package to hide an unresolved operation.
+## Resume after interruption
 
-Version0.9.59 fixed local approval incorrectly requiring a phone RESET acknowledgment and reduced repeated key writes. When upgrading from0.9.58 or earlier, the old firmware still performs the first handoff. Real storage/key-persistence failures continue to stop the operation. The user's successful stock-to-CFW result does not establish every CFW-to-CFW migration path.
+Use the same device and ZIP and follow **Identify device → Inspect last operation → Continue**. A complete staged image may be reused after integrity checks. A lost COMMIT/RESET reply does not justify repeating the request or bypassing unresolved records by changing ZIPs or clearing app data.
 
-A failed candidate attempts its known-good fallback. If no usable fallback exists, Gate recovery remains. See [recovery](10-Recovery.en.md) and [troubleshooting](11-Troubleshooting.en.md).
+If 0.9.61 displays the manual-reset instruction, follow [recovery](10-Recovery.en.md). **The previously installed firmware performs the first restart, so older wording such as `Paused. See phone help.` may still appear during that handoff.** The new wording is not a fix for every underlying installation failure.
+
+## Rollback and retained data
+
+Ordinary updates and failed-candidate rollback retain settings, rider name, photos, trips and maintenance baselines. Explicit fresh start, reset and full removal are separate actions. A normal update does not repeatedly back up the entire NOR or recreate every file.
+
+A candidate that fails execution or confirmation attempts a known-good rollback. If none exists or rollback fails, use Gate recovery. **100% transfer is different from permanent candidate confirmation.** See [troubleshooting](11-Troubleshooting.en.md).

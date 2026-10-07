@@ -1,19 +1,16 @@
-# 설치·업데이트·복구 · 0.9.61
+# 설치·복구·호환 모델 · 0.9.61
 
-[설명서 첫 화면](../README.md) · [English](README.en.md) · [최신 APK/ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[설명서 첫 화면](../README.md) · [English](README.en.md)
 
-1. [순정에서 최초 설치](08-First-Install.md)
-2. [기존 CFW 업데이트](09-Update.md)
-3. [순정 복귀·Gate·표시부 복구](10-Recovery.md)
-4. [Paused·결과 미확인·페어링·로그](11-Troubleshooting.md)
-5. [연결 복구 상세](12-Connection-Recovery.md)
+**0.9.61 APK와 ZIP을 한 쌍으로 사용하세요.** 이번 문서는 **2026-10-07 설명서 2판**이며 앱·펌웨어 바이너리는 바뀌지 않았습니다. 호환 조건을 먼저 확인한 뒤 실제 실행 중인 역할에 맞춰 최초 설치 또는 CFW 업데이트를 선택합니다.
 
-**APK와 ZIP 모두 0.9.61을 사용하세요.** 최초 설치는 F4/HW0, 순정5.16, 부트로더0.10~0.19를 허용하며 모델명·PCBA로 제한하지 않습니다. 일반 Product 업데이트는 설정·사진·트립을 유지합니다. 0.9.59 대비 Gate·Bootstrap·순정·자원·제거·진단 이미지는 같습니다.
+설치 허용 범위는 **F4 / HW 0·부트로더 0.10~0.19·순정 5.16**입니다. SAA1AA 등 모델명·PCBA는 제한하지 않습니다. AK550와 벤치에서의 사용 결과를 모든 차종·PCB 리비전 검증으로 확대하지 않습니다. 호환 표에 확인 수준을 구분했습니다.
 
-전송 100%, 파일 검증, 본체 승인, 재시작, 새 후보 확인은 서로 다른 단계입니다. NOODOE INSTALLER에서는 완료로 판단하지 마세요. 현재 후보 확인 기한은 최대5분이며 정상 실행 최소5초가 필요합니다. 구버전은 기기가 알려주는 기한을 따릅니다.
+1. [호환 모델·하드웨어·버전 조건](07-Compatibility.md)
+2. [순정에서 최초 설치](08-First-Install.md)
+3. [기존 CFW 업데이트](09-Update.md)
+4. [설치 정지·순정 복귀·표시부 복구](10-Recovery.md)
+5. [문제 해결과 진단 자료](11-Troubleshooting.md)
+6. [연결·페어링 복구](12-Connection-Recovery.md)
 
-사용자는 0.9.59에서 순정→CFW가 6/4 없이 완료되고 경고 음영도 정상이라고 확인했습니다. 구버전에서 넘어오는 첫 재시작이나 실제 저장 실패까지 모든 경우가 검증된 것은 아닙니다. 결과가 미확인이라면 같은 기기·ZIP의 마지막 작업부터 조회하세요.
-
-[0.9.61 변경점 및 검증](27-Status-Icons-Manuals.md)
-
-[0.9.61 controls and recovery](28-Controls-Recovery.md)
+과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.61 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.61-controls-recovery)

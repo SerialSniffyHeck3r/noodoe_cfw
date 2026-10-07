@@ -1,3 +1,5 @@
+> 역사적 시험 기록 / Historical test record. 아래의 위·아래 동시 누름 조합은 차량 로커에서 사용할 수 없습니다. 현재 조작은 [한국어 복구 절차](../Installation/10-Recovery.md) / [current English recovery guide](../Installation/10-Recovery.en.md)를 따르세요.
+
 # 0.9.35 — Bluetooth 역할 전환과 페어링 복구
 
 ## 무엇을 바꿨나

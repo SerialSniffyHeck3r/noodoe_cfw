@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.61 manual revision 2: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
+
 **Current 0.9.61 display guide:** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
 
 [0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)

@@ -44,3 +44,5 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
 [순정 어셈블리로 확인한 표시부 리비전](Projects/documentations/hardware-revisions-0.9.29.ko.md)
+
+**0.9.61 설명서 2판:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). F4/HW 0·BL 0.10~0.19·순정 5.16을 허용하며 모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.

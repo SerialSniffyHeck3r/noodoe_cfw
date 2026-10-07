@@ -1,3 +1,5 @@
+> 역사적 시험 기록 / Historical test record. 아래의 위·아래 동시 누름 조합은 차량 로커에서 사용할 수 없습니다. 현재 조작은 [한국어 복구 절차](../Installation/10-Recovery.md) / [current English recovery guide](../Installation/10-Recovery.en.md)를 따르세요.
+
 # 0.9.34 — 설치 연결 수명·페어링 복구·물리 재시작
 
 ## 현장 로그와 확인된 범위
@@ -138,4 +140,3 @@ APK/ZIP/시뮬레이션만 갱신한다. LGPL 라이브러리 교체 객체 묶�
 ![restart-paused — EVE software simulation](restart-paused-0.9.34-simulation.png)
 
 ![phone-wait-500 — EVE software simulation](phone-wait-500-0.9.34-simulation.png)
-

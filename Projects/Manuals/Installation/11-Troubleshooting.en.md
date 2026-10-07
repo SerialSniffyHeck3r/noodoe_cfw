@@ -1,36 +1,44 @@
-# Installation and everyday troubleshooting · 0.9.60
+# Troubleshooting and diagnostics
 
-[0.9.61 manual reset and ODO controls](../User/23-Controls-Recovery.en.md)
+**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](11-Troubleshooting.md)
 
-Record the APK and installed CFW versions, actual device screen, stage, code/phase, last file/sector/offset, ignition state and buttons used. Export the app diagnostic ZIP before clearing anything. Total stage progress, bytes sent, device verification and boot confirmation describe different work.
+## When installation appears to stop
 
-| Symptom | Meaning and next action |
+Read the app's overall stage, current-operation bytes, last reply and file/sector/offset together with the device screen. Transfer, hashing, NOR erase, stock writing and candidate boot are separate operations. A percentage alone cannot establish remaining time or a bricked device.
+
+| Message or symptom | Meaning and next action |
 |---|---|
-| Compatibility stopped before transfer | Use matching current APK/ZIP and check F4/HW0, stock5.16, BL0.10–0.19. Model and PCBA are not restricted. This check has not sent firmware |
-| The current operation cannot continue / Installation success or cancellation not confirmed | The last change has no confirmed outcome. Select the same device/ZIP and query that operation before retrying |
-| Stage6/8, Code6/Phase4, Paused or See Phone Help | The code alone proves neither a brick nor success. Preserve it, use the app status/recovery flow and export diagnostics. Actual persistence/reset preconditions may still be failing |
-|100% transfer or NOODOE INSTALLER | Transfer completion and the stock writer are not candidate-boot completion. Wait for the actual CFW screen before approving it |
-| Bootstrap cannot connect | Confirm the role/address and approve Android pairing. If Bootstrap is already running, connect/identify it instead of retransmitting from stock |
-| Gate has no Bluetooth | Expected. Follow its local button menu |
-| Checking the new version / CFW UPDATE | Confirm the actual candidate screen in the app, reconnect and complete at least5seconds of health checks within the device-reported deadline (current maximum5minutes) |
-| Stock screen but app waits for CFW | Use the app stock-return confirmation to read real stock identity and reconcile the journal |
-|00050006 or a file-validation error | Preserve file number, phase and offset. This is not a blanket instruction to format NOR; photo container and allocation checks have distinct causes |
-| Update was not confirmed | Boot confirmation failed. Check rollback/Gate state; it is different from an interrupted file transfer |
-| Buttons do not operate normal pages | Check the dashboard/Noodoe selector and blue dashboard badge, release held keys and consider stationary/permission restrictions |
-| GPS waiting or no map | Check precise location permission, service status, fresh fixes, imported region and map enablement on both sides. Cold or missing tiles still need loading |
-| Album art appears late | Check notification access, the active player MediaSession and phone background restrictions. Current-track artwork is retained; new/missing/evicted content needs preparation or upload |
-| Storage error while UI still works | Read Settings/Ride records status and last successful save. Request Retry failed saves once and inspect the result; a live display is not proof of a durable write |
+| Compatibility stopped before transfer | Check HW 0, BL 0.10–0.19, stock 5.16 and matching APK/ZIP against the [support scope](07-Compatibility.en.md). Model/PCBA are not restricted. Stopping at this check has not transferred Bootstrap |
+| `The current operation cannot continue` / `Installation success or cancellation not confirmed` | A previous change has no confirmed outcome. Inspect the last operation on the same device and ZIP first |
+| Stage 6/8 · Code 6 / Phase 4 · `Paused` / `See Phone Help` | The code alone proves neither success nor a brick. Preserve screen/logs and follow [paused-installation recovery](10-Recovery.en.md). The 0.9.61 error screen gives the UP+O 3-second instruction |
+| 100% transfer or `NOODOE INSTALLER` | File-transfer/stock-writing stage. Do not approve completion before the actual new CFW screen |
+| `CFW UPDATE` / `Checking the new version` | Confirm the actual screen, reconnect to the same candidate, complete at least 5 seconds of healthy execution and permanent confirmation. Current maximum 5 minutes; older firmware reports its own deadline |
+| `Update wasn't confirmed` | Candidate confirmation failed. Inspect rollback or Gate state |
+| Stock screen but the app still waits for CFW | Use `Stock restored on device · verify` to read and reconcile actual stock identity |
+| No Bluetooth in Gate | Expected role difference: Gate has no Bluetooth. Use the local menu |
+| Bootstrap is already running but the phone cannot connect | Do not resend through stock; check role/address and approve Android pairing. See [connection recovery](12-Connection-Recovery.en.md) |
+| `00050006` or a file-verification error | Preserve file number, phase and offset. File 3 / phase 9.2 concerns photo-container checks. Do not format NOR based on the code alone |
 
-## The update handoff fixed in0.9.59
+The user reported successful stock-to-CFW installation and fuel-warning dimming in 0.9.59. This is not proof that every CFW-to-CFW migration or Code 6 / Phase 4 has the same cause. An update starting on an older version follows that version's behavior through the first restart.
 
-The user reported a successful stock-to-CFW installation without the previous6/4 symptom and working fuel-warning dimming. The fix separates local approval from a remote RESET acknowledgment and avoids dirtying unchanged Bluetooth keys. An upgrade starting on0.9.58 or earlier still executes old code for its first handoff. Genuine key/NOR write failures are not bypassed. Available diagnostic logs did not prove that every reported Code6/Phase4 had the same cause.
+## Everyday operation
 
-## Keep evidence while recovering
+| Symptom | Check |
+|---|---|
+| Normal page buttons do nothing | Dashboard/Noodoe selector, blue dashboard indication, held keys and stationary restrictions |
+| Cannot apply an ODO value | Use Settings → Vehicle → ODO check; require IGN ON and 5 seconds of valid stationary speed. Back/long O exits. ODO* is a saved-distance adjustment, not a change to the vehicle's original reading |
+| Only LCD output is wrong | Display reinitialization in quick settings. See how it [differs from MCU restart](10-Recovery.en.md) |
+| GPS Waiting / no map | Precise-location permission, service, IGN, fresh fixes, imported region and map enablement on both sides |
+| Music/artwork delay | Notification access, player MediaSession and background restrictions. Distinguish current-track cache reuse from new/missing content transfer |
+| Phone Permission Denied | Contacts, call history, outgoing calls and companion call control require separate permissions |
+| Storage error while the display works | Inspect storage status and last successful save. Request Retry failed saves and inspect its result. A live display does not prove a durable write |
 
-The app's connection-state reset clears sockets and temporary selections; it does not send an automatic device ABORT/RESET or declare an unknown operation cancelled. Logs, journals, backups and downloaded ZIPs remain. Do not clear app data, format NOR, swap packages or overwrite device identity to bypass uncertainty.
+## Preserve records while recovering
 
-IGN OFF is not permanent-power removal. Current Product's UP+O3seconds restarts the MCU; quick settings (O+DOWN), then UP0.8seconds only recovers the display. Use [Gate/stock recovery](10-Recovery.en.md) when indicated by the device state. Do not repeatedly send destructive requests after a lost response.
+Resetting app connection state clears sockets and temporary selections. It does not automatically send device ABORT/RESET or confirm cancellation of an unresolved operation. Do not bypass records by clearing app data, formatting NOR, changing ZIPs or substituting device identity. Choose [recovery](10-Recovery.en.md) from the actual screen.
 
-Share the diagnostic ZIP with the issue details. Normal event logs omit message bodies, track titles, precise coordinates and pairing secrets, but device identifiers and recovery evidence still deserve care. Internal originals remain in the app. Unknown radio/device failure cannot be diagnosed solely from a progress percentage.
+Export the diagnostic ZIP using **Share diagnostics** and include: **vehicle model; module HW/PCBA/bootloader/stock version when available; old/new APK and CFW versions; device wording, Stage and Code/phase; IGN state and buttons used; last file/sector/offset**. Avoid publishing sensitive device identifiers in an open issue.
+
+Normal event logs omit notification bodies, track names, precise coordinates and pairing secrets, but recovery evidence can contain device information. Internal originals are retained. The phone also needs space for mandatory journals. Use the normal APK's export feature; development-APK `run-as` instructions are a separate workflow.

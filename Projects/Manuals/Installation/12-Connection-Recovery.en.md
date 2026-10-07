@@ -1,117 +1,42 @@
-# Installation connection recovery — Companion 0.9.38 / CFW 0.9.35
+# Connection and pairing recovery
 
-## Companion 0.9.38: force recovery and reinstall · keep data
+**APK / Product 0.9.61 · Manual revision 2 · 2026-10-07**
 
-Install APK 0.9.38 over the existing app and retain its data. The CFW 0.9.35 ZIP is unchanged.
+[Installation index](README.en.md) · [한국어](12-Connection-Recovery.md)
 
-Stop riding integration, select the installation ZIP, then choose **Force recovery and reinstall · keep data** above the recovery wizard, or in Help. The app uses the existing independent stock-recovery commands without sending UPDATE STATUS. It verifies the device, boot state, idle writers and physical stock recovery image first. A pending rollback notice is acknowledged separately with its evidence preserved.
+## Identify the running role first
 
-Once the device shows stock firmware, select **Stock return check**, then install Bootstrap and choose **Keep stored data**. Settings, photos, maintenance records and installer evidence remain. A disconnected link is not proof that stock boot succeeded; the fresh stock response is required.
+Use APK and ZIP 0.9.61 and retain app records. Stop riding integration and identify the current role. Stock, Bootstrap and Product are different stages; **Gate has no Bluetooth**. If Bootstrap already runs, do not repeat the stock transfer.
 
-Active writes, trial boot, failed physical recovery checks or a changed device stop this route. It never forces new firmware through an unresponsive updater. If independent recovery cannot finish, use the on-device recovery gesture shown in the app. Keep diagnostics instead of repeating file transfers.
+## Lost responses or unresolved earlier results
 
-Software and ARM policy tests are distinguished from actual wireless/device testing. The reported device has not been physically tested. No MCU, font or Bluetooth-speed change is included.
+1. Select the same device and installation ZIP and inspect the current device/last operation.
+2. If a known-good CFW was restored, choose **Acknowledge rollback · unblock recovery** and wait for the device to save acknowledgement. Do not delete the record.
+3. Choose ordinary update or stock return again. If status queries keep failing, preserve diagnostics.
+4. The app's **Force recovery and reinstall · keep data** uses independent stock recovery. It checks device identity, boot state, active writers and the stock recovery image; it does not overwrite an active write.
+5. After the actual stock screen appears, use **Stock restored on device · verify → install Bootstrap → Keep stored data**. Disconnection alone does not confirm stock return.
 
-## Earlier app changes
+If active writes, trial boot or a recovery-image error block this route too, preserve the reported cause and logs. [Physical Gate entry](10-Recovery.en.md) is a separate path when the phone cannot connect.
 
-The sections below describe earlier versions. For persistent STATUS rejection, use the0.9.38 recovery route above.
+## Pairing approved, but Couldn't Pair keeps returning
 
-## Companion 0.9.37: recovery without reopening the connection
+1. Open **Connection recovery → Completely reset this Noodoe connection**. Grant Bluetooth/Nearby devices permissions when requested.
+2. When the guide asks, forget **only this Noodoe** in Android Bluetooth settings. Keep app data and installation records.
+3. Use **UP** on the device's installation/trial connection-recovery prompt to open re-pairing. During ordinary CFW operation, use **Settings → Connections → Re-pair phone**. Check Noodoe button-selector mode and stationary requirements for ordinary menu access.
+4. Select your phone on the device, then **release O and hold it freshly for 2 seconds** to approve. `ALL` removes every phone key; choose it only when that is intended.
+5. At `Ready to pair on your phone`, mark the device ready in the app, choose **Pair and verify connection**, and approve Android's prompt.
+6. Continue the same operation after the app verifies secure connection, device identity and saved key. Existing files are reused only after verification.
 
-Install the **0.9.37 APK over the current app**; keep app data and existing bonds.
-The matching ZIP is the **unchanged CFW 0.9.35 package**.
+Stock firmware uses its own pairing controls. Gate cannot re-pair. The dedicated recovery screen can operate in dashboard-button mode; distinguish that from entering ordinary settings.
 
-Stop driving integration if active, then select **CFW update**. The app checks
-provable earlier boot outcomes in the same connection before the update guard.
-Use **Acknowledge rollback** if the device still has an unacknowledged result.
-Connection recovery also keeps the identified socket through result inspection.
+## Bluetooth startup-error choices
 
-If STATUS remains BUSY or stops responding, inspection ends after bounded queries.
-Export diagnostic records; the BUSY snapshot and independent device state are
-retained. No ambiguous write, COMMIT or RESET is blindly repeated.
+| Choice | Meaning |
+|---|---|
+| RETRY | Restart Bluetooth at the current speed; retain keys |
+| TRY STANDARD SPEED | Retry Product at 921,600baud |
+| RESET PAIRING | Choose/reset stored phone keys |
+| FIRMWARE RECOVERY | Open independent Gate recovery |
+| DETAILS | Inspect initialization, baud, error and key-persistence status |
 
-This fixes app-side inspection/reconnect loops. The cause of persistent device-side
-BUSY and physical recovery success remain unconfirmed. Device identification alone
-does not establish update readiness. Settings, photos and evidence are retained.
-
-## Update and stock recovery blocked after a rollback
-
-0.9.36 is an **APK-only hotfix**. The supplied **CFW 0.9.35 ZIP is byte-for-byte unchanged**.
-You do not need to install new firmware first to unlock the current attempt.
-
-1. Install the **0.9.36 APK over the existing app**. Keep app data and installation records.
-2. Keep the latest ZIP selected. Choose **Identify device → Current CFW / installation result**.
-3. If the previous CFW was restored, choose **Acknowledge rollback · unblock recovery** and
-   wait for the device to store the acknowledgement. A reboot-dismissed warning can still be queried.
-4. Choose **CFW update** or **Back to stock → Keep CFW data**. Follow the keep-data stock
-   route if the app explains that the recovery Gate needs migration.
-5. After the stock screen appears, choose **Stock restored on device · verify**. This also
-   reconciles prior ZIP boot waits against the fresh stock response.
-
-The previous ZIP is not needed for these result checks. Failure records, photos, settings and
-service data are retained. Active operations, mismatched devices/transactions and uncertain
-file writes remain protected. The app acknowledgement also works independently of the old
-firmware warning's O-button handler. If no phone connection is possible, use the existing
-independent gesture: **key OFF → hold O for about 1 second → key ON while holding O →
-hold 2 more seconds**, then follow the device recovery screen.
-
-**Use Companion 0.9.36 with the CFW 0.9.35 ZIP.** Settings, photos and maintenance records
-are retained. If the app requests recovery-layer migration, follow keep-data
-stock return → this ZIP’s Bootstrap → Gate and CFW → confirm normal startup.
-A device already using the new Gate takes the ordinary Product update path.
-
-## Pair approved, but Couldn't Pair keeps returning
-
-1. Open **Connection recovery → Completely reset this Noodoe connection**.
-2. In Android Bluetooth settings, **forget only this Noodoe**, then return.
-   Keep the app, its data and installation records.
-3. Press **UP** on the device’s installation/trial connection screen. During
-   normal Product operation with IGN ON, release all keys, then hold
-   **UP+DOWN+O together for three seconds**. Settings → Connections → Re-pair
-   phone opens the same recovery screen.
-4. Choose your phone or **ALL** on Noodoe. ALL removes every stored phone key.
-   Release O, then hold it for a fresh **two seconds** to approve. Keep power on.
-5. Wait for **Ready to pair on your phone**, mark the device ready in the app,
-   and choose **Pair and verify connection**. Approve Android’s request once.
-6. The app verifies secure SPP, device identity and the newly saved key before
-   resuming the same installation. Completed files are checked before reuse.
-
-This recovery also works with PH9 in Dash Mode. If Gate shows ACTION REQUIRED,
-choose RETRY to start Product first. Stock firmware uses its original pairing
-controls; CFW key reset becomes available after Bootstrap starts. The guide
-survives Android settings visits and app relaunch. Allow Nearby devices in the
-app’s Android permissions when requested, and enable Bluetooth.
-
-## RETRY and speed choices
-
-- **RETRY:** restart Bluetooth at the current speed; retain keys.
-- **TRY STANDARD SPEED:** retry Product at 921,600baud.
-- **RESET PAIRING:** open the explicit peer/all-key reset workflow.
-- **FIRMWARE RECOVERY:** enter independent Gate for retry, previous CFW or stock.
-- **DETAILS:** inspect initialization, baud, first error and key persistence.
-
-Bootstrap uses standard speed only. Product’s high-speed HCI check and the
-phone’s authenticated connection are separate; UART baud is not RF throughput.
-
-## Countdown and startup screens
-
-New Product trial boot has **five minutes**; healthy-run confirmation takes
-**five seconds**. The device owns the deadline. Reconnecting or resetting
-pairing does not restart it. At 0:00, read the actual confirmation/failure result.
-New Gate keeps the failure and waits for a choice. Explicit Gate RETRY verifies
-the image and starts a new trial.
-
-DEVICE STARTUP means startup checks, INSTALLING FIRMWARE means image writing,
-RESTARTING DEVICE means reset handoff, and RESTORING PREVIOUS/STOCK FIRMWARE
-means restoration. Independent Gate also checks ordinary reboots. Progress bars
-use real work; connection waits do not invent installation percentages.
-
-## If the menu stops responding
-
-CFW 0.9.34 or later, IGN ON: release every key, hold **UP+DOWN for ten seconds**,
-then release all keys to force an MCU restart. Unsaved state may be lost. This
-differs from **UP+O for three seconds**, which restarts only the display. The CPU
-and I/O task must still be running. On supported installation/trial screens,
-a fresh **DOWN hold for three seconds** requests keep-data stock recovery.
-
-[Validation and change evidence](../Validation/bt-retry-0.9.35.md) (Korean).
+Bootstrap uses standard speed. Product's MCU-to-Bluetooth-chip UART speed is different from actual wireless throughput. Re-pairing, display reinitialization, MCU restart and stock return are also distinct actions. For the installation error screen's UP+O 3-second instruction, follow [recovery](10-Recovery.en.md).
