@@ -1,8 +1,8 @@
 # Using FuckNudo
 
-[0.9.62 manual revision 2: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
+[0.9.63 manual revision 1: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
 
-**Current 0.9.62 display guide:** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
+**Base display guide (see the 0.9.63 update below for revised GPS behavior):** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
 
 [0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)
 
@@ -20,7 +20,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.62 — 7 October 2026.**
+**Companion / Product 0.9.63 — 8 October 2026.**
 
 ## Connect and ride
 
@@ -88,3 +88,5 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 [0.9.22 display transitions, maps and shading](16-Display-Transitions.en.md)
 
 [0.9.62 · Dashboard blink alerts](24-Dashboard-Alerts.en.md)
+
+[0.9.63 · Indicators and reconnection](25-Connection-Indicators.en.md)

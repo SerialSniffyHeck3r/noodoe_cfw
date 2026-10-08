@@ -1,0 +1,27 @@
+# 0.9.63 · Notification indicators and automatic reconnection
+
+The top phone icon alternates red/inactive every 250ms for four flashes over two seconds. Notifications arriving during that interval are still stored and displayed, but neither extend the timer nor queue another flash sequence. The green music-playing indication is unchanged.
+
+GPS stays gray without a valid fresh position. Fresh fixes retain the existing 120ms gray pulse.
+
+Automatic riding keeps waiting when the vehicle is absent; retry delay is now capped at ten seconds. Connecting and identifying the device take additional time. A bounded 35-second CPU wake lease covers connection/initialization with the screen off and is released during retry waits. Socket timeouts and temporary UI startup backpressure can reconnect. Permission rejection, manual stop and unresolved updates remain respected. A location listener that previously worked and then stops delivering for 90 seconds is registered again, without relabeling old coordinates as fresh.
+
+For background return, check companion-device association, Nearby devices permission and location Allow all the time. Closing the app screen is not manual disconnect. Android force-stop and manufacturer background restrictions cannot be overridden by this feature.
+
+First-install admission with the matching 0.9.63 APK and ZIP accepts **stock 5.14 or 5.16**, without HW, bootloader-version, model or PCBA whitelists. Successful protocol replies, stationary IGN, original capture, exact device/image and storage checks remain. **Stock recovery uses the bundled 5.16 image even when installing from 5.14.** Older ZIPs retain their older policy; import/select the new ZIP too.
+
+The developer reports stable physical operation of 0.9.62, with a manual reset still needed at Stage 6/4. That reset issue is not claimed fixed. When instructed, hold UP+O together for three seconds and wait for the app to reconcile the result. Software checks of 0.9.63 do not establish wireless installation or background-return behavior on every vehicle.
+
+# 0.9.63 · 알림 표시와 자동 재연결
+
+상단 휴대폰 아이콘은 새 알림 도착 시 빨강/비강조 색을 250ms마다 바꾸어 2초 동안 4회 점멸합니다. 점멸 도중 도착한 알림도 정상 저장·표시하지만, 점멸 시간을 연장하거나 다음 점멸을 예약하지 않습니다. 음악 재생 중 초록색 표시는 유지합니다.
+
+GPS는 유효한 최신 위치가 없으면 회색입니다. 수신 중에는 기존처럼 120ms 회색 펄스를 표시합니다.
+
+차량이 멀어져도 자동 연결 대기를 유지하며 실패 후 대기 간격은 최대 10초입니다. 실제 연결·기기 확인에는 추가 시간이 걸립니다. 화면이 꺼진 상태에서도 연결/초기화 동안 최대 35초의 CPU 깨움 시간을 확보하고 대기 중에는 해제합니다. 일시적인 소켓 시간 초과와 초기 UI 준비 지연은 재연결하며, 권한 거부·명시적 중지·업데이트 대기는 존중합니다. 위치를 받다가 90초 이상 멈춘 경우 구독을 다시 등록하며 오래된 좌표를 새 위치로 취급하지 않습니다.
+
+자동 복귀를 위해 동반 기기 등록, 근처 기기 권한과 위치 ‘항상 허용’을 확인하세요. 앱 화면을 닫는 것은 수동 연결 중지가 아닙니다. Android 강제 종료나 제조사 백그라운드 차단까지 무시할 수는 없습니다.
+
+0.9.63 APK와 ZIP의 최초 설치 조건은 **순정 5.14 또는 5.16**입니다. HW·부트로더 버전·모델·PCBA 화이트리스트는 없습니다. 응답 정상 여부, 정차·IGN, 원본 백업, 동일 기기/이미지/저장소 검사는 유지합니다. **5.14에서 설치해도 순정 복귀는 동봉된 5.16 이미지**입니다. 구형 ZIP은 이전 조건을 유지하므로 새 ZIP도 다시 선택해야 합니다.
+
+개발자는 0.9.62 실기에서 기능이 안정적으로 동작한다고 보고했습니다. 설치 Stage 6/4에서 수동 RESET이 여전히 필요하다는 보고도 있으며 이는 해결됐다고 보지 않습니다. 안내가 나오면 UP+O를 동시에 3초 유지하고 앱의 결과 확인을 기다리세요. 0.9.63의 다른 차량 무선 설치·자동 복귀는 소프트웨어 검사와 별도의 실기 확인이 필요합니다.
