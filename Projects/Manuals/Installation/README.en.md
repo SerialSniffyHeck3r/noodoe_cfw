@@ -1,8 +1,8 @@
-# Installation, recovery and compatibility · 0.9.64
+# Installation, recovery and compatibility · 0.9.65
 
 [Manual index](../README.en.md) · [한국어](README.md)
 
-Use the matching **0.9.64 APK and ZIP**. This is **the0.9.64 release, 9 October 2026**; the release includes a new Product and matching APK/ZIP. Start with compatibility, then choose first installation or CFW update according to the role actually running.
+Use the matching **0.9.65 APK and ZIP**. This is **the0.9.65 release, 9 October 2026**; the release includes a new Product and matching APK/ZIP. Start with compatibility, then choose first installation or CFW update according to the role actually running.
 
 Admitted family: **stock 5.14 or 5.16**. HW, bootloader version, model and PCBA are not whitelisted. AK550 and bench experience do not certify every vehicle or PCB revision. See the compatibility table for evidence and limits.
 
@@ -13,10 +13,12 @@ Admitted family: **stock 5.14 or 5.16**. HW, bootloader version, model and PCBA 
 5. [Troubleshooting and diagnostics](11-Troubleshooting.en.md)
 6. [Connection and pairing recovery](12-Connection-Recovery.en.md)
 
-The current guides above take precedence over versioned historical notes and older screenshots. [0.9.64 controls](../User/23-Controls-Recovery.en.md) · [Release and matching downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.64-dashboard-alerts)
+The current guides above take precedence over versioned historical notes and older screenshots. [0.9.65 controls](../User/23-Controls-Recovery.en.md) · [Release and matching downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.65-dashboard-alerts)
 
 [0.9.62 · Dashboard blink alerts](../User/24-Dashboard-Alerts.en.md)
 
 [0.9.63 · Indicators and reconnection](../User/25-Connection-Indicators.en.md)
 
 [0.9.64 · HOME AUTO · manual pairing · background return](../User/26-Home-Auto.en.md)
+
+[0.9.65 · Latest messages · location/music replies](../User/27-Latest-Messages.en.md)

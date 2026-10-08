@@ -1,5 +1,7 @@
 # 0.9.64 · HOME AUTO, manual Bootstrap pairing and background return
 
+> Historical 0.9.64 behavior; notification admission is superseded by [0.9.65](27-Latest-Messages.en.md).
+
 HOME automatic modes show a newly registered notification for **20 seconds**, then keep playing music visible. Without playing music, date, phone and compass information cycle. Hold O to skip the notification or cycle music/information; automatic priority resumes **20 seconds after that long press**. Notification popup settings do not suppress the HOME notification. Dismissing a popup does not dismiss its HOME content. HOME uses the Material Round bell and the same scrolling text style as HOME music.
 
 While one notification is being rendered/transferred, new notification arrivals are ignored by the companion until both the detail card and the initial HOME scrolling tiles are registered on Noodoe. They remain Android notifications. Reconnecting does not replay old tray entries as new HOME alerts. Ordinary no-music information cycles every ten seconds; the twenty-second intervals apply to new alerts and manual override.
