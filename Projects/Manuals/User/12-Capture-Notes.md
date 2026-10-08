@@ -50,4 +50,3 @@
 ## 추가 화면 자료
 
 ![boot-stock](../images/boot-stock.png)
-

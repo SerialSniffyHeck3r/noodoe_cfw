@@ -1,0 +1,27 @@
+# 0.9.64 · HOME AUTO, manual Bootstrap pairing and background return
+
+HOME automatic modes show a newly registered notification for **20 seconds**, then keep playing music visible. Without playing music, date, phone and compass information cycle. Hold O to skip the notification or cycle music/information; automatic priority resumes **20 seconds after that long press**. Notification popup settings do not suppress the HOME notification. Dismissing a popup does not dismiss its HOME content. HOME uses the Material Round bell and the same scrolling text style as HOME music.
+
+While one notification is being rendered/transferred, new notification arrivals are ignored by the companion until both the detail card and the initial HOME scrolling tiles are registered on Noodoe. They remain Android notifications. Reconnecting does not replay old tray entries as new HOME alerts. Ordinary no-music information cycles every ten seconds; the twenty-second intervals apply to new alerts and manual override.
+
+When map display is disabled or no usable map texture covers the current location, the trail uses a moving, world-anchored grid and a red line. Cached road maps and their existing zoom/prefetch behavior remain. The average and peak speed markers are hidden at or below **5 km/h**. IGN OFF makes the speed ring and markers neutral gray; IGN ON restores their normal colors.
+
+For first installation, after Bootstrap appears, **manually disconnect and forget this Noodoe in phone Bluetooth settings**. On the Bootstrap connection screen press **UP**, select this phone, release O, then hold **O for two seconds** to delete its key on Noodoe. Pair again and use the app's verification step before continuing. Do not resend Bootstrap. The app verifies that a new pairing key was durably saved. Bootstrap-to-CFW handoff and ordinary CFW-to-CFW updates do not acquire this reset step. Already accepted installations continue to result confirmation.
+
+Background return adds an Android inexact wake retry and companion-device/connection signals when the selected device has been associated. Manual disconnect, unresolved installation and pairing recovery still stop automatic riding. The wake retry is not an exact one-minute guarantee: Android Doze and manufacturer restrictions can delay it. Closing the app screen differs from Android Force stop, which requires opening the app again. Welcome light behavior on a returning vehicle still requires physical testing.
+
+Use the matching **0.9.64 APK and ZIP**. First-install admission still accepts stock **5.14 or 5.16**, without HW, bootloader-version, model or PCBA whitelists. Vehicle wiring compatibility is not inferred from that admission. Stock recovery uses the bundled 5.16 image. Stage 6/4 manual-reset behavior is not claimed fixed: follow the displayed instruction to hold UP+O together for three seconds, release, then let the app check the result. Gate and Bootstrap binaries are unchanged.
+
+# 0.9.64 · HOME 오토, Bootstrap 수동 재페어링, 백그라운드 복귀
+
+HOME 자동 모드는 **새로 등록된 알림을 20초** 표시하고, 그다음 음악이 재생 중이면 음악을 계속 표시합니다. 재생 중인 음악이 없으면 날짜·폰·나침반 정보를 순환합니다. O를 길게 누르면 알림을 건너뛰거나 음악·다른 정보를 선택하며, **길게 누른 시점부터 20초 후** 자동 우선순위로 돌아갑니다. 알림 팝업 설정과 HOME 알림은 독립적입니다. 팝업을 닫아도 HOME 내용은 남습니다. 기존 HOME 음악과 같은 스크롤 글자 스타일 및 Material Round 종 아이콘을 사용합니다.
+
+알림 한 건을 렌더링·전송하는 동안에는 상세 카드와 초기 HOME 스크롤 타일이 누도에 등록될 때까지 앱이 추가 알림 도착을 무시합니다. Android 자체의 알림은 그대로 남습니다. 재연결 때 예전 알림을 새 HOME 알림으로 다시 띄우지 않습니다. 음악이 없을 때 일반 정보 순환은 10초이며, 새 알림과 수동 선택의 복귀 시간이 20초입니다.
+
+지도 표시를 껐거나 현재 위치를 덮는 사용 가능한 지도 이미지가 없으면 이동에 맞춰 움직이는 격자와 빨간 궤적을 표시합니다. 기존 지도 캐시·확대축소·선행 로딩은 유지합니다. 평균·최고 속도 표식은 각각 **5km/h 이하에서 숨깁니다**. IGN OFF에서는 속도 링과 표식을 무채색 회색으로, IGN ON에서는 원래 색으로 표시합니다.
+
+최초 설치에서 Bootstrap이 보이면 **폰 Bluetooth 설정에서 누도 연결을 끊고 등록을 직접 삭제**합니다. Bootstrap 연결 화면에서 **UP**, 해당 폰 선택, O를 놓은 뒤 **O를 2초 유지**하여 누도 쪽 키도 삭제합니다. 다시 페어링하고 앱에서 확인한 뒤 설치를 계속합니다. Bootstrap을 다시 전송하지 않습니다. 앱은 새 페어링 키가 저장됐는지 검증합니다. Bootstrap에서 CFW로 넘어가는 단계와 일반 CFW 업데이트에는 이 삭제 단계를 추가하지 않습니다. 이미 승인된 설치는 결과 확인을 계속합니다.
+
+선택한 기기의 Android 동반 기기 등록이 있을 때 비정밀 깨우기 재시도와 기기·연결 신호를 사용해 백그라운드 복귀를 보완했습니다. 수동 연결 해제, 미확정 설치, 페어링 복구 중에는 자동 주행 연결을 시작하지 않습니다. Android 절전과 제조사 제한에 따라 재시도가 늦어질 수 있으며 정확한 1분 주기를 보장하지 않습니다. 화면을 닫는 것과 Android의 강제 종료는 다릅니다. 강제 종료 후에는 앱을 다시 열어야 합니다. 차량에 돌아왔을 때의 웰컴라이트 동작은 실기 확인이 필요합니다.
+
+**같은 0.9.64 APK와 ZIP**을 사용합니다. 최초 설치는 순정 **5.14·5.16**을 허용하며 HW·부트로더 버전·모델명·PCBA 화이트리스트는 없습니다. 이 허용 조건이 모든 차량 배선의 검증을 의미하지는 않습니다. 순정 복구 이미지는 5.16입니다. Stage 6/4 수동 RESET 문제를 해결했다고 주장하지 않습니다. 안내가 나오면 UP+O를 함께 3초 누르고 놓은 뒤 앱의 결과 확인을 기다립니다. Gate와 Bootstrap 바이너리는 바꾸지 않았습니다.

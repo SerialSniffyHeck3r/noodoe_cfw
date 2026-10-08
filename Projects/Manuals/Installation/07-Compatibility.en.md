@@ -1,6 +1,6 @@
 # Compatible models and installation requirements
 
-**APK / Product 0.9.63 · Manual revision 1 · 2026-10-08**
+**APK / Product 0.9.64 · Manual revision 1 · 2026-10-08**
 
 [Installation index](README.en.md) · [한국어](07-Compatibility.md)
 
@@ -10,7 +10,7 @@ This CFW targets **STM32F4-based Noodoe modules**. Compatibility is not determin
 
 | Vehicle or module | Support scope and evidence |
 |---|---|
-| The developer's AK550 with F4 Noodoe | A development and usage target. The user reports stable 0.9.62 operation; Stage 6/4 still requests manual RESET. This is not a 0.9.63 hardware test |
+| The developer's AK550 with F4 Noodoe | A development and usage target. The user reports stable 0.9.62 operation; Stage 6/4 still requests manual RESET. This is not a 0.9.64 hardware test |
 | The developer's bench F4 Noodoe | A separate development/test module. It does not represent every PCB revision |
 | F4 Noodoe on another KYMCO model or another vehicle | Admitted when the installation requirements below are met; the model name does not block it. Wiring, instrument-cluster data and the dashboard/Noodoe button-selector signal require separate verification |
 | Stock versions other than 5.14/5.16 | Outside this release's installation support scope |
@@ -19,7 +19,7 @@ Available evidence does not establish a physically tested list of additional mot
 
 ## Requirements for a first installation from stock
 
-| Item | Requirements for the 0.9.63 APK + ZIP |
+| Item | Requirements for the 0.9.64 APK + ZIP |
 |---|---|
 | HW field in the device response | **No whitelist** |
 | Stock bootloader version | **No version whitelist**; actual original identity is captured and retained |

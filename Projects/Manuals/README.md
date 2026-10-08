@@ -1,6 +1,6 @@
 # FuckNudo 설명서
 
-**APK / Product 0.9.63 · 2026-10-08** · [English](README.en.md)
+**APK / Product 0.9.64 · 2026-10-09** · [English](README.en.md)
 
 1. [사용 설명서](User/README.md): 버튼, 연결, 음악·전화·알림, 지도, 전원과 설정
 2. [설치·업데이트·복구](Installation/README.md): 순정 최초 설치와 기존 CFW 업데이트를 구분한 절차
@@ -8,7 +8,7 @@
 4. [상단 아이콘·배터리·GPS·연료 경고](User/23-Controls-Recovery.md)
 5. [NOR 백업·파일 탐색기](User/13-NOR-Backup.md)
 
-[0.9.63 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.63.apk) · [대응 설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.63.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[0.9.64 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.64.apk) · [대응 설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.64.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 APK와 ZIP은 같은 릴리스의 한 쌍을 사용합니다. 일반 업데이트는 설정·사진·트립·정비 기준점을 유지합니다. 최초 설치·명시적 새로 시작·완전 삭제와 구분하세요. 앱의 사용 설명서에는 연결 없이 읽는 요약이 포함되며 전체 설명서는 이 페이지로 연결됩니다.
 
@@ -16,8 +16,10 @@ APK와 ZIP은 같은 릴리스의 한 쌍을 사용합니다. 일반 업데이�
 
 ## 호환 모델과 설치 준비
 
-[호환 조건·실차 확인 범위](Installation/07-Compatibility.md)를 먼저 확인하세요. 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 다른 차량의 배선·데이터 호환까지 모두 확인된 것은 아닙니다. 설치·복구의 한국어/영어 본문은 같은 순서와 조건으로 갱신했습니다. 0.9.63에는 새 Product와 대응 APK·ZIP가 포함됩니다.
+[호환 조건·실차 확인 범위](Installation/07-Compatibility.md)를 먼저 확인하세요. 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 다른 차량의 배선·데이터 호환까지 모두 확인된 것은 아닙니다. 설치·복구의 한국어/영어 본문은 같은 순서와 조건으로 갱신했습니다. 0.9.64에는 새 Product와 대응 APK·ZIP가 포함됩니다.
 
 [0.9.62 · Dashboard blink alerts](User/24-Dashboard-Alerts.md)
 
 [0.9.63 · 알림 표시·자동 재연결](User/25-Connection-Indicators.md)
+
+[0.9.64 · HOME AUTO · 수동 재페어링 · 자동 복귀](User/26-Home-Auto.md)

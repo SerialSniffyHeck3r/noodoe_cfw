@@ -1,6 +1,6 @@
 # 설치 정지·순정 복귀·표시부 복구
 
-**APK / Product 0.9.63 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.64 · Manual revision 2 · 2026-10-07**
 
 [설치 목차](README.md) · [English](10-Recovery.en.md)
 
@@ -17,7 +17,7 @@
 
 ## 1. 설치 오류 화면의 수동 재시작
 
-0.9.63 Product의 기존 `Paused. See phone help.` 조건은 다음 안내를 표시합니다. Stage와 Code/phase도 남습니다.
+0.9.64 Product의 기존 `Paused. See phone help.` 조건은 다음 안내를 표시합니다. Stage와 Code/phase도 남습니다.
 
 ```text
 Please manually reset.

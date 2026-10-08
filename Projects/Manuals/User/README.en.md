@@ -1,8 +1,8 @@
 # Using FuckNudo
 
-[0.9.63 manual revision 1: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
+[0.9.64 manual revision 1: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
 
-**Base display guide (see the 0.9.63 update below for revised GPS behavior):** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
+**Base display guide (see the 0.9.64 update below for revised GPS behavior):** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.
 
 [0.9.43 incoming calls and automatic brightness](21-Calls-Backlight.en.md)
 
@@ -20,7 +20,7 @@
 
 [한국어 전체 설명서](README.md) · [Installation and recovery](../Installation/README.en.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-**Companion / Product 0.9.63 — 8 October 2026.**
+**Companion / Product 0.9.64 — 9 October 2026.**
 
 ## Connect and ride
 
@@ -34,7 +34,7 @@ The menu strip stays visible on non-HOME riding pages. Only HOME hides it after 
 
 O cycles **HOME → Trip → Audio → Smartphone → Map/trail**. Most pages remember their selection; Smartphone opens at its central summary. General long presses take 0.8 seconds. Installation/recovery confirmations keep their separate timing.
 
-- **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Hold O to advance information in automatic modes.
+- **HOME:** UP/DOWN cycle date, compass, phone, music, auto, dual-row, speed+auto and map+auto. Automatic modes show new notifications for 20 seconds, then hold playing music; otherwise information cycles. Hold O to select information; automatic priority resumes after 20 seconds.
 - **Audio:** UP play/pause, hold UP previous track, DOWN next track. Track titles and artists are rendered on the phone in every language. Long text scrolls; HOME's dual rows scroll independently.
 - **Smartphone:** summary in the middle, up to five recent calls above, up to nine notification cards below. Hold O to call or reply where supported. Incoming calls use a popup: short O dismisses, short DOWN answers, hold UP rejects/ends. Phone audio stays on the phone/headset.
 - **Map:** hold UP to toggle automatic/manual range. In automatic mode, UP/DOWN adjust preference from−2 (closer) to+2 (wider); the preference survives mode changes. In manual mode, UP zooms in and DOWN zooms out, up to3km scale. Automatic mode starts a600ms transition when the target map is ready. Manual changes apply immediately without animation, transforming the retained map while any missing tiles arrive. Hold O to cycle north-up, heading-up and compass.
@@ -90,3 +90,5 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 [0.9.62 · Dashboard blink alerts](24-Dashboard-Alerts.en.md)
 
 [0.9.63 · Indicators and reconnection](25-Connection-Indicators.en.md)
+
+[0.9.64 · HOME AUTO · manual pairing · background return](26-Home-Auto.en.md)
