@@ -1,7 +1,7 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**FuckNudo 0.9.66 — Balanced speed ring colours**
+**FuckNudo 0.9.67 — Actual stock mode takes priority**
 
 - **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.67-stock-mode/NoodoeCompanion-0.9.67.apk)**
 - **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.67-stock-mode/NoodoeInstaller-CFW-0.9.67.zip)**
