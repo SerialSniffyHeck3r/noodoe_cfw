@@ -28,3 +28,5 @@
 [0.9.67 · 실제 순정 응답 우선](29-Stock-Mode.md)
 
 [0.9.68 · 정보 전송·설정 보존·연속 색상](../User/30-Sharing-Settings.md)
+
+[0.9.69 · 설정 목록 오류·업데이트 복구](../User/31-Settings-Catalog.md)

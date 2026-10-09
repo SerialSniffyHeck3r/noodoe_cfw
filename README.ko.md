@@ -48,4 +48,6 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 **0.9.66 설명서 1판:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
 
 
-최신: **APK / Product0.9.68**. [연속 색상·정보 전송·설정 보존](Projects/Manuals/User/30-Sharing-Settings.md).
+최신: **APK / Product0.9.69**. [설정 목록 오류·업데이트 복구](Projects/Manuals/User/31-Settings-Catalog.md).
+
+[0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)

@@ -52,4 +52,6 @@ Source code is maintained in a separate private repository. This public reposito
 **Installation manual 0.9.66, revision 1:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
 
 
-Latest: **APK / Product0.9.68**. [Smooth ring, sharing and settings retention](Projects/Manuals/User/30-Sharing-Settings.en.md).
+Latest: **APK / Product0.9.69**. [Settings catalog update fix](Projects/Manuals/User/31-Settings-Catalog.en.md).
+
+[0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
