@@ -9,3 +9,5 @@
 실제 ARM 배경 런타임·EVE 명령 출력, Debug/Release 빌드, APK/ZIP 가져오기·서명·대응 Product 해시를 검증합니다. 실기 화면·차량 테스트는 하지 않았습니다.
 
 [설치·복구](../Installation/README.md) · [설정 업데이트 복구](31-Settings-Catalog.md)
+
+[0.9.70 당시 동작입니다.0.9.71에서는 Ride Summary 음영을 복원했습니다.](33-Ride-Preservation.md)

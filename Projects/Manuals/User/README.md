@@ -20,7 +20,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK / Product 0.9.70 기준 · 2026-10-09**
+[English guide](README.en.md) · **APK / Product 0.9.71 기준 · 2026-10-09**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
@@ -55,3 +55,5 @@ FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방�
 [0.9.69 · 설정 목록 오류·업데이트 복구](31-Settings-Catalog.md)
 
 [0.9.70 · 시동 OFF 배경 음영 제거](32-Off-Photo.md)
+
+[0.9.71 · 요약 음영·설정 보존·오일 호](33-Ride-Preservation.md)

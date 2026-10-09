@@ -32,3 +32,5 @@ The current guides above take precedence over versioned historical notes and old
 [0.9.69 · Settings catalog update fix](../User/31-Settings-Catalog.en.md)
 
 [0.9.70 · Ignition-off photo without shading](../User/32-Off-Photo.en.md)
+
+[0.9.71 · Summary contrast, retained settings and oil arc](../User/33-Ride-Preservation.en.md)

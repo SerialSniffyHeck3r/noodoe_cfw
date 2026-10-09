@@ -9,3 +9,5 @@ Install the **0.9.70 APK over the existing app without clearing data**, then use
 Verification uses the actual ARM wallpaper runtime and EVE command emission, Debug/Release builds, APK/ZIP import, signer and matching Product hashes. No physical display or vehicle test.
 
 [Installation and recovery](../Installation/README.en.md) · [Settings update recovery](31-Settings-Catalog.en.md)
+
+[Historical0.9.70 behavior;0.9.71 restores Ride Summary shading.](33-Ride-Preservation.en.md)

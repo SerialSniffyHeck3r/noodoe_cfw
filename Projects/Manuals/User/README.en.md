@@ -104,3 +104,5 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 [0.9.69 · Settings catalog update fix](31-Settings-Catalog.en.md)
 
 [0.9.70 · Ignition-off photo without shading](32-Off-Photo.en.md)
+
+[0.9.71 · Summary contrast, retained settings and oil arc](33-Ride-Preservation.en.md)

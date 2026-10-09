@@ -32,3 +32,5 @@
 [0.9.69 · 설정 목록 오류·업데이트 복구](../User/31-Settings-Catalog.md)
 
 [0.9.70 · 시동 OFF 배경 음영 제거](../User/32-Off-Photo.md)
+
+[0.9.71 · 요약 음영·설정 보존·오일 호](../User/33-Ride-Preservation.md)
