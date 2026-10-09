@@ -1,5 +1,7 @@
 # FuckNudo manuals
 
+> **0.9.72 installation fix:** automatic Bootstrap reconnect, with manual pairing only if needed. Use [Check current device → Continue from here](Installation/12-Connection-Recovery.en.md). APK-only change; Product and installer payloads remain 0.9.71.
+
 **APK / Product 0.9.71 · manual revision 1 · 9 October 2026** · [한국어](README.md)
 
 1. [Usage guide](User/README.en.md): buttons, pairing, media, calls, maps, settings and power

@@ -1,5 +1,7 @@
 # 0.9.64 · HOME AUTO, manual Bootstrap pairing and background return
 
+> Pairing instructions below describe historical 0.9.64. In 0.9.72 the mandatory wizard is removed; use [current connection recovery](../Installation/12-Connection-Recovery.en.md). HOME behavior is unchanged.
+
 > Historical 0.9.64 behavior; notification admission is superseded by [0.9.65](27-Latest-Messages.en.md).
 
 HOME automatic modes show a newly registered notification for **20 seconds**, then keep playing music visible. Without playing music, date, phone and compass information cycle. Hold O to skip the notification or cycle music/information; automatic priority resumes **20 seconds after that long press**. Notification popup settings do not suppress the HOME notification. Dismissing a popup does not dismiss its HOME content. HOME uses the Material Round bell and the same scrolling text style as HOME music.

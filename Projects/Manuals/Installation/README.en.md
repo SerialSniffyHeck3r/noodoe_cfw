@@ -1,5 +1,7 @@
 # Installation, recovery and compatibility · 0.9.66
 
+> **0.9.72 installation fix:** automatic Bootstrap reconnect, with manual pairing only if needed. Use [Check current device → Continue from here](12-Connection-Recovery.en.md). APK-only change; Product and installer payloads remain 0.9.71.
+
 [Manual index](../README.en.md) · [한국어](README.md)
 
 Use the matching **0.9.66 APK and ZIP**. This is **the0.9.66 release, 9 October 2026**; the release includes a new Product and matching APK/ZIP. Start with compatibility, then choose first installation or CFW update according to the role actually running.

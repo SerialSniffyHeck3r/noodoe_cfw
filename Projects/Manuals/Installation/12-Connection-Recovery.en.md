@@ -1,12 +1,12 @@
 # Connection and pairing recovery
 
-**APK / Product 0.9.66 · Manual revision 2 · 2026-10-07**
+**APK 0.9.72 / Product 0.9.71 · 2026-10-10**
 
 [Installation index](README.en.md) · [한국어](12-Connection-Recovery.md)
 
 ## Identify the running role first
 
-Use APK and ZIP 0.9.66 and retain app records. Stop riding integration and identify the current role. Stock, Bootstrap and Product are different stages; **Gate has no Bluetooth**. If Bootstrap already runs, do not repeat the stock transfer.
+Use APK and ZIP 0.9.72 and retain app records. Stop riding integration and identify the current role. Stock, Bootstrap and Product are different stages; **Gate has no Bluetooth**. If Bootstrap already runs, do not repeat the stock transfer.
 
 ## Lost responses or unresolved earlier results
 
@@ -18,16 +18,16 @@ Use APK and ZIP 0.9.66 and retain app records. Stop riding integration and ident
 
 If active writes, trial boot or a recovery-image error block this route too, preserve the reported cause and logs. [Physical Gate entry](10-Recovery.en.md) is a separate path when the phone cannot connect.
 
-## Pairing approved, but Couldn't Pair keeps returning
+## When automatic Bootstrap connection fails
 
-1. Open **Connection recovery → Completely reset this Noodoe connection**. Grant Bluetooth/Nearby devices permissions when requested.
-2. When the guide asks, forget **only this Noodoe** in Android Bluetooth settings. Keep app data and installation records.
-3. Use **UP** on the device's installation/trial connection-recovery prompt to open re-pairing. During ordinary CFW operation, use **Settings → Connections → Re-pair phone**. Check Noodoe button-selector mode and stationary requirements for ordinary menu access.
-4. Select your phone on the device, then **release O and hold it freshly for 2 seconds** to approve. `ALL` removes every phone key; choose it only when that is intended.
-5. At `Ready to pair on your phone`, mark the device ready in the app, choose **Pair and verify connection**, and approve Android's prompt.
-6. Continue the same operation after the app verifies secure connection, device identity and saved key. Existing files are reused only after verification.
+Starting with 0.9.72, installation no longer requires a pairing-completion receipt. The app tries to reconnect after sending Bootstrap. If connected, continue directly.
 
-Stock firmware uses its own pairing controls. Gate cannot re-pair. The dedicated recovery screen can operate in dashboard-button mode; distinguish that from entering ordinary settings.
+1. If automatic connection fails, open phone Bluetooth settings, **forget only this Noodoe and pair again**. Keep app data and installation records.
+2. Return to the app and manually choose **Check current device → Continue from here**. An older pairing-wizard record no longer blocks installation.
+3. Only if pairing itself still fails, on the Bootstrap connection screen use **UP → select your phone → release O, then hold it for two seconds** to forget the phone on Noodoe too, and pair again. During ordinary CFW operation, use the existing **Settings → Connections → Re-pair phone** menu. `ALL` removes every phone; use it only if intended.
+4. Choose **Check current device → Continue from here** again. There is no need to return midway so the app can witness the unpaired state. **Do not resend Bootstrap.**
+
+Device identity, selected ZIP, image validation and unresolved-operation checks remain. A Bluetooth connection alone does not confirm installation success. Stock uses its own pairing controls; Gate has no Bluetooth.
 
 ## Bluetooth startup-error choices
 

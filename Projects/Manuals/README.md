@@ -1,5 +1,7 @@
 # FuckNudo 설명서
 
+> **0.9.72 설치 수정:** Bootstrap 자동 연결을 복원했습니다. 실패할 때만 수동 재페어링 후 [현재 기기 확인 → 여기서부터 계속하기](Installation/12-Connection-Recovery.md)로 진행하세요. 앱만 변경했으며 본체 펌웨어와 설치 ZIP 내용은 0.9.71과 같습니다.
+
 **APK / Product 0.9.71 · 2026-10-09** · [English](README.en.md)
 
 1. [사용 설명서](User/README.md): 버튼, 연결, 음악·전화·알림, 지도, 전원과 설정
