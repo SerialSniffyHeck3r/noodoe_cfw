@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**FuckNudo 0.9.70 — Unshaded ignition-off photo**
+**FuckNudo 0.9.71 — Ride Summary, retained settings and oil arc**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.70-off-photo/NoodoeCompanion-0.9.70.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.70-off-photo/NoodoeInstaller-CFW-0.9.70.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.71-ride-preserve/NoodoeCompanion-0.9.71.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.71-ride-preserve/NoodoeInstaller-CFW-0.9.71.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `cfw-v0.9.70-off-photo`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `cfw-v0.9.71-ride-preserve`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
