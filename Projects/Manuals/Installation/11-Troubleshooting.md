@@ -1,6 +1,6 @@
 # 문제 해결과 진단 자료
 
-**APK / Product 0.9.65 · Manual revision 2 · 2026-10-07**
+**APK / Product 0.9.66 · Manual revision 2 · 2026-10-07**
 
 [설치 목차](README.md) · [English](11-Troubleshooting.en.md)
 
@@ -12,7 +12,7 @@
 |---|---|
 | 전송 전 호환성 확인에서 중단 | [지원 범위](07-Compatibility.md)의 HW 0·BL 0.10~0.19·순정 5.16 및 APK/ZIP 조합 확인. 모델명·PCBA는 제한하지 않음. 이 검사에서 멈췄다면 아직 Bootstrap을 보내지 않음 |
 | `The current operation cannot continue` / `Installation success or cancellation not confirmed` | 이전 변경 작업의 결과가 미확인. 같은 기기·ZIP으로 마지막 작업을 먼저 조회 |
-| Stage 6/8 · Code 6 / Phase 4 · `Paused` / `See Phone Help` | 코드만으로 성공·벽돌을 단정할 수 없음. 화면과 로그를 보관하고 [설치 정지 복구](10-Recovery.md) 확인. 0.9.65 오류 화면에는 UP+O 3초 안내가 표시됨 |
+| Stage 6/8 · Code 6 / Phase 4 · `Paused` / `See Phone Help` | 코드만으로 성공·벽돌을 단정할 수 없음. 화면과 로그를 보관하고 [설치 정지 복구](10-Recovery.md) 확인. 0.9.66 오류 화면에는 UP+O 3초 안내가 표시됨 |
 | 전송 100% 또는 `NOODOE INSTALLER` | 파일 전송/순정 기록 단계. 실제 새 CFW 화면이 나오기 전 완료 확인하지 않음 |
 | `CFW UPDATE` / `Checking the new version` | 실제 화면 확인 → 같은 후보 재연결 → 최소 5초 정상 실행 → 영구 확정. 현재 최대 5분, 구버전은 기기 기한 적용 |
 | `Update wasn't confirmed` | 후보 확인 실패. 이전 정상본 롤백 또는 Gate 상태 확인 |

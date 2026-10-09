@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**FuckNudo 0.9.65 — Latest messages and sharing replies**
+**FuckNudo 0.9.66 — Balanced speed ring colours**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.65-latest-messages/NoodoeCompanion-0.9.65.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.65-latest-messages/NoodoeInstaller-CFW-0.9.65.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.66-speed-ring/NoodoeCompanion-0.9.66.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.66-speed-ring/NoodoeInstaller-CFW-0.9.66.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `cfw-v0.9.65-latest-messages`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `cfw-v0.9.66-speed-ring`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.65.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.65.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.66.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.66.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
@@ -49,4 +49,4 @@ Source code is maintained in a separate private repository. This public reposito
 
 [Display wiring revisions from stock assembly](Projects/documentations/hardware-revisions-0.9.29.en.md)
 
-**Installation manual 0.9.65, revision 1:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
+**Installation manual 0.9.66, revision 1:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
