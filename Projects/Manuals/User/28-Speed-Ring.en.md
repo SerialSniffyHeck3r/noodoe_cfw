@@ -24,3 +24,5 @@ If Stage 6/4 requests a manual reset, hold **UP + O together for 3 seconds**, re
 Validation: actual ARM speed/startup models, all 10,001 normalized colour samples, Debug/Release builds, matching APK/Product hash and the Android ZIP importer. No physical LCD or vehicle test was performed.
 
 ![sRGB reference palette](../images/speed-ring-0.9.66.png)
+
+[0.9.68 supersedes the colour ranges and reply slots described here.](30-Sharing-Settings.en.md)

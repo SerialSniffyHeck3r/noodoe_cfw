@@ -26,3 +26,5 @@
 [0.9.66 · 속도 링 색상 조정](../User/28-Speed-Ring.md)
 
 [0.9.67 · 실제 순정 응답 우선](29-Stock-Mode.md)
+
+[0.9.68 · 정보 전송·설정 보존·연속 색상](../User/30-Sharing-Settings.md)

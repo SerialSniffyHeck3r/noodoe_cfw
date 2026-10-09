@@ -24,3 +24,5 @@ Stage 6/4에서 수동 재시작을 요청하면 **UP + O를 함께 3초** 누�
 실제 ARM 속도·시동 모델, 정규화 속도 10,001개 색상, Debug/Release 빌드, APK/Product 해시 일치와 Android ZIP 가져오기를 검증했습니다. LCD·차량 실기 테스트는 하지 않았습니다.
 
 ![sRGB reference palette](../images/speed-ring-0.9.66.png)
+
+[이 문서의 색상 구간·답장 슬롯은 0.9.68에서 변경되었습니다.](30-Sharing-Settings.md)

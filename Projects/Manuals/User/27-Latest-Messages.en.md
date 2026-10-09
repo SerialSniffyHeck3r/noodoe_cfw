@@ -23,3 +23,5 @@ Track sharing requires a currently playing Android MediaSession with both artist
 Use the matching **0.9.65 APK and ZIP** and keep app data when upgrading. First installation still accepts stock **5.14 / 5.16** without HW, bootloader-version, model or PCBA whitelists; admission is not proof of all-model electrical compatibility. Bootstrap manual re-pairing and Gate/Bootstrap binaries are unchanged. If Stage 6/4 asks for reset, hold UP+O together for three seconds, release and let the phone verify the result. That underlying handoff issue is not claimed fixed.
 
 This release was checked in software. Actual vehicle, Android messaging delivery and radio timing were not tested.
+
+[0.9.68 supersedes the colour ranges and reply slots described here.](30-Sharing-Settings.en.md)
