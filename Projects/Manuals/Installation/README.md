@@ -24,3 +24,5 @@
 [0.9.65 · 최신 알림 · 위치·음악 답장](../User/27-Latest-Messages.md)
 
 [0.9.66 · 속도 링 색상 조정](../User/28-Speed-Ring.md)
+
+[0.9.67 · 실제 순정 응답 우선](29-Stock-Mode.md)

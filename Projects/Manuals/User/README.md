@@ -20,7 +20,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK / Product 0.9.66 기준 · 2026-10-09**
+[English guide](README.en.md) · **APK 0.9.67 / Product 0.9.66 기준 · 2026-10-09**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
@@ -47,3 +47,5 @@ FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방�
 [0.9.65 · 최신 알림 · 위치·음악 답장](27-Latest-Messages.md)
 
 [0.9.66 · 속도 링 색상 조정](28-Speed-Ring.md)
+
+[0.9.67 · 실제 순정 응답 우선](../Installation/29-Stock-Mode.md)

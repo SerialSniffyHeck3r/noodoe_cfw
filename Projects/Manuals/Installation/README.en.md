@@ -24,3 +24,5 @@ The current guides above take precedence over versioned historical notes and old
 [0.9.65 · Latest messages · location/music replies](../User/27-Latest-Messages.en.md)
 
 [0.9.66 · Balanced speed ring colours](../User/28-Speed-Ring.en.md)
+
+[0.9.67 · Actual stock mode](29-Stock-Mode.en.md)
