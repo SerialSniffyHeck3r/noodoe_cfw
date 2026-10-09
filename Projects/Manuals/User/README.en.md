@@ -102,3 +102,5 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 [0.9.68 · Sharing, settings and smooth ring](30-Sharing-Settings.en.md)
 
 [0.9.69 · Settings catalog update fix](31-Settings-Catalog.en.md)
+
+[0.9.70 · Ignition-off photo without shading](32-Off-Photo.en.md)

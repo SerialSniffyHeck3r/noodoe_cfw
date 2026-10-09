@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.69.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.69.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.70.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.70.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
@@ -52,6 +52,8 @@ Source code is maintained in a separate private repository. This public reposito
 **Installation manual 0.9.66, revision 1:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
 
 
-Latest: **APK / Product0.9.69**. [Settings catalog update fix](Projects/Manuals/User/31-Settings-Catalog.en.md).
+Latest: **APK / Product0.9.70**. [Ignition-off photo without shading](Projects/Manuals/User/32-Off-Photo.en.md).
 
 [0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
+
+[0.9.70: Ignition-off photo without shading](Projects/documentations/off-photo-0.9.70.md)
