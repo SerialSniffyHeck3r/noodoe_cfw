@@ -1,5 +1,7 @@
 # 사용 설명서
 
+[0.9.73: 발신자 표시와 주행 자동 재연결](34-Call-Reconnect.md)
+
 [0.9.66 설명서 1판: 설치·복구](../Installation/README.md) · [호환 모델](../Installation/07-Compatibility.md)
 
 **0.9.66 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](23-Controls-Recovery.md). 아래의 버전별 링크는 변경 이력입니다.

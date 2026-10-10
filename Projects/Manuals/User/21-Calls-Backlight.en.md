@@ -1,5 +1,7 @@
 # 0.9.43 incoming calls and automatic brightness
 
+[0.9.73: caller identity and automatic riding reconnect](34-Call-Reconnect.en.md)
+
 [User manual](README.en.md) · [한국어](21-Calls-Backlight.md)
 
 Open **Permissions / setup** in the app and allow **Detect incoming calls** and

@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.9.73: caller identity and automatic riding reconnect](34-Call-Reconnect.en.md)
+
 [0.9.66 manual revision 1: installation and recovery](../Installation/README.en.md) · [Compatible models](../Installation/07-Compatibility.en.md)
 
 **Base display guide (see the 0.9.66 update below for revised GPS behavior):** [menu persistence, GPS pulses, phone battery and centered fuel warnings](23-Controls-Recovery.en.md). Versioned links below are historical change notes.

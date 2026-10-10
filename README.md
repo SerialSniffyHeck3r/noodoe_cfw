@@ -1,13 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # 최신 다운로드
 
-**FuckNudo 0.9.72 — Bootstrap connection recovery**
+**FuckNudo 0.9.73 — Caller identity and riding reconnect**
 
-- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.72-bootstrap-connect/NoodoeCompanion-0.9.72.apk)**
-- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.72-bootstrap-connect/NoodoeInstaller-CFW-0.9.72.zip)**
+- **[Android APK 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.73-call-reconnect/NoodoeCompanion-0.9.73.apk)**
+- **[설치 ZIP 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.9.73-call-reconnect/NoodoeInstaller-CFW-0.9.73.zip)**
 - [항상 최신 릴리스 보기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-현재 버전: `cfw-v0.9.72-bootstrap-connect`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
+현재 버전: `cfw-v0.9.73-call-reconnect`. 위 APK와 ZIP을 한 쌍으로 사용하세요.
 Bootstrap 수정이 포함된 업데이트는 해당 릴리스의 설치 순서를 확인하세요.
 검증 범위와 알려진 제한은 릴리스 설명에 기록되어 있습니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.72.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.72.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.73.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.73.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
@@ -52,10 +52,13 @@ Source code is maintained in a separate private repository. This public reposito
 **Installation manual 0.9.66, revision 1:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
 
 
-Latest: **APK / Product0.9.71**. [Ride Summary, retained settings and oil arc](Projects/Manuals/User/33-Ride-Preservation.en.md).
+Latest: **APK0.9.73 / Product0.9.71**. [Ride Summary, retained settings and oil arc](Projects/Manuals/User/33-Ride-Preservation.en.md).
 
 [0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
 
 [0.9.70: Ignition-off photo without shading](Projects/documentations/off-photo-0.9.70.md)
 
 [0.9.71: Ride Summary, settings preservation and oil arc](Projects/documentations/ride-preserve-0.9.71.md)
+
+
+[0.9.73: caller identity and automatic riding reconnect](Projects/Manuals/User/34-Call-Reconnect.en.md). Existing 0.9.71 CFW devices need only the APK update.
