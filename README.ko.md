@@ -1,3 +1,16 @@
+<!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
+# 최신 다운로드
+
+**FuckNudo0.10.1 beta — B multilingual menus and device text**
+
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NoodoeCompanion-0.10.1.apk)
+- [Firmware / 설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NoodoeInstaller-CFW-0.10.1.zip)
+- [B language resources / 언어팩 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NOODOE-LANGUAGE-B-0.10.1.zip)
+- [Release notes / 설치 순서·제한](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.1-multilingual-beta)
+
+구형 Gate는 데이터 유지 순정 복귀 후 한 번 재설치합니다. 이 전환 중 전원 차단의 자동 복구는 보장하지 않습니다. 상시 전원을 유지하세요. 펌웨어 정상 확인 뒤 언어팩을 설치합니다.
+<!-- NOODOE_LATEST_DOWNLOADS_END -->
+
 # FuckNudo CFW
 
 ![내 AK550과 Noodoe](Projects/documentations/images/my-ak550.jpg)
@@ -39,16 +52,16 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.73.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.73.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.1.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.1.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
 [순정 어셈블리로 확인한 표시부 리비전](Projects/documentations/hardware-revisions-0.9.29.ko.md)
 
-**0.9.66 설명서 1판:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
+**0.10.1 베타 설명서:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
 
 
-최신: **APK / Product0.9.71**. [Ride Summary 음영·설정 보존·오일 호](Projects/Manuals/User/33-Ride-Preservation.md).
+최신: **APK / Product0.10.1 beta**. [Ride Summary 음영·설정 보존·오일 호](Projects/Manuals/User/33-Ride-Preservation.md).
 
 [0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
 
@@ -57,4 +70,4 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 [0.9.71: Ride Summary, settings preservation and oil arc](Projects/documentations/ride-preserve-0.9.71.md)
 
 
-[0.9.73: 발신자 표시와 주행 자동 재연결](Projects/Manuals/User/34-Call-Reconnect.md). 기존 0.9.71 CFW에서는 APK만 업데이트하면 됩니다.
+[0.9.73: 발신자 표시와 주행 자동 재연결](Projects/Manuals/User/34-Call-Reconnect.md). 당시0.9.73은 APK만 갱신했습니다. 이번0.10.1은 위의 펌웨어·Gate 전환 절차를 따릅니다.

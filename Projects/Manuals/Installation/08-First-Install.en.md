@@ -1,10 +1,14 @@
-# First installation from stock · 0.9.66 / manual revision 2
+# First installation from stock · 0.10.1 / manual revision 2
 
-**Revised 7 October 2026** · [Installation index](README.en.md) · [한국어](08-First-Install.md) · [Compatible models](07-Compatibility.en.md)
+**0.10.1 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.
+
+**Keep permanent power connected:** a power interruption while older CFW records its keep-data stock-return request can stop boot before the new recovery code runs. Automatic recovery is not guaranteed in that legacy interval. Keep permanent power connected throughout stock return/reinstallation and do not operate the starter. IGN OFF is not removal of permanent power. If already stuck, do not assume another reset will recover it; retain diagnostics and ask for help.
+
+**Revised 16 October 2026** · [Installation index](README.en.md) · [한국어](08-First-Install.md) · [Compatible models](07-Compatibility.en.md)
 
 ## Preparation
 
-Use the matching **0.9.66 APK and installation ZIP**. Install the APK over the existing app to retain its records. Keep the ZIP intact; do not choose an individual BIN from a dump. Select the correct Noodoe and stop riding integration. If CFW is already running, use [CFW update](09-Update.en.md).
+Use the matching **0.10.1 APK and installation ZIP**. Install the APK over the existing app to retain its records. Keep the ZIP intact; do not choose an individual BIN from a dump. Select the correct Noodoe and stop riding integration. If CFW is already running, use [CFW update](09-Update.en.md).
 
 First installation admits stock 5.14 or 5.16 without HW/bootloader-version/model/PCBA whitelists. Read the compatibility page for the difference between admission and vehicle testing, and between the installation backup and a full NOR backup.
 
@@ -20,15 +24,15 @@ The app identifies the actual stock device/address and sends the installation to
 
 ![Ignition and restart](../images/install-02-stock-reboot.png)
 
-After the app confirms transfer verification and asks for the ignition action, **keep permanent power connected, turn IGN OFF, wait for the Bootstrap screen, then turn IGN ON**. Do not perform this step before verification. `NOODOE INSTALLER` means the stock writer is still working. Bluetooth may disconnect during restart; continue with the manual re-pairing step below.
+After the app confirms transfer verification and asks for the ignition action, **keep permanent power connected, turn IGN OFF, wait for the Bootstrap screen, then turn IGN ON**. Do not perform this step before verification. `NOODOE INSTALLER` means the stock writer is still working. Bluetooth may disconnect during restart; try automatic reconnect first; use manual pairing below only if it fails.
 
-## 3. Manually re-pair and identify Bootstrap
+## 3. Reconnect and identify Bootstrap
 
 ![Bootstrap identification](../images/install-03-connect.png)
 ![Device connection screen](../images/boot-connect.png)
 ![Bootstrap welcome](../images/boot-welcome.png)
 
-Look for `FuckNudo Bootstrap / Welcome`. Disconnect and forget Noodoe in phone Bluetooth settings. On the Bootstrap connection screen press UP, select this phone, release O and hold O for two seconds. Pair again and verify in the app; do not resend Bootstrap. The app checks the actual role, image and device ID. Connection alone does not complete installation; the Bluetooth test menu is a diagnostic tool.
+Look for `FuckNudo Bootstrap / Welcome` and allow automatic reconnect. If it fails, disconnect and forget Noodoe in phone Bluetooth settings. On the Bootstrap connection screen press UP, select this phone, release O and hold O for two seconds. Pair again, choose Check current device, then Continue from here; do not resend Bootstrap. The app checks the actual role, image and device ID. Connection alone does not complete installation; the Bluetooth test menu is a diagnostic tool.
 
 ## 4. Audit storage
 
@@ -99,7 +103,7 @@ Completion requires the app to verify permanent candidate confirmation. First in
 
 During a cancellable Bootstrap session, release O and hold it freshly for **3 seconds** to request safe cancellation. An active write may need to reach a safe boundary. Committed work is not forcibly undone; IGN OFF alone does not cancel it.
 
-If 0.9.66 shows `INSTALLATION PAUSED` with the manual-reset instruction, follow [paused-installation recovery](10-Recovery.en.md). Record Stage and Code/phase, hold UP+O together for 3 seconds, release the buttons, and inspect the same device/package's state. Older running firmware can still show its older wording. Do not apply this action merely because a transfer is still running.
+If 0.10.1 shows `INSTALLATION PAUSED` with the manual-reset instruction, follow [paused-installation recovery](10-Recovery.en.md). Record Stage and Code/phase, hold UP+O together for 3 seconds, release the buttons, and inspect the same device/package's state. Older running firmware can still show its older wording. Do not apply this action merely because a transfer is still running.
 
 ## Other Bootstrap menus
 

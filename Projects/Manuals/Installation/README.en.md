@@ -1,10 +1,10 @@
-# Installation, recovery and compatibility · 0.9.66
+# Installation, recovery and compatibility ·0.10.1 beta
 
-> **0.9.72 installation fix:** automatic Bootstrap reconnect, with manual pairing only if needed. Use [Check current device → Continue from here](12-Connection-Recovery.en.md). APK-only change; Product and installer payloads remain 0.9.71.
+[0.10.1 languages and installation transition —0.10.1 beta](../User/35-Languages.en.md)
 
 [Manual index](../README.en.md) · [한국어](README.md)
 
-Use the matching **0.9.66 APK and ZIP**. This is **the0.9.66 release, 9 October 2026**; the release includes a new Product and matching APK/ZIP. Start with compatibility, then choose first installation or CFW update according to the role actually running.
+Use the matching **0.10.1 APK and firmware ZIP**. Follow the language/transition guide first: older Gate devices need keep-data stock return and reinstall once. After confirmed Product startup, install the separate language ZIP.
 
 Admitted family: **stock 5.14 or 5.16**. HW, bootloader version, model and PCBA are not whitelisted. AK550 and bench experience do not certify every vehicle or PCB revision. See the compatibility table for evidence and limits.
 
@@ -15,7 +15,7 @@ Admitted family: **stock 5.14 or 5.16**. HW, bootloader version, model and PCBA 
 5. [Troubleshooting and diagnostics](11-Troubleshooting.en.md)
 6. [Connection and pairing recovery](12-Connection-Recovery.en.md)
 
-The current guides above take precedence over versioned historical notes and older screenshots. [0.9.66 controls](../User/23-Controls-Recovery.en.md) · [Release and matching downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.66-dashboard-alerts)
+The current guides above take precedence over versioned historical notes and older screenshots. [0.9.66 controls](../User/23-Controls-Recovery.en.md) · [Release and matching downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.1-multilingual-beta)
 
 [0.9.62 · Dashboard blink alerts](../User/24-Dashboard-Alerts.en.md)
 

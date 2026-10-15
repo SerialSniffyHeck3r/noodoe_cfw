@@ -1,8 +1,8 @@
 # FuckNudo manuals
 
-> **0.9.72 installation fix:** automatic Bootstrap reconnect, with manual pairing only if needed. Use [Check current device → Continue from here](Installation/12-Connection-Recovery.en.md). APK-only change; Product and installer payloads remain 0.9.71.
+[0.10.1 languages and installation transition —0.10.1 beta](User/35-Languages.en.md)
 
-**APK / Product 0.9.71 · manual revision 1 · 9 October 2026** · [한국어](README.md)
+**APK / Product0.10.1 beta · 2026-10-16**
 
 1. [Usage guide](User/README.en.md): buttons, pairing, media, calls, maps, settings and power
 2. [Installation, updates and recovery](Installation/README.en.md): distinct stock-first-install and CFW-update procedures
@@ -10,7 +10,7 @@
 4. [Menu, GPS, battery and fuel-warning indicators](User/23-Controls-Recovery.en.md)
 5. [NOR backup and file browser](User/13-NOR-Backup.en.md)
 
-[0.9.71 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.9.71.apk) · [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.9.71.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[0.10.1 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.1.apk) · [matching ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 Use APK and ZIP from the same release. Ordinary updates retain settings, photos, trips and service baselines. First installation, an explicit fresh start and full removal are different operations. The app includes an offline quick guide; its Full manual button opens the appropriate Korean or English index.
 

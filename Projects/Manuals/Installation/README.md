@@ -1,10 +1,10 @@
-# 설치·복구·호환 모델 · 0.9.66
+# 설치·복구·호환성 ·0.10.1 베타
 
-> **0.9.72 설치 수정:** Bootstrap 자동 연결을 복원했습니다. 실패할 때만 수동 재페어링 후 [현재 기기 확인 → 여기서부터 계속하기](12-Connection-Recovery.md)로 진행하세요. 앱만 변경했으며 본체 펌웨어와 설치 ZIP 내용은 0.9.71과 같습니다.
+[0.10.1 다국어·설치 전환 안내 — 0.10.1 베타](../User/35-Languages.md)
 
 [설명서 첫 화면](../README.md) · [English](README.en.md)
 
-**0.9.66 APK와 ZIP을 한 쌍으로 사용하세요.** 이번 문서는 **2026-10-09**이며 앱·펌웨어 바이너리는 바뀌지 않았습니다. 호환 조건을 먼저 확인한 뒤 실제 실행 중인 역할에 맞춰 최초 설치 또는 CFW 업데이트를 선택합니다.
+**0.10.1 APK와 펌웨어 ZIP을 한 쌍으로 사용하세요.** 이번 베타에는 새 Product·Gate·Bootstrap과 별도 언어 ZIP이 포함됩니다. 구형 Gate는 데이터 유지 순정 복귀 후 한 번 재설치하며, 정상 실행 확인 뒤 언어 자원을 설치합니다. 위 전환 안내를 먼저 확인하세요.
 
 설치 허용 범위는 **순정 5.14 또는 5.16**입니다. HW·부트로더 버전·모델명·PCBA는 제한하지 않습니다. AK550와 벤치에서의 사용 결과를 모든 차종·PCB 리비전 검증으로 확대하지 않습니다. 호환 표에 확인 수준을 구분했습니다.
 
@@ -15,7 +15,7 @@
 5. [문제 해결과 진단 자료](11-Troubleshooting.md)
 6. [연결·페어링 복구](12-Connection-Recovery.md)
 
-과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.66 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.9.66-dashboard-alerts)
+과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.66 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.1-multilingual-beta)
 
 [0.9.62 · Dashboard blink alerts](../User/24-Dashboard-Alerts.md)
 

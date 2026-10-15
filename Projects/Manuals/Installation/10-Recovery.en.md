@@ -1,5 +1,9 @@
 # Paused installation, stock return and display recovery
 
+**0.10.1 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.
+
+**Keep permanent power connected:** a power interruption while older CFW records its keep-data stock-return request can stop boot before the new recovery code runs. Automatic recovery is not guaranteed in that legacy interval. Keep permanent power connected throughout stock return/reinstallation and do not operate the starter. IGN OFF is not removal of permanent power. If already stuck, do not assume another reset will recover it; retain diagnostics and ask for help.
+
 **APK / Product 0.9.66 · Manual revision 2 · 2026-10-07**
 
 [Installation index](README.en.md) · [한국어](10-Recovery.md)

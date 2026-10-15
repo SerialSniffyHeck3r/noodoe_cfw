@@ -1,8 +1,10 @@
 # 사용 설명서
 
+[0.10.1 다국어·글자 표시·설치 전환 — 0.10.1 베타](35-Languages.md)
+
 [0.9.73: 발신자 표시와 주행 자동 재연결](34-Call-Reconnect.md)
 
-[0.9.66 설명서 1판: 설치·복구](../Installation/README.md) · [호환 모델](../Installation/07-Compatibility.md)
+[0.10.1 베타 설명서: 설치·복구](../Installation/README.md) · [호환 모델](../Installation/07-Compatibility.md)
 
 **0.9.66 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](23-Controls-Recovery.md). 아래의 버전별 링크는 변경 이력입니다.
 
@@ -22,7 +24,7 @@
 
 [설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
 
-[English guide](README.en.md) · **APK / Product 0.9.71 기준 · 2026-10-09**
+[English guide](README.en.md) · **APK / Product0.10.1 beta · 2026-10-16**
 
 FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
 
