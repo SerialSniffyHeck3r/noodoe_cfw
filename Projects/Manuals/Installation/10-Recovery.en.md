@@ -70,3 +70,9 @@ In normal CFW, use **O+DOWN to open quick settings → release the buttons → h
 ## Power and recovery limits
 
 IGN OFF is different from disconnecting permanent 12V. Disconnecting the module/battery may require bodywork removal. The vehicle rocker cannot press UP and DOWN simultaneously; no such combination is required. Button recovery is not guaranteed for every CPU, storage or recovery-image failure. Diagnostic is a separate investigation image, not a substitute for normal installation confirmation. See [logs and error interpretation](11-Troubleshooting.en.md).
+
+## Phone-free stock return (including the 0.9.73 app / 0.9.71 Product release)
+
+While parked, turn the key OFF. Hold only O (centre), turn the key ON without starting the engine, and keep O held for at least two seconds after ON. Release it when RECOVERY MODE appears. Use UP/DOWN to select **Back to stock**, press O, then release O and hold it again for two seconds at the confirmation screen. Wait until the stock dashboard has fully started. No phone or Bluetooth connection is required. This path retains CFW data for a later compatible reinstall.
+
+Keep the battery/module connected and do not crank the engine or interrupt restoration. If recovery does not appear, release the buttons and photograph the current screen instead of selecting an unrelated erase/update action. The accepted legacy power-interruption limitation still applies.

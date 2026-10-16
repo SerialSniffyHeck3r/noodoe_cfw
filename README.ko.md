@@ -1,14 +1,16 @@
+**0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
+
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # Latest downloads
 
-**Companion 0.10.3 beta / unchanged CFW 0.10.2 — language setup**
+**Companion + CFW 0.10.4 beta — settings access without speed**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.3-language-setup/NoodoeCompanion-0.10.3.apk)
-- [Firmware ZIP (unchanged 0.10.2)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.3-language-setup/NoodoeInstaller-CFW-0.10.2.zip)
-- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.3-language-setup/NOODOE-LANGUAGE-B-0.10.1.zip)
-- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.3-language-setup)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.4-settings-access/NoodoeCompanion-0.10.4.apk)
+- [Firmware ZIP 0.10.4](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.4-settings-access/NoodoeInstaller-CFW-0.10.4.zip)
+- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.4-settings-access/NOODOE-LANGUAGE-B-0.10.1.zip)
+- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.4-settings-access)
 
-Already on CFW 0.10.2? Update only the APK. Language installation is now explicitly offered after firmware confirmation, with verified automatic download. 이미 0.10.2이면 APK만 갱신하고 앱 상단 기기 언어 · 언어팩 설치에서 진행하세요.
+Update both APK and firmware ZIP. Existing 0.10.x uses the same-Gate CFW update route; 0.9.x requires keep-data stock return and reinstallation. APK와 본체 ZIP을 모두 업데이트하세요. 설치된 언어팩은 그대로 재사용합니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
 # FuckNudo CFW
@@ -52,7 +54,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.3.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.2.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.4.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.4.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 

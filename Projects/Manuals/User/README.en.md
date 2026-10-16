@@ -1,7 +1,5 @@
 # Using FuckNudo
 
-[0.10.2: vehicle data initialization and update instructions](../../../docs/releases/0.10.2/INSTALL.md)
-
 [0.10.1 languages, text rendering and installation transition —0.10.1 beta](35-Languages.en.md)
 
 [0.9.73: caller identity and automatic riding reconnect](34-Call-Reconnect.en.md)
@@ -112,3 +110,7 @@ For persistent trouble, export diagnostic logs from the app. Internal originals 
 [0.9.70 · Ignition-off photo without shading](32-Off-Photo.en.md)
 
 [0.9.71 · Summary contrast, retained settings and oil arc](33-Ride-Preservation.en.md)
+
+## 0.10.4: settings when vehicle speed is missing
+
+With confirmed ignition ON, missing vehicle speed no longer blocks the full local or phone settings menu. Open quick settings with O+DOWN, release both, then hold O for the main menu. Connections → Re-pair phone remains a separate locally confirmed operation. With valid speed, the existing five-second stationary requirement and moving lock still apply. Unknown ignition does not grant access. This does not fabricate speed/ODO, relax ODO application, or bypass firmware/language-installation checks.
