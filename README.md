@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # Latest downloads
 
-**FuckNudo0.10.1 beta — B multilingual menus and device text**
+**FuckNudo 0.10.2 beta — vehicle UART initialization**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NoodoeCompanion-0.10.1.apk)
-- [Firmware / 설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NoodoeInstaller-CFW-0.10.1.zip)
-- [B language resources / 언어팩 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.1-multilingual-beta/NOODOE-LANGUAGE-B-0.10.1.zip)
-- [Release notes / 설치 순서·제한](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.1-multilingual-beta)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.2-vehicle-uart/NoodoeCompanion-0.10.2.apk)
+- [Firmware / 설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.2-vehicle-uart/NoodoeInstaller-CFW-0.10.2.zip)
+- [B language resources / 언어팩 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.2-vehicle-uart/NOODOE-LANGUAGE-B-0.10.1.zip)
+- [Release notes / 설치 순서·제한](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.2-vehicle-uart)
 
-Older Gate devices need one keep-data stock return and reinstall. Automatic recovery from power loss in the old-code interval is not guaranteed: keep permanent power connected. Install language resources after confirming Product startup.
+0.10.1 users can use normal CFW update and keep the installed language pack. Older Gate devices retain the documented keep-data stock-return transition and its legacy power-interruption limitation. Xciting hardware verification remains pending.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
 # FuckNudo CFW
@@ -25,7 +25,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.1.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.2.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.2.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

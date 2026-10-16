@@ -1,5 +1,7 @@
 # Using FuckNudo
 
+[0.10.2: vehicle data initialization and update instructions](../../../docs/releases/0.10.2/INSTALL.md)
+
 [0.10.1 languages, text rendering and installation transition —0.10.1 beta](35-Languages.en.md)
 
 [0.9.73: caller identity and automatic riding reconnect](34-Call-Reconnect.en.md)
