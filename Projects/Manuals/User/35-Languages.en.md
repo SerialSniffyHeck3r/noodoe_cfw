@@ -1,18 +1,9 @@
-# Companion 0.10.3 / CFW 0.10.2 — current language setup
+# Device language and text rendering · 0.10.7
 
-On an existing 0.10.2 device, update the APK only. After firmware screen/boot confirmation the app explicitly asks whether to install languages, then downloads, verifies and transfers them only with consent. Later keeps English available. A healthy installed pack is reused.
-
-Already completed firmware installation? Open **Device language · Install language pack** at the top, stop riding sync, keep/select the matching 0.10.2 firmware ZIP, and choose **Install / resume language resources**. You no longer need to locate a separate language ZIP. Manual import remains for offline use. Afterwards reconnect, disable English only if enabled, select Device language / Follow app, and confirm the stationary restart.
-
-0.10.x keeps normal CFW-to-CFW updates with the matching Gate. 0.9.x requires the existing keep-data stock return and reinstall. Firmware, Gate and Bootstrap bytes are unchanged in this app release.
-
----
-
-# 0.10.1 · Device language and text rendering
 
 [한국어](35-Languages.md) · [User guide](README.en.md)
 
-**0.10.1 beta · 16 October 2026.** Software validation passes, with the legacy transition limitation below. This is not physical power-loss or RF qualification.
+**0.10.7 beta · 17 October 2026.** Software validation passes, with the legacy transition limitation below. This is not physical power-loss or RF qualification.
 
 **Keep permanent power connected:** a power interruption while older CFW records its keep-data stock-return request can stop boot before the new recovery code runs. Automatic recovery is not guaranteed in that legacy interval. Keep permanent power connected throughout stock return/reinstallation and do not operate the starter. IGN OFF is not removal of permanent power. If already stuck, do not assume another reset will recover it; retain diagnostics and ask for help.
 
@@ -29,7 +20,7 @@ First installation accepts **stock 5.14 or 5.16** without a HW-number, bootloade
 ## Installing this version
 
 1. Use the APK and firmware ZIP from the same release, and keep app data.
-2. If an existing CFW has an old Gate and the app requests stock recovery, follow **keep-data stock recovery → Check current device to confirm stock → send Bootstrap from the selected 0.10.2 firmware ZIP → Restore stored data → install CFW**. A normal Product upload does not overwrite Gate.
+2. If an existing CFW has an old Gate and the app requests stock recovery, follow **keep-data stock recovery → Check current device to confirm stock → send Bootstrap from the selected 0.10.7 firmware ZIP → Restore stored data → install CFW**. A normal Product upload does not overwrite Gate.
 3. Confirm that the new CFW actually runs, and finish the app’s firmware confirmation first. A 100% transfer or the NOODOE INSTALLER screen is not completion.
 4. After confirmed firmware startup, answer **Install the language pack?**. Install downloads and verifies the matching resources automatically; Later keeps English available. Manual language-ZIP import is only an offline alternative.
 
@@ -74,3 +65,12 @@ If Bootstrap cannot reconnect automatically, remove the old pairing in the phone
 ## Font licensing
 
 Monochrome emoji come from hash-pinned **Noto Emoji 3.002 Regular 400**. The language distribution and app licence list include its copyright and OFL 1.1 notices. Existing system icons are unchanged.
+
+
+## 0.10.7 completion and resource layout
+
+TEXT.PAK contains all nine menu languages; FONTS.PAK contains the common glyphs and emoji. They form the same atomic LANGUAGE.PAK on the device, preserving existing Gate recovery. A healthy installed pack with identical content needs no retransmission.
+
+After transfer reaches 100%, verification and saving must finish. The device then restarts automatically. The app reconnects and reports saved-pack checks and menu-font preparation separately, distinguishing menus ready from English fallback. No unrelated app button is required to activate the saved device language. Device language choices use their native names. The existing language-change restart confirmation remains.
+
+IGN ON/OFF does not cancel installation or final verification; retain permanent module power. Fresh positive vehicle motion retains the existing stop restriction. When contents change, matching old pages are copied into a new NOR allocation and differing pages are transferred. The old live file is replaced only after verification, without deleting other files.
