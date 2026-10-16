@@ -1,18 +1,18 @@
 # Update an existing CFW
 
-**0.10.5 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.
+**0.10.6 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.
 
 **Keep permanent power connected:** a power interruption while older CFW records its keep-data stock-return request can stop boot before the new recovery code runs. Automatic recovery is not guaranteed in that legacy interval. Keep permanent power connected throughout stock return/reinstallation and do not operate the starter. IGN OFF is not removal of permanent power. If already stuck, do not assume another reset will recover it; retain diagnostics and ask for help.
 
-**APK / Product 0.10.5 · Manual revision 3 · 2026-10-17**
+**APK / Product 0.10.6 · Manual revision 4 · 2026-10-17**
 
 [Installation index](README.en.md) · [한국어](09-Update.md)
 
 ## Ordinary update
 
-1. **Install APK 0.10.5 over the existing app**, retaining app data, logs and backups.
+1. **Install APK 0.10.6 over the existing app**, retaining app data, logs and backups.
 2. Select the correct Noodoe and **stop riding integration**.
-3. Select the matching **0.10.5 ZIP** and start an ordinary CFW/Product update. The stock 5.14/5.16 requirement does not apply to the older CFW currently running.
+3. Select the matching **0.10.6 ZIP** and start an ordinary CFW/Product update. The stock 5.14/5.16 requirement does not apply to the older CFW currently running.
 4. Follow transfer, verification, local approval and restart instructions. When Gate and resources already match, the ordinary payload is the 384KiB Product APP.
 5. Confirm the actual new `CFW UPDATE` screen in the app. Reconnect to the same device/candidate and wait for at least 5 seconds of healthy execution and permanent confirmation. The current candidate's maximum window is 5 minutes; follow the device-reported deadline for older firmware.
 
@@ -28,7 +28,7 @@ Update APK and ZIP as a pair. Gate and Bootstrap are unchanged from 0.10.4 in th
 
 Use the same device and ZIP and follow **Identify device → Inspect last operation → Continue**. A complete staged image may be reused after integrity checks. A lost COMMIT/RESET reply does not justify repeating the request or bypassing unresolved records by changing ZIPs or clearing app data.
 
-If 0.10.5 displays the manual-reset instruction, follow [recovery](10-Recovery.en.md). **The previously installed firmware performs the first restart, so older wording such as `Paused. See phone help.` may still appear during that handoff.** The new wording is not a fix for every underlying installation failure.
+If 0.10.6 displays the manual-reset instruction, follow [recovery](10-Recovery.en.md). **The previously installed firmware performs the first restart, so older wording such as `Paused. See phone help.` may still appear during that handoff.** The new wording is not a fix for every underlying installation failure.
 
 ## Rollback and retained data
 
@@ -38,12 +38,12 @@ A candidate that fails execution or confirmation attempts a known-good rollback.
 
 The app now saves and restores settings around CFW updates. See [settings retention](../User/30-Sharing-Settings.en.md). Do not clear app data before completion.
 
-## 0.10.5: language verification and saving
+## 0.10.6: language installation with ignition ON or OFF
 
-Install both the 0.10.5 APK and ZIP. Matching-Gate 0.10.x devices use normal CFW-to-CFW update; this resource issue does not require stock return, formatting or deleting app data. Confirm the new CFW UPDATE screen and firmware installation first, then accept the language-resource offer. Already confirmed firmware can use Install / resume language resources.
+Update both the APK and firmware ZIP to 0.10.6. Matching-Gate 0.10.x devices use the existing CFW-to-CFW route. This language-pack fix needs no stock return, formatting or app-data deletion. Confirm CFW UPDATE and firmware completion first, then accept the resource offer or use **Install / resume language resources**.
 
-Remain parked with ignition OFF. Transfer 100% is followed by file hashes, translated strings, glyphs, emoji validation, journaled saving, automatic restart and readiness confirmation. The phone and dashboard show these stages separately. Glyph validation uses actual item counts instead of completed transfer bytes.
+Ignition ON/OFF is ignored throughout language inspection, optional FONT repair, transfer, verification, saving and automatic restart. Switching ignition or losing vehicle telemetry does not pause, cancel or restart the operation. No five-second ignition admission wait remains. A fresh speed of at least 3km/h still pauses uncommitted work; keep the vehicle parked. The active installation keeps the module awake even with ignition OFF. Keep its permanent power supply connected.
 
-Turning ignition ON pauses uncommitted work. Turn it OFF again, or wait for five seconds of fresh valid stationary speed, to resume. Missing speed or movement cannot authorize writes. Five minutes without progress or a lost connection safely stops uncommitted work; use the same resource menu to resume. Once metadata commit begins, the bounded transaction finishes or recovers through Gate before releasing the filesystem. Keep the module powered.
+Transfer 100% is followed by real file/index verification, journaled saving, automatic restart and resource-ready confirmation. Wait for that final confirmation. If Bluetooth disconnects or progress times out, use the same resource menu to resume; recorded candidate pages are reused only after physical hash comparison. Committed metadata finishes or recovers through Gate before normal filesystem access resumes.
 
-Resume compares physical page hashes and reuses only matching candidate bytes. Firmware completion and resource completion remain separate. Wait for automatic restart and multilingual-ready confirmation. An explicitly enabled English only preference remains enabled; turn it off and select Follow app or the desired language, then confirm restart. Matching installed packs are reused.
+The unchanged language archive is **NOODOE-LANGUAGE-B-0.10.1.zip**. A healthy installed pack is reused. An explicitly enabled **English only** preference is preserved; turn it off, select Follow app or the desired language and accept the restart. Firmware completion and language-resource completion remain separate.

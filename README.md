@@ -1,16 +1,16 @@
-**0.10.5:** Language verification is cached, actual progress is shown, and ignition changes pause/resume safely. Update both APK and ZIP; matching 0.10.x devices need no stock return. [Details](docs/releases/0.10.5/INSTALL.md).
+**0.10.6:** Language installation continues with ignition ON or OFF, including verification and saving. Update both APK and ZIP. [Details](docs/releases/0.10.6/INSTALL.md).
 
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # Latest downloads
 
-**Companion + CFW 0.10.4 beta — settings access without speed**
+**Companion + CFW 0.10.6 beta — ignition-independent language installation**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NoodoeCompanion-0.10.5.apk)
-- [Firmware ZIP 0.10.4](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NoodoeInstaller-CFW-0.10.5.zip)
-- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NOODOE-LANGUAGE-B-0.10.1.zip)
-- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.5-language-finalize)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NoodoeCompanion-0.10.6.apk)
+- [Firmware ZIP 0.10.6](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NoodoeInstaller-CFW-0.10.6.zip)
+- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NOODOE-LANGUAGE-B-0.10.1.zip)
+- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.6-language-ign)
 
 Update both APK and firmware ZIP. Existing 0.10.x uses the same-Gate CFW update route; 0.9.x requires keep-data stock return and reinstallation. APK와 본체 ZIP을 모두 업데이트하세요. 설치된 언어팩은 그대로 재사용합니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->

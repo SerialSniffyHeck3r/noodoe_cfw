@@ -1,16 +1,16 @@
-**0.10.5:** 언어팩 검증 캐시·실제 진행량 표시·IGN 전환 대기/재개를 수정했습니다. APK와 ZIP을 모두 업데이트하세요. 같은 Gate의 0.10 계열은 순정 복귀가 필요 없습니다. [안내](docs/releases/0.10.5/INSTALL.md).
+**0.10.6:** 언어팩 검사·전송·검증·저장 중 IGN을 켜거나 꺼도 계속 진행합니다. APK와 ZIP을 모두 업데이트하세요. [안내](docs/releases/0.10.6/INSTALL.md).
 
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # Latest downloads
 
-**Companion + CFW 0.10.4 beta — settings access without speed**
+**Companion + CFW 0.10.6 beta — ignition-independent language installation**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NoodoeCompanion-0.10.5.apk)
-- [Firmware ZIP 0.10.4](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NoodoeInstaller-CFW-0.10.5.zip)
-- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.5-language-finalize/NOODOE-LANGUAGE-B-0.10.1.zip)
-- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.5-language-finalize)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NoodoeCompanion-0.10.6.apk)
+- [Firmware ZIP 0.10.6](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NoodoeInstaller-CFW-0.10.6.zip)
+- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.6-language-ign/NOODOE-LANGUAGE-B-0.10.1.zip)
+- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.6-language-ign)
 
 Update both APK and firmware ZIP. Existing 0.10.x uses the same-Gate CFW update route; 0.9.x requires keep-data stock return and reinstallation. APK와 본체 ZIP을 모두 업데이트하세요. 설치된 언어팩은 그대로 재사용합니다.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
