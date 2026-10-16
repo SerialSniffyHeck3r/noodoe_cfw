@@ -1,3 +1,7 @@
+## 0.10.3 · Optional Bootstrap help
+
+Choose **Cannot connect to Bootstrap?** for the explicit phone unpair → Bootstrap UP, select your phone, release O and hold 2 seconds → phone re-pair → Check current device / Continue from here sequence. Opening help alone changes nothing. Connection interruption is disabled during firmware transfer/writing. Existing automatic connection and Bootstrap code are unchanged.
+
 # Connection and pairing recovery
 
 **APK 0.9.72 / Product 0.9.71 · 2026-10-10**

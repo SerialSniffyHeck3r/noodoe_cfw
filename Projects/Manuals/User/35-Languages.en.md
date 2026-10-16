@@ -1,3 +1,13 @@
+# Companion 0.10.3 / CFW 0.10.2 — current language setup
+
+On an existing 0.10.2 device, update the APK only. After firmware screen/boot confirmation the app explicitly asks whether to install languages, then downloads, verifies and transfers them only with consent. Later keeps English available. A healthy installed pack is reused.
+
+Already completed firmware installation? Open **Device language · Install language pack** at the top, stop riding sync, keep/select the matching 0.10.2 firmware ZIP, and choose **Install / resume language resources**. You no longer need to locate a separate language ZIP. Manual import remains for offline use. Afterwards reconnect, disable English only if enabled, select Device language / Follow app, and confirm the stationary restart.
+
+0.10.x keeps normal CFW-to-CFW updates with the matching Gate. 0.9.x requires the existing keep-data stock return and reinstall. Firmware, Gate and Bootstrap bytes are unchanged in this app release.
+
+---
+
 # 0.10.1 · Device language and text rendering
 
 [한국어](35-Languages.md) · [User guide](README.en.md)
@@ -19,9 +29,9 @@ First installation accepts **stock 5.14 or 5.16** without a HW-number, bootloade
 ## Installing this version
 
 1. Use the APK and firmware ZIP from the same release, and keep app data.
-2. If an existing CFW has an old Gate and the app requests stock recovery, follow **keep-data stock recovery → Check current device to confirm stock → send Bootstrap from the same 0.10.1 ZIP → Restore stored data → install CFW**. A normal Product upload does not overwrite Gate.
+2. If an existing CFW has an old Gate and the app requests stock recovery, follow **keep-data stock recovery → Check current device to confirm stock → send Bootstrap from the selected 0.10.2 firmware ZIP → Restore stored data → install CFW**. A normal Product upload does not overwrite Gate.
 3. Confirm that the new CFW actually runs, and finish the app’s firmware confirmation first. A 100% transfer or the NOODOE INSTALLER screen is not completion.
-4. Import the corresponding resources with **Choose language ZIP**, then use **Install / resume language resources** while stopped.
+4. After confirmed firmware startup, answer **Install the language pack?**. Install downloads and verifies the matching resources automatically; Later keeps English available. Manual language-ZIP import is only an offline alternative.
 
 Firmware installation and language readiness are separate steps. After an interrupted language transfer, reconnect to the same device with the same language ZIP and resume resources only. A confirmed firmware installation does not need to be repeated or returned to stock. Later CFW updates using the matching new Gate use the ordinary update path.
 
