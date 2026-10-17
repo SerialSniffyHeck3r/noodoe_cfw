@@ -1,10 +1,29 @@
-# NewDoe 0.11.2: startup, recovery and parking
+## 0.11.4 Gate update
+
+This release replaces Gate. **From every earlier release, including 0.11.3, use keep-data stock return and reinstall 0.11.4.** Install the 0.11.4 APK over the existing app, select the matching ZIP and follow its Gate migration guidance. A Product-only update cannot replace Gate.
+
+1. Stop riding integration and choose **Keep CFW data → Return to stock → Check current device**.
+2. Install **NewDoe-CFW-0.11.4.zip**, selecting **Restore saved data** in Bootstrap. If connection fails, follow the existing manual pairing help, then **Check current device → Continue from here**.
+3. Finish the actual **CFW UPDATE** confirmation and the phone's firmware confirmation after successful startup.
+4. Reuse **NewDoe-LANGUAGE-B-0.11.2.zip**. An identical verified pack does not need retransmission. The 0.11.3 language stability fixes remain included.
+
+Small text and the version are now at least as large as the main menu; menus are centered. Dashboard values and status use separate rows. Once the runnable firmware passes verification, **Start NewDoe** works while optional backups are still being checked.
+
+Automatic recovery follows **three consecutive unconfirmed boot failures**. Healthy boot confirmation clears the count. Power loss and BOR exclude the last interrupted handoff without discarding earlier real failures. Invalid firmware/storage can still enter recovery immediately to avoid running corrupted code. Only observed DOWN/O input is described as a button request; other entries show interrupted startup, saved recovery state or the actual error.
+
+**Maintain module power throughout stock return and reinstallation; do not crank the engine.** The previously accepted old-code stock-return power-loss limitation remains. New Gate BOR handling cannot repair the older installer code already running on a device.
+
+Hardware check: verify V0.11.4 at startup, readable centered menus, More/Dashboard, Start becoming available during backup checks, and normal reboot without an unexpected recovery request. Do not deliberately cut installation power. ARM execution and display commands were software-tested; this release has no physical power or LCD qualification.
+
+---
+
+# NewDoe 0.11.4: startup, recovery and parking
 
 Install the matching NewDoe APK and firmware ZIP. App identity, signature, settings and language preferences are retained. This release changes Gate: **existing 0.9.x, 0.10.x and 0.11.0/0.11.1 installations need a keep-data stock return and reinstallation**. A Product-only update cannot replace Gate. Future releases with the same Gate can use ordinary CFW updates.
 
 ## Install this release
 
-1. Install APK 0.11.2 over the existing app; keep its data and backups. Select the same module and matching 0.11.2 ZIP, and stop riding integration.
+1. Install APK 0.11.4 over the existing app; keep its data and backups. Select the same module and matching 0.11.4 ZIP, and stop riding integration.
 2. Follow **Return to stock, keep CFW data**, then **Check current device**. Stock 5.14/5.16 remain supported; this release adds no model or bootloader whitelist.
 3. Send the new ZIP's Bootstrap and choose **Restore stored data**. If it cannot connect, open connection help, forget the pairing in Android settings, reset Bootstrap pairing as instructed, pair again, then **Check current device → Continue**. No new mandatory pairing-completion state is introduced.
 4. Finish installation, normal startup and the actual **CFW UPDATE** confirmation. A transfer reaching 100% is not permanent firmware confirmation.
@@ -14,7 +33,7 @@ The original resident bootloader is unchanged. **Keep permanent power connected 
 
 ## Startup and updates
 
-The first splash shows only the centered NewDoe transparent wordmark for about two seconds, with the installed Product's **V0.11.2** below. Gate reads a bounded, checksummed version record in Product flash; missing or invalid metadata leaves the version blank. It does not guess a version from the phone.
+The first splash shows only the centered NewDoe transparent wordmark for about two seconds, with the installed Product's **V0.11.4** below. Gate reads a bounded, checksummed version record in Product flash; missing or invalid metadata leaves the version blank. It does not guess a version from the phone.
 
 Checking uses **SYSTEM STARTUP...**, the wordmark, a phase label, and eight mint dots. The dots represent overall progress across phases, not the current phase alone. The active dot blinks twice per second (250ms on/250ms off); completed dots stay mint. Text and dots have generous separate spacing. A completed operation lights all eight.
 
