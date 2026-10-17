@@ -1,3 +1,5 @@
+> **0.11.1:** larger logo/skull, Welcome! → Device Startup, and round-screen text layout. Even 0.11.0 needs keep-data stock return/reinstallation because Gate changed. [Installation](docs/releases/0.11.1/INSTALL.md)
+
 **NewDoe 0.11.0:** [Read the new Gate installation/recovery guide first / 새 Gate 설치·복구 안내](docs/releases/0.11.0/INSTALL.md).
 
 **0.10.7:** Reliable language activation, live preparation status, aligned trip units and split text/font resources. Healthy existing packs need no retransmission. [Details](docs/releases/0.10.7/INSTALL.md).
@@ -5,14 +7,14 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.0 beta
+# NewDoe 0.11.1 beta
 
-New startup/recovery screens and parking power fixes. **First upgrade from 0.9.x or 0.10.x requires keep-data stock return and reinstallation.**
+Larger Gate artwork and text placed inside the round screen. **Upgrading from 0.11.0, 0.10.x or 0.9.x requires keep-data stock return and reinstallation because Gate changed.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-0.11.0.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-CFW-0.11.0.zip)
-- [Optional offline language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-LANGUAGE-B-0.11.0.zip)
-- [Installation, recovery and battery-test limits / 설치·복구·절전 안내](docs/releases/0.11.0/INSTALL.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-0.11.1.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-CFW-0.11.1.zip)
+- [Optional offline language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-LANGUAGE-B-0.11.1.zip)
+- [Installation, recovery and battery-test limits / 설치·복구·절전 안내](docs/releases/0.11.1/INSTALL.md)
 
 Healthy language resources and saved settings are reused. Software checked; standby current still needs hardware measurement.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
@@ -31,7 +33,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.1.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
