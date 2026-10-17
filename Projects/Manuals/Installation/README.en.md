@@ -1,16 +1,23 @@
-## 0.11.5 Bootstrap display update
+## 0.11.6 Bootstrap display and optional re-pairing
 
-**From 0.11.4, use the normal CFW update.** Gate and language resources are unchanged. Older Gates still use keep-data stock return and reinstallation with the matching latest APK and ZIP. The older 0.11.4 Gate migration instructions below apply only when coming from an older Gate.
+**From0.11.4 or0.11.5, use normal CFW update.** Gate and language resources are unchanged. Older Gates still require keep-data stock return and reinstallation using the matching APK/ZIP.
 
-The initial file checks use a horizontal loading bar without numbers. Menus are centred; mint marks the selected item. Two fixed bars show the overall device stage and current device operation throughout transfer and verification. The phone uses the same device snapshot, with a small polling delay.
+The nine initial file checks use a horizontal loading bar without numbers. During installation, the pale mint upper bar is overall progress; the mint lower bar is the current device operation. The overall bar combines completed stages with the current operation’s fraction, instead of counting that stage as already complete. Percentages are hidden on the Noodoe. The phone uses the same snapshot, subject to polling delay.
 
-On **INSTALL CFW?**, a visible 30-second countdown automatically approves the verified installation. UP/DOWN stops the countdown. **Back → O** cancels; **Install CFW → O** approves immediately. Losing the connection stops automatic approval; a verified reconnect starts a fresh 30 seconds. The existing safe cancellation of an already started write is unchanged.
+Choosing **Install CFW** opens **Reset Bluetooth?**. **Yes is recommended** and clears all saved phone pairings; it is never automatically confirmed. **No** keeps the current pairing. After choosing Yes:
 
-The Ambient sensor menu and Bootstrap sensor sampling are removed. **Developer’s message** displays the complete original text. DOWN advances and wraps from the last page to the first; O returns to the menu. Riding automatic brightness is unchanged.
+1. Wait for **PAIR YOUR PHONE** on the Noodoe.
+2. In Android Bluetooth settings, forget this Noodoe.
+3. Pair the same Noodoe again.
+4. Return to the app, choose **Check current device → Continue from here**. Do not resend Bootstrap.
 
-Bootstrap runs during installation from stock. Existing 0.11.4 CFW users do not need to return to stock just to see these menus. Use the matching 0.11.5 APK and ZIP.
+The existing connection closes during reset. If CFW configuration storage exists, cleared keys are saved before Bluetooth restarts. On a first installation without that storage, re-pairing is held in the running Bootstrap and the new keys are saved before final installation. Persistence across a power restart before installation is not claimed in that case. Reset/save failures are not reported as success.
 
-[NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.en.md)
+The final **INSTALL CFW? / Everything is ready.** screen shows **Back / Install CFW** side by side. Its30-second countdown approves installation through the existing path. UP/DOWN stops the countdown and changes the selection; O executes it. Back cancels; Install CFW approves immediately. Connection loss stops automatic approval.
+
+**Developer’s message** uses the entire circular screen for contiguous text. **DOWN advances one screen, UP goes back one screen**, either end wraps, and O returns to the menu. Original text and font size are preserved; the fixed heading/footer no longer consume reading space.
+
+Bootstrap runs during installation from stock. Existing CFW users need not return to stock merely to see the changed menus. To run this new Bootstrap, use this ZIP during stock installation; normal Product update replaces Product only. Use the matching0.11.6 APK and ZIP.
 
 # Installation, recovery and compatibility ·0.10.1 beta
 

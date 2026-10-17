@@ -1,4 +1,4 @@
-> **0.11.5:** Clearer Bootstrap menus, fixed progress bars, a30-second final-install countdown and the complete developer message. **From0.11.4, use normal CFW update. Gate and language resources are unchanged.** [Guide](docs/releases/0.11.5/INSTALL.md)
+> **0.11.6:** Bootstrap now offers an optional Bluetooth reset before installation, synchronized progress bars without LCD percentages, full-screen developer text and side-by-side final choices. **From0.11.4/0.11.5 use normal CFW update; Gate and language resources are unchanged.** [Guide](docs/releases/0.11.6/INSTALL.md)
 
 > **0.11.1:** larger logo/skull, Welcome! → Device Startup, and round-screen text layout. Even 0.11.0 needs keep-data stock return/reinstallation because Gate changed. [Installation](docs/releases/0.11.1/INSTALL.md)
 
@@ -9,15 +9,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.5 beta
+# NewDoe0.11.6 beta
 
-Clearer Bootstrap menus, fixed progress bars, a30-second final-install countdown and the complete developer message. **From0.11.4, use normal CFW update. Gate and language resources are unchanged.**
+Bootstrap now offers an optional Bluetooth reset before installation, synchronized progress bars without LCD percentages, full-screen developer text and side-by-side final choices. **From0.11.4/0.11.5 use normal CFW update; Gate and language resources are unchanged.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.5-bootstrap/NewDoe-0.11.5.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.5-bootstrap/NewDoe-CFW-0.11.5.zip)
-- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.5-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.5/INSTALL.md)
-- [Validation and screens / 검증·화면](docs/releases/0.11.5/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.6-bootstrap/NewDoe-0.11.6.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.6-bootstrap/NewDoe-CFW-0.11.6.zip)
+- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.6-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.6/INSTALL.md)
+- [Validation and screens / 검증·화면](docs/releases/0.11.6/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -35,7 +35,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.5.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.5.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.6.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.6.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
