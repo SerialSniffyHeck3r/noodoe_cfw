@@ -1,3 +1,5 @@
+**NewDoe 0.11.0:** [Current Gate menu and recovery / 현재 Gate 복구 메뉴](../User/36-NewDoe-Recovery.md). Older Gate screenshots below apply only before migration.
+
 # 설치 정지·순정 복귀·표시부 복구
 
 **0.10.1 베타:** [현재 설치 순서·언어팩 안내](../User/35-Languages.md). 펌웨어 정상 실행 확인을 먼저 끝낸 뒤 언어 자원을 설치하세요.

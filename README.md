@@ -1,21 +1,23 @@
+**NewDoe 0.11.0:** [Read the new Gate installation/recovery guide first / 새 Gate 설치·복구 안내](docs/releases/0.11.0/INSTALL.md).
+
 **0.10.7:** Reliable language activation, live preparation status, aligned trip units and split text/font resources. Healthy existing packs need no retransmission. [Details](docs/releases/0.10.7/INSTALL.md).
 
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# Latest downloads
+# NewDoe 0.11.0 beta
 
-**Companion + CFW 0.10.7 beta — language activation and split resources**
+New startup/recovery screens and parking power fixes. **First upgrade from 0.9.x or 0.10.x requires keep-data stock return and reinstallation.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.7-language-activation/NoodoeCompanion-0.10.7.apk)
-- [Firmware ZIP 0.10.7](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.7-language-activation/NoodoeInstaller-CFW-0.10.7.zip)
-- [Optional offline language archive](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.10.7-language-activation/NOODOE-LANGUAGE-B-0.10.7.zip)
-- [Release notes / 설치 안내](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.7-language-activation)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-0.11.0.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-CFW-0.11.0.zip)
+- [Optional offline language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.0-newdoe/NewDoe-LANGUAGE-B-0.11.0.zip)
+- [Installation, recovery and battery-test limits / 설치·복구·절전 안내](docs/releases/0.11.0/INSTALL.md)
 
-Update both APK and firmware ZIP. Matching-Gate 0.10.x uses the ordinary CFW update; 0.9.x requires keep-data stock return and reinstallation. APK와 본체 ZIP을 모두 업데이트하세요. 정상 설치된 언어팩은 그대로 재사용합니다.
+Healthy language resources and saved settings are reused. Software checked; standby current still needs hardware measurement.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
-# FuckNudo CFW
+# NewDoe
 
 ![My AK550, with Noodoe in the middle of the dashboard](Projects/documentations/images/my-ak550.jpg)
 
@@ -29,7 +31,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeCompanion-0.10.7.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NoodoeInstaller-CFW-0.10.7.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

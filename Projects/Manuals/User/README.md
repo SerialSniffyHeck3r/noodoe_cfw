@@ -1,6 +1,6 @@
-# 사용 설명서
+[NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.md)
 
-[0.10.2: 차량 데이터 초기화 수정 및 업데이트 방법](../../../docs/releases/0.10.2/INSTALL.md)
+# 사용 설명서
 
 [0.10.1 다국어·글자 표시·설치 전환 — 0.10.1 베타](35-Languages.md)
 

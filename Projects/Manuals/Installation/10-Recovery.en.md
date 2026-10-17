@@ -1,3 +1,5 @@
+**NewDoe 0.11.0:** [Current Gate menu and recovery / 현재 Gate 복구 메뉴](../User/36-NewDoe-Recovery.en.md). Older Gate screenshots below apply only before migration.
+
 # Paused installation, stock return and display recovery
 
 **0.10.1 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.

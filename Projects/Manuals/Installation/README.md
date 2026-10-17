@@ -1,3 +1,5 @@
+[NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.md)
+
 # 설치·복구·호환성 ·0.10.1 베타
 
 [0.10.1 다국어·설치 전환 안내 — 0.10.1 베타](../User/35-Languages.md)
