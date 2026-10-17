@@ -1,3 +1,15 @@
+## 0.11.5 Bootstrap display update
+
+**From 0.11.4, use the normal CFW update.** Gate and language resources are unchanged. Older Gates still use keep-data stock return and reinstallation with the matching latest APK and ZIP. The older 0.11.4 Gate migration instructions below apply only when coming from an older Gate.
+
+The initial file checks use a horizontal loading bar without numbers. Menus are centred; mint marks the selected item. Two fixed bars show the overall device stage and current device operation throughout transfer and verification. The phone uses the same device snapshot, with a small polling delay.
+
+On **INSTALL CFW?**, a visible 30-second countdown automatically approves the verified installation. UP/DOWN stops the countdown. **Back → O** cancels; **Install CFW → O** approves immediately. Losing the connection stops automatic approval; a verified reconnect starts a fresh 30 seconds. The existing safe cancellation of an already started write is unchanged.
+
+The Ambient sensor menu and Bootstrap sensor sampling are removed. **Developer’s message** displays the complete original text. DOWN advances and wraps from the last page to the first; O returns to the menu. Riding automatic brightness is unchanged.
+
+Bootstrap runs during installation from stock. Existing 0.11.4 CFW users do not need to return to stock just to see these menus. Use the matching 0.11.5 APK and ZIP.
+
 # First installation from stock · 0.10.1 / manual revision 2
 
 **0.10.1 beta:** [current installation and language-pack sequence](../User/35-Languages.en.md). Confirm normal firmware startup before installing optional language resources.
@@ -32,7 +44,7 @@ After the app confirms transfer verification and asks for the ignition action, *
 ![Device connection screen](../images/boot-connect.png)
 ![Bootstrap welcome](../images/boot-welcome.png)
 
-Look for `FuckNudo Bootstrap / Welcome` and allow automatic reconnect. If it fails, disconnect and forget Noodoe in phone Bluetooth settings. On the Bootstrap connection screen press UP, select this phone, release O and hold O for two seconds. Pair again, choose Check current device, then Continue from here; do not resend Bootstrap. The app checks the actual role, image and device ID. Connection alone does not complete installation; the Bluetooth test menu is a diagnostic tool.
+Look for `NewDoe Bootstrap / Welcome` and allow automatic reconnect. If it fails, disconnect and forget Noodoe in phone Bluetooth settings. On the Bootstrap connection screen press UP, select this phone, release O and hold O for two seconds. Pair again, choose Check current device, then Continue from here; do not resend Bootstrap. The app checks the actual role, image and device ID. Connection alone does not complete installation; the Bluetooth test menu is a diagnostic tool.
 
 ## 4. Audit storage
 
@@ -63,12 +75,9 @@ The package's stock recovery APP, fonts/Bluetooth resources, settings/photos/log
 
 The app rechecks FAT, file ranges, required images and resources. A verification failure is not simply slow transfer. Preserve the app error and the device's Help code.
 
-## 8. Stage the installation image
+## 8. Final installation confirmation
 
-![Image transfer](../images/install-08-stage.png)
-![Device transfer screen](../images/boot-transfer.png)
-
-Byte progress belongs to the current operation. Overall stages are not a remaining-time estimate. Record file, sector and verification offsets if a failure occurs.
+After device verification, **INSTALL CFW?** displays a 30-second countdown and automatically installs if untouched. UP/DOWN stops the countdown and changes selection. Choose **Install CFW → O** to install now or **Back → O** to cancel. Connection or verification errors cannot automatically approve installation.
 
 ## 9. Approve Install CFW? on Noodoe
 

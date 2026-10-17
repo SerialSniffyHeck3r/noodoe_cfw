@@ -1,3 +1,15 @@
+## 0.11.5 Bootstrap display update
+
+**From 0.11.4, use the normal CFW update.** Gate and language resources are unchanged. Older Gates still use keep-data stock return and reinstallation with the matching latest APK and ZIP. The older 0.11.4 Gate migration instructions below apply only when coming from an older Gate.
+
+The initial file checks use a horizontal loading bar without numbers. Menus are centred; mint marks the selected item. Two fixed bars show the overall device stage and current device operation throughout transfer and verification. The phone uses the same device snapshot, with a small polling delay.
+
+On **INSTALL CFW?**, a visible 30-second countdown automatically approves the verified installation. UP/DOWN stops the countdown. **Back → O** cancels; **Install CFW → O** approves immediately. Losing the connection stops automatic approval; a verified reconnect starts a fresh 30 seconds. The existing safe cancellation of an already started write is unchanged.
+
+The Ambient sensor menu and Bootstrap sensor sampling are removed. **Developer’s message** displays the complete original text. DOWN advances and wraps from the last page to the first; O returns to the menu. Riding automatic brightness is unchanged.
+
+Bootstrap runs during installation from stock. Existing 0.11.4 CFW users do not need to return to stock just to see these menus. Use the matching 0.11.5 APK and ZIP.
+
 ## 0.11.4 Gate update
 
 This release replaces Gate. **From every earlier release, including 0.11.3, use keep-data stock return and reinstall 0.11.4.** Install the 0.11.4 APK over the existing app, select the matching ZIP and follow its Gate migration guidance. A Product-only update cannot replace Gate.
