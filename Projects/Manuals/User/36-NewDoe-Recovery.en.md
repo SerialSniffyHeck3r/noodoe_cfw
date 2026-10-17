@@ -1,39 +1,47 @@
-0.11.1: the logo and skull are now 240px. Welcome! becomes Device Startup when checking begins; the skull screen has no title. Gate text is laid out inside the 480px round screen.
+# NewDoe 0.11.2: startup, recovery and parking
 
-# NewDoe 0.11.1: startup, recovery and parking
+Install the matching NewDoe APK and firmware ZIP. App identity, signature, settings and language preferences are retained. This release changes Gate: **existing 0.9.x, 0.10.x and 0.11.0/0.11.1 installations need a keep-data stock return and reinstallation**. A Product-only update cannot replace Gate. Future releases with the same Gate can use ordinary CFW updates.
 
-NewDoe is the new name of this firmware and Android app. Install the matching APK and ZIP. Android package identity, signing key, saved settings and language content remain compatible. Use the new APK for riding; pre-0.10 riding message formats are no longer accepted. Installer/stock/update compatibility remains.
+## Install this release
 
-## First installation of this Gate
+1. Install APK 0.11.2 over the existing app; keep its data and backups. Select the same module and matching 0.11.2 ZIP, and stop riding integration.
+2. Follow **Return to stock, keep CFW data**, then **Check current device**. Stock 5.14/5.16 remain supported; this release adds no model or bootloader whitelist.
+3. Send the new ZIP's Bootstrap and choose **Restore stored data**. If it cannot connect, open connection help, forget the pairing in Android settings, reset Bootstrap pairing as instructed, pair again, then **Check current device → Continue**. No new mandatory pairing-completion state is introduced.
+4. Finish installation, normal startup and the actual **CFW UPDATE** confirmation. A transfer reaching 100% is not permanent firmware confirmation.
+5. Healthy B resources continue to work. The matching **NewDoe-LANGUAGE-B-0.11.2.zip** adds translated long-parking choices in all nine system languages; existing Japanese/CJ/emoji glyph masks are unchanged. Install the resource update after firmware confirmation if you want these new labels translated. With an older healthy pack, only the new labels fall back to English. Preserve your English-only preference as desired.
 
-This release replaces Gate. **0.9.x and 0.10.x both require one keep-data stock return and reinstallation**, even though ordinary updates between matching 0.10.x Gates previously worked. The existing installer compares the actual Gate image; it never overwrites Gate through a Product-only update.
+The original resident bootloader is unchanged. **Keep permanent power connected throughout stock return/reinstallation.** The accepted older-code stock-return power-loss interval remains: if power is lost before the new Gate runs, automatic recovery is not guaranteed. IGN OFF does not disconnect permanent power. Avoid operating the starter during installation.
 
-1. Install NewDoe APK 0.11.1 over the existing app without clearing its data. Select the same module and matching ZIP, and stop riding integration.
-2. Follow the existing **return to stock, keep CFW data** route. Check the current device and confirm stock. Stock 5.14/5.16 remain the installation targets; no new model or bootloader whitelist is introduced.
-3. Send Bootstrap from the 0.11.1 ZIP and choose **Restore stored data**. Keep permanent power connected throughout. If Bootstrap cannot connect, use the existing connection-help route: unpair in Android settings, reset pairing on Bootstrap as instructed, pair again, then **Check current device → Continue**. No mandatory re-pair completion flag was added.
-4. Complete installation, normal startup and the actual **CFW UPDATE** confirmation. Transfer 100% alone is not completion.
-5. Healthy existing B language resources are reused. If resources are missing, accept the separate language-resource offer after firmware confirmation. The optional offline archive is NewDoe-LANGUAGE-B-0.11.1.zip; its text/font bytes and hashes are unchanged from 0.10.7.
+## Startup and updates
 
-Future updates with this same Gate can use the normal CFW-to-CFW path. A different Gate still requires migration. The original resident bootloader is not replaced.
+The first splash shows only the centered NewDoe transparent wordmark for about two seconds, with the installed Product's **V0.11.2** below. Gate reads a bounded, checksummed version record in Product flash; missing or invalid metadata leaves the version blank. It does not guess a version from the phone.
 
-**Known legacy limitation:** if permanent power is lost while older CFW writes its stock-return request, boot may stop before the new Gate runs. Automatic recovery is not guaranteed in that old-code interval. Keep permanent power connected, avoid operating the starter during installation, and retain diagnostics if it stops. IGN OFF is not removal of permanent power.
+Checking uses **SYSTEM STARTUP...**, the wordmark, a phase label, and eight mint dots. The dots represent overall progress across phases, not the current phase alone. The active dot blinks twice per second (250ms on/250ms off); completed dots stay mint. Text and dots have generous separate spacing. A completed operation lights all eight.
 
-## What Gate shows
+An update restart skips the splash delay. During Gate's firmware installation, **UPDATING SYSTEM...** appears above one of two illustrations, chosen once for that boot. Both are 240×168 with transparency and are stored compressed in Gate's internal flash. The phase and eight blinking progress dots remain visible. Phone-to-Product transfer retains its existing UI and protocol; this artwork describes Gate's local installation stage.
 
-An ordinary startup shows NewDoe and its logo for about two seconds, then checks storage, firmware and the boot record before entering Product. A post-update installation restart skips the logo delay. Errors detected during checks enter the error screen. Holding DOWN at cold boot, or for one second during the logo window, requests recovery; the existing O entry remains available.
+Hold DOWN during the cold-boot splash or for one second during its window to enter recovery. Existing O entry remains available. A detected error goes directly to the skull screen.
 
-An error first shows the skull, the existing numeric code formatted as **0x0000**, and **Press Any Key... 30** counting down. A fresh button press or thirty seconds opens the recovery menu. That press only opens the menu. The reason is shown as **[code] [short reason]**; manual entry leaves the code column blank. Details also retains the latest operation error.
+## Errors and local recovery
 
-Eight rows always stay in place: Start NewDoe, Check again, Reinstall firmware, Restore previous, Return to stock, Details, Help, Restart. Unavailable actions are grey and explain why when selected. Only verified sources enable recovery. Start cannot bypass a failed trial or boot-attempt limit. Reinstall, previous-image restoration, stock restoration and restart require releasing O and holding it again for two seconds; UP/DOWN cancels. Checking never erases files. A pending publication is resumed by Restart.
+The skull screen shows the existing error number as **0x0000**, followed by **PRESS ANY KEY... 30**. A fresh button press or 30 seconds after the screen appears opens recovery. That press never selects a menu action. Recovery shows **[code] [short reason]**; manual entry leaves the code blank.
 
-Gate has **no Bluetooth, LVGL, external-font or SDRAM dependency**. Its artwork and help QR are in internal flash. If local recovery sources cannot be verified after bounded retries, the menu says no on-device recovery is available. Help links to this project's GitHub and explains programmer recovery after opening the module, or replacement if repair is not possible. If internal Gate itself cannot execute or the display hardware has failed, it cannot show these instructions.
+Eight rows stay in place: **Start NewDoe, Check again, Reinstall firmware, Restore previous, Return to stock, Details, More, Restart**. Unavailable entries are grey. UP/DOWN selects, O opens. Destructive actions and restart require a fresh two-second O hold; UP/DOWN cancels. Start still requires the original firmware/resource/boot-record checks and cannot bypass a failed trial.
 
-## Parking and battery use
+If normal stock restoration is unavailable, its row can offer **Try recovery anyway**. This searches alternate FAT chains, contiguous backup data and an already complete staged stock image, then verifies the device identity, stock target and full SHA before writing. It does not invent missing bytes or accept corrupt images. If a pending language/FONT transaction occupies recovery scratch, a separate explicit approval is required to discard that work. Other files are not deliberately erased.
 
-Existing power-sequence settings and timings are retained. Connection retention keeps Bluetooth available; the deepest parking stage disables Bluetooth, so proximity reconnection and welcome light cannot work there. Set these stages in **Settings → System → Power sequence**. Existing defaults are sixty minutes of screen standby followed by sixty minutes of Bluetooth retention, then deep sleep; saved user values are not reset.
+Failed-attempt flags are reset on reboot and Check again. Durable boot/update records remain validated. A transient storage read failure is not reported as proof that no recovery exists. Only an exhausted deep search or a failed forced restoration can lead to the no-recovery notice; O returns to the menu so the user can retry. Help provides the GitHub link and programmer recovery after opening the module, or replacement if repair is not possible.
 
-The idle input supervisor now allows 100ms waits while parked, instead of waking every 10ms and defeating the 16ms minimum for STOP. Button interrupts wake it immediately; debounce/held-button processing stays at 10ms. Incomplete RAM-only resource reception expires after sixty seconds without progress. NOR publication is allowed to finish and never cancelled just because IGN changes.
+**More → Help / Dashboard / Play game / Back.** Dashboard shows received speed, odometer and fuel; missing or stale data stays unavailable, not a made-up zero. It only reads the vehicle data and performs the normal link handshake. Pong uses UP/DOWN for the paddle, displays the current score, and O exits. No Bluetooth is included in Gate. Gate also has no LVGL, SDRAM or external-font dependency.
 
-In Gate with IGN OFF, an untouched error screen lasts thirty seconds, then the menu remains for the rest of the sixty-second idle period. Gate then shuts down the panel and uses short RTC STOP intervals to service the watchdog. RTC-only wakes do not turn the display back on or restart Bluetooth. The first button press wakes the screen without selecting anything. A missing/unusable RTC uses bounded timer-driven ordinary sleep instead of a busy loop; this fallback consumes more power than STOP.
+Help also explains the existing hardware restart: **IGN OFF → press UP + O → release → IGN ON**. In IGN OFF this can look like a power-off; switch IGN back on to start through Gate. If Gate or the display cannot execute, these on-screen recovery instructions cannot appear.
 
-Software checks verify state transitions and simulated wake sequences, not battery current. There is **no measured standby-current or one-week battery-life guarantee** for this release. Validate parked current after the configured deep-sleep delay, and check IGN/button wake and retained settings on hardware. A week-later battery voltage alone does not identify which circuit drew the current.
+## Long parking and battery use
+
+**Settings → System → Power sequence → Long parking power off:** Off, After 2 days (default), After 3 days, After 7 days. The Android device-settings dialog provides the same choices. Continuous IGN-OFF time is retained across software resets; genuine cold power-up or IGN ON resets it. Invalid retained timer data restarts the count instead of powering off early.
+
+At the limit, Product waits for settings/ride checkpoints, storage drain and all peripheral power acknowledgements, checks IGN again, and issues the power-off request. Active updates and language publication are not interrupted. If the hardware remains powered, Product stays dark with Bluetooth off in deep wait. The next IGN ON resets into Gate. Bluetooth proximity reconnection and welcome light are unavailable after this shutdown; earlier connection-retention behaviour is preserved.
+
+Existing power-sequence timings still apply before the long-parking limit. Gate with IGN OFF also blanks its panel after inactivity and uses RTC STOP wakes to service the watchdog. A button wakes the screen without choosing an action. If RTC sleep is unavailable, bounded ordinary sleep is used.
+
+Software tests cover state transitions, simulated interruptions and display commands. They do **not** measure actual parked current, radio behaviour or one-week battery life. Measure standby current after the configured sleep/shutdown stages and check IGN/button wake on the real module. Product Debug and Release retain at least **512 bytes** of internal flash; heap, stack, existing fonts/icons and compiler policy are unchanged.

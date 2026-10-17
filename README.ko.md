@@ -1,3 +1,5 @@
+> **0.11.2:** 새 Gate 부팅·복구 화면, 업데이트 그림 두 종류, 장기 주차 전원 끄기. **기존 0.11.1을 포함해 데이터 유지 순정 복귀 후 재설치가 필요합니다.** [Guide](docs/releases/0.11.2/INSTALL.md)
+
 > **0.11.1:** 더 큰 로고·해골, Welcome! → Device Startup, 원형 화면에 맞춘 안내.0.11.0에서도 Gate 변경 때문에 데이터 유지 순정 복귀·재설치가 필요해요. [설치 안내](docs/releases/0.11.1/INSTALL.md)
 
 **NewDoe 0.11.0:** [Read the new Gate installation/recovery guide first / 새 Gate 설치·복구 안내](docs/releases/0.11.0/INSTALL.md).
@@ -7,16 +9,16 @@
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.1 beta
+# NewDoe 0.11.2 beta
 
-Larger Gate artwork and text placed inside the round screen. **Upgrading from 0.11.0, 0.10.x or 0.9.x requires keep-data stock return and reinstallation because Gate changed.**
+새 Gate 부팅·복구 화면, 업데이트 그림 두 종류, 장기 주차 전원 끄기. **기존 0.11.1을 포함해 데이터 유지 순정 복귀 후 재설치가 필요합니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-0.11.1.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-CFW-0.11.1.zip)
-- [Optional offline language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.1-round-gate/NewDoe-LANGUAGE-B-0.11.1.zip)
-- [Installation, recovery and battery-test limits / 설치·복구·절전 안내](docs/releases/0.11.1/INSTALL.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.2-recovery/NewDoe-0.11.2.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.2-recovery/NewDoe-CFW-0.11.2.zip)
+- [Optional offline B language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.2-recovery/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.2/INSTALL.md)
+- [Software validation / 검증 범위](docs/releases/0.11.2/VALIDATION.md)
 
-Healthy language resources and saved settings are reused. Software checked; standby current still needs hardware measurement.
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
 # NewDoe
@@ -60,7 +62,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.1.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.1.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.2.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.2.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
