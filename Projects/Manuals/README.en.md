@@ -1,3 +1,5 @@
+[0.11.9: phone dashboard and three-page app](User/37-Phone-Dashboard.en.md)
+
 ## 0.11.8 Optional Bluetooth reset — default No
 
 After **Install CFW**, Bootstrap always asks **Reset Bluetooth?**, including when a saved bond is available. **No is selected by default.** The recommendation has been removed. Press O on No to keep the pairing and continue normally. Choose Yes deliberately only to clear the saved phone pairings, then re-pair in Android settings and return to the app. Waiting never chooses Yes or resets Bluetooth.

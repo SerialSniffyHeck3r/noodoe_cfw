@@ -1,4 +1,4 @@
-> **0.11.8:** Bootstrap always asks Reset Bluetooth? with **No selected by default**. Reset is optional, with no recommendation or automatic confirmation. Installation and stock-key handoff remain unchanged. **From 0.11.4–0.11.7 use normal CFW update; Gate and language resources are unchanged.** [Guide](docs/releases/0.11.8/INSTALL.md)
+> **0.11.9:** Three swipe pages: **Device · Home · Personalize**. Home adds a map, speed/ODO, trip readouts and service bars; Android handles maintenance reminders from read-only Noodoe counters. Use the matching APK and firmware ZIP. **0.11.4–0.11.8 use normal CFW update; Gate, Bootstrap and language resources are unchanged.** [Guide](docs/releases/0.11.9/INSTALL.md)
 
 > **0.11.1:** larger logo/skull, Welcome! → Device Startup, and round-screen text layout. Even 0.11.0 needs keep-data stock return/reinstallation because Gate changed. [Installation](docs/releases/0.11.1/INSTALL.md)
 
@@ -9,15 +9,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.8 beta
+# NewDoe 0.11.9 beta
 
-Bootstrap always asks Reset Bluetooth? with **No selected by default**. Reset is optional, with no recommendation or automatic confirmation. Installation and stock-key handoff remain unchanged. **From 0.11.4–0.11.7 use normal CFW update; Gate and language resources are unchanged.**
+Three swipe pages: **Device · Home · Personalize**. Home adds a map, speed/ODO, trip readouts and service bars; Android handles maintenance reminders from read-only Noodoe counters. Use the matching APK and firmware ZIP. **0.11.4–0.11.8 use normal CFW update; Gate, Bootstrap and language resources are unchanged.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-0.11.8.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-CFW-0.11.8.zip)
-- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.8/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.8/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-0.11.9.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-CFW-0.11.9.zip)
+- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.9/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.9/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -35,7 +35,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.8.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.8.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.9.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.9.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
