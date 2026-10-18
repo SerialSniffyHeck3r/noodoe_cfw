@@ -1,3 +1,5 @@
+[0.11.12: 주차 절전·장기 주차 종료 보완](User/36-NewDoe-Recovery.md)
+
 [0.11.10: 휴대폰 계기판 · 3페이지 앱](User/37-Phone-Dashboard.md)
 
 ## 0.11.8 선택형 Bluetooth 초기화 — 기본 No

@@ -1,4 +1,4 @@
-> **0.11.11:** Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.** [Guide](docs/releases/0.11.11/INSTALL.md)
+> **0.11.12:** Parking sleep and long-parking shutdown now handle failed RTC, radio, dashboard and UI preparation without abandoning active NOR writes. **Update both APK and firmware ZIP. Same-Gate devices from 0.11.4 onward use normal CFW update. Gate, Bootstrap and language resources are unchanged. Actual vehicle current/endurance remains unmeasured.** [Guide](docs/releases/0.11.12/INSTALL.md)
 
 > **0.11.11:** Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.** [Guide](docs/releases/0.11.11/INSTALL.md)
 
@@ -11,15 +11,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe0.11.11 beta · APK-only
+# NewDoe 0.11.12 beta
 
-Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.**
+Parking sleep and long-parking shutdown now handle failed RTC, radio, dashboard and UI preparation without abandoning active NOR writes. **Update both APK and firmware ZIP. Same-Gate devices from 0.11.4 onward use normal CFW update. Gate, Bootstrap and language resources are unchanged. Actual vehicle current/endurance remains unmeasured.**
 
-- [Android APK0.11.11](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-0.11.11.apk)
-- [Compatible firmware ZIP0.11.10 (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-CFW-0.11.10.zip)
-- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.11/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.11/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.12-parking-power/NewDoe-0.11.12.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.12-parking-power/NewDoe-CFW-0.11.12.zip)
+- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.12-parking-power/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.12/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.12/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -37,7 +37,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.11.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.10.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.12.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.12.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

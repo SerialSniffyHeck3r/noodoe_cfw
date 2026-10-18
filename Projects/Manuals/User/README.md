@@ -1,3 +1,5 @@
+[0.11.12: 주차 절전·장기 주차 종료 보완](36-NewDoe-Recovery.md)
+
 [0.11.11: 휴대폰 계기판 · 3페이지 앱](37-Phone-Dashboard.md)
 
 [NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.md)

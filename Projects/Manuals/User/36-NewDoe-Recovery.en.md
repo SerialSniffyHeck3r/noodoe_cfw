@@ -1,3 +1,21 @@
+## 0.11.12: stronger parked-power handling
+
+**Install both the APK and the 0.11.12 firmware ZIP. Updating the APK alone does not change Noodoe power handling.** Devices with the same Gate, from 0.11.4 onward, use the existing CFW update route. Older Gates follow the app's existing keep-data stock return and reinstall guidance. Gate, Bootstrap, language resources and pairing procedures are unchanged. The accepted power-interruption limitation in the old stock-return code still applies.
+
+Choose **Settings → System → Power sequence → Long parking power off**: Off / After 2 days (default) / After 3 days / After 7 days. Saved settings are retained, as is the default sequence of 60 minutes screen hold, 60 minutes Bluetooth retention, then deep sleep. Check the saved choices: skipping deep sleep or disabling long-parking shutdown disables those protections.
+
+The storage task counts parking even when the normal screen fails. If UI settings restoration is unavailable, it reads the valid saved parking preference directly. Unreadable settings use the existing two-day default; a valid saved Off choice remains Off. Software resets preserve elapsed time. IGN ON, real cold power-up or an invalid retained timer record restart the count as before.
+
+At the deadline the firmware tries a fresh settings/ride checkpoint. If the UI cannot supply it within 30 seconds, it preserves the last durable records and prepares shutdown; recent unsaved changes may be unavailable. Already started NOR operations finish first, and firmware/language publication is not interrupted. Once storage is frozen and its owner has acknowledged stopping, an unresponsive radio/display cannot delay the power-off request beyond a 10-second peripheral grace. This timeout never bypasses a physical storage operation.
+
+An unavailable RTC now falls back to ordinary CPU Sleep instead of spinning. That fallback may consume more than STOP. Dashboard TX has one second to finish before error cleanup. DMA fault quarantine is retained; observed DMA shutdown permits sleep without permitting buffer reuse or pretending the fault recovered.
+
+A power-off GPIO request is not a measurement that the supply actually disappeared. If power remains, available peripherals are shut down and deep sleep is attempted; IGN ON restarts through Gate. An active DMA channel is never falsely declared safe for STOP. Phone proximity connection and welcome light are unavailable after shutdown.
+
+**A dark screen is not proof of low standby current.** This firmware is not a vehicle-battery undervoltage cutoff. Software tests do not establish actual current, physical power removal or one-week battery life. Charge and test a severely discharged battery before installing firmware; do not install on unstable power. Compare battery-side standby current with Noodoe connected/disconnected after the configured sleep stages to identify the load.
+
+---
+
 ## 0.11.4 Gate update
 
 This release replaces Gate. **From every earlier release, including 0.11.3, use keep-data stock return and reinstall 0.11.4.** Install the 0.11.4 APK over the existing app, select the matching ZIP and follow its Gate migration guidance. A Product-only update cannot replace Gate.

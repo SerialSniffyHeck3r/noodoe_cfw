@@ -1,3 +1,5 @@
+[0.11.12: parked power and long-parking shutdown](User/36-NewDoe-Recovery.en.md)
+
 [0.11.10: phone dashboard and three-page app](User/37-Phone-Dashboard.en.md)
 
 ## 0.11.8 Optional Bluetooth reset — default No

@@ -1,3 +1,5 @@
+[0.11.12: parked power and long-parking shutdown](36-NewDoe-Recovery.en.md)
+
 [0.11.11: phone dashboard and three-page app](37-Phone-Dashboard.en.md)
 
 [NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.en.md)
