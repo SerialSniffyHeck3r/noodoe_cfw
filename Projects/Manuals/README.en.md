@@ -1,4 +1,4 @@
-[0.11.9: phone dashboard and three-page app](User/37-Phone-Dashboard.en.md)
+[0.11.10: phone dashboard and three-page app](User/37-Phone-Dashboard.en.md)
 
 ## 0.11.8 Optional Bluetooth reset — default No
 

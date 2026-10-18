@@ -1,4 +1,4 @@
-> **0.11.9:** **기기 · 홈 · 꾸미기**를 좌우로 넘깁니다. 홈에서 지도·속도·ODO·트립·정비 정보를 보고, 누도의 기존 카운터로 휴대폰이 정비 알림을 판단합니다. APK와 펌웨어 ZIP을 함께 사용하세요. **0.11.4~0.11.8은 일반 CFW 업데이트를 사용하며 Gate·Bootstrap·언어 자원은 같습니다.** [Guide](docs/releases/0.11.9/INSTALL.md)
+> **0.11.10:** OpenNoodoe 스타일 숫자·분리된 트립/정비 카드·순정 KYMCO 정보 표시·정비 거리 보정·미연결 UI 테스트·NEWDOE 워드마크를 적용했어요. **APK와 ZIP을 함께 사용하세요. 0.11.4~0.11.9는 일반 CFW 업데이트이며 Gate·Bootstrap·언어 자원은 같습니다.** [Guide](docs/releases/0.11.10/INSTALL.md)
 
 > **0.11.1:** 더 큰 로고·해골, Welcome! → Device Startup, 원형 화면에 맞춘 안내.0.11.0에서도 Gate 변경 때문에 데이터 유지 순정 복귀·재설치가 필요해요. [설치 안내](docs/releases/0.11.1/INSTALL.md)
 
@@ -9,15 +9,15 @@
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.9 beta
+# NewDoe 0.11.10 beta
 
-**기기 · 홈 · 꾸미기**를 좌우로 넘깁니다. 홈에서 지도·속도·ODO·트립·정비 정보를 보고, 누도의 기존 카운터로 휴대폰이 정비 알림을 판단합니다. APK와 펌웨어 ZIP을 함께 사용하세요. **0.11.4~0.11.8은 일반 CFW 업데이트를 사용하며 Gate·Bootstrap·언어 자원은 같습니다.**
+OpenNoodoe 스타일 숫자·분리된 트립/정비 카드·순정 KYMCO 정보 표시·정비 거리 보정·미연결 UI 테스트·NEWDOE 워드마크를 적용했어요. **APK와 ZIP을 함께 사용하세요. 0.11.4~0.11.9는 일반 CFW 업데이트이며 Gate·Bootstrap·언어 자원은 같습니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-0.11.9.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-CFW-0.11.9.zip)
-- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.9-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.9/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.9/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-0.11.10.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-CFW-0.11.10.zip)
+- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.10/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.10/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -62,7 +62,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.9.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.9.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.10.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.10.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 

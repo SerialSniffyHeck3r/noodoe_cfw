@@ -1,4 +1,4 @@
-[0.11.9: 휴대폰 계기판 · 3페이지 앱](User/37-Phone-Dashboard.md)
+[0.11.10: 휴대폰 계기판 · 3페이지 앱](User/37-Phone-Dashboard.md)
 
 ## 0.11.8 선택형 Bluetooth 초기화 — 기본 No
 
