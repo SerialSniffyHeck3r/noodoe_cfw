@@ -1,4 +1,6 @@
-> **0.11.10:** Home now uses OpenNoodoe-style numerals and separate trip/service cards. Stock devices show original KYMCO data. Added manual service-distance correction, a disconnected UI test screen, and the supplied NEWDOE wordmark. **Use the matching APK and ZIP; 0.11.4–0.11.9 use normal CFW update. Gate, Bootstrap and language resources are unchanged.** [Guide](docs/releases/0.11.10/INSTALL.md)
+> **0.11.11:** Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.** [Guide](docs/releases/0.11.11/INSTALL.md)
+
+> **0.11.11:** Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.** [Guide](docs/releases/0.11.11/INSTALL.md)
 
 > **0.11.1:** larger logo/skull, Welcome! → Device Startup, and round-screen text layout. Even 0.11.0 needs keep-data stock return/reinstallation because Gate changed. [Installation](docs/releases/0.11.1/INSTALL.md)
 
@@ -9,15 +11,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.10 beta
+# NewDoe0.11.11 beta · APK-only
 
-Home now uses OpenNoodoe-style numerals and separate trip/service cards. Stock devices show original KYMCO data. Added manual service-distance correction, a disconnected UI test screen, and the supplied NEWDOE wordmark. **Use the matching APK and ZIP; 0.11.4–0.11.9 use normal CFW update. Gate, Bootstrap and language resources are unchanged.**
+Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-0.11.10.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-CFW-0.11.10.zip)
-- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.10-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.10/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.10/VALIDATION.md)
+- [Android APK0.11.11](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-0.11.11.apk)
+- [Compatible firmware ZIP0.11.10 (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-CFW-0.11.10.zip)
+- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.11-dashboard/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.11/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.11/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -35,7 +37,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.10.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.10.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.11.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.10.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
