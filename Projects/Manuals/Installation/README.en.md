@@ -1,23 +1,20 @@
-## 0.11.6 Bootstrap display and optional re-pairing
+## 0.11.7 Bootstrap pairing handoff
 
-**From0.11.4 or0.11.5, use normal CFW update.** Gate and language resources are unchanged. Older Gates still require keep-data stock return and reinstallation using the matching APK/ZIP.
+**Use the matching 0.11.7 APK and ZIP. From 0.11.4–0.11.6, normal CFW update is available.** Gate and language resources are unchanged. Older Gates still use the existing keep-data stock-return/reinstall route.
 
-The nine initial file checks use a horizontal loading bar without numbers. During installation, the pale mint upper bar is overall progress; the mint lower bar is the current device operation. The overall bar combines completed stages with the current operation’s fraction, instead of counting that stage as already complete. Percentages are hidden on the Noodoe. The phone uses the same snapshot, subject to polling delay.
+During stock installation, **keep the existing Android pairing** and choose **Install CFW** in Bootstrap. Bootstrap now loads the saved stock link key before starting Bluetooth and carries it into CFW through the verified settings journal. A normal key handoff skips the reset question. Do not delete the pairing as a routine installation step.
 
-Choosing **Install CFW** opens **Reset Bluetooth?**. **Yes is recommended** and clears all saved phone pairings; it is never automatically confirmed. **No** keeps the current pairing. After choosing Yes:
+If the key is missing or connection still fails, manual recovery remains available. In the Bootstrap connection-wait screen, press **UP**, choose the phone or all pairings, then release O and hold O for two seconds to confirm. If **Reset Bluetooth?** appears directly, **Yes** clears saved pairings and **No** keeps them; neither is automatically selected. After clearing:
 
-1. Wait for **PAIR YOUR PHONE** on the Noodoe.
-2. In Android Bluetooth settings, forget this Noodoe.
-3. Pair the same Noodoe again.
-4. Return to the app, choose **Check current device → Continue from here**. Do not resend Bootstrap.
+1. Wait for **PAIR YOUR PHONE**.
+2. Forget this Noodoe in Android Bluetooth settings and pair it again.
+3. Return to **Check current device → Continue from here**. Do not resend Bootstrap or clear app data.
 
-The existing connection closes during reset. If CFW configuration storage exists, cleared keys are saved before Bluetooth restarts. On a first installation without that storage, re-pairing is held in the running Bootstrap and the new keys are saved before final installation. Persistence across a power restart before installation is not claimed in that case. Reset/save failures are not reported as success.
+Previously re-paired or deliberately deleted CFW keys are preserved when the stock key has not changed. The stock NOR record is read only. Before final installation, the current key must be durably saved and verified for Product to reuse it. On a first installation without CFW settings storage, a manual re-pair remains session-local until that final save; an earlier power restart may require re-pairing again.
 
-The final **INSTALL CFW? / Everything is ready.** screen shows **Back / Install CFW** side by side. Its30-second countdown approves installation through the existing path. UP/DOWN stops the countdown and changes the selection; O executes it. Back cancels; Install CFW approves immediately. Connection loss stops automatic approval.
+The two synchronized progress bars, full-screen developer message and final **Back / Install CFW** choices with the existing 30-second confirmation remain unchanged. Bootstrap runs only during stock installation: a normal CFW update does not replace an already-running Bootstrap. To test this fix, the stock-to-Bootstrap step must use the new ZIP.
 
-**Developer’s message** uses the entire circular screen for contiguous text. **DOWN advances one screen, UP goes back one screen**, either end wraps, and O returns to the menu. Original text and font size are preserved; the fixed heading/footer no longer consume reading space.
-
-Bootstrap runs during installation from stock. Existing CFW users need not return to stock merely to see the changed menus. To run this new Bootstrap, use this ZIP during stock installation; normal Product update replaces Product only. Use the matching0.11.6 APK and ZIP.
+Software tests replayed the stock 5.16 bond routines, key authentication commands, journal interruptions and both handoffs. Physical radio testing and the unavailable stock 5.14 binary are not covered by that evidence. If a phone has already forgotten its key, firmware cannot recreate the phone-side copy: pair once using the fallback above.
 
 # Installation, recovery and compatibility ·0.10.1 beta
 
