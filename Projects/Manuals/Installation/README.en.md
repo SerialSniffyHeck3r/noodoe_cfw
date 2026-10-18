@@ -1,8 +1,16 @@
+## 0.11.8 Optional Bluetooth reset — default No
+
+After **Install CFW**, Bootstrap always asks **Reset Bluetooth?**, including when a saved bond is available. **No is selected by default.** The recommendation has been removed. Press O on No to keep the pairing and continue normally. Choose Yes deliberately only to clear the saved phone pairings, then re-pair in Android settings and return to the app. Waiting never chooses Yes or resets Bluetooth.
+
+The stock-key handoff from 0.11.7, secure reconnection, file verification, key-save barrier, final installation confirmation and Bootstrap → CFW handoff are unchanged. The final **INSTALL CFW?** screen retains its existing 30-second confirmation; the Bluetooth reset question has no automatic confirmation.
+
+Use the matching **0.11.8 APK and ZIP**. From 0.11.4–0.11.7, normal CFW update remains available. Gate and language resources are unchanged. The new Bootstrap prompt is used during stock installation with the new ZIP; a normal Product update does not replace an already-running Bootstrap. The existing older-Gate migration and accepted old-code stock-return power-interruption limitation remain.
+
 ## 0.11.7 Bootstrap pairing handoff
 
 **Use the matching 0.11.7 APK and ZIP. From 0.11.4–0.11.6, normal CFW update is available.** Gate and language resources are unchanged. Older Gates still use the existing keep-data stock-return/reinstall route.
 
-During stock installation, **keep the existing Android pairing** and choose **Install CFW** in Bootstrap. Bootstrap now loads the saved stock link key before starting Bluetooth and carries it into CFW through the verified settings journal. A normal key handoff skips the reset question. Do not delete the pairing as a routine installation step.
+During stock installation, **keep the existing Android pairing** and choose **Install CFW** in Bootstrap. Bootstrap now loads the saved stock link key before starting Bluetooth and carries it into CFW through the verified settings journal. The optional reset question always appears with No selected by default. Do not delete the pairing as a routine installation step.
 
 If the key is missing or connection still fails, manual recovery remains available. In the Bootstrap connection-wait screen, press **UP**, choose the phone or all pairings, then release O and hold O for two seconds to confirm. If **Reset Bluetooth?** appears directly, **Yes** clears saved pairings and **No** keeps them; neither is automatically selected. After clearing:
 

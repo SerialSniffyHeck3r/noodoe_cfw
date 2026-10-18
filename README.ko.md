@@ -1,4 +1,4 @@
-> **0.11.7:** Bootstrap이 Bluetooth 시작 전에 순정 페어링 키를 이어받고 CFW에서도 쓰도록 저장합니다. 기존 키가 있으면 초기화 질문 없이 연결합니다. **0.11.4~0.11.6에서는 일반 CFW 업데이트를 사용하며 Gate와 언어 자원은 그대로입니다.** [Guide](docs/releases/0.11.7/INSTALL.md)
+> **0.11.8:** Bootstrap의 Reset Bluetooth? 질문은 항상 표시하며 **기본 선택은 No**입니다. 초기화를 권장하거나 자동 승인하지 않습니다. 설치 절차와 순정 키 인계는 그대로입니다. **0.11.4~0.11.7에서는 일반 CFW 업데이트를 사용하며 Gate와 언어 자원은 같습니다.** [Guide](docs/releases/0.11.8/INSTALL.md)
 
 > **0.11.1:** 더 큰 로고·해골, Welcome! → Device Startup, 원형 화면에 맞춘 안내.0.11.0에서도 Gate 변경 때문에 데이터 유지 순정 복귀·재설치가 필요해요. [설치 안내](docs/releases/0.11.1/INSTALL.md)
 
@@ -9,15 +9,15 @@
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.7 beta
+# NewDoe 0.11.8 beta
 
-Bootstrap이 Bluetooth 시작 전에 순정 페어링 키를 이어받고 CFW에서도 쓰도록 저장합니다. 기존 키가 있으면 초기화 질문 없이 연결합니다. **0.11.4~0.11.6에서는 일반 CFW 업데이트를 사용하며 Gate와 언어 자원은 그대로입니다.**
+Bootstrap의 Reset Bluetooth? 질문은 항상 표시하며 **기본 선택은 No**입니다. 초기화를 권장하거나 자동 승인하지 않습니다. 설치 절차와 순정 키 인계는 그대로입니다. **0.11.4~0.11.7에서는 일반 CFW 업데이트를 사용하며 Gate와 언어 자원은 같습니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.7-bootstrap/NewDoe-0.11.7.apk)
-- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.7-bootstrap/NewDoe-CFW-0.11.7.zip)
-- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.7-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.7/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.7/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-0.11.8.apk)
+- [Matching firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-CFW-0.11.8.zip)
+- [Optional offline B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.8-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.8/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.8/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -62,7 +62,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.7.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.7.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.8.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.8.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
