@@ -1,19 +1,9 @@
-# NewDoe 0.11.11 — phone dashboard
+# App dashboard, customization and preview
 
-Swipe between **Device · Home · Personalize**. Start / Pause at the top controls the connection. The original installation wizard and confirmations remain on Device.
+Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
 
-Home has full-width dark rectangular information sections: **map with speed/ODO**, **trip computer**, and **maintenance**. Speed and ODO use OpenNoodoe’s bold system monospace font, with dim leading zeros (three/six digits). Average uses the Ø icon and maximum uses an upward arrow. Tap the trip information area to switch A, B, TODAY and THIS SESSION. Average includes stopped time, matching the device.
+**[App dashboard, customization and preview — open the current instructions](../Guide.en.md#dashboard)**
 
-Oil has a large horizontal bar and remaining distance on the left; belt and service have separate pill bars and remaining distance on the right. Oil means the remaining service interval, not a measurement of physical oil quantity. Earliest enabled distance/hour/day limit controls each bar. Unknown data remains unknown and disconnected counters display their last receipt time. Service reminders still come from Android, using Noodoe’s counters.
 
-**Stock KYMCO:** the trip and maintenance sections are replaced by original vehicle information. Speed, ODO, stop duration and maximum speed use stock read commands, followed by model/firmware/series/PCBA information. CFW-only counters and maintenance reminders are not invented. If the app has not identified the unit yet, use Device → Check current device first, then Start. Stock dashboard mode only reads; it does not start an installation or send CFW settings.
 
-**Correct a service counter:** on Noodoe open Main menu → Maintenance → Oil / Belt / Service → Current distance. Enter kilometres travelled since that service. The phone exposes the same fields under Personalize → Current device settings. Total ODO, other services, hour and date baselines remain unchanged. A valid current ODO and restored ride state are required, and the value cannot exceed ODO. Save completion uses the existing NOR ride checkpoint; no new storage partition is introduced. Ordinary updates preserve it. With older language resources the new “Current distance” menu label can fall back to English.
-
-**UI test screen:** first pause the connection and finish or stop any installation task. Open Personalize → UI test screen. Its permanent banner marks all data as simulated. Choose CFW, stock KYMCO, no data or disconnected presentation. “Edit test values” changes speed, ODO, trips, average/maximum, service percentages, map coordinates and units. Tap the trip area to advance. The visible Stock KYMCO button previews stock information; Edit test values lets you set ignition, speed, ODO, maximum speed, stopped time, model, firmware, series and PCBA. Stock uses km units. These values are local to this screen and never sent over Bluetooth, used for service alerts or written into riding records. Leaving discards them; starting a real connection/work closes the preview. It cannot be used while connected. Map previews use the selected offline map without starting GPS.
-
-The map uses the existing file and location feed; rendering stops while hidden. Counter schema 2 adds existing moving/stopped times and peaks to the read-only snapshot (256 bytes including result), at the unchanged 2/5/10-second cadence. Android still accepts old schema-1 cached counters.
-
-**0.11.11 is an Android presentation update. Install only the APK if your device already runs 0.11.10.** Older devices use the accompanying unchanged 0.11.10 CFW ZIP. 0.11.4–0.11.9 use normal same-Gate CFW update. Gate, Bootstrap, resident bootloader and language archives are unchanged; working fonts do not need retransmission. Older mismatched-Gate devices retain the installer’s stock-return/reinstall route. The previously accepted old-code stock-return power-interruption limitation remains.
-
-Software validation is separate from physical Noodoe/RF/vehicle qualification. See the release validation record for actual test and phone installation results.
+[← Full manual](../README.en.md)

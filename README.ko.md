@@ -1,23 +1,11 @@
-> **0.11.15:** 언어팩 전체 검사는 설치 때 수행하고 이후 부팅은 선택 언어의 문구·글자를 불러옵니다. 일본어 인덱스의 반복 읽기도 줄였습니다. **APK·Product 모두 0.11.15로 업데이트하세요. Gate·Bootstrap·B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.** [Guide](docs/releases/0.11.15/INSTALL.md)
-
-> **0.11.12:** RTC·무선·계기판·화면 오류가 절전과 장기 주차 종료를 막는 경로를 보완했어요. 진행 중인 NOR 기록은 보호합니다. **APK와 펌웨어 ZIP을 함께 업데이트하세요. 0.11.4 이후 같은 Gate는 일반 CFW 업데이트입니다. Gate·Bootstrap·언어팩은 같으며 실제 차량 전류·주차 수명은 아직 측정하지 않았습니다.** [Guide](docs/releases/0.11.12/INSTALL.md)
-
-> **0.11.11:** 어두운 화면을 가로 폭에 맞추고, 오일 가로 막대·남은 거리, 트립 터치 순환, 순정 정보 테스트, 잘리지 않는 투명 NEWDOE 워드마크를 적용했어요. **누도가 이미0.11.10이면 APK만 설치하세요. 펌웨어ZIP0.11.10과 언어 자원은 그대로예요.** [Guide](docs/releases/0.11.11/INSTALL.md)
-
-> **0.11.1:** 더 큰 로고·해골, Welcome! → Device Startup, 원형 화면에 맞춘 안내.0.11.0에서도 Gate 변경 때문에 데이터 유지 순정 복귀·재설치가 필요해요. [설치 안내](docs/releases/0.11.1/INSTALL.md)
-
-**NewDoe 0.11.0:** [Read the new Gate installation/recovery guide first / 새 Gate 설치·복구 안내](docs/releases/0.11.0/INSTALL.md).
-
-**0.10.7:** 언어 활성화·진행 상태·글꼴 단위 위치를 수정하고 문구/폰트를 분리 배포합니다. 정상 기존 팩은 재전송하지 않습니다. [안내](docs/releases/0.10.7/INSTALL.md).
-
-**0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
+**설명서 전면 개정 · 2026-10-19:** [처음부터 따라하는 상세 설명서](Projects/Manuals/Guide.md) · [English](Projects/Manuals/Guide.en.md). 최초 설치·업데이트·언어·연결 복구·폰 없이 순정 복귀를 단계별로 정리했습니다. 선택적으로 manual-r2 APK를 덮어 설치하면 앱 도움말도 갱신됩니다. **본체는 0.11.15 그대로이며 이번 설명서 개정 때문에 본체나 정상 언어팩을 다시 설치하지 않습니다.**
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # NewDoe 0.11.15 beta
 
 언어팩 전체 검사는 설치 때 수행하고 이후 부팅은 선택 언어의 문구·글자를 불러옵니다. 일본어 인덱스의 반복 읽기도 줄였습니다. **APK·Product 모두 0.11.15로 업데이트하세요. Gate·Bootstrap·B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15.apk)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
 - [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
 - [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
 - [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
@@ -66,16 +54,19 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.14.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.14.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.15-manual-r2.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.15.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
 [순정 어셈블리로 확인한 표시부 리비전](Projects/documentations/hardware-revisions-0.9.29.ko.md)
 
-**0.10.1 베타 설명서:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
+**현재 설치 설명서:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
 
 
-최신: **APK / Product0.10.1 beta**. [Ride Summary 음영·설정 보존·오일 호](Projects/Manuals/User/33-Ride-Preservation.md).
+
+## 이전 버전 연구 기록
+
+아래 링크는 과거 릴리즈 기록이며 현재 설치 절차가 아닙니다.
 
 [0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
 
@@ -84,4 +75,4 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 [0.9.71: Ride Summary, settings preservation and oil arc](Projects/documentations/ride-preserve-0.9.71.md)
 
 
-[0.9.73: 발신자 표시와 주행 자동 재연결](Projects/Manuals/User/34-Call-Reconnect.md). 당시0.9.73은 APK만 갱신했습니다. 이번0.10.1은 위의 펌웨어·Gate 전환 절차를 따릅니다.
+[0.9.73: 발신자 표시와 주행 자동 재연결](Projects/Manuals/User/34-Call-Reconnect.md)

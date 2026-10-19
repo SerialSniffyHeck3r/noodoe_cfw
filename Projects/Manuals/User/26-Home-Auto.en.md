@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.64 · HOME AUTO, manual Bootstrap pairing and background return
 
 > Pairing instructions below describe historical 0.9.64. In 0.9.72 the mandatory wizard is removed; use [current connection recovery](../Installation/12-Connection-Recovery.en.md). HOME behavior is unchanged.

@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.70 · Ignition-off photo without shading
 
 The confirmed ignition-off photo now displays at its original colour gain, without the full-image darkening or the clock/ODO edge gradient. This applies to the shutdown summary, photo standby and approach welcome light while ignition remains off. The selected photo, photo transition, clock/ODO layout and actual backlight/power timing are retained.

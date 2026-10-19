@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # Companion 0.9.67 · Actual stock mode takes priority
 
 Update the APK without clearing data. This is an **Android-only fix**: Product remains 0.9.66, and the 0.9.67 installer ZIP is byte-for-byte identical to 0.9.66. An already working 0.9.66 device does not need reflashing.

@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # Display and status icons · 0.9.60
 
 [Usage guide](README.en.md) · [한국어](22-Status-Display.md)

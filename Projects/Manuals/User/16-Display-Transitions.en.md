@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.26: background shading and Bluetooth validation
 
 [한국어](16-Display-Transitions.md) · [User guide](README.en.md) · [Latest downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)

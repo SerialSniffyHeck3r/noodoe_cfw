@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.69 · Settings catalog update fix
 
 If a CFW update stops with **Device rejected opcode 151 result=3**, install the **0.9.69 APK over the existing app without clearing its data**, then select the matching **0.9.69 ZIP** and retry the CFW update while stopped. A failure during the initial settings snapshot occurs before this attempt starts resource or Product transfer. Keep existing installation records; if an earlier transfer was interrupted, use Check current CFW / installation result first.

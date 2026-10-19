@@ -1,3 +1,5 @@
+> **이전 버전 기록 — 현재 설치 지침이 아닙니다.** 이 페이지에는 예전 동작·화면이 보존되어 있습니다. 현재 조작·다운로드·설치·복구는 [0.11.15 설명서](../Guide.md)를 따르세요.
+
 # 0.9.26: 화면 음영·Bluetooth 검증
 
 [English](16-Display-Transitions.en.md) · [사용 설명서](README.md) · [최신 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)

@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.71 · Ride Summary, retained settings and oil arc
 
 Ride Summary keeps its original darkened photo and edge shading throughout the summary and exit. Only the following ignition-off photo standby and approach welcome light show the photo without shading. Ignition ON restores the usual page contrast. Fuel-warning shading, photos, clock/ODO layout and backlight/power timing remain unchanged.

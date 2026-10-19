@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # Dashboard blink alerts · 0.9.62
 
 [한국어](24-Dashboard-Alerts.md) · [User manual](README.en.md)

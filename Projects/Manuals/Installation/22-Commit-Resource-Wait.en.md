@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # B / 6 — resource verification before COMMIT
 
 Opcode 67 is COMMIT. Result 11 / Code B means the commit outcome is uncertain. Phase 6 on this Product screen means UPDATE_FAILED, not flash sector 6.

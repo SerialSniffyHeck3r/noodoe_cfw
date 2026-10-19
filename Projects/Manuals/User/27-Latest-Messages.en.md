@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.65 · Latest messages and sharing replies
 
 Rapid messages are no longer discarded while Noodoe is receiving a text image. The phone retains the latest message and merges superseded pending revisions. Android conversation-style notifications use their last message. A completed old transfer cannot overwrite a newer revision.

@@ -1,69 +1,17 @@
-[0.11.12: 주차 절전·장기 주차 종료 보완](36-NewDoe-Recovery.md)
+# NewDoe — 평소 사용하기
 
-[0.11.11: 휴대폰 계기판 · 3페이지 앱](37-Phone-Dashboard.md)
+현재 앱·Product **0.11.15**, Bootstrap **0.11.14**, Gate **0.11.4**, B 언어 자원 **0.11.2** 기준입니다. 2026-10-19 개정. 구성요소의 버전 번호가 서로 다른 것은 정상입니다.
 
-[NewDoe 0.11.0 — startup, recovery, parking / 부팅·복구·절전](../User/36-NewDoe-Recovery.md)
+[← 전체 설명서](../README.md) · [English](README.en.md)
 
-# 사용 설명서
+- [언어팩 설치·갱신·언어 변경](../Guide.md#language)
+- [첫 사용과 휴대폰 권한](../Guide.md#phone)
+- [본체 버튼과 설정](../Guide.md#controls)
+- [ODO·트립·정비 카운터](../Guide.md#vehicle)
+- [음악·전화·알림·빠른 답장](../Guide.md#media)
+- [지도·자동 축척](../Guide.md#map)
+- [앱 홈·꾸미기·테스트 모드](../Guide.md#dashboard)
+- [시동 OFF·장기 주차·배터리](../Guide.md#parking)
+- [문제 보고와 백업](../Guide.md#report)
 
-[0.10.1 다국어·글자 표시·설치 전환 — 0.10.1 베타](35-Languages.md)
-
-[0.9.73: 발신자 표시와 주행 자동 재연결](34-Call-Reconnect.md)
-
-[0.10.1 베타 설명서: 설치·복구](../Installation/README.md) · [호환 모델](../Installation/07-Compatibility.md)
-
-**0.9.66 현재 안내:** [상단 메뉴·GPS 펄스·휴대전화 배터리·중앙 연료 경고](23-Controls-Recovery.md). 아래의 버전별 링크는 변경 이력입니다.
-
-[0.9.43 수신 전화 팝업과 자동 밝기](21-Calls-Backlight.md)
-
-[0.9.42 GPS 테스트·주차 버튼·화면 처리](20-Render-GPS.md)
-
-[0.9.41 설치 상태·작업 진단](../Installation/19-State-Ownership.md)
-
-[0.9.40 버튼·복구·롤백 후 업데이트](../User/18-Input-Recovery.md)
-
-[0.9.28: 지도 표시·전체 연료 경고·Bluetooth 속도 확인](17-Map-Rendering.md)
-
-[0.9.21: HOME / map / display fixes](15-Map-Stability.md)
-
-[0.9.20: 지도·메뉴 스트립·알림 팝업·빠른 답장 10개](14-Map-Popup.md)
-
-[설명서 첫 화면](../README.md) · [설치·복구 설명서](../Installation/README.md)
-
-[English guide](README.en.md) · **APK / Product0.10.1 beta · 2026-10-16**
-
-FuckNudo의 주행 화면과 휴대전화 기능을 실제로 사용하는 방법입니다. 처음 설치하거나 펌웨어를 업데이트할 때는 [설치·복구 설명서](../Installation/README.md)를 보세요.
-
-1. [버튼과 공통 화면](01-Controls.md)
-2. [휴대전화 준비·권한·연결](02-Phone-Setup.md)
-3. [홈·ODO·트립·정비](03-Home-Trip.md)
-4. [알림·음악·전화](04-Phone-Media-Calls.md)
-5. [오프라인 지도·GPS·목적지·테스트 위치](05-GPS.md)
-6. [퀵 세팅·전체 설정](06-Settings.md)
-7. [시동·절전·경고](07-Power-Warnings.md)
-8. [캡처·예시 값·출처](12-Capture-Notes.md)
-
-9. [외장 NOR 백업·파일 탐색기](13-NOR-Backup.md) — 파일별 백그라운드 복사, IGN OFF 전체 백업, 취소·이어받기·ZIP 내보내기
-
-
-[0.9.22 화면 전환·지도·음영](16-Display-Transitions.md)
-
-[0.9.62 · Dashboard blink alerts](24-Dashboard-Alerts.md)
-
-[0.9.63 · 알림 표시·자동 재연결](25-Connection-Indicators.md)
-
-[0.9.64 · HOME AUTO · 수동 재페어링 · 자동 복귀](26-Home-Auto.md)
-
-[0.9.65 · 최신 알림 · 위치·음악 답장](27-Latest-Messages.md)
-
-[0.9.66 · 속도 링 색상 조정](28-Speed-Ring.md)
-
-[0.9.67 · 실제 순정 응답 우선](../Installation/29-Stock-Mode.md)
-
-[0.9.68 · 정보 전송·설정 보존·연속 색상](30-Sharing-Settings.md)
-
-[0.9.69 · 설정 목록 오류·업데이트 복구](31-Settings-Catalog.md)
-
-[0.9.70 · 시동 OFF 배경 음영 제거](32-Off-Photo.md)
-
-[0.9.71 · 요약 음영·설정 보존·오일 호](33-Ride-Preservation.md)
+처음 설치할 때는 준비 → 순정 최초 설치 → 언어 자원 순서로 읽으세요. 현재 본체 안내를 따르고 옛 버전 기록으로 절차를 바꾸지 마세요.

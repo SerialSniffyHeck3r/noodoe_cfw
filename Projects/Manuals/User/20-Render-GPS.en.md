@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.42 GPS testing, parked controls and rendering
 
 Install the matching APK and Product ZIP. A compatible 0.9.40-or-newer Gate uses the ordinary CFW update; this fix does not require another Gate installation.

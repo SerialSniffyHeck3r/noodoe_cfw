@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.66 · Balanced speed ring colours
 
 The speed ring now uses sky blue, soft green, warm yellow and coral red, preserving the vivid UI character without primary red/yellow. At the normal 200 km/h full scale, 80 km/h is green.

@@ -1,64 +1,18 @@
-## 0.11.8 선택형 Bluetooth 초기화 — 기본 No
+# NewDoe — 설치와 복구
 
-**Install CFW**를 누르면 저장된 키가 있어도 **Reset Bluetooth?**를 물어봅니다. **기본 선택은 No**이며 권장 문구는 삭제했습니다. 그대로 O를 누르면 페어링을 유지하고 정상 연결로 진행합니다. 저장된 휴대폰 페어링을 지우려는 경우에만 Yes를 직접 선택하고 Android에서 재페어링한 뒤 앱으로 돌아오세요. 기다린다고 Yes가 선택되거나 Bluetooth가 초기화되지는 않습니다.
+현재 앱·Product **0.11.15**, Bootstrap **0.11.14**, Gate **0.11.4**, B 언어 자원 **0.11.2** 기준입니다. 2026-10-19 개정. 구성요소의 버전 번호가 서로 다른 것은 정상입니다.
 
-0.11.7의 순정 키 인계, 암호화 연결, 파일 검증, 키 저장 완료 확인, 최종 설치 승인과 Bootstrap → CFW 인계는 그대로입니다. 마지막 **INSTALL CFW?** 화면의 기존 30초 확인은 유지하며, Bluetooth 초기화 질문에는 자동 확인이 없습니다.
+[← 전체 설명서](../README.md) · [English](README.en.md)
 
-**0.11.8 APK와 ZIP**을 함께 사용하세요. 0.11.4~0.11.7에서는 일반 CFW 업데이트가 가능합니다. Gate와 언어 자원은 같습니다. 이번 Bootstrap 질문은 새 ZIP으로 순정에서 설치할 때 실행됩니다. 일반 Product 업데이트는 이미 실행 중인 Bootstrap을 교체하지 않습니다. 더 오래된 Gate의 기존 전환 경로와 구형 코드의 순정 복귀 도중 전원 중단 제한도 그대로입니다.
+- [호환 기기와 제한](../Guide.md#compatibility)
+- [버튼·IGN·APK·ZIP 알아보기](../Guide.md#basics)
+- [파일 받기와 설치 준비](../Guide.md#prepare)
+- [순정에서 처음 설치하기](../Guide.md#first-install)
+- [기존 CFW 업데이트](../Guide.md#update)
+- [언어팩 설치·갱신·언어 변경](../Guide.md#language)
+- [Bootstrap·일반 연결 복구](../Guide.md#connection)
+- [오류 화면별 대처](../Guide.md#troubleshooting)
+- [폰 없이 복구·순정 복귀](../Guide.md#recovery)
+- [문제 보고와 백업](../Guide.md#report)
 
-## 0.11.7 Bootstrap 페어링 인계
-
-**0.11.7 APK와 ZIP을 함께 사용하세요. 0.11.4~0.11.6에서는 일반 CFW 업데이트가 가능합니다.** Gate와 언어 자원은 같습니다. 더 오래된 Gate에서는 기존 데이터 유지 순정 복귀·재설치 경로를 사용합니다.
-
-순정에서 설치할 때 **Android의 기존 페어링을 유지한 채** Bootstrap의 **Install CFW**를 선택하세요. Bluetooth를 켜기 전에 순정이 저장한 연결 키를 불러오고, 검증된 설정 저널을 거쳐 CFW에 전달합니다. 초기화 질문에서는 기본 선택인 No로 기존 페어링을 유지합니다. 정상 설치 중에는 페어링을 미리 지우지 마세요.
-
-키가 없거나 연결이 실패하면 수동 복구를 사용할 수 있습니다. Bootstrap의 연결 대기 화면에서 **UP**을 누르고 해당 휴대폰 또는 전체 페어링을 선택한 뒤, O를 놓았다가 2초간 눌러 확인하세요. **Reset Bluetooth?**가 바로 뜨면 **Yes**는 저장된 페어링 삭제, **No**는 유지이며 자동 선택하지 않습니다. 초기화했다면:
-
-1. **PAIR YOUR PHONE**을 기다립니다.
-2. Android Bluetooth 설정에서 이 Noodoe를 등록 해제하고 다시 페어링합니다.
-3. 앱의 **현재 기기 확인 → 여기서부터 계속하기**로 돌아갑니다. Bootstrap을 다시 보내거나 앱 데이터를 지우지 마세요.
-
-순정 키가 바뀌지 않았으면 이후 CFW에서 재페어링하거나 직접 삭제한 결과를 유지합니다. 순정 NOR 기록은 읽기만 합니다. 최종 설치 전에 현재 키의 저장과 재읽기 검증을 끝내야 Product로 넘어갑니다. 처음 설치하여 CFW 설정 저장소가 없을 때 수동 재페어링한 키는 최종 저장 전까지 이번 실행에만 남으므로, 그 전에 전원이 재시작하면 다시 페어링해야 할 수 있습니다.
-
-함께 차오르는 진행 막대 두 개, 전체 화면 개발자 메시지, 최종 **Back / Install CFW**와 기존 30초 확인 동작은 유지합니다. Bootstrap은 순정 설치 과정에서 실행됩니다. 일반 CFW 업데이트는 이미 실행 중인 Bootstrap을 교체하지 않으므로, 이번 수정을 시험하려면 순정 → Bootstrap 단계에 새 ZIP을 사용해야 합니다.
-
-순정 5.16의 실제 키 처리 코드, 인증 명령, 저장 중단과 양쪽 인계 경로를 소프트웨어로 검증했습니다. 실기 무선 시험 및 확보하지 못한 순정 5.14 바이너리는 이 검증에 포함되지 않습니다. 휴대폰에서 이미 키를 삭제했다면 기기가 그 사본을 복원할 수는 없으므로 위 수동 복구로 한 번 페어링하세요.
-
-# 설치·복구·호환성 ·0.10.1 베타
-
-[0.10.1 다국어·설치 전환 안내 — 0.10.1 베타](../User/35-Languages.md)
-
-[설명서 첫 화면](../README.md) · [English](README.en.md)
-
-**0.10.1 APK와 펌웨어 ZIP을 한 쌍으로 사용하세요.** 이번 베타에는 새 Product·Gate·Bootstrap과 별도 언어 ZIP이 포함됩니다. 구형 Gate는 데이터 유지 순정 복귀 후 한 번 재설치하며, 정상 실행 확인 뒤 언어 자원을 설치합니다. 위 전환 안내를 먼저 확인하세요.
-
-설치 허용 범위는 **순정 5.14 또는 5.16**입니다. HW·부트로더 버전·모델명·PCBA는 제한하지 않습니다. AK550와 벤치에서의 사용 결과를 모든 차종·PCB 리비전 검증으로 확대하지 않습니다. 호환 표에 확인 수준을 구분했습니다.
-
-1. [호환 모델·하드웨어·버전 조건](07-Compatibility.md)
-2. [순정에서 최초 설치](08-First-Install.md)
-3. [기존 CFW 업데이트](09-Update.md)
-4. [설치 정지·순정 복귀·표시부 복구](10-Recovery.md)
-5. [문제 해결과 진단 자료](11-Troubleshooting.md)
-6. [연결·페어링 복구](12-Connection-Recovery.md)
-
-과거 버전 변경 기록과 예전 그림보다 위의 현재 절차를 우선합니다. [0.9.66 조작 안내](../User/23-Controls-Recovery.md) · [릴리스·대응 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/tag/cfw-v0.10.1-multilingual-beta)
-
-[0.9.62 · Dashboard blink alerts](../User/24-Dashboard-Alerts.md)
-
-[0.9.63 · 알림 표시·자동 재연결](../User/25-Connection-Indicators.md)
-
-[0.9.64 · HOME AUTO · 수동 재페어링 · 자동 복귀](../User/26-Home-Auto.md)
-
-[0.9.65 · 최신 알림 · 위치·음악 답장](../User/27-Latest-Messages.md)
-
-[0.9.66 · 속도 링 색상 조정](../User/28-Speed-Ring.md)
-
-[0.9.67 · 실제 순정 응답 우선](29-Stock-Mode.md)
-
-[0.9.68 · 정보 전송·설정 보존·연속 색상](../User/30-Sharing-Settings.md)
-
-[0.9.69 · 설정 목록 오류·업데이트 복구](../User/31-Settings-Catalog.md)
-
-[0.9.70 · 시동 OFF 배경 음영 제거](../User/32-Off-Photo.md)
-
-[0.9.71 · 요약 음영·설정 보존·오일 호](../User/33-Ride-Preservation.md)
+처음 설치할 때는 준비 → 순정 최초 설치 → 언어 자원 순서로 읽으세요. 현재 본체 안내를 따르고 옛 버전 기록으로 절차를 바꾸지 마세요.

@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.63 · Notification indicators and automatic reconnection
 
 The top phone icon alternates red/inactive every 250ms for four flashes over two seconds. Notifications arriving during that interval are still stored and displayed, but neither extend the timer nor queue another flash sequence. The green music-playing indication is unchanged.

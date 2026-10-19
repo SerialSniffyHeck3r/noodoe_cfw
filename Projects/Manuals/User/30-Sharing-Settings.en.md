@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.68 · Smooth colours, sharing and settings retention
 
 Install the **0.9.68 APK over the existing app without clearing data**, then update CFW using the matching **0.9.68 ZIP**. Both the app and Product change in this release.

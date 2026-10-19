@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.28 display rendering and Bluetooth diagnostics
 
 Maps still travel as vector tiles. Product prepares a transparent raster locally and lets EVE composite one completed map image during menu and popup animations. Wallpaper, clock/ODO cutouts, gradients and existing shade settings are preserved.

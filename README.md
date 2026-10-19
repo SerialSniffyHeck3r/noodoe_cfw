@@ -1,23 +1,11 @@
-> **0.11.15:** Verify language resources during installation; later boots load only the selected menu text and glyphs. Japanese index reads reuse existing memory. **Use matching 0.11.15 APK/Product. Gate, Bootstrap and B resources are unchanged. Camera-triggered disconnection still needs vehicle verification.** [Guide](docs/releases/0.11.15/INSTALL.md)
-
-> **0.11.12:** Parking sleep and long-parking shutdown now handle failed RTC, radio, dashboard and UI preparation without abandoning active NOR writes. **Update both APK and firmware ZIP. Same-Gate devices from 0.11.4 onward use normal CFW update. Gate, Bootstrap and language resources are unchanged. Actual vehicle current/endurance remains unmeasured.** [Guide](docs/releases/0.11.12/INSTALL.md)
-
-> **0.11.11:** Full-width dark dashboard, horizontal oil gauge with remaining distance, tap-to-cycle trips, editable stock UI preview and uncropped transparent NEWDOE wordmark. **APK-only update for devices already on Product0.11.10. Firmware ZIP0.11.10 and language resources are unchanged.** [Guide](docs/releases/0.11.11/INSTALL.md)
-
-> **0.11.1:** larger logo/skull, Welcome! → Device Startup, and round-screen text layout. Even 0.11.0 needs keep-data stock return/reinstallation because Gate changed. [Installation](docs/releases/0.11.1/INSTALL.md)
-
-**NewDoe 0.11.0:** [Read the new Gate installation/recovery guide first / 새 Gate 설치·복구 안내](docs/releases/0.11.0/INSTALL.md).
-
-**0.10.7:** Reliable language activation, live preparation status, aligned trip units and split text/font resources. Healthy existing packs need no retransmission. [Details](docs/releases/0.10.7/INSTALL.md).
-
-**0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
+**Manual refresh · 2026-10-19:** [Complete beginner guide](Projects/Manuals/Guide.en.md) · [한국어](Projects/Manuals/Guide.md). Step-by-step first installation, updates, languages, Bluetooth recovery and phone-free stock recovery. Optional manual-r2 APK updates local help; **Product stays 0.11.15. No firmware reinstall or healthy language-pack retransmission is needed for this documentation update.**
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # NewDoe 0.11.15 beta
 
 Verify language resources during installation; later boots load only the selected menu text and glyphs. Japanese index reads reuse existing memory. **Use matching 0.11.15 APK/Product. Gate, Bootstrap and B resources are unchanged. Camera-triggered disconnection still needs vehicle verification.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15.apk)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
 - [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
 - [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
 - [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
@@ -39,7 +27,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.14.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.14.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.15-manual-r2.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.15.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
@@ -62,10 +50,13 @@ Source code is maintained in a separate private repository. This public reposito
 
 [Display wiring revisions from stock assembly](Projects/documentations/hardware-revisions-0.9.29.en.md)
 
-**Installation manual0.10.1 beta:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
+**Current installation manual:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
 
 
-Current: **APK0.10.7 / Product0.10.7 beta**. [Ride Summary, retained settings and oil arc](Projects/Manuals/User/33-Ride-Preservation.en.md).
+
+## Historical research notes
+
+These links describe earlier releases, not the current installation procedure.
 
 [0.9.69 · Settings catalog update fix](Projects/documentations/settings-catalog-0.9.69.md)
 
@@ -74,4 +65,4 @@ Current: **APK0.10.7 / Product0.10.7 beta**. [Ride Summary, retained settings an
 [0.9.71: Ride Summary, settings preservation and oil arc](Projects/documentations/ride-preserve-0.9.71.md)
 
 
-[0.9.73: caller identity and automatic riding reconnect](Projects/Manuals/User/34-Call-Reconnect.en.md). That historical0.9.73 release was APK-only;0.10.1 also requires the matching firmware and transition above.
+[0.9.73: caller identity and automatic riding reconnect](Projects/Manuals/User/34-Call-Reconnect.en.md)

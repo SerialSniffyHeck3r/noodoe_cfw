@@ -1,3 +1,5 @@
+> **이전 버전 기록 — 현재 설치 지침이 아닙니다.** 이 페이지에는 예전 동작·화면이 보존되어 있습니다. 현재 조작·다운로드·설치·복구는 [0.11.15 설명서](../Guide.md)를 따르세요.
+
 # Bootstrap admission fix — release 0.9.30
 
 The reported screen contained error `00050002` and progress `262144 / 262144`.

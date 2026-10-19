@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.43 incoming calls and automatic brightness
 
 [0.9.73: caller identity and automatic riding reconnect](34-Call-Reconnect.en.md)

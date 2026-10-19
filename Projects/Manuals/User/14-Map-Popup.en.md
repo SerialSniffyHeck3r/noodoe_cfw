@@ -1,3 +1,5 @@
+> **Historical note — not current installation instructions.** This page records older behavior/captures. For current controls, downloads, installation and recovery, use the [0.11.15 manual](../Guide.en.md).
+
 # 0.9.20: maps, menus and notification popups
 
 > **0.9.22:** Map scale and shading now follow [the latest changes](16-Display-Transitions.en.md). The text below records the earlier release.
