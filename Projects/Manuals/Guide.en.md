@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App and device firmware 0.11.15 / B language resources 0.11.2 · 20 October 2026**  
+**App and device firmware 0.11.16 / B language resources 0.11.2 · 20 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,8 +56,8 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.11.15-manual-r2.apk** | The Android app |
-| **NewDoe-CFW-0.11.15.zip** | The device firmware package. Select this ZIP inside the app. |
+| **NewDoe-0.11.16.apk** | The Android app |
+| **NewDoe-CFW-0.11.16.zip** | The device firmware package. Select this ZIP inside the app. |
 | **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
 **Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. The language resource version **0.11.2** is correct.
@@ -71,6 +71,29 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 5. Disconnect any other Noodoe app that is using the device.
 
 **Keep the battery and Noodoe wiring connected during installation and stock recovery.** Do not operate the starter. Charge or service a heavily discharged vehicle before updating it.
+
+### Confirm the five safety screens
+
+When you press an install button, read each picture and tap **Got it**. **Cancel** stops before installation starts. The same installation can continue through Bootstrap without repeating these confirmations. A different device, file or new installation requires them again.
+
+1. Do not disconnect the battery or Noodoe wiring.
+2. With the key OFF, do not press **UP + O** together.
+3. Do not press the starter button.
+4. Check that the battery voltage is **at least 11.5V**. This is your confirmation; the app does not measure it.
+5. Keep the key OFF when the step allows it. **The first transfer from stock needs the key ON.** Then follow the screen instructions.
+
+<img src="images/guide-0.11.16/en-safety-0.png" alt="Battery safety confirmation in the app" width="330">
+<img src="images/guide-0.11.16/en-safety-4.png" alt="Key OFF recommendation with the first-transfer exception" width="330">
+
+All five signs stay under the installation status while it runs. They are reminders, not extra buttons.
+
+### First launch and the optional installation guide
+
+On first launch, answer whether you have used NewDoe before. If not, open the illustrated guide to learn the buttons. Choose what is currently running on your Noodoe, then choose **Guided installation** or **Go to home**. Your answer does not select firmware for the vehicle: **Check current status** identifies the device.
+
+You can reopen **Guided installation** on the Device/status page. **Next** moves between device selection, ZIP selection, transfer and checking the restarted device. Once a transfer or verification starts, wait until it finishes; do not look for another Next button. You can also keep using the original Device page.
+
+<img src="images/guide-0.11.16/en-guide.png" alt="Optional guided installation" width="330">
 
 <a id="first-install"></a>
 ## 4. First installation from stock
@@ -91,7 +114,7 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 <img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
 
 1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.11.15.zip** itself. Do not select the language ZIP.
+2. Open Downloads and select **NewDoe-CFW-0.11.16.zip** itself. Do not select the language ZIP.
 3. On the installer preparation screen above, confirm sending the installer.
 4. Wait for transfer and checking to finish. Do not turn the key off early.
 
@@ -106,7 +129,11 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | A brief file check comes first | Then the Bootstrap menu appears |
 |---|---|
-| <img src="images/guide-0.11.15/bootstrap-check.png" alt="Bootstrap file check with a horizontal bar" width="300"> | <img src="images/guide-0.11.15/bootstrap-menu.png" alt="Bootstrap menu with Install CFW selected" width="300"> |
+| <img src="images/guide-0.11.16/bootstrap-check.png" alt="Bootstrap file check with a horizontal bar" width="300"> | <img src="images/guide-0.11.16/bootstrap-menu.png" alt="Bootstrap menu with Install CFW selected" width="300"> |
+
+The first three seconds show only the NEWDOE wordmark. Checks continue in the background. If still running afterwards, the current check and a horizontal bar appear around the wordmark; otherwise the menu opens.
+
+<img src="images/guide-0.11.16/bootstrap-logo.png" alt="NEWDOE" width="300">
 
 ### ④ Choose Install CFW on Noodoe
 
@@ -114,7 +141,7 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 2. At **Reset Bluetooth?**, keep the default **No** and press **O** if your connection is working.
 3. The phone continues the installation. You do not need to find another installation-start button on the phone.
 
-<img src="images/guide-0.11.15/bootstrap-reset-no.png" alt="Optional Bluetooth reset with No selected" width="360">
+<img src="images/guide-0.11.16/bootstrap-reset-no.png" alt="Optional Bluetooth reset with No selected" width="360">
 
 **Yes erases saved pairings.** Use it only when you need to reset a failed connection. For “Couldn't pair,” follow [the pairing recovery steps](#connection). This question has no automatic countdown.
 
@@ -122,7 +149,7 @@ If the app finds data from a previous CFW installation, choose **Restore retaine
 
 ### ⑤ Wait while the two bars fill
 
-<img src="images/guide-0.11.15/bootstrap-transfer.png" alt="Overall and current-operation progress bars" width="360">
+<img src="images/guide-0.11.16/bootstrap-transfer.png" alt="Overall and current-operation progress bars" width="360">
 
 - **Upper, lighter bar:** overall installation progress.
 - **Lower, darker bar:** the current operation. It can start again when the next operation begins.
@@ -132,7 +159,7 @@ Keep power and the phone connection available. Do not force a restart just becau
 
 ### ⑥ Everything is ready: install
 
-<img src="images/guide-0.11.15/bootstrap-confirm.png" alt="Final INSTALL CFW confirmation with Back and Install CFW" width="360">
+<img src="images/guide-0.11.16/bootstrap-confirm.png" alt="Final INSTALL CFW confirmation with Back and Install CFW" width="360">
 
 The files are ready.
 
@@ -163,6 +190,8 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Updating an existing NewDoe
 
+**Moving to 0.11.16 for the first time? Read the stock-return section below first.**
+
 ### Normal CFW update
 
 1. Install the new APK over the existing app.
@@ -176,7 +205,7 @@ Normal updates retain settings, brightness, photos, trips and maintenance record
 
 ### If the app asks you to return to stock first
 
-This can be required for 0.9, 0.10 and early 0.11 installations. Versions from 0.11.4 usually use normal updates, but **follow the route identified by the app**.
+**0.11.16 includes a new recovery menu. For the first move from an older version, return to stock and reinstall while keeping CFW data.** This also applies to 0.11.15. Once this recovery menu is installed, later matching-Gate Product updates use the normal CFW update above. The app identifies which route is needed.
 
 1. Return to stock with **Keep CFW data**. Do not choose complete removal.
 2. Once the actual stock screen appears, tap the phone's **I've returned to stock · check** option.
@@ -303,7 +332,13 @@ Manual entry may go straight to the menu. Use **UP/DOWN to move and O to select*
 
 1. Select **Return to stock → O**.
 2. Read the confirmation, **release O and hold it again for two seconds**.
-3. Keep power connected until the stock screen appears. **No phone connection is needed.**
+3. On the new Gate, read the battery, UP + O and starter warnings in order. **Release O, then press it again** for each screen. UP or DOWN goes back. These screens also appear for a manually chosen forced stock recovery.
+4. Keep power connected until the stock screen appears. **No phone connection is needed.** Older recovery menus may not show the three new pictures.
+
+<img src="images/guide-0.11.16/gate-safety-0.png" alt="Battery" width="280">
+<img src="images/guide-0.11.16/gate-safety-1.png" alt="UP + O" width="280">
+<img src="images/guide-0.11.16/gate-safety-2.png" alt="Starter" width="280">
+
 
 | Example recovery confirmation | Stock recovery in progress |
 |---|---|
@@ -361,6 +396,8 @@ Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**
 
 HOME AUTO prioritises **new notifications → playing music → other information**. A new notification or a manually chosen information view normally returns to the automatic priority after 20 seconds.
 
+With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
+
 <a id="media"></a>
 ## 13. Music, calls and notifications
 
@@ -387,15 +424,21 @@ New areas take some time to prepare. The current map feature shows the map, posi
 <a id="dashboard"></a>
 ## 15. The app's Home, Customise and Device pages
 
-<img src="images/guide-0.11.15/app-dashboard.png" alt="App dashboard example in Korean: speed, ODO, trips and maintenance bars" width="330">
+<img src="images/guide-0.11.16/en-maintenance.png" alt="App dashboard: speed, ODO, trips and three maintenance rings" width="330">
 
 Swipe sideways or use the bottom buttons for **Device · Home · Customise**.
 
-- **Home:** map, speed, ODO, trips and the remaining distance/bars for oil, belt and service. **Tap the trip readout itself** to cycle information. With stock Noodoe, the lower area shows stock information instead.
+- **Home:** map, speed, ODO, trips and three maintenance rings showing oil/belt kilometres remaining and service percentage remaining. **Tap the trip readout itself** to cycle information. With stock Noodoe, the lower area shows stock information instead.
 - **Customise:** background pictures, notification apps, popups, quick replies and favourite callers.
 - **Device:** installation, updates, current status, language resources and the manual.
 
 **UI test mode** lets you preview chosen speed, ODO and CFW/stock screens while disconnected. It does not change actual vehicle values. Turn test mode off before returning to a real connection.
+
+**Bluetooth is off:** connection buttons stop and HOME asks you to enable Bluetooth. Open Bluetooth settings to turn it on. Automatic riding connection follows your existing setting; a manually paused connection stays paused. Installation does not start again by itself.
+
+<img src="images/guide-0.11.16/en-bluetooth-off.png" alt="Bluetooth OFF" width="330">
+
+A fresh installation puts a black 480 × 480 picture with the centered NEWDOE wordmark in Background 1. Replace it with any photo to remove the wordmark completely. Keep-data reinstalls and normal updates retain your existing photos; Backgrounds 2 and 3 are unchanged.
 
 <a id="parking"></a>
 ## 16. Ignition-off and long parking

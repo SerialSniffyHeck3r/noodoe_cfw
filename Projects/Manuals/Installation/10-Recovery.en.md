@@ -1,6 +1,6 @@
 # Phone-free recovery and return to stock
 
-**NewDoe 0.11.15 · 2026-10-20**
+**NewDoe 0.11.16 · 2026-10-20**
 
 **[Open the illustrated instructions](../Guide.en.md#recovery)**
 

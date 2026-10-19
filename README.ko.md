@@ -1,17 +1,14 @@
-**그림 설명서 · 2026-10-20:** [한국어](Projects/Manuals/Guide.md) · [English](Projects/Manuals/Guide.en.md). 실제 화면의 버튼을 보며 처음 설치·업데이트·언어·복구를 따라오세요.
-
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.15 beta
+# NewDoe 0.11.16 beta
 
-아래에서 휴대폰 APK, 본체 CFW ZIP, 필요한 경우 B 언어 ZIP을 받으세요. 이미 0.11.15라면 다시 설치하지 않고 개정된 온라인 설명서를 읽으면 됩니다.
+설치 안내·안전 그림·Bluetooth OFF 처리·원형 정비 표시를 추가했습니다. **새 Gate를 적용하려면 0.11.16으로 처음 넘어올 때 데이터 보존 순정 복귀 후 재설치하세요.** APK와 ZIP을 함께 받으세요. 기존 B 0.11.2 언어팩은 유지합니다.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
-- [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
-
-
-- [Illustrated offline manual / 그림 포함 설명서 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-Illustrated-Manual-0.11.15.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-0.11.16.apk)
+- [Matching CFW ZIP / 펌웨어](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-CFW-0.11.16.zip)
+- [Optional B resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated offline manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-Illustrated-Manual-0.11.16.zip)
+- [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
+- [Installation / 설치 안내](docs/releases/0.11.16/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

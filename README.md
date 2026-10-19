@@ -1,17 +1,14 @@
-**Illustrated manual · 20 October:** [English](Projects/Manuals/Guide.en.md) · [한국어](Projects/Manuals/Guide.md). Follow current phone and device screens through installation, languages and recovery.
-
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.15 beta
+# NewDoe 0.11.16 beta
 
-Choose the app APK, device CFW ZIP and optional B language ZIP below. Already on 0.11.15? You can read the revised online manual without reinstalling anything.
+Install guidance, safety screens, Bluetooth OFF handling and three maintenance rings. **The first upgrade to 0.11.16 needs a keep-data stock return and reinstall because Gate has changed.** Use the matching APK/ZIP. Existing B 0.11.2 language resources stay valid.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
-- [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
-
-
-- [Illustrated offline manual / 그림 포함 설명서 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-Illustrated-Manual-0.11.15.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-0.11.16.apk)
+- [Matching CFW ZIP / 펌웨어](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-CFW-0.11.16.zip)
+- [Optional B resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated offline manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-Illustrated-Manual-0.11.16.zip)
+- [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
+- [Installation / 설치 안내](docs/releases/0.11.16/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

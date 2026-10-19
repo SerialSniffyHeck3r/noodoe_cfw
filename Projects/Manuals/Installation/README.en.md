@@ -1,6 +1,6 @@
 # NewDoe — Install and recover
 
-**0.11.15 · 2026-10-20**
+**0.11.16 · 2026-10-20**
 
 [← Full guide](../README.en.md)
 
