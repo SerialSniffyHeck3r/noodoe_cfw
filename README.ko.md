@@ -1,15 +1,17 @@
-**설명서 전면 개정 · 2026-10-19:** [처음부터 따라하는 상세 설명서](Projects/Manuals/Guide.md) · [English](Projects/Manuals/Guide.en.md). 최초 설치·업데이트·언어·연결 복구·폰 없이 순정 복귀를 단계별로 정리했습니다. 선택적으로 manual-r2 APK를 덮어 설치하면 앱 도움말도 갱신됩니다. **본체는 0.11.15 그대로이며 이번 설명서 개정 때문에 본체나 정상 언어팩을 다시 설치하지 않습니다.**
+**그림 설명서 · 2026-10-20:** [한국어](Projects/Manuals/Guide.md) · [English](Projects/Manuals/Guide.en.md). 실제 화면의 버튼을 보며 처음 설치·업데이트·언어·복구를 따라오세요.
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # NewDoe 0.11.15 beta
 
-언어팩 전체 검사는 설치 때 수행하고 이후 부팅은 선택 언어의 문구·글자를 불러옵니다. 일본어 인덱스의 반복 읽기도 줄였습니다. **APK·Product 모두 0.11.15로 업데이트하세요. Gate·Bootstrap·B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.**
+아래에서 휴대폰 APK, 본체 CFW ZIP, 필요한 경우 B 언어 ZIP을 받으세요. 이미 0.11.15라면 다시 설치하지 않고 개정된 온라인 설명서를 읽으면 됩니다.
 
 - [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
 - [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
 - [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
 - [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.15/VALIDATION.md)
+
+
+- [Illustrated offline manual / 그림 포함 설명서 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-Illustrated-Manual-0.11.15.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -60,7 +62,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 
 [순정 어셈블리로 확인한 표시부 리비전](Projects/documentations/hardware-revisions-0.9.29.ko.md)
 
-**현재 설치 설명서:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14·5.16을 허용하며 HW·부트로더 버전·모델·PCBA로 차단하지 않습니다. 실차 확인 수준은 별도로 명시했습니다.
+**현재 설치 설명서:** [호환 모델·지원 범위](Projects/Manuals/Installation/07-Compatibility.md) · [설치·업데이트·복구](Projects/Manuals/Installation/README.md) · [English](Projects/Manuals/Installation/README.en.md). 순정 5.14 또는 5.16에서 앱의 현재 기기 확인으로 시작하세요.
 
 
 

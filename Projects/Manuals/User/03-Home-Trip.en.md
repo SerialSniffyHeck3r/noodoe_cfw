@@ -1,9 +1,9 @@
 # ODO, trips and maintenance
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[ODO, trips and maintenance — open the current instructions](../Guide.en.md#vehicle)**
+**[Open the illustrated instructions](../Guide.en.md#vehicle)**
 
-
+<a href="../Guide.en.md#vehicle"><img src="../images/guide-0.11.15/en-trip.png" alt="ODO, trips and maintenance" width="480"></a>
 
 [← Full manual](../README.en.md)

@@ -1,9 +1,9 @@
 # Compatible devices and limits
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Compatible devices and limits — open the current instructions](../Guide.en.md#compatibility)**
+**[Open the illustrated instructions](../Guide.en.md#compatibility)**
 
-
+<a href="../Guide.en.md#compatibility"><img src="../images/guide-0.11.15/install-flow-en.svg" alt="Compatible devices and limits" width="480"></a>
 
 [← Full manual](../README.en.md)

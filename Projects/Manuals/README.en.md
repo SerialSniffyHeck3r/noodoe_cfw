@@ -1,37 +1,35 @@
-# NewDoe — User and installation manual
+# NewDoe illustrated user guide
 
-The current guide follows app and Product **0.11.15**, Bootstrap **0.11.14**, Gate **0.11.4** and B language resources **0.11.2**. Revised 2026-10-19. The different component version numbers are intentional.
+**0.11.15 · 2026-10-20**
 
-[한국어](README.md) · [Latest](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-Start with the full beginner guide. It distinguishes actions on your phone from actions on the motorcycle, shows when to wait and explains how to check completion.
+Use the screen examples to follow each step on your phone and Noodoe.
 
-## Start here
+**[Open the illustrated guide](Guide.en.md)**
 
-**[Full step-by-step guide](Guide.en.md)**
+![Installation overview](images/guide-0.11.15/install-flow-en.svg)
 
-**Already on Product 0.11.15?** This manual/help revision does not require reinstalling firmware or retransmitting a healthy language pack. The optional manual-r2 APK updates local help only.
-
-**Do not treat 100% transfer as completion.** Confirm the real CFW UPDATE screen and the app’s firmware confirmation; language resources have their own verification, restart and ready result.
-
-| I want to… | Read this |
+| What you need | Guide |
 |---|---|
-| Compatible devices and limits | [Compatible devices and limits](Guide.en.md#compatibility) |
-| Buttons, IGN, APK and ZIP | [Buttons, IGN, APK and ZIP](Guide.en.md#basics) |
-| Downloads and preparation | [Downloads and preparation](Guide.en.md#prepare) |
-| First installation from stock | [First installation from stock](Guide.en.md#first-install) |
-| Updating existing CFW | [Updating existing CFW](Guide.en.md#update) |
-| Language resources and language changes | [Language resources and language changes](Guide.en.md#language) |
-| Bootstrap and connection recovery | [Bootstrap and connection recovery](Guide.en.md#connection) |
-| What to do at each error screen | [What to do at each error screen](Guide.en.md#troubleshooting) |
-| Phone-free recovery and return to stock | [Phone-free recovery and return to stock](Guide.en.md#recovery) |
-| First use and phone permissions | [First use and phone permissions](Guide.en.md#phone) |
-| Device controls and settings | [Device controls and settings](Guide.en.md#controls) |
-| ODO, trips and maintenance | [ODO, trips and maintenance](Guide.en.md#vehicle) |
-| Music, calls, notifications and replies | [Music, calls, notifications and replies](Guide.en.md#media) |
-| Maps and automatic range | [Maps and automatic range](Guide.en.md#map) |
-| App dashboard, customization and preview | [App dashboard, customization and preview](Guide.en.md#dashboard) |
-| Key OFF, long parking and battery | [Key OFF, long parking and battery](Guide.en.md#parking) |
-| Reporting problems and backups | [Reporting problems and backups](Guide.en.md#report) |
+| Compatible devices | [Open](Guide.en.md#compatibility) |
+| Buttons and the ignition key | [Open](Guide.en.md#basics) |
+| Downloads and preparation | [Open](Guide.en.md#prepare) |
+| First installation, screen by screen | [Open](Guide.en.md#first-install) |
+| Updating existing CFW | [Open](Guide.en.md#update) |
+| Language resources and selection | [Open](Guide.en.md#language) |
+| Connection help | [Open](Guide.en.md#connection) |
+| Screen-by-screen troubleshooting | [Open](Guide.en.md#troubleshooting) |
+| Recovery without a phone | [Open](Guide.en.md#recovery) |
+| Phone permissions and connection | [Open](Guide.en.md#phone) |
+| Device buttons and settings | [Open](Guide.en.md#controls) |
+| Odometer, trips and maintenance | [Open](Guide.en.md#vehicle) |
+| Music, calls and notifications | [Open](Guide.en.md#media) |
+| Maps and zoom | [Open](Guide.en.md#map) |
+| App pages and preview | [Open](Guide.en.md#dashboard) |
+| Ignition-off and long parking | [Open](Guide.en.md#parking) |
+| Get help and save diagnostics | [Open](Guide.en.md#report) |
 
-[Historical notes](Archive.en.md) are not current installation instructions.
+Already on 0.11.15? No app or firmware reinstall is needed to read these updated online guides.
+
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-Illustrated-Manual-0.11.15.zip)

@@ -1,9 +1,9 @@
 # Updating existing CFW
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Updating existing CFW — open the current instructions](../Guide.en.md#update)**
+**[Open the illustrated instructions](../Guide.en.md#update)**
 
-
+<a href="../Guide.en.md#update"><img src="../images/guide-0.11.15/cfw-confirm.png" alt="Updating existing CFW" width="480"></a>
 
 [← Full manual](../README.en.md)

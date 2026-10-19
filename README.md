@@ -1,15 +1,17 @@
-**Manual refresh · 2026-10-19:** [Complete beginner guide](Projects/Manuals/Guide.en.md) · [한국어](Projects/Manuals/Guide.md). Step-by-step first installation, updates, languages, Bluetooth recovery and phone-free stock recovery. Optional manual-r2 APK updates local help; **Product stays 0.11.15. No firmware reinstall or healthy language-pack retransmission is needed for this documentation update.**
+**Illustrated manual · 20 October:** [English](Projects/Manuals/Guide.en.md) · [한국어](Projects/Manuals/Guide.md). Follow current phone and device screens through installation, languages and recovery.
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # NewDoe 0.11.15 beta
 
-Verify language resources during installation; later boots load only the selected menu text and glyphs. Japanese index reads reuse existing memory. **Use matching 0.11.15 APK/Product. Gate, Bootstrap and B resources are unchanged. Camera-triggered disconnection still needs vehicle verification.**
+Choose the app APK, device CFW ZIP and optional B language ZIP below. Already on 0.11.15? You can read the revised online manual without reinstalling anything.
 
 - [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15-manual-r2.apk)
 - [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
 - [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
 - [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.15/VALIDATION.md)
+
+
+- [Illustrated offline manual / 그림 포함 설명서 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-Illustrated-Manual-0.11.15.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -50,7 +52,7 @@ Source code is maintained in a separate private repository. This public reposito
 
 [Display wiring revisions from stock assembly](Projects/documentations/hardware-revisions-0.9.29.en.md)
 
-**Current installation manual:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Stock 5.14 or 5.16 is admitted without HW/bootloader-version/model/PCBA whitelists; vehicle validation is listed separately.
+**Current installation manual:** [compatible models and limits](Projects/Manuals/Installation/07-Compatibility.en.md) · [install/update/recover](Projects/Manuals/Installation/README.en.md) · [한국어](Projects/Manuals/Installation/README.md). Start with stock firmware 5.14 or 5.16 and use the app to check your device.
 
 
 

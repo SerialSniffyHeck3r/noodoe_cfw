@@ -1,9 +1,9 @@
 # Music, calls, notifications and replies
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Music, calls, notifications and replies — open the current instructions](../Guide.en.md#media)**
+**[Open the illustrated instructions](../Guide.en.md#media)**
 
-
+<a href="../Guide.en.md#media"><img src="../images/guide-0.11.15/en-settings.png" alt="Music, calls, notifications and replies" width="480"></a>
 
 [← Full manual](../README.en.md)

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-label="Meet the three Noodoe buttons"><rect width="760" height="340" rx="22" fill="#111a20"/><g font-family="Segoe UI, Malgun Gothic, Arial, sans-serif"><text x="40" y="48" font-size="28" fill="white">Meet the three Noodoe buttons</text>
+<rect x="42" y="75" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="110" text-anchor="middle" font-size="30" fill="#9ce6d4">▲</text>
+<text x="150" y="98" font-size="24" fill="white">UP</text>
+<text x="385" y="98" font-size="21" fill="#cbd7d6">Previous item</text>
+<rect x="42" y="147" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="182" text-anchor="middle" font-size="30" fill="#9ce6d4">O</text>
+<text x="150" y="170" font-size="24" fill="white">O / OK</text>
+<text x="385" y="170" font-size="21" fill="#cbd7d6">Select / confirm</text>
+<rect x="42" y="219" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="254" text-anchor="middle" font-size="30" fill="#9ce6d4">▼</text>
+<text x="150" y="242" font-size="24" fill="white">DOWN</text>
+<text x="385" y="242" font-size="21" fill="#cbd7d6">Next item</text>
+<text x="40" y="319" font-size="17" fill="#b9c9c8">For install/recovery menus. In other screens, follow the on-screen hints.</text></g></svg>

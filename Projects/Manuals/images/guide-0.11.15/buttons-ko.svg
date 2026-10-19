@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="340" viewBox="0 0 760 340" role="img" aria-label="누도 버튼 읽는 법"><rect width="760" height="340" rx="22" fill="#111a20"/><g font-family="Segoe UI, Malgun Gothic, Arial, sans-serif"><text x="40" y="48" font-size="28" fill="white">누도 버튼 읽는 법</text>
+<rect x="42" y="75" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="110" text-anchor="middle" font-size="30" fill="#9ce6d4">▲</text>
+<text x="150" y="98" font-size="24" fill="white">위 / UP</text>
+<text x="385" y="98" font-size="21" fill="#cbd7d6">이전 항목으로 이동</text>
+<rect x="42" y="147" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="182" text-anchor="middle" font-size="30" fill="#9ce6d4">O</text>
+<text x="150" y="170" font-size="24" fill="white">가운데 / O</text>
+<text x="385" y="170" font-size="21" fill="#cbd7d6">선택 / 확인</text>
+<rect x="42" y="219" width="76" height="54" rx="15" fill="#29423f"/>
+<text x="80" y="254" text-anchor="middle" font-size="30" fill="#9ce6d4">▼</text>
+<text x="150" y="242" font-size="24" fill="white">아래 / DOWN</text>
+<text x="385" y="242" font-size="21" fill="#cbd7d6">다음 항목으로 이동</text>
+<text x="40" y="319" font-size="17" fill="#b9c9c8">설치·복구 메뉴 기준. 일반 화면에서는 화면의 버튼 안내를 따라주세요.</text></g></svg>

@@ -1,9 +1,9 @@
 # App dashboard, customization and preview
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[App dashboard, customization and preview — open the current instructions](../Guide.en.md#dashboard)**
+**[Open the illustrated instructions](../Guide.en.md#dashboard)**
 
-
+<a href="../Guide.en.md#dashboard"><img src="../images/guide-0.11.15/app-dashboard.png" alt="App dashboard, customization and preview" width="480"></a>
 
 [← Full manual](../README.en.md)

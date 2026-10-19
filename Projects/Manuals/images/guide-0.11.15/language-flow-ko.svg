@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="528" viewBox="0 0 760 528" role="img" aria-label="100% 다음에도 이 과정이 남아 있어요">
+<rect width="760" height="528" rx="22" fill="#111a20"/>
+<g font-family="Segoe UI, Malgun Gothic, Arial, sans-serif">
+<text x="40" y="48" font-size="27" font-weight="700" fill="#ffffff">100% 다음에도 이 과정이 남아 있어요</text>
+<rect x="32" y="82" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="115" r="19" fill="#9ce6d4"/>
+<text x="65" y="122" text-anchor="middle" font-size="22" fill="#10221f">1</text>
+<text x="100" y="111" font-size="22" fill="#ffffff">1 · 전송 100%</text>
+<text x="100" y="143" font-size="18" fill="#c9d8d7">파일을 다 보냈습니다. 아직 설치 완료가 아닙니다.</text>
+<path d="M65 160 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="184" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="217" r="19" fill="#9ce6d4"/>
+<text x="65" y="224" text-anchor="middle" font-size="22" fill="#10221f">2</text>
+<text x="100" y="213" font-size="22" fill="#ffffff">2 · Verifying and saving</text>
+<text x="100" y="245" font-size="18" fill="#c9d8d7">본체가 확인하고 저장합니다. 전원을 유지하고 기다리세요.</text>
+<path d="M65 262 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="286" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="319" r="19" fill="#9ce6d4"/>
+<text x="65" y="326" text-anchor="middle" font-size="22" fill="#10221f">3</text>
+<text x="100" y="315" font-size="22" fill="#ffffff">3 · 자동 재시작 → 재연결</text>
+<text x="100" y="347" font-size="18" fill="#c9d8d7">잠깐 연결이 끊어져도 앱을 닫거나 처음부터 다시 하지 마세요.</text>
+<path d="M65 364 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="388" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="421" r="19" fill="#9ce6d4"/>
+<text x="65" y="428" text-anchor="middle" font-size="22" fill="#10221f">4</text>
+<text x="100" y="417" font-size="22" fill="#ffffff">4 · 언어 자원 준비 완료</text>
+<text x="100" y="449" font-size="18" fill="#c9d8d7">이제 기기 언어를 고르고, 본체의 재시작 안내를 확인합니다.</text>
+<text x="40" y="511" font-size="17" fill="#9ce6d4">Language resources are incomplete가 남으면 같은 기기로 연결해 설치 / 이어가기를 누르세요.</text></g></svg>

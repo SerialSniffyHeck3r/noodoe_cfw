@@ -1,9 +1,9 @@
 # 호환 기기와 제한
 
-NewDoe 0.11.15 기준, 2026-10-19 개정. 예전 판올림 안내와 절차가 충돌하지 않도록 상세 설명을 한곳으로 통합했습니다.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[호환 기기와 제한 — 현재 상세 설명 열기](../Guide.md#compatibility)**
+**[화면 보며 순서대로 따라하기](../Guide.md#compatibility)**
 
-
+<a href="../Guide.md#compatibility"><img src="../images/guide-0.11.15/install-flow-ko.svg" alt="호환 기기와 제한" width="480"></a>
 
 [← 전체 설명서](../README.md)

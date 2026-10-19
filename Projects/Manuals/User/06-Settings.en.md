@@ -1,9 +1,9 @@
 # Device controls and settings
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Device controls and settings — open the current instructions](../Guide.en.md#controls)**
+**[Open the illustrated instructions](../Guide.en.md#controls)**
 
-
+<a href="../Guide.en.md#controls"><img src="../images/guide-0.11.15/buttons-en.svg" alt="Device controls and settings" width="480"></a>
 
 [← Full manual](../README.en.md)

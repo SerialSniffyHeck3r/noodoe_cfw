@@ -1,9 +1,9 @@
 # What to do at each error screen
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[What to do at each error screen — open the current instructions](../Guide.en.md#troubleshooting)**
+**[Open the illustrated instructions](../Guide.en.md#troubleshooting)**
 
-
+<a href="../Guide.en.md#troubleshooting"><img src="../images/guide-0.11.15/gate-error30.png" alt="What to do at each error screen" width="480"></a>
 
 [← Full manual](../README.en.md)

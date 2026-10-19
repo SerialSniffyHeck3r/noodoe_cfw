@@ -1,9 +1,9 @@
 # Key OFF, long parking and battery
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Key OFF, long parking and battery — open the current instructions](../Guide.en.md#parking)**
+**[Open the illustrated instructions](../Guide.en.md#parking)**
 
-
+<a href="../Guide.en.md#parking"><img src="../images/guide-0.11.15/en-settings.png" alt="Key OFF, long parking and battery" width="480"></a>
 
 [← Full manual](../README.en.md)

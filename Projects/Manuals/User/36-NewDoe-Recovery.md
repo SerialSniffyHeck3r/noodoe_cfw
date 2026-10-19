@@ -1,9 +1,9 @@
 # 폰 없이 복구·순정 복귀
 
-NewDoe 0.11.15 기준, 2026-10-19 개정. 예전 판올림 안내와 절차가 충돌하지 않도록 상세 설명을 한곳으로 통합했습니다.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[폰 없이 복구·순정 복귀 — 현재 상세 설명 열기](../Guide.md#recovery)**
+**[화면 보며 순서대로 따라하기](../Guide.md#recovery)**
 
-
+<a href="../Guide.md#recovery"><img src="../images/guide-0.11.15/gate-manual.png" alt="폰 없이 복구·순정 복귀" width="480"></a>
 
 [← 전체 설명서](../README.md)

@@ -1,9 +1,9 @@
 # Phone-free recovery and return to stock
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Phone-free recovery and return to stock — open the current instructions](../Guide.en.md#recovery)**
+**[Open the illustrated instructions](../Guide.en.md#recovery)**
 
-
+<a href="../Guide.en.md#recovery"><img src="../images/guide-0.11.15/gate-manual.png" alt="Phone-free recovery and return to stock" width="480"></a>
 
 [← Full manual](../README.en.md)

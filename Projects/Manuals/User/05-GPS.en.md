@@ -1,9 +1,9 @@
 # Maps and automatic range
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Maps and automatic range — open the current instructions](../Guide.en.md#map)**
+**[Open the illustrated instructions](../Guide.en.md#map)**
 
-
+<a href="../Guide.en.md#map"><img src="../images/guide-0.11.15/en-settings.png" alt="Maps and automatic range" width="480"></a>
 
 [← Full manual](../README.en.md)

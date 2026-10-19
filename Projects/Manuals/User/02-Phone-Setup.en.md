@@ -1,9 +1,9 @@
 # First use and phone permissions
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[First use and phone permissions — open the current instructions](../Guide.en.md#phone)**
+**[Open the illustrated instructions](../Guide.en.md#phone)**
 
-
+<a href="../Guide.en.md#phone"><img src="../images/guide-0.11.15/en-device.png" alt="First use and phone permissions" width="480"></a>
 
 [← Full manual](../README.en.md)

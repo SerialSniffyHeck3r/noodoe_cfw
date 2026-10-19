@@ -1,9 +1,9 @@
 # Language resources and language changes
 
-Updated for NewDoe 0.11.15, 2026-10-19. The detailed procedure is now kept in one place so older updates cannot contradict it.
+**NewDoe 0.11.15 · 2026-10-20**
 
-**[Language resources and language changes — open the current instructions](../Guide.en.md#language)**
+**[Open the illustrated instructions](../Guide.en.md#language)**
 
-
+<a href="../Guide.en.md#language"><img src="../images/guide-0.11.15/language-flow-en.svg" alt="Language resources and language changes" width="480"></a>
 
 [← Full manual](../README.en.md)

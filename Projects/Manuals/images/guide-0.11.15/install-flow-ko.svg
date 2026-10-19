@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="732" viewBox="0 0 760 732" role="img" aria-label="처음 설치, 이 순서로 따라오세요">
+<rect width="760" height="732" rx="22" fill="#111a20"/>
+<g font-family="Segoe UI, Malgun Gothic, Arial, sans-serif">
+<text x="40" y="48" font-size="27" font-weight="700" fill="#ffffff">처음 설치, 이 순서로 따라오세요</text>
+<rect x="32" y="82" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="115" r="19" fill="#9ce6d4"/>
+<text x="65" y="122" text-anchor="middle" font-size="22" fill="#10221f">1</text>
+<text x="100" y="111" font-size="22" fill="#ffffff">폰 · 앱 설치 → 내 누도 확인</text>
+<text x="100" y="143" font-size="18" fill="#c9d8d7">APK를 설치하고, 본체 설치용 CFW ZIP을 고릅니다.</text>
+<path d="M65 160 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="184" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="217" r="19" fill="#9ce6d4"/>
+<text x="65" y="224" text-anchor="middle" font-size="22" fill="#10221f">2</text>
+<text x="100" y="213" font-size="22" fill="#ffffff">폰 → 누도 · Bootstrap 전송</text>
+<text x="100" y="245" font-size="18" fill="#c9d8d7">화면 안내에 따라 키를 끄고, 설치 도구가 나올 때까지 기다립니다.</text>
+<path d="M65 262 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="286" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="319" r="19" fill="#9ce6d4"/>
+<text x="65" y="326" text-anchor="middle" font-size="22" fill="#10221f">3</text>
+<text x="100" y="315" font-size="22" fill="#ffffff">폰 · 현재 상태 확인</text>
+<text x="100" y="347" font-size="18" fill="#c9d8d7">Bootstrap 메뉴가 나오면 키를 켜고 이 버튼을 누릅니다.</text>
+<path d="M65 364 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="388" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="421" r="19" fill="#9ce6d4"/>
+<text x="65" y="428" text-anchor="middle" font-size="22" fill="#10221f">4</text>
+<text x="100" y="417" font-size="22" fill="#ffffff">누도 · Install CFW → Reset Bluetooth? → No</text>
+<text x="100" y="449" font-size="18" fill="#c9d8d7">본체에서 선택하면 폰이 설치를 이어갑니다.</text>
+<path d="M65 466 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="490" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="523" r="19" fill="#9ce6d4"/>
+<text x="65" y="530" text-anchor="middle" font-size="22" fill="#10221f">5</text>
+<text x="100" y="519" font-size="22" fill="#ffffff">누도 + 폰 · 설치 → CFW UPDATE 확인</text>
+<text x="100" y="551" font-size="18" fill="#c9d8d7">누도에 이 화면이 보일 때 폰에서 확인을 누릅니다.</text>
+<path d="M65 568 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="592" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="625" r="19" fill="#9ce6d4"/>
+<text x="65" y="632" text-anchor="middle" font-size="22" fill="#10221f">6</text>
+<text x="100" y="621" font-size="22" fill="#ffffff">폰 · 원하면 언어팩 설치</text>
+<text x="100" y="653" font-size="18" fill="#c9d8d7">다국어 준비 완료까지 기다린 다음 사용할 언어를 고릅니다.</text>
+<text x="40" y="715" font-size="17" fill="#9ce6d4">폰 = Android 앱 / 누도 = 차량의 동그란 화면과 UP·O·DOWN 버튼</text></g></svg>

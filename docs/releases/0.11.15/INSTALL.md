@@ -1,27 +1,28 @@
-# NewDoe 0.11.15 — installation and manual update
+# NewDoe 0.11.15 — 설치 / Installation
 
-**2026-10-19: beginner manuals and app quick help rewritten. Firmware behavior is unchanged.**
+**2026-10-20 그림 설명서 / Illustrated guide**
 
-- [한국어 — 처음부터 따라하기](../../../Projects/Manuals/Guide.md)
-- [English — complete step-by-step guide](../../../Projects/Manuals/Guide.en.md)
-- [기존 CFW 업데이트](../../../Projects/Manuals/Guide.md#update) / [Update existing CFW](../../../Projects/Manuals/Guide.en.md#update)
-- [언어팩과 언어 변경](../../../Projects/Manuals/Guide.md#language) / [Language resources](../../../Projects/Manuals/Guide.en.md#language)
-- [폰 없이 복구·순정 복귀](../../../Projects/Manuals/Guide.md#recovery) / [Recovery without a phone](../../../Projects/Manuals/Guide.en.md#recovery)
+화면마다 누를 버튼과 다음에 기다릴 화면을 설명했습니다. 처음 설치한다면 아래 한국어 설명서를 순서대로 따라오세요.
 
-## Which files?
+Follow the screen examples from start to finish. Each step says what to press and what to wait for.
 
-| File | Purpose |
+- **[한국어 그림 설명서](../../../Projects/Manuals/Guide.md#first-install)**
+- **[English illustrated guide](../../../Projects/Manuals/Guide.en.md#first-install)**
+- [언어팩 / Language resources](../../../Projects/Manuals/Guide.md#language)
+- [폰 없이 복구 / Recovery without a phone](../../../Projects/Manuals/Guide.en.md#recovery)
+
+![처음 설치 순서](../../../Projects/Manuals/images/guide-0.11.15/install-flow-ko.svg)
+
+| 파일 / File | 용도 / Purpose |
 |---|---|
-| `NewDoe-0.11.15-manual-r2.apk` | App with revised native help, versionCode 127. Install over the existing app; keep app data. |
-| `NewDoe-CFW-0.11.15.zip` | Device firmware. Unchanged from the original 0.11.15 release. |
-| `NewDoe-LANGUAGE-B-0.11.2.zip` | Optional B resources. Unchanged; healthy installed resources are reused. |
+| `NewDoe-0.11.15-manual-r2.apk` | 휴대폰 앱 / Android app |
+| `NewDoe-CFW-0.11.15.zip` | 누도 펌웨어 / Device firmware |
+| `NewDoe-LANGUAGE-B-0.11.2.zip` | 선택 언어팩 / Optional language resources |
 
-Already running device firmware 0.11.15? The manual-r2 APK does not require a device update or language retransmission. The original versionCode 126 APK still works with that firmware; its offline help is older. Both apps open the current online manual.
+ZIP은 풀지 않고 앱에서 선택합니다. 이미 본체가 0.11.15라면 이번 설명서 개정 때문에 다시 설치하지 않습니다.
 
-For a first installation: APK → select CFW ZIP → stock check → Bootstrap transfer → wait for Bootstrap → Check current status → device Install CFW → optional Bluetooth reset (default No) → prepare/install → confirm the actual CFW UPDATE screen → optional language resources. Read the full guide before starting.
+Select the ZIP inside the app without extracting it. If your device already runs 0.11.15, this manual update does not require another installation.
 
-With a matching Gate (normally 0.11.4 onward), use normal CFW update. Older Gates require keep-data stock return and reinstall; let the app verify the actual Gate. No Gate OTA is added. The legacy old-code stock-return power-interruption limitation remains. Keep permanent power connected throughout installation/recovery.
+설치·순정 복귀 중 전원을 유지하세요. 구버전에서 순정 복귀 중 전원이 끊기면 별도 수리가 필요할 수 있습니다. 전송 100% 뒤에도 저장·재시작·완료 확인을 기다리세요.
 
-100% is transfer progress, not the final result. Language resources continue through verification/saving, restart, reconnection and ready confirmation. IGN changes do not cancel that job; keep the vehicle parked and the module powered.
-
-Camera-triggered disconnection and physical parked current/endurance remain unverified. This documentation revision does not claim a firmware fix or new hardware qualification. [Original firmware validation](VALIDATION.md) and [manual revision checks](MANUAL-REVISION.md) describe separate scopes.
+Keep power connected during installation and stock recovery. An interruption while older versions return to stock can require separate repair. After transfer reaches 100%, wait for saving, restart and completion.

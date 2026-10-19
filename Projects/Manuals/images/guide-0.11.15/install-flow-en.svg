@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="732" viewBox="0 0 760 732" role="img" aria-label="Your first installation, at a glance">
+<rect width="760" height="732" rx="22" fill="#111a20"/>
+<g font-family="Segoe UI, Malgun Gothic, Arial, sans-serif">
+<text x="40" y="48" font-size="27" font-weight="700" fill="#ffffff">Your first installation, at a glance</text>
+<rect x="32" y="82" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="115" r="19" fill="#9ce6d4"/>
+<text x="65" y="122" text-anchor="middle" font-size="22" fill="#10221f">1</text>
+<text x="100" y="111" font-size="22" fill="#ffffff">PHONE · Install the app and check your Noodoe</text>
+<text x="100" y="143" font-size="18" fill="#c9d8d7">Install the APK, then select the CFW ZIP for the device.</text>
+<path d="M65 160 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="184" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="217" r="19" fill="#9ce6d4"/>
+<text x="65" y="224" text-anchor="middle" font-size="22" fill="#10221f">2</text>
+<text x="100" y="213" font-size="22" fill="#ffffff">PHONE → NOODOE · Send Bootstrap</text>
+<text x="100" y="245" font-size="18" fill="#c9d8d7">Turn the key off when prompted; wait for the Bootstrap menu.</text>
+<path d="M65 262 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="286" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="319" r="19" fill="#9ce6d4"/>
+<text x="65" y="326" text-anchor="middle" font-size="22" fill="#10221f">3</text>
+<text x="100" y="315" font-size="22" fill="#ffffff">PHONE · Check current status</text>
+<text x="100" y="347" font-size="18" fill="#c9d8d7">When Bootstrap appears, turn the key on and tap this button.</text>
+<path d="M65 364 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="388" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="421" r="19" fill="#9ce6d4"/>
+<text x="65" y="428" text-anchor="middle" font-size="22" fill="#10221f">4</text>
+<text x="100" y="417" font-size="22" fill="#ffffff">NOODOE · Install CFW → Reset Bluetooth? → No</text>
+<text x="100" y="449" font-size="18" fill="#c9d8d7">Your phone continues after you make these choices on Noodoe.</text>
+<path d="M65 466 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="490" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="523" r="19" fill="#9ce6d4"/>
+<text x="65" y="530" text-anchor="middle" font-size="22" fill="#10221f">5</text>
+<text x="100" y="519" font-size="22" fill="#ffffff">BOTH · Install → confirm CFW UPDATE</text>
+<text x="100" y="551" font-size="18" fill="#c9d8d7">Confirm on the phone only when this screen is on Noodoe.</text>
+<path d="M65 568 v20" stroke="#7c918e" stroke-width="3"/>
+<rect x="32" y="592" width="696" height="82" rx="12" fill="#203139"/>
+<circle cx="65" cy="625" r="19" fill="#9ce6d4"/>
+<text x="65" y="632" text-anchor="middle" font-size="22" fill="#10221f">6</text>
+<text x="100" y="621" font-size="22" fill="#ffffff">PHONE · Add languages if you want them</text>
+<text x="100" y="653" font-size="18" fill="#c9d8d7">Wait for resources to be ready, then choose a device language.</text>
+<text x="40" y="715" font-size="17" fill="#9ce6d4">PHONE = Android app / NOODOE = round vehicle screen and UP·O·DOWN buttons</text></g></svg>
