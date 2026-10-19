@@ -1,4 +1,4 @@
-> **0.11.13:** ODO now uses the current valid dashboard UART value, without stored correction or old-value substitution. Trips and maintenance records are preserved. UART discontinuity, stale data and transient retry handling are fixed. Bootstrap developer text is centred correctly; stock transfer waits for your Check current status action, then continues after the local Install CFW choice. Live progress updates are fixed. **Install both APK and Product 0.11.13. Gate and B language resources are unchanged.** [Guide](docs/releases/0.11.13/INSTALL.md)
+> **0.11.14:** Prepare the selected language before HOME, reconnect safely when final language readback is interrupted, and keep Bootstrap installation progress consistent across file checks. Riding replies tolerate short phone scheduling stalls. **APK and Product must both be 0.11.14. Gate and B resources remain unchanged. Camera-triggered disconnection still needs vehicle verification.** [Guide](docs/releases/0.11.14/INSTALL.md)
 
 > **0.11.12:** Parking sleep and long-parking shutdown now handle failed RTC, radio, dashboard and UI preparation without abandoning active NOR writes. **Update both APK and firmware ZIP. Same-Gate devices from 0.11.4 onward use normal CFW update. Gate, Bootstrap and language resources are unchanged. Actual vehicle current/endurance remains unmeasured.** [Guide](docs/releases/0.11.12/INSTALL.md)
 
@@ -13,15 +13,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.13 beta
+# NewDoe 0.11.14 beta
 
-ODO now uses the current valid dashboard UART value, without stored correction or old-value substitution. Trips and maintenance records are preserved. UART discontinuity, stale data and transient retry handling are fixed. Bootstrap developer text is centred correctly; stock transfer waits for your Check current status action, then continues after the local Install CFW choice. Live progress updates are fixed. **Install both APK and Product 0.11.13. Gate and B language resources are unchanged.**
+Prepare the selected language before HOME, reconnect safely when final language readback is interrupted, and keep Bootstrap installation progress consistent across file checks. Riding replies tolerate short phone scheduling stalls. **APK and Product must both be 0.11.14. Gate and B resources remain unchanged. Camera-triggered disconnection still needs vehicle verification.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-0.11.13.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-CFW-0.11.13.zip)
-- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.13/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.13/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-0.11.14.apk)
+- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-CFW-0.11.14.zip)
+- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.14/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.14/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -39,7 +39,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.13.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.13.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.14.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.14.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

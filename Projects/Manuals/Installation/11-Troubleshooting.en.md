@@ -1,3 +1,17 @@
+## 0.11.14: language startup and installation status
+
+**Use NewDoe-0.11.14.apk with NewDoe-CFW-0.11.14.zip.** Versions 0.11.4 or newer with the same Gate use the existing CFW update route. Gate and B language resources 0.11.2 are unchanged. A healthy installed pack does not need retransmission. The live ODO/UART fixes and trip/maintenance record preservation remain.
+
+After choosing a language and accepting the existing restart prompt, startup prepares the saved language's text and fonts before opening HOME. SYSTEM STARTUP appears during preparation. No phone button or long ignition cycle is required. Vehicle communication, trip accounting and boot confirmation continue during preparation. Missing/corrupt resources or failed RAM allocation fall back to English. English-only mode and language preferences remain saved.
+
+If Bluetooth disconnects while checking language readiness after confirmed firmware installation, the app reconnects and verifies the same device, Product and confirmed boot before reading the saved pack and menu readiness again. It does not replay firmware or resource writes. Completed byte transfer can still be followed by index/font checks and menu preparation. Wait for the final readiness result. If the result remains unconfirmed, reconnect and select **Install / resume language resources**. Firmware reinstallation or stock recovery is not required.
+
+The new Bootstrap keeps the installation screen while inspecting reused files. The overall bar accounts for each file's transfer, verification, NOR write and readback once; the lower bar shows the current operation. Repeated reads do not rewind overall progress. Manual Check current status after stock transfer, the default-No Bluetooth reset question, final approval and write-safety conditions remain unchanged. Do not return to stock just to update the Bootstrap display.
+
+The phone now parses a valid reply already received before declaring a timeout, and riding response waits allow 10 seconds instead of 3. Actual socket closure still triggers the existing reconnect path immediately. Camera-triggered disconnection could not be reproduced with the vehicle because it is at a service centre; this release does not claim a verified hardware fix for that symptom.
+
+Software validation only. Keep the module powered. The previously accepted old-code stock-return power-interruption limitation remains unchanged.
+
 ## 0.11.13: Bootstrap message layout and manual connection handoff
 
 Use the matching **NewDoe-0.11.13.apk + NewDoe-CFW-0.11.13.zip**. Product must also be updated to **0.11.13** for the ODO/UART fixes. Devices with the same Gate (0.11.4 onward) use the existing CFW update route. Gate and B language resources are unchanged. The Bootstrap display fix applies to new stock installations with this ZIP; do not return to stock just to change that temporary screen.

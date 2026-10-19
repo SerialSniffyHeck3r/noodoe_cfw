@@ -1,4 +1,4 @@
-> **0.11.13:** ODO 자체 저장·보정과 이전 값 대체를 없애고 현재 계기판 UART 값을 표시합니다. 트립·정비 기록은 유지합니다. UART 수신 단절·오래된 데이터·일시 오류 재시도를 수정했습니다. Bootstrap 개발자 메시지 정렬, 수동 현재 상태 확인 후 본체 Install CFW 선택으로 이어가기, 앱 진행 표시도 수정했습니다. **APK와 Product 모두 0.11.13으로 업데이트하세요. Gate와 B 언어팩은 그대로입니다.** [Guide](docs/releases/0.11.13/INSTALL.md)
+> **0.11.14:** 선택 언어를 준비한 뒤 홈 화면을 열고, 언어 최종 상태 조회가 끊기면 같은 기기로 재연결해 확인합니다. Bootstrap 설치 화면·전체 진행률과 휴대폰 응답 지연 처리를 수정했습니다. **APK와 Product 모두 0.11.14로 업데이트하세요. Gate와 B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.** [Guide](docs/releases/0.11.14/INSTALL.md)
 
 > **0.11.12:** RTC·무선·계기판·화면 오류가 절전과 장기 주차 종료를 막는 경로를 보완했어요. 진행 중인 NOR 기록은 보호합니다. **APK와 펌웨어 ZIP을 함께 업데이트하세요. 0.11.4 이후 같은 Gate는 일반 CFW 업데이트입니다. Gate·Bootstrap·언어팩은 같으며 실제 차량 전류·주차 수명은 아직 측정하지 않았습니다.** [Guide](docs/releases/0.11.12/INSTALL.md)
 
@@ -13,15 +13,15 @@
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.13 beta
+# NewDoe 0.11.14 beta
 
-ODO 자체 저장·보정과 이전 값 대체를 없애고 현재 계기판 UART 값을 표시합니다. 트립·정비 기록은 유지합니다. UART 수신 단절·오래된 데이터·일시 오류 재시도를 수정했습니다. Bootstrap 개발자 메시지 정렬, 수동 현재 상태 확인 후 본체 Install CFW 선택으로 이어가기, 앱 진행 표시도 수정했습니다. **APK와 Product 모두 0.11.13으로 업데이트하세요. Gate와 B 언어팩은 그대로입니다.**
+선택 언어를 준비한 뒤 홈 화면을 열고, 언어 최종 상태 조회가 끊기면 같은 기기로 재연결해 확인합니다. Bootstrap 설치 화면·전체 진행률과 휴대폰 응답 지연 처리를 수정했습니다. **APK와 Product 모두 0.11.14로 업데이트하세요. Gate와 B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-0.11.13.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-CFW-0.11.13.zip)
-- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.13-odo-bootstrap/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.13/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.13/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-0.11.14.apk)
+- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-CFW-0.11.14.zip)
+- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.14/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.14/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -66,7 +66,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.13.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.13.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.14.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.14.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
