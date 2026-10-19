@@ -1,3 +1,6 @@
+> **0.11.13:** From 0.11.13, ODO storage, correction and replacement with an older value are removed. ODO displays the current valid dashboard UART reading. Missing data is shown as unknown until reception resumes. The key-OFF display may retain this running session in RAM only. TRIP A/B, today/session trips, oil, belt, service records and settings remain preserved. The ODO check menu is removed; old correction records are neither read nor rewritten.
+> Earlier ODO correction instructions below are historical.
+
 [0.11.12: parked power and long-parking shutdown](36-NewDoe-Recovery.en.md)
 
 [0.11.11: phone dashboard and three-page app](37-Phone-Dashboard.en.md)

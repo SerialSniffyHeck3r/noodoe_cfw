@@ -1,3 +1,6 @@
+> **0.11.13:** 0.11.13부터 ODO 자체 저장·보정과 이전 값 대체를 제거했습니다. 계기판 UART의 현재 유효값을 그대로 표시합니다. 수신이 끊기면 알 수 없음으로 표시하고 정상 수신 시 다시 표시합니다. 키 OFF 화면의 마지막 값은 이번 실행 중 RAM에만 남습니다. TRIP A/B·오늘/이번 주행·오일·벨트·정비 기록과 설정 보존은 유지합니다. ODO check 메뉴는 없어졌으며 예전 보정 기록은 읽거나 다시 쓰지 않습니다.
+> Earlier ODO correction instructions below are historical.
+
 # 화면과 상태 아이콘 · 0.9.61
 
 [사용 설명서](README.md) · [English](23-Controls-Recovery.en.md)
