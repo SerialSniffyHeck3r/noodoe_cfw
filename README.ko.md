@@ -1,4 +1,4 @@
-> **0.11.14:** 선택 언어를 준비한 뒤 홈 화면을 열고, 언어 최종 상태 조회가 끊기면 같은 기기로 재연결해 확인합니다. Bootstrap 설치 화면·전체 진행률과 휴대폰 응답 지연 처리를 수정했습니다. **APK와 Product 모두 0.11.14로 업데이트하세요. Gate와 B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.** [Guide](docs/releases/0.11.14/INSTALL.md)
+> **0.11.15:** 언어팩 전체 검사는 설치 때 수행하고 이후 부팅은 선택 언어의 문구·글자를 불러옵니다. 일본어 인덱스의 반복 읽기도 줄였습니다. **APK·Product 모두 0.11.15로 업데이트하세요. Gate·Bootstrap·B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.** [Guide](docs/releases/0.11.15/INSTALL.md)
 
 > **0.11.12:** RTC·무선·계기판·화면 오류가 절전과 장기 주차 종료를 막는 경로를 보완했어요. 진행 중인 NOR 기록은 보호합니다. **APK와 펌웨어 ZIP을 함께 업데이트하세요. 0.11.4 이후 같은 Gate는 일반 CFW 업데이트입니다. Gate·Bootstrap·언어팩은 같으며 실제 차량 전류·주차 수명은 아직 측정하지 않았습니다.** [Guide](docs/releases/0.11.12/INSTALL.md)
 
@@ -13,15 +13,15 @@
 **0.10.4:** APK와 본체 ZIP을 모두 업데이트하세요. IGN ON에서 속도가 미수신이어도 전체 설정을 열 수 있고, 정상 주행 속도의 잠금은 유지합니다. 설치된 언어팩은 재사용합니다. [안내](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.14 beta
+# NewDoe 0.11.15 beta
 
-선택 언어를 준비한 뒤 홈 화면을 열고, 언어 최종 상태 조회가 끊기면 같은 기기로 재연결해 확인합니다. Bootstrap 설치 화면·전체 진행률과 휴대폰 응답 지연 처리를 수정했습니다. **APK와 Product 모두 0.11.14로 업데이트하세요. Gate와 B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.**
+언어팩 전체 검사는 설치 때 수행하고 이후 부팅은 선택 언어의 문구·글자를 불러옵니다. 일본어 인덱스의 반복 읽기도 줄였습니다. **APK·Product 모두 0.11.15로 업데이트하세요. Gate·Bootstrap·B 언어팩은 그대로입니다. 카메라 실행 중 연결 끊김은 실기 확인이 남아 있습니다.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-0.11.14.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-CFW-0.11.14.zip)
-- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.14/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.14/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15.apk)
+- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
+- [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.15/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

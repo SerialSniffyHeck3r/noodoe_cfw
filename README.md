@@ -1,4 +1,4 @@
-> **0.11.14:** Prepare the selected language before HOME, reconnect safely when final language readback is interrupted, and keep Bootstrap installation progress consistent across file checks. Riding replies tolerate short phone scheduling stalls. **APK and Product must both be 0.11.14. Gate and B resources remain unchanged. Camera-triggered disconnection still needs vehicle verification.** [Guide](docs/releases/0.11.14/INSTALL.md)
+> **0.11.15:** Verify language resources during installation; later boots load only the selected menu text and glyphs. Japanese index reads reuse existing memory. **Use matching 0.11.15 APK/Product. Gate, Bootstrap and B resources are unchanged. Camera-triggered disconnection still needs vehicle verification.** [Guide](docs/releases/0.11.15/INSTALL.md)
 
 > **0.11.12:** Parking sleep and long-parking shutdown now handle failed RTC, radio, dashboard and UI preparation without abandoning active NOR writes. **Update both APK and firmware ZIP. Same-Gate devices from 0.11.4 onward use normal CFW update. Gate, Bootstrap and language resources are unchanged. Actual vehicle current/endurance remains unmeasured.** [Guide](docs/releases/0.11.12/INSTALL.md)
 
@@ -13,15 +13,15 @@
 **0.10.4:** Update both APK and firmware ZIP. Full settings remain accessible when IGN is ON but vehicle speed is missing. Valid moving-speed locks remain. Existing language resources are reused. [Details](docs/releases/0.10.4/INSTALL.md).
 
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.14 beta
+# NewDoe 0.11.15 beta
 
-Prepare the selected language before HOME, reconnect safely when final language readback is interrupted, and keep Bootstrap installation progress consistent across file checks. Riding replies tolerate short phone scheduling stalls. **APK and Product must both be 0.11.14. Gate and B resources remain unchanged. Camera-triggered disconnection still needs vehicle verification.**
+Verify language resources during installation; later boots load only the selected menu text and glyphs. Japanese index reads reuse existing memory. **Use matching 0.11.15 APK/Product. Gate, Bootstrap and B resources are unchanged. Camera-triggered disconnection still needs vehicle verification.**
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-0.11.14.apk)
-- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-CFW-0.11.14.zip)
-- [Optional B language resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.14-language-startup/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Installation / 설치 안내](docs/releases/0.11.14/INSTALL.md)
-- [Validation / 검증](docs/releases/0.11.14/VALIDATION.md)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-0.11.15.apk)
+- [Matching installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-CFW-0.11.15.zip)
+- [Optional B resources (unchanged)](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.15-language-loading/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Installation / 설치 안내](docs/releases/0.11.15/INSTALL.md)
+- [Validation / 검증](docs/releases/0.11.15/VALIDATION.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
