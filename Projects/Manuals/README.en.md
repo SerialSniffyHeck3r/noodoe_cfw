@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**0.11.16 · 2026-10-20**
+**0.11.17 · 2026-10-20**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,6 +30,6 @@ Use the screen examples to follow each step on your phone and Noodoe.
 | Ignition-off and long parking | [Open](Guide.en.md#parking) |
 | Get help and save diagnostics | [Open](Guide.en.md#report) |
 
-The first move to 0.11.16 requires a keep-data stock return and reinstall. Read [the update guide](Guide.en.md#update) first.
+The first move to 0.11.17 requires a keep-data stock return and reinstall. Read [the update guide](Guide.en.md#update) first.
 
-[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-Illustrated-Manual-0.11.16.zip)
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-install-guide/NewDoe-Illustrated-Manual-0.11.17.zip)

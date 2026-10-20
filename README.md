@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.16 beta
+# NewDoe 0.11.17 beta
 
-Install guidance, safety screens, Bluetooth OFF handling and three maintenance rings. **The first upgrade to 0.11.16 needs a keep-data stock return and reinstall because Gate has changed.** Use the matching APK/ZIP. Existing B 0.11.2 language resources stay valid.
+UART receive fixes and last-ODO retention during key-OFF parked use. **Update normally from 0.11.16; no stock return is needed.** Gate and B 0.11.2 language resources are unchanged.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-0.11.16.apk)
-- [Matching CFW ZIP / 펌웨어](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-CFW-0.11.16.zip)
-- [Optional B resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Illustrated offline manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-Illustrated-Manual-0.11.16.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-uart/NewDoe-0.11.17.apk)
+- [CFW ZIP / 펌웨어](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-uart/NewDoe-CFW-0.11.17.zip)
+- [B language resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-uart/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-uart/NewDoe-Illustrated-Manual-0.11.17.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.11.16/INSTALL.md)
+- [Installation / 설치 안내](docs/releases/0.11.17/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.15-manual-r2.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.15.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.17.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.17.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App and device firmware 0.11.16 / B language resources 0.11.2 · 20 October 2026**  
+**App and device firmware 0.11.17 / B language resources 0.11.2 · 20 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,8 +56,8 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.11.16.apk** | The Android app |
-| **NewDoe-CFW-0.11.16.zip** | The device firmware package. Select this ZIP inside the app. |
+| **NewDoe-0.11.17.apk** | The Android app |
+| **NewDoe-CFW-0.11.17.zip** | The device firmware package. Select this ZIP inside the app. |
 | **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
 **Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. The language resource version **0.11.2** is correct.
@@ -114,7 +114,7 @@ You can reopen **Guided installation** on the Device/status page. **Next** moves
 <img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
 
 1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.11.16.zip** itself. Do not select the language ZIP.
+2. Open Downloads and select **NewDoe-CFW-0.11.17.zip** itself. Do not select the language ZIP.
 3. On the installer preparation screen above, confirm sending the installer.
 4. Wait for transfer and checking to finish. Do not turn the key off early.
 
@@ -190,7 +190,7 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Updating an existing NewDoe
 
-**Moving to 0.11.16 for the first time? Read the stock-return section below first.**
+**Updating from 0.11.16 to 0.11.17? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
 
 ### Normal CFW update
 
@@ -205,7 +205,7 @@ Normal updates retain settings, brightness, photos, trips and maintenance record
 
 ### If the app asks you to return to stock first
 
-**0.11.16 includes a new recovery menu. For the first move from an older version, return to stock and reinstall while keeping CFW data.** This also applies to 0.11.15. Once this recovery menu is installed, later matching-Gate Product updates use the normal CFW update above. The app identifies which route is needed.
+**If your recovery menu predates 0.11.16, return to stock and reinstall while keeping CFW data.** This also applies to 0.11.15. It is not needed if 0.11.16 is already installed. Once this recovery menu is installed, later matching-Gate Product updates use the normal CFW update above. The app identifies which route is needed.
 
 1. Return to stock with **Keep CFW data**. Do not choose complete removal.
 2. Once the actual stock screen appears, tap the phone's **I've returned to stock · check** option.
@@ -397,6 +397,8 @@ Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**
 HOME AUTO prioritises **new notifications → playing music → other information**. A new notification or a manually chosen information view normally returns to the automatic priority after 20 seconds.
 
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
+
+In 0.11.17, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
 
 <a id="media"></a>
 ## 13. Music, calls and notifications

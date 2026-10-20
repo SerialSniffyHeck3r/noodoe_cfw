@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**0.11.16 · 2026-10-20**
+**0.11.17 · 2026-10-20**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,6 +30,6 @@
 | 키 OFF·장기 주차 | [보기](Guide.md#parking) |
 | 문의와 진단 | [보기](Guide.md#report) |
 
-0.11.16으로 처음 넘어올 때는 데이터 보존 순정 복귀 후 재설치합니다. [업데이트 안내](Guide.md#update)를 먼저 확인하세요.
+0.11.17으로 처음 넘어올 때는 데이터 보존 순정 복귀 후 재설치합니다. [업데이트 안내](Guide.md#update)를 먼저 확인하세요.
 
-[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.16-install-guide/NewDoe-Illustrated-Manual-0.11.16.zip)
+[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.17-install-guide/NewDoe-Illustrated-Manual-0.11.17.zip)
