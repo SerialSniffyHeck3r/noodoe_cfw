@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App and device firmware 0.11.17 / B language resources 0.11.2 · 20 October 2026**  
+**App and device firmware 0.11.18 / B language resources 0.11.2 · 21 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,8 +56,8 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.11.17.apk** | The Android app |
-| **NewDoe-CFW-0.11.17.zip** | The device firmware package. Select this ZIP inside the app. |
+| **NewDoe-0.11.18.apk** | The Android app |
+| **NewDoe-CFW-0.11.18.zip** | The device firmware package. Select this ZIP inside the app. |
 | **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
 **Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. The language resource version **0.11.2** is correct.
@@ -114,7 +114,7 @@ You can reopen **Guided installation** on the Device/status page. **Next** moves
 <img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
 
 1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.11.17.zip** itself. Do not select the language ZIP.
+2. Open Downloads and select **NewDoe-CFW-0.11.18.zip** itself. Do not select the language ZIP.
 3. On the installer preparation screen above, confirm sending the installer.
 4. Wait for transfer and checking to finish. Do not turn the key off early.
 
@@ -190,7 +190,7 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Updating an existing NewDoe
 
-**Updating from 0.11.16 to 0.11.17? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
+**Updating from 0.11.16 to 0.11.18? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
 
 ### Normal CFW update
 
@@ -398,7 +398,9 @@ HOME AUTO prioritises **new notifications → playing music → other informatio
 
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
 
-In 0.11.17, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
+In 0.11.18, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
+
+**SINCE REFUEL:** a fuel level at least two bars above the earlier level for three seconds starts a new record. A 2-bar tank refilled to alternating 4/5-bar readings is accepted. Missing or unknown readings wait for valid data. TRIP A/B and maintenance history are kept.
 
 <a id="media"></a>
 ## 13. Music, calls and notifications
