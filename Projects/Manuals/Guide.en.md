@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App and device firmware 0.11.18 / B language resources 0.11.2 · 21 October 2026**  
+**App 0.11.19 / device firmware 0.11.18 / B language resources 0.11.2 · 21 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,7 +56,7 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.11.18.apk** | The Android app |
+| **NewDoe-0.11.19.apk** | The Android app |
 | **NewDoe-CFW-0.11.18.zip** | The device firmware package. Select this ZIP inside the app. |
 | **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
@@ -188,9 +188,12 @@ Noodoe restarts during installation. Leave the app open even if the connection b
 The app now asks whether to install language resources. Choose **Install** for other menu languages, or **Later** to use English first. You can add resources later. Continue with [the language instructions](#language).
 
 <a id="update"></a>
+
 ## 5. Updating an existing NewDoe
 
-**Updating from 0.11.16 to 0.11.18? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
+App 0.11.19 connects to devices running 0.11.17 and 0.11.18. After updating the app, tap the Home connection button once. If your device already runs 0.11.18, only the app needs updating.
+
+**Updating from 0.11.16/0.11.17 to 0.11.18? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
 
 ### Normal CFW update
 

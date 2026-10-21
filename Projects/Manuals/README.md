@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**0.11.18 · 2026-10-21**
+**APK 0.11.19 / CFW 0.11.18 · 2026-10-21**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,6 +30,6 @@
 | 키 OFF·장기 주차 | [보기](Guide.md#parking) |
 | 문의와 진단 | [보기](Guide.md#report) |
 
-0.11.18으로 처음 넘어올 때는 데이터 보존 순정 복귀 후 재설치합니다. [업데이트 안내](Guide.md#update)를 먼저 확인하세요.
+본체 0.11.17에는 앱 0.11.19를 먼저 설치한 뒤 일반 CFW 업데이트로 0.11.18을 올리세요. 이미 본체가 0.11.18이면 앱만 업데이트하면 돼요. 순정 복귀·재페어링·언어팩 재전송은 필요 없어요. [업데이트 안내](Guide.md#update)를 먼저 확인하세요.
 
-[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.18-install-guide/NewDoe-Illustrated-Manual-0.11.18.zip)
+[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-Illustrated-Manual-0.11.19.zip)

@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.11.18 beta
+# NewDoe app 0.11.19 / CFW 0.11.18 beta
 
-Improved refuel detection and reduced redundant Android map planning, redraws and background polling. **Update normally from 0.11.16/0.11.17.** Gate, Bootstrap and B 0.11.2 language resources are unchanged.
+App 0.11.19 connects to firmware 0.11.17 and 0.11.18. **Already on firmware 0.11.18? Update only the APK.** From 0.11.17, install the new app first, then use the unchanged 0.11.18 ZIP for normal CFW update.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.18-fuel-power/NewDoe-0.11.18.apk)
-- [CFW ZIP / 펌웨어](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.18-fuel-power/NewDoe-CFW-0.11.18.zip)
-- [B language resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.18-fuel-power/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Illustrated manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.18-fuel-power/NewDoe-Illustrated-Manual-0.11.18.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-0.11.19.apk)
+- [CFW ZIP / 펌웨어 0.11.18](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-CFW-0.11.18.zip)
+- [B language resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-Illustrated-Manual-0.11.19.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.11.18/INSTALL.md)
+- [Installation / 설치 안내](docs/releases/0.11.19/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.18.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.18.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.19.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.18.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
