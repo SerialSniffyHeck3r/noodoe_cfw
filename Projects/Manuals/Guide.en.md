@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.11.19 / device firmware 0.11.18 / B language resources 0.11.2 · 21 October 2026**  
+**App 0.12.0 / device firmware 0.12.0 / B language resources 0.11.2 · 21 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,8 +56,8 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.11.19.apk** | The Android app |
-| **NewDoe-CFW-0.11.18.zip** | The device firmware package. Select this ZIP inside the app. |
+| **NewDoe-0.12.0.apk** | The Android app |
+| **NewDoe-CFW-0.12.0.zip** | The device firmware package. Select this ZIP inside the app. |
 | **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
 **Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. The language resource version **0.11.2** is correct.
@@ -114,7 +114,7 @@ You can reopen **Guided installation** on the Device/status page. **Next** moves
 <img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
 
 1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.11.18.zip** itself. Do not select the language ZIP.
+2. Open Downloads and select **NewDoe-CFW-0.12.0.zip** itself. Do not select the language ZIP.
 3. On the installer preparation screen above, confirm sending the installer.
 4. Wait for transfer and checking to finish. Do not turn the key off early.
 
@@ -188,12 +188,19 @@ Noodoe restarts during installation. Leave the app open even if the connection b
 The app now asks whether to install language resources. Choose **Install** for other menu languages, or **Later** to use English first. You can add resources later. Continue with [the language instructions](#language).
 
 <a id="update"></a>
+## 5. Update an existing NewDoe
 
-## 5. Updating an existing NewDoe
+0.12.0 includes an updated recovery system. Update the app first, return to stock with Keep CFW data, then reinstall the 0.12.0 ZIP and choose Restore retained data. Settings, trips and photos are retained. Keep a healthy installed B 0.11.2 language pack.
 
-App 0.11.19 connects to devices running 0.11.17 and 0.11.18. After updating the app, tap the Home connection button once. If your device already runs 0.11.18, only the app needs updating.
+1. Install `NewDoe-0.12.0.apk` over the existing app. Stop the riding connection and select `NewDoe-CFW-0.12.0.zip`.
+2. Follow **Return to stock → Keep CFW data**. Do not choose complete removal.
+3. After the stock screen appears, choose **I have returned to stock · check** on the phone.
+4. Follow [first installation](#first-install) with the new ZIP, and select **Restore retained data** when asked.
+5. Complete [CFW UPDATE confirmation](#confirm-update). Keep the existing language resources if the app reports them ready.
 
-**Updating from 0.11.16/0.11.17 to 0.11.18? Use the normal CFW update below. No stock return or language-pack reinstall is needed.**
+**Keep power connected throughout stock return and installation. An interruption during stock return on older firmware can require external repair.**
+
+### Later updates with the same recovery system
 
 ### Normal CFW update
 
@@ -205,16 +212,6 @@ App 0.11.19 connects to devices running 0.11.17 and 0.11.18. After updating the 
 6. Follow the language prompt if needed. **A healthy installed B 0.11.2 pack does not need to be sent again.**
 
 Normal updates retain settings, brightness, photos, trips and maintenance records. If disconnected, check the result using the same device and ZIP. Do not clear app data.
-
-### If the app asks you to return to stock first
-
-**If your recovery menu predates 0.11.16, return to stock and reinstall while keeping CFW data.** This also applies to 0.11.15. It is not needed if 0.11.16 is already installed. Once this recovery menu is installed, later matching-Gate Product updates use the normal CFW update above. The app identifies which route is needed.
-
-1. Return to stock with **Keep CFW data**. Do not choose complete removal.
-2. Once the actual stock screen appears, tap the phone's **I've returned to stock · check** option.
-3. Follow [first installation](#first-install) with the new ZIP and select **Restore retained data**.
-
-**Do not disconnect power while returning to stock.** An interruption during this step on older versions can require separate repair.
 
 <a id="language"></a>
 ## 6. Install resources and choose a language
@@ -233,6 +230,8 @@ Normal updates retain settings, brightness, photos, trips and maintenance record
 Turning the key ON or OFF does not cancel this job. Keep the vehicle parked and **keep the battery and Noodoe wiring connected**. You do not have to send text and font files individually.
 
 **If asked to repair fonts:** “Repair fonts and continue” restores the required stock fonts before proceeding. “Continue in English” leaves those fonts alone and uses English. If the question does not appear, continue normally.
+
+After a full power-off, the selected language is prepared before Home. The blue preparation screen shows the current step and progress; keep power connected. An ordinary wake from sleep reuses the loaded language.
 
 ### Change the device language
 
@@ -401,7 +400,7 @@ HOME AUTO prioritises **new notifications → playing music → other informatio
 
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
 
-In 0.11.18, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
+In 0.12.0, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
 
 **SINCE REFUEL:** a fuel level at least two bars above the earlier level for three seconds starts a new record. A 2-bar tank refilled to alternating 4/5-bar readings is accepted. Missing or unknown readings wait for valid data. TRIP A/B and maintenance history are kept.
 

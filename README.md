@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe app 0.11.19 / CFW 0.11.18 beta
+# NewDoe 0.12.0 beta
 
-App 0.11.19 connects to firmware 0.11.17 and 0.11.18. **Already on firmware 0.11.18? Update only the APK.** From 0.11.17, install the new app first, then use the unchanged 0.11.18 ZIP for normal CFW update.
+Adds the stock alternate panel initialization path and reduces cold-start language preparation work. **From an older release, return to stock keeping CFW data, then reinstall 0.12.0.** Keep a healthy B 0.11.2 pack. The reporting 2024 AK550 Premium unit has not been physically verified.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-0.11.19.apk)
-- [CFW ZIP / 펌웨어 0.11.18](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-CFW-0.11.18.zip)
-- [B language resources / 언어팩](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Illustrated manual / 그림 설명서](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.11.19-connection/NewDoe-Illustrated-Manual-0.11.19.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-0.12.0.apk)
+- [CFW installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-CFW-0.12.0.zip)
+- [B language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-Illustrated-Manual-0.12.0.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.11.19/INSTALL.md)
+- [Installation / 설치 안내](docs/releases/0.12.0/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.11.19.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.11.18.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.12.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.12.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
