@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.12.0 beta
+# NewDoe 0.12.1 beta
 
-Adds the stock alternate panel initialization path and reduces cold-start language preparation work. **From an older release, return to stock keeping CFW data, then reinstall 0.12.0.** Keep a healthy B 0.11.2 pack. The reporting 2024 AK550 Premium unit has not been physically verified.
+Improves parked Bluetooth fault recovery, refuel detection and Ride Summary oil information, with a dedicated music-volume popup. **From 0.12.0, use normal CFW update.** Older Gate versions require keep-data stock return/reinstall. Keep healthy B 0.11.2 resources.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-0.12.0.apk)
-- [CFW installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-CFW-0.12.0.zip)
-- [B language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-LANGUAGE-B-0.11.2.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-Illustrated-Manual-0.12.0.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-0.12.1.apk)
+- [CFW installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-CFW-0.12.1.zip)
+- [B language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-LANGUAGE-B-0.11.2.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-Illustrated-Manual-0.12.1.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.12.0/INSTALL.md)
+- [Installation / 설치 안내](docs/releases/0.12.1/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.12.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.12.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.12.1.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.12.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

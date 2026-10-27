@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**APK 0.12.0 / CFW 0.12.0 · 2026-10-24**
+**APK 0.12.1 / CFW 0.12.1 · 2026-10-27**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,6 +30,6 @@
 | 키 OFF·장기 주차 | [보기](Guide.md#parking) |
 | 문의와 진단 | [보기](Guide.md#report) |
 
-0.12.0에는 새 복구 메뉴가 포함됩니다. 앱을 먼저 업데이트하고, CFW 데이터 유지로 순정 복귀한 뒤 0.12.0 ZIP을 재설치하세요. 보관 데이터 복원을 선택하면 설정·트립·사진을 이어 씁니다. 정상 설치된 B 0.11.2 언어팩은 다시 전송하지 않습니다.
+0.12.0에서는 0.12.1로 일반 CFW 업데이트를 진행하세요. 구형 Gate는 데이터 유지 순정 복귀 후 재설치 안내를 따릅니다. 정상 B 0.11.2 언어팩은 유지합니다.
 
-[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.0/NewDoe-Illustrated-Manual-0.12.0.zip)
+[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-Illustrated-Manual-0.12.1.zip)
