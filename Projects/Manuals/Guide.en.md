@@ -2,12 +2,12 @@
 
 # NewDoe illustrated user guide
 
-**App 0.12.2 / device firmware 0.12.2 / B language resources 0.12.2 · 29 October 2026**  
+**App 0.13.0 / device firmware 0.12.2 / B language resources 0.12.2 · 29 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
 
-![First installation overview](images/guide-0.11.15/install-flow-en.svg)
+![First installation overview](images/guide-0.13.0/install-flow-en.svg)
 
 **Jump to what you need.**
 
@@ -50,17 +50,11 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 <a id="prepare"></a>
 ## 3. Get ready
 
-### Download the right files
+### Download just the APK
 
-Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest) on your phone.
+Get **NewDoe-0.13.0.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
 
-| File | What is it for? |
-|---|---|
-| **NewDoe-0.12.2.apk** | The Android app |
-| **NewDoe-CFW-0.12.2.zip** | The device firmware package. Select this ZIP inside the app. |
-| **NewDoe-LANGUAGE-B-0.12.2.zip** | Optional menu languages. You can also use the app's download instructions. |
-
-**Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. Use B language resources **0.12.2** for the translated photo settings.
+**App 0.13.0 includes device firmware and language resources 0.12.2.** If your device already runs 0.12.2, only update the app. Installing the APK alone does not change the device firmware.
 
 ### Park before you begin
 
@@ -87,13 +81,13 @@ When you press an install button, read each picture and tap **Got it**. **Cancel
 
 All five signs stay under the installation status while it runs. They are reminders, not extra buttons.
 
-### First launch and the optional installation guide
+### Choose guidance when installing from stock
 
-On first launch, answer whether you have used NewDoe before. If not, open the illustrated guide to learn the buttons. Choose what is currently running on your Noodoe, then choose **Guided installation** or **Go to home**. Your answer does not select firmware for the vehicle: **Check current status** identifies the device.
+On first launch, answer whether you have used NewDoe before and read the button guide if needed. Open **Device/status → Check current status**. Once the actual device is identified as stock, choose **Install** or **Install with step-by-step guidance**. Use the guide if you are unfamiliar with installation.
 
-You can reopen **Guided installation** on the Device/status page. **Next** moves between device selection, ZIP selection, transfer and checking the restarted device. Once a transfer or verification starts, wait until it finishes; do not look for another Next button. You can also keep using the original Device page.
+The optional guide starts only from stock firmware. Existing CFW uses the normal update screen. After a transfer or verification starts, wait for that operation to finish. Reopening a guide does not start installation.
 
-<img src="images/guide-0.11.16/en-guide.png" alt="Optional guided installation" width="330">
+<img src="images/guide-0.13.0/en-stock.png" alt="Stock installation after device inspection" width="330">
 
 <a id="first-install"></a>
 ## 4. First installation from stock
@@ -109,18 +103,16 @@ You can reopen **Guided installation** on the Device/status page. **Next** moves
 5. Open **Permissions & integration** and allow Bluetooth/Nearby devices access. Music, calling and location permissions can be set up [after installation](#phone).
 6. Tap **Check current device**. Confirm that the app identifies **stock Noodoe**.
 
-### ② Select the CFW ZIP and send the installer
+### ② Send the installer using included files
 
-<img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
-
-1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.12.2.zip** itself. Do not select the language ZIP.
-3. On the installer preparation screen above, confirm sending the installer.
-4. Wait for transfer and checking to finish. Do not turn the key off early.
+1. **[PHONE]** After checking the device, review the app, included firmware and prepared firmware versions. The app prepares the files automatically.
+2. Choose **Install**, or **Install with step-by-step guidance** for help.
+3. Read and acknowledge each safety screen. Cancel sends no installation command.
+4. Wait for the first transfer and check to finish. Do not turn the key OFF early during the stock transfer.
 
 ### ③ Wait for Bootstrap, then tap Check current status
 
-<img src="images/guide-0.11.15/en-bootstrap-wait.png" alt="Bootstrap transferred: Check current status button" width="360">
+<img src="images/guide-0.13.0/en-bootstrap-wait.png" alt="Bootstrap transferred: Check current status button" width="360">
 
 1. **[PHONE]** When this message appears, follow the stock display's instruction to turn the **key OFF**. Leave the battery connected.
 2. **[NOODOE]** Wait until the **NewDoe Bootstrap menu** below appears. The intermediate **NOODOE INSTALLER** screen is not that menu.
@@ -192,15 +184,15 @@ The app now asks whether to install language resources. Choose **Install** for o
 
 **From 0.12.0 or 0.12.1, use the normal CFW update to 0.12.2.** Gate is unchanged. B language resources 0.12.2 add the photo-setting messages.
 
-1. Install `NewDoe-0.12.2.apk` over your existing app. Keep its data and pairing.
-2. Stop the riding connection and select `NewDoe-CFW-0.12.2.zip` on the status page.
+1. Install `NewDoe-0.13.0.apk` over your existing app. Keep its data and pairing.
+2. Stop the riding connection and check the current device on the status page.
 3. Tap **Check current device**, choose **CFW update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
 5. Confirm the device's **CFW UPDATE** screen in the app. After confirming firmware, install B language resources 0.12.2 when prompted for the new photo-setting translations.
 
 ### If the app requires the newer recovery system
 
-From 0.11.x or another older Gate, follow **Return to stock → Keep CFW data** first. Once the stock screen appears, tap **I have returned to stock · check**, then follow [first installation](#first-install) using the new ZIP. Choose **Restore retained data**. Do not select complete removal.
+From 0.11.x or another older Gate, follow **Return to stock → Keep CFW data** first. Once the stock screen appears, tap **I have returned to stock · check**, then follow [first installation](#first-install) using the included package. Choose **Restore retained data**. Do not select complete removal.
 
 Settings, trips, maintenance records and photos are retained. **Do not disconnect power during stock return or installation. An interruption in older stock-return code can require external repair.**
 
@@ -214,7 +206,7 @@ Settings, trips, maintenance records and photos are retained. **Do not disconnec
 ### Install or update language resources
 
 1. Choose **Install** in the post-installation question, or open **Device language / language resources → Install / resume language resources** later.
-2. Follow the app's download instructions. For manual selection, choose **NewDoe-LANGUAGE-B-0.12.2.zip**.
+2. Use the language resources included in the app; no separate download is needed. An unfinished earlier installation uses its retained original files.
 3. If the same healthy pack is already installed, the app checks it without sending everything again. Follow the update prompt for an older pack.
 4. Wait through **100% → Verifying and saving → automatic restart → reconnect → language resources ready**.
 
@@ -249,6 +241,15 @@ B units support **English · Deutsch · Español · Français · Italiano · Ε�
 | **Use device fonts** | You want quick text delivery. Emoji are monochrome and unsupported characters may appear as □. |
 
 If you still see English, check **English only is off → the device language is selected → the restart was confirmed → language resources are ready**.
+
+<a id="expert"></a>
+## Expert settings and interrupted installations
+
+For normal use, choose **Check current status → Install / Update**. Manual ZIP installation, diagnostics, recovery and backups remain in **Device/status → Expert settings**. Manual ZIP selection shows a caution screen; installing the selected ZIP shows it again. Selecting a file does not install it. Choose **Use packages included in this app** to return to the default source.
+
+After an app update or lost connection, check the device first. An unfinished installation continues with its original files and records, even if the new app contains a newer package. If an original file is missing or damaged, import that exact original ZIP through Expert settings. Do not substitute another version.
+
+Files and records live in app-private storage. **Uninstalling the app or clearing its data removes them.** Export **Backup and operation records** from Expert settings first. If storage is full, free other unnecessary files and retry. The app does not automatically delete recovery evidence or ongoing packages. An uncertain operation is checked on the device before further work.
 
 <a id="connection"></a>
 ## 7. When the phone cannot connect
@@ -470,7 +471,7 @@ NewDoe reads the stock album without replacing, deleting or repairing it. Upload
 
 ![A slot-specific photo error](images/guide-0.12.2/photo-error.png)
 
-If first installation stopped with **0x00050005 / CFWPIC.DAT** after the photo progress reached the end, install the new APK and select the matching 0.12.2 ZIP. Use **Check current device** and follow the offered resume path. Do not erase the stock album or clear app data.
+If first installation stopped with **0x00050005 / CFWPIC.DAT** after photo transfer, use **Check current device** first. The included firmware package 0.12.2 fixes this issue. If it repeats in an older Bootstrap, inspect the result, return to stock, then reinstall with the included files. Do not erase the stock album or clear app data.
 
 <a id="report"></a>
 ## 17. Still stuck? Send this information
@@ -478,7 +479,7 @@ If first installation stopped with **0x00050005 / CFWPIC.DAT** after the photo p
 Open **Having trouble? / Recovery and diagnostics → Save and share diagnostics**. Include the following in a [project support request](https://github.com/SerialSniffyHeck3r/noodoe_cfw/issues):
 
 - Vehicle model/year, phone model and Android version.
-- App version, device firmware version and selected ZIP filename.
+- App version, device firmware version and the prepared firmware version shown in the app. Include the ZIP filename if you selected one manually.
 - A photo of Noodoe's current screen and the exact error/code.
 - Your last button press and what happened afterward.
 - For languages: device language, English-only setting and resource status.

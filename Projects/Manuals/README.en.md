@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.12.1 / CFW 0.12.1 · 2026-10-29**
+**APK 0.13.0 / CFW 0.12.2 / B language 0.12.2 · 2026-10-29**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -8,7 +8,7 @@ Use the screen examples to follow each step on your phone and Noodoe.
 
 **[Open the illustrated guide](Guide.en.md)**
 
-![Installation overview](images/guide-0.11.15/install-flow-en.svg)
+![Installation overview](images/guide-0.13.0/install-flow-en.svg)
 
 | What you need | Guide |
 |---|---|
@@ -32,4 +32,6 @@ Use the screen examples to follow each step on your phone and Noodoe.
 
 From 0.12.0/0.12.1, use normal CFW update to 0.12.2. Older Gate versions follow keep-data stock return and reinstall. Use B 0.12.2 language resources for the new photo settings.
 
-[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.1/NewDoe-Illustrated-Manual-0.12.1.zip)
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-Illustrated-Manual-0.13.0.zip)
+
+App 0.13.0 includes firmware and language resources 0.12.2. Download the APK, check the device, then install or update. Manual ZIP installation remains in Expert settings.

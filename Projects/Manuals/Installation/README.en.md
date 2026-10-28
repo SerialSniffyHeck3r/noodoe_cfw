@@ -1,10 +1,10 @@
 # NewDoe — Install and recover
 
-**0.11.16 · 2026-10-20**
+**APK 0.13.0 / CFW 0.12.2 / B language 0.12.2 · 2026-10-29**
 
 [← Full guide](../README.en.md)
 
-![Install and recover](../images/guide-0.11.15/install-flow-en.svg)
+![Install and recover](../images/guide-0.13.0/install-flow-en.svg)
 
 - [Compatible devices](../Guide.en.md#compatibility)
 - [Buttons and the ignition key](../Guide.en.md#basics)
@@ -15,3 +15,5 @@
 - [Connection help](../Guide.en.md#connection)
 - [Screen-by-screen troubleshooting](../Guide.en.md#troubleshooting)
 - [Recovery without a phone](../Guide.en.md#recovery)
+
+App 0.13.0 includes firmware and language resources 0.12.2. Download the APK, check the device, then install or update. Manual ZIP installation remains in Expert settings.

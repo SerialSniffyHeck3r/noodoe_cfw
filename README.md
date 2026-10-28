@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.12.2 beta
+# NewDoe app 0.13.0 beta
 
-Fixes fresh-install CFWPIC.DAT verification failures and adds a read-only KYMCO album alongside three editable NewDoe photo slots. Select the source and slot in device or phone system settings; empty and unreadable photos are identified by slot. **From 0.12.0/0.12.1, use normal CFW update.** B language resources 0.12.2 include the new photo-setting translations.
+Normal installation needs **only the APK**. App 0.13.0 includes verified device firmware 0.12.2 and optional B language resources 0.12.2. Check the current device, then install/update. Devices already on 0.12.2 need only the app update. A step-by-step guide is optional when starting from stock; existing tools and manual ZIP installation remain in Expert settings. Interrupted attempts keep their original packages and records.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.2/NewDoe-0.12.2.apk)
-- [CFW installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.2/NewDoe-CFW-0.12.2.zip)
-- [B language resources](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.2/NewDoe-LANGUAGE-B-0.12.2.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.12.2/NewDoe-Illustrated-Manual-0.12.2.zip)
+- [Android APK — firmware + optional languages included](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-0.13.0.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-Illustrated-Manual-0.13.0.zip)
+- [Expert/manual only: CFW ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-CFW-0.12.2.zip)
+- [Expert/manual only: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-LANGUAGE-B-0.12.2.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.12.2/INSTALL.md)
+- [Installation / 설치 안내](docs/releases/0.13.0/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -26,7 +26,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.12.2.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.12.2.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.13.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.12.2.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
