@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.12.1 / device firmware 0.12.1 / B language resources 0.11.2 · 27 October 2026**  
+**App 0.12.2 / device firmware 0.12.2 / B language resources 0.12.2 · 29 October 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -56,11 +56,11 @@ Open the [download page](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releas
 
 | File | What is it for? |
 |---|---|
-| **NewDoe-0.12.1.apk** | The Android app |
-| **NewDoe-CFW-0.12.1.zip** | The device firmware package. Select this ZIP inside the app. |
-| **NewDoe-LANGUAGE-B-0.11.2.zip** | Optional menu languages. You can also use the app's download instructions. |
+| **NewDoe-0.12.2.apk** | The Android app |
+| **NewDoe-CFW-0.12.2.zip** | The device firmware package. Select this ZIP inside the app. |
+| **NewDoe-LANGUAGE-B-0.12.2.zip** | Optional menu languages. You can also use the app's download instructions. |
 
-**Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. The language resource version **0.11.2** is correct.
+**Do not extract the ZIP files.** Installing the APK alone does not update Noodoe. Use B language resources **0.12.2** for the translated photo settings.
 
 ### Park before you begin
 
@@ -114,7 +114,7 @@ You can reopen **Guided installation** on the Device/status page. **Next** moves
 <img src="images/guide-0.11.15/en-stock-ready.png" alt="Prepare the installer and confirm its transfer" width="330">
 
 1. **[PHONE]** Choose the installation ZIP option.
-2. Open Downloads and select **NewDoe-CFW-0.12.1.zip** itself. Do not select the language ZIP.
+2. Open Downloads and select **NewDoe-CFW-0.12.2.zip** itself. Do not select the language ZIP.
 3. On the installer preparation screen above, confirm sending the installer.
 4. Wait for transfer and checking to finish. Do not turn the key off early.
 
@@ -190,13 +190,13 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**From 0.12.0, use the normal CFW update.** There is no new Gate or language pack in 0.12.1.
+**From 0.12.0 or 0.12.1, use the normal CFW update to 0.12.2.** Gate is unchanged. B language resources 0.12.2 add the photo-setting messages.
 
-1. Install `NewDoe-0.12.1.apk` over your existing app. Keep its data and pairing.
-2. Stop the riding connection and select `NewDoe-CFW-0.12.1.zip` on the status page.
+1. Install `NewDoe-0.12.2.apk` over your existing app. Keep its data and pairing.
+2. Stop the riding connection and select `NewDoe-CFW-0.12.2.zip` on the status page.
 3. Tap **Check current device**, choose **CFW update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
-5. Confirm the device's **CFW UPDATE** screen in the app. Keep a healthy B 0.11.2 language pack when it is reported ready.
+5. Confirm the device's **CFW UPDATE** screen in the app. After confirming firmware, install B language resources 0.12.2 when prompted for the new photo-setting translations.
 
 ### If the app requires the newer recovery system
 
@@ -214,7 +214,7 @@ Settings, trips, maintenance records and photos are retained. **Do not disconnec
 ### Install or update language resources
 
 1. Choose **Install** in the post-installation question, or open **Device language / language resources → Install / resume language resources** later.
-2. Follow the app's download instructions. For manual selection, choose **NewDoe-LANGUAGE-B-0.11.2.zip**.
+2. Follow the app's download instructions. For manual selection, choose **NewDoe-LANGUAGE-B-0.12.2.zip**.
 3. If the same healthy pack is already installed, the app checks it without sending everything again. Follow the update prompt for an older pack.
 4. Wait through **100% → Verifying and saving → automatic restart → reconnect → language resources ready**.
 
@@ -452,6 +452,25 @@ After key-off, **Ride Summary** appears before your chosen parking screen and sl
 Open **Settings → System → Power sequence → Long parking power off** and choose **Off / 2 days / 3 days / 7 days**. Two days is the default; an earlier user selection remains after updates.
 
 After the chosen time shuts the unit down, phone-approach reconnection and welcome lights also stop. Turning the key on starts it from the startup screen again. Check this setting before extended parking. If the battery is already discharged or its voltage has dropped sharply, have the battery and vehicle checked first.
+
+### Choose NewDoe or stock photos
+
+On Noodoe, open **Settings → Display → Photo source**. On the phone, start the riding connection and open **Device settings → Photo source**.
+
+1. Choose **NewDoe** for your three editable CFW slots, or **KYMCO** for photographs already in the stock album.
+2. Open **Photo** and select **1, 2 or 3**, then Apply. The number identifies the slot in the selected source. **Key OFF photo** uses the same source.
+3. The selection is saved on Noodoe. Both the phone and device settings change the same saved values.
+
+![Select the photo source](images/guide-0.12.2/photo-source.png)
+![Select a photo slot](images/guide-0.12.2/photo-slot.png)
+
+NewDoe reads the stock album without replacing, deleting or repairing it. Uploading a new photo always changes a **NewDoe** slot, even when KYMCO is selected. Switch back to NewDoe to use that upload. A fresh install still puts the NEWDOE wordmark in NewDoe slot 1; updates and keep-data reinstalls retain your existing slots.
+
+**Empty** means the selected stock slot has no JPEG. **Unreadable** means the file or folder cannot be read, the JPEG is damaged, or its format/size is unsupported. The slot number is shown in the error. That failed slot selection is not saved; choose another slot or switch back to NewDoe. No stock file is changed. If the photos are still loading, wait briefly and try selecting again.
+
+![A slot-specific photo error](images/guide-0.12.2/photo-error.png)
+
+If first installation stopped with **0x00050005 / CFWPIC.DAT** after the photo progress reached the end, install the new APK and select the matching 0.12.2 ZIP. Use **Check current device** and follow the offered resume path. Do not erase the stock album or clear app data.
 
 <a id="report"></a>
 ## 17. Still stuck? Send this information
