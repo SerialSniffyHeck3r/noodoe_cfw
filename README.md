@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.13.1 beta
+# NewDoe 0.13.2 beta
 
-App and firmware **0.13.1** remove destination distance/direction. Maps, position, track, zoom, compass, trips and ODO remain available. The APK includes firmware and optional B language resources 0.12.2. Check current status and update the device too. Already-installed B 0.12.2 needs no reinstall.
+App and firmware **0.13.2** add seven fixed trail colors and a blue-to-red speed spectrum. Red matches the configured speedometer ring maximum. The APK includes firmware and optional B language resources 0.13.2 with the new setting translations.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-0.13.1.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-Illustrated-Manual-0.13.1.zip)
-- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-CFW-0.13.1.zip)
-- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-LANGUAGE-B-0.12.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-0.13.2.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-Illustrated-Manual-0.13.2.zip)
+- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-CFW-0.13.2.zip)
+- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-LANGUAGE-B-0.13.2.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation](docs/releases/0.13.1/INSTALL.md)
+- [Installation](docs/releases/0.13.2/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

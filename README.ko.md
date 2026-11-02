@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.13.1 beta
+# NewDoe 0.13.2 beta
 
-앱과 본체 **0.13.1**에서 지도 목적지 거리·방향 안내를 제거했습니다. 지도·현재 위치·궤적·확대/축소·나침반·트립·ODO는 유지됩니다. APK 안에 펌웨어와 선택 설치용 B 언어팩 0.12.2가 있습니다. 현재 상태 확인 후 본체도 업데이트하세요. 기존 B 0.12.2는 다시 설치할 필요가 없습니다.
+앱·펌웨어 **0.13.2**에서 지도 궤적 색상을 고를 수 있습니다. 고정 색상 7개 또는 속도별 파랑→빨강을 선택하세요. 빨강의 기준은 설정된 속도계 호 최댓값입니다. APK에 펌웨어와 새 설정 번역을 포함한 선택 설치용 B 언어팩 0.13.2가 들어 있습니다.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-0.13.1.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-Illustrated-Manual-0.13.1.zip)
-- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-CFW-0.13.1.zip)
-- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-LANGUAGE-B-0.12.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-0.13.2.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-Illustrated-Manual-0.13.2.zip)
+- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-CFW-0.13.2.zip)
+- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-LANGUAGE-B-0.13.2.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation](docs/releases/0.13.1/INSTALL.md)
+- [Installation](docs/releases/0.13.2/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

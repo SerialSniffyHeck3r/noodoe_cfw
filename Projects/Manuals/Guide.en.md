@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.13.1 / device firmware 0.13.1 / B language resources 0.12.2 · 3 November 2026**  
+**App 0.13.2 / device firmware 0.13.2 / B language resources 0.13.2 · 3 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -52,9 +52,9 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 
 ### Download just the APK
 
-Get **NewDoe-0.13.1.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
+Get **NewDoe-0.13.2.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
 
-**App 0.13.1 includes firmware 0.13.1 and language resources 0.12.2.** Update both the app and device to remove destination distance/direction from the map. Already-installed B resources 0.12.2 do not need reinstalling. Installing the APK alone does not change the device firmware.
+**App 0.13.2 includes firmware and B language resources 0.13.2.** Update the app and device for trail colors. Existing language resources remain usable; install the included B pack to translate the new setting labels too. Installing the APK alone does not change the device firmware.
 
 ### Park before you begin
 
@@ -182,13 +182,13 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**From 0.12.0, 0.12.1 or 0.12.2, use the normal CFW update to 0.13.1.** Gate is unchanged. B language resources 0.12.2 add the photo-setting messages.
+**From 0.12.x, 0.13.0 or 0.13.1, use the normal CFW update to 0.13.2.** Gate is unchanged. B language resources 0.13.2 add the trail-color setting translations.
 
-1. Install `NewDoe-0.13.1.apk` over your existing app. Keep its data and pairing.
+1. Install `NewDoe-0.13.2.apk` over your existing app. Keep its data and pairing.
 2. Stop the riding connection and check the current device on the status page.
 3. Tap **Check current device**, choose **CFW update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
-5. Confirm the device's **CFW UPDATE** screen in the app. After confirming firmware, install B language resources 0.12.2 when prompted for the new photo-setting translations.
+5. Confirm the device's **CFW UPDATE** screen in the app. After confirming firmware, install B language resources 0.13.2 when prompted for the new trail-color setting translations.
 
 ### If the app requires the newer recovery system
 
@@ -428,7 +428,19 @@ New areas take some time to prepare. The current map feature shows the map, posi
 
 The map shows your current position and travelled track. Destination distance and direction have been removed; no destination setup is needed. Trip counters and ODO remain available.
 
-![GPS](images/guide-0.13.1/map-north.png)
+![GPS](images/guide-0.13.2/map-north.png)
+
+### Change trail colors
+
+Open **Settings → Display → Trail color** on Noodoe, or **All device settings → Trail color** in the app. Choose red, orange, yellow, green, cyan, blue, white, or **By speed**. The default remains red. Changes apply without restarting.
+
+By speed remembers the dashboard speed recorded on each leg. Low speeds start blue, then pass through cyan, green, yellow and orange to red. **Settings → Vehicle → Ring maximum** sets the red endpoint. With a 200 km/h maximum, 100 km/h is green, 150 km/h is yellow, and 200 km/h or more is red. Changing units to mph does not change the color for the same physical speed. Legs with no valid speed are gray.
+
+The color setting is saved; the trail remains a record of the current session as before.
+
+![Speed-colored trail](images/guide-0.13.2/trail-speed.png)
+
+![Fixed blue trail](images/guide-0.13.2/trail-fixed-blue.png)
 
 <a id="dashboard"></a>
 ## 15. The app's Home, Customise and Device pages
