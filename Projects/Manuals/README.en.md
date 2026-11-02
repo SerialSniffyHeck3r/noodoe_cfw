@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.13.0 / CFW 0.12.2 / B language 0.12.2 · 2026-10-29**
+**APK 0.13.1 / CFW 0.13.1 / B language 0.12.2 · 2026-11-03**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,8 +30,8 @@ Use the screen examples to follow each step on your phone and Noodoe.
 | Ignition-off and long parking | [Open](Guide.en.md#parking) |
 | Get help and save diagnostics | [Open](Guide.en.md#report) |
 
-From 0.12.0/0.12.1, use normal CFW update to 0.12.2. Older Gate versions follow keep-data stock return and reinstall. Use B 0.12.2 language resources for the new photo settings.
+From 0.12.0/0.12.1/0.12.2, use normal CFW update to 0.13.1. Older Gate versions follow keep-data stock return and reinstall. Use B 0.12.2 language resources for the new photo settings.
 
-[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-Illustrated-Manual-0.13.0.zip)
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-Illustrated-Manual-0.13.1.zip)
 
-App 0.13.0 includes firmware and language resources 0.12.2. Download the APK, check the device, then install or update. Manual ZIP installation remains in Expert settings.
+App 0.13.1 includes firmware 0.13.1 and language resources 0.12.2. Download the APK, check the device, then install or update. Manual ZIP installation remains in Expert settings.

@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe app 0.13.0 beta
+# NewDoe 0.13.1 beta
 
-Normal installation needs **only the APK**. App 0.13.0 includes verified device firmware 0.12.2 and optional B language resources 0.12.2. Check the current device, then install/update. Devices already on 0.12.2 need only the app update. A step-by-step guide is optional when starting from stock; existing tools and manual ZIP installation remain in Expert settings. Interrupted attempts keep their original packages and records.
+App and firmware **0.13.1** remove destination distance/direction. Maps, position, track, zoom, compass, trips and ODO remain available. The APK includes firmware and optional B language resources 0.12.2. Check current status and update the device too. Already-installed B 0.12.2 needs no reinstall.
 
-- [Android APK — firmware + optional languages included](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-0.13.0.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-Illustrated-Manual-0.13.0.zip)
-- [Expert/manual only: CFW ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-CFW-0.12.2.zip)
-- [Expert/manual only: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-LANGUAGE-B-0.12.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-0.13.1.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-Illustrated-Manual-0.13.1.zip)
+- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-CFW-0.13.1.zip)
+- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-LANGUAGE-B-0.12.2.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.13.0/INSTALL.md)
+- [Installation](docs/releases/0.13.1/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

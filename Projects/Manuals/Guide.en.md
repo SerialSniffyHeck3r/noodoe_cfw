@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.13.0 / device firmware 0.12.2 / B language resources 0.12.2 · 29 October 2026**  
+**App 0.13.1 / device firmware 0.13.1 / B language resources 0.12.2 · 3 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -52,9 +52,9 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 
 ### Download just the APK
 
-Get **NewDoe-0.13.0.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
+Get **NewDoe-0.13.1.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
 
-**App 0.13.0 includes device firmware and language resources 0.12.2.** If your device already runs 0.12.2, only update the app. Installing the APK alone does not change the device firmware.
+**App 0.13.1 includes firmware 0.13.1 and language resources 0.12.2.** Update both the app and device to remove destination distance/direction from the map. Already-installed B resources 0.12.2 do not need reinstalling. Installing the APK alone does not change the device firmware.
 
 ### Park before you begin
 
@@ -182,9 +182,9 @@ The app now asks whether to install language resources. Choose **Install** for o
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**From 0.12.0 or 0.12.1, use the normal CFW update to 0.12.2.** Gate is unchanged. B language resources 0.12.2 add the photo-setting messages.
+**From 0.12.0, 0.12.1 or 0.12.2, use the normal CFW update to 0.13.1.** Gate is unchanged. B language resources 0.12.2 add the photo-setting messages.
 
-1. Install `NewDoe-0.13.0.apk` over your existing app. Keep its data and pairing.
+1. Install `NewDoe-0.13.1.apk` over your existing app. Keep its data and pairing.
 2. Stop the riding connection and check the current device on the status page.
 3. Tap **Check current device**, choose **CFW update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
@@ -425,6 +425,10 @@ Import your region's **.map file** in the app's map menu. Enable location permis
 | **Long O** | Switch north-up / heading-up / compass |
 
 New areas take some time to prepare. The current map feature shows the map, position and travelled track.
+
+The map shows your current position and travelled track. Destination distance and direction have been removed; no destination setup is needed. Trip counters and ODO remain available.
+
+![GPS](images/guide-0.13.1/map-north.png)
 
 <a id="dashboard"></a>
 ## 15. The app's Home, Customise and Device pages

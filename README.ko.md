@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe app 0.13.0 beta
+# NewDoe 0.13.1 beta
 
-일반 설치는 **APK 하나만** 받으면 됩니다. 앱 0.13.0에 검증된 기기 펌웨어 0.12.2와 선택 설치용 B 언어팩 0.12.2를 포함했습니다. 현재 상태 확인 후 설치/업데이트를 누르세요. 본체가 이미 0.12.2이면 앱만 업데이트하면 됩니다. 순정에서 시작할 때 단계별 마법사를 선택할 수 있고, 기존 도구·수동 ZIP은 전문가용 설정에 남아 있습니다. 중단된 설치는 원래 패키지와 기록을 유지합니다.
+앱과 본체 **0.13.1**에서 지도 목적지 거리·방향 안내를 제거했습니다. 지도·현재 위치·궤적·확대/축소·나침반·트립·ODO는 유지됩니다. APK 안에 펌웨어와 선택 설치용 B 언어팩 0.12.2가 있습니다. 현재 상태 확인 후 본체도 업데이트하세요. 기존 B 0.12.2는 다시 설치할 필요가 없습니다.
 
-- [Android APK — firmware + optional languages included](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-0.13.0.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-Illustrated-Manual-0.13.0.zip)
-- [Expert/manual only: CFW ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-CFW-0.12.2.zip)
-- [Expert/manual only: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.0/NewDoe-LANGUAGE-B-0.12.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-0.13.1.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-Illustrated-Manual-0.13.1.zip)
+- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-CFW-0.13.1.zip)
+- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.1/NewDoe-LANGUAGE-B-0.12.2.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation / 설치 안내](docs/releases/0.13.0/INSTALL.md)
+- [Installation](docs/releases/0.13.1/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
