@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.13.2 beta
+# NewDoe 0.14.0 beta
 
-앱·펌웨어 **0.13.2**에서 지도 궤적 색상을 고를 수 있습니다. 고정 색상 7개 또는 속도별 파랑→빨강을 선택하세요. 빨강의 기준은 설정된 속도계 호 최댓값입니다. APK에 펌웨어와 새 설정 번역을 포함한 선택 설치용 B 언어팩 0.13.2가 들어 있습니다.
+앱·펌웨어 **0.14.0**은 기기의 A/B 자원을 확인하고 영어 전용 또는 영어＋선택한 메뉴 언어로 설치합니다. APK에 모든 설치 파일을 포함했습니다. 기존 정상 보충 폰트는 재사용하며, 필요한 B 기기만 폰트 준비 단계를 자동으로 거칩니다. NOR 공간이 부족하면 기존 파일을 지우지 않고 CJ 설치를 생략합니다. 음악·알림은 기기에서 표시할 수 없는 필드 전체를 휴대폰에서 렌더링합니다.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-0.13.2.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-Illustrated-Manual-0.13.2.zip)
-- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-CFW-0.13.2.zip)
-- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-LANGUAGE-B-0.13.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-0.14.0.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-Illustrated-Manual-0.14.0.zip)
+- [Expert/manual: B English firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0.zip)
+- [Expert/manual: all language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0-language-variants.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation](docs/releases/0.13.2/INSTALL.md)
+- [Installation](docs/releases/0.14.0/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**APK 0.13.2 / CFW 0.13.2 / B language 0.13.2 · 2026-11-03**
+**APK 0.14.0 / CFW 0.14.0 · 2026-11-04**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -17,7 +17,7 @@
 | 파일 받기와 준비 | [보기](Guide.md#prepare) |
 | 처음 설치, 화면 보며 따라하기 | [보기](Guide.md#first-install) |
 | 기존 CFW 업데이트 | [보기](Guide.md#update) |
-| 언어팩과 언어 변경 | [보기](Guide.md#language) |
+| 시스템 언어 선택·변경 | [보기](Guide.md#language) |
 | 연결할 수 없을 때 | [보기](Guide.md#connection) |
 | 화면별 문제 해결 | [보기](Guide.md#troubleshooting) |
 | 폰 없이 복구·순정 복귀 | [보기](Guide.md#recovery) |

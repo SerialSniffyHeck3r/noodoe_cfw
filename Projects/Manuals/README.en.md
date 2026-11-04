@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.13.2 / CFW 0.13.2 / B language 0.13.2 · 2026-11-03**
+**APK 0.14.0 / CFW 0.14.0 · 2026-11-04**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -17,7 +17,7 @@ Use the screen examples to follow each step on your phone and Noodoe.
 | Downloads and preparation | [Open](Guide.en.md#prepare) |
 | First installation, screen by screen | [Open](Guide.en.md#first-install) |
 | Updating existing CFW | [Open](Guide.en.md#update) |
-| Language resources and selection | [Open](Guide.en.md#language) |
+| System language selection and changes | [Open](Guide.en.md#language) |
 | Connection help | [Open](Guide.en.md#connection) |
 | Screen-by-screen troubleshooting | [Open](Guide.en.md#troubleshooting) |
 | Recovery without a phone | [Open](Guide.en.md#recovery) |

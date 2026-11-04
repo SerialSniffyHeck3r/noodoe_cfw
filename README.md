@@ -1,14 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.13.2 beta
+# NewDoe 0.14.0 beta
 
-App and firmware **0.13.2** add seven fixed trail colors and a blue-to-red speed spectrum. Red matches the configured speedometer ring maximum. The APK includes firmware and optional B language resources 0.13.2 with the new setting translations.
+App and firmware **0.14.0** identify the device’s A/B resources and install English only or English plus one selected menu language. All installation files are included in the APK. Healthy existing supplemental fonts are reused; only B devices needing storage preparation use the automatic preparation step. When NOR space is insufficient, CJ installation is skipped without deleting existing files. Unsupported music and notification fields fall back to phone rendering as a whole.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-0.13.2.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-Illustrated-Manual-0.13.2.zip)
-- [Expert/manual: firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-CFW-0.13.2.zip)
-- [Expert/manual: B language ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-LANGUAGE-B-0.13.2.zip)
+- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-0.14.0.apk)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-Illustrated-Manual-0.14.0.zip)
+- [Expert/manual: B English firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0.zip)
+- [Expert/manual: all language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0-language-variants.zip)
 - [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation](docs/releases/0.13.2/INSTALL.md)
+- [Installation](docs/releases/0.14.0/INSTALL.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

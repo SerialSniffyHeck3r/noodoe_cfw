@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.13.2 / device firmware 0.13.2 / B language resources 0.13.2 · 3 November 2026**  
+**App 0.14.0 / device firmware 0.14.0 · 4 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -30,7 +30,7 @@ You need an Android phone and your vehicle's buttons. Normal installation does n
 | Noodoe unit | F4-family KYMCO Noodoe. Other vehicle models besides the AK550 can use the app's device check. |
 | First installation from stock | Stock firmware **5.14 or 5.16** |
 | Already running CFW | Follow [Updating NewDoe](#update). |
-| Device menu languages | Nine languages on B-language units; English on A-language units |
+| Device menu languages | Nine choices on B units; English, Japanese and Simplified/Traditional Chinese choices on A units |
 
 You do not need to open the unit to identify it. Tap **Check current device** in the app. If it reports an unsupported device, save the message and [ask for help](#report). Returning to stock installs **stock 5.16**.
 
@@ -52,9 +52,9 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 
 ### Download just the APK
 
-Get **NewDoe-0.13.2.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). The device firmware and B language resources are included. Normal installation does not need a separate ZIP download or file selection.
+Get **NewDoe-0.14.0.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). Language-specific firmware and required fonts are included. Normal installation does not need a separate ZIP download or file selection.
 
-**App 0.13.2 includes firmware and B language resources 0.13.2.** Update the app and device for trail colors. Existing language resources remain usable; install the included B pack to translate the new setting labels too. Installing the APK alone does not change the device firmware.
+**App and device firmware are 0.14.0.** Choose a system language in the app; it prepares matching firmware and resources. Installing the APK alone does not change the device firmware.
 
 ### Park before you begin
 
@@ -175,20 +175,20 @@ Noodoe restarts during installation. Leave the app open even if the connection b
 
 **Confirm before the phone's countdown expires.** Otherwise the device may return to the previous version or recovery menu. Dismissing the popup does not confirm the installation.
 
-### ⑧ Add languages after firmware installation
+### ⑧ Check the selected language
 
-The app now asks whether to install language resources. Choose **Install** for other menu languages, or **Later** to use English first. You can add resources later. Continue with [the language instructions](#language).
+The app prepares your selected system language and any required fonts. Wait for completion, then check the device menu. If it opens in English, see [language status](#language).
 
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**From 0.12.x, 0.13.0 or 0.13.1, use the normal CFW update to 0.13.2.** Gate is unchanged. B language resources 0.13.2 add the trail-color setting translations.
+**Existing users: check the device, choose a system language and update to 0.14.0.** Compatible Gate firmware and healthy existing B fonts are retained.
 
-1. Install `NewDoe-0.13.2.apk` over your existing app. Keep its data and pairing.
+1. Install `NewDoe-0.14.0.apk` over your existing app. Keep its data and pairing.
 2. Stop the riding connection and check the current device on the status page.
-3. Tap **Check current device**, choose **CFW update**, and follow the safety screens.
+3. Choose **Device system language**, tap **Update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
-5. Confirm the device's **CFW UPDATE** screen in the app. After confirming firmware, install B language resources 0.13.2 when prompted for the new trail-color setting translations.
+5. Confirm the device's **CFW UPDATE** screen in the app. If additional fonts are being prepared, wait until the final installation completes.
 
 ### If the app requires the newer recovery system
 
@@ -197,50 +197,55 @@ From 0.11.x or another older Gate, follow **Return to stock → Keep CFW data** 
 Settings, trips, maintenance records and photos are retained. **Do not disconnect power during stock return or installation. An interruption in older stock-return code can require external repair.**
 
 <a id="language"></a>
-## 6. Install resources and choose a language
+## 6. Choose or change the system language
 
-**Firmware installation and language installation finish separately.** Complete the CFW UPDATE confirmation first.
+**Choose the language in the app before installing.** Install English only, or English plus one selected language. Required files are included in the APK.
 
-![Language resources: transfer, save, restart, ready](images/guide-0.11.15/language-flow-en.svg)
+### First selection or a different language
 
-### Install or update language resources
+1. Park the vehicle and tap **Check current device**. The app identifies the actual A/B resources.
+2. Choose **Device system language**. Only languages for that resource profile are offered.
+3. Tap **Install / Update** and acknowledge the safety instructions.
+4. Let transfer, verification, restart and **CFW UPDATE** confirmation finish. If additional fonts are being prepared, wait for the app to report completion.
+5. Check the device menu. The app shows **installed language** and **display language** separately.
 
-1. Choose **Install** in the post-installation question, or open **Device language / language resources → Install / resume language resources** later.
-2. Use the language resources included in the app; no separate download is needed. An unfinished earlier installation uses its retained original files.
-3. If the same healthy pack is already installed, the app checks it without sending everything again. Follow the update prompt for an older pack.
-4. Wait through **100% → Verifying and saving → automatic restart → reconnect → language resources ready**.
+**Changing language normally does not require returning to stock.** The app updates firmware and its matching base resources together. Healthy additional fonts are reused without another transfer.
 
-Turning the key ON or OFF does not cancel this job. Keep the vehicle parked and **keep the battery and Noodoe wiring connected**. You do not have to send text and font files individually.
-
-**If asked to repair fonts:** “Repair fonts and continue” restores the required stock fonts before proceeding. “Continue in English” leaves those fonts alone and uses English. If the question does not appear, continue normally.
-
-After a full power-off, the selected language is prepared before Home. The blue preparation screen shows the current step and progress; keep power connected. An ordinary wake from sleep reuses the loaded language.
-
-### Change the device language
-
-1. **[NOODOE]** Press **O + DOWN** for quick settings, then **hold O** to open the main menu.
-2. Open **Settings → System → Language** and choose your language. Turn **English only** off if enabled. You can also use the phone's **View / change current device settings**.
-3. **[NOODOE]** Confirm the restart prompt. Choosing “Later” applies the selection at the next restart.
-4. Wait for the blue preparation screen. When HOME opens, check the menu language.
-
-| Preparation after a language change | Example: Korean menu afterward |
+| Japanese menus on an A unit | Korean menus on a B unit |
 |---|---|
-| <img src="images/guide-0.11.15/language-loading.png" alt="Loading menu text preparation screen" width="300"> | <img src="images/guide-0.11.15/ko-settings.png" alt="Korean main menu after language preparation" width="300"> |
+| <img src="images/guide-0.14.0/a-japanese.png" alt="Japanese main menu on A resources" width="300"> | <img src="images/guide-0.14.0/b-korean.png" alt="Korean main menu on B resources" width="300"> |
 
-Preparation is shown after a language change or resource update. **You do not reinstall the pack every time you use the same language.** There is no need to press unrelated app buttons or leave the ignition off for a long time to activate it.
+### Switch between English and the installed language
+
+On Noodoe, enable **Settings → System → English only** for English, or disable it to use the installed language. Confirm the restart while parked. **Language** shows which language is installed. To choose another language, follow the app update steps above.
+
+English-only firmware still displays foreign-language music and notifications. It does not require making room for additional fonts just to use English menus.
 
 ### Available languages
 
-B units support **English · Deutsch · Español · Français · Italiano · Ελληνικά · 한국어 · Tiếng Việt · 日本語**. All menu translations are included in one pack, so switching languages does not require another transfer. A units use English menus.
-
-**App language** changes the phone UI; **device language** changes Noodoe. You may choose **Follow app language** on the device. A manually selected device language stays selected after reconnection. The app also supports Simplified and Traditional Chinese; following either of these uses English for device menus.
-
-| Music and notification text setting | Choose it when… |
+| Device resources | System language choices |
 |---|---|
-| **Render on phone** — default | You want the phone's wide character support and colour emoji. Preparing the display may take a moment. |
-| **Use device fonts** | You want quick text delivery. Emoji are monochrome and unsupported characters may appear as □. |
+| A | English · 日本語 · 简体中文 · 繁體中文（台灣）· 繁體中文（香港） |
+| B | English · Deutsch · Español · Français · Italiano · Ελληνικά · 한국어 · Tiếng Việt · 日本語 |
 
-If you still see English, check **English only is off → the device language is selected → the restart was confirmed → language resources are ready**.
+**App language** changes the phone UI. Choose and install the device language separately; changing the phone language afterward does not change it. An old “Follow app language” selection is resolved to one installed language during the update.
+
+### When additional fonts need preparation
+
+Healthy existing B language packs remain usable as font resources. If the font file is missing or too small, the app briefly installs a preparation firmware, prepares the file, then returns to the final firmware. Bluetooth pairing and user settings are retained. Keep power connected, keep the app data, and follow the screen instructions.
+
+**If space is insufficient, CJ fonts are skipped.** Stock files, photos and riding records are not deleted to make room. If the chosen menu language also lacks required fonts, menus open in English and the app explains why. After a low-space notice, let the app finish installing the final firmware.
+
+After an interruption, keep the same app data and use **Check current device → Continue installation / check language status**. Ordinary startup does not recheck or retransmit the entire font file.
+
+![Font preparation when needed, followed by final firmware](images/guide-0.14.0/font-preparation.png)
+
+| Music and notification text setting | Behavior |
+|---|---|
+| **Render on phone** | Uses the phone fonts and colour emoji. |
+| **Use device fonts** | Uses the device only when it can display the entire field. If any character is unsupported, the whole title or body is rendered on the phone. |
+
+If menus remain English, check **installed language → English only → restart confirmation → font status and fallback reason in the app**.
 
 <a id="expert"></a>
 ## Expert settings and interrupted installations
@@ -279,7 +284,7 @@ Check that the app's riding connection is not paused and Bluetooth/Nearby device
 | **NOODOE INSTALLER** | Wait for Bootstrap or the next screen. Do not confirm CFW UPDATE yet. |
 | **100% / Verifying and saving** | Keep power connected and wait for saving. See [the remaining stages](#language). |
 | **CFW UPDATE** | Tap the phone button confirming that this screen is visible. |
-| **Firmware installed / Language resources are incomplete** | Firmware is installed. Reconnect to the same device and choose **Install / resume language resources**. Do not immediately return to stock or reinstall firmware. |
+| **Firmware installed / Language resources are incomplete** | Firmware is installed. Reconnect to the same device and choose **Continue installation / check language status**. Do not immediately return to stock or reinstall firmware. |
 | **opcode 0xAA / socket closed / read -1** | Check whether Noodoe restarted, reconnect, and check resource status again. Save the error and diagnostics if it repeats. |
 | **Installation success or cancellation not confirmed** | Keep the same device and ZIP; use **Check current device → Check last operation**. |
 | **Paused / Stage 6/8 / Code 6 / Phase 4** | Look for an explicit manual-reset instruction. If shown, follow the steps below. |
@@ -390,6 +395,12 @@ Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**
 
 HOME AUTO prioritises **new notifications → playing music → other information**. A new notification or a manually chosen information view normally returns to the automatic priority after 20 seconds.
 
+On HOME, use **UP / DOWN** to choose the analogue or digital clock. The lower information strip keeps cycling as in AUTO; **hold O** to show the next item. The small top clock is hidden while the digital clock is visible and returns when you switch to another view.
+
+| Analogue clock | Digital clock |
+|---|---|
+| <img src="images/guide-0.14.0/analog-clock.png" alt="Analogue clock with automatic lower information" width="280"> | <img src="images/guide-0.14.0/digital-clock.png" alt="Digital clock with small seconds" width="280"> |
+
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
 
 In 0.12.1, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
@@ -397,6 +408,10 @@ In 0.12.1, the last ODO also stays visible in **10-minute use after key OFF**. A
 **SINCE REFUEL:** a fuel level at least two bars above the earlier level for three seconds starts a new record. A 2-bar tank refilled to alternating 4/5-bar readings is accepted. Missing or unknown readings wait for valid data. TRIP A/B and maintenance history are kept.
 
 After refuelling, turn the key ON and allow several normal fuel readings to arrive. A rise of at least two bars is recorded once it stays stable; a missing reading does not count as a change. Ride Summary uses this boot’s last received ODO for the oil percentage after key OFF.
+
+If fuel warnings keep appearing, set **Settings → Vehicle → Fuel notifications** to OFF. You can then **hold O on SINCE REFUEL** to start the distance counter manually from zero, including when it currently shows `--`. Other trips and maintenance records are kept. Reset it here each time you refuel.
+
+When reporting a fuel issue, photograph **diagnostic settings → Fuel RAW P2 / P3** and **UART RX first 16 bytes**. These show the values received from the vehicle dashboard. They remain available with fuel notifications turned off.
 
 <a id="media"></a>
 ## 13. Music, calls and notifications
@@ -451,7 +466,7 @@ Swipe sideways or use the bottom buttons for **Device · Home · Customise**.
 
 - **Home:** map, speed, ODO, trips and three maintenance rings showing oil/belt kilometres remaining and service percentage remaining. **Tap the trip readout itself** to cycle information. With stock Noodoe, the lower area shows stock information instead.
 - **Customise:** background pictures, notification apps, popups, quick replies and favourite callers.
-- **Device:** installation, updates, current status, language resources and the manual.
+- **Device:** installation, updates, current status, system language and the manual.
 
 **UI test mode** lets you preview chosen speed, ODO and CFW/stock screens while disconnected. It does not change actual vehicle values. Turn test mode off before returning to a real connection.
 
