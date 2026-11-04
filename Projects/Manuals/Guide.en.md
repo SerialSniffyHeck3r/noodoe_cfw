@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.14.0 / device firmware 0.14.0 · 4 November 2026**  
+**App 0.14.1 / device firmware 0.14.1 · 5 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -52,7 +52,7 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 
 ### Download just the APK
 
-Get **NewDoe-0.14.0.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). Language-specific firmware and required fonts are included. Normal installation does not need a separate ZIP download or file selection.
+Get **NewDoe-0.14.1.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). Language-specific firmware and required fonts are included. Normal installation does not need a separate ZIP download or file selection.
 
 **App and device firmware are 0.14.0.** Choose a system language in the app; it prepares matching firmware and resources. Installing the APK alone does not change the device firmware.
 
@@ -184,7 +184,7 @@ The app prepares your selected system language and any required fonts. Wait for 
 
 **Existing users: check the device, choose a system language and update to 0.14.0.** Compatible Gate firmware and healthy existing B fonts are retained.
 
-1. Install `NewDoe-0.14.0.apk` over your existing app. Keep its data and pairing.
+1. Install `NewDoe-0.14.1.apk` over your existing app. Keep its data and pairing.
 2. Stop the riding connection and check the current device on the status page.
 3. Choose **Device system language**, tap **Update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
@@ -272,7 +272,11 @@ If files are being written, let that finish first. Follow these steps at the Boo
 
 ### Disconnection during normal use
 
+**0.14.1 saves a rotated Bluetooth bond key for the next connection.** Install the new APK over the existing app, then use **Check current device → Update** to update Noodoe too. Updating only the APK does not install the device fix.
+
 Check that the app's riding connection is not paused and Bluetooth/Nearby devices access is allowed. Allow NewDoe to run in the background in Android's app battery settings. After force-stopping the app, open it again and start the connection. If another app, such as the camera, interrupted it, return to NewDoe and check the connection.
+
+If re-pairing has already restored your connection, use that connection to update Noodoe. If reconnection still fails afterward, export the diagnostic ZIP and note both app and firmware versions before restarting or re-pairing. Keep the app data; returning to stock is not required for this update.
 
 **The recovery menu has no Bluetooth connection.** Use [the device buttons](#recovery) when the skull or Recovery menu is showing.
 

@@ -1,14 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.14.0 beta
+# NewDoe 0.14.1 beta
 
-App and firmware **0.14.0** identify the device’s A/B resources and install English only or English plus one selected menu language. All installation files are included in the APK. Healthy existing supplemental fonts are reused; only B devices needing storage preparation use the automatic preparation step. When NOR space is insufficient, CJ installation is skipped without deleting existing files. Unsupported music and notification fields fall back to phone rendering as a whole.
+App and firmware **0.14.1** save rotated Bluetooth bond keys so the next connection does not reuse the old key. Update both APK and device firmware. If re-pairing has already restored the connection, update using that connection. A/B menu selection and automatic font preparation remain available.
 
-- [Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-0.14.0.apk)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-Illustrated-Manual-0.14.0.zip)
-- [Expert/manual: B English firmware ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0.zip)
-- [Expert/manual: all language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.0/NewDoe-CFW-0.14.0-language-variants.zip)
-- [한국어 설명서](Projects/Manuals/Guide.md) · [English guide](Projects/Manuals/Guide.en.md)
-- [Installation](docs/releases/0.14.0/INSTALL.md)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-0.14.1.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-Illustrated-Manual-0.14.1.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
