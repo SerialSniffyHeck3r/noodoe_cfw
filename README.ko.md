@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.14.1 beta
+# NewDoe 0.15.0 beta
 
-앱·펌웨어 **0.14.1**은 Bluetooth 연결 중 갱신된 인증키를 저장해 다음 연결에서 옛 키를 다시 쓰던 문제를 수정합니다. APK와 본체 펌웨어를 모두 업데이트하세요. 이미 재페어링으로 복구했다면 그 연결로 업데이트하면 됩니다. A/B 언어 선택과 자동 폰트 준비는 그대로 사용할 수 있습니다.
+앱·펌웨어 **0.15.0**은 과거 언어 설정값의 저장 호환성을 복원하고 상태 조회와 설치 재개를 분리합니다. 정상 기기는 직접 업데이트하며, 설정 오류로 막힌 0.14.1 기기는 데이터 보존 순정 복귀 후 재설치합니다. CJ 공간 부족 시 사용자 선택을 기다리고, 언어 설정을 모았으며 시계 배경 음영을 추가했습니다. Gate와 기존 NOR 파일 배치를 유지합니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-0.14.1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-Illustrated-Manual-0.14.1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-0.15.0.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-CFW-0.15.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-CFW-0.15.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-Illustrated-Manual-0.15.0.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

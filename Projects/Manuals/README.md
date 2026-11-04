@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**APK 0.14.0 / CFW 0.14.0 · 2026-11-04**
+**APK 0.15.0 / CFW 0.15.0 · 2026-11-05**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -30,8 +30,8 @@
 | 키 OFF·장기 주차 | [보기](Guide.md#parking) |
 | 문의와 진단 | [보기](Guide.md#report) |
 
-0.12.x·0.13.0·0.13.1에서는 일반 CFW 업데이트로 0.13.2를 설치하세요. 구형 Gate는 데이터 유지 순정 복귀 후 재설치 안내를 따릅니다. 새 사진 설정 번역은 B 언어팩 0.13.2에 포함됩니다.
+정상 기기는 직접 업데이트합니다. 0.14.1 설정 오류로 업데이트가 막히면 데이터 보존 순정 복귀 후 재설치합니다. 언어 선택과 CJ 공간 부족 시의 선택은 [언어 안내](Guide.md#language)를 확인하세요.
 
-[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.13.2/NewDoe-Illustrated-Manual-0.13.2.zip)
+[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-Illustrated-Manual-0.15.0.zip)
 
-앱 0.13.2에는 펌웨어 0.13.2과 언어팩 0.12.2가 포함돼 있어요. APK만 받은 뒤 현재 기기 상태를 확인하고 설치/업데이트하세요. ZIP 직접 설치는 전문가용 설정에 남아 있어요.
+언어별 펌웨어·기본 자원·필요한 글꼴은 APK에 포함돼 있습니다. ZIP 직접 설치는 전문가용 설정에 남아 있습니다.

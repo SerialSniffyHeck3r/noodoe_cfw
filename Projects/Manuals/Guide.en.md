@@ -2,7 +2,7 @@
 
 # NewDoe illustrated user guide
 
-**App 0.14.1 / device firmware 0.14.1 · 5 November 2026**  
+**App 0.15.0 / device firmware 0.15.0 · 5 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
@@ -52,9 +52,9 @@ You do not need to open the unit to identify it. Tap **Check current device** in
 
 ### Download just the APK
 
-Get **NewDoe-0.14.1.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). Language-specific firmware and required fonts are included. Normal installation does not need a separate ZIP download or file selection.
+Get **NewDoe-0.15.0.apk** from [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest). Language-specific firmware and required fonts are included. Normal installation does not need a separate ZIP download or file selection.
 
-**App and device firmware are 0.14.0.** Choose a system language in the app; it prepares matching firmware and resources. Installing the APK alone does not change the device firmware.
+**App and device firmware are 0.15.0.** Choose a system language in the app; it prepares matching firmware and resources. Installing the APK alone does not change the device firmware.
 
 ### Park before you begin
 
@@ -182,13 +182,26 @@ The app prepares your selected system language and any required fonts. Wait for 
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**Existing users: check the device, choose a system language and update to 0.14.0.** Compatible Gate firmware and healthy existing B fonts are retained.
+**Existing users: check the device, choose a system language and update to 0.15.0.** Compatible Gate firmware and healthy existing B fonts are retained.
 
-1. Install `NewDoe-0.14.1.apk` over your existing app. Keep its data and pairing.
+1. Install `NewDoe-0.15.0.apk` over your existing app. Keep its data and pairing.
 2. Stop the riding connection and check the current device on the status page.
-3. Choose **Device system language**, tap **Update**, and follow the safety screens.
+3. Choose **Language settings → Install another language**, tap **Update**, and follow the safety screens.
 4. Keep power connected and let transfer, verification and restart finish.
 5. Confirm the device's **CFW UPDATE** screen in the app. If additional fonts are being prepared, wait until the final installation completes.
+
+### When a 0.14.1 settings error blocks an update
+
+HOME can work while settings restoration remains incomplete. **Check current device** only reads status. It does not retry settings restoration or installation.
+
+1. Install the new APK over the existing app. Keep app data and export diagnostics.
+2. Read **Product boot confirmed** separately from **Settings restoration incomplete**. **Continue installation** can retry the same operation. If 0.14.1 keeps rejecting settings, use the following route.
+3. Open **Data-preserving reinstallation** in the app. If Bluetooth cannot connect, [open recovery with the device buttons](#recovery) and choose **Back to stock**. Use **Keep CFW data**, never complete removal.
+4. Wait for the stock screen, then tap **I have returned to stock · check** in the app. After reading the actual stock state, the app archives the old operation and prepares reinstallation.
+5. Select your language and follow [first installation](#first-install). Choose **Restore retained data** in Bootstrap. This route retains settings, TRIP, maintenance, photos and pairing.
+6. Check the device and final app result. A missing or damaged required data file is not automatically initialized. Save diagnostics and stop if this is reported.
+
+**Healthy devices that save settings and prepare an update normally do not need a stock return.** Treat data marked unverified as unverified. Cancelling does not undo completed steps.
 
 ### If the app requires the newer recovery system
 
@@ -204,7 +217,7 @@ Settings, trips, maintenance records and photos are retained. **Do not disconnec
 ### First selection or a different language
 
 1. Park the vehicle and tap **Check current device**. The app identifies the actual A/B resources.
-2. Choose **Device system language**. Only languages for that resource profile are offered.
+2. Choose **Language settings → Install another language**. Only languages for that resource profile are offered.
 3. Tap **Install / Update** and acknowledge the safety instructions.
 4. Let transfer, verification, restart and **CFW UPDATE** confirmation finish. If additional fonts are being prepared, wait for the app to report completion.
 5. Check the device menu. The app shows **installed language** and **display language** separately.
@@ -217,7 +230,13 @@ Settings, trips, maintenance records and photos are retained. **Do not disconnec
 
 ### Switch between English and the installed language
 
-On Noodoe, enable **Settings → System → English only** for English, or disable it to use the installed language. Confirm the restart while parked. **Language** shows which language is installed. To choose another language, follow the app update steps above.
+Open **Language settings** in the app to see the app language, installed menu language, actual display language, English selection, text rendering and supplemental font status. To install another language, choose it under **System language** and confirm. After the device check finishes, use **Continue installation / Check language** to update Product and its matching base resources. Changing only the app language does not change the device menu.
+
+<img src="images/guide-0.15.0/language-settings-en.png" alt="App and device language settings with text rendering controls" width="280">
+
+On Noodoe, open **Settings → System → Language**. **Firmware** shows the installed language; **Language** chooses the display language. Select English or the installed language, save and restart while parked. An English-only Product offers only English.
+
+<img src="images/guide-0.15.0/device-language.png" alt="Device language menu with firmware language, display language and text rendering" width="320">
 
 English-only firmware still displays foreign-language music and notifications. It does not require making room for additional fonts just to use English menus.
 
@@ -232,13 +251,28 @@ English-only firmware still displays foreign-language music and notifications. I
 
 ### When additional fonts need preparation
 
-Healthy existing B language packs remain usable as font resources. If the font file is missing or too small, the app briefly installs a preparation firmware, prepares the file, then returns to the final firmware. Bluetooth pairing and user settings are retained. Keep power connected, keep the app data, and follow the screen instructions.
+Healthy existing B packs remain usable as font resources. Stock files and existing photos are not deleted for cleanup. If the font file is missing or too small, the app explains **why a preparation Product is needed and how it returns to the selected final Product** before asking you to continue. Bluetooth, pairing and settings remain available in the preparation Product.
 
-**If space is insufficient, CJ fonts are skipped.** Stock files, photos and riding records are not deleted to make room. If the chosen menu language also lacks required fonts, menus open in English and the app explains why. After a low-space notice, let the app finish installing the final firmware.
+| 1. Transfer preparation Product | 2. Inspect storage | 3. Receive fonts |
+|---|---|---|
+| <img src="images/guide-0.15.0/helper-transfer.png" alt="Preparation Product transfer" width="230"> | <img src="images/guide-0.15.0/storage-check.png" alt="Font storage inspection" width="230"> | <img src="images/guide-0.15.0/font-transfer.png" alt="Font transfer progress" width="230"> |
 
-After an interruption, keep the same app data and use **Check current device → Continue installation / check language status**. Ordinary startup does not recheck or retransmit the entire font file.
+| 4. Verify fonts | 5. Complete storage | 6. Install the selected final Product |
+|---|---|---|
+| <img src="images/guide-0.15.0/font-verify.png" alt="Font verification" width="230"> | <img src="images/guide-0.15.0/font-publish.png" alt="Font storage completion" width="230"> | <img src="images/guide-0.15.0/final-transfer.png" alt="Final Product transfer" width="230"> |
 
-![Font preparation when needed, followed by final firmware](images/guide-0.14.0/font-preparation.png)
+**Insufficient CJ space pauses installation until you choose.** Read the required size and the available capacity reported by the device. If exact free capacity is unavailable, it is labelled unknown.
+
+- If the chosen menu works without CJ, choose **Continue without CJ / Cancel**. Unsupported music and notification text then needs phone rendering. Without phone rendering, those characters may not display.
+- If mandatory menu fonts are missing, choose **Select another available language / Cancel**. The app does not silently choose English or mark that language installation complete.
+- If you cancel while the preparation Product is running, **it remains installed**. Cancelling does not undo finished steps. Keep app data and the operation record to resume or select another language later.
+- If you skip CJ, the result and language settings retain **Installation complete — CJ not installed**. Installing it later requires a fresh space check and confirmation.
+
+Optional CJ / required menu font unavailable
+
+<img src="images/guide-0.15.0/cj-en-optional.png" alt="Optional CJ installation choice" width="280"> <img src="images/guide-0.15.0/cj-en-required.png" alt="Required font language choice" width="280">
+
+Lost connections, timeouts and damaged storage are distinct from insufficient space. Read the failed stage and error code and save diagnostics. After an interruption, keep the same app data and use **Check current device → Continue installation**. Checking status alone does not write again. Ordinary startup does not hash or retransmit the entire font file.
 
 | Music and notification text setting | Behavior |
 |---|---|
@@ -276,7 +310,7 @@ If files are being written, let that finish first. Follow these steps at the Boo
 
 Check that the app's riding connection is not paused and Bluetooth/Nearby devices access is allowed. Allow NewDoe to run in the background in Android's app battery settings. After force-stopping the app, open it again and start the connection. If another app, such as the camera, interrupted it, return to NewDoe and check the connection.
 
-If re-pairing has already restored your connection, use that connection to update Noodoe. If reconnection still fails afterward, export the diagnostic ZIP and note both app and firmware versions before restarting or re-pairing. Keep the app data; returning to stock is not required for this update.
+If re-pairing has already restored your connection, use that connection to update Noodoe. If reconnection still fails afterward, export the diagnostic ZIP and note both app and firmware versions before restarting or re-pairing. Keep app data. If a settings save/restore error blocks updating, follow the [0.14.1 reinstallation route above](#update).
 
 **The recovery menu has no Bluetooth connection.** Use [the device buttons](#recovery) when the skull or Recovery menu is showing.
 
@@ -399,11 +433,11 @@ Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**
 
 HOME AUTO prioritises **new notifications → playing music → other information**. A new notification or a manually chosen information view normally returns to the automatic priority after 20 seconds.
 
-On HOME, use **UP / DOWN** to choose the analogue or digital clock. The lower information strip keeps cycling as in AUTO; **hold O** to show the next item. The small top clock is hidden while the digital clock is visible and returns when you switch to another view.
+On HOME, use **UP / DOWN** to choose the analogue or digital clock. The lower information strip keeps cycling as in AUTO; **hold O** to show the next item. The small top clock is hidden while the digital clock is visible and returns when you switch to another view. The photo is shaded while a clock is visible so its hands and digits remain readable. The speed arc, ODO and lower information strip remain visible as before.
 
 | Analogue clock | Digital clock |
 |---|---|
-| <img src="images/guide-0.14.0/analog-clock.png" alt="Analogue clock with automatic lower information" width="280"> | <img src="images/guide-0.14.0/digital-clock.png" alt="Digital clock with small seconds" width="280"> |
+| <img src="images/guide-0.15.0/analog-clock.png" alt="Analogue clock with automatic lower information" width="280"> | <img src="images/guide-0.15.0/digital-clock.png" alt="Digital clock with small seconds" width="280"> |
 
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
 

@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.14.1 beta
+# NewDoe 0.15.0 beta
 
-App and firmware **0.14.1** save rotated Bluetooth bond keys so the next connection does not reuse the old key. Update both APK and device firmware. If re-pairing has already restored the connection, update using that connection. A/B menu selection and automatic font preparation remain available.
+App and firmware **0.15.0** restore compatibility with historical language settings and separate read-only status from installation resume. Healthy devices update directly; 0.14.1 devices blocked by settings errors use data-preserving stock return and reinstallation. Insufficient CJ space requires your choice. Language settings are grouped together and clocks have background shading. Gate and existing NOR file layouts are retained.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-0.14.1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-CFW-0.14.1-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.14.1/NewDoe-Illustrated-Manual-0.14.1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-0.15.0.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-CFW-0.15.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-CFW-0.15.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.0/NewDoe-Illustrated-Manual-0.15.0.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
