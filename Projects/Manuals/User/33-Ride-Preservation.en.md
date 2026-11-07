@@ -8,7 +8,7 @@ The oil remaining arc keeps its existing green above30%, switches directly to ye
 
 ## Preserving preferences and maintenance across CFW updates
 
-User preferences and brightness live in the external NOR file **CFWCFG.DAT (128KiB)**. Oil/belt/service reset references, trip records and accumulated ignition time live in **CFWRIDE.DAT (256KiB)**. These are audited files separate from the firmware slots; their physical addresses depend on the device FAT allocation. Updates do not format them or change their schema. Existing values are read during the candidate trial and retained after confirmation.
+User preferences and brightness live in the external NOR file **CFWCFG.DAT (128KiB)**. Oil/belt/service reset references and trip records live in **CFWRIDE.DAT (256KiB)**. From 0.15.1, ignition time is no longer accumulated or used for maintenance. Historical time fields remain for storage compatibility, while distance calculations retain the existing service odometer references. These are audited files separate from the firmware slots; their physical addresses depend on the device FAT allocation. Updates do not format them or change their schema. Existing values are read during the candidate trial and retained after confirmation.
 
 Starting with this firmware, routine CFW updates require a fresh UI snapshot and physically committed configuration and ride journals **before BEGIN and again before COMMIT**. An accepted save runs before an updater waiting on it. Readback/commit-marker completion is required; a save error or10-second timeout rejects installation before activation. The existing phone-side, checksummed settings/name snapshot remains an additional recovery copy. Maintenance references are retained as data; service-reset actions are never replayed.
 

@@ -2,8 +2,20 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.0 / device firmware 0.15.0 · 5 November 2026**  
+**App 0.15.1 / device firmware 0.15.1 · 7 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.1 — Fuel recognition and paired updates
+
+The app includes matching A/B and language firmware/resources. An older device receives an update notice after connection. Choose **Use packages included in this app** in the notice, then review the detected device, language and operation before updating. **Check current device status** remains separately available. Riding sync starts after the firmware included in this app is confirmed. Installation, stock return and reset are never automatic. An interrupted installation retains its original device/file records; a newer APK never silently replaces its files.
+
+<!-- FUEL_PAIR_0151_BEGIN -->
+| Update notice for older firmware | Fuel recognition setting |
+|---|---|
+| <img src="images/guide-0.15.1/firmware-update-0151.png" alt="Matching firmware update notice" width="280"> | <img src="images/guide-0.15.1/fuel-recognition-0151.png" alt="Fuel recognition on/off and manual reset help" width="280"> |
+
+Emulated 0.15.1 app screens, shown in Korean. An existing fuel-alert OFF preference becomes fuel recognition OFF after updating.
+<!-- FUEL_PAIR_0151_END -->
 
 You need an Android phone and your vehicle's buttons. Normal installation does not require opening Noodoe or connecting a programmer. **[PHONE] means the Android app; [NOODOE] means the round vehicle display.** Distances and progress values in the screen examples will differ on your device.
 
@@ -253,6 +265,14 @@ English-only firmware still displays foreign-language music and notifications. I
 
 Healthy existing B packs remain usable as font resources. Stock files and existing photos are not deleted for cleanup. If the font file is missing or too small, the app explains **why a preparation Product is needed and how it returns to the selected final Product** before asking you to continue. Bluetooth, pairing and settings remain available in the preparation Product.
 
+The preparation Product displays **FONT PREPARATION** and does not provide HOME, music or map pages. Stay parked and continue installation in the app. `Font preparation complete` means that the fonts are ready; **the selected final firmware must still be installed before riding screens return.** For connection help, briefly press UP on the idle preparation screen to open the existing pairing help. Pairings are not deleted automatically.
+
+| Waiting for the phone in the preparation Product | Not enough font space |
+|---|---|
+| <img src="images/guide-0.15.0/preparation-waiting.png" alt="Example FONT PREPARATION connection screen" width="230"> | <img src="images/guide-0.15.0/preparation-no-space.png" alt="Example insufficient font space screen" width="230"> |
+
+While idle with the ignition OFF, the display turns off under the existing power policy. Font installation or final firmware transfer wakes the installation display. Existing photos, trips, maintenance records, settings and pairings remain stored.
+
 | 1. Transfer preparation Product | 2. Inspect storage | 3. Receive fonts |
 |---|---|---|
 | <img src="images/guide-0.15.0/helper-transfer.png" alt="Preparation Product transfer" width="230"> | <img src="images/guide-0.15.0/storage-check.png" alt="Font storage inspection" width="230"> | <img src="images/guide-0.15.0/font-transfer.png" alt="Font transfer progress" width="230"> |
@@ -423,6 +443,8 @@ The five top icons hide after a while on HOME and stay visible on other normal p
 <a id="vehicle"></a>
 ## 12. Odometer, trips and maintenance
 
+From 0.15.1, **oil intervals use odometer distance only**. Key-ON duration is no longer measured or applied to any maintenance item. Existing distances since service are kept; historical hours are never converted into kilometres. If you previously configured only an hour interval, set a distance interval in Maintenance. Belt/service calendar criteria and riding-time/average-speed statistics remain available.
+
 <img src="images/guide-0.11.15/en-trip.png" alt="Trip computer screen" width="360">
 
 **ODO is the current odometer value received from the vehicle's instrument cluster.** Missing data shows `------`. There is no separate Noodoe odometer correction or saved-ODO selection.
@@ -431,9 +453,11 @@ Trip A/B, today, this ride, oil, belt and service records are retained separatel
 
 Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**. This ride's maximum and average speed markers appear once their values exceed 5 km/h.
 
-HOME AUTO prioritises **new notifications → playing music → other information**. A new notification or a manually chosen information view normally returns to the automatic priority after 20 seconds.
+Use **UP/DOWN** on HOME to cycle **manual one-line → AUTO one-line → AUTO two-line → speed → clock → map**. The final view shows full TBT during guidance and the existing large compass otherwise. **Hold O** to change the lower information item. Manual keeps the chosen item; AUTO resumes its existing notification/music priority after a 20-second manual override. View and information selections stay in RAM while riding and are saved **when the key switches OFF**. An abrupt power loss can lose selections made since the last key-OFF checkpoint.
 
-On HOME, use **UP / DOWN** to choose the analogue or digital clock. The lower information strip keeps cycling as in AUTO; **hold O** to show the next item. The small top clock is hidden while the digital clock is visible and returns when you switch to another view. The photo is shaded while a clock is visible so its hands and digits remain readable. The speed arc, ODO and lower information strip remain visible as before.
+Choose **Settings → Display → Clock style → Analog / Digital**. Only the selected clock appears in the HOME carousel. Digital hides the small top clock. Photo shading, hand lengths, speed arc, ODO and the lower information position are preserved.
+
+The lower cycle includes **sunrise / sunset**. Choose a nearby city under **Settings → Display → Sunrise / sunset** on Noodoe, or **Device settings → Sunrise / sunset reference city** on the phone. Noodoe calculates approximate times from the date, device UTC offset and selected city, rounded to minutes. Live GPS does not change this reference. Change the city and UTC offset when travelling, including daylight-saving changes. An existing stored location remains available as **Previously saved position**. New installations without a saved position must select a city; missing date/location shows `--:-- / --:--`. Terrain, buildings, elevation and weather are not considered.
 
 | Analogue clock | Digital clock |
 |---|---|
@@ -443,13 +467,13 @@ With the key OFF, the last ODO received during this boot stays on the device and
 
 In 0.12.1, the last ODO also stays visible in **10-minute use after key OFF**. A brief receive error no longer clears a valid reading immediately. If communication remains lost with the key ON, the value becomes unknown. Trips and maintenance records are kept; the retained ODO never adds trip distance.
 
-**SINCE REFUEL:** a fuel level at least two bars above the earlier level for three seconds starts a new record. A 2-bar tank refilled to alternating 4/5-bar readings is accepted. Missing or unknown readings wait for valid data. TRIP A/B and maintenance history are kept.
+**SINCE REFUEL:** with fuel recognition ON, a fuel level at least two bars above the earlier level for three seconds starts a new record. A 2-bar tank refilled to alternating 4/5-bar readings is accepted. Missing or unknown readings wait for valid data. TRIP A/B and maintenance history are kept.
 
 After refuelling, turn the key ON and allow several normal fuel readings to arrive. A rise of at least two bars is recorded once it stays stable; a missing reading does not count as a change. Ride Summary uses this boot’s last received ODO for the oil percentage after key OFF.
 
-If fuel warnings keep appearing, set **Settings → Vehicle → Fuel notifications** to OFF. You can then **hold O on SINCE REFUEL** to start the distance counter manually from zero, including when it currently shows `--`. Other trips and maintenance records are kept. Reset it here each time you refuel.
+Set **Settings → Vehicle → Fuel recognition** to OFF if your dashboard does not provide usable fuel data. This stops fuel warnings, automatic refuel detection and reserve mode. **Hold O on SINCE REFUEL** after refuelling to start the counter manually from zero, including when it shows `--`. Other trips and maintenance records are kept. Turning recognition on establishes a new baseline; it does not infer a refuel from the pre-OFF level.
 
-When reporting a fuel issue, photograph **diagnostic settings → Fuel RAW P2 / P3** and **UART RX first 16 bytes**. These show the values received from the vehicle dashboard. They remain available with fuel notifications turned off.
+When reporting a fuel issue, photograph **diagnostic settings → Fuel RAW P2 / P3** and **UART RX first 16 bytes**. These show the values received from the vehicle dashboard. They remain available with fuel recognition turned off.
 
 <a id="media"></a>
 ## 13. Music, calls and notifications
@@ -477,11 +501,37 @@ Import your region's **.map file** in the app's map menu. Enable location permis
 | **UP/DOWN in MANUAL** | Change zoom directly |
 | **Long O** | Switch north-up / heading-up / compass |
 
-New areas take some time to prepare. The current map feature shows the map, position and travelled track.
+New areas take some time to prepare. With guidance OFF, the map shows position and travelled track.
 
-The map shows your current position and travelled track. Destination distance and direction have been removed; no destination setup is needed. Trip counters and ODO remain available.
+No destination setup is needed for ordinary map viewing. Trip counters and ODO remain available.
 
 ![GPS](images/guide-0.13.2/map-north.png)
+
+### HOME, map and music during guidance
+
+The app has four bottom tabs: **Device / Home / Custom / Navigate**. This build uses **BRouter only** for offline guidance. The phone calculates routes; Noodoe shows TBT and the route on the map.
+
+Open **Navigate → BRouter routing files → Download**, obtain official `.rd5` files, then use **Import .rd5 files**. Seoul uses `E125_N35.rd5`; obtain neighboring grids as needed. Download the separate Mapsforge `.map` display map through the existing map screen. Long-press the map or choose a favorite/recent destination to start. Address/POI search and Valhalla country-pack installation are not included in this build.
+
+Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line displays **BRouter mode**, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
+
+MAP and the HOME map show a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
+
+Manual/AUTO/dual/map HOME and Music show a compact pill: **arrow on the left, distance on the right**. Speed, clock and full TBT do not show a second mini panel. Full TBT has a large left arrow and right distance/BRouter mode label (road name for external TBT), without a separate background box. Inactive guidance shows no panel. Starting guidance does not automatically change the current page.
+
+**Round native turn distances up to 100 m** in Navigate is OFF by default. It rounds native metric turn distances of at least 100 m upward to the next 100 m. Distances below 100 m, destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
+
+During guidance, menu icons fade after 5 seconds on every riding page, then the mini panel appears. Menu input reverses this transition. Without guidance the existing menu policy stays unchanged. At an estimated 7 seconds or less to the turn, based on the last 5 seconds of vehicle speed, the mini outline pulses at 2 Hz and full TBT text alternates yellow. Missing/stale speed or guidance disables this highlight.
+
+| Mini guidance | Full TBT | Seoul route example |
+|---|---|---|
+| ![Mini guidance](images/home-navigation/02-manual-mini.png) | ![TBT](images/home-navigation/01-full-tbt.png) | ![Seoul route](images/home-navigation/06-map-route.png) |
+
+The large TBT distance uses fixed, left-aligned `000 m / 00.0 km / 000 km` fields. Leading zeroes are omitted; the digits and unit keep their own fixed positions.
+
+These are PC renders of the actual LVGL/EVE code, not photographs of a vehicle LCD.
+
+The app **Wallpaper** theme uses a transparent window over the Android system wallpaper. Background shade and vignette are adjustable within the minimum contrast bounds for readable text.
 
 ### Change trail colors
 
@@ -556,3 +606,17 @@ Open **Having trouble? / Recovery and diagnostics → Save and share diagnostics
 Do not clear app data before saving diagnostics. Keep another copy of any backups you already have.
 
 [Back to top](#top) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest) · [한국어](Guide.md)
+
+
+## Offline navigation — BRouter
+
+This build includes BRouter only. The Valhalla native engine, country-pack installer and vehicle-class selector are excluded. Existing downloaded data is kept.
+
+1. Open **BRouter routing files → Download** for the [official routing files](https://brouter.de/brouter/segments4/). Each file covers a 5° × 5° grid. Seoul uses `E125_N35.rd5`; obtain neighboring files for routes crossing grids. Keep original filenames and preferably use data from the same date.
+2. Use **Import .rd5 files**. A verified new file replaces the same grid; failure keeps its previous version. Select files again after interruption.
+3. Obtain the separate Mapsforge `.map` through the existing map screen. `.rd5` files contain neither the display map nor an address-search database.
+4. Long-press the map or select a favorite/recent destination. Connect to Noodoe and receive a GPS location to start guidance.
+5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line says **BRouter mode**; roundabout exit numbers remain. The phone recalculates after an off-route event.
+6. Resume never starts automatically. Confirm the saved destination and start to calculate a new BRouter route. Existing Google Maps/OsmAnd external TBT priority and road names are preserved.
+
+Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, one-way and turn restrictions. Country/displacement special rules have not been separately qualified; follow road signs. Voice, cameras and lane guidance are not included. Device Bluetooth, NDCP, Gate and NOR structures are unchanged.
