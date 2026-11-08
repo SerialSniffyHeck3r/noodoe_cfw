@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.1 beta
+# NewDoe 0.15.2 beta
 
-App and firmware **0.15.1** ship as one matched set. Oil maintenance is ODO-only, and all maintenance ignition-hour criteria and lifetime ignition sampling are removed. Fuel recognition OFF disables automatic refuel detection, warnings and reserve handling while retaining manual trip reset. This release includes BRouter-only offline navigation, experimental Google Maps/OsmAnd TBT and manually selected sunrise/sunset cities. Older firmware receives an explicit update notice. Gate and existing NOR layouts are unchanged.
+App and firmware **0.15.2** ship as one matched set. Optional weather shows current conditions, daily high/low and +0–12 hourly forecasts, fetched only while the dashboard Weather page is visible. Your own OpenWeather One Call key is required; live authenticated weather is not yet verified. Fresh installations include a WELCOME/NEWDOE screen and repeatable initial setup. Gate, recovery and NOR file layouts are unchanged. Software-tested beta; no new physical vehicle qualification.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.1/NewDoe-0.15.1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.1/NewDoe-CFW-0.15.1.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.1/NewDoe-CFW-0.15.1-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.1/NewDoe-Illustrated-Manual-0.15.1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.2/NewDoe-0.15.2.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.2/NewDoe-CFW-0.15.2.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.2/NewDoe-CFW-0.15.2-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.2/NewDoe-Illustrated-Manual-0.15.2.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -24,7 +24,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.1.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.1.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.2.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.2.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

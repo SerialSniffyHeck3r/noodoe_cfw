@@ -2,8 +2,52 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.1 / device firmware 0.15.1 · 7 November 2026**  
+**App 0.15.2 / device firmware 0.15.2 · 8 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.2 — Weather and first-use setup
+
+Update the app and dashboard firmware together. Choose **Use the package included in the app**, then review the detected device and installation language. Gate and existing NOR file layouts are unchanged; healthy devices use the normal Product update. Existing users are not reset or forced through setup again.
+
+### After a fresh installation
+
+1. At **WELCOME! / NEWDOE** and the blinking **Press Any Key To Continue** message, press UP, DOWN or O. A short greeting fades in before setup starts.
+2. Follow **language → sunrise/sunset region → actual fuel bars → fuel recognition ON/OFF → units → timezone → speed-arc maximum**. UP/DOWN changes the value and O saves it. Select English or the language installed with your Product.
+3. Enter the zero-to-five bars on the original gauge. With ignition ON, NewDoe compares stable UART samples. Matching bars recommend ON; a mismatch or unsupported value recommends OFF. You may change the recommendation with UP/DOWN; only O saves it. Wait or choose **Skip** if samples are absent or unsettled. Missing data alone does not establish incompatibility.
+4. The dashboard restarts after durable completion. A failed save does not advance; review the message and retry. While connected, the phone automatically explains the current dashboard step and controls. This guide cannot be dismissed during setup; reconnecting restores the current step.
+5. To repeat later, choose **Settings → System → Initial setup (restart)**. Unrelated preferences are preserved. **Reset system settings** is a separate confirmed action. Trips, maintenance records, photos and pairing are retained.
+
+| Welcome | Fuel check |
+|---|---|
+| <img src="images/guide-0.15.2/welcome-first-frame.png" alt="WELCOME, centered NEWDOE wordmark and button prompt" width="280"> | <img src="images/guide-0.15.2/setup-2.png" alt="Enter the original gauge fuel bars without setup position arcs" width="280"> |
+
+The settings category arc and light mode have been removed. Ordinary settings retain their side row indicator; setup has no position arcs.
+
+### Using weather
+
+Weather is OFF by default. In the phone app's **Weather** screen, save your own **API key enabled for OpenWeather One Call**, then enable weather. Provider registration, terms and charges may apply; NewDoe does not supply a shared key. Other features remain usable without a weather key.
+
+On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The current condition icon appears on the left, with current temperature and **High / Low** on the right. The pill below displays each hourly forecast from **0 to +12 hours** simultaneously. Holding O cycles the existing HOME information strip.
+
+- Clear weather is yellow, partly cloudy is pale yellow, and cloudy is gray.
+- A rain probability of40% or more overrides the clear/cloudy color with blue, becoming darker as probability increases. Thunderstorms use dark blue.
+- Missing or expired data is not shown as current. Missing temperatures show `--`.
+
+| Clear and mixed hourly forecast | Heavy rain and subzero temperatures |
+|---|---|
+| <img src="images/guide-0.15.2/weather-date.png" alt="Smiling sun, current and high/low temperatures and13-hour color bar" width="280"> | <img src="images/guide-0.15.2/weather-rain.png" alt="Heavy rain icon, negative temperatures and phone information strip" width="280"> |
+
+Queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
+
+### Fuel measurement error
+
+A sustained measurement error replaces GPS with a steady **red crossed-fuel icon**. The blinking Fuel Measurement Error text and full-screen error animation are removed. A valid fuel frame or fuel recognition OFF restores GPS. Existing low/critical-fuel warnings retain their behavior.
+
+<img src="images/guide-0.15.2/fuel-error.png" alt="Red crossed-fuel measurement indicator in the GPS position" width="280">
+
+Weather artwork is derived from [Twemoji](https://github.com/jdecked/twemoji), resized and palette-converted, with modified drizzle/heavy-rain variants. It is licensed under [CC BY4.0](https://creativecommons.org/licenses/by/4.0/); attribution and license text are available in the app's Weather screen.
+
+These are ARM/LVGL/EVE software renders with synthetic weather, not live forecasts or physical LCD photographs. Authenticated OpenWeather requests, physical LCD/radio and power consumption remain unverified. The existing stock-return power-interruption limitation remains.
 
 ## 0.15.1 — Fuel recognition and paired updates
 
