@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.3 beta
+# NewDoe 0.15.4 beta
 
-앱·펌웨어 **0.15.3**를 일치하는 한 묶음으로 제공합니다. 날씨는 Meteocons와 웃는 해, 고정 폭 온도와 두 화살표 바로 표시합니다. 현재부터+12시간까지 위는 날씨 상태, 아래는 실제 강수량(mm/h)입니다. 본체 날씨 화면에서만 조회하며 개인 OpenWeather One Call 키가 필요합니다. Gate·복구·NOR 파일 배치는 유지합니다. 소프트웨어 검증 베타이며 인증된 날씨 실조회와 새 실차 검증은 하지 않았습니다.
+앱·펌웨어 **0.15.4**를 일치하는 한 묶음으로 제공합니다. 두 시계의 사진 음영, 부팅 직후 초기 설정, 정차 안내 후 O 확인, 키 OFF 속도 대시와 설치 안내 대기 시간을 반영했습니다. 마법사는 이동 중에도 유지됩니다. 날씨 온도 화살표를 제거하고 초기 설정·OpenWeather·BRouter 설명서를 보강했습니다. Gate·복구·NOR 배치는 유지합니다. 소프트웨어 검증 베타이며 새 실차·인증된 날씨 실조회는 확인하지 않았습니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-0.15.3.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-CFW-0.15.3.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-CFW-0.15.3-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-Illustrated-Manual-0.15.3.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-0.15.4.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-Illustrated-Manual-0.15.4.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

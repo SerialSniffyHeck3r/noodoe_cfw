@@ -2,16 +2,16 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.3 / device firmware 0.15.3 · 9 November 2026**  
+**App 0.15.4 / device firmware 0.15.4 · 10 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-## 0.15.3 — Weather display and first-use setup
+## 0.15.4 — Clock contrast and initial setup improvements
 
 Update the app and dashboard firmware together. Choose **Use the package included in the app**, then review the detected device and installation language. Gate and existing NOR file layouts are unchanged; healthy devices use the normal Product update. Existing users are not reset or forced through setup again.
 
 ### After a fresh installation
 
-1. At **WELCOME! / NEWDOE** and the blinking **Press Any Key To Continue** message, press UP, DOWN or O. A short greeting fades in before setup starts.
+1. When initial setup is scheduled, the dashboard opens it directly, without the ordinary ignition arc animation. At **WELCOME! / NEWDOE** and the blinking **Press Any Key To Continue** message, press UP, DOWN or O. The next screen says **Please stop your vehicle / Press O to continue**. Stop, then press O to begin. This screen does not advance automatically.
 2. Follow **language → sunrise/sunset region → actual fuel bars → fuel recognition ON/OFF → units → timezone → speed-arc maximum**. UP/DOWN changes the value and O saves it. Select English or the language installed with your Product.
 3. Enter the zero-to-five bars on the original gauge. With ignition ON, NewDoe compares stable UART samples. Matching bars recommend ON; a mismatch or unsupported value recommends OFF. You may change the recommendation with UP/DOWN; only O saves it. Wait or choose **Skip** if samples are absent or unsettled. Missing data alone does not establish incompatibility.
 4. The dashboard restarts after durable completion. A failed save does not advance; review the message and retry. While connected, the phone automatically explains the current dashboard step and controls. This guide cannot be dismissed during setup; reconnecting restores the current step.
@@ -19,7 +19,9 @@ Update the app and dashboard firmware together. Choose **Use the package include
 
 | Welcome | Fuel check |
 |---|---|
-| <img src="images/guide-0.15.2/welcome-first-frame.png" alt="WELCOME, centered NEWDOE wordmark and button prompt" width="280"> | <img src="images/guide-0.15.2/setup-2.png" alt="Enter the original gauge fuel bars without setup position arcs" width="280"> |
+| <img src="images/guide-0.15.4/setup-first-frame.png" alt="WELCOME, centered NEWDOE wordmark and button prompt" width="280"> | <img src="images/guide-0.15.2/setup-2.png" alt="Enter the original gauge fuel bars without setup position arcs" width="280"> |
+
+The initial setup wizard has no movement lock or automatic timeout. Its first screen and current step remain present and its buttons remain usable while moving. Follow the instruction to stop before continuing. Ordinary settings retain their existing movement lock and timeout.
 
 The settings category arc and light mode have been removed. Ordinary settings retain their side row indicator; setup has no position arcs.
 
@@ -27,19 +29,42 @@ The settings category arc and light mode have been removed. Ordinary settings re
 
 Weather is OFF by default. In the phone app's **Weather** screen, save your own **API key enabled for OpenWeather One Call**, then enable weather. Provider registration, terms and charges may apply; NewDoe does not supply a shared key. Other features remain usable without a weather key.
 
+#### Register OpenWeather and show the first forecast
+
+1. [Create an OpenWeather account](https://home.openweathermap.org/users/sign_up), verify your email and find your personal key under [API keys](https://home.openweathermap.org/api_keys). A new key can take time to activate. [Official account/key help](https://openweathermap.org/faq)
+2. Check **One Call API access**. NewDoe uses the current, hourly and daily data from the `One Call 3.0` endpoint. Having a key for an ordinary free account does not by itself confirm One Call access. Review the provider’s subscription, payment requirements and daily call limit before accepting. At publication the official page lists 1,000 free calls/day for One Call; excess charges and account terms remain the provider’s responsibility. [Current official One Call documentation](https://openweathermap.org/api/one-call-3)
+3. Open **Weather** in NewDoe, paste your key into **OpenWeather API key**, then choose **Save key**. The key is masked and the input clears after saving. Keep it out of Discord messages and screenshots. NewDoe does not supply a shared key.
+4. Enable **Weather**. Allow location, enable the phone’s location service and connect to the internet. Weather uses the phone’s current GPS location, independently of the city selected for sunrise/sunset in initial setup.
+5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The phone’s dashboard-weather query button does not bypass the query policy.
+6. When the phone reports **Forecast ready**, check its update time and the dashboard’s current/high/low temperatures and two bars. Temperature follows the dashboard’s unit setting; only a degree mark is shown. The clock and ODO retain their usual positions outside the weather view.
+
+#### Refresh timing and errors
+
+After the first attempt, fetching requires the dashboard Weather page to be visible and either **one hour since the last attempt or 30km from its location**. The 30km threshold is displacement, not accumulated odometer distance. Other pages do not fetch; returning to Weather does not reset the limit. Failed requests also count, so correcting a key may not cause an immediate retry.
+
+| Phone status | What to check |
+|---|---|
+| Key required / key storage error | Check and save the complete key. Do not share it. |
+| Key or One Call access rejected | Check activation, spelling and subscription in the provider account. |
+| Waiting for location | Enable location and permissions; wait for a fresh fix. |
+| Rate limit | Check provider usage and limits. Repeated button presses do not bypass it. |
+| Network / invalid data | Check connectivity. The next attempt still follows page/time/distance conditions. |
+| Stale forecast / no dashboard data | Check the update time and wait on the dashboard Weather page for the next allowed request. |
+
+Forecasts remain in phone/dashboard RAM. A reboot or app-process restart requires fresh data; forecasts are not repeatedly written to dashboard NOR. Turning Weather off stops requests. Weather is optional; other features work without an account.
+
 On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The smiling sun or Meteocons condition icon sits beside the large current temperature. Daily high uses vivid red; low uses blue. Current temperature has three fixed-width slots without leading zeros.
 
 The two chevron bars run from the **current clock hour through +12 hours**, left to right.
 
 - **Upper — condition:** clear is yellow, partly cloudy pale yellow, cloudy muted white. Drizzle/rain/heavy rain progress through deeper blue tones. Fog has dark stripes on a light background; showers, thunderstorms and snow use blue. Probability never overrides this bar.
 - **Lower — precipitation amount(mm/h):** white means no precipitation; larger rain/snow amounts become darker blue. This is not probability(%). Colors blend between hours; an unavailable amount is dark gray.
-- The small triangle follows the dashboard's configured local time: up during08:00–15:59, down during16:00–07:59. It is a time-of-day cue, not a prediction of the actual temperature trend.
 - Weather hides the ordinary HOME information strip. After the top menu hides, a localized Weather title appears when no TBT is present. The clock, speed arc and ODO remain.
 - Missing or expired data is not shown as current; unavailable temperatures show `--`.
 
 | Clear and two forecast bars | Subzero evening example |
 |---|---|
-| <img src="images/guide-0.15.3/01-sun-morning.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.3/04-negative-evening.png" alt="18:00, minus3 degrees and downward time cue" width="280"> |
+| <img src="images/guide-0.15.4/01-sun-morning.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.4/04-negative-evening.png" alt="Minus3 degrees in fixed-width slots" width="280"> |
 
 Queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
 
@@ -138,8 +163,8 @@ When you press an install button, read each picture and tap **Got it**. **Cancel
 4. Check that the battery voltage is **at least 11.5V**. This is your confirmation; the app does not measure it.
 5. Keep the key OFF when the step allows it. **The first transfer from stock needs the key ON.** Then follow the screen instructions.
 
-<img src="images/guide-0.11.16/en-safety-0.png" alt="Battery safety confirmation in the app" width="330">
-<img src="images/guide-0.11.16/en-safety-4.png" alt="Key OFF recommendation with the first-transfer exception" width="330">
+<img src="images/guide-0.15.4/en-safety-0.png" alt="Battery safety confirmation in the app" width="330">
+<img src="images/guide-0.15.4/en-safety-4.png" alt="Key OFF recommendation with the first-transfer exception" width="330">
 
 All five signs stay under the installation status while it runs. They are reminders, not extra buttons.
 
@@ -229,7 +254,7 @@ Noodoe restarts during installation. Leave the app open even if the connection b
 
 | Look for this on Noodoe | Then confirm on the phone |
 |---|---|
-| <img src="images/guide-0.11.15/cfw-confirm.png" alt="Device CFW UPDATE screen" width="300"> | <img src="images/guide-0.11.15/en-confirm.png" alt="Phone confirmation that CFW UPDATE is visible" width="330"> |
+| <img src="images/guide-0.11.15/cfw-confirm.png" alt="Device CFW UPDATE screen" width="300"> | <img src="images/guide-0.15.4/en-confirm.png" alt="Phone confirmation that CFW UPDATE is visible" width="330"> |
 
 1. **[NOODOE]** Check that it shows **CFW UPDATE** and **Checking the new version** or **Confirm on your phone**.
 2. **[PHONE]** Tap the button confirming that **CFW UPDATE is visible**. If Noodoe still shows Bootstrap, NOODOE INSTALLER or a black screen, choose the “not that screen yet” option and wait.
@@ -511,7 +536,7 @@ The lower cycle includes **sunrise / sunset**. Choose a nearby city under **Sett
 
 | Analogue clock | Digital clock |
 |---|---|
-| <img src="images/guide-0.15.0/analog-clock.png" alt="Analogue clock with automatic lower information" width="280"> | <img src="images/guide-0.15.0/digital-clock.png" alt="Digital clock with small seconds" width="280"> |
+| <img src="images/guide-0.15.4/analog.png" alt="Analogue clock with automatic lower information" width="280"> | <img src="images/guide-0.15.4/digital.png" alt="Digital clock with small seconds" width="280"> |
 
 With the key OFF, the last ODO received during this boot stays on the device and phone dashboard. Turning the key ON requires a fresh vehicle reading. A restart clears this temporary ODO; it never restores an old saved reading. Trips and maintenance counters are preserved separately.
 
@@ -670,3 +695,41 @@ This build includes BRouter only. The Valhalla native engine, country-pack insta
 6. Resume never starts automatically. Confirm the saved destination and start to calculate a new BRouter route. Existing Google Maps/OsmAnd external TBT priority and road names are preserved.
 
 Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, one-way and turn restrictions. Country/displacement special rules have not been separately qualified; follow road signs. Voice, cameras and lane guidance are not included. Device Bluetooth, NDCP, Gate and NOR structures are unchanged.
+
+### First BRouter setup — map and routing files are separate
+
+1. With internet access, open **Navigation → BRouter routing files → Download**. Get the needed `.rd5` files from the linked [official BRouter distribution](https://brouter.de/brouter/segments4/). No NewDoe country ZIP or API key is required. Short routes in Seoul use `E125_N35.rd5`; routes crossing tile boundaries also need neighboring files.
+2. Keep the original names. Choose **Import .rd5 files**, select the downloaded files, review names/sizes and confirm. Wait for the import/verification result. Leaving files in Downloads alone does not register them: navigation uses the verified app-private copies.
+3. Prepare the **display map** separately in the existing map screen using the region’s Mapsforge `.map`. A `.map` draws roads, while `.rd5` calculates routes; neither replaces the other. [Official BRouter offline guide](https://brouter.de/brouter/offline.html)
+4. While stopped, open **Navigation → Choose destination on map**, long-press a point near a road, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
+5. The phone calculates after obtaining a real GPS fix. For a first short test, choose road-connected points within one `.rd5` tile. Imported data works without internet, but GPS reception and the dashboard Bluetooth link are still needed.
+6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and **BRouter mode** below. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
+7. Mini TBT appears on HOME information/map and Music. During guidance, the upper menu hides after five seconds and mini TBT appears. Speed, clock and full TBT views do not receive a duplicate mini display. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
+8. Use **Stop guidance** to end. After app restart, use **Resume guidance**, confirm the saved destination and start again. A destination saved for another vehicle is not silently applied. Stop guidance before importing updated `.rd5` files. Failed imports preserve the prior file; check partial-success results before selecting missing files again.
+
+**Google Maps / OsmAnd external TBT (experimental):** Enable external TBT in Navigation and grant NewDoe **Notification access**. Start actual guidance in the supported app and verify that its navigation notification appears. Simply opening the app or searching a destination is not guidance. Recognized external TBT takes priority over BRouter; internal guidance cannot start while external TBT owns navigation. It can show the source app’s road name, but does not import its complete route line. Parsing depends on app version, language and notification format. If the source app does not offer guidance in a region, NewDoe cannot supply it on its behalf.
+
+| Problem | Action |
+|---|---|
+| Missing routing file/tile | Import tiles covering the start, destination and intervening route. |
+| Map works, routing does not | Check `.map` and `.rd5` separately. |
+| Waiting for GPS | Check phone location permissions/service and wait for a real fix. |
+| No route | Pick a point closer to a connected road and check tile coverage. |
+| External TBT waiting | Check actual Google Maps/OsmAnd guidance notifications and NewDoe notification access. |
+| Dashboard waiting/disconnected | Reconnect using the existing connection flow and check phone guidance. Do not automatically reset or re-pair. |
+
+The basic motorcycle profile uses OSM access, one-way and turn restrictions. Country/displacement-specific rules are not comprehensively validated; follow road signs. Voice, speed-camera, lane guidance and Valhalla country packs are not part of this build.
+
+
+### First-boot presentation, installation buttons and clocks
+
+A pending initial-setup marker opens the setup welcome directly after boot, without the normal key-ON arc sweep. Existing users without that marker keep normal startup. The wizard stays available while moving and its stop instruction waits for O. Ordinary settings retain their movement lock.
+
+Each of the five installation cards enables **Next** after three seconds; none advances automatically. On the CFW UPDATE confirmation, **I can see CFW UPDATE** is immediately available; **Not yet** becomes available after ten seconds and is not approval. Once CFW installation has started, key OFF is permitted; keep the key ON during the first installer transfer from stock. This never means disconnecting the battery/main power, and the existing legacy stock-return interruption limitation remains.
+
+Both analog and digital clocks dim the photo behind them, while hands/digits, speed arc, ODO and the information strip retain their colors. With key OFF, the digital speed field shows `--- km/h` or `--- mph` instead of retaining the last speed. Weather no longer shows time-of-day triangles beside temperature.
+
+| Welcome | O 확인 / Confirm with O | 키 OFF / Key OFF |
+| --- | --- | --- |
+| <img src="images/guide-0.15.4/setup-first-frame.png" alt="WELCOME NEWDOE" width="240"> | <img src="images/guide-0.15.4/setup-stop-confirm.png" alt="Stop instruction waiting for O" width="240"> | <img src="images/guide-0.15.4/speed-key-off.png" alt="Unknown speed dashes with key OFF" width="240"> |
+

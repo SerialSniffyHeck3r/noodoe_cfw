@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.3 beta
+# NewDoe 0.15.4 beta
 
-App and firmware **0.15.3** ship as one matched set. Weather now uses Meteocons plus a smiling sun, large fixed-width temperature and two chevrons for conditions and actual precipitation(mm/h), from the current hour through+12h. Fetching remains limited to the visible dashboard Weather page. Your own OpenWeather One Call key is required. Gate/recovery/NOR file layouts remain unchanged. Software-tested beta; authenticated live weather and physical vehicle testing remain unverified.
+App and firmware **0.15.4** ship as one matched set. Both clocks shade photo backgrounds. Initial setup opens directly, asks the rider to stop, and waits for O; the wizard remains available while moving. Key-OFF speed shows dashes. Installation acknowledgements have explicit reading delays. Weather temperature trend arrows are removed. Detailed setup, OpenWeather and BRouter guides are included. Gate/recovery/NOR layouts remain unchanged. Software-tested beta; no new physical vehicle or authenticated weather test.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-0.15.3.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-CFW-0.15.3.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-CFW-0.15.3-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.3/NewDoe-Illustrated-Manual-0.15.3.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-0.15.4.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-Illustrated-Manual-0.15.4.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
