@@ -2,10 +2,10 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.2 / device firmware 0.15.2 · 8 November 2026**  
+**App 0.15.3 / device firmware 0.15.3 · 9 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
-## 0.15.2 — Weather and first-use setup
+## 0.15.3 — Weather display and first-use setup
 
 Update the app and dashboard firmware together. Choose **Use the package included in the app**, then review the detected device and installation language. Gate and existing NOR file layouts are unchanged; healthy devices use the normal Product update. Existing users are not reset or forced through setup again.
 
@@ -27,15 +27,19 @@ The settings category arc and light mode have been removed. Ordinary settings re
 
 Weather is OFF by default. In the phone app's **Weather** screen, save your own **API key enabled for OpenWeather One Call**, then enable weather. Provider registration, terms and charges may apply; NewDoe does not supply a shared key. Other features remain usable without a weather key.
 
-On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The current condition icon appears on the left, with current temperature and **High / Low** on the right. The pill below displays each hourly forecast from **0 to +12 hours** simultaneously. Holding O cycles the existing HOME information strip.
+On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The smiling sun or Meteocons condition icon sits beside the large current temperature. Daily high uses vivid red; low uses blue. Current temperature has three fixed-width slots without leading zeros.
 
-- Clear weather is yellow, partly cloudy is pale yellow, and cloudy is gray.
-- A rain probability of40% or more overrides the clear/cloudy color with blue, becoming darker as probability increases. Thunderstorms use dark blue.
-- Missing or expired data is not shown as current. Missing temperatures show `--`.
+The two chevron bars run from the **current clock hour through +12 hours**, left to right.
 
-| Clear and mixed hourly forecast | Heavy rain and subzero temperatures |
+- **Upper — condition:** clear is yellow, partly cloudy pale yellow, cloudy muted white. Drizzle/rain/heavy rain progress through deeper blue tones. Fog has dark stripes on a light background; showers, thunderstorms and snow use blue. Probability never overrides this bar.
+- **Lower — precipitation amount(mm/h):** white means no precipitation; larger rain/snow amounts become darker blue. This is not probability(%). Colors blend between hours; an unavailable amount is dark gray.
+- The small triangle follows the dashboard's configured local time: up during08:00–15:59, down during16:00–07:59. It is a time-of-day cue, not a prediction of the actual temperature trend.
+- Weather hides the ordinary HOME information strip. After the top menu hides, a localized Weather title appears when no TBT is present. The clock, speed arc and ODO remain.
+- Missing or expired data is not shown as current; unavailable temperatures show `--`.
+
+| Clear and two forecast bars | Subzero evening example |
 |---|---|
-| <img src="images/guide-0.15.2/weather-date.png" alt="Smiling sun, current and high/low temperatures and13-hour color bar" width="280"> | <img src="images/guide-0.15.2/weather-rain.png" alt="Heavy rain icon, negative temperatures and phone information strip" width="280"> |
+| <img src="images/guide-0.15.3/01-sun-morning.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.3/04-negative-evening.png" alt="18:00, minus3 degrees and downward time cue" width="280"> |
 
 Queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
 
@@ -45,7 +49,9 @@ A sustained measurement error replaces GPS with a steady **red crossed-fuel icon
 
 <img src="images/guide-0.15.2/fuel-error.png" alt="Red crossed-fuel measurement indicator in the GPS position" width="280">
 
-Weather artwork is derived from [Twemoji](https://github.com/jdecked/twemoji), resized and palette-converted, with modified drizzle/heavy-rain variants. It is licensed under [CC BY4.0](https://creativecommons.org/licenses/by/4.0/); attribution and license text are available in the app's Weather screen.
+Weather artwork uses [Meteocons Fill](https://github.com/basmilius/meteocons) under MIT. The sun is separate generated artwork selected for the project. Attribution and license text are available in the phone Weather screen.
+
+Weather artwork retained in earlier guide images derives from [Twemoji](https://github.com/jdecked/twemoji), [CC BY4.0](https://creativecommons.org/licenses/by/4.0/), with resized/palette-converted graphics and modified rain variants.
 
 These are ARM/LVGL/EVE software renders with synthetic weather, not live forecasts or physical LCD photographs. Authenticated OpenWeather requests, physical LCD/radio and power consumption remain unverified. The existing stock-return power-interruption limitation remains.
 
