@@ -2,8 +2,14 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.4 / device firmware 0.15.4 · 10 November 2026**  
+**App 0.15.4 / device firmware 0.15.4 · 11 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.4 Hotfix 4 — weather transfer connection fix (build 148)
+
+For **content / 0x9D / IllegalArgumentException / VisualTransfer**, install Hotfix 4 over the existing app and reconnect. Current weather packets contain 256 bytes, but the app still checked an obsolete size before transmission. Even the clear-display packet sent when weather is disabled or no API key is configured could trigger this exception. The 0x9D shown on screen is the preceding wire command; the Java exception came from weather packet size admission.
+
+If the dashboard boots 0.15.4 normally, **update only the APK**. Registering an API key, clearing app data, re-pairing or returning to stock is unnecessary to fix this error. Weather fetching still requires its API key; fetch intervals and display behavior are unchanged. Any earlier unfinished installation must still have its outcome checked separately. All previous hotfixes are included.
 
 ## 0.15.4 Hotfix 3 — update preparation and connection status (build 147)
 
