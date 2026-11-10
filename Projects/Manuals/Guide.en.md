@@ -5,6 +5,18 @@
 **App 0.15.4 / device firmware 0.15.4 · 11 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.4 Hotfix 5 — navigation connection, destination picker and weather checks (build 149)
+
+If your dashboard already runs 0.15.4, **install only the APK over the existing app**. Firmware, Gate and NOR files are unchanged; earlier hotfixes are included.
+
+- **Navigate → Select a point on the map** opens a large map immediately. Pan or zoom until the center marker is on the destination, then choose **Use this point → Start offline guidance**. My location and Map files are directly available. The picker remembers the previous area; a fresh riding GPS fix centers the map on your location on entry. Selection returns to the original navigation screen.
+- Guidance now uses the same selected vehicle as the riding connection. It no longer rejects that connection because of a retired screen’s saved selection. Pairing alone is not an active riding connection: use ▶ first. Other vehicles, disconnected sessions and unsupported firmware remain blocked.
+- **Device → Weather** shows whether the API key is missing, saved, accepted, rejected or unverified, with the last check time and actual HTTP code. The key itself is never displayed or included in diagnostics.
+- **Check key / get weather** makes one explicit request at the current phone location, even without a dashboard. Location permission and location services are required. Current conditions, temperature, today’s high/low and +0 to +12 hour forecasts are shown as text. A saved key is not claimed to be accepted. For HTTP 401/403 check the key and One Call access; for 429 check the provider quota. Network failure does not prove the key is wrong.
+- Automatic queries still require the **dashboard Weather page**, after one hour or 30 km. Explicit manual checks are separate and limited to once per 60 seconds. Cancelling before an HTTP request no longer consumes the one-hour interval; replacing the key resets the previous failed-key state. Forecasts remain RAM-only and need to be fetched again after app process restart.
+
+Verification uses automated tests and Android software rendering. Physical phone/vehicle Bluetooth, perceived scrolling smoothness and a live OpenWeather request with the user’s key remain to be checked.
+
 ## 0.15.4 Hotfix 4 — weather transfer connection fix (build 148)
 
 For **content / 0x9D / IllegalArgumentException / VisualTransfer**, install Hotfix 4 over the existing app and reconnect. Current weather packets contain 256 bytes, but the app still checked an obsolete size before transmission. Even the clear-display packet sent when weather is disabled or no API key is configured could trigger this exception. The 0x9D shown on screen is the preceding wire command; the Java exception came from weather packet size admission.
@@ -59,14 +71,14 @@ Weather is OFF by default. In the phone app's **Weather** screen, save your own 
 
 1. [Create an OpenWeather account](https://home.openweathermap.org/users/sign_up), verify your email and find your personal key under [API keys](https://home.openweathermap.org/api_keys). A new key can take time to activate. [Official account/key help](https://openweathermap.org/faq)
 2. Check **One Call API access**. NewDoe uses the current, hourly and daily data from the `One Call 3.0` endpoint. Having a key for an ordinary free account does not by itself confirm One Call access. Review the provider’s subscription, payment requirements and daily call limit before accepting. At publication the official page lists 1,000 free calls/day for One Call; excess charges and account terms remain the provider’s responsibility. [Current official One Call documentation](https://openweathermap.org/api/one-call-3)
-3. Open **Weather** in NewDoe, paste your key into **OpenWeather API key**, then choose **Save key**. The key is masked and the input clears after saving. Keep it out of Discord messages and screenshots. NewDoe does not supply a shared key.
+3. Open **Weather** in NewDoe, tap **Save key on this phone**, paste your key into the dialog, then save. The key is masked and the input clears after saving. Keep it out of Discord messages and screenshots. NewDoe does not supply a shared key.
 4. Enable **Weather**. Allow location, enable the phone’s location service and connect to the internet. Weather uses the phone’s current GPS location, independently of the city selected for sunrise/sunset in initial setup.
-5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The phone’s dashboard-weather query button does not bypass the query policy.
+5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The explicit **Check key / get weather** button makes one request at the phone location, even without a dashboard.
 6. When the phone reports **Forecast ready**, check its update time and the dashboard’s current/high/low temperatures and two bars. Temperature follows the dashboard’s unit setting; only a degree mark is shown. The clock and ODO retain their usual positions outside the weather view.
 
 #### Refresh timing and errors
 
-After the first attempt, fetching requires the dashboard Weather page to be visible and either **one hour since the last attempt or 30km from its location**. The 30km threshold is displacement, not accumulated odometer distance. Other pages do not fetch; returning to Weather does not reset the limit. Failed requests also count, so correcting a key may not cause an immediate retry.
+After the first attempt, automatic fetching requires the dashboard Weather page to be visible and either **one hour since the last attempt or 30km from its location**. The 30km threshold is displacement, not accumulated odometer distance. Other pages do not fetch; returning to Weather does not reset the limit. Transmitted failed requests also count for automatic fetching. The manual check button can retry separately, and saving a replacement key clears the previous key’s waiting state.
 
 | Phone status | What to check |
 |---|---|
@@ -74,10 +86,10 @@ After the first attempt, fetching requires the dashboard Weather page to be visi
 | Key or One Call access rejected | Check activation, spelling and subscription in the provider account. |
 | Waiting for location | Enable location and permissions; wait for a fresh fix. |
 | Rate limit | Check provider usage and limits. Repeated button presses do not bypass it. |
-| Network / invalid data | Check connectivity. The next attempt still follows page/time/distance conditions. |
+| Network / invalid data | Check connectivity. Use the explicit manual check to retry; automatic attempts follow page/time/distance conditions. |
 | Stale forecast / no dashboard data | Check the update time and wait on the dashboard Weather page for the next allowed request. |
 
-Forecasts remain in phone/dashboard RAM. A reboot or app-process restart requires fresh data; forecasts are not repeatedly written to dashboard NOR. Turning Weather off stops requests. Weather is optional; other features work without an account.
+Forecasts remain in phone/dashboard RAM. A reboot or app-process restart requires fresh data; forecasts are not repeatedly written to dashboard NOR. Turning Weather off stops automatic requests; an explicit manual key check is still available. Weather is optional; other features work without an account.
 
 On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The smiling sun or Meteocons condition icon sits beside the large current temperature. Daily high uses vivid red; low uses blue. Current temperature has three fixed-width slots without leading zeros.
 
@@ -92,7 +104,7 @@ The two chevron bars run from the **current clock hour through +12 hours**, left
 |---|---|
 | <img src="images/guide-0.15.4/01-sun-morning.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.4/04-negative-evening.png" alt="Minus3 degrees in fixed-width slots" width="280"> |
 
-Queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
+Automatic queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
 
 ### Fuel measurement error
 
@@ -612,7 +624,7 @@ No destination setup is needed for ordinary map viewing. Trip counters and ODO r
 
 The app has four bottom tabs: **Device / Home / Custom / Navigate**. This build uses **BRouter only** for offline guidance. The phone calculates routes; Noodoe shows TBT and the route on the map.
 
-Open **Navigate → BRouter routing files → Download**, obtain official `.rd5` files, then use **Import .rd5 files**. Seoul uses `E125_N35.rd5`; obtain neighboring grids as needed. Download the separate Mapsforge `.map` display map through the existing map screen. Long-press the map or choose a favorite/recent destination to start. Address/POI search and Valhalla country-pack installation are not included in this build.
+Open **Navigate → BRouter routing files → Download**, obtain official `.rd5` files, then use **Import .rd5 files**. Seoul uses `E125_N35.rd5`; obtain neighboring grids as needed. Download the separate Mapsforge `.map` display map through the existing map screen. Move the map to place its center marker on the destination and tap **Use this point**, or choose a favorite/recent destination. Address/POI search and Valhalla country-pack installation are not included in this build.
 
 Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line displays **BRouter mode**, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
 
@@ -716,7 +728,7 @@ This build includes BRouter only. The Valhalla native engine, country-pack insta
 1. Open **BRouter routing files → Download** for the [official routing files](https://brouter.de/brouter/segments4/). Each file covers a 5° × 5° grid. Seoul uses `E125_N35.rd5`; obtain neighboring files for routes crossing grids. Keep original filenames and preferably use data from the same date.
 2. Use **Import .rd5 files**. A verified new file replaces the same grid; failure keeps its previous version. Select files again after interruption.
 3. Obtain the separate Mapsforge `.map` through the existing map screen. `.rd5` files contain neither the display map nor an address-search database.
-4. Long-press the map or select a favorite/recent destination. Connect to Noodoe and receive a GPS location to start guidance.
+4. Move the map to the destination and tap **Use this point**, or select a favorite/recent destination. Connect to Noodoe and receive a GPS location to start guidance.
 5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line says **BRouter mode**; roundabout exit numbers remain. The phone recalculates after an off-route event.
 6. Resume never starts automatically. Confirm the saved destination and start to calculate a new BRouter route. Existing Google Maps/OsmAnd external TBT priority and road names are preserved.
 
@@ -727,7 +739,7 @@ Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, on
 1. With internet access, open **Navigation → BRouter routing files → Download**. Get the needed `.rd5` files from the linked [official BRouter distribution](https://brouter.de/brouter/segments4/). No NewDoe country ZIP or API key is required. Short routes in Seoul use `E125_N35.rd5`; routes crossing tile boundaries also need neighboring files.
 2. Keep the original names. Choose **Import .rd5 files**, select the downloaded files, review names/sizes and confirm. Wait for the import/verification result. Leaving files in Downloads alone does not register them: navigation uses the verified app-private copies.
 3. Prepare the **display map** separately in the existing map screen using the region’s Mapsforge `.map`. A `.map` draws roads, while `.rd5` calculates routes; neither replaces the other. [Official BRouter offline guide](https://brouter.de/brouter/offline.html)
-4. While stopped, open **Navigation → Choose destination on map**, long-press a point near a road, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
+4. While stopped, open **Navigation → Choose destination on map**, center the marker on a point near a road, tap **Use this point**, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
 5. The phone calculates after obtaining a real GPS fix. For a first short test, choose road-connected points within one `.rd5` tile. Imported data works without internet, but GPS reception and the dashboard Bluetooth link are still needed.
 6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and **BRouter mode** below. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
 7. Mini TBT appears on HOME information/map and Music. During guidance, the upper menu hides after five seconds and mini TBT appears. Speed, clock and full TBT views do not receive a duplicate mini display. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
