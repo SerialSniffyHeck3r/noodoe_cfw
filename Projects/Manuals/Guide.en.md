@@ -5,6 +5,14 @@
 **App 0.15.4 / device firmware 0.15.4 · 10 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.4 Hotfix 3 — update preparation and connection status (build 147)
+
+Install Hotfix 3 over the existing app, then tap **Check current device status**. After connecting, the app distinguishes recovery/font checks, original NOR resource reads and saved language reads. Each validated response refreshes the response timer. A failed read-only check is not reported as a failed firmware installation. Any earlier unfinished installation still needs its result checked.
+
+If only a completed old installer selection remains, **Continue installation / check language** leads to preparation of the current package. An unfinished installation keeps its original files and records. Review the language and update after preparation, then start installation yourself. An older dashboard must be updated to the firmware included in the APK before riding sync can start.
+
+If the dashboard already runs 0.15.4, update only the APK. Hotfixes 1 and 2 are included; firmware, Gate and NOR layout are unchanged. If checking still fails, save diagnostics without resetting the device. New diagnostics include the app build, second inspection stage and unanswered command number. Physical Bluetooth retesting has not been performed.
+
 ## 0.15.4 Hotfix 2 — legacy stock-font identification
 
 If an older Product such as 0.12.1 reports “The stock font profile is unknown; no write was started”, install Hotfix 2 APK (build 146) over the existing app, then start with **Check current device status** again. When the legacy Product cannot supply its cached A/B identity, the app reads the actual stock resource using the existing read-only NOR command. It does not modify stock files or FAT, or require a language-pack installation first. Damaged resources, missing replies and active NOR backups still stop the operation.
