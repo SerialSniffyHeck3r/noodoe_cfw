@@ -5,6 +5,12 @@
 **App 0.15.4 / device firmware 0.15.4 · 10 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.4 Hotfix 1 — notification processing patch (build 145)
+
+This app patch addresses the reported **CONTENT / 0x74 / IllegalArgumentException** after updating from 0.15.3 to 0.15.4 while the dashboard appears normal. An unreadable notification icon falls back to a default icon without terminating notification delivery or the riding connection. Other local failures now include a code location without private notification text.
+
+**If your dashboard already boots 0.15.4 normally, install the Hotfix 1 APK over the existing app and reconnect.** App-data deletion, re-pairing, stock recovery and another firmware installation are unnecessary for this patch. Android build 145 contains the same firmware bytes and installer ZIPs as 0.15.4. If the dashboard still runs 0.15.3, use the normal update flow in the patched app to install 0.15.4. Unconfirmed installation results are not silently marked successful.
+
 ## 0.15.4 — Clock contrast and initial setup improvements
 
 Update the app and dashboard firmware together. Choose **Use the package included in the app**, then review the detected device and installation language. Gate and existing NOR file layouts are unchanged; healthy devices use the normal Product update. Existing users are not reset or forced through setup again.

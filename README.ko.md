@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
 # NewDoe 0.15.4 beta
 
-앱·펌웨어 **0.15.4**를 일치하는 한 묶음으로 제공합니다. 두 시계의 사진 음영, 부팅 직후 초기 설정, 정차 안내 후 O 확인, 키 OFF 속도 대시와 설치 안내 대기 시간을 반영했습니다. 마법사는 이동 중에도 유지됩니다. 날씨 온도 화살표를 제거하고 초기 설정·OpenWeather·BRouter 설명서를 보강했습니다. Gate·복구·NOR 배치는 유지합니다. 소프트웨어 검증 베타이며 새 실차·인증된 날씨 실조회는 확인하지 않았습니다.
+**0.15.4 Hotfix 1 (Android 빌드 145)**: 알림 아이콘을 그리지 못해 CONTENT / 0x74 / IllegalArgumentException으로 주행 연결이 중단될 수 있는 경로를 수정했습니다. 기존 앱 위에 APK를 설치하고 다시 연결하세요. 본체가 이미 0.15.4이면 펌웨어 재설치·순정 복귀·재페어링이 필요하지 않습니다. 내장 펌웨어와 설치 ZIP은 기존 0.15.4와 동일합니다. 오류 주입·소프트웨어 회귀 시험 기준이며 새 실폰·실차 시험은 하지 않았습니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-0.15.4.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-CFW-0.15.4-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4/NewDoe-Illustrated-Manual-0.15.4.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4-hotfix1/NewDoe-0.15.4-hotfix1.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4-hotfix1/NewDoe-CFW-0.15.4.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4-hotfix1/NewDoe-CFW-0.15.4-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4-hotfix1/NewDoe-Illustrated-Manual-0.15.4-hotfix1.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
