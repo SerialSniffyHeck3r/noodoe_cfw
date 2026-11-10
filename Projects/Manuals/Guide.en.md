@@ -5,6 +5,12 @@
 **App 0.15.4 / device firmware 0.15.4 · 10 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.4 Hotfix 2 — legacy stock-font identification
+
+If an older Product such as 0.12.1 reports “The stock font profile is unknown; no write was started”, install Hotfix 2 APK (build 146) over the existing app, then start with **Check current device status** again. When the legacy Product cannot supply its cached A/B identity, the app reads the actual stock resource using the existing read-only NOR command. It does not modify stock files or FAT, or require a language-pack installation first. Damaged resources, missing replies and active NOR backups still stop the operation.
+
+Riding sync requires the firmware included in this app. If the dashboard still runs 0.12.1, complete the normal update offered after inspection. If it already runs 0.15.4, only the APK needs updating. Do not clear app data, re-pair or return to stock as the first response to this error. Existing Gate compatibility checks remain; follow the separate guidance if an actual Gate mismatch is detected.
+
 ## 0.15.4 Hotfix 1 — notification processing patch (build 145)
 
 This app patch addresses the reported **CONTENT / 0x74 / IllegalArgumentException** after updating from 0.15.3 to 0.15.4 while the dashboard appears normal. An unreadable notification icon falls back to a default icon without terminating notification delivery or the riding connection. Other local failures now include a code location without private notification text.
