@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.15.4 Hotfix 5 (149) / CFW 0.15.4 · 2026-11-11**
+**APK 0.15.5 (150) / CFW 0.15.5 · 2026-11-11**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -26,12 +26,14 @@ Use the screen examples to follow each step on your phone and Noodoe.
 | Odometer, trips and maintenance | [Open](Guide.en.md#vehicle) |
 | Music, calls and notifications | [Open](Guide.en.md#media) |
 | Maps and zoom | [Open](Guide.en.md#map) |
+| BRouter and external app TBT | [Open](Guide.en.md#navigation) |
+| Weather API setup and queries | [Open](Guide.en.md#weather) |
 | App pages and preview | [Open](Guide.en.md#dashboard) |
 | Ignition-off and long parking | [Open](Guide.en.md#parking) |
 | Get help and save diagnostics | [Open](Guide.en.md#report) |
 
 Healthy devices update directly. A 0.14.1 settings error that blocks updating requires data-preserving stock return and reinstallation. Read [language choices and insufficient CJ space](Guide.en.md#language).
 
-[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.4-hotfix2/NewDoe-Illustrated-Manual-0.15.4-hotfix2.zip)
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5/NewDoe-Illustrated-Manual-0.15.5.zip)
 
 Language-specific firmware, base resources and fonts are included in the APK. Manual ZIP installation remains in Expert settings.

@@ -2,8 +2,48 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.4 / device firmware 0.15.4 · 11 November 2026**  
+**App 0.15.5 / device firmware 0.15.5 · 11 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.5 — Display stability, initial setup, TBT and weather fixes (build 150)
+
+Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.5 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
+
+- Both stock resource list spellings observed in real backups, `files` and `allFiles`, are accepted by the app and dashboard. Legacy discovery reads the root, FAT and resource prefix without walking photo subdirectories. Discovery remains read-only; full storage checks before writing, Gate checks and data preservation remain in place.
+- **Unknown stock font profile** never becomes an assumed B profile. Unsupported IDs, damage, conflicts and failed reads stop writes. Numeric identity fields and failure reasons enter diagnostics. The affected rider’s actual header was absent from their old log, so this is not a claim that every cause on that vehicle is resolved.
+- In **Device → Weather → Weather API**, select **Basic API 2.5** to use current weather and 3-hour forecasts without One Call. Selection alone does not fetch; tap **Check key / get weather**. Existing One Call selections are preserved.
+- Basic does not provide today’s high/low: the phone shows `—`, and the dashboard shows `--`. Forecast bands approximate 3-hour intervals; precipitation is the interval average in mm/h. Use One Call for actual hourly forecasts. Changing the API clears old data and authentication results for a fresh check.
+
+- Fixed EVE cache paths that could corrupt or omit digits after navigation/weather page changes. Two-digit turn distances align to the right of their fixed cells. Destination distance and sunrise/sunset use the numeric typeface. HOME AUTO updates its content without restarting a page transition.
+- HOME photo shading now matches the speed view, including clocks and weather. The rectangular weather card is removed. Standby retains the last confirmed ODO, and the ride summary uses retained ODO for maintenance calculations. Unknown readings are not fabricated.
+- Every initial setup step uses a black background without the previous HOME, ordinary toast or button hints. Time zones display as `UTC+09:00`. UP/DOWN changes the offset by 15 minutes; O confirms. Fractional offsets such as `UTC-03:30` and `UTC+05:45` are supported.
+- Yellow TBT emphasis starts within **500 m**, using actual distance before display rounding. Optional native turn-distance rounding now rounds up in **10 m steps**: 91 m → 100 m, 101 m → 110 m. Disconnected or stale guidance is not highlighted.
+
+Do not disclose your API key. Validation uses software tests and rendered screens; physical Bluetooth and authenticated provider queries remain unverified. Gate binaries, recovery logic and NOR file layout are unchanged. The existing stock-return power-interruption limitation remains.
+
+<img src="images/guide-0.15.5/weather-basic-en.png" alt="Basic Weather API 2.5 · en" width="330">
+
+Rendered from the actual Android screen code: Basic API selection, endpoint-specific HTTP result and weather display. This uses simulated responses, not a real account authentication result.
+
+<!-- 0.15.5 EVE examples -->
+
+Software renders of EVE commands produced by the actual Product ARM/LVGL code. A bright white photo tests shading and the initial setup background mask. These are not photographs of a physical dashboard.
+
+<img src="images/guide-0.15.5/eve-weather-overcast.png" alt="Weather: the speed view’s photo shading, without a rectangular card" width="300">
+
+Weather: the speed view’s photo shading, without a rectangular card
+
+<img src="images/guide-0.15.5/eve-digital.png" alt="The digital clock uses the same photo shading" width="300">
+
+The digital clock uses the same photo shading
+
+<img src="images/guide-0.15.5/eve-tbt-90-m.png" alt="90 m: right-aligned within the fixed digit cells" width="300">
+
+90 m: right-aligned within the fixed digit cells
+
+<img src="images/guide-0.15.5/eve-setup-step-8.png" alt="Initial setup: black background and UTC+09:00 display" width="300">
+
+Initial setup: black background and UTC+09:00 display
 
 ## 0.15.4 Hotfix 5 — navigation connection, destination picker and weather checks (build 149)
 
@@ -63,18 +103,19 @@ The initial setup wizard has no movement lock or automatic timeout. Its first sc
 
 The settings category arc and light mode have been removed. Ordinary settings retain their side row indicator; setup has no position arcs.
 
+<a id="weather"></a>
 ### Using weather
 
-Weather is OFF by default. In the phone app's **Weather** screen, save your own **API key enabled for OpenWeather One Call**, then enable weather. Provider registration, terms and charges may apply; NewDoe does not supply a shared key. Other features remain usable without a weather key.
+Weather is OFF by default. In the phone app's **Weather** screen, save your own **key enabled for the selected OpenWeather API**, then enable weather. Provider registration, terms and charges may apply; NewDoe does not supply a shared key. Other features remain usable without a weather key.
 
 #### Register OpenWeather and show the first forecast
 
 1. [Create an OpenWeather account](https://home.openweathermap.org/users/sign_up), verify your email and find your personal key under [API keys](https://home.openweathermap.org/api_keys). A new key can take time to activate. [Official account/key help](https://openweathermap.org/faq)
-2. Check **One Call API access**. NewDoe uses the current, hourly and daily data from the `One Call 3.0` endpoint. Having a key for an ordinary free account does not by itself confirm One Call access. Review the provider’s subscription, payment requirements and daily call limit before accepting. At publication the official page lists 1,000 free calls/day for One Call; excess charges and account terms remain the provider’s responsibility. [Current official One Call documentation](https://openweathermap.org/api/one-call-3)
+2. Select **Weather API**. **Basic API 2.5** uses current weather and the 5-day/3-hour forecast for the next 12 hours, without a One Call subscription. Each refresh makes two requests. Today’s high/low are unavailable. **One Call 3.0** provides hourly and daily information and needs its own access entitlement. Check current account limits and pricing. A valid key can return 401 when it lacks access to the selected product. [Basic forecast API](https://openweathermap.org/forecast5) · [One Call documentation](https://openweathermap.org/api/one-call-3)
 3. Open **Weather** in NewDoe, tap **Save key on this phone**, paste your key into the dialog, then save. The key is masked and the input clears after saving. Keep it out of Discord messages and screenshots. NewDoe does not supply a shared key.
 4. Enable **Weather**. Allow location, enable the phone’s location service and connect to the internet. Weather uses the phone’s current GPS location, independently of the city selected for sunrise/sunset in initial setup.
-5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The explicit **Check key / get weather** button makes one request at the phone location, even without a dashboard.
-6. When the phone reports **Forecast ready**, check its update time and the dashboard’s current/high/low temperatures and two bars. Temperature follows the dashboard’s unit setting; only a degree mark is shown. The clock and ODO retain their usual positions outside the weather view.
+5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The explicit **Check key / get weather** button performs one refresh at the phone location, even without a dashboard.
+6. When the phone reports **Forecast ready**, check its update time and the dashboard’s current temperature and two bars (plus today’s high/low with One Call). Temperature follows the dashboard’s unit setting; only a degree mark is shown. The clock and ODO retain their usual positions outside the weather view.
 
 #### Refresh timing and errors
 
@@ -83,7 +124,7 @@ After the first attempt, automatic fetching requires the dashboard Weather page 
 | Phone status | What to check |
 |---|---|
 | Key required / key storage error | Check and save the complete key. Do not share it. |
-| Key or One Call access rejected | Check activation, spelling and subscription in the provider account. |
+| HTTP 401/403 | Check the displayed API, key activation/spelling and account access. If only One Call is rejected, you can select Basic API 2.5 yourself. The app does not switch automatically. |
 | Waiting for location | Enable location and permissions; wait for a fresh fix. |
 | Rate limit | Check provider usage and limits. Repeated button presses do not bypass it. |
 | Network / invalid data | Check connectivity. Use the explicit manual check to retry; automatic attempts follow page/time/distance conditions. |
@@ -100,9 +141,9 @@ The two chevron bars run from the **current clock hour through +12 hours**, left
 - Weather hides the ordinary HOME information strip. After the top menu hides, a localized Weather title appears when no TBT is present. The clock, speed arc and ODO remain.
 - Missing or expired data is not shown as current; unavailable temperatures show `--`.
 
-| Clear and two forecast bars | Subzero evening example |
+| Clear and two forecast bars | 100°F example |
 |---|---|
-| <img src="images/guide-0.15.4/01-sun-morning.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.4/04-negative-evening.png" alt="Minus3 degrees in fixed-width slots" width="280"> |
+| <img src="images/guide-0.15.5/eve-weather-sun.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.5/eve-weather-fahrenheit100.png" alt="100 degrees Fahrenheit in three fixed-width slots" width="280"> |
 
 Automatic queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
 
@@ -620,6 +661,7 @@ No destination setup is needed for ordinary map viewing. Trip counters and ODO r
 
 ![GPS](images/guide-0.13.2/map-north.png)
 
+<a id="navigation"></a>
 ### HOME, map and music during guidance
 
 The app has four bottom tabs: **Device / Home / Custom / Navigate**. This build uses **BRouter only** for offline guidance. The phone calculates routes; Noodoe shows TBT and the route on the map.
@@ -632,15 +674,15 @@ MAP and the HOME map show a **purple route with black and white outlines**, rema
 
 Manual/AUTO/dual/map HOME and Music show a compact pill: **arrow on the left, distance on the right**. Speed, clock and full TBT do not show a second mini panel. Full TBT has a large left arrow and right distance/BRouter mode label (road name for external TBT), without a separate background box. Inactive guidance shows no panel. Starting guidance does not automatically change the current page.
 
-**Round native turn distances up to 100 m** in Navigate is OFF by default. It rounds native metric turn distances of at least 100 m upward to the next 100 m. Distances below 100 m, destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
+**Round native turn distances up to 10 m** in Navigate is OFF by default. It rounds native metric turn distances up in 10 m steps: 91 m becomes 100 m and 101 m becomes 110 m. Destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. An existing rounding preference is preserved. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
 
-During guidance, menu icons fade after 5 seconds on every riding page, then the mini panel appears. Menu input reverses this transition. Without guidance the existing menu policy stays unchanged. At an estimated 7 seconds or less to the turn, based on the last 5 seconds of vehicle speed, the mini outline pulses at 2 Hz and full TBT text alternates yellow. Missing/stale speed or guidance disables this highlight.
+During guidance, menu icons fade after 5 seconds on every riding page, then the mini panel appears. Menu input reverses this transition. Without guidance the existing menu policy stays unchanged. Within **500 m** of the turn, the mini outline pulses at 2 Hz and full TBT text alternates yellow. This uses the actual remaining distance before display rounding. Missing or stale guidance disables the highlight.
 
 | Mini guidance | Full TBT | Seoul route example |
 |---|---|---|
-| ![Mini guidance](images/home-navigation/02-manual-mini.png) | ![TBT](images/home-navigation/01-full-tbt.png) | ![Seoul route](images/home-navigation/06-map-route.png) |
+| ![Mini guidance](images/home-navigation/02-manual-mini.png) | ![TBT](images/guide-0.15.5/eve-tbt-90-m.png) | ![Seoul route](images/home-navigation/06-map-route.png) |
 
-The large TBT distance uses fixed, left-aligned `000 m / 00.0 km / 000 km` fields. Leading zeroes are omitted; the digits and unit keep their own fixed positions.
+The large TBT distance uses fixed `000 m / 00.0 km / 000 km` fields. Leading zeroes are omitted; shorter numbers align to the right so 90 m occupies the tens and ones cells. The unit stays in its fixed position.
 
 These are PC renders of the actual LVGL/EVE code, not photographs of a vehicle LCD.
 
