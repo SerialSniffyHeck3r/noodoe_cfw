@@ -1,6 +1,6 @@
 # NewDoe — Using NewDoe
 
-**0.11.16 · 2026-10-20**
+**0.15.6 · 2026-11-12**
 
 [← Full guide](../README.en.md)
 
@@ -15,3 +15,5 @@
 - [App pages and preview](../Guide.en.md#dashboard)
 - [Ignition-off and long parking](../Guide.en.md#parking)
 - [Get help and save diagnostics](../Guide.en.md#report)
+
+- [Arc color theme and six-hour weather](38-Solar-Weather.en.md)

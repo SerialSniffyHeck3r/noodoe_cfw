@@ -1,6 +1,6 @@
 # NewDoe 그림 사용 설명서
 
-**APK 0.15.5 hotfix1 (151) / CFW 0.15.5 · 2026-11-11**
+**APK 0.15.6 (152) / CFW 0.15.6 · 2026-11-12**
 
 [English](README.en.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -34,6 +34,6 @@
 
 정상 기기는 직접 업데이트합니다. 0.14.1 설정 오류로 업데이트가 막히면 데이터 보존 순정 복귀 후 재설치합니다. 언어 선택과 CJ 공간 부족 시의 선택은 [언어 안내](Guide.md#language)를 확인하세요.
 
-[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5-hotfix1/NewDoe-Illustrated-Manual-0.15.5.zip)
+[그림 포함 오프라인 설명서 받기](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.6/NewDoe-Illustrated-Manual-0.15.6.zip)
 
 언어별 펌웨어·기본 자원·필요한 글꼴은 APK에 포함돼 있습니다. ZIP 직접 설치는 전문가용 설정에 남아 있습니다.

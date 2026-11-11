@@ -1,6 +1,6 @@
 # NewDoe — 평소 사용하기
 
-**0.11.16 · 2026-10-20**
+**0.15.6 · 2026-11-12**
 
 [← 전체 설명서](../README.md)
 
@@ -15,3 +15,5 @@
 - [앱 화면과 미리보기](../Guide.md#dashboard)
 - [키 OFF·장기 주차](../Guide.md#parking)
 - [문의와 진단](../Guide.md#report)
+
+- [계기판 호 색상·6시간 예보](38-Solar-Weather.md)

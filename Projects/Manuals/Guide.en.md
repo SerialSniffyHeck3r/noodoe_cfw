@@ -2,12 +2,16 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.5 / device firmware 0.15.5 · 11 November 2026**  
+**App 0.15.6 / device firmware 0.15.6 · 12 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.6 — Arc hue and six-hour forecast
+
+[Theme selection and hold-O controls](User/38-Solar-Weather.en.md). The existing color remains the default; solar hue is optional. HOME information numbers now share the same size.
 
 ## 0.15.5 — Display stability, initial setup, TBT and weather fixes (build 150)
 
-Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.5 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
+Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.6 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
 
 - Both stock resource list spellings observed in real backups, `files` and `allFiles`, are accepted by the app and dashboard. Legacy discovery reads the root, FAT and resource prefix without walking photo subdirectories. Discovery remains read-only; full storage checks before writing, Gate checks and data preservation remain in place.
 - **Unknown stock font profile** never becomes an assumed B profile. Unsupported IDs, damage, conflicts and failed reads stop writes. Numeric identity fields and failure reasons enter diagnostics. The affected rider’s actual header was absent from their old log, so this is not a claim that every cause on that vehicle is resolved.
