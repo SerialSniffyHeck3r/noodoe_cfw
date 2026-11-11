@@ -348,13 +348,15 @@ The app prepares your selected system language and any required fonts. Wait for 
 <a id="update"></a>
 ## 5. Update an existing NewDoe
 
-**Existing users: check the device, choose a system language and update to 0.15.0.** Compatible Gate firmware and healthy existing B fonts are retained.
+**Existing users: check the device, choose a system language and update to 0.15.5.** Compatible Gate firmware and healthy existing B fonts are retained.
 
-1. Install `NewDoe-0.15.0.apk` over your existing app. Keep its data and pairing.
-2. Stop the riding connection and check the current device on the status page.
-3. Choose **Language settings → Install another language**, tap **Update**, and follow the safety screens.
+1. Install the latest `NewDoe-0.15.5.apk` (hotfix1, build 151) over your existing app. Keep its data and pairing.
+2. You can select **Check current device** while riding sync is enabled. The app closes that connection and switches to a status-check connection. This check does not install firmware.
+3. If needed, choose **Language settings → Install another language**, then tap **Update**. Read each of the five warnings for at least three seconds and confirm it. Installation starts only after the final confirmation; cancelling a warning leaves an ongoing riding connection intact. After the final confirmation, the app automatically ends riding sync and switches to the installer. No separate stop action is required.
 4. Keep power connected and let transfer, verification and restart finish.
 5. Confirm the device's **CFW UPDATE** screen in the app. If additional fonts are being prepared, wait until the final installation completes.
+
+**Hotfix1 changes the app connection handoff. If your device already runs 0.15.5, update only the APK.** Embedded firmware and installer ZIPs are identical to 0.15.5. Let any ongoing installation, recovery or NOR backup finish first. Existing device installation checks, including stationary requirements, remain in effect.
 
 ### When a 0.14.1 settings error blocks an update
 

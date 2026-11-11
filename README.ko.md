@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.5 beta
+# NewDoe 0.15.5 hotfix1 beta
 
-앱·펌웨어 **0.15.5 (Android 빌드 150)**를 일치하는 한 묶음으로 제공합니다. 페이지 전환 후 숫자 누락·손상, HOME 음영, 초기 설정 배경과 UTC 표기를 수정했습니다. TBT 노란 강조는 500m 이내, 선택적 거리 올림은 10m 단위를 사용합니다. 순정 자원 식별을 개선하고 **Basic Weather API 2.5**를 One Call과 선택해 쓸 수 있도록 했습니다. Basic은 현재 날씨·3시간 예보이며 오늘 최고·최저는 미제공입니다. Gate·복구·NOR 배치는 유지합니다. 소프트웨어 검증 베타이며 해당 차량 재확인·실제 계정 날씨 조회는 미검증입니다.
+**0.15.5 hotfix1 (Android 빌드 151)**에서 주행 연동 중에도 기기 확인과 업데이트를 시작할 수 있습니다. 경고 5장을 모두 확인하면 앱이 주행 연결을 정리하고 설치 연결로 자동 전환합니다. 경고 도중 취소하면 주행 연동을 유지합니다. 내장 펌웨어·Gate·설치 ZIP은 0.15.5와 바이트 단위로 동일하므로 이미 0.15.5인 본체는 APK만 갱신하면 됩니다. 소프트웨어 검증 완료, 실제 Bluetooth 전환은 미검증입니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5/NewDoe-0.15.5.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5/NewDoe-CFW-0.15.5.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5/NewDoe-CFW-0.15.5-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5/NewDoe-Illustrated-Manual-0.15.5.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5-hotfix1/NewDoe-0.15.5.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5-hotfix1/NewDoe-CFW-0.15.5.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5-hotfix1/NewDoe-CFW-0.15.5-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.5-hotfix1/NewDoe-Illustrated-Manual-0.15.5.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
