@@ -2,8 +2,26 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.6 / device firmware 0.15.6 · 12 November 2026**  
+**App 0.15.7 / device firmware 0.15.7 · 12 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.7 — Phone guidance map, recalculation and weather layout
+
+- Open **Navigate → Navigation map** for a large map, current position, full purple route, next turn and remaining distance. Starting built-in guidance opens it automatically. Panning pauses position following; **My location** resumes it. **Entire route** fits the route. Leaving this screen does not stop the riding connection or Noodoe guidance. Confirm **Stop guidance** to stop navigation only.
+- The dashboard label is now **Built-in navigation active**. During off-route recalculation, the phone and dashboard TBT area show the recalculation state. The previous arrow is hidden and the old route is dimmed. Stale GPS or a disconnected phone must not present the last distance as current guidance.
+- Dense regional maps may omit lower-priority detail. Route calculation retains the original route; only the nearby path sent to Noodoe is simplified. The phone retains the full route.
+- HOME modes containing **only one/two information strips** show the bright photo. Central speed, map, TBT, clock and weather modes retain their strong shade.
+- **Hold O** on HOME Weather and use **UP/DOWN** for **+1–3 / +4–6 hours**. Each page shows three hourly columns, without highs/lows or a page caption. Temperature and degree signs are separated from icons; precipitation stays blue. **O** returns to the overview. [Weather controls](User/38-Solar-Weather.en.md).
+
+![Phone guidance map — Android software test with an offline route near Seoul City Hall and a replayed location](images/guide-0.15.7/guidance-map.png)
+
+![Recalculation in full TBT — LVGL/EVE software rendering](images/guide-0.15.7/nav-recalculating-full.png)
+
+![Recalculation in mini TBT — LVGL/EVE software rendering](images/guide-0.15.7/nav-recalculating-mini.png)
+
+Dense maps and page transitions were checked in software. The reported graphics corruption still needs confirmation on the affected vehicle.
+
+Display maps use **Mapsforge .map** files; routing uses **BRouter .rd5** files. Missing display maps do not automatically stop existing TBT guidance. This feature currently shares GPS and connectivity with the existing vehicle riding session.
 
 ## 0.15.6 — Arc hue and six-hour forecast
 
@@ -11,7 +29,7 @@
 
 ## 0.15.5 — Display stability, initial setup, TBT and weather fixes (build 150)
 
-Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.6 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
+Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.7 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
 
 - Both stock resource list spellings observed in real backups, `files` and `allFiles`, are accepted by the app and dashboard. Legacy discovery reads the root, FAT and resource prefix without walking photo subdirectories. Discovery remains read-only; full storage checks before writing, Gate checks and data preservation remain in place.
 - **Unknown stock font profile** never becomes an assumed B profile. Unsupported IDs, damage, conflicts and failed reads stop writes. Numeric identity fields and failure reasons enter diagnostics. The affected rider’s actual header was absent from their old log, so this is not a claim that every cause on that vehicle is resolved.
@@ -674,11 +692,11 @@ The app has four bottom tabs: **Device / Home / Custom / Navigate**. This build 
 
 Open **Navigate → BRouter routing files → Download**, obtain official `.rd5` files, then use **Import .rd5 files**. Seoul uses `E125_N35.rd5`; obtain neighboring grids as needed. Download the separate Mapsforge `.map` display map through the existing map screen. Move the map to place its center marker on the destination and tap **Use this point**, or choose a favorite/recent destination. Address/POI search and Valhalla country-pack installation are not included in this build.
 
-Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line displays **BRouter mode**, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
+Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line displays **Built-in navigation active**, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
 
 MAP and the HOME map show a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
 
-Manual/AUTO/dual/map HOME and Music show a compact pill: **arrow on the left, distance on the right**. Speed, clock and full TBT do not show a second mini panel. Full TBT has a large left arrow and right distance/BRouter mode label (road name for external TBT), without a separate background box. Inactive guidance shows no panel. Starting guidance does not automatically change the current page.
+Manual/AUTO/dual/map HOME and Music show a compact pill: **arrow on the left, distance on the right**. Speed, clock and full TBT do not show a second mini panel. Full TBT has a large left arrow and right distance/**Built-in navigation active** label (road name for external TBT), without a separate background box. Inactive guidance shows no panel. Starting guidance does not automatically change the current page.
 
 **Round native turn distances up to 10 m** in Navigate is OFF by default. It rounds native metric turn distances up in 10 m steps: 91 m becomes 100 m and 101 m becomes 110 m. Destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. An existing rounding preference is preserved. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
 
@@ -777,7 +795,7 @@ This build includes BRouter only. The Valhalla native engine, country-pack insta
 2. Use **Import .rd5 files**. A verified new file replaces the same grid; failure keeps its previous version. Select files again after interruption.
 3. Obtain the separate Mapsforge `.map` through the existing map screen. `.rd5` files contain neither the display map nor an address-search database.
 4. Move the map to the destination and tap **Use this point**, or select a favorite/recent destination. Connect to Noodoe and receive a GPS location to start guidance.
-5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line says **BRouter mode**; roundabout exit numbers remain. The phone recalculates after an off-route event.
+5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line says **Built-in navigation active**; roundabout exit numbers remain. The phone recalculates after an off-route event.
 6. Resume never starts automatically. Confirm the saved destination and start to calculate a new BRouter route. Existing Google Maps/OsmAnd external TBT priority and road names are preserved.
 
 Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, one-way and turn restrictions. Country/displacement special rules have not been separately qualified; follow road signs. Voice, cameras and lane guidance are not included. Device Bluetooth, NDCP, Gate and NOR structures are unchanged.
@@ -789,7 +807,7 @@ Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, on
 3. Prepare the **display map** separately in the existing map screen using the region’s Mapsforge `.map`. A `.map` draws roads, while `.rd5` calculates routes; neither replaces the other. [Official BRouter offline guide](https://brouter.de/brouter/offline.html)
 4. While stopped, open **Navigation → Choose destination on map**, center the marker on a point near a road, tap **Use this point**, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
 5. The phone calculates after obtaining a real GPS fix. For a first short test, choose road-connected points within one `.rd5` tile. Imported data works without internet, but GPS reception and the dashboard Bluetooth link are still needed.
-6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and **BRouter mode** below. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
+6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and **Built-in navigation active** below. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
 7. Mini TBT appears on HOME information/map and Music. During guidance, the upper menu hides after five seconds and mini TBT appears. Speed, clock and full TBT views do not receive a duplicate mini display. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
 8. Use **Stop guidance** to end. After app restart, use **Resume guidance**, confirm the saved destination and start again. A destination saved for another vehicle is not silently applied. Stop guidance before importing updated `.rd5` files. Failed imports preserve the prior file; check partial-success results before selecting missing files again.
 

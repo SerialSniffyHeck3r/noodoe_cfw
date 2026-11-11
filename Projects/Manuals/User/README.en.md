@@ -1,6 +1,6 @@
 # NewDoe — Using NewDoe
 
-**0.15.6 · 2026-11-12**
+**0.15.7 · 2026-11-12**
 
 [← Full guide](../README.en.md)
 

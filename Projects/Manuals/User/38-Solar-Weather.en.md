@@ -1,6 +1,6 @@
 # Instrument arc color and six-hour forecast
 
-Use the matching 0.15.6 app and firmware.
+Use the matching 0.15.7 app and firmware.
 
 ## Arc color theme
 
@@ -21,15 +21,18 @@ The HOME information strip now uses the same 32px numeric face for sunrise/sunse
 
 1. Use UP/DOWN in HOME to select **Weather**.
 2. **Hold O** to open the next-six-hours view.
-3. Each cell shows local forecast time, condition icon, temperature and precipitation amount (mm/h). Temperature follows the device unit setting.
-4. **Press O** to return to the overview; holding O also toggles views. UP/DOWN selects another HOME view.
+3. The first page shows +1, +2 and +3 hours; the second shows +4, +5 and +6 hours. No footer caption or page counter is displayed. Each larger cell shows source forecast time, icon, temperature and precipitation amount (mm/h). Temperature follows the device unit setting.
+4. Use **UP or DOWN** to switch the two pages. The same buttons do not leave Weather while details are open.
+5. **Press O** to return to the overview; holding O also closes details. From the overview, UP/DOWN selects another HOME view. Reopening details starts on page 1.
 
-<img src="../images/guide-0.15.6/02-six-hours.png" width="320" alt="Next six hours">
+<img src="../images/guide-0.15.7/02-six-hours.png" width="280" alt="Page 1: next 1 to 3 hours"><img src="../images/guide-0.15.7/08-hours-four-six.png" width="280" alt="Page 2: next 4 to 6 hours">
 
 The overview and its two bars still cover **now through +12 hours**. Opening details does not trigger another API request. The existing hourly / 30km refresh policy applies only while the Weather page is visible. Weather stays in RAM.
 
-**Basic API 2.5** supplies three-hour forecasts. The detail view shows **3-hour intervals** and the actual source forecast timestamps, so neighboring cells may repeat a time and value. It does not manufacture hourly precision. One Call hourly data shows individual hourly forecasts. Missing values appear as `--`.
+**Basic API 2.5** supplies three-hour forecasts. The detail view retains the actual source forecast timestamps, so neighboring cells may repeat a time and value. It does not manufacture hourly precision. One Call hourly data shows individual hourly forecasts. Missing values appear as `--`.
 
 If an older app cannot supply details, the instrument asks you to open Weather in the phone app. Update the app and firmware together.
 
 Images are software renders of the Product LVGL/EVE code, not authenticated live weather or vehicle validation.
+
+The detail page has no high/low temperatures. Blue numbers show precipitation in mm/h. Temperature sits below each icon with its degree sign at the upper right.

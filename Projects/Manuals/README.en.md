@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.15.6 (152) / CFW 0.15.6 · 2026-11-12**
+**APK 0.15.7 (153) / CFW 0.15.7 · 2026-11-12**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
@@ -34,6 +34,6 @@ Use the screen examples to follow each step on your phone and Noodoe.
 
 Healthy devices update directly. A 0.14.1 settings error that blocks updating requires data-preserving stock return and reinstallation. Read [language choices and insufficient CJ space](Guide.en.md#language).
 
-[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.6/NewDoe-Illustrated-Manual-0.15.6.zip)
+[Download the illustrated offline guide](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.7/NewDoe-Illustrated-Manual-0.15.7.zip)
 
 Language-specific firmware, base resources and fonts are included in the APK. Manual ZIP installation remains in Expert settings.
