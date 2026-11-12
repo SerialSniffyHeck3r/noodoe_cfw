@@ -2,10 +2,30 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.8 / device firmware 0.15.8 · 12 November 2026**  
+**App 0.15.9 / device firmware 0.15.9 · 12 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.9 — Trip information in the lower strip and call indicator
+
+Full TBT keeps the current maneuver and distance in its upper card, with the road name supplied by Google Maps/OsmAnd below the distance. Built-in BRouter route files do not contain road names, so that line remains empty. The former second-maneuver area stays empty. Trip information appears in the existing HOME information strip.
+
+- During guidance, **full TBT / HOME map / MAP** cycle only **remaining distance + remaining time** and **remaining distance + arrival time**, every 10 seconds. Holding O does not select unrelated information in these views. Other HOME views and guidance OFF preserve the existing information selection.
+- Remaining time reads `102.4 km / 00'34"` (minutes/seconds), or `102.4 km / 3:52'` (hours/minutes). **Only the separators blink at half-second intervals; digits stay fixed.** Arrival time, such as `102.4 km / 15:42`, remains steady. The existing information-strip number font and size are retained.
+- Built-in BRouter guidance uses the route engine's expected travel time and current matched route progress. Arrival time uses the phone's local clock and remains an estimate.
+- Google Maps supplies only values actually present in the current navigation notification. Availability varies by notification version/language; missing values show `--.- km / --:--`, or `--.- mi` with miles selected. Installing Wear is not required. This change does not add OsmAnd time extraction.
+- Recalculation, disconnection and stale guidance clear the displayed time values. During a call the top telephone icon blinks at **1 Hz: 0.5 seconds visible, 0.5 seconds hidden**. Normal Bluetooth indication returns when the call ends.
+
+![Remaining time — only separators blink](images/guide-0.15.9/remaining.png)
+
+![Arrival time — steady](images/guide-0.15.9/arrival.png)
+
+![Unavailable trip information — units and field format retained](images/guide-0.15.9/unknown.png)
+
+These are software renders of the actual ARM/LVGL/EVE code. Vehicle and live Google Maps notification validation remain separate. Gate, NOR file names/sizes and the settings storage format are unchanged.
+
 ## 0.15.8 — Navigation zoom limit, following turn and quick reply
+
+This section's second-TBT-card description and figures record the 0.15.8 layout. Use the 0.15.9 section above for the current layout.
 
 - During guidance the dashboard map zooms out no further than **50 m**. A wider saved setting displays 50 m and **NAV**; ending guidance restores the saved scale. The 20 m view remains available. Minor-road detail is reduced when needed, with main roads and the purple route prioritized. The large phone map retains its zoom controls.
 - The **upper rounded card** shows the current maneuver. The **smaller lower card** shows the following maneuver; its distance is **from the current maneuver to the following one**. It disappears when no following maneuver exists. The generic navigation-mode road caption is removed; roundabout exit numbers remain.
@@ -50,7 +70,7 @@ Display maps use **Mapsforge .map** files; routing uses **BRouter .rd5** files. 
 
 ## 0.15.5 — Display stability, initial setup, TBT and weather fixes (build 150)
 
-Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes matching 0.15.7 firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
+Install the APK over the existing app, then use **Device → Check current status → Continue installation / check language**. The app includes its matching firmware. Review the language and planned update before starting. Reconcile any unfinished operation first.
 
 - Both stock resource list spellings observed in real backups, `files` and `allFiles`, are accepted by the app and dashboard. Legacy discovery reads the root, FAT and resource prefix without walking photo subdirectories. Discovery remains read-only; full storage checks before writing, Gate checks and data preservation remain in place.
 - **Unknown stock font profile** never becomes an assumed B profile. Unsupported IDs, damage, conflicts and failed reads stop writes. Numeric identity fields and failure reasons enter diagnostics. The affected rider’s actual header was absent from their old log, so this is not a claim that every cause on that vehicle is resolved.
@@ -717,7 +737,7 @@ Existing downloaded maps, country-pack files and saved destinations are kept. St
 
 MAP and the HOME map show a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
 
-Riding pages other than full TBT show a compact **left arrow / right distance** pill after the menu hides during guidance. Full TBT uses an upper rounded current-maneuver card and a smaller following-maneuver card. External road names and roundabout exit numbers remain. Inactive guidance hides the pill and shows Navigation inactive on HOME TBT. Starting guidance does not automatically change the current page.
+Riding pages other than full TBT show a compact **left arrow / right distance** pill after the menu hides during guidance. Full TBT uses an upper rounded current-maneuver card, an empty second-maneuver area, and trip information in the lower strip. External road names and roundabout exit numbers remain. Inactive guidance hides the pill and shows Navigation inactive on HOME TBT. Starting guidance does not automatically change the current page.
 
 **Round native turn distances up to 10 m** in Navigate is OFF by default. It rounds native metric turn distances up in 10 m steps: 91 m becomes 100 m and 101 m becomes 110 m. Destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. An existing rounding preference is preserved. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
 

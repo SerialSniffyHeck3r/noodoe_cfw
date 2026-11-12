@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.8 beta
+# NewDoe 0.15.9 beta
 
-App and firmware **0.15.8 (Android build 154)** ship together. Dashboard navigation zoom is capped at 50 m with bounded minor-road drawing. Rounded TBT cards show the current and smaller following maneuver; mini guidance also appears on TRIP. Rerouting uses a centered icon, TRIP spacing and destination alignment are improved, and quick reply can share the built-in destination, remaining distance and ETA. Gate/recovery and NOR layout remain unchanged. Software-tested beta; the reported graphics fault still needs physical vehicle confirmation.
+App and firmware **0.15.9 (Android build 157)** ship together. Navigation trip summaries now alternate in the lower strip: remaining distance with travel time or arrival time. The second TBT card stays empty. Google Maps contributes only values present in its notification; built-in BRouter uses route timing. Only duration separators blink. The top phone icon blinks at 1 Hz during a call. Gate/recovery and NOR layout are unchanged. Software-tested beta; live Maps notifications, radio and physical dashboard behavior remain to be verified.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.8/NewDoe-0.15.8.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.8/NewDoe-CFW-0.15.8.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.8/NewDoe-CFW-0.15.8-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.8/NewDoe-Illustrated-Manual-0.15.8.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-0.15.9.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-Illustrated-Manual-0.15.9.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
