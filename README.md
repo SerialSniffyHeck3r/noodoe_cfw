@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.9 beta
+# NewDoe 0.15.10 beta
 
-App and firmware **0.15.9 (Android build 157)** ship together. Navigation trip summaries now alternate in the lower strip: remaining distance with travel time or arrival time. The second TBT card stays empty. Google Maps contributes only values present in its notification; built-in BRouter uses route timing. Only duration separators blink. The top phone icon blinks at 1 Hz during a call. Gate/recovery and NOR layout are unchanged. Software-tested beta; live Maps notifications, radio and physical dashboard behavior remain to be verified.
+App and firmware **0.15.10 (Android build 158)** ship together. Automatic connection replaces the riding-link switch. HOME/MAP navigation, weather delivery, media caching, fuel warnings and timing typography are simplified. Resident Diagnostic firmware includes verified return to the previous normal firmware, NOR backup and phone log export. Gate and NOR file layout are unchanged. Software-tested beta; physical radio/LCD and power-loss qualification remain separate.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-0.15.9.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-Illustrated-Manual-0.15.9.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-0.15.10.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-Illustrated-Manual-0.15.10.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

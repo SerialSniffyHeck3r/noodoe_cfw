@@ -1,6 +1,6 @@
 # Instrument arc color and six-hour forecast
 
-Use the matching 0.15.7 app and firmware.
+Use the matching 0.15.10 app and firmware.
 
 ## Arc color theme
 
@@ -25,7 +25,7 @@ The HOME information strip now uses the same 32px numeric face for sunrise/sunse
 4. Use **UP or DOWN** to switch the two pages. The same buttons do not leave Weather while details are open.
 5. **Press O** to return to the overview; holding O also closes details. From the overview, UP/DOWN selects another HOME view. Reopening details starts on page 1.
 
-<img src="../images/guide-0.15.7/02-six-hours.png" width="280" alt="Page 1: next 1 to 3 hours"><img src="../images/guide-0.15.7/08-hours-four-six.png" width="280" alt="Page 2: next 4 to 6 hours">
+<img src="../images/guide-0.15.10/02-six-hours.png" width="280" alt="Page 1: next 1 to 3 hours"><img src="../images/guide-0.15.10/08-hours-four-six.png" width="280" alt="Page 2: next 4 to 6 hours">
 
 The overview and its two bars still cover **now through +12 hours**. Opening details does not trigger another API request. The existing hourly / 30km refresh policy applies only while the Weather page is visible. Weather stays in RAM.
 
@@ -36,3 +36,5 @@ If an older app cannot supply details, the instrument asks you to open Weather i
 Images are software renders of the Product LVGL/EVE code, not authenticated live weather or vehicle validation.
 
 The detail page has no high/low temperatures. Blue numbers show precipitation in mm/h. Temperature sits below each icon with its degree sign at the upper right.
+
+A loading icon appears during refresh. The completed forecast replaces the central mm/h caption below the timeline with its age in minutes or hours. The 0 and +12 endpoints and the hourly-detail mm/h units remain. Changed data is delivered to RAM even on other pages; automatic API-fetch rules are unchanged. Both bars blend colors between forecast times.

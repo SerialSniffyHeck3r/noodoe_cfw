@@ -2,14 +2,60 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.9 / device firmware 0.15.9 · 12 November 2026**  
+**App 0.15.10 / device firmware 0.15.10 · 13 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.10 — Connection, display and controls
+
+Update the app and instrument together. Install the APK over the existing app to retain its data. Selecting the instrument and granting permissions enables automatic connection; there is no separate riding-link play/pause switch. Settings, photos and updates can start while connected. After confirmation the app serializes the connection handoff; an unfinished write or unconfirmed installation is not bypassed.
+
+- **HOME:** short UP/DOWN selects one line → two lines → speed → selected clock → TBT → weather. On ordinary views with an information strip, **hold O** to switch manual/AUTO and **hold UP/DOWN** to change information. AUTO resumes after a 20-second override. Selections save at key OFF. Weather's hold-O forecast controls are unchanged.
+- **Map:** the HOME map view is removed. Dedicated MAP now has the information strip. During guidance, MAP/full TBT alternate distance + duration / distance + arrival every 10 seconds. MAP without guidance uses ordinary AUTO information. Map buttons are unchanged.
+- **TBT:** the second maneuver is removed. One rounded card places the arrow left, fixed-width distance right, and the external app's road name underneath. BRouter does not invent road names. Within 500 m, **only the mini-panel digits** blink yellow; the outline, glow and full-TBT text no longer blink. Full TBT does not repeat mini guidance.
+- **Zoom:** guidance allows a view as wide as the 500 m scale, narrowing to at most 50 m while approaching a turn within 500 m. Existing speed-based AUTO and the saved user zoom remain. Page changes do not overwrite graphics still being displayed.
+- **Weather:** changed results are sent to instrument RAM even outside Weather. Automatic API requests still require the Weather page and the one-hour/30 km rule. A shared loading icon indicates refresh; a small age label follows completion. Both timeline bars retain smooth color blending. Sunrise uses warm white/red and sunset cool blue.
+- **Music/calls:** returning to the same track reuses its album image. Loading and Media Off have distinct screens. Language settings offer separate device/phone rendering preferences for music and notifications. During a call, the first phone page shows elapsed call time instead of missed-call count. Only duration separators blink; numerals stay fixed. Minute/second marks sit near the digit tops, while colons remain centered.
+- **Fuel/ODO:** the bottom footer contains only ODO and reserve distance. Other trip records remain on their own pages. A stable rise from zero to at least one fuel bar for five seconds resets reserve and returns to ODO. Low-fuel warnings require fresh valid UART data after key ON. Warning text and icon stay in place; only the icon blinks.
+- **Ignition/settings:** speed no longer forces page changes or blocks settings/phone pages. Make adjustments while stopped. The separate key-OFF photo, key-OFF badge and rider greeting are removed. Ignition-off use is indicated by the gray ring and does not add STOP time. Setup completion clears old editor text and displays a restart message.
+- **Brightness:** short O + DOWN adjusts the automatic level when brightness is AUTO, or the percentage when it is manual.
+- **Diagnostics:** normal firmware no longer provides a complete NOR-backup command. File reading and existing recovery remain. Full backups are available only in the separate diagnostic firmware, which ordinary updates do not require.
+- **Phone map:** current position appears before guidance starts. Use the large map and current guidance together; routing-file management is a separate action.
+
+These images are software renders of actual ARM/LVGL/EVE code, not physical LCD or radio validation. Older release sections and captures describe their dated versions; use this section and the current controls below.
+
+| TBT | Weather | Call duration |
+|---|---|---|
+| ![Single TBT](images/guide-0.15.10/tbt.png) | ![Weather update age](images/guide-0.15.10/weather.png) | ![Call duration](images/guide-0.15.10/call.png) |
+
+| Media off | Setup complete | Installation |
+|---|---|---|
+| ![Media Off](images/guide-0.15.10/media-off.png) | ![Restart message](images/guide-0.15.10/restart.png) | ![Installation progress](images/guide-0.15.10/install.png) |
+
+Gate, recovery, NOR layout and memory reservations are unchanged. The accepted legacy stock-return power-interruption limitation remains.
+
+### Diagnostic mode and return to normal firmware
+
+After a normal installation is confirmed, the app prepares Diagnostic in the existing inactive firmware slot. That initial preparation needs the app. Once ready, use **Settings → System → Diagnostic mode** on Noodoe without a phone, or enter Diagnostic from the app. No extra NOR file or Gate replacement is involved.
+
+**Return to normal firmware** is selected by default. After verification, **short O** reinstalls the exact normal firmware saved before Diagnostic and restarts. Settings, trips, photos, supplemental fonts and pairing are preserved. The app button with the same name performs the same return. This is a restart: transient RAM display content is recreated, and the phone resends weather, media and guidance after reconnection.
+
+- **NOR backup to phone:** select it with ignition OFF and press O. Keep NewDoe open on the paired phone to save the full 128MiB read-only snapshot. Both devices show progress. Hold O for three seconds or turn ignition ON to cancel; the partial file is retained and the existing restart procedure follows.
+- **Send diagnostic log:** press O to save the diagnostic log on the connected phone. Without a phone connection, the screen waits for the app.
+- Other items start Bluetooth, open pairing, inspect the controller, and test the ambient sensor reading, ID and addresses. Results and error codes distinguish request acceptance from completed tests.
+- **Back to stock** is a separate original KYMCO recovery action. To resume ordinary NewDoe, use **Return to normal firmware**.
+
+Switching uses the existing Gate validation and internal-flash copy; it is not instantaneous execution from NOR. A normal update temporarily uses the inactive slot for candidate/rollback duties. Diagnostic is staged again only after the new normal image is confirmed. An unverified return image cannot be installed. A power cut early in Diagnostic boot, before its durable return intent exists, can still leave the existing Gate recovery screen. Automatic normal return is not claimed for that interval.
+
+![Return to normal firmware](images/guide-0.15.10/diagnostic-return.png)
+![NOR backup progress](images/guide-0.15.10/diagnostic-backup.png)
+
+Diagnostic images are software layout previews of actual ARM/EVE commands. EVE ROM glyph outlines are substituted, with placement based on captured ROM metrics.
 
 ## 0.15.9 — Trip information in the lower strip and call indicator
 
 Full TBT keeps the current maneuver and distance in its upper card, with the road name supplied by Google Maps/OsmAnd below the distance. Built-in BRouter route files do not contain road names, so that line remains empty. The former second-maneuver area stays empty. Trip information appears in the existing HOME information strip.
 
-- During guidance, **full TBT / HOME map / MAP** cycle only **remaining distance + remaining time** and **remaining distance + arrival time**, every 10 seconds. Holding O does not select unrelated information in these views. Other HOME views and guidance OFF preserve the existing information selection.
+- During guidance, **full TBT / MAP** cycle only **remaining distance + remaining time** and **remaining distance + arrival time**, every 10 seconds. Holding O does not select unrelated information in these views. Other HOME views and guidance OFF preserve the existing information selection.
 - Remaining time reads `102.4 km / 00'34"` (minutes/seconds), or `102.4 km / 3:52'` (hours/minutes). **Only the separators blink at half-second intervals; digits stay fixed.** Arrival time, such as `102.4 km / 15:42`, remains steady. The existing information-strip number font and size are retained.
 - Built-in BRouter guidance uses the route engine's expected travel time and current matched route progress. Arrival time uses the phone's local clock and remains an estimate.
 - Google Maps supplies only values actually present in the current navigation notification. Availability varies by notification version/language; missing values show `--.- km / --:--`, or `--.- mi` with miles selected. Installing Wear is not required. This change does not add OsmAnd time extraction.
@@ -25,7 +71,7 @@ These are software renders of the actual ARM/LVGL/EVE code. Vehicle and live Goo
 
 ## 0.15.8 — Navigation zoom limit, following turn and quick reply
 
-This section's second-TBT-card description and figures record the 0.15.8 layout. Use the 0.15.9 section above for the current layout.
+This section's second-TBT-card description and figures record the 0.15.8 layout. Use the 0.15.10 section above for the current layout.
 
 - During guidance the dashboard map zooms out no further than **50 m**. A wider saved setting displays 50 m and **NAV**; ending guidance restores the saved scale. The 20 m view remains available. Minor-road detail is reduced when needed, with main roads and the purple route prioritized. The large phone map retains its zoom controls.
 - The **upper rounded card** shows the current maneuver. The **smaller lower card** shows the following maneuver; its distance is **from the current maneuver to the following one**. It disappears when no following maneuver exists. The generic navigation-mode road caption is removed; roundabout exit numbers remain.
@@ -672,7 +718,7 @@ Trip A/B, today, this ride, oil, belt and service records are retained separatel
 
 Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**. This ride's maximum and average speed markers appear once their values exceed 5 km/h.
 
-Use **UP/DOWN** on HOME to cycle **manual one-line → AUTO one-line → AUTO two-line → speed → clock → map**. The final view shows full TBT during guidance and Navigation inactive otherwise. **Hold O** to change the lower information item. Manual keeps the chosen item; AUTO resumes its existing notification/music priority after a 20-second manual override. View and information selections stay in RAM while riding and are saved **when the key switches OFF**. An abrupt power loss can lose selections made since the last key-OFF checkpoint.
+Use **short UP/DOWN** in HOME for **one line → two lines → speed → clock → TBT → weather**. On ordinary information-strip views, **hold O** for manual/AUTO and **hold UP/DOWN** to change the item. AUTO resumes after 20 seconds. Active TBT/MAP alternate only the two destination summaries every 10 seconds. Choices stay in RAM and save **at key OFF**. Weather detail controls are unchanged.
 
 Choose **Settings → Display → Clock style → Analog / Digital**. Only the selected clock appears in the HOME carousel. Digital hides the small top clock. Photo shading, hand lengths, speed arc, ODO and the lower information position are preserved.
 
@@ -711,14 +757,14 @@ When reporting a fuel issue, photograph **diagnostic settings → Fuel RAW P2 / 
 <a id="map"></a>
 ## 14. Maps and zoom
 
-Import your region's **.map file** in the app's map menu. Enable location permissions and start the riding connection. Without a map file, Noodoe shows a moving grid and track line.
+Import your region's **.map file** in the app's map menu. Enable location permissions and select the device to connect automatically. Without a map file, Noodoe shows a moving grid and track line.
 
 | On the map page | Action |
 |---|---|
 | **Long UP** | Switch AUTO / MANUAL |
 | **UP/DOWN in AUTO** | Adjust preference from −2 closer to +2 wider |
 | **UP/DOWN in MANUAL** | Change zoom directly |
-| **Long O** | Switch north-up / heading-up / compass |
+| **Long O** | Switch north-up / heading-up |
 
 New areas take some time to prepare. With guidance OFF, the map shows position and travelled track.
 
@@ -735,13 +781,13 @@ Open **Navigate → BRouter routing files → Download**, obtain official `.rd5`
 
 Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line is blank, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
 
-MAP and the HOME map show a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
+MAP shows a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
 
-Riding pages other than full TBT show a compact **left arrow / right distance** pill after the menu hides during guidance. Full TBT uses an upper rounded current-maneuver card, an empty second-maneuver area, and trip information in the lower strip. External road names and roundabout exit numbers remain. Inactive guidance hides the pill and shows Navigation inactive on HOME TBT. Starting guidance does not automatically change the current page.
+After the menu hides, ordinary pages except full TBT show a compact **left arrow / right distance** pill. Full TBT has one current-maneuver card, the external app road name below the distance, and destination information in the lower strip. The second maneuver is removed. Starting guidance does not change the selected page; inactive HOME TBT shows Navigation inactive.
 
 **Round native turn distances up to 10 m** in Navigate is OFF by default. It rounds native metric turn distances up in 10 m steps: 91 m becomes 100 m and 101 m becomes 110 m. Destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. An existing rounding preference is preserved. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
 
-During guidance, menu icons fade after 5 seconds on every riding page, then the mini panel appears. Menu input reverses this transition. Without guidance the existing menu policy stays unchanged. Within **500 m** of the turn, the mini outline pulses at 2 Hz and full TBT text alternates yellow. This uses the actual remaining distance before display rounding. Missing or stale guidance disables the highlight.
+During guidance, menu icons fade after 5 seconds on every riding page, then the mini panel appears. Menu input reverses this transition. Without guidance the existing menu policy stays unchanged. Within **500 m** of the turn, only the mini-panel digits alternate yellow/white at 2 Hz. Its outline and full-TBT text remain steady. This uses the actual remaining distance before display rounding. Missing or stale guidance disables the highlight.
 
 | Mini guidance | Full TBT | Seoul route example |
 |---|---|---|
@@ -778,7 +824,7 @@ Swipe sideways or use the bottom buttons for **Device · Home · Customise**.
 
 **UI test mode** lets you preview chosen speed, ODO and CFW/stock screens while disconnected. It does not change actual vehicle values. Turn test mode off before returning to a real connection.
 
-**Bluetooth is off:** connection buttons stop and HOME asks you to enable Bluetooth. Open Bluetooth settings to turn it on. Automatic riding connection follows your existing setting; a manually paused connection stays paused. Installation does not start again by itself.
+**Bluetooth is off:** connection buttons stop and HOME asks you to enable Bluetooth. Open Bluetooth settings to turn it on. Connection resumes automatically for the selected device. Unfinished installation records must be reconciled with the actual device state. Installation does not start again by itself.
 
 <img src="images/guide-0.11.16/en-bluetooth-off.png" alt="Bluetooth OFF" width="330">
 
@@ -787,7 +833,7 @@ A fresh installation puts a black 480 × 480 picture with the centered NEWDOE wo
 <a id="parking"></a>
 ## 16. Ignition-off and long parking
 
-After key-off, **Ride Summary** appears before your chosen parking screen and sleep sequence. Holding O while turning the key off, then releasing it, allows up to ten minutes of ignition-off use.
+After key-off, **Ride Summary** appears before the existing background and sleep sequence. There is no separate key-OFF photo. Holding O while turning the key off, then releasing it, allows up to ten minutes of ignition-off use.
 
 Open **Settings → System → Power sequence → Long parking power off** and choose **Off / 2 days / 3 days / 7 days**. Two days is the default; an earlier user selection remains after updates.
 
@@ -795,10 +841,10 @@ After the chosen time shuts the unit down, phone-approach reconnection and welco
 
 ### Choose NewDoe or stock photos
 
-On Noodoe, open **Settings → Display → Photo source**. On the phone, start the riding connection and open **Device settings → Photo source**.
+On Noodoe, open **Settings → Display → Photo source**. On the phone, connect and open **Device settings → Photo source**.
 
 1. Choose **NewDoe** for your three editable CFW slots, or **KYMCO** for photographs already in the stock album.
-2. Open **Photo** and select **1, 2 or 3**, then Apply. The number identifies the slot in the selected source. **Key OFF photo** uses the same source.
+2. Open **Photo** and select **1, 2 or 3**, then Apply. The number identifies the slot in the selected source. There is no separate key-OFF photo selection.
 3. The selection is saved on Noodoe. Both the phone and device settings change the same saved values.
 
 ![Select the photo source](images/guide-0.12.2/photo-source.png)
@@ -848,7 +894,7 @@ Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, on
 3. Prepare the **display map** separately in the existing map screen using the region’s Mapsforge `.map`. A `.map` draws roads, while `.rd5` calculates routes; neither replaces the other. [Official BRouter offline guide](https://brouter.de/brouter/offline.html)
 4. While stopped, open **Navigation → Choose destination on map**, center the marker on a point near a road, tap **Use this point**, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
 5. The phone calculates after obtaining a real GPS fix. For a first short test, choose road-connected points within one `.rd5` tile. Imported data works without internet, but GPS reception and the dashboard Bluetooth link are still needed.
-6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and a smaller following-maneuver card below when available. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
+6. **MAP** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and Google Maps/OsmAnd road names below the distance. There is no second maneuver. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
 7. Mini TBT appears on riding pages including TRIP, but not on full TBT. During guidance, the upper menu hides after five seconds and mini TBT appears. Priority overlays keep their existing covering behavior. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
 8. Use **Stop guidance** to end. After app restart, use **Resume guidance**, confirm the saved destination and start again. A destination saved for another vehicle is not silently applied. Stop guidance before importing updated `.rd5` files. Failed imports preserve the prior file; check partial-success results before selecting missing files again.
 

@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.9 beta
+# NewDoe 0.15.10 beta
 
-앱·펌웨어 **0.15.9 (Android 빌드 157)**를 함께 제공합니다. 내비게이션의 남은 거리·소요시간과 남은 거리·도착시간을 하단 정보 줄에서 순환하고 두 번째 TBT 칸은 비웁니다. Google Maps는 알림에 실제로 있는 값만 읽으며 내장 BRouter는 경로 소요시간을 사용합니다. 남은 시간의 구분기호만 깜빡이고, 통화 중 상단 전화 아이콘은 1Hz로 점멸합니다. Gate·복구·NOR 배치는 유지합니다. 소프트웨어 검증 베타이며 실제 Maps 알림·무선·계기판 확인은 별도입니다.
+앱·펌웨어 **0.15.10 (Android 빌드 158)**를 함께 제공합니다. 자동 연결로 주행 연동 스위치를 대체하고 HOME/MAP 내비게이션, 날씨 전송, 음악 캐시, 연료 경고와 시간 표기를 정리했습니다. 진단 펌웨어에는 이전 일반 펌웨어로 돌아가기, NOR 백업과 폰 로그 전송을 제공합니다. Gate·NOR 파일 배치는 유지합니다. 소프트웨어 검증 베타이며 실제 무선·LCD·전원 차단 검증은 별도입니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-0.15.9.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-CFW-0.15.9-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.9/NewDoe-Illustrated-Manual-0.15.9.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-0.15.10.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-Illustrated-Manual-0.15.10.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
