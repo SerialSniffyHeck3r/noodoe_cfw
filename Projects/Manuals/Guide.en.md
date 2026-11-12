@@ -2,8 +2,29 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.7 / device firmware 0.15.7 · 12 November 2026**  
+**App 0.15.8 / device firmware 0.15.8 · 12 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+## 0.15.8 — Navigation zoom limit, following turn and quick reply
+
+- During guidance the dashboard map zooms out no further than **50 m**. A wider saved setting displays 50 m and **NAV**; ending guidance restores the saved scale. The 20 m view remains available. Minor-road detail is reduced when needed, with main roads and the purple route prioritized. The large phone map retains its zoom controls.
+- The **upper rounded card** shows the current maneuver. The **smaller lower card** shows the following maneuver; its distance is **from the current maneuver to the following one**. It disappears when no following maneuver exists. The generic navigation-mode road caption is removed; roundabout exit numbers remain.
+- Recalculation uses a centered **circular-arrow icon**, hiding the previous arrow and dimming the old route. When the five menu icons hide after five seconds, mini TBT appears on **riding pages other than full TBT**, including TRIP, music, notifications and MAP. Existing priority overlays still take precedence.
+- Map orientation cycles between **North up / Heading up**. The separate large compass is removed. HOME TBT shows **Navigation inactive** when guidance is off; the small compass in the information strip remains.
+- On a reply-capable notification, choose **Share destination / ETA**. The phone composes the current destination, remaining distance, estimated duration and arrival time for the existing reply action. Stale location or unavailable guidance prevents sending. This action currently uses built-in guidance; it does not invent a destination or ETA from Google Maps/OsmAnd. Nothing is sent automatically.
+- Google Maps/OsmAnd currently supply no reliable following-turn direction through this notification integration, so only the current maneuver is displayed. OsmAnd's additional distance alone is not treated as a following arrow.
+
+![Current maneuver and smaller following maneuver — actual ARM/LVGL/EVE software rendering](images/guide-0.15.8/next-90-m.png)
+
+![Rebalanced TRIP title, time, ratio bar and distance; maximum/average line unchanged](images/guide-0.15.8/mini-page-1.png)
+
+![Centered rerouting icon also visible on TRIP](images/guide-0.15.8/rerouting-page-1.png)
+
+![50 m NAV zoom limit and destination-distance alignment](images/guide-0.15.8/destination-zoom-4.png)
+
+![Actual map and BRouter route near Incheon City Hall — software rendering, not a vehicle capture](images/guide-0.15.8/incheon-actual-map.png)
+
+Gate, Bluetooth transport and the existing NOR file layout are unchanged. Software checks use map and route data near Incheon City Hall; elimination of the reported physical display tearing still needs vehicle confirmation.
 
 ## 0.15.7 — Phone guidance map, recalculation and weather layout
 
@@ -631,7 +652,7 @@ Trip A/B, today, this ride, oil, belt and service records are retained separatel
 
 Oil remaining changes to **yellow at 30% → red at 15% → flashing red at 5%**. This ride's maximum and average speed markers appear once their values exceed 5 km/h.
 
-Use **UP/DOWN** on HOME to cycle **manual one-line → AUTO one-line → AUTO two-line → speed → clock → map**. The final view shows full TBT during guidance and the existing large compass otherwise. **Hold O** to change the lower information item. Manual keeps the chosen item; AUTO resumes its existing notification/music priority after a 20-second manual override. View and information selections stay in RAM while riding and are saved **when the key switches OFF**. An abrupt power loss can lose selections made since the last key-OFF checkpoint.
+Use **UP/DOWN** on HOME to cycle **manual one-line → AUTO one-line → AUTO two-line → speed → clock → map**. The final view shows full TBT during guidance and Navigation inactive otherwise. **Hold O** to change the lower information item. Manual keeps the chosen item; AUTO resumes its existing notification/music priority after a 20-second manual override. View and information selections stay in RAM while riding and are saved **when the key switches OFF**. An abrupt power loss can lose selections made since the last key-OFF checkpoint.
 
 Choose **Settings → Display → Clock style → Analog / Digital**. Only the selected clock appears in the HOME carousel. Digital hides the small top clock. Photo shading, hand lengths, speed arc, ODO and the lower information position are preserved.
 
@@ -692,11 +713,11 @@ The app has four bottom tabs: **Device / Home / Custom / Navigate**. This build 
 
 Open **Navigate → BRouter routing files → Download**, obtain official `.rd5` files, then use **Import .rd5 files**. Seoul uses `E125_N35.rd5`; obtain neighboring grids as needed. Download the separate Mapsforge `.map` display map through the existing map screen. Move the map to place its center marker on the destination and tap **Use this point**, or choose a favorite/recent destination. Address/POI search and Valhalla country-pack installation are not included in this build.
 
-Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line displays **Built-in navigation active**, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
+Existing downloaded maps, country-pack files and saved destinations are kept. Starting a saved destination explicitly calculates a new BRouter route. The road-name line is blank, with roundabout exit numbers retained. Google Maps/OsmAnd external TBT still uses the road name supplied by that app.
 
 MAP and the HOME map show a **purple route with black and white outlines**, remaining destination distance, and the current position above the route. Destination distance also joins the lower information cycle. Stopping guidance removes these items and restores the existing map/track behavior.
 
-Manual/AUTO/dual/map HOME and Music show a compact pill: **arrow on the left, distance on the right**. Speed, clock and full TBT do not show a second mini panel. Full TBT has a large left arrow and right distance/**Built-in navigation active** label (road name for external TBT), without a separate background box. Inactive guidance shows no panel. Starting guidance does not automatically change the current page.
+Riding pages other than full TBT show a compact **left arrow / right distance** pill after the menu hides during guidance. Full TBT uses an upper rounded current-maneuver card and a smaller following-maneuver card. External road names and roundabout exit numbers remain. Inactive guidance hides the pill and shows Navigation inactive on HOME TBT. Starting guidance does not automatically change the current page.
 
 **Round native turn distances up to 10 m** in Navigate is OFF by default. It rounds native metric turn distances up in 10 m steps: 91 m becomes 100 m and 101 m becomes 110 m. Destination remaining distance, mi/ft and Google Maps/OsmAnd external TBT are unchanged. An existing rounding preference is preserved. External TBT remains experimental and retains its existing priority. Stale GPS/disconnection shows `--` and dims the last route.
 
@@ -795,7 +816,7 @@ This build includes BRouter only. The Valhalla native engine, country-pack insta
 2. Use **Import .rd5 files**. A verified new file replaces the same grid; failure keeps its previous version. Select files again after interruption.
 3. Obtain the separate Mapsforge `.map` through the existing map screen. `.rd5` files contain neither the display map nor an address-search database.
 4. Move the map to the destination and tap **Use this point**, or select a favorite/recent destination. Connect to Noodoe and receive a GPS location to start guidance.
-5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line says **Built-in navigation active**; roundabout exit numbers remain. The phone recalculates after an off-route event.
+5. Noodoe shows turn arrows, next-turn and remaining destination distances, and a purple route. The road-name line is blank; roundabout exit numbers remain. The phone recalculates after an off-route event.
 6. Resume never starts automatically. Confirm the saved destination and start to calculate a new BRouter route. Existing Google Maps/OsmAnd external TBT priority and road names are preserved.
 
 Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, one-way and turn restrictions. Country/displacement special rules have not been separately qualified; follow road signs. Voice, cameras and lane guidance are not included. Device Bluetooth, NDCP, Gate and NOR structures are unchanged.
@@ -807,8 +828,8 @@ Guidance requires Android 8.0+. The basic motorcycle profile uses OSM access, on
 3. Prepare the **display map** separately in the existing map screen using the region’s Mapsforge `.map`. A `.map` draws roads, while `.rd5` calculates routes; neither replaces the other. [Official BRouter offline guide](https://brouter.de/brouter/offline.html)
 4. While stopped, open **Navigation → Choose destination on map**, center the marker on a point near a road, tap **Use this point**, review the location and choose **Start guidance**. Favorites and recent destinations also work. Address/POI search is not included in this build.
 5. The phone calculates after obtaining a real GPS fix. For a first short test, choose road-connected points within one `.rd5` tile. Imported data works without internet, but GPS reception and the dashboard Bluetooth link are still needed.
-6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and **Built-in navigation active** below. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
-7. Mini TBT appears on HOME information/map and Music. During guidance, the upper menu hides after five seconds and mini TBT appears. Speed, clock and full TBT views do not receive a duplicate mini display. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
+6. **MAP/HOME map** shows the purple route with black/white outlines. **HOME TBT** shows an arrow on the left, distance to the next turn on the right, and a smaller following-maneuver card below when available. Destination distance is a separate destination-icon indicator and HOME-strip item. Starting guidance does not force a page change.
+7. Mini TBT appears on riding pages including TRIP, but not on full TBT. During guidance, the upper menu hides after five seconds and mini TBT appears. Priority overlays keep their existing covering behavior. The phone recalculates after departure from the route; stale location/connection is not presented as fresh guidance.
 8. Use **Stop guidance** to end. After app restart, use **Resume guidance**, confirm the saved destination and start again. A destination saved for another vehicle is not silently applied. Stop guidance before importing updated `.rd5` files. Failed imports preserve the prior file; check partial-success results before selecting missing files again.
 
 **Google Maps / OsmAnd external TBT (experimental):** Enable external TBT in Navigation and grant NewDoe **Notification access**. Start actual guidance in the supported app and verify that its navigation notification appears. Simply opening the app or searching a destination is not guidance. Recognized external TBT takes priority over BRouter; internal guidance cannot start while external TBT owns navigation. It can show the source app’s road name, but does not import its complete route line. Parsing depends on app version, language and notification format. If the source app does not offer guidance in a region, NewDoe cannot supply it on its behalf.
