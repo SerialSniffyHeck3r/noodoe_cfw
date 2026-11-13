@@ -16,4 +16,4 @@
 - [키 OFF·장기 주차](../Guide.md#parking)
 - [문의와 진단](../Guide.md#report)
 
-- [계기판 호 색상·6시간 예보](38-Solar-Weather.md)
+- [계기판 호 색상·12시간 예보](38-Solar-Weather.md)

@@ -16,4 +16,4 @@
 - [Ignition-off and long parking](../Guide.en.md#parking)
 - [Get help and save diagnostics](../Guide.en.md#report)
 
-- [Arc color theme and six-hour weather](38-Solar-Weather.en.md)
+- [Arc color theme and twelve-hour weather](38-Solar-Weather.en.md)

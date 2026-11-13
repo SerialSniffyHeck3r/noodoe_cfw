@@ -2,8 +2,34 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.11 / device firmware 0.15.11 · 13 November 2026**  
+**App 0.15.12 / device firmware 0.15.12 · 14 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+
+
+## 0.15.12 — MAP transitions, music loading and information priority
+
+Use app build 161 with the matching included firmware. Install over the existing app without clearing its data.
+
+- Leaving MAP invalidates its display and device map cache, then waits for the display swap before entering the next view. Map tiles and native route coordinates are sent only while MAP is open. TBT guidance continues elsewhere.
+- In Music, TBT is followed by artwork and music text. In MAP, TBT and map transfers have priority. Accepted transfers and control/GPS messages retain their ownership and processing guarantees.
+- Track handoffs show loading. Returning to the same track reuses cached artwork/text. If the playback session disappears, a short handoff grace period precedes Media Off.
+- One-line AUTO prioritizes **notification → call → music → ETA**. With none active, ordinary information rotates every ten seconds. Long UP/DOWN temporarily browses; active priority information returns after twenty seconds.
+- Two-line HOME keeps music while playing. Otherwise the lower row shows the selected TRIP and the upper row uses one-line AUTO priority. Manual selections and the navigation-only ETA rotation in MAP/full TBT are retained.
+- TRIP km/mi now align with the bottom of the distance digits.
+- Hold O in Weather for three hourly columns per screen. UP/DOWN cycles **+1–3 / +4–6 / +7–9 / +10–12 hours**; O returns. This uses the already received forecast without an extra API query. Basic API data retains its actual three-hour source times.
+
+- Fixed malformed language-status requests that repeatedly produced “Device rejected the request” in Settings. Read-only query failures are separate from setting changes; uncertain writes are never automatically resent.
+- The device screen compares the observed firmware hash with the selected installation package. It shows already installed for a match, Update for a difference, and a status check when unknown. Unfinished installation/recovery notices take precedence.
+- The top-right app area is a connection indicator, with no start/stop button. The notification area uses a static NewDoe icon instead of the animated upload arrow.
+- The notification-app chooser now has **Select all / Deselect all**. Individual choices remain available. **Save** applies the draft; **Cancel** keeps the previous selection. Apps installed later must be selected separately.
+- Compass directions follow the installed device language: N/E/S/W in English and 北/東/南/西 in Taiwanese Chinese. Taiwanese TRIP A/B labels now use **行程 A/B**.
+
+Bluetooth reconnection and proximity detection changes are excluded from this release. The repeated connection attempts reported away from the vehicle are not claimed fixed. Gate, NOR file layout, saved user data and installation/recovery paths are unchanged.
+
+![Forecast hours 10–12](images/guide-0.15.12/weather-hours-4.png)
+
+Instrument images are software renders of the actual ARM/LVGL/EVE code. Physical LCD/radio/power validation remains separate.
+
 
 ## 0.15.11 — Information strips, phone weather and map
 
@@ -125,7 +151,7 @@ Gate, Bluetooth transport and the existing NOR file layout are unchanged. Softwa
 - The dashboard label is now **Built-in navigation active**. During off-route recalculation, the phone and dashboard TBT area show the recalculation state. The previous arrow is hidden and the old route is dimmed. Stale GPS or a disconnected phone must not present the last distance as current guidance.
 - Dense regional maps may omit lower-priority detail. Route calculation retains the original route; only the nearby path sent to Noodoe is simplified. The phone retains the full route.
 - HOME modes containing **only one/two information strips** show the bright photo. Central speed, map, TBT, clock and weather modes retain their strong shade.
-- **Hold O** on HOME Weather and use **UP/DOWN** for **+1–3 / +4–6 hours**. Each page shows three hourly columns, without highs/lows or a page caption. Temperature and degree signs are separated from icons; precipitation stays blue. **O** returns to the overview. [Weather controls](User/38-Solar-Weather.en.md).
+- **Hold O** on HOME Weather and use **UP/DOWN** for **+1–3 / +4–6 / +7–9 / +10–12 hours**. Each page shows three hourly columns, without highs/lows or a page caption. Temperature and degree signs are separated from icons; precipitation stays blue. **O** returns to the overview. [Weather controls](User/38-Solar-Weather.en.md).
 
 ![Phone guidance map — Android software test with an offline route near Seoul City Hall and a replayed location](images/guide-0.15.7/guidance-map.png)
 

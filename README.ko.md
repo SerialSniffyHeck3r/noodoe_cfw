@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.11 beta
+# NewDoe 0.15.12 beta
 
-앱·펌웨어 **0.15.11 (Android 빌드 160)**를 함께 제공합니다. HOME/MAP 정보 선택 공유, TRIP·통화 우선 표시, 두 줄 음악 유지와 긴 토스트 스크롤을 지원합니다. 앱 HOME에는 날씨 요약을, 내비게이션에는 지도를 넣었습니다. 날씨 수동 갱신은 미연결 중에도 가능하며 자동 조회는 연결 조건을 유지합니다. 기존 데이터·Gate·NOR 배치를 보존합니다. 소프트웨어 검증 베타입니다.
+앱·펌웨어 **0.15.12 (Android 빌드 161)**를 함께 제공합니다. MAP 밖에서는 지도 렌더링·전송을 중단하고 화면별 전송 우선순위를 적용합니다. 음악 전환 중 로딩 표시와 같은 곡 캐시를 유지합니다. HOME AUTO는 알림·통화·음악·ETA 순으로 표시하며, 두 줄에서 음악이 없으면 아래에 TRIP을 표시합니다. 날씨 상세는 네 페이지·12시간으로 확장했습니다. 기존 데이터·Gate·NOR 배치를 보존합니다. 자동 재접속·배터리 정책은 이번 변경에 포함되지 않습니다. 소프트웨어 검증 베타입니다. 알림 앱 모두 선택·해제, 설치된 펌웨어 대조, 연결 상태 표시, 언어 상태 조회 오류 수정과 나침반 번역을 추가했습니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-0.15.11.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-Illustrated-Manual-0.15.11.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-0.15.12.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-Illustrated-Manual-0.15.12.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
