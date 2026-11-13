@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.10 beta
+# NewDoe 0.15.10 hotfix1 beta
 
-앱·펌웨어 **0.15.10 (Android 빌드 158)**를 함께 제공합니다. 자동 연결로 주행 연동 스위치를 대체하고 HOME/MAP 내비게이션, 날씨 전송, 음악 캐시, 연료 경고와 시간 표기를 정리했습니다. 진단 펌웨어에는 이전 일반 펌웨어로 돌아가기, NOR 백업과 폰 로그 전송을 제공합니다. Gate·NOR 파일 배치는 유지합니다. 소프트웨어 검증 베타이며 실제 무선·LCD·전원 차단 검증은 별도입니다.
+**0.15.10 hotfix1 (Android 빌드 159)**은 자동 연결 중 날씨·지도·사진 버튼이 반응하지 않던 문제를 수정합니다. 연결 확인 직후 날씨를 갱신·전송하며 미연결 상태에서는 날씨 API를 호출하지 않습니다. 펌웨어·설치 ZIP은 0.15.10과 동일하므로 이미 0.15.10인 본체는 앱만 업데이트하면 됩니다. 기존 앱 데이터와 페어링을 유지합니다. 소프트웨어 검증 베타이며 실제 무선·LCD 검증은 별도입니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-0.15.10.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-CFW-0.15.10-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10/NewDoe-Illustrated-Manual-0.15.10.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-0.15.10-hotfix1.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-Illustrated-Manual-0.15.10-hotfix1.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -51,7 +51,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.8.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.8.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.10-hotfix1.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.10.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 

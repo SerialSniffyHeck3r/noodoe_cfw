@@ -5,6 +5,13 @@
 **App 0.15.10 / device firmware 0.15.10 · 13 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+## 0.15.10 hotfix1 — App buttons and weather on connection
+
+Install app build 159 over the existing app. Embedded firmware and resources remain exactly 0.15.10; no dashboard firmware update is required. This fixes weather/map/photo controls ignoring taps during automatic connection or becoming disabled when returning to the app.
+
+With weather enabled, a verified NewDoe connection triggers one query as soon as a recent location and API key are available, then sends the result to instrument RAM. Later automatic queries require the instrument Weather view and one hour or 30 km since the last query. Without a connection, both automatic and manual weather API requests stop; cached information remains visible. Missing location waits rather than querying an invented position.
+
+
 ## 0.15.10 — Connection, display and controls
 
 Update the app and instrument together. Install the APK over the existing app to retain its data. Selecting the instrument and granting permissions enables automatic connection; there is no separate riding-link play/pause switch. Settings, photos and updates can start while connected. After confirmation the app serializes the connection handoff; an unfinished write or unconfirmed installation is not bypassed.
@@ -13,7 +20,7 @@ Update the app and instrument together. Install the APK over the existing app to
 - **Map:** the HOME map view is removed. Dedicated MAP now has the information strip. During guidance, MAP/full TBT alternate distance + duration / distance + arrival every 10 seconds. MAP without guidance uses ordinary AUTO information. Map buttons are unchanged.
 - **TBT:** the second maneuver is removed. One rounded card places the arrow left, fixed-width distance right, and the external app's road name underneath. BRouter does not invent road names. Within 500 m, **only the mini-panel digits** blink yellow; the outline, glow and full-TBT text no longer blink. Full TBT does not repeat mini guidance.
 - **Zoom:** guidance allows a view as wide as the 500 m scale, narrowing to at most 50 m while approaching a turn within 500 m. Existing speed-based AUTO and the saved user zoom remain. Page changes do not overwrite graphics still being displayed.
-- **Weather:** changed results are sent to instrument RAM even outside Weather. Automatic API requests still require the Weather page and the one-hour/30 km rule. A shared loading icon indicates refresh; a small age label follows completion. Both timeline bars retain smooth color blending. Sunrise uses warm white/red and sunset cool blue.
+- **Weather:** With weather enabled, a verified NewDoe connection triggers one query as soon as a recent location and API key are available, then sends the result to instrument RAM. Later automatic queries require the instrument Weather view and one hour or 30 km since the last query. Without a connection, both automatic and manual weather API requests stop; cached information remains visible. Missing location waits rather than querying an invented position. Loading, update age and smooth forecast bands remain.
 - **Music/calls:** returning to the same track reuses its album image. Loading and Media Off have distinct screens. Language settings offer separate device/phone rendering preferences for music and notifications. During a call, the first phone page shows elapsed call time instead of missed-call count. Only duration separators blink; numerals stay fixed. Minute/second marks sit near the digit tops, while colons remain centered.
 - **Fuel/ODO:** the bottom footer contains only ODO and reserve distance. Other trip records remain on their own pages. A stable rise from zero to at least one fuel bar for five seconds resets reserve and returns to ODO. Low-fuel warnings require fresh valid UART data after key ON. Warning text and icon stay in place; only the icon blinks.
 - **Ignition/settings:** speed no longer forces page changes or blocks settings/phone pages. Make adjustments while stopped. The separate key-OFF photo, key-OFF badge and rider greeting are removed. Ignition-off use is indicated by the gray ring and does not add STOP time. Setup completion clears old editor text and displays a restart message.
@@ -161,8 +168,8 @@ If your dashboard already runs 0.15.4, **install only the APK over the existing 
 - **Navigate → Select a point on the map** opens a large map immediately. Pan or zoom until the center marker is on the destination, then choose **Use this point → Start offline guidance**. My location and Map files are directly available. The picker remembers the previous area; a fresh riding GPS fix centers the map on your location on entry. Selection returns to the original navigation screen.
 - Guidance now uses the same selected vehicle as the riding connection. It no longer rejects that connection because of a retired screen’s saved selection. Pairing alone is not an active riding connection: use ▶ first. Other vehicles, disconnected sessions and unsupported firmware remain blocked.
 - **Device → Weather** shows whether the API key is missing, saved, accepted, rejected or unverified, with the last check time and actual HTTP code. The key itself is never displayed or included in diagnostics.
-- **Check key / get weather** makes one explicit request at the current phone location, even without a dashboard. Location permission and location services are required. Current conditions, temperature, today’s high/low and +0 to +12 hour forecasts are shown as text. A saved key is not claimed to be accepted. For HTTP 401/403 check the key and One Call access; for 429 check the provider quota. Network failure does not prove the key is wrong.
-- Automatic queries still require the **dashboard Weather page**, after one hour or 30 km. Explicit manual checks are separate and limited to once per 60 seconds. Cancelling before an HTTP request no longer consumes the one-hour interval; replacing the key resets the previous failed-key state. Forecasts remain RAM-only and need to be fetched again after app process restart.
+- **Check key / get weather** makes one explicit request at the current phone location, only while connected to the dashboard. Location permission and location services are required. Current conditions, temperature, today’s high/low and +0 to +12 hour forecasts are shown as text. A saved key is not claimed to be accepted. For HTTP 401/403 check the key and One Call access; for 429 check the provider quota. Network failure does not prove the key is wrong.
+- With weather enabled, a verified NewDoe connection triggers one query as soon as a recent location and API key are available, then sends the result to instrument RAM. Later automatic queries require the instrument Weather view and one hour or 30 km since the last query. Without a connection, both automatic and manual weather API requests stop; cached information remains visible. Missing location waits rather than querying an invented position. Explicit retries remain limited to once per 60 seconds. Forecasts stay in RAM.
 
 Verification uses automated tests and Android software rendering. Physical phone/vehicle Bluetooth, perceived scrolling smoothness and a live OpenWeather request with the user’s key remain to be checked.
 
@@ -223,12 +230,12 @@ Weather is OFF by default. In the phone app's **Weather** screen, save your own 
 2. Select **Weather API**. **Basic API 2.5** uses current weather and the 5-day/3-hour forecast for the next 12 hours, without a One Call subscription. Each refresh makes two requests. Today’s high/low are unavailable. **One Call 3.0** provides hourly and daily information and needs its own access entitlement. Check current account limits and pricing. A valid key can return 401 when it lacks access to the selected product. [Basic forecast API](https://openweathermap.org/forecast5) · [One Call documentation](https://openweathermap.org/api/one-call-3)
 3. Open **Weather** in NewDoe, tap **Save key on this phone**, paste your key into the dialog, then save. The key is masked and the input clears after saving. Keep it out of Discord messages and screenshots. NewDoe does not supply a shared key.
 4. Enable **Weather**. Allow location, enable the phone’s location service and connect to the internet. Weather uses the phone’s current GPS location, independently of the city selected for sunrise/sunset in initial setup.
-5. Connect the phone to the dashboard. On the dashboard, use **HOME → UP/DOWN → Weather**. Merely opening Weather on the phone does not fetch. The explicit **Check key / get weather** button performs one refresh at the phone location, even without a dashboard.
+5. Connect the phone to the dashboard to trigger the initial query under the conditions above. Open **HOME → UP/DOWN → Weather** to view the result. **Check key / get weather** also requires a dashboard connection. Opening the phone screen alone does not fetch.
 6. When the phone reports **Forecast ready**, check its update time and the dashboard’s current temperature and two bars (plus today’s high/low with One Call). Temperature follows the dashboard’s unit setting; only a degree mark is shown. The clock and ODO retain their usual positions outside the weather view.
 
 #### Refresh timing and errors
 
-After the first attempt, automatic fetching requires the dashboard Weather page to be visible and either **one hour since the last attempt or 30km from its location**. The 30km threshold is displacement, not accumulated odometer distance. Other pages do not fetch; returning to Weather does not reset the limit. Transmitted failed requests also count for automatic fetching. The manual check button can retry separately, and saving a replacement key clears the previous key’s waiting state.
+After the initial connection attempt, automatic fetching requires the dashboard Weather page to be visible and either **one hour since the last attempt or 30km from its location**. The 30km threshold is displacement, not accumulated odometer distance. Later periodic requests do not fetch on other pages; returning to Weather does not reset the limit. Transmitted failed requests also count for automatic fetching. The manual check button can retry separately, and saving a replacement key clears the previous key’s waiting state.
 
 | Phone status | What to check |
 |---|---|
@@ -239,7 +246,7 @@ After the first attempt, automatic fetching requires the dashboard Weather page 
 | Network / invalid data | Check connectivity. Use the explicit manual check to retry; automatic attempts follow page/time/distance conditions. |
 | Stale forecast / no dashboard data | Check the update time and wait on the dashboard Weather page for the next allowed request. |
 
-Forecasts remain in phone/dashboard RAM. A reboot or app-process restart requires fresh data; forecasts are not repeatedly written to dashboard NOR. Turning Weather off stops automatic requests; an explicit manual key check is still available. Weather is optional; other features work without an account.
+Forecasts remain in phone/dashboard RAM. A reboot or app-process restart requires fresh data; forecasts are not repeatedly written to dashboard NOR. Turning Weather off stops automatic requests; an explicit manual key check is still available while connected. Weather is optional; other features work without an account.
 
 On the connected dashboard, use UP/DOWN in HOME to select **Weather**. The smiling sun or Meteocons condition icon sits beside the large current temperature. Daily high uses vivid red; low uses blue. Current temperature has three fixed-width slots without leading zeros.
 
@@ -254,7 +261,7 @@ The two chevron bars run from the **current clock hour through +12 hours**, left
 |---|---|
 | <img src="images/guide-0.15.5/eve-weather-sun.png" alt="Smiling sun, fixed-width temperature, condition and precipitation bars" width="280"> | <img src="images/guide-0.15.5/eve-weather-fahrenheit100.png" alt="100 degrees Fahrenheit in three fixed-width slots" width="280"> |
 
-Automatic queries require the dashboard Weather page to be actually visible, an ignition-ON connection, valid location and a key. After the first eligible attempt, another is permitted after **one hour OR30km from the last query location**. Other pages do not fetch; leaving the page cancels pending work. Reopening after a failure does not bypass the interval. Forecasts live only in phone/dashboard RAM. The manually selected sunrise/sunset city is independent of the weather location.
+With weather enabled, a verified NewDoe connection triggers one query as soon as a recent location and API key are available, then sends the result to instrument RAM. Later automatic queries require the instrument Weather view and one hour or 30 km since the last query. Without a connection, both automatic and manual weather API requests stop; cached information remains visible. Missing location waits rather than querying an invented position. The initial connection query survives page changes. Later page-triggered periodic work is cancelled when leaving Weather; disconnecting cancels all pending work. The sunrise/sunset reference city remains independent.
 
 ### Fuel measurement error
 

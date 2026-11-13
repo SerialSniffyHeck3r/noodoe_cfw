@@ -27,7 +27,7 @@ The HOME information strip now uses the same 32px numeric face for sunrise/sunse
 
 <img src="../images/guide-0.15.10/02-six-hours.png" width="280" alt="Page 1: next 1 to 3 hours"><img src="../images/guide-0.15.10/08-hours-four-six.png" width="280" alt="Page 2: next 4 to 6 hours">
 
-The overview and its two bars still cover **now through +12 hours**. Opening details does not trigger another API request. The existing hourly / 30km refresh policy applies only while the Weather page is visible. Weather stays in RAM.
+The overview and its two bars still cover **now through +12 hours**. Opening details does not trigger another API request. With weather enabled, a verified NewDoe connection triggers one query as soon as a recent location and API key are available, then sends the result to instrument RAM. Later automatic queries require the instrument Weather view and one hour or 30 km since the last query. Without a connection, both automatic and manual weather API requests stop; cached information remains visible. Missing location waits rather than querying an invented position.
 
 **Basic API 2.5** supplies three-hour forecasts. The detail view retains the actual source forecast timestamps, so neighboring cells may repeat a time and value. It does not manufacture hourly precision. One Call hourly data shows individual hourly forecasts. Missing values appear as `--`.
 
@@ -37,4 +37,4 @@ Images are software renders of the Product LVGL/EVE code, not authenticated live
 
 The detail page has no high/low temperatures. Blue numbers show precipitation in mm/h. Temperature sits below each icon with its degree sign at the upper right.
 
-A loading icon appears during refresh. The completed forecast replaces the central mm/h caption below the timeline with its age in minutes or hours. The 0 and +12 endpoints and the hourly-detail mm/h units remain. Changed data is delivered to RAM even on other pages; automatic API-fetch rules are unchanged. Both bars blend colors between forecast times.
+A loading icon appears during refresh. The completed forecast replaces the central mm/h caption below the timeline with its age in minutes or hours. The 0 and +12 endpoints and the hourly-detail mm/h units remain. Changed data is delivered to RAM even on other pages; after the initial connection query, periodic requests follow the weather-page one-hour/30 km policy. Disconnected devices never trigger requests. Both bars blend colors between forecast times.
