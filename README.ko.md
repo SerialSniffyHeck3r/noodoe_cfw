@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.10 hotfix1 beta
+# NewDoe 0.15.11 beta
 
-**0.15.10 hotfix1 (Android 빌드 159)**은 자동 연결 중 날씨·지도·사진 버튼이 반응하지 않던 문제를 수정합니다. 연결 확인 직후 날씨를 갱신·전송하며 미연결 상태에서는 날씨 API를 호출하지 않습니다. 펌웨어·설치 ZIP은 0.15.10과 동일하므로 이미 0.15.10인 본체는 앱만 업데이트하면 됩니다. 기존 앱 데이터와 페어링을 유지합니다. 소프트웨어 검증 베타이며 실제 무선·LCD 검증은 별도입니다.
+앱·펌웨어 **0.15.11 (Android 빌드 160)**를 함께 제공합니다. HOME/MAP 정보 선택 공유, TRIP·통화 우선 표시, 두 줄 음악 유지와 긴 토스트 스크롤을 지원합니다. 앱 HOME에는 날씨 요약을, 내비게이션에는 지도를 넣었습니다. 날씨 수동 갱신은 미연결 중에도 가능하며 자동 조회는 연결 조건을 유지합니다. 기존 데이터·Gate·NOR 배치를 보존합니다. 소프트웨어 검증 베타입니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-0.15.10-hotfix1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-Illustrated-Manual-0.15.10-hotfix1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-0.15.11.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-Illustrated-Manual-0.15.11.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

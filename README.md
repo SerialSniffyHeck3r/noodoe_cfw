@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.10 hotfix1 beta
+# NewDoe 0.15.11 beta
 
-**0.15.10 hotfix1 (Android build 159)** fixes unresponsive Weather/Map/photo buttons during automatic connection. Weather refreshes once after verified connection and is sent to Noodoe; disconnected phones make no weather API requests. Firmware and installer ZIPs are unchanged from 0.15.10, so existing 0.15.10 dashboards need only the app update. Existing app data and pairing are retained. Software-tested beta; physical radio/LCD validation remains separate.
+App and firmware **0.15.11 (Android build 160)** ship together. HOME/MAP information follows the saved selection, with TRIP and call priority; two-line HOME keeps playing music. Long toasts scroll. Phone HOME includes weather graphics and Navigate includes its map. Manual weather refresh works without a bike connection; automatic queries still require it. Existing data, Gate and NOR layout are retained. Software-tested beta.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-0.15.10-hotfix1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-CFW-0.15.10-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.10-hotfix1/NewDoe-Illustrated-Manual-0.15.10-hotfix1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-0.15.11.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-CFW-0.15.11-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.11/NewDoe-Illustrated-Manual-0.15.11.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
