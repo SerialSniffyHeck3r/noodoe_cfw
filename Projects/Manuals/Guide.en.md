@@ -2,9 +2,22 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.13-hotfix1 / device firmware 0.15.13 · 14 November 2026**  
+**App and device firmware 0.15.14 · 15 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+
+## 0.15.14 — Guidance notifications and offline map recovery
+
+Install app build 164 over the existing app, then use **Device → Check current status → Update** to install the included 0.15.14 firmware. Both parts are needed for these fixes. Existing settings, pairing, maps and ride records are retained; do not clear app data or re-import working maps as a first step.
+
+- Guidance no longer expires because the notification text has not changed for 30 seconds while stopped. The app checks the current ongoing notification; ending it or losing notification access stops external guidance. No background reconciliation timer runs when external guidance is inactive, apart from one pending event check.
+- At an intersection, Maps may replace a distance such as `50 公尺` with a maneuver instruction. NewDoe keeps the supplied arrow, road and trip summary. Only an unavailable next-turn distance becomes `--`; it is not replaced by zero or the destination distance.
+- Destination distance, duration and arrival are read independently. Localized metadata labels and parentheses/slashes are accepted. Rounded copies in expanded notifications no longer invalidate the standard summary. An omitted field retains its last received value only within the same ongoing guidance session; NewDoe does not calculate external values.
+- Standard and promoted/ProgressStyle notifications use the supplied title, expanded title, road and summary fields. Generic Android progress numbers and notification timestamps are not treated as navigation distance or ETA.
+- If Google Maps guidance still does not appear on Android 16 or later, open **Navigate → Google Maps notification settings**. Try turning off **Live Updates** or **Show live info**, while leaving navigation notifications enabled. The labels vary by phone. This is a compatibility workaround reported by a user, not a requirement to turn off all notifications or install Wear.
+- Offline MAP rendering now reads the page from the correct part of its packed status. Leaving and returning to MAP no longer cancels raster work because the transfer-generation counter changed.
+
+The app retains the 0.15.13-hotfix1 reconnect, background cleanup and restart protections. Software tests reproduce these conditions with synthetic notifications and production ARM drawing code. The original reports did not include raw notification payloads; actual Google Maps/One UI versions and physical vehicle rendering still need confirmation. The previously accepted legacy stock-return power-interruption limitation remains; Gate and the resident bootloader are unchanged.
 
 ## 0.15.13-hotfix1 — Parked app stability and power use
 
