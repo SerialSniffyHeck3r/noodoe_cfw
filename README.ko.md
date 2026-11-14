@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.12 beta
+# NewDoe 0.15.13 beta
 
-앱·펌웨어 **0.15.12 (Android 빌드 161)**를 함께 제공합니다. MAP 밖에서는 지도 렌더링·전송을 중단하고 화면별 전송 우선순위를 적용합니다. 음악 전환 중 로딩 표시와 같은 곡 캐시를 유지합니다. HOME AUTO는 알림·통화·음악·ETA 순으로 표시하며, 두 줄에서 음악이 없으면 아래에 TRIP을 표시합니다. 날씨 상세는 네 페이지·12시간으로 확장했습니다. 기존 데이터·Gate·NOR 배치를 보존합니다. 자동 재접속·배터리 정책은 이번 변경에 포함되지 않습니다. 소프트웨어 검증 베타입니다. 알림 앱 모두 선택·해제, 설치된 펌웨어 대조, 연결 상태 표시, 언어 상태 조회 오류 수정과 나침반 번역을 추가했습니다.
+앱·펌웨어 **0.15.13 (Android 빌드 162)**를 함께 제공합니다. Google Maps의 현지 단위·숫자·도로명·목적지 요약 해석을 보강해 km에서 m로 바뀔 때 안내가 끊기는 문제를 수정했습니다. Classic Bluetooth 대기 상태에서 차량은 3/5초 간격으로 접속을 시도하고 Sniff를 협상합니다. 앱에는 5분 웰컴라이트 시험을 추가했습니다. 폰은 연결 실패 3회 후 주기적 재시도를 멈추고 Bluetooth·사용자 이벤트를 기다립니다. 시계·큰 TBT에서 O 길게로 ODO·TRIP 1/2·정비 거리 선택을 복원했습니다. 기존 데이터·Gate·리소스·메모리 예약을 유지합니다. 소프트웨어 검증 베타이며 실제 무선 응답·배터리 소모는 실측하지 않았습니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-0.15.12.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-Illustrated-Manual-0.15.12.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-0.15.13.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-Illustrated-Manual-0.15.13.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

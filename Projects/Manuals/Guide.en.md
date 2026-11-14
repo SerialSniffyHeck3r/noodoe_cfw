@@ -2,9 +2,24 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.12 / device firmware 0.15.12 · 14 November 2026**  
+**App 0.15.13 / device firmware 0.15.13 · 14 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+
+## 0.15.13 — Multilingual Google Maps and Bluetooth power saving
+
+Use app build 162 with included firmware 0.15.13. Install over the existing app without clearing its data.
+
+- Reads the next-turn distance and road name, plus destination distance, remaining duration and arrival time from Google Maps notifications. Taiwanese `公里 → 公尺` transitions retain active guidance. Road text is checked in the title, body and expanded notification.
+- During Google Maps guidance, MAP/full TBT alternate **distance / remaining duration** and **distance / arrival time** every ten seconds. Only duration separators blink; arrival time stays steady. Enable notification access and start actual guidance in Google Maps.
+- Unit words, local digits and AM/PM forms are handled across languages. Missing or ambiguous notification values stay as dashes. NewDoe does not invent an ETA or street name. Switching the app to English is unnecessary. This is not a claim that every live Google Maps version in every country was tested.
+- After three unsuccessful connections, the phone pauses timed retries. A vehicle Bluetooth connection event, Bluetooth being enabled or reopening the app resumes attempts. Vehicle-absent waiting has no reconnect alarm or retry CPU wake lock. Connected parked status polling is reduced too.
+- Hold **O** in the analog/digital clock or full TBT to cycle the bottom distance field through **ODO → TRIP 1 → TRIP 2 → OIL → BELT → service → ODO**. These are the existing stored distances. Fuel RESERVE takes priority and returns to ODO when cleared. The navigation ETA strip and the TRIP page reset button retain their behavior.
+- The vehicle uses saved pairings for Classic Bluetooth connection attempts every three seconds in screen standby and five seconds in Bluetooth standby. Attempts never overlap an existing connection. While connected and parked, it requests the corresponding Sniff interval; only controller-confirmed Sniff is reported as confirmed. No BLE is used. Full power off stops proximity detection.
+
+**Welcome-light test:** Open **Device → Device connection · app theme → Proximity welcome light · Bluetooth test**. Connect first, turn IGN OFF and wait for screen/Bluetooth standby. After the start acknowledgement, the app closes its connection once and reconnects to test a real connection edge. Walk away and return during the five-minute test. Dismissing the window keeps the test running. **Stop test** ends observation only; normal welcome-light operation continues. The dialog shows the interval, actual controller mode and light state.
+
+Software tests cover connection transitions and multilingual notification parsing. Actual proximity response and battery consumption depend on radio conditions and phone background restrictions and still need physical validation. Gate, saved data, NOR layout and existing recovery paths are unchanged.
 
 ## 0.15.12 — MAP transitions, music loading and information priority
 

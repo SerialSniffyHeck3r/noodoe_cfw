@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.12 beta
+# NewDoe 0.15.13 beta
 
-App and firmware **0.15.12 (Android build 161)** ship together. MAP rendering and transmission stop outside MAP. Visual transfers follow the visible page; music retains same-song assets and shows loading during track handoff. HOME AUTO uses notification, call, music and ETA priority, with lower TRIP when two-line music is inactive. Weather detail covers twelve hours in four pages. Existing data, Gate and NOR layout are retained. Reconnection/battery policy is unchanged. Software-tested beta. Added notification-app Select all/Deselect all, exact installed-firmware feedback, read-only connection status, corrected language-status queries and localized compass labels.
+App and firmware **0.15.13 (Android build 162)** ship together. Localized Google Maps units, digits, road names and destination summaries no longer drop guidance at the kilometer-to-meter transition. Classic Bluetooth uses vehicle paging at 3/5 seconds in standby and negotiated Sniff; a five-minute welcome-light test is available. The phone stops timed reconnect attempts after three failures and waits for a Bluetooth/user event. Long O in clock/full TBT restores ODO, TRIP 1/2 and maintenance distance selection. Existing data, Gate, assets and memory reservations are retained. Software-tested beta; physical radio response and battery consumption are not measured.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-0.15.12.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-CFW-0.15.12-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.12/NewDoe-Illustrated-Manual-0.15.12.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-0.15.13.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-Illustrated-Manual-0.15.13.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
