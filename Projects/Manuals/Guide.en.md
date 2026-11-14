@@ -2,9 +2,21 @@
 
 # NewDoe illustrated user guide
 
-**App 0.15.13 / device firmware 0.15.13 · 14 November 2026**  
+**App 0.15.13-hotfix1 / device firmware 0.15.13 · 14 November 2026**  
 [한국어](Guide.md) · [Downloads](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
+
+## 0.15.13-hotfix1 — Parked app stability and power use
+
+App build 163 installs over the existing app without clearing data. The bundled firmware remains the verified **0.15.13**. A headunit already running 0.15.13 does not need another firmware installation.
+
+- Bluetooth events caused by the app's own connection attempts and duplicate presence callbacks no longer replenish the retry budget. After three failures, the app waits for a fresh peer event or for the user to open the app.
+- Sleeping parked standby stops location-check timers and media subscriptions. Ignition or using the headunit display resumes them. Leaving the phone screen also stops its UI updates.
+- Disconnect and shutdown release all independent location, media and socket resources. Bluetooth-reader and media-provider exceptions are handled at their callback boundaries.
+- Three unexpected connection-service recreations within ten minutes temporarily block automatic restarts for ten minutes. No restart alarm is scheduled. Opening the app allows an immediate retry. Pairing and user data are retained.
+- Diagnostic ZIPs also include the latest exception classes/call locations and Android process-exit reason and memory counters. New records omit exception messages, contacts, coordinates, notification content and keys.
+
+This does not identify the exact cause of the reported Galaxy S26 Ultra crash. Reproducible software paths are fixed; physical One UI 9 parking and battery validation is still required.
 
 ## 0.15.13 — Multilingual Google Maps and Bluetooth power saving
 

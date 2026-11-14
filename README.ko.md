@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.13 beta
+# NewDoe 0.15.13-hotfix1
 
-앱·펌웨어 **0.15.13 (Android 빌드 162)**를 함께 제공합니다. Google Maps의 현지 단위·숫자·도로명·목적지 요약 해석을 보강해 km에서 m로 바뀔 때 안내가 끊기는 문제를 수정했습니다. Classic Bluetooth 대기 상태에서 차량은 3/5초 간격으로 접속을 시도하고 Sniff를 협상합니다. 앱에는 5분 웰컴라이트 시험을 추가했습니다. 폰은 연결 실패 3회 후 주기적 재시도를 멈추고 Bluetooth·사용자 이벤트를 기다립니다. 시계·큰 TBT에서 O 길게로 ODO·TRIP 1/2·정비 거리 선택을 복원했습니다. 기존 데이터·Gate·리소스·메모리 예약을 유지합니다. 소프트웨어 검증 베타이며 실제 무선 응답·배터리 소모는 실측하지 않았습니다.
+Android **0.15.13-hotfix1 (빌드 163)**은 중복 접속 이벤트, 반복 프로세스 재시작, 주차 중 위치·미디어 감시, 콜백 예외와 자원 정리 경로를 수정합니다. 앱 데이터를 지우지 말고 기존 앱 위에 설치하세요. 내장 펌웨어는 바이트까지 동일한 **0.15.13**이며 이미 업데이트한 본체를 다시 설치할 필요가 없습니다. 소프트웨어 검증이며 보고된 One UI 9의 정확한 종료 원인과 실제 배터리 소모는 실기기에서 확정하지 못했습니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-0.15.13.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-CFW-0.15.13-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13/NewDoe-Illustrated-Manual-0.15.13.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13-hotfix1/NewDoe-0.15.13-hotfix1.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13-hotfix1/NewDoe-CFW-0.15.13.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13-hotfix1/NewDoe-CFW-0.15.13-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.13-hotfix1/NewDoe-Illustrated-Manual-0.15.13-hotfix1.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -51,7 +51,7 @@ Noodoe는 생각보다 알찬 하드웨어 구성을 갖고 있다! STM32, 그�
 | 버튼·차량 데이터 | [차량 인터페이스](Projects/documentations/vehicle-interface.ko.md) |
 | 계기판↔누도 UART 프레임 | [계기판 UART](Projects/documentations/vehicle-uart.ko.md) |
 
-[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.10-hotfix1.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.10.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
+[English](README.md) · [최신 APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.13-hotfix1.apk) · [설치 ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.13.zip) · [릴리스 설명](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 
 소스코드는 별도의 비공개 저장소에서 관리합니다. 이 공개 저장소에는 연구 기록·사용 설명서·캡처·배포 파일을 유지합니다.
 
