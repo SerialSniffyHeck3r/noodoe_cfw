@@ -14,4 +14,4 @@
 - The device screen compares the observed firmware hash with the selected installation package. It shows already installed for a match, Update for a difference, and a status check when unknown. Unfinished installation/recovery notices take precedence.
 - The top-right app area is a connection indicator, with no start/stop button. The notification area uses a static NewDoe icon instead of the animated upload arrow.
 - The notification-app chooser now has **Select all / Deselect all**. Individual choices remain available. **Save** applies the draft; **Cancel** keeps the previous selection. Apps installed later must be selected separately.
-- Compass directions follow the installed device language: N/E/S/W in English and 北/東/南/西 in Taiwanese Chinese. Taiwanese TRIP A/B labels now use **行程 A/B**.
+- From 0.15.15, compass directions retain their translations only in Japanese and Taiwan Traditional Chinese; all other editions use N/E/S/W and diagonal initials. Taiwanese TRIP A/B labels use **行程 A/B**.

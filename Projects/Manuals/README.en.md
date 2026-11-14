@@ -1,6 +1,6 @@
 # NewDoe illustrated user guide
 
-**APK 0.15.14 (164) / CFW 0.15.14 · 2026-11-15**
+**APK 0.15.15 (165) / CFW 0.15.15 · 2026-11-15**
 
 [한국어](README.md) · [Downloads / 다운로드](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest)
 

@@ -47,7 +47,7 @@ Use app build 161 with the matching included firmware. Install over the existing
 - In Music, TBT is followed by artwork and music text. In MAP, TBT and map transfers have priority. Accepted transfers and control/GPS messages retain their ownership and processing guarantees.
 - Track handoffs show loading. Returning to the same track reuses cached artwork/text. If the playback session disappears, a short handoff grace period precedes Media Off.
 - One-line AUTO prioritizes **notification → call → music → ETA**. With none active, ordinary information rotates every ten seconds. Long UP/DOWN temporarily browses; active priority information returns after twenty seconds.
-- Two-line HOME keeps music while playing. Otherwise the lower row shows the selected TRIP and the upper row uses one-line AUTO priority. Manual selections and the navigation-only ETA rotation in MAP/full TBT are retained.
+- Two-line HOME keeps music while playing. Otherwise the lower row shows the selected TRIP and the upper row uses one-line AUTO priority, excluding TRIP from its choices in 0.15.15. Manual selections and the navigation-only ETA rotation in MAP/full TBT are retained.
 - TRIP km/mi now align with the bottom of the distance digits.
 - Hold O in Weather for three hourly columns per screen. UP/DOWN cycles **+1–3 / +4–6 / +7–9 / +10–12 hours**; O returns. This uses the already received forecast without an extra API query. Basic API data retains its actual three-hour source times.
 

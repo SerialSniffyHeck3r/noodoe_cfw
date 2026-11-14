@@ -1,5 +1,16 @@
 <a id="top"></a>
 
+## 0.15.15
+
+Install app build 165 over the existing app, then update the included firmware to 0.15.15. Settings, pairing, maps and ride records are retained; do not clear app data.
+
+- Compass labels use N, NE, E, SE, S, SW, W and NW in every edition except Japanese and Taiwan Traditional Chinese, which retain their existing translated labels. Mainland Chinese and Hong Kong editions use the English initials.
+- The first/upper strip in HOME two-strip mode skips TRIP during automatic and both directions of manual cycling. A retained one-strip TRIP selection displays sunrise/sunset in the upper dual strip; returning to one-strip mode restores that selection unless the user scrolls. The lower trip strip and one-strip/MAP trip options remain.
+- Music, notification, call and navigation priorities, timing, buttons, navigation/background fixes and memory reservations are preserved.
+
+Software validation only; no new phone/vehicle test. The previously accepted legacy stock-return power-interruption limitation remains. Gate and the resident bootloader are unchanged.
+
+
 # NewDoe illustrated user guide
 
 **App and device firmware 0.15.14 · 15 November 2026**  
@@ -54,7 +65,7 @@ Use app build 161 with the matching included firmware. Install over the existing
 - In Music, TBT is followed by artwork and music text. In MAP, TBT and map transfers have priority. Accepted transfers and control/GPS messages retain their ownership and processing guarantees.
 - Track handoffs show loading. Returning to the same track reuses cached artwork/text. If the playback session disappears, a short handoff grace period precedes Media Off.
 - One-line AUTO prioritizes **notification → call → music → ETA**. With none active, ordinary information rotates every ten seconds. Long UP/DOWN temporarily browses; active priority information returns after twenty seconds.
-- Two-line HOME keeps music while playing. Otherwise the lower row shows the selected TRIP and the upper row uses one-line AUTO priority. Manual selections and the navigation-only ETA rotation in MAP/full TBT are retained.
+- Two-line HOME keeps music while playing. Otherwise the lower row shows the selected TRIP and the upper row uses one-line AUTO priority, excluding TRIP from its choices in 0.15.15. Manual selections and the navigation-only ETA rotation in MAP/full TBT are retained.
 - TRIP km/mi now align with the bottom of the distance digits.
 - Hold O in Weather for three hourly columns per screen. UP/DOWN cycles **+1–3 / +4–6 / +7–9 / +10–12 hours**; O returns. This uses the already received forecast without an extra API query. Basic API data retains its actual three-hour source times.
 
@@ -62,7 +73,7 @@ Use app build 161 with the matching included firmware. Install over the existing
 - The device screen compares the observed firmware hash with the selected installation package. It shows already installed for a match, Update for a difference, and a status check when unknown. Unfinished installation/recovery notices take precedence.
 - The top-right app area is a connection indicator, with no start/stop button. The notification area uses a static NewDoe icon instead of the animated upload arrow.
 - The notification-app chooser now has **Select all / Deselect all**. Individual choices remain available. **Save** applies the draft; **Cancel** keeps the previous selection. Apps installed later must be selected separately.
-- Compass directions follow the installed device language: N/E/S/W in English and 北/東/南/西 in Taiwanese Chinese. Taiwanese TRIP A/B labels now use **行程 A/B**.
+- From 0.15.15, compass directions retain their translations only in Japanese and Taiwan Traditional Chinese; all other editions use N/E/S/W and diagonal initials. Taiwanese TRIP A/B labels use **行程 A/B**.
 
 Bluetooth reconnection and proximity detection changes are excluded from this release. The repeated connection attempts reported away from the vehicle are not claimed fixed. Gate, NOR file layout, saved user data and installation/recovery paths are unchanged.
 

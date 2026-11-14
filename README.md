@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.14 beta
+# NewDoe 0.15.15 beta
 
-App and firmware **0.15.14 (Android build 164)** fix offline MAP re-entry and external guidance loss while stopped or when the next-turn distance disappears. Localized destination-distance summaries and promoted notification fields are handled; Google Maps Live Updates troubleshooting is available in the app. Install both app and included firmware over the existing installation. Existing data and the background protections from hotfix1 are retained. Software-tested; original live notification payloads and physical phone/vehicle validation remain unavailable.
+App and firmware **0.15.15 (Android build 165)** use N/E/S/W and diagonal initials for compass labels except Japanese and Taiwan Traditional Chinese. The upper HOME dual strip skips TRIP in automatic and manual cycling; the lower trip strip, one-strip/MAP trip choices and existing priorities are preserved. Install the app and included firmware over the existing installation without clearing data. Software-tested; no new hardware qualification.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.14/NewDoe-0.15.14.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.14/NewDoe-CFW-0.15.14.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.14/NewDoe-CFW-0.15.14-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.14/NewDoe-Illustrated-Manual-0.15.14.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.15/NewDoe-0.15.15.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.15/NewDoe-CFW-0.15.15.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.15/NewDoe-CFW-0.15.15-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.15/NewDoe-Illustrated-Manual-0.15.15.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -24,7 +24,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.14.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.14.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.15.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.15.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 
