@@ -1,5 +1,19 @@
 <a id="top"></a>
 
+## 0.15.16
+
+Install app build 166 over the existing app, then install the included firmware. Existing settings, pairing, offline maps and ride records are retained. Do not clear app data.
+
+- External navigation: when the same maneuver temporarily loses its distance below 100 m, retain its last values for at most 15 seconds. New guidance, cancellation and disconnect supersede it immediately. Text and arrow positions do not move; no distance is invented.
+- HOME notification strips: short notices expire after 5 seconds, scrolling notices after at most 10 seconds, even unread. Notifications arriving during exposure or the following 3 seconds are not replayed in HOME; notification history remains available.
+- Power sequence → IGN OFF dimming: choose Instant off or Slow effect. Slow effect is the default: a 3-second logarithmic fade, slow at first and faster near darkness. Ignition ON restores brightness without a fade after the existing fresh-frame check. Emergency power-off and update/recovery behavior remain unchanged.
+- Vehicle → Trip decimals: choose 0.0 (default) or 0.00 for the dedicated trip page and TRIP 1/2 footer on other pages. Every HOME trip field, including its footer, always remains 0.0. Both km and mi use the existing fresh-speed distance accumulator; changing display precision never resets totals or improves sensor accuracy.
+- Ordinary device settings menus return immediately to HOME when fresh UART speed exceeds 15 km/h. There is no 30-second countdown. Initial setup is exempt; an accepted update/storage operation is not cancelled.
+- Exact UI/debug strings reuse the existing verified NOR text arena to fit flash. Existing font/icon assets, compiler policy, Gate and memory reservations are retained.
+
+Software validation only; no new phone/vehicle test. The previously accepted legacy stock-return power-interruption limitation remains. Google Play signing migration is separate and unconfirmed.
+
+
 ## 0.15.15
 
 Install app build 165 over the existing app, then update the included firmware to 0.15.15. Settings, pairing, maps and ride records are retained; do not clear app data.
