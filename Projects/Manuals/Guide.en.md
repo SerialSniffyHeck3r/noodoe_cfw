@@ -1,5 +1,18 @@
 <a id="top"></a>
 
+## 0.15.19
+
+Install app build 169 over the existing app, then update the included firmware. Settings, pairing, maps and ride records are retained; do not clear app data.
+
+- Manual brightness changes ease through fine PWM levels over 0.6 seconds. Automatic brightness also rises and falls continuously over 1.8 seconds, instead of two-percent steps. Repeated target requests do not restart the transition; a new target starts from the current level.
+- Automatic brightness accepts brighter surroundings after 1.2 seconds of stability and darker surroundings after 2.5 seconds. Brief shadows and repeated threshold crossings do not make the display hunt. Existing calibration, manual fallback, bias and UART lighting values are retained.
+- Screen-off wake waits another 0.5 seconds after a fresh frame is presented before lighting the screen and starting the ring animation. The ring stays frozen during this delay. Ignition reversal and stale frame acknowledgements cannot complete a different wake.
+- Turning the light on remains immediate after the wake checks. Existing 0.25-second Summary hold, 3-second shutdown fade, Instant off, emergency off and update/recovery ownership remain. Welcome light retains its one-second breathing pattern with fine PWM levels. An ignition reversal during dimming restores the normal brightness immediately.
+- PWM remains 500 Hz with the existing maximum duty and gate sequencing. No image, font, icon, language resource, memory reservation or compiler policy was reduced.
+
+Software validation only; no new phone/vehicle or optical measurement. Existing lint findings remain separately recorded. The accepted legacy stock-return power-interruption limitation remains. Google Play signing migration is separate and unconfirmed.
+
+
 ## 0.15.18
 
 Install app build 168 over the existing app, then update the included firmware. Existing settings, pairing, maps and ride records are retained. Do not clear app data.
