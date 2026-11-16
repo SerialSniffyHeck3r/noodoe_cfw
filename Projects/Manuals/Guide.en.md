@@ -1,5 +1,17 @@
 <a id="top"></a>
 
+## 0.15.17
+
+Install app build 167 over the existing app, then install the included firmware. Existing settings, pairing, maps and ride records are retained. Do not clear app data.
+
+- After the existing ignition-OFF debounce, Ride Summary stays at normal brightness for 0.5 seconds. Slow effect then dims that same shaded summary over 3 seconds. Only once the lamp is dark does the display leave Summary and enter the configured standby/power-saving stages; their timers start at that point.
+- Instant off shows Summary for 0.5 seconds, then turns the lamp off directly. The existing Power sequence > IGN OFF dimming setting and default Slow effect are retained.
+- Ignition ON cancels the fade and restores brightness without a fade, preserving the existing wake/frame checks. Emergency power-off and update/recovery ownership remain unchanged.
+- The curve, graphics, translations, ride recording, other settings and functionality are unchanged. This fixes the 0.15.16 sequence that started fading after switching away from Summary.
+
+Software validation only; no new phone/vehicle test. The previously accepted legacy stock-return power-interruption limitation remains. Google Play signing migration is separate and unconfirmed.
+
+
 ## 0.15.16
 
 Install app build 166 over the existing app, then install the included firmware. Existing settings, pairing, offline maps and ride records are retained. Do not clear app data.
