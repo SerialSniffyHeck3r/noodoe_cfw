@@ -1,5 +1,17 @@
 <a id="top"></a>
 
+## 0.15.18
+
+Install app build 168 over the existing app, then update the included firmware. Existing settings, pairing, maps and ride records are retained. Do not clear app data.
+
+- Ride Summary stays at normal brightness for 0.25 seconds, then Slow effect dims that same screen over 3 seconds. It accelerates gently for the first second and decelerates more slowly over the last two seconds. Only after the lamp is dark does Summary leave and the configured standby/power-saving timers start.
+- Backlight PWM keeps its 500 Hz frequency and existing integer-percent brightness levels, with 80 times finer duty resolution during dimming. Fractional brightness survives display reconciliation and recovery. Brightness updates are serviced at 10 ms owner waits without increasing the display frame-rate target.
+- Instant off shows Summary for 0.25 seconds and turns the lamp off directly. Ignition ON restores brightness without a fade after the existing wake/frame checks. Automatic/manual brightness, welcome light, emergency off and update/recovery ownership are retained.
+- Shared backlight code is rebuilt into matching Product, preparation, Bootstrap and Diagnostic images. Gate, resources, fonts, icons and other application functionality remain unchanged.
+
+Software validation only; no new phone/vehicle or optical low-light test. The accepted legacy stock-return power-interruption limitation remains. Google Play signing migration is separate and unconfirmed.
+
+
 ## 0.15.17
 
 Install app build 167 over the existing app, then install the included firmware. Existing settings, pairing, maps and ride records are retained. Do not clear app data.
