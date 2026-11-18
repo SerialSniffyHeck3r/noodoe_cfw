@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 0.15.19 beta
+# NewDoe 0.15.20 beta
 
-NewDoe **0.15.19 (build 169)** adds smooth manual/automatic brightness, stable automatic-light hysteresis, and an additional 0.5-second screen-wake wait before the ring animation. Update both app and included firmware without clearing data. Software-tested; no new optical hardware validation.
+NewDoe **0.15.20 (build 170)** fixes ignition-off Welcome-light PWM being tied to UI frame composition. Update both app and included firmware without clearing data. Software-tested; no new optical hardware validation.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.19/NewDoe-0.15.19.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.19/NewDoe-CFW-0.15.19.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.19/NewDoe-CFW-0.15.19-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.19/NewDoe-Illustrated-Manual-0.15.19.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.20/NewDoe-0.15.20.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.20/NewDoe-CFW-0.15.20.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.20/NewDoe-CFW-0.15.20-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v0.15.20/NewDoe-Illustrated-Manual-0.15.20.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -24,7 +24,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.19.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.19.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-0.15.20.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-0.15.20.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

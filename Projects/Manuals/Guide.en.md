@@ -1,5 +1,17 @@
 <a id="top"></a>
 
+## 0.15.20
+
+Install app build 170 over the existing app, then update the included firmware. Keep app data: settings, pairing, maps and ride records are retained.
+
+- Fix the ignition-off Welcome-light staircase. Fine PWM was applied only when the UI composed a frame (about 30 Hz). It now follows the existing 5 ms graphics-owner tick, independently of frame composition. No new timer interrupt, task or higher display frame rate is added.
+- Keep the existing one-second 5–90% breathing curve, Welcome ring appearance, first-presented-frame check, Bluetooth eligibility and parking deadlines. Brightness cannot start before the screen is ready.
+- Manual/automatic brightness smoothing, the 0.25-second Summary plus 3-second shutdown fade, instant ON, additional 0.5-second ring-wake wait, emergency off and update/recovery ownership are retained.
+- No changes to Gate, language resources, fonts, images, PWM frequency, compiler policy or heap/stack reservations.
+
+The regression reproduces frozen PWM without new frame composition in the old implementation and verifies continued fine-duty changes in the fixed implementation. Software validation only; no new physical phone, vehicle or optical measurement. Existing lint findings remain; the accepted legacy stock-return power-interruption limitation and separate, unconfirmed Google Play signing migration remain unchanged.
+
+
 ## 0.15.19
 
 Install app build 169 over the existing app, then update the included firmware. Settings, pairing, maps and ride records are retained; do not clear app data.
