@@ -1,5 +1,23 @@
 <a id="top"></a>
 
+## 1.0.0.0
+
+Install app build 171 over the existing app, then update its included firmware. Keep app data; existing settings, pairing, maps and ride records are preserved.
+
+- Settings > ABOUT THIS PROJECT opens on black, then reveals the developer credits from top to bottom. After the reveal, press DOWN for acknowledgements; UP returns a page. The final page shows Powered by, the official ST logo, then the STM32 logo and ownership notice. Press O there to finish; long O exits early.
+- The Product hidden developer Easter egg is removed. The separate Bootstrap recovery developer message is unchanged.
+- Credits have wider vertical spacing. GitHub, ST and STM32 graphics live in the existing NOR resource package. The onboarding wordmark uses a lossless palette of its original pixels to recover NOR capacity without changing its appearance.
+- Full component, font, icon and compiler runtime terms are in THIRD-PARTY-NOTICES.txt, every installer ZIP, and the app's Firmware acknowledgements page. Existing Android dependency notices and replaceable-library kit remain included.
+- Release numbers now use major.minor.bugfix.hotfix. The fourth component is reserved for app-only changes that reuse the exact firmware catalog; firmware releases end in .0.
+- Internal settings metadata is smaller; compiled catalog identity verifies unchanged keys, labels, bounds, steps and ordering. Stored settings and phone commands keep their existing formats. Other riding, navigation, weather, brightness and power behavior is retained.
+
+Software validation only; no new physical phone, vehicle, RF or LCD testing. Existing lint findings remain; the accepted legacy stock-return power-interruption limitation and separate, unconfirmed Google Play signing migration are unchanged. Logos identify their owners and do not imply endorsement.
+
+![Developer credits](images/guide-1.0.0.0/03-credits.png)
+
+![Powered by](images/guide-1.0.0.0/powered-by.png)
+
+
 ## 0.15.20
 
 Install app build 170 over the existing app, then update the included firmware. Keep app data: settings, pairing, maps and ride records are retained.
