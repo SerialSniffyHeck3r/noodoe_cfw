@@ -1,12 +1,12 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 1.0.0.0 beta
+# NewDoe 1.0.1.0 beta
 
-NewDoe **1.0.0.0 (build 171)** adds About This Project with animated credits, acknowledgements and official ST/STM32 logos, removes the Product Easter egg, and introduces four-part versioning. Update both app and included firmware without clearing data. Software-tested; no new physical vehicle validation.
+NewDoe **1.0.1.0 (build 173)** fixes on-device Bluetooth re-pairing: visible confirmation, correct O-button ownership, saved-key deletion, startup/waiting state and explicit retries after save failure. Keep app data and update the included firmware. Software-tested; no new physical vehicle validation.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.0.0/NewDoe-1.0.0.0.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.0.0/NewDoe-CFW-1.0.0.0.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.0.0/NewDoe-CFW-1.0.0.0-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.0.0/NewDoe-Illustrated-Manual-1.0.0.0.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-1.0.1.0.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-CFW-1.0.1.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-CFW-1.0.1.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-Illustrated-Manual-1.0.1.0.zip)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 
@@ -24,7 +24,7 @@ There's more inside Noodoe than I expected: an STM32, a graphics controller, a d
 
 Want to actually use it? Start with the [user manual](Projects/Manuals/User/README.en.md), or the [installation and recovery manual](Projects/Manuals/Installation/README.en.md).
 
-**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-1.0.0.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-1.0.0.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
+**Latest release:** [download the Android APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-1.0.1.0.apk) · [download the matching installation ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest/download/NewDoe-CFW-1.0.1.0.zip) · [release notes](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/latest).
 
 ## From my research notebook
 

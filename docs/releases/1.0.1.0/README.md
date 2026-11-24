@@ -1,0 +1,41 @@
+# NewDoe 1.0.1.0
+
+Install app build 173 over your existing NewDoe app, then update the included firmware. Do not uninstall the app or clear its data. This release fixes the on-device Bluetooth re-pairing flow; an ordinary firmware update does not erase pairing, preferences, maps or ride records.
+
+- Re-pair confirmation, waiting and failure screens now own both the display and buttons. Holding O no longer falls through to the Settings Back action. These waiting screens keep the existing ignition-off sleep policy.
+- Re-pairing requires a fresh local O hold. A button already held when the screen opens, or held behind another operation, cannot authorize deletion. Repeated open requests cannot interrupt a running repair. Competing Bluetooth settings commands are rejected until the repair is finished or cancelled.
+- The radio closes before deleting the selected bond. Key deletion must be saved before Bluetooth starts again; the screen says to pair only after startup and the pairing window are active. Another saved phone connecting does not falsely complete a selected-phone repair. Storage failure is reported, and a new explicit repair can retry the save. A rejected Bluetooth start is also bounded by the recovery deadline; it cannot wait or retry forever.
+- Short O cancels confirmation or leaves the waiting/failure screen. It does not interrupt a key write. The existing stock-recovery gesture remains available.
+- Recovery text and repeated display code are compacted. Gate, Diagnostic, compiler policies, memory reservations, artwork and unrelated riding functions are retained. Existing app privacy/location-disclosure work is included.
+
+## Re-pair a phone
+
+1. While stopped, open Settings > Connections > Re-pair phone, select Apply and press O briefly.
+2. Wait for **RE-PAIR PHONE**. UP/DOWN selects a saved phone by its address suffix, or the explicit **Forget ALL phones?** choice. Choose only the intended phone unless you deliberately want to remove every stored phone bond.
+3. Release O completely, then press and hold O for two seconds on that screen. Do not hold DOWN; its three-second action is stock recovery.
+4. Wait for **Pair on your phone.** On the phone's Bluetooth settings, forget the old Noodoe/NewDoe entry if it is still saved, then pair with the intended device again. Return to NewDoe and check the current device status.
+
+The dashboard repair intentionally removes only the selected Bluetooth bond, or all bonds if you explicitly choose ALL. It is not a settings/factory reset. If an older firmware cannot open this screen, this correction is not active until its firmware has been updated; repeatedly holding O or clearing app data does not install the correction. Use the documented connection/recovery path for the installed version.
+
+Software/emulator validation only; no new physical phone, vehicle or RF test. The previously accepted old-firmware stock-return power-interruption limitation remains, and Google Play signing migration is separate. Existing lint findings are disclosed in verification.json.
+
+## 한국어
+
+기존 NewDoe 앱 위에 **빌드 173**을 설치하고 내장 펌웨어도 업데이트하세요. 앱을 삭제하거나 데이터를 지우지 마세요. 이번 버전은 본체의 Bluetooth 재페어링 절차를 수정합니다. 일반 업데이트는 페어링·설정·지도·주행 기록을 지우지 않습니다.
+
+- 재페어링 확인·대기·실패 화면이 화면과 버튼 입력을 함께 담당합니다. O를 길게 눌렀을 때 설정의 뒤로 가기가 실행되던 충돌을 해결했습니다. 대기 화면 때문에 기존 시동 OFF 절전이 차단되지는 않습니다.
+- 화면을 열기 전부터 누르던 O나 다른 작업에 가려진 상태에서 시작한 누름은 삭제 확인으로 인정하지 않습니다. 중복 실행이나 다른 Bluetooth 설정 명령이 진행 중인 복구를 끼어들어 바꾸지 못하게 했습니다.
+- 무선 연결을 종료하고 선택한 페어링 삭제 내용을 저장한 다음 Bluetooth를 다시 시작합니다. 시작과 페어링 허용 창이 준비된 뒤에만 새 페어링을 안내합니다. 다른 저장된 휴대폰이 연결돼도 선택한 휴대폰의 복구 성공으로 처리하지 않습니다. 저장 실패를 표시하며 사용자가 복구를 다시 실행하면 저장을 재시도할 수 있습니다. Bluetooth 시작 요청이 거절될 때도 시간 제한을 적용해 무한 대기·재시도를 막습니다.
+- 확인·대기·실패 화면에서는 O 짧게로 나올 수 있습니다. 페어링 저장 도중에는 취소로 기록을 끊지 않습니다. 기존 순정 복귀 버튼 동작은 유지합니다.
+- 복구 문구와 중복 화면 코드를 정리했습니다. Gate·진단 펌웨어·컴파일 정책·메모리 예약량·그림 리소스와 나머지 주행 기능을 유지합니다. 앞서 작업한 앱 개인정보·위치 안내 변경도 포함합니다.
+
+### 재페어링 순서
+
+1. 정차한 상태에서 **설정 > 연결 > 휴대전화 다시 페어링 > 적용**을 선택하고 O를 짧게 누릅니다.
+2. **RE-PAIR PHONE** 화면에서 위/아래로 휴대폰 주소 끝자리 또는 **Forget ALL phones?**를 선택합니다. ALL은 저장된 모든 휴대폰의 페어링을 지우는 선택입니다.
+3. **O를 완전히 놓은 뒤 새로 2초간 누릅니다.** 아래 버튼을 길게 누르는 동작은 순정 복귀이므로 재페어링 확인에 사용하지 않습니다.
+4. **Pair on your phone.**이 표시되면 휴대폰 Bluetooth 설정에서 남아 있는 이전 Noodoe/NewDoe 등록을 삭제하고 해당 본체와 다시 페어링합니다. NewDoe 앱으로 돌아와 현재 기기 상태를 확인합니다.
+
+재페어링은 선택한 Bluetooth 등록만 지우며, ALL을 직접 선택한 경우에만 모든 휴대폰 등록을 지웁니다. 설정 전체 초기화가 아닙니다. 구버전에서 이 화면이 열리지 않는다면 펌웨어 업데이트 전에는 수정이 적용되지 않습니다. O를 반복해서 누르거나 앱 데이터를 지우는 것으로 업데이트가 되지는 않으므로 해당 설치 버전의 연결·복구 안내를 따르세요.
+
+소프트웨어·에뮬레이터 검증이며 새 휴대폰·실차·무선 실측은 없습니다. 수락한 구형 펌웨어 순정 복귀 구간의 전원 중단 한계와 별도 Google Play 서명 전환 상태는 그대로입니다. 기존 lint 항목은 verification.json에 기록합니다.
