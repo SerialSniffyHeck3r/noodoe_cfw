@@ -1,12 +1,14 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 1.0.1.0 beta
+# NewDoe 1.0.1.1 beta
 
-NewDoe **1.0.1.0 (빌드 173)**: 본체 Bluetooth 재페어링 확인 화면과 O 버튼 충돌, 키 삭제 저장, 시작·대기 상태 및 저장 실패 후 명시적 재시도를 수정했습니다. 앱 데이터를 유지하고 내장 펌웨어도 업데이트하세요. 소프트웨어 검증이며 새로운 실차 검증은 없습니다.
+빌드 174에서 다른 앱에 연결을 넘기거나 NewDoe로 다시 연결하고, 마지막으로 성공한 Bluetooth 단계를 확인할 수 있습니다. 계기판 펌웨어는 1.0.1.0입니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-1.0.1.0.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-CFW-1.0.1.0.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-CFW-1.0.1.0-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.0/NewDoe-Illustrated-Manual-1.0.1.0.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-1.0.1.1.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-Illustrated-Manual-1.0.1.1.zip)
+
+- [Third-party connection guide](Projects/documentations/technical-notes/newdoe-client-guide.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

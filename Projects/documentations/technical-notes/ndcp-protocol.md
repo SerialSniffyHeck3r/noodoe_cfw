@@ -1,5 +1,7 @@
 # 공용 SPP 유지보수 계약
 
+[Third-party app connection guide](newdoe-client-guide.md)
+
 ## Product6.9.8 음악 타일 압축
 
 Capabilities0x0D의 비트0x4000은 kind9(A4 music RLE)를 뜻한다. 기존
