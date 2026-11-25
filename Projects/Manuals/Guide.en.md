@@ -1,12 +1,10 @@
 <a id="top"></a>
 
-## 1.0.1.1
+## 1.0.1.2
 
-Install Android app 1.0.1.1 (build 174) over your current NewDoe. The included dashboard firmware is 1.0.1.0. If the dashboard already runs it, the app update is sufficient.
+Install NewDoe 1.0.1.2 (Android build 175) over your current app. It connects directly to the selected dashboard. If you previously selected another client in 1.0.1.1, opening the updated app restores normal connection behavior and keeps your saved device and settings. Firmware remains 1.0.1.0.
 
-In **Device → Device connection / app theme**, tap **Use another app** before opening another Bluetooth client. NewDoe closes its connection and remembers your choice after you reopen the app, restart the phone or toggle Bluetooth. Close the other client and tap **Reconnect with NewDoe** to return. Your saved pairing and settings carry over. Finish any installation or NOR backup before switching.
-
-The same panel shows the last connection step NewDoe confirmed for the selected dashboard. If pairing succeeds but connection keeps dropping, export diagnostics after an attempt. Include the dashboard model, app version and the last step shown. “Secure connection open” confirms the socket opened. “Dashboard replied” confirms a protocol response. Neither identifies which other app might be using the dashboard.
+An interrupted connection attempt now releases its pending Bluetooth socket when you switch dashboards, turn Bluetooth off, open maintenance from riding mode, reset the connection or the service stops. Refreshing the device list keeps the existing retry schedule. Under **Device → Device connection / app theme**, the last confirmed connection step is available for troubleshooting.
 
 ## 1.0.1.0
 

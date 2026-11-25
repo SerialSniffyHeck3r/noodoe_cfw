@@ -1,14 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 1.0.1.1 beta
+# NewDoe 1.0.1.2 beta
 
-Build 174 lets you hand the dashboard connection to another app, reconnect explicitly and inspect the last successful Bluetooth step. Dashboard firmware remains 1.0.1.0.
+Build 175 restores direct connection to your selected dashboard, closes interrupted sockets and preserves your existing app data. Includes firmware 1.0.1.0.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-1.0.1.1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-Illustrated-Manual-1.0.1.1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-1.0.1.2.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-CFW-1.0.1.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-CFW-1.0.1.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-Illustrated-Manual-1.0.1.2.zip)
 
-- [Third-party connection guide](Projects/documentations/technical-notes/newdoe-client-guide.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

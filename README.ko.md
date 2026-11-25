@@ -1,14 +1,13 @@
 <!-- NOODOE_LATEST_DOWNLOADS_BEGIN -->
-# NewDoe 1.0.1.1 beta
+# NewDoe 1.0.1.2 beta
 
-빌드 174에서 다른 앱에 연결을 넘기거나 NewDoe로 다시 연결하고, 마지막으로 성공한 Bluetooth 단계를 확인할 수 있습니다. 계기판 펌웨어는 1.0.1.0입니다.
+빌드 175에서 NewDoe가 선택한 계기판에 직접 연결되고 중단된 연결 소켓을 닫습니다. 기존 앱 데이터와 펌웨어 1.0.1.0을 유지합니다.
 
-- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-1.0.1.1.apk)
-- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0.zip)
-- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-CFW-1.0.1.0-language-variants.zip)
-- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.1/NewDoe-Illustrated-Manual-1.0.1.1.zip)
+- [APK](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-1.0.1.2.apk)
+- [Expert installer ZIP](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-CFW-1.0.1.0.zip)
+- [All language variants](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-CFW-1.0.1.0-language-variants.zip)
+- [Illustrated manual](https://github.com/SerialSniffyHeck3r/noodoe_cfw/releases/download/cfw-v1.0.1.2/NewDoe-Illustrated-Manual-1.0.1.2.zip)
 
-- [Third-party connection guide](Projects/documentations/technical-notes/newdoe-client-guide.md)
 
 <!-- NOODOE_LATEST_DOWNLOADS_END -->
 

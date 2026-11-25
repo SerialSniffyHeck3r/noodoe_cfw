@@ -1,6 +1,6 @@
 # 공용 SPP 유지보수 계약
 
-[Third-party app connection guide](newdoe-client-guide.md)
+[Stock and NewDoe Bluetooth transports](newdoe-client-guide.md)
 
 ## Product6.9.8 음악 타일 압축
 
